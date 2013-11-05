@@ -170,17 +170,17 @@ void do_setbit(P_char ch, char *arg, int cmd)
   char     value[MAX_INPUT_LENGTH];
   P_char   target;
 
-  if(IS_NPC(ch))
+  if (IS_NPC(ch))
   {
     return;
   }
-  if(setbit_parse(arg, &type, name, flag, value, &on_off) == -1)
+  if (setbit_parse(arg, &type, name, flag, value, &on_off) == -1)
   {
     setbit_syntax(ch);
     return;
   }
 
-  if(GET_LEVEL(ch) < IMMORTAL && cmd != CMD_SETHOME)
+  if ( GET_LEVEL(ch) < IMMORTAL || cmd != CMD_SETHOME)
   {
     wizlog(GET_LEVEL(ch), "%s: setbit %s", GET_NAME(ch), arg);
     logit(LOG_WIZ, "%s: setbit %s", GET_NAME(ch), arg);
@@ -195,7 +195,7 @@ void do_setbit(P_char ch, char *arg, int cmd)
     return;
 
   case SETBIT_CHAR:
-    if(!god_check(GET_NAME(ch)) && god_check(name))
+    if (!god_check(GET_NAME(ch)) && god_check(name))
     {
       act
         ("One hella pissed god says 'Hey buddy, that's not very polite, trying to setbit my ass.'",
@@ -262,13 +262,13 @@ static int setbit_parse(char *arg, int *type, char *name, char *flag,
 
   /* Separate into fields */
 
-  if((arg = setbit_parseArgument(arg, type_str)) == NULL)
+  if ((arg = setbit_parseArgument(arg, type_str)) == NULL)
     return -1;
-  if((arg = setbit_parseArgument(arg, name)) == NULL)
+  if ((arg = setbit_parseArgument(arg, name)) == NULL)
     return -1;
-  if((arg = setbit_parseArgument(arg, flag)) == NULL)
+  if ((arg = setbit_parseArgument(arg, flag)) == NULL)
     return -1;
-  if((arg = setbit_parseArgument(arg, val)) == NULL)
+  if ((arg = setbit_parseArgument(arg, val)) == NULL)
     return -1;
 
   setbit_parseArgument(arg, on_off_str);
@@ -325,7 +325,7 @@ static int setbit_parse(char *arg, int *type, char *name, char *flag,
    * On/Off
    */
 
-  if(atoi(on_off_str) == 0)
+  if (atoi(on_off_str) == 0)
   {
     *on_off = 0;
   }
@@ -367,7 +367,7 @@ static void setbit_room(P_char ch, char *name, char *flag, char *val,
   int      room_number;
 
   /* Executable Section */
-  if(!strcmp(name, "here"))
+  if( !strcmp(name, "here") )
   {
     room_number = ch->in_room;	
   }
@@ -376,7 +376,7 @@ static void setbit_room(P_char ch, char *name, char *flag, char *val,
     room_number = real_room(atoi(name));
   }
 
-  if(room_number < 0 || room_number > top_of_world)
+  if (room_number < 0 || room_number > top_of_world)
   {
     return;
   }
@@ -394,7 +394,7 @@ static void setbit_room(P_char ch, char *name, char *flag, char *val,
 static void setbit_zone(P_char ch, char *name, char *flag, char *val,
                         int on_off)
 {
-  if(GET_LEVEL(ch) < FORGER)
+  if( GET_LEVEL(ch) < FORGER )
   {
     return;    
   }
@@ -415,13 +415,13 @@ static void setbit_zone(P_char ch, char *name, char *flag, char *val,
   int zone_number = atoi(name);
   zone_id = real_zone(zone_number);
   
-  if(zone_id < 0)
+  if (zone_id < 0)
   {
     send_to_char("Invalid zone ID\n", ch);
     return;
   }
   
-  if(!strcmp(flag, "difficulty") && ( atoi(val) < 0 || atoi(val) > 10))
+  if (!strcmp(flag, "difficulty") && ( atoi(val) < 0 || atoi(val) > 10) )
   {
     send_to_char("Difficulty must be from 1 to 10\n", ch);
     return;    
@@ -599,13 +599,13 @@ static void setbit_char(P_char ch, char *name, char *flag, char *val,
 
   P_char   ppl;
 
-  if((ppl = get_char_vis(ch, name)) == NULL)
+  if ((ppl = get_char_vis(ch, name)) == NULL)
   {
     send_to_char("No one by that name here.\r\n", ch);
     return;
   }
   // only level forger+ can setbit players (outside of themselves)
-  if(IS_PC(ppl) && ppl != ch &&
+  if (IS_PC(ppl) && ppl != ch &&
      ((GET_LEVEL(ch) < FORGER) || (GET_LEVEL(ch) <= GET_LEVEL(ppl))))
   {
     send_to_char("Nope, you are too wimpy to affect them.\r\n", ch);
@@ -613,14 +613,14 @@ static void setbit_char(P_char ch, char *name, char *flag, char *val,
   }
 
   /* bleah, have to make exceptions now that mobs/pcs aren't the same */
-  if(flag)
+  if (flag)
   {
-    if(SAME_STRING(flag, "winvis") && GET_LEVEL(ch) <= 59)
+    if (SAME_STRING(flag, "winvis") && GET_LEVEL(ch) <= 59)
     {
       send_to_char("You can't do that.\r\n", ch);
       return;
     }
-    if(SAME_STRING(flag, "race"))
+    if (SAME_STRING(flag, "race"))
     {
 #ifdef NEW_COMBAT
       FREE((char *) ppl->points.location_hit);
@@ -638,43 +638,43 @@ static void setbit_char(P_char ch, char *name, char *flag, char *val,
       balance_affects(ppl);
       do_save_silent(ppl, 1);   /* to make it stick */
     }
-    if(ppl)
+    if (ppl)
     {
-      if(SAME_STRING(flag, "level") || SAME_STRING(flag, "secondary_level"))
+      if (SAME_STRING(flag, "level") || SAME_STRING(flag, "secondary_level"))
       {
-        if(IS_PC(ppl) && GET_LEVEL(ch) < OVERLORD && atoi(val) >= MINLVLIMMORTAL)
+        if( IS_PC(ppl) && GET_LEVEL(ch) < OVERLORD && atoi(val) >= MINLVLIMMORTAL )
         {
           send_to_char("You aren't allowed to set the level that high.\r\n", ch);
           return;
         }
-	if(IS_PC(ppl) && (atoi(val) > MAXLVL))
+	if( IS_PC(ppl) && (atoi(val) > MAXLVL) )
 	{
 	  send_to_char("You can't setbit someone's level above 62.  Changing value to 62.\r\n", ch);
 	  sprintf(val, "62");
 	}
       }
-      if(SAME_STRING(flag, "winvis") &&
+      if (SAME_STRING(flag, "winvis") &&
           (atoi(val) >= MIN(60, GET_LEVEL(ch))))
       {
         send_to_char("Can't set it that high.\r\n", ch);
         return;
       }
     }
-    if(SAME_STRING(flag, "played"))
+    if (SAME_STRING(flag, "played"))
     {
       ppl->player.time.played = 3600 * (atoi(val));
       return;
     }
-    if(SAME_STRING(flag, "ldir") || SAME_STRING(flag, "defpos") ||
+    if (SAME_STRING(flag, "ldir") || SAME_STRING(flag, "defpos") ||
         SAME_STRING(flag, "attack") || SAME_STRING(flag, "memory") ||
         SAME_STRING(flag, "aggro") || SAME_STRING(flag, "aggro2") ||
         SAME_STRING(flag, "aggro3") ||
         SAME_STRING(flag, "val0") || SAME_STRING(flag, "val1") ||
         SAME_STRING(flag, "val2") || SAME_STRING(flag, "val3") ||
         SAME_STRING(flag, "val4") || SAME_STRING(flag, "val5") ||
-        SAME_STRING(flag, "val6") || SAME_STRING(flag, "val7"))
+        SAME_STRING(flag, "val6") || SAME_STRING(flag, "val7") )
     {
-      if(IS_PC(ppl))
+      if (IS_PC(ppl))
       {
         send_to_char("PCs do not have this field.\r\n", ch);
         return;
@@ -686,7 +686,7 @@ static void setbit_char(P_char ch, char *name, char *flag, char *val,
         return;
       }
     }
-    else if(SAME_STRING(flag, "echo") || SAME_STRING(flag, "screensize") ||
+    else if (SAME_STRING(flag, "echo") || SAME_STRING(flag, "screensize") ||
              SAME_STRING(flag, "prompt") || SAME_STRING(flag, "law_flags") ||
              SAME_STRING(flag, "winvis") || SAME_STRING(flag, "wimpy") ||
              SAME_STRING(flag, "aggr") || SAME_STRING(flag, "balp") ||
@@ -699,7 +699,7 @@ static void setbit_char(P_char ch, char *name, char *flag, char *val,
              SAME_STRING(flag, "nb_left_guild") ||
              SAME_STRING(flag, "deaths"))
     {
-      if(IS_NPC(ppl))
+      if (IS_NPC(ppl))
       {
         send_to_char("NPCs do not have this field.\r\n", ch);
         return;
@@ -715,17 +715,17 @@ static void setbit_char(P_char ch, char *name, char *flag, char *val,
   setbit_parseTable(ch, (void *) ppl, table, ARRAY_SIZE(table), flag, val,
                     on_off);
 
-  if(IS_NPC(ppl))
+  if (IS_NPC(ppl))
     set_npc_multi(ppl);
 
-  if(SAME_STRING(flag, "mxmana"))
+  if (SAME_STRING(flag, "mxmana"))
   {
-    if(GET_MANA(ppl) < GET_MAX_MANA(ppl))
+    if (GET_MANA(ppl) < GET_MAX_MANA(ppl))
       GET_MANA(ppl) = GET_MAX_MANA(ppl);
   }
   balance_affects(ppl);
   
-  if(IS_PC(ppl))
+  if( IS_PC(ppl) )
     update_skills(ppl);
   
   do_save_silent(ppl, 1);       /* to make it stick */
@@ -785,33 +785,33 @@ static void setbit_ship(P_char ch, char *name, char *flag, char *val,
 
   /* Executable Section */
   
-  if((ship = get_ship_from_owner(name)) == NULL)
+  if ((ship = get_ship_from_owner(name)) == NULL)
   {
       send_to_char("No ship by that name here.\r\n", ch);
       return;
   }
-  if(SAME_STRING(flag, "air"))
+  if (SAME_STRING(flag, "air"))
   {
-      if(IS_SET(ship->flags, AIR))
+      if (IS_SET(ship->flags, AIR))
           REMOVE_BIT(ship->flags, AIR);
       else
           SET_BIT(ship->flags, AIR);
       update_ship_status(ship);
       return;
   }
-  if(SAME_STRING(flag, "crew"))
+  if (SAME_STRING(flag, "crew"))
   {
       set_crew(ship, atoi(val), true);
       update_ship_status(ship);
       return;
   }
-  if(SAME_STRING(flag, "chief"))
+  if (SAME_STRING(flag, "chief"))
   {
       set_chief(ship, atoi(val));
       update_ship_status(ship);
       return;
   }
-  if(SAME_STRING(flag, "clearchiefs"))
+  if (SAME_STRING(flag, "clearchiefs"))
   {
       ship->crew.sail_chief = NO_CHIEF;
       ship->crew.guns_chief = NO_CHIEF;
@@ -819,35 +819,35 @@ static void setbit_ship(P_char ch, char *name, char *flag, char *val,
       update_ship_status(ship);
       return;
   }
-  if(SAME_STRING(flag, "sailskill"))
+  if (SAME_STRING(flag, "sailskill"))
   {
       ship->crew.sail_skill = atoi(val);
       update_ship_status(ship);
       return;
   }
-  if(SAME_STRING(flag, "gunskill"))
+  if (SAME_STRING(flag, "gunskill"))
   {
       ship->crew.guns_skill = atoi(val);
       update_ship_status(ship);
       return;
   }
-  if(SAME_STRING(flag, "repairskill"))
+  if (SAME_STRING(flag, "repairskill"))
   {
       ship->crew.rpar_skill = atoi(val);
       update_ship_status(ship);
       return;
   }
-  if(SAME_STRING(flag, "capacity"))
+  if (SAME_STRING(flag, "capacity"))
   {
       ship->capacity_bonus += (atoi(val) - ship->get_capacity());
       return;
   }
-  if(SAME_STRING(flag, "maxspeed"))
+  if (SAME_STRING(flag, "maxspeed"))
   {
       ship->maxspeed_bonus += (atoi(val) - ship->get_maxspeed());
       return;
   }
-  if(SAME_STRING(flag, "stamina"))
+  if (SAME_STRING(flag, "stamina"))
   {
       ship->crew.stamina = atoi(val);
       return;
@@ -940,9 +940,9 @@ static void setbit_obj(P_char ch, char *name, char *flag, char *val,
 
   /* Executable Section */
 
-  if((obj = get_obj_in_list_vis(ch, name, ch->carrying)) == NULL)
+  if ((obj = get_obj_in_list_vis(ch, name, ch->carrying)) == NULL)
   {
-    if((obj =
+    if ((obj =
          get_obj_in_list_vis(ch, name, world[ch->in_room].contents)) == NULL)
     {
       send_to_char("No object by that name here.\r\n", ch);
@@ -950,7 +950,7 @@ static void setbit_obj(P_char ch, char *name, char *flag, char *val,
     }
   }
 #if 0
-  if((obj = get_obj_vis(ch, name)) == NULL)
+  if ((obj = get_obj_vis(ch, name)) == NULL)
   {
     send_to_char("No object by that name here\r\n", ch);
     return;
@@ -960,17 +960,17 @@ static void setbit_obj(P_char ch, char *name, char *flag, char *val,
   setbit_parseTable(ch, (void *) obj, table, ARRAY_SIZE(table), flag, val,
                     on_off);
 
-  if(OBJ_WORN(obj))
+  if (OBJ_WORN(obj))
   {
     char_light(obj->loc.wearing);
     room_light(obj->loc.wearing->in_room, REAL);
   }
-  if(OBJ_CARRIED(obj))
+  if (OBJ_CARRIED(obj))
   {
     char_light(obj->loc.carrying);
     room_light(obj->loc.carrying->in_room, REAL);
   }
-  if(OBJ_ROOM(obj))
+  if (OBJ_ROOM(obj))
     room_light(obj->loc.room, REAL);
 }
 
@@ -1052,7 +1052,7 @@ static void setbit_dir(P_char ch, char *name, char *flag, char *value,
 
   room_number = real_room(atoi(name));
 
-  if(room_number < 0 || room_number > top_of_world)
+  if (room_number < 0 || room_number > top_of_world)
   {
     return;
   }
@@ -1075,14 +1075,14 @@ static void setbit_dir(P_char ch, char *name, char *flag, char *value,
     {
     case 'W':
       where = room->dir_option[NORTHWEST];
-      if(toupper(flag[2]) == 'R') bIsSetRoom = true;
+      if (toupper(flag[2]) == 'R') bIsSetRoom = true;
       break;
     case 'E':
       where = room->dir_option[NORTHEAST];
-      if(toupper(flag[2]) == 'R') bIsSetRoom = true;
+      if (toupper(flag[2]) == 'R') bIsSetRoom = true;
       break;
     default:
-      if(toupper(flag[1]) == 'R') bIsSetRoom = true;
+      if (toupper(flag[1]) == 'R') bIsSetRoom = true;
       where = room->dir_option[NORTH];
     }
 
@@ -1091,13 +1091,13 @@ static void setbit_dir(P_char ch, char *name, char *flag, char *value,
   case 'e':
   case 'E':
     where = room->dir_option[EAST];
-    if(toupper(flag[1]) == 'R') bIsSetRoom = true;
+    if (toupper(flag[1]) == 'R') bIsSetRoom = true;
     break;
 
   case 'w':
   case 'W':
     where = room->dir_option[WEST];
-    if(toupper(flag[1]) == 'R') bIsSetRoom = true;
+    if (toupper(flag[1]) == 'R') bIsSetRoom = true;
     break;
 
   case 's':
@@ -1106,14 +1106,14 @@ static void setbit_dir(P_char ch, char *name, char *flag, char *value,
     {
     case 'W':
       where = room->dir_option[SOUTHWEST];
-      if(toupper(flag[2]) == 'R') bIsSetRoom = true;
+      if (toupper(flag[2]) == 'R') bIsSetRoom = true;
       break;
     case 'E':
       where = room->dir_option[SOUTHEAST];
-      if(toupper(flag[2]) == 'R') bIsSetRoom = true;
+      if (toupper(flag[2]) == 'R') bIsSetRoom = true;
       break;
     default:
-      if(toupper(flag[1]) == 'R') bIsSetRoom = true;
+      if (toupper(flag[1]) == 'R') bIsSetRoom = true;
       where = room->dir_option[SOUTH];
     }
 
@@ -1122,13 +1122,13 @@ static void setbit_dir(P_char ch, char *name, char *flag, char *value,
   case 'u':
   case 'U':
     where = room->dir_option[UP];
-    if(toupper(flag[1]) == 'R') bIsSetRoom = true;
+    if (toupper(flag[1]) == 'R') bIsSetRoom = true;
     break;
 
   case 'd':
   case 'D':
     where = room->dir_option[DOWN];
-    if(toupper(flag[1]) == 'R') bIsSetRoom = true;
+    if (toupper(flag[1]) == 'R') bIsSetRoom = true;
     break;
 
   default:
@@ -1138,18 +1138,18 @@ static void setbit_dir(P_char ch, char *name, char *flag, char *value,
     break;
   }
 
-  if(!where)
+  if (!where)
     return;
 
   // convert a numerical from a vroom num to a real room num
-  if(bIsSetRoom)
+  if (bIsSetRoom)
   {
-    if(-1 == atoi(value))
+    if (-1 == atoi(value))
       room_number = -1;
     else
     {
       room_number = real_room(atoi(value));
-      if(room_number < 0 || room_number > top_of_world)
+      if (room_number < 0 || room_number > top_of_world)
       {
         // invalid room number.. ignore it
         return;
@@ -1232,7 +1232,7 @@ static void setbit_aff(P_char ch, char *name, char *flag, char *value,
   for (af_num_str = name;
        !isdigit(*af_num_str) && *af_num_str != '\0'; af_num_str++) ;
 
-  if(*af_num_str == '\0')
+  if (*af_num_str == '\0')
   {
     send_to_char
       ("Affect number should follow name immediately (no space)\r\n", ch);
@@ -1246,7 +1246,7 @@ static void setbit_aff(P_char ch, char *name, char *flag, char *value,
 
   *af_num_str = '\0';
 
-  if((ppl = get_char_vis(ch, name)) == NULL)
+  if ((ppl = get_char_vis(ch, name)) == NULL)
   {
     send_to_char("No one by that name here.\r\n", ch);
     *af_num_str = '0';
@@ -1264,7 +1264,7 @@ static void setbit_aff(P_char ch, char *name, char *flag, char *value,
   for (i = 0, af = ppl->affected;
        i != af_num && af != NULL; i++, af = af->next) ;
 
-  if(af == NULL)
+  if (af == NULL)
   {
     send_to_char("Affect number specified is too large.\r\n", ch);
     return;
@@ -1288,7 +1288,7 @@ static void setbit_parseTable(P_char ch, void *ptr, SetBitTable * table,
 
   for (i = 0; i < size && !SAME_STRING(flag, table[i].sb_flag); i++) ;
 
-  if(i == size)
+  if (i == size)
   {
     setbit_printOutTable(ch, table, size);
     return;
@@ -1298,16 +1298,16 @@ static void setbit_parseTable(P_char ch, void *ptr, SetBitTable * table,
 
   entry = table + i;
 
-  if(entry->sb_subtable)
+  if (entry->sb_subtable)
   {
     for (bit = 0;
          (string =
           *(char **) (((char *) entry->sb_subtable) +
                       entry->entry_size * bit + entry->entry_offset)) != NULL
          && string[0] != '\n'; bit++)
-      if(SAME_STRING(string, value))
+      if (SAME_STRING(string, value))
         break;
-    if(string == NULL || string[0] == '\n')
+    if (string == NULL || string[0] == '\n')
     {
       setbit_printOutSubTable(ch, entry->sb_subtable, entry->entry_size);
       return;
@@ -1346,7 +1346,7 @@ static void setbit_printOutTable(P_char ch, SetBitTable * table, int size)
   for (i = 0; i < size; i++)
   {
 
-    if(i && !(i % 3))
+    if (i && !(i % 3))
       send_to_char("\r\n", ch);
 
     sprintf(buff, "%-20s", table[i].sb_flag);
@@ -1371,7 +1371,7 @@ static void setbit_printOutSubTable(P_char ch, char **subtable,
        string[0] != '\n'; i++)
   {
 
-    if(!(i % 3))
+    if (!(i % 3))
       send_to_char("\r\n", ch);
 
     sprintf(buff, "%-20s", string);
@@ -1393,7 +1393,7 @@ char    *setbit_parseArgument(char *arg, char *val)
   /* Check to see if single quote .. if not, call one_argument */
   /* to do right thing */
 
-  if(*arg != '\'')
+  if (*arg != '\'')
   {
     return one_argument(arg, val);
   }
@@ -1406,7 +1406,7 @@ char    *setbit_parseArgument(char *arg, char *val)
   while (*end != '\'' && *end != '\0')
     end++;
 
-  if(*end == '\0')
+  if (*end == '\0')
   {                             /* Daggling single quote */
     *val = '\0';
     return NULL;
@@ -1431,7 +1431,7 @@ static int ac_strcasecmp(const char *str1, const char *str2)
     low1 = LOWER_CASE(*(str1 + i));
     low2 = LOWER_CASE(*(str2 + i));
 
-    if((low1 != low2) || (low1 == '\0'))
+    if ((low1 != low2) || (low1 == '\0'))
       break;
   }
 
@@ -1465,7 +1465,7 @@ MAKE_COPY_FUNCTION(sh_int) MAKE_COPY_FUNCTION(ubyte)
   time_t   curr_time = time(NULL);
   P_char   ch = (P_char) where;
 
-  secs = (bit /* - 17 */) * SECS_PER_MUD_YEAR;
+  secs = (bit /* - 17 */ ) * SECS_PER_MUD_YEAR;
   ch->player.time.birth = curr_time - secs;
 }
 
@@ -1482,7 +1482,7 @@ static void ac_bitCopy(void *where, int offset, char *value, int bit,
   }
   bcopy((char *) where + offset, (char *) &orig_bits, sizeof(orig_bits));
 
-  if(on_off)
+  if (on_off)
     orig_bits |= 1 << bit;
   else
     orig_bits &= ~(1 << bit);
@@ -1504,7 +1504,7 @@ static void ac_positionCopy(void *where, int offset, char *value, int bit,
 {
   P_char   ch = (P_char) where;
 
-  if(bit < 4)
+  if (bit < 4)
     SET_POS(ch, (bit - 1) + GET_STAT(ch));
   else
     SET_POS(ch, GET_POS(ch) + (1 << (bit - 2)));;
@@ -1515,7 +1515,7 @@ static void ac_tongueCopy(void *where, int offset, char *value, int bit,
 {
   P_char   ch = (P_char) where;
 
-  if(IS_PC(ch))
+  if (IS_PC(ch))
     GET_LANGUAGE(ch, bit + 1) = (byte) on_off;
 }
 
@@ -1549,7 +1549,7 @@ static void ac_skillCopy(void *where, int offset, char *value, int bit,
   value = skip_spaces(value);
   skl = search_block(value, spells, FALSE);
 
-  if(IS_PC(ch))
+  if (IS_PC(ch))
   {
     bcopy(&val, ((char *) &ch->only.pc->skills[skl]) + offset, sizeof(byte));
   }
@@ -1589,7 +1589,7 @@ static void ac_hitmanaCopy(void *where, int offset, char *value, int bit,
   P_char   ch = (P_char) where;
   sh_int   val;
 
-  if(IS_PC(ch))
+  if (IS_PC(ch))
     val = (sh_int) bit - graf(ch, age(ch).year, 2, 4, 17, 14, 8, 4, 3);
   else
     val = (sh_int) bit;

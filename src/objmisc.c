@@ -321,7 +321,7 @@ float getMaterialDeflection(const int mat /*P_obj obj */ , const P_obj weap)
 
     break;
 
-  case MAT_CLAY:
+  case MAT_CERAMIC:
     switch (damtype)
     {
     case WEAPONTYPE_BLUDGEON:
@@ -1365,7 +1365,7 @@ int getMaterialMaxSP(const int material)
   case MAT_CRYSTAL:
     return 250;
     break;
-  case MAT_CLAY:
+  case MAT_CERAMIC:
     return 150;
     break;
   case MAT_BONE:

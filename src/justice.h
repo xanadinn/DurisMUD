@@ -19,7 +19,7 @@
 
    */
 
-/* keepers for public interface:
+/* keepers for publi interface:
 
   void justice_register_guard(P_char);
      Given a NPC, ch, decides if ch is "qualified" to be a justice
@@ -93,7 +93,7 @@
 #define JUSTICE_LEVEL_HARSH    BIT_3 /* no concept of "wanted" just
                                         kill them */
 #define JUSTICE_LEVEL_CHAOS    BIT_4 /* no "justice" at all.  just use
-                                        invader code */
+                                        invador code */
 
 /* for law_flags on PC's.  */
 #define JUSTICE_IS_CITIZEN 0
@@ -180,23 +180,20 @@ struct justice_guard_list {
   struct justice_guard_list *next;
 };
 
-void set_justice_guard_parms(P_char, bool);
-void call_out_the_army(P_char);
-
 /* An array of of these structures called "hometowns" is created,
    containing one structure for each hometown configured.  */
 
 struct hometown_data {
   ulong flags;                  /* see the JUSTICE_* flags above  */
   int report_room;              /* where crimes are reported */
-  int guard_room[5];            /* where I'll load new guards */
+  int guard_room[5];               /* where I'll load new guards */
   int guard_mob;                /* mob number of the guards I'm using */
   int jail_room;                /* Take a guess what this is ;) */
   crm_rec *crime_list;          /* towns crime list (TASFALEN) */
 
   int t_crime_punish[CRIME_NB]; /* level of punishment (hometown)*/
   int p_crime_punish[CRIME_NB]; /* level of punishment (patrol area)*/
-  int sentence_min[SENTENCE_NB]; /* min-max of each sentence */
+  int sentence_min[SENTENCE_NB]; /* mim-max of each sentence */
   int sentence_max[SENTENCE_NB];
 
 };
@@ -241,7 +238,7 @@ extern const char *justice_flag_names[];
 #define IS_CITIZEN(a) (IS_NPC(a) ? NPC_IS_CITIZEN(a) : PC_IS_CITIZEN(a))
 
 #define IS_TOWN_INVADER(a,b) (IS_PC(a) ? PC_INVADER(a,b) : NPC_INVADER(a,b))
-// similar to invader, but goods aren't welcome in evil towns (even if not invaders)
+// similar to invader, but goods aren't weclome in evil towns (even if not invaders)
 #define IS_TOWN_NOTWELCOME(a,b) (IS_PC(a) ? PC_NOTWELCOME(a,b) : NPC_INVADER(a,b))
 
   /* for mobs, I need to make a bunch of macro's to make it easier to

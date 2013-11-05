@@ -54,7 +54,6 @@ int staff_shadow_summoning(P_obj obj, P_char ch, int cmd, char *arg);
 int rod_of_magic(P_obj obj, P_char ch, int cmd, char *arg);
 int nightcrawler_dagger(P_obj obj, P_char ch, int cmd, char *arg);
 int lyrical_instrument_of_time(P_obj obj, P_char ch, int cmd, char *argument);
-int dagger_of_wind(P_obj, P_char, int, char*);
 
 /* Ailvio procs */
 int burbul_map_obj(P_obj obj, P_char ch, int cmd, char *arg);
@@ -389,7 +388,6 @@ int neg_pocket(P_char, P_char, int, char *);
 int jotun_balor(P_char, P_char, int, char *);
 int jotun_mimer(P_char, P_char, int, char *);
 int jotun_thrym(P_char, P_char, int, char *);
-int basilisk_freeze(P_char, P_char, int, char *);
 int jotun_utgard_loki(P_char, P_char, int, char *);
 int kobold_priest(P_char, P_char, int, char *);
 int loviatar(P_obj, P_char, int, char *);
@@ -482,7 +480,7 @@ int assoc_golem (P_char, P_char, int, char *);
 int house_guard (P_char, P_char, int, char *);
 int patrol_leader(P_char, P_char, int, char *);
 int patrol_leader_road(P_char, P_char, int, char *);
-int transp_tow_aceralde(P_char, P_char, int, char *);
+int transp_tow_acerlade(P_char, P_char, int, char *);
 int recharm_ch(P_char, P_char, bool, char *);
 int underdark_track(P_char, P_char, int, char *);
 int undeadcont_track(P_char, P_char, int, char *);
@@ -538,7 +536,7 @@ int ioun_warp(P_obj, P_char, int, char *);
 
 /* specs.lohrr.c */
 int leviathan(P_char, P_char, int, char *);
-int sphinx_prefect_crown( P_obj, P_char, int, char * );
+
 
 /* specs.object.c */
 
@@ -836,7 +834,6 @@ int tiamat(P_char, P_char, int, char *);
 int torment(P_obj, P_char, int, char *);
 int unholy_avenger_bloodlust(P_obj, P_char, int, char *);
 int tiamat_stinger(P_obj, P_char, int, char *);
-int proc_load_firesworn( P_obj obj, P_char ch, int cmd, char *argument );
 int gfstone(P_obj, P_char, int, char *);
 int tendrils(P_obj, P_char, int, char *);
 int elvenkind_cloak(P_obj, P_char, int, char*);

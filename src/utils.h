@@ -25,6 +25,9 @@
 /* Functions in utility.c                     */
 #define MAX(a, b) (((a) > (b)) ? (a) : (b))
 #define MIN(a, b) (((a) < (b)) ? (a) : (b))
+#if 0
+#define BOUNDED(a, b, c) (MIN (MAX (a, b), c))
+#endif
 
 #define ISNEWL(ch) ((ch) == '\n' || (ch) == '\r')
 
@@ -154,25 +157,6 @@
  (world[(ch)->in_room].sector_type == SECT_SWAMP || \
   IS_WATER_ROOM(ch->in_room))
 
-#define IS_PURE_CASTER_CLASS(cls) ( (cls) &\
-  (CLASS_SORCERER | CLASS_CONJURER | CLASS_ILLUSIONIST |\
-  CLASS_NECROMANCER | CLASS_CLERIC | CLASS_SHAMAN |\
-  CLASS_DRUID | CLASS_ETHERMANCER | CLASS_THEURGIST | CLASS_CABALIST))
-#define IS_PARTIAL_CASTER_CLASS(cls) ( (cls) &\
-  (CLASS_BARD ))
-#define IS_SEMI_CASTER_CLASS(cls) ( (cls) &\
-  (CLASS_ANTIPALADIN | CLASS_PALADIN | CLASS_RANGER |\
-   CLASS_BARD | CLASS_REAVER | CLASS_AVENGER))
-#define IS_CASTER_CLASS(cls) (\
-  IS_PURE_CASTER_CLASS(cls) || IS_SEMI_CASTER_CLASS(cls) )
-#define IS_BOOK_CLASS(cls) ( (cls) &\
-  (CLASS_SORCERER | CLASS_CONJURER | CLASS_NECROMANCER |\
-   CLASS_ILLUSIONIST | CLASS_BARD |\
-   CLASS_RANGER | CLASS_REAVER | CLASS_THEURGIST))
-#define IS_PRAYING_CLASS(cls) ( (cls) &\
-  (CLASS_CLERIC | CLASS_PALADIN | CLASS_ANTIPALADIN | CLASS_AVENGER | CLASS_CABALIST))
-#define IS_MEMING_CLASS(cls) (IS_BOOK_CLASS(cls) || ((cls) & CLASS_SHAMAN))
-
 #define SWAMP_SNEAK(ch) (has_innate(ch, INNATE_SWAMP_SNEAK) && SWAMP_SNEAK_TERRAIN(ch))
 
 #define GET_LANGUAGE(ch,d) ((ch)->only.pc->talks[(d)])
@@ -180,13 +164,7 @@
 
 #define SOUL_TAKING_STILETTO 88314
 
-<<<<<<< HEAD
-#define GET_CR_PNTS(d) ((d)->character->only.pc->creation_pnts)
-
-#define USES_MANA(ch) ((GET_CLASS(ch, CLASS_PSIONICIST) || GET_CLASS(ch, CLASS_MINDFLAYER))
-=======
 #define USES_FOCUS(ch)(GET_RACE(ch) == RACE_PSBEAST)
->>>>>>> master
 
 #define GET_SONG(ch) ((ch)->specials.song)
 
@@ -239,8 +217,6 @@ SECS_PER_MUD_DAY)
 
 #define IS_SHIP_ROOM(r) (world[r].number >= 60000 && world[r].number <= 64999)
 
-#define IS_GARROTE(ch) (affected_by_spell(ch, SKILL_GARROTE))
-
 #define IS_OCEAN_ROOM(r) ( world[r].sector_type == SECT_OCEAN )
 #define IS_FOREST_ROOM(r) ( world[r].sector_type == SECT_FOREST )
 #define IS_SWAMP_ROOM(r) ( world[r].sector_type == SECT_SWAMP )
@@ -279,12 +255,14 @@ SECS_PER_MUD_DAY)
     && world[r].sector_type != SECT_ASTRAL \
     && world[r].sector_type != SECT_NEG_PLANE)
 
-#define IS_LIGHT(r) ((world[r].light > 0) || IS_SUNLIT(r) || IS_MAGIC_LIGHT(r))
+#define IS_LIGHT(r) ( (world[r].light > 0 ) || \
+                      IS_SUNLIT(r) || \
+                      IS_TWILIGHT_ROOM(r) )
 
-#define IS_DARK(r) (!IS_LIGHT(r) || IS_MAGIC_DARK(r))
+#define IS_DARK(r) ( !IS_LIGHT(r) )
 
-#define IS_MAGIC_LIGHT(r) (IS_SET(world[r].room_flags, MAGIC_LIGHT) && !IS_SET(world[r].room_flags, MAGIC_DARK))
-#define IS_MAGIC_DARK(r) (IS_SET(world[r].room_flags, MAGIC_DARK) && !IS_SET(world[r].room_flags, MAGIC_LIGHT))
+#define IS_MAGIC_LIGHT(r) ( IS_SET(world[r].room_flags, MAGIC_LIGHT) && !IS_SET(world[r].room_flags, MAGIC_DARK ) )
+#define IS_MAGIC_DARK(r) ( IS_SET(world[r].room_flags, MAGIC_DARK) && !IS_SET(world[r].room_flags, MAGIC_LIGHT ) )
 
 #define IS_SUNLIT(r) \
            (IS_DAY && !IS_SET(world[r].room_flags, DARK) && \
@@ -369,10 +347,11 @@ int IS_TWILIGHT_ROOM(int r);
 #define GET_TITLE(ch)   ((ch)->player.title)
 #define GET_DISGUISE_TITLE(ch) ((ch)->disguise.title)
 
-#define GET_LEVEL(ch)   ((int)(ch)->player.level)
+//#define GET_LEVEL(ch)   ((int)(ch)->player.level)
 #define GET_SECONDARY_LEVEL(ch)   ((int)(ch)->player.secondary_level)
 #define GET_DISGUISE_LEVEL(ch) ((int)(ch)->disguise.level)
 
+//#define GET_CLASS(ch)   ((ch)->player.m_class)
 #define GET_SPEC(ch, cls, spc) (((ch)->player.m_class & cls) && (ch)->player.spec == spc)
 #define IS_MULTICLASS(ch, cls1, cls2) (GET_CLASS((ch), (cls1)) && GET_CLASS((ch), (cls2)))
 #define GET_DISGUISE_CLASS(ch) ((ch)->disguise.m_class)
@@ -404,23 +383,10 @@ int race_size(int race);
 #define GET_C_KARMA(ch)   ((ch)->curr_stats.Karma)
 #define GET_C_LUCK(ch)    ((ch)->curr_stats.Luck)
 
-#define STRENGTH_SPELL(ch) (affected_by_spell(ch, SPELL_STRENGTH) || \
-                            affected_by_spell(ch, SPELL_ENHANCED_STR) || \
-                            affected_by_spell(ch, SPELL_ELEPHANTSTRENGTH))
-
-#define AGILITY_SPELL(ch) (affected_by_spell(ch, SPELL_AGILITY) || \
-                           affected_by_spell(ch, SPELL_ENHANCED_AGI))
-
-#define DEXTERITY_SPELL(ch) (affected_by_spell(ch, SPELL_DEXTERITY) || \
-                             affected_by_spell(ch, SPELL_ENHANCED_DEX))
-
 #define GET_WIMPY(ch)   ((ch)->only.pc->wimpy)
 
 #define GET_AC(ch)      ((ch)->points.curr_armor)
-#define ARMORED(ch)     ((ch) && (affected_by_spell(ch, SPELL_ARMOR) || \
-                                  affected_by_spell(ch, SPELL_PHANTOM_ARMOR) || \
-                                  affected_by_spell(ch, SPELL_FLESH_ARMOR) || \
-                                  affected_by_spell(ch, SPELL_VAPOR_ARMOR)))
+
 #define GET_HIT(ch)     ((ch)->points.hit)
 #define GET_MAX_HIT(ch) ((ch)->points.max_hit)
 #define GET_LOWEST_HIT(ch)     ((ch)->only.npc->lowest_hit)
@@ -563,13 +529,9 @@ int race_size(int race);
 #define COIN_WEIGHT(c, s, g, p) (0)
 //#define COIN_WEIGHT(c, s, g, p) (((c) + (s) + (g) + (p)) / 50)
 
-#define CAN_CARRY_W(ch) (str_app[STAT_INDEX(GET_C_STR(ch))].carry_w + (IS_TRUSTED(ch) ? 20000 : 0) + (IS_NPC(ch) ? 10000 : 0))
+#define CAN_CARRY_W(ch) (str_app[STAT_INDEX(GET_C_STR(ch))].carry_w + (IS_TRUSTED(ch)? 20000: 0))
 
-<<<<<<< HEAD
-#define CAN_CARRY_N(ch) (IS_TRUSTED(ch) ? 3000 : (STAT_INDEX(GET_C_DEX(ch)) / 3) + (IS_NPC(ch) ? 12 : 6))
-=======
-#define CAN_CARRY_N(ch) (IS_TRUSTED(ch)? 3000: (STAT_INDEX(GET_C_DEX(ch)) / 3) + (IS_NPC(ch)? 12: 6)) 
->>>>>>> master
+#define CAN_CARRY_N(ch) (IS_TRUSTED(ch)? 3000: (STAT_INDEX(GET_C_DEX(ch)) / 3) + (IS_NPC(ch)? 12: 6))
 
 #define IS_CARRYING_W(ch)  \
 ((ch)->specials.carry_weight + COIN_WEIGHT(GET_COPPER(ch), GET_SILVER(ch), GET_GOLD(ch), GET_PLATINUM(ch)))
@@ -676,6 +638,17 @@ for ((IN_ROOM) = world[(PLAYER)->in_room].people; (IN_ROOM) != NULL; (IN_ROOM) =
 #define IS_RANDOM_MOB(a) (IS_NPC(a) && GET_VNUM(a) > RANDOM_VNUM_BEGIN && GET_VNUM(a) < RANDOM_VNUM_END)
 
 #define IS_PATROL(CH) (IS_NPC(CH) && IS_SET((CH)->specials.act, ACT_PATROL))
+
+/*
+#define IS_AGGRESSIVE(MOB) (IS_NPC(MOB) && \
+  ((IS_SET((MOB)->specials.act, ACT_AGGRESSIVE)) || \
+  (IS_SET((MOB)->specials.act, ACT_AGGRESSIVE_EVIL)) || \
+  (IS_SET((MOB)->specials.act, ACT_AGGRESSIVE_GOOD)) || \
+  (IS_SET((MOB)->specials.act, ACT_AGGRESSIVE_NEUTRAL)) || \
+  (IS_SET((MOB)->specials.act, ACT_AGG_RACEEVIL)) || \
+  (IS_SET((MOB)->specials.act, ACT_AGG_RACEGOOD)) || \
+  (IS_SET((MOB)->specials.act, ACT_AGG_OUTCAST))))
+*/
 
 #define IS_AGGRESSIVE(m) (IS_NPC(m) && ((m)->only.npc->aggro_flags || (m)->only.npc->aggro2_flags || (m)->only.npc->aggro3_flags))
 
@@ -937,14 +910,9 @@ for ((IN_ROOM) = world[(PLAYER)->in_room].people; (IN_ROOM) != NULL; (IN_ROOM) =
 						(GET_CLASS(ch, CLASS_PSIONICIST)) || \
 						(GET_CLASS(ch, CLASS_MINDFLAYER)))
 										
-<<<<<<< HEAD
-    //(IS_NPC(ch) || IS_SET((ch)->player.m_class, CLASS_PSIONICIST)) ||
-    //IS_SET((ch)->player.m_class, CLASS_MINDFLAYER))
-=======
 //    (IS_NPC(ch) || IS_SET((ch)->player.m_class, CLASS_PSIONICIST)) || \
 //
   //  (IS_SET((ch)->player.m_class, CLASS_MINDFLAYER))
->>>>>>> master
 #define USES_SPELL_SLOTS(ch) ( \
         USES_COMMUNE(ch) || \
         IS_PUNDEAD(ch) || \
@@ -1316,7 +1284,6 @@ IS_GIANT(ch) || IS_PC_PET(ch) || IS_PC(ch) || IS_UNDEAD(ch) || IS_EFREET(ch)) &&
     (affected_by_spell(ch, SPELL_MOUSESTRENGTH) || \
     affected_by_spell(ch, SPELL_BEARSTRENGTH) || \
     affected_by_spell(ch, SPELL_ELEPHANTSTRENGTH))
-
 
 #define IS_GREATER_ELEMENTAL(mob) \
     (IS_NPC(mob) && \

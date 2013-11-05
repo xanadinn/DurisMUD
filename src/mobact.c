@@ -641,7 +641,7 @@ bool MobCastSpell(P_char ch, P_char victim, P_obj object, int spl, int lvl)
   {
     if(ch->specials.undead_spell_slots[circle] <= 0)
     {
-     // send_to_char("Sorry, out of spells in this circle.\r\n", ch); sending messages to mobs is pointless!
+      send_to_char("Sorry, out of spells in this circle.\r\n", ch);
       return (FALSE);
     }
   }
@@ -662,7 +662,7 @@ bool MobCastSpell(P_char ch, P_char victim, P_obj object, int spl, int lvl)
 
     if(IS_SET(world[ch->in_room].room_flags, NO_MAGIC))
     {
-     // send_to_char("&+WThe magic gathers, then fades away.\r\n", ch);
+      send_to_char("&+WThe magic gathers, then fades away.\r\n", ch);
       return (FALSE);
     }
   }
@@ -742,6 +742,8 @@ bool MobCastSpell(P_char ch, P_char victim, P_obj object, int spl, int lvl)
         }
       }
     }
+
+
   }
   /*
      The following constructs the requisite struct * spellcast_datatype
@@ -768,14 +770,13 @@ bool MobCastSpell(P_char ch, P_char victim, P_obj object, int spl, int lvl)
   bzero(&castdata, sizeof(struct spellcast_datatype));
 
   if(lvl < 60)
-    castdata.timeleft = duration; // test to see if mobs cast super slow...
-                                  //((number(1, 101) > (20 + 3 * GET_LEVEL(ch) / 2)) ? duration : (duration >> 1));
-/*
+    castdata.timeleft = ((number(1, 101) > (20 + 3 * GET_LEVEL(ch) / 2))
+                          ? duration : (duration >> 1));
+/*  castdata->timeleft = duration; */
   if(lvl >= 60)
   {
     castdata.timeleft = -1;
   }
-   wipe2011 doesn't have instacast */
 
   castdata.spell = spl;
   castdata.object = object;
@@ -783,6 +784,7 @@ bool MobCastSpell(P_char ch, P_char victim, P_obj object, int spl, int lvl)
   /*  disruptive blow check */
   if(IS_FIGHTING(ch))
   {
+
     for (kala = world[ch->in_room].people; kala; kala = kala2)
     {
       kala2 = kala->next_in_room;
@@ -801,7 +803,7 @@ bool MobCastSpell(P_char ch, P_char victim, P_obj object, int spl, int lvl)
 
       if(skl && success > 0)
       {
-        notch_skill(kala, SKILL_DISRUPTIVE_BLOW, 25);
+        notch_skill(kala, SKILL_DISRUPTIVE_BLOW, 5);
         if(success > 75)
         {
           act("You lunge slamming your fist into $N's larynx.", FALSE, kala,
@@ -900,7 +902,7 @@ bool CastIllusionistSpell(P_char ch, P_char victim, int helping)
 
   if(!spl && npc_has_spell_slot(ch, SPELL_PHANTOM_ARMOR)
       && (target == ch)
-      && !ARMORED(ch)
+      && !affected_by_spell(target, SPELL_PHANTOM_ARMOR)
       && (!IS_FIGHTING(ch)))
     spl = SPELL_PHANTOM_ARMOR;
 
@@ -1959,11 +1961,11 @@ bool CastReaverSpell(P_char ch, P_char victim, int helping)
     spl = SPELL_CHILLING_IMPLOSION;
 
   if(!spl && (ch == target) &&
-      !affected_by_spell(target, SPELL_UMBERLEES_FURY) &&
+      !affected_by_spell(target, SPELL_STORMCALLERS_FURY) &&
       affected_by_spell(target, SPELL_LLIENDILS_STORMSHOCK) &&
-      npc_has_spell_slot(ch, SPELL_UMBERLEES_FURY) &&
+      npc_has_spell_slot(ch, SPELL_STORMCALLERS_FURY) &&
       (!IS_FIGHTING(ch) || number(0, 1)))
-    spl = SPELL_UMBERLEES_FURY;
+    spl = SPELL_STORMCALLERS_FURY;
 
   if(!spl && (ch == target) &&
       !affected_by_spell(target, SPELL_CEGILUNE_BLADE) &&
@@ -1984,7 +1986,7 @@ bool CastReaverSpell(P_char ch, P_char victim, int helping)
   }
 
   if(!spl && IS_AFFECTED(ch, AFF_BLIND) &&
-      room_has_valid_exit(ch->in_room) && !number(0, 5) && !fear_check(ch))
+      room_has_valid_exit(ch->in_room) && !number(0, 5) && !fear_check(ch) )
   {
     do_flee(ch, 0, 0);
     return FALSE;
@@ -2241,7 +2243,7 @@ bool CastRangerSpell(P_char ch, P_char victim, int helping)
   }
 
   if(!spl && IS_AFFECTED(ch, AFF_BLIND) &&
-      room_has_valid_exit(ch->in_room) && !number(0, 4) && !fear_check(ch))
+      room_has_valid_exit(ch->in_room) && !number(0, 4) && !fear_check(ch) )
   {
     do_flee(ch, 0, 0);
     return FALSE;
@@ -2607,7 +2609,7 @@ bool CastDruidSpell(P_char ch, P_char victim, int helping)
       spl = SPELL_NATURES_TOUCH;
   }
   else if(!spl && IS_AFFECTED(ch, AFF_BLIND) &&
-           room_has_valid_exit(ch->in_room) && !fear_check(ch))
+           room_has_valid_exit(ch->in_room) && !fear_check(ch) )
   {
     do_flee(ch, 0, 0);
     return FALSE;
@@ -2624,7 +2626,8 @@ bool CastDruidSpell(P_char ch, P_char victim, int helping)
       spl = SPELL_BARKSKIN;
   }
 
-  if(!spl && (affected_by_spell(target, SPELL_POISON) || IS_AFFECTED2(target, AFF2_POISONED))
+  if(!spl && (affected_by_spell(target, SPELL_POISON) || IS_AFFECTED2(target,
+                                                                       AFF2_POISONED))
       && npc_has_spell_slot(ch, SPELL_AID))
     spl = SPELL_AID;
 
@@ -2927,7 +2930,8 @@ bool CastShamanSpell(P_char ch, P_char victim, int helping)
       }
     }
 
-    if(!spl && (!ARMORED(target) && !affected_by_spell(target, SPELL_SPIRIT_ARMOR)) &&
+
+    if(!spl && !affected_by_spell(target, SPELL_SPIRIT_ARMOR) &&
         npc_has_spell_slot(ch, SPELL_SPIRIT_ARMOR))
       spl = SPELL_SPIRIT_ARMOR;
 
@@ -3122,8 +3126,8 @@ bool CastShamanSpell(P_char ch, P_char victim, int helping)
    /* why not?  it'll be fun */
 
     if(!spl && (number(0, 15) == 6) &&
-       npc_has_spell_slot(ch, SPELL_GREATER_COBRASTING))
-      spl = SPELL_GREATER_COBRASTING;
+       npc_has_spell_slot(ch, SPELL_GREATER_PYTHONSTING))
+      spl = SPELL_GREATER_PYTHONSTING;
 
   }
   if(spl && ch)
@@ -3155,10 +3159,10 @@ bool CastShamanSpell(P_char ch, P_char victim, int helping)
         spl = SPELL_MALISON;
 
     case 3:
-      if(!spl && npc_has_spell_slot(ch, SPELL_COBRASTING) &&
+      if(!spl && npc_has_spell_slot(ch, SPELL_PYTHONSTING) &&
           !affected_by_spell(target, SPELL_POISON) &&
           !IS_AFFECTED2(target, AFF2_POISONED))
-        spl = SPELL_COBRASTING;
+        spl = SPELL_PYTHONSTING;
         
     case 4:
       if(!spl && npc_has_spell_slot(ch, SPELL_MOUSESTRENGTH) &&
@@ -3404,7 +3408,7 @@ bool CastEtherSpell(P_char ch, P_char victim, int helping)
     spl = SPELL_PURIFY_SPIRIT;
   }
   else if(!spl && IS_AFFECTED(ch, AFF_BLIND) &&
-           room_has_valid_exit(ch->in_room) && !fear_check(ch))
+           room_has_valid_exit(ch->in_room) && !fear_check(ch) )
   {
     do_flee(ch, 0, 0);
     return FALSE;
@@ -3430,7 +3434,7 @@ bool CastEtherSpell(P_char ch, P_char victim, int helping)
 
     }
 
-    if(!spl && !ARMORED(target) &&
+    if(!spl && !affected_by_spell(target, SPELL_VAPOR_ARMOR) &&
         npc_has_spell_slot(ch, SPELL_VAPOR_ARMOR))
       spl = SPELL_VAPOR_ARMOR;
 
@@ -3702,7 +3706,7 @@ bool CastClericSpell(P_char ch, P_char victim, int helping)
            (!IS_FIGHTING(ch) || !number(0, 2)))
     spl = SPELL_HEAL;
   else if(!spl && IS_AFFECTED(ch, AFF_BLIND) &&
-           room_has_valid_exit(ch->in_room) && !fear_check(ch))
+           room_has_valid_exit(ch->in_room) && !fear_check(ch) )
   {
     do_flee(ch, 0, 0);
     return FALSE;
@@ -3761,7 +3765,7 @@ bool CastClericSpell(P_char ch, P_char victim, int helping)
 
   if(!spl && (!IS_FIGHTING(ch) || (number(0, 4) == 2)))
   {
-    if(!ARMORED(target) &&
+    if(!affected_by_spell(target, SPELL_ARMOR) &&
         npc_has_spell_slot(ch, SPELL_ARMOR) &&
         GET_RACE(target) != RACE_ANIMAL)
       spl = SPELL_ARMOR;
@@ -4161,7 +4165,7 @@ bool CastPaladinSpell(P_char ch, P_char victim, int helping)
       spl = SPELL_HEAL;
   }
   else if(!spl && IS_AFFECTED(ch, AFF_BLIND) && IS_FIGHTING(ch) &&
-           room_has_valid_exit(ch->in_room) && !fear_check(ch))
+           room_has_valid_exit(ch->in_room) && !fear_check(ch) )
   {
     do_flee(ch, 0, 0);
     return FALSE;
@@ -4241,7 +4245,7 @@ bool CastPaladinSpell(P_char ch, P_char victim, int helping)
   if(!IS_FIGHTING(ch) || (number(0, 4) == 2))
   {
     if(!spl &&
-      !ARMORED(target) &&
+      !affected_by_spell(target, SPELL_ARMOR) &&
       npc_has_spell_slot(ch, SPELL_ARMOR) &&
       GET_RACE(target) != RACE_ANIMAL)
     {
@@ -4311,9 +4315,9 @@ bool CastPaladinSpell(P_char ch, P_char victim, int helping)
     return (FALSE);
 
   if(!spl && (GET_ALIGNMENT(ch) >= 980) && room_has_evil_enemy(ch) &&
-      npc_has_spell_slot(ch, SPELL_JUDGMENT) && number(0, 2))
+      npc_has_spell_slot(ch, SPELL_JUDGEMENT) && number(0, 2))
   {
-    spl = SPELL_JUDGMENT;
+    spl = SPELL_JUDGEMENT;
   }
 
   /* holy/unholy word are good enough against one person, don't need a
@@ -4492,7 +4496,7 @@ bool CastAntiPaladinSpell(P_char ch, P_char victim, int helping)
   if(!IS_FIGHTING(ch) || (number(0, 4) == 2))
   {
     if(!spl &&
-       !ARMORED(target) &&
+       !affected_by_spell(target, SPELL_ARMOR) &&
        npc_has_spell_slot(ch, SPELL_ARMOR) &&
        GET_RACE(target) != RACE_ANIMAL)
     {
@@ -4738,7 +4742,7 @@ bool WillPsionicistSpell(P_char ch, P_char victim)
         spl = pick_best_skin_spell(ch, ch);
   
   if(!spl &&
-     !ARMORED(ch) &&
+     !affected_by_spell(ch, SPELL_ENHANCE_ARMOR) &&
      knows_spell(ch, SPELL_ENHANCE_ARMOR) &&
      (!IS_FIGHTING(ch) || (number(0, 3) == 2)))
         spl = SPELL_ENHANCE_ARMOR;
@@ -4749,7 +4753,7 @@ bool WillPsionicistSpell(P_char ch, P_char victim)
         spl = SPELL_ENERGY_CONTAINMENT;
 
   if(!spl &&
-     !ARMORED(ch) &&
+     !affected_by_spell(ch, SPELL_FLESH_ARMOR) &&
      knows_spell(ch, SPELL_FLESH_ARMOR) &&
      (!IS_FIGHTING(ch) || (number(0, 4) == 2)))
         spl = SPELL_FLESH_ARMOR;
@@ -4931,28 +4935,44 @@ void BreathWeapon(P_char ch, int dir)
     else
       i = 5;                    /* gas */
   if(IS_ACT(ch, ACT_BREATHES_FIRE) || 
-    isname("red", GET_NAME(ch)))
+    isname("red", GET_NAME(ch)))     // || isname("br_f", GET_NAME(ch)))
       i = 1;                      /* fire */
   if(IS_ACT(ch, ACT_BREATHES_LIGHTNING) || 
-    isname("blue", GET_NAME(ch)))
+    isname("blue", GET_NAME(ch)))       // || isname("br_l", GET_NAME(ch)))
       i = 2;                      /* lightning */
   if(IS_ACT(ch, ACT_BREATHES_FROST) ||
-    isname("white", GET_NAME(ch)))
+    isname("white", GET_NAME(ch)))  // || isname("br_c", GET_NAME(ch)))
       i = 3;                      /* cold */
   if(IS_ACT(ch, ACT_BREATHES_ACID) || 
-    isname("black", GET_NAME(ch)))
+    isname("black", GET_NAME(ch)))   // || isname("br_a", GET_NAME(ch)))
       i = 4;                      /* acid */
   if(IS_ACT(ch, ACT_BREATHES_GAS) || 
-    isname("green", GET_NAME(ch)))
+    isname("green", GET_NAME(ch)))    // || isname("br_g", GET_NAME(ch)))
       i = 5;                      /* gas */
   if(IS_ACT(ch, ACT_BREATHES_SHADOW) || 
-    isname("shadow", GET_NAME(ch)))
+    isname("shadow", GET_NAME(ch)))        // || isname("br_s", GET_NAME(ch)))
     if(number(1, 10) < 7)
       i = 9;
     else
       i = 10;
-  if(IS_ACT(ch, ACT_BREATHES_BLIND_GAS))
+  if(IS_ACT(ch, ACT_BREATHES_BLIND_GAS))       // || isname("br_b", GET_NAME(ch)))
     i = 11;                     /* blinding gas */
+  if(isname("crimson", GET_NAME(ch)))
+      i = 12;                    /* crimson */
+  if(isname("azure", GET_NAME(ch)))   
+      i = 13;                    /* azure */
+  if(isname("jasper", GET_NAME(ch)))
+      i = 14;                    /* jasper */
+  if(isname("basalt", GET_NAME(ch)))
+      i = 15;                    /* basalt */
+  if(isname("judgement", GET_NAME(ch)))
+      i = 16;                    /* war */
+  if(isname("justice", GET_NAME(ch)))
+      i = 17;                    /* judgement */
+  if(isname("war", GET_NAME(ch)))
+      i = 18;                    /* vengeance */
+  if(isname("vengeance", GET_NAME(ch)))
+      i = 19;                    /* justice */
   if(i == 0)
     i = number(1, 5);
 
@@ -5050,6 +5070,70 @@ void BreathWeapon(P_char ch, int dir)
       sprintf(buf, "A blast of &+ggas&n shoots in from the %s!\r\n",
               dirs[(int) rev_dir[dir] - 1]);
     funct = spell_blinding_breath;
+    break;
+  case 12:
+    act("$n spreads $s wings and emits a &+Rshimmering &+rlight&n!", 1, ch, 0, 0, TO_ROOM);
+    act("You spread your wings and emit a &+Rshimmering &+rlight&n!", 0, ch, 0, 0, TO_CHAR);
+    if(dir != -1)
+      sprintf(buf, "A &+Rshimmering&n light blasts through from the %s!\r\n",
+              dirs[(int) rev_dir[dir] - 1]);
+    funct = spell_crimson_light;
+    break;
+  case 13:
+    act("$n spreads $s wings and emits a &+Bshimmering &+blight&n!", 1, ch, 0, 0, TO_ROOM);
+    act("You spread your wings and emit a &+Bshimmering &+blight&n!", 0, ch, 0, 0, TO_CHAR);
+    if(dir != -1)
+      sprintf(buf, "A &+Gshimmering&n light blasts through from the %s!\r\n",
+              dirs[(int) rev_dir[dir] - 1]);
+    funct = spell_jasper_light;
+    break;
+  case 14:
+    act("$n spreads $s wings and emits a &+Gshimmering &+glight&n!", 1, ch, 0, 0, TO_ROOM);
+    act("You spread your wings and emit a &+Gshimmering &+glight&n!", 0, ch, 0, 0, TO_CHAR);
+    if(dir != -1)
+      sprintf(buf, "A &+Bshimmering&n light blasts through from the %s!\r\n",
+              dirs[(int) rev_dir[dir] - 1]);
+    funct = spell_azure_light;
+    break;
+  case 15:
+    act("$n spreads $s wings and emits a &+Lshimmering &+wlight&n!", 1, ch, 0, 0, TO_ROOM);
+    act("You spread your wings and emit a &+Lshimmering &+wlight&n!", 0, ch, 0, 0, TO_CHAR);
+    if(dir != -1)
+      sprintf(buf, "A &+Lshimmering&n light blasts through from the %s!\r\n",
+              dirs[(int) rev_dir[dir] - 1]);
+    funct = spell_basalt_light;
+    break;
+  case 16:
+    act("$n spreads $s wings and emits a &+Rshimmering &+rlight&n!", 1, ch, 0, 0, TO_ROOM);
+    act("You spread your wings and emit a &+Rshimmering &+rlight&n!", 0, ch, 0, 0, TO_CHAR);
+    if(dir != -1)
+      sprintf(buf, "A &+Rshimmering&n light blasts through from the %s!\r\n",
+              dirs[(int) rev_dir[dir] - 1]);
+    funct = spell_crimson_light_2;
+    break;
+  case 17:
+    act("$n spreads $s wings and emits a &+Bshimmering &+blight&n!", 1, ch, 0, 0, TO_ROOM);
+    act("You spread your wings and emit a &+Bshimmering &+blight&n!", 0, ch, 0, 0, TO_CHAR);
+    if(dir != -1)
+      sprintf(buf, "A &+Bshimmering&n light blasts through from the %s!\r\n",
+              dirs[(int) rev_dir[dir] - 1]);
+    funct = spell_azure_light_2;
+    break;
+  case 18:
+    act("$n spreads $s wings and emits a &+Gshimmering &+glight&n!", 1, ch, 0, 0, TO_ROOM);
+    act("You spread your wings and emit a &+Gshimmering &+glight&n!", 0, ch, 0, 0, TO_CHAR);
+    if(dir != -1)
+      sprintf(buf, "A &+Gshimmering&n light blasts through from the %s!\r\n",
+              dirs[(int) rev_dir[dir] - 1]);
+    funct = spell_jasper_light_2;
+    break;
+  case 19:
+    act("$n spreads $s wings and emits a &+Lshimmering &+wlight&n!", 1, ch, 0, 0, TO_ROOM);
+    act("You spread your wings and emit a &+Lshimmering &+wlight&n!", 0, ch, 0, 0, TO_CHAR);
+    if(dir != -1)
+      sprintf(buf, "A &+Lshimmering&n light blasts through from the %s!\r\n",
+              dirs[(int) rev_dir[dir] - 1]);
+    funct = spell_basalt_light_2;
     break;
   }
 
@@ -5546,7 +5630,7 @@ bool MobMonk(P_char ch)
      ((n_atkr > 1) ||
      has_help(ch->specials.fighting)))
   {
-    if(GET_SPEC(ch, CLASS_MONK, SPEC_ELAPHIDIST) )
+    if(GET_SPEC(ch, CLASS_MONK, SPEC_WAYOFSNAKE) )
     {
       if(!number(0,1) &&
         !affected_by_skill(ch, SKILL_FLURRY_OF_BLOWS) )
@@ -5598,7 +5682,7 @@ bool MobMonk(P_char ch)
 
   if(IS_FIGHTING(ch) && (victim = ch->specials.fighting))
   {
-    if(GET_SPEC(ch, CLASS_MONK, SPEC_ELAPHIDIST) ||
+    if(GET_SPEC(ch, CLASS_MONK, SPEC_WAYOFSNAKE) ||
       (IS_ELITE(ch) && GET_CLASS(ch, CLASS_MONK)))
     {
       if(!number(0, 1) &&
@@ -5642,7 +5726,7 @@ bool MobMonk(P_char ch)
       }
 
     case 6:
-      if( GET_SPEC(ch, CLASS_MONK, SPEC_REDDRAGON) && !affected_by_skill(ch, SKILL_FIST_OF_DRAGON) )
+      if( GET_SPEC(ch, CLASS_MONK, SPEC_WAYOFDRAGON) && !affected_by_skill(ch, SKILL_FIST_OF_DRAGON) )
       {
         strcpy(buf, " fist of dragon");
         break;
@@ -5980,7 +6064,7 @@ bool MobWarrior(P_char ch)
     }
   }
   
-  if(!LEGLESS(ch) && isKickable(ch, ch->specials.fighting) &&
+  if(isKickable(ch, ch->specials.fighting) &&
      number(0, 2))
   {
     do_kick(ch, 0, 0);
@@ -6050,7 +6134,7 @@ bool MobWarrior(P_char ch)
         are_together(tch, ch->specials.fighting)) &&
         CAN_SEE(ch, tch))
       {
-        t_tend = GET_HIT(tch);
+        t_tend = GET_HIT(tch) /*+ (100 - GET_AC(tch)) */ ;
 
         if(IS_CASTER(tch))
           t_tend += GET_LEVEL(ch);
@@ -6516,7 +6600,7 @@ void MobCombat(P_char ch)
     return;
   }
   
-  if(!MIN_POS(ch, POS_STANDING + STAT_NORMAL) && !number(0, 1))
+  if(!MIN_POS(ch, POS_STANDING + STAT_NORMAL))
   {
     do_stand(ch, 0, 0);
   }
@@ -7018,20 +7102,13 @@ void MobStartFight(P_char ch, P_char vict)
     backstab(ch, vict);
     return;
   }
-  if(!fudge_flag && 
-     GET_CLASS(ch, CLASS_WARRIOR) && 
-     has_innate(ch, INNATE_BODYSLAM) &&
-     GET_POS(vict) == POS_STANDING && 
-     get_takedown_size(ch) <= get_takedown_size(vict) + 1 &&
-     get_takedown_size(ch) >= get_takedown_size(vict) - 2 && 
-     !IS_BACKRANKED(vict) &&
-     !number(0, 3) && 
-     HAS_FOOTING(ch)) 
-  {
+  if(!fudge_flag && GET_CLASS(ch, CLASS_WARRIOR) && has_innate(ch, INNATE_BODYSLAM) &&
+      GET_POS(vict) == POS_STANDING && get_takedown_size(ch) <= get_takedown_size(vict)+1 &&
+      get_takedown_size(ch) >= get_takedown_size(vict) - 2 && !IS_BACKRANKED(vict) &&
+      !number(0,3) && HAS_FOOTING(ch)) {
     bodyslam(ch, vict);
     return;
   }
-
   if(ch &&
     vict &&
     !fudge_flag &&
@@ -7043,7 +7120,13 @@ void MobStartFight(P_char ch, P_char vict)
     !number(0, 2))
   {
     bash(ch, vict);
-    if(ch->specials.fighting)
+    if(ch->specials.fighting)  /*
+                                 * * * Due to certain cleverness in * * bash
+                                 * (if not likely to * succeed,  * mob
+                                 doesn't)  *  *  * return  * only if * bashed
+                                 (success/fail,  *  *  *  * matters * not)
+
+                                 */
       return;
   }
   /*
@@ -7178,7 +7261,7 @@ int RateObject(P_char ch, int a, P_obj obj)
        * :)
        */
     case APPLY_HIT:
-      value += 400 * obj->affected[tmp].modifier / (GET_MAX_HIT(ch) + 1);
+      value += 400 * obj->affected[tmp].modifier / GET_MAX_HIT(ch);
       break;
     case APPLY_SAVING_PARA:
     case APPLY_SAVING_ROD:
@@ -7753,6 +7836,7 @@ PROFILE_END(mundane_wagon);
   // TODO: make it dependent on room fighting flag -Odorf
 PROFILE_START(mundane_wakeup);
   if((GET_STAT(ch) == STAT_SLEEPING) && !ALONE(ch) &&
+      /*(ch->in_room != NOWHERE) && - included in ALONE macro -Odorf */
       !IS_SET(world[ch->in_room].room_flags, ROOM_SILENT) &&
       !IS_AFFECTED(ch, AFF_SLEEP) && !IS_AFFECTED(ch, AFF_KNOCKED_OUT))
   { // 1.3%
@@ -7771,11 +7855,11 @@ PROFILE_END(mundane_wakeup);
 
 
 PROFILE_START(mundane_justice);
-  if(IS_SET(ch->specials.act, ACT_PROTECTOR))
-    if(JusticeGuardAct(ch))  // Justice hook.
-    {// 0%
-      goto normal;
-    }
+  if(JusticeGuardAct(ch))  // Justice hook.
+  {// 0%
+PROFILE_END(mundane_justice);
+    goto normal;
+  }
 PROFILE_END(mundane_justice);
 
 PROFILE_START(mundane_commune);
@@ -8045,7 +8129,8 @@ PROFILE_START(mundane_picktarget);
 	 has_innate(tmp_ch, INNATE_CALMING))
         calming = (int)get_property("innate.calming.delay", 10);
 
-    add_event(event_agg_attack, 1 + calming, ch, tmp_ch, 0, 0, 0, 0);
+    add_event(event_agg_attack, 1 + calming,
+	  ch, tmp_ch, 0, 0, 0, 0);
 PROFILE_END(mundane_picktarget);
     goto normal;
   }
@@ -8066,9 +8151,9 @@ PROFILE_START(mundane_attack);
         (GET_MASTER(tmp_ch)->in_room == ch->in_room) &&
         CAN_SEE(ch, GET_MASTER(tmp_ch)) && StatSave(ch, APPLY_INT, 0))
     {
+
       /* * switch targets (if we can) */
-      attack(ch, GET_MASTER(tmp_ch));  // why would we continue to attack the pet if we don't have to?  Changing to
-                                       // master - Jexni 12/17/11
+      attack(ch, tmp_ch);
 PROFILE_END(mundane_attack);
       goto normal;
     }
@@ -8104,11 +8189,11 @@ PROFILE_START(mundane_assist);
   {
     for (door = 0; door < NUM_EXITS; door++)
     {
-      if(CAN_GO(ch, door) && 
-        // !IS_SET(world[EXIT(ch, door)->to_room].room_flags, NO_MOB) &&  commented out for wipe2011
+      if(CAN_GO(ch, door) && !IS_SET(world[EXIT(ch, door)->to_room].room_flags, NO_MOB) &&
         (world[EXIT(ch, door)->to_room].zone == world[ch->in_room].zone) &&
         !IS_SET(zone_table[world[EXIT(ch, door)->to_room].zone].flags, ZONE_SILENT) &&
-        !IS_SET(world[EXIT(ch, door)->to_room].room_flags, ROOM_SILENT))
+        !IS_SET(world[EXIT(ch, door)->to_room].room_flags, ROOM_SILENT)
+        /* &&!IS_SET(world[EXIT(ch, door)->to_room].room_flags, MAGIC_DARK) */)
       {
         P_char next;
         for (tmp_ch = world[EXIT(ch, door)->to_room].people; tmp_ch;
@@ -8120,7 +8205,7 @@ PROFILE_START(mundane_assist);
           {
             ch->only.npc->last_direction = door;
             do_move(ch, 0, exitnumb_to_cmd(door));
-            REMOVE_BIT(ch->specials.act2, ACT2_COMBAT_NEARBY);
+            REMOVE_BIT(ch->specials.act2, ACT2_COMBAT_NEARBY );
 PROFILE_END(mundane_assist);
             goto normal;
           }
@@ -9257,7 +9342,7 @@ bool InitNewMobHunt(P_char ch)
   if(!ch)
   {
     logit(LOG_EXIT, "InitNewMobHunt called with null ch");
-    raise(SIGSEGV);
+    raise(SIGSEGV);;
   }
   if(IS_PC(ch))
     return FALSE;
@@ -9318,6 +9403,8 @@ bool InitNewMobHunt(P_char ch)
         data.hunt_type = HUNT_HUNTER;
         data.targ.victim = tmpch;
         add_event(mob_hunt_event, PULSE_MOB_HUNT, ch, NULL, NULL, 0, &data, sizeof(hunt_data));
+        
+        //AddEvent(EVENT_MOB_HUNT, PULSE_MOB_HUNT, TRUE, ch, data);
         return TRUE;
       }
     }
@@ -9331,7 +9418,7 @@ bool InitNewMobHunt(P_char ch)
 }
 
 /*
- * mob_hunt_event.  This will only be called from an event. InitNewMobHunt
+ * NewMobHunt.  This will only be called from an event. InitNewMobHunt
  * will setup the first EVENT_MOB_HUNT, and this code will deal with the
  * events (which should occur at PULSE_MOB_HUNT). Basically, just move the
  * mob one step closer to  the victim.  If Dimdoor is available, use it.
@@ -9341,6 +9428,7 @@ bool InitNewMobHunt(P_char ch)
  * TRUE if I did something, otherwise, FALSE
  */
 void mob_hunt_event(P_char ch, P_char victim, P_obj obj, void *d)
+//bool NewMobHunt(void)
 {
   char     buf[MAX_STRING_LENGTH];
   byte     next_step;
@@ -9711,8 +9799,7 @@ void mob_hunt_event(P_char ch, P_char victim, P_obj obj, void *d)
       if(vict)
       {
         if(world[cur_room].zone == world[vict->in_room].zone &&
-           npc_has_spell_slot(ch, SPELL_DIMENSION_DOOR)
-           && ch->followers == NULL)
+           npc_has_spell_slot(ch, SPELL_DIMENSION_DOOR))
         {
           MobCastSpell(ch, vict, 0, SPELL_DIMENSION_DOOR, GET_LEVEL(ch));
           add_event(mob_hunt_event, PULSE_MOB_HUNT, ch, NULL, NULL, 0,
@@ -9920,7 +10007,8 @@ P_char find_protector_target(P_char ch)
   unsigned best_value = 0;      /* value for the best yet found target */
   unsigned cur_val;             /* value for currently examining
                                    target */
-  int      is_guard = TRUE;    /* set to TRUE for all guards for wipe2011 */
+  int      is_guard = FALSE;    /* set to TRUE if ch is a justice
+                                   guard */
 
   if(!ch || IS_FIGHTING(ch) || !CAN_ACT(ch) || ALONE(ch) || GET_MASTER(ch))
     return NULL;
@@ -9961,6 +10049,7 @@ P_char find_protector_target(P_char ch)
     /* special handling for guild golems */
     if(GET_A_NUM(ch))
     {
+
       /* golems ALWAYS kill enemies */
       if(find_enemy(vict, (ush_int) GET_A_NUM(ch)))
         cur_val |= BIT_30;
@@ -9973,6 +10062,7 @@ P_char find_protector_target(P_char ch)
     /* now it splits, depending on if its justice related or not.. */
     if(is_guard && (IS_NPC(t_ch) || IS_NPC(vict)) && !IS_ANIMAL(vict))
     {
+
       /* if this is the same race as me (but the person they are
          fighting isn't) */
       if((GET_RACE(t_ch) == GET_RACE(ch)) &&
@@ -9985,6 +10075,7 @@ P_char find_protector_target(P_char ch)
 
       if(IS_EVIL(ch) && IS_EVIL(t_ch) && !IS_EVIL(vict))
         cur_val |= BIT_20;
+
     }
 
     if(IS_PC(vict) && IS_NPC(t_ch))
@@ -10011,7 +10102,7 @@ P_char find_protector_target(P_char ch)
 
 void MobRetaliateRange(P_char ch, P_char vict)
 {
-  char result;
+  char /*buf[MAX_INPUT_LENGTH], */ result;
   P_nevent  ev = NULL;
   int      dummy;
   hunt_data data;
@@ -10048,6 +10139,7 @@ void MobRetaliateRange(P_char ch, P_char vict)
   if(IS_CASTING(ch))
     if(is_casting_aggr_spell(ch))
     {
+/*      wizlog(56,"We've just detected an aggro spell being cast and thus do not break spellcasting upon being ranged.");*/
       return;
     }
     else if(IS_FIGHTING(ch))
@@ -10069,15 +10161,16 @@ void MobRetaliateRange(P_char ch, P_char vict)
     }
     else if(IS_PC_PET(vict) && CAN_SEE(ch, GET_MASTER(vict)))
     {
-      if(!(IS_TRUSTED(GET_MASTER(vict)) &&
-          IS_SET(GET_MASTER(vict)->specials.act, PLR_AGGIMMUNE)))
-         if((GET_STAT(ch) > STAT_INCAP))
-            remember(ch, GET_MASTER(vict));
+      if(!
+          (IS_TRUSTED(GET_MASTER(vict)) &&
+           IS_SET(GET_MASTER(vict)->specials.act, PLR_AGGIMMUNE)))
+        if((GET_STAT(ch) > STAT_INCAP))
+          remember(ch, GET_MASTER(vict));
     }
   }
   /* A few guaranteed calls */
-
-  if(CAN_BREATHE(ch))
+#if 0
+  if( /*IS_DRAGON(ch) */ CAN_BREATHE(ch))
   {
 
     /* if there's an error..  exit the function */
@@ -10088,8 +10181,9 @@ void MobRetaliateRange(P_char ch, P_char vict)
     else
       return;
   }
-
+#endif // no range breath anymore, circling that really sucks
   /* Higher wimpy set, as they know its tough to charge into an arrow */
+
   if(AWAKE(ch) && CAN_ACT(ch) && !IS_STUNNED(ch))
     if(IS_SET(ch->specials.act, ACT_WIMPY) &&
         (GET_HIT(ch) < (GET_LEVEL(ch) * 6)) &&
@@ -10097,8 +10191,10 @@ void MobRetaliateRange(P_char ch, P_char vict)
       do_flee(ch, 0, 0);
 
   /* Next group will handle situation on their own */
+
   if(!mob_can_range_att(ch, vict) && !IS_SET(ch->specials.act2, ACT2_NO_LURE))
   {
+
     /* try to charge them */
 
     /* Are they hunting already? */
@@ -10109,12 +10205,15 @@ void MobRetaliateRange(P_char ch, P_char vict)
 
     /* Can they even get there? (rivers, etc) */
     if(find_first_step(ch->in_room, vict->in_room,
-       (IS_MAGE(ch) || IS_AFFECTED(ch, AFF_FLY)) ? BFS_CAN_FLY : 0, 0, 0, &dummy) >= 0)
+                        (IS_MAGE(ch) || IS_AFFECTED(ch, AFF_FLY)) ? BFS_CAN_FLY : 0,
+                        0, 0, &dummy)
+        >= 0)
     {
       data.hunt_type = HUNT_JUSTICE_INVADER;
       data.targ.victim = vict;
       data.huntFlags = (IS_MAGE(ch) || IS_AFFECTED(ch, AFF_FLY)) ? BFS_CAN_FLY : 0;
       add_event(mob_hunt_event, PULSE_MOB_HUNT, ch, NULL, NULL, 0, &data, sizeof(hunt_data));
+      //AddEvent(EVENT_MOB_HUNT, PULSE_MOB_HUNT, TRUE, ch, data);
       add_event(return_home, 30, ch, 0, 0, 0, 0, 0);
       return;
     }
@@ -10200,6 +10299,7 @@ void remember(P_char ch, P_char victim, bool check_group_remember)
 void forget(P_char ch, P_char victim)
 {
   Memory  *curr, *prev = NULL;
+
 
   if(!IS_NPC(ch))
     return;
@@ -10296,8 +10396,7 @@ void event_agg_attack(P_char ch, P_char victim, P_obj obj, void *data)
     return;
   }
   
-  if(ch->specials.z_cord != victim->specials.z_cord ||
-     (IS_AFFECTED(victim, AFF_SNEAK) && !number(0, 2)))
+  if(ch->specials.z_cord != victim->specials.z_cord)
   {
     return;
   }
@@ -10379,18 +10478,15 @@ void event_agg_attack(P_char ch, P_char victim, P_obj obj, void *data)
       return;                   /* damn, missed again */
     }
     
-    // target ran by, chase...
     for(door = 0; door < NUM_EXITS; door++)
-    {
-       if(CAN_GO(ch, door) &&
-         (victim->in_room == EXIT(ch, door)->to_room) &&
-          CAN_SEE(ch, victim))
-       {
-         do_move(ch, 0, exitnumb_to_cmd(door));
-         add_event(event_agg_attack, 2, ch, victim, 0, 0, 0, 0);
-         return;
-       }
-    }
+      if(CAN_GO(ch, door) &&
+        (victim->in_room == EXIT(ch, door)->to_room) &&
+        CAN_SEE(ch, victim))
+      {
+        do_move(ch, 0, exitnumb_to_cmd(door));
+        add_event(event_agg_attack, 1, ch, victim, 0, 0, 0, 0);
+        return;
+      }
   }
 }
 
@@ -10517,21 +10613,19 @@ int empty_slot_for_weapon(P_char ch)
 
 void give_proper_stat(P_char ch)
 {
-  int mod = 40 + (GET_LEVEL(ch));
-  if(ch->base_stats.Str < mod)
-    ch->base_stats.Str = number(GET_LEVEL(ch), mod);
-  if(ch->base_stats.Dex < mod)
-    ch->base_stats.Dex = number(GET_LEVEL(ch), mod);
-  if(ch->base_stats.Int < mod)
-    ch->base_stats.Int = number(GET_LEVEL(ch), mod);
-  if(ch->base_stats.Wis < mod)
-    ch->base_stats.Wis = number(GET_LEVEL(ch), mod);
-  if(ch->base_stats.Agi < mod)
-    ch->base_stats.Agi = number(GET_LEVEL(ch), mod);
-  if(ch->base_stats.Con < mod)
-    ch->base_stats.Con = number(GET_LEVEL(ch), mod);
-  if(ch->base_stats.Pow < mod)
-    ch->base_stats.Pow = number(GET_LEVEL(ch), mod);
+  if(ch->base_stats.Str < 80)
+    ch->base_stats.Str = number(80, 100);
+  if(ch->base_stats.Dex < 80)
+    ch->base_stats.Dex = number(80, 100);
+  if(ch->base_stats.Int < 80)
+    ch->base_stats.Int = number(80, 100);
+  if(ch->base_stats.Wis < 80)
+    ch->base_stats.Wis = number(80, 100);
+  if(ch->base_stats.Agi < 80)
+    ch->base_stats.Agi = number(80, 100);
+  if(ch->base_stats.Con < 80)
+    ch->base_stats.Con = number(80, 100);
+
   affect_total(ch, FALSE);
 }
 

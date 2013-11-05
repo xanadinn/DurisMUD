@@ -80,13 +80,15 @@ void     demote_skillpoints( P_char ch );
 /* * When age >= 80 return the value p6 */
 
 
-int graf(P_char ch, int t_age, int p0, int p1, int p2, int p3, int p4, int p5, int p6)
+int graf(P_char ch, int t_age,
+         int p0, int p1, int p2, int p3, int p4, int p5, int p6)
 {
   int      a = 17;
 
   if (!t_age)
     t_age = p0;                 /* Somehow, we are occasionally passed an age of 0,
                                    which crashes us. This _might_ fix. */
+
   if (IS_PC(ch))
     a = racial_data[(int) GET_RACE(ch)].base_age;
 
@@ -227,18 +229,16 @@ int hit_regen(P_char ch)
 
   if (GET_HIT(ch) > GET_MAX_HIT(ch))
   {
-    gain = (int) (GET_MAX_HIT(ch) - GET_HIT(ch)) / 7; // degeneration quicker for wipe2011
+    gain = (int) (GET_MAX_HIT(ch) - GET_HIT(ch)) / 10;
     return MIN(-1, gain);
   }
-
   if (IS_NPC(ch))
   {
-    gain = GET_LEVEL(ch) / 4;
+    gain = 14;
   }
   else
   {
-      gain = 75 - GET_LEVEL(ch); // wipe2011, fuck age!
-   // gain = graf(ch, age(ch).year, 16, 15, 14, 13, 11, 9, 6);
+    gain = graf(ch, age(ch).year, 16, 15, 14, 13, 11, 9, 6);
   }
 
   /* * Position calculations    */
@@ -264,23 +264,23 @@ int hit_regen(P_char ch)
   switch (GET_POS(ch))
   {
   case POS_PRONE:
-    gain += (gain < 0) ? (-(gain >> 1)) : (gain >> 1);  /* * 150% changed from (2) 125% for wipe2011*/
+    gain += (gain < 0) ? (-(gain >> 2)) : (gain >> 2);  /* * 125% */
     break;
   case POS_KNEELING:
     gain += (gain < 0) ? (-(gain >> 4)) : (gain >> 4);  /* * 106% */
     break;
   case POS_SITTING:
-    gain += (gain < 0) ? (-(gain >> 2)) : (gain >> 2);  /* * 125% changed from (3) 112% for wipe2011*/
+    gain += (gain < 0) ? (-(gain >> 3)) : (gain >> 3);  /* * 113% */
     break;
   }
 
   if (GET_COND(ch, FULL) == 0)
-    gain >> 1;
+    gain >>= 1;
   if (GET_COND(ch, THIRST) == 0)
-    gain >> 1;
+    gain >>= 1;
 
   if (CHAR_IN_HEAL_ROOM(ch) && (GET_STAT(ch) >= STAT_SLEEPING))
-    gain << 1;
+    gain += GET_LEVEL(ch) * 2;
 
   gain += ch->points.hit_reg;
 
@@ -293,7 +293,7 @@ int hit_regen(P_char ch)
     gain += get_innate_regeneration(ch);
 
   if (IS_AFFECTED4(ch, AFF4_TUPOR))
-    gain += (gain < 0) ? (-(gain >> 4)) : (gain >> 4);
+    gain += (int) (GET_LEVEL(ch) * 3.5);
 
   if (CHAR_IN_NO_HEAL_ROOM(ch) && gain > 0)
     gain = 0;
@@ -301,38 +301,25 @@ int hit_regen(P_char ch)
   if (gain == 0 && GET_STAT(ch) < STAT_SLEEPING)
     gain = -1;
 
-  if(IS_FIGHTING(ch))
+  if (IS_FIGHTING(ch))
   {
     for (af = ch->affected; af; af = af->next)
       if (af->bitvector4 & AFF4_REGENERATION)
         break;
     if (af)
       ;
-<<<<<<< HEAD
-    else if(IS_AFFECTED4(ch, AFF4_REGENERATION))
-      if(GET_RACE(ch) == RACE_TROLL)
-        gain += 6;
-      else
-        gain >> 1;
-=======
     else if (IS_AFFECTED4(ch, AFF4_REGENERATION))
       gain >>= 1;
     else if (has_innate(ch, INNATE_WOODLAND_RENEWAL) && (world[ch->in_room].sector_type == SECT_FOREST)) //can regen in battle in forest - Drannak
 	gain >>= 1;
->>>>>>> master
     else
       gain = 0;
   }
 
   
   if (has_innate(ch, INNATE_VULN_SUN) && IS_SUNLIT(ch->in_room) &&
-<<<<<<< HEAD
-     !IS_TWILIGHT_ROOM(ch->in_room))
-    gain = -5; // wipe2011, was 0
-=======
      !IS_TWILIGHT_ROOM(ch->in_room) && !IS_AFFECTED4(ch, AFF4_GLOBE_OF_DARKNESS))
     gain = 0;
->>>>>>> master
 
   if (IS_AFFECTED3(ch, AFF3_SWIMMING) || IS_AFFECTED2(ch, AFF2_HOLDING_BREATH)
       || IS_AFFECTED2(ch, AFF2_IS_DROWNING))
@@ -374,24 +361,17 @@ int move_regen(P_char ch)
   
   if(IS_NPC(ch) || IS_UNDEADRACE(ch) || IS_ANGEL(ch))
   {
-     if(has_innate(ch, INNATE_HORSE_BODY))
-       gain = 35;
-     else
-       gain = 18;
+    gain = 22;
   }
   else
   {
-    //gain = graf(ch, age(ch).year, 14, 20, 20, 16, 14, 12, 11);
-    gain = 14;
+    gain = graf(ch, age(ch).year, 14, 20, 20, 16, 14, 12, 11);
   }
 
-  if(IS_PC(ch))
-  {
-    if (GET_COND(ch, FULL) == 0)
-      gain /= 1.250;
-    if (GET_COND(ch, THIRST) == 0)
-      gain /= 1.250;
-  }
+  if (GET_COND(ch, FULL) == 0)
+    gain /= 1.250;
+  if (GET_COND(ch, THIRST) == 0)
+    gain /= 1.250;
 
   /*
    * Position calculations
@@ -431,7 +411,7 @@ int move_regen(P_char ch)
 
   if(gain > 0 &&
     IS_AFFECTED4(ch, AFF4_TUPOR))
-      gain += 14;
+      gain += 20;
  
   gain += (int)((float)gain * get_epic_bonus(ch, EPIC_BONUS_MOVES));
 
@@ -443,7 +423,10 @@ int move_regen(P_char ch)
    */
 
   if (endurance > 0)
-    gain += (endurance / 15);
+    gain += (endurance / 10);
+
+  if (GET_RACE(ch) == RACE_QUADRUPED)
+    gain += (number(0, 6));
 
   return (int) (gain * gain / 5);
 }
@@ -583,60 +566,25 @@ void illithid_advance_level(P_char ch)
   for (i = GET_LEVEL(ch) + 1; i > minlvl && (new_exp_table[i] <= GET_EXP(ch)); i++)
   {
     GET_EXP(ch) -= new_exp_table[i];
-    advance_level(ch, FALSE);
+    advance_level(ch);
   }
 }
 
-bool check_advancement(P_char ch)
+void advance_level(P_char ch)
 {
-  char buf[256], buf2[256];
-  bool tf = FALSE;
-  if(GET_LEVEL(ch) + 1 < 46)
-  {
-    tf = TRUE;
-    return tf;
-  }
-  sprintf(buf, "epic.forLevel.%d", GET_LEVEL(ch) + 1);
-  sprintf(buf2, "frag.required.%d", GET_LEVEL(ch) + 1);
-  int epics_for_level = get_property(buf, 1 << ((GET_LEVEL(ch) + 1) - 43));
-  int frags_for_level = get_property(buf2, 1 << ((GET_LEVEL(ch) + 1) - 43));
-  if(GET_EXP(ch) >= new_exp_table[GET_LEVEL(ch) + 1] &&
-         ch->only.pc->epics >= epics_for_level &&
-         ch->only.pc->frags >= frags_for_level)
-  {
-     tf = TRUE;
-  }
-  else
-  {
-     send_to_char("Though your experience is great, it alone is insufficient for advancement...", ch);
-     if(frags_for_level > ch->only.pc->frags)
-        send_to_char("You need more frags to advance.", ch);
-     if(epics_for_level > ch->only.pc->epics)
-        send_to_char("You need more epics to advance.", ch);
-     tf = FALSE;
-  }
-
-  return tf;
-}
-    
-void advance_level(P_char ch, bool bypass)
-{
-  if(!bypass)
-  {
-    if(!check_advancement(ch))
-      return;
-  }
-
+/*  struct time_info_data playing_time;*/
   int      add_mana = 0, i;
   int      prestige = 100;
+  /* level normally, please
+   *
+   *
+ ///TODO CODE THIS PIECE OF MASTER    */
 
-  GET_EXP(ch) -= new_exp_table[GET_LEVEL(ch) + 1];
-  if(ch->player.level > 44)
-    wizlog(56, "%s has attained epic level &+W%d&n!", GET_NAME(ch), GET_LEVEL(ch));
+  
   ch->player.level++;
   sql_update_level(ch);
 
-  if(GET_LEVEL(ch) > 1)
+  if( GET_LEVEL(ch) > 1 )
   {
     sql_log(ch, PLAYERLOG, "Advanced to level %d", GET_LEVEL(ch)); 
   }
@@ -647,7 +595,7 @@ void advance_level(P_char ch, bool bypass)
   logit(LOG_LEVEL, "Level %2d: %s", GET_LEVEL(ch), GET_NAME(ch));
   ch->only.pc->prestige++;
 
-  if(IS_PC(ch) && 
+  if( IS_PC(ch) && 
      GET_A_NUM(ch) && 
      ch->only.pc->highest_level < GET_LEVEL(ch) &&
      ch->group )
@@ -676,41 +624,33 @@ void advance_level(P_char ch, bool bypass)
   update_skills(ch);
 #endif
 
-<<<<<<< HEAD
-  if(GET_LEVEL(ch) == 21 && !IS_NEWBIE(ch)) 
-  {
-=======
   update_racial_skills(ch);
 
 /*
   if (GET_LEVEL(ch) == 21 && !IS_NEWBIE(ch) ) {
->>>>>>> master
     REMOVE_BIT(ch->specials.act2, PLR2_NCHAT);
   }*/
 
-  if(GET_LEVEL(ch) == 35) 
-  {
+  if (GET_LEVEL(ch) == 35) {
     REMOVE_BIT(ch->specials.act2, PLR2_NEWBIE);
  //   REMOVE_BIT(ch->specials.act2, PLR2_NCHAT);
   }
 
-  if(IS_PC(ch) && IS_GITHYANKI(ch) && (GET_LEVEL(ch) == 50) &&
+  if (IS_PC(ch) && IS_GITHYANKI(ch) && (GET_LEVEL(ch) == 50) &&
       (ch->only.pc->highest_level < 50))
     githyanki_weapon(ch);
 
-  if(IS_PC(ch) && (ch->only.pc->highest_level < GET_LEVEL(ch)))
+  if (IS_PC(ch) && (ch->only.pc->highest_level < GET_LEVEL(ch)))
     ch->only.pc->highest_level = GET_LEVEL(ch);
 
-<<<<<<< HEAD
-  if(GET_LEVEL(ch) == get_property("exp.maxExpLevel", 45)) {
-=======
   if ((GET_LEVEL(ch) == get_property("exp.maxExpLevel", 45)) && !IS_HARDCORE(ch) && (!GET_RACE(ch) == RACE_PLICH)) {
->>>>>>> master
     char buf[512];
     sprintf(buf, 
-        "You have gained a considerable amount of knowledge and experience, however",
-        "from this day forward, your progression will require even greater amounts",
-        "of determination and knowledge-seeking.  The Gods will be watching...",
+        "You are now level %d and are considered among "
+        "the high level adventurers\n"
+        "of Duris!  The path now set before you is a difficult one, "
+        "as you must now\n"
+        "battle the higher forces of the realms to further your conquest!\n",
         get_property("exp.maxExpLevel", 45));
     send_to_char(buf, ch);
   }
@@ -719,16 +659,16 @@ void advance_level(P_char ch, bool bypass)
    * hitpoint gain
    */
 
-  if(GET_LEVEL(ch) < 26)
+  if (GET_LEVEL(ch) < 26)
   {
-    ch->points.base_hit += (IS_ILLITHID(ch) ? 0 :number(3, 3)); // no more hp loss for losing level
-    ch->points.base_mana += number(0, 3);                       // - Jexni 1/4/12
+    ch->points.base_hit += (IS_ILLITHID(ch) ? 0 :number(0, 3));
+    ch->points.base_mana += number(0, 3);
   }
 
-  if(GET_HIT(ch) > GET_MAX_HIT(ch))
+  if (GET_HIT(ch) > GET_MAX_HIT(ch))
     GET_HIT(ch) = GET_MAX_HIT(ch);
 
-  if(GET_LEVEL(ch) > 56)
+  if (GET_LEVEL(ch) > 56)
     for (i = 0; i < 3; i++)
       ch->specials.conditions[i] = -1;
 
@@ -806,10 +746,7 @@ void display_gain(P_char ch, int gain)
 
   for (tch = world[ch->in_room].people; tch; tch = tch->next_in_room)
   {
-    if(!IS_ALIVE(tch))
-      continue;
-
-    if(IS_TRUSTED(tch) && IS_SET(tch->specials.act2, PLR2_EXP))
+    if (IS_TRUSTED(tch) && IS_SET(tch->specials.act2, PLR2_EXP))
     {
       send_to_char(buffer, tch);
     }
@@ -874,8 +811,8 @@ float gain_exp_modifiers(P_char ch, P_char victim, float XP)
       !IS_PC(victim))
     {
       XP = XP * get_property("gain.exp.mod.victim.location.hometown", 1.00);
-      if(!number(0, 100)) // Limit the spam
-        send_to_char("&+gThis being a hometown, you receive less experience...\r\n", ch);
+      if(!number(0, 49)) // Limit the spam
+        send_to_char("&+gThis being a hometown, you receive fewer exps...&n\r\n", ch);
     } 
       
     if(!IS_MULTICLASS_NPC(victim) &&
@@ -934,7 +871,8 @@ float gain_exp_modifiers(P_char ch, P_char victim, float XP)
       XP = XP * get_property("gain.exp.mod.victim.act.aggro", 1.25);
     }
     
-    if(CAN_BREATHE(victim) && !IS_DRAGON(victim))
+    // Careful with the breath modifier since many greater race mobs have a breathe weapon.
+    if(CAN_BREATHE(victim))
     {
       XP = XP * get_property("gain.exp.mod.victim.ability.breath.weapon", 1.00);
     }
@@ -999,6 +937,8 @@ float gain_exp_modifiers(P_char ch, P_char victim, float XP)
   if(GET_LEVEL(ch) >= 55)
     XP = XP * get_property("gain.exp.mod.player.level.fiftyfive", 1.000);    
 
+// debug("Gain exps mofidiers (%d).", (int)XP);
+
   return XP;
 }
 
@@ -1019,39 +959,31 @@ int exp_mod(P_char k, P_char victim)
 {
   int      diff, mod;
 
-  // Changed parameters here to better define leveling requirements.
-  // Reducing experience from a mob that already gives none is stupid
-  // and frustrates people.  They should always be gaining something for
-  // playing, even if it's very little, not 0.  The higher end modifiers
-  // have been adjusted as well to give diminished gains for obviously
-  // "powerkilled" mobs.  This should work as a better stopgap for
-  // powerleveling.  - Jexni 9/9/11
-
   diff = GET_LEVEL(k) - GET_LEVEL(victim);
   if (diff > 40)
-    mod = 25;
+    mod = 1;
   else if (diff > 30)           /* 31+    */
-    mod = 25;
+    mod = 3;
   else if (diff > 20)           /* 21-30    */
-    mod = 25;
+    mod = 10;
   else if (diff > 15)           /* 16-20    */
-    mod = 25;
+    mod = 20;
   else if (diff > 10)           /* 11-15    */
     mod = 30;
   else if (diff > 5)            /* 6-10    */
     mod = 55;
   else if (diff > 2)            /* 3-5    */
-    mod = 95;
+    mod = 90;
   else if (diff >= 0)           /* 0-2    */
     mod = 100;
   else if (diff > -3)           /* -2 - 1    */
-    mod = 105;
-  else if (diff > -6)           /* -6 - -3    */
-    mod = 110;
-  else if (diff > -10)           /* -9 - -6    */
     mod = 120;
-  else if (diff > -15)          /* -14 - -10    */
+  else if (diff > -6)           /* -6 - -3    */
+    mod = 125;
+  else if (diff > -10)           /* -9 - -6    */
     mod = 130;
+  else if (diff > -15)          /* -14 - -10    */
+    mod = 135;
   else if (diff > -20)          /* -19 - -15    */
     mod = 140;
   else                          /* < -20 */
@@ -1078,7 +1010,7 @@ int gain_exp(P_char ch, P_char victim, const int value, int type)
   {
     return 0;
   }
-
+// debug("check 1 exp (%d:%d).", type, value);  
   if(GET_LEVEL(ch) >= MINLVLIMMORTAL ||
      CHAR_IN_ARENA(ch) ||
      IS_SET(world[ch->in_room].room_flags, GUILD_ROOM | SAFE_ZONE))
@@ -1113,6 +1045,7 @@ int gain_exp(P_char ch, P_char victim, const int value, int type)
   }
   
   float XP = MAX(1, value);
+// debug("check 2 xp (%d)", (int)XP);  
   if(type == EXP_RESURRECT)
   {
     ;
@@ -1121,11 +1054,13 @@ int gain_exp(P_char ch, P_char victim, const int value, int type)
   {
     if(ch == victim)
     {
+// debug("Damage to self exp gain returning 0", XP);
       return 0;
     }
     
     if(IS_PC(ch) && IS_PC(victim))
     {
+// debug("Pvp damage exp returning 0", XP);
       return 0;
     }
 
@@ -1146,12 +1081,19 @@ int gain_exp(P_char ch, P_char victim, const int value, int type)
     }
 
     XP = XP * get_property("exp.factor.damage", 1.00);
+// debug("damage 1 exp gain (%d)", (int)XP);    
     XP = gain_global_exp_modifiers(ch, XP);
-    XP = XP * exp_mod(ch, victim) / 100;    
-    XP = modify_exp_by_zone_trophy(ch, type, XP);    
+// debug("damage 2 exp gain (%d)", (int)XP);    
+    XP = XP * exp_mod(ch, victim) / 100;
+// debug("damage 3 exp gain (%d)", (int)XP);    
+    XP = modify_exp_by_zone_trophy(ch, type, XP);
+// debug("damage 4 exp gain (%d)", (int)XP);    
     XP = gain_exp_modifiers(ch, victim, XP);
-    XP = gain_exp_modifiers_race_only(ch, victim, XP);    
+// debug("damage 5 exp gain (%d)", (int)XP);    
+    XP = gain_exp_modifiers_race_only(ch, victim, XP);
+// debug("damage 6 exp gain (%d)", (int)XP);    
     XP = check_nexus_bonus(ch, (int)XP, NEXUS_BONUS_EXP);
+// debug("damage 7 exp gain (%d)", (int)XP);
     XP = XP + (int)((float)XP * get_epic_bonus(ch, EPIC_BONUS_EXP));
   }
   else if(type == EXP_HEALING)
@@ -1175,22 +1117,31 @@ int gain_exp(P_char ch, P_char victim, const int value, int type)
     XP = ((XP + 10) / 5) * ((GET_LEVEL(ch) + GET_LEVEL(victim)) / 2);
     XP = XP * get_property("exp.factor.healing", 1.00);
 
+// debug("healing 1 (%d)", (int)XP);
     if(!GET_CLASS(ch, CLASS_CLERIC) &&
        !GET_SPEC(ch, CLASS_SHAMAN, SPEC_SPIRITUALIST))
     {
       XP = XP * get_property("exp.factor.healing.class.penalty", 0.50);
     }
     
+// debug("healing 2 (%d)", (int)XP);
     if(IS_NPC(victim))
       XP /= 2;
     if(ch == victim)
       XP = XP / 2;
+// debug("healing 3 (%d)", (int)XP);
     XP = gain_global_exp_modifiers(ch, XP);
+// debug("healing 4 (%d)", (int)XP);
     XP = XP * exp_mod(ch, attacker) / 100;
+// debug("healing 5 (%d)", (int)XP);
     XP = modify_exp_by_zone_trophy(ch, type, XP);
+// debug("healing 6 (%d)", (int)XP);
     XP = gain_exp_modifiers(ch, attacker, XP);
+// debug("healing 7 (%d)", (int)XP);
     XP = gain_exp_modifiers_race_only(ch, attacker, XP);
+// debug("healing 8 (%d)", (int)XP);
     XP = check_nexus_bonus(ch, (int)XP, NEXUS_BONUS_EXP);
+// debug("healing 9 (%d)", (int)XP);
   }
   else if(type == EXP_TANKING)
   {
@@ -1212,30 +1163,49 @@ int gain_exp(P_char ch, P_char victim, const int value, int type)
         return 0;
 
     XP = XP * get_property("exp.factor.tanking", 1.00);
+// debug("tanking 1 (%d)", (int)XP);
     XP = gain_global_exp_modifiers(ch, XP);
+// debug("tanking 2 (%d)", (int)XP);
     XP = XP * exp_mod(ch, victim) / 100;
+// debug("tanking 3 (%d)", (int)XP);
     XP = modify_exp_by_zone_trophy(ch, type, XP);
+// debug("tanking 4 (%d)", (int)XP);
     XP = gain_exp_modifiers(ch, victim, XP);
+// debug("tanking 5 (%d)", (int)XP);
     XP = gain_exp_modifiers_race_only(ch, victim, XP);
+// debug("tanking 6 (%d)", (int)XP);
     XP = check_nexus_bonus(ch, (int)XP, NEXUS_BONUS_EXP); 
+// debug("tanking 7 (%d)", (int)XP);
   }  
   else if(type == EXP_MELEE)
   {
     if(ch == victim)
     {
+// debug("Self-melee returning 0");      
       return 0;
     }
     if(IS_PC(ch) && IS_PC(victim) && !(pvp)) // Do not provide exps to same side combat melee exps.
     {
+// debug("Same side melee returning 0");      
       return 0;
     }
-    XP = XP * get_property("exp.factor.melee", 1.00);
+    XP = XP * GET_LEVEL(victim) * get_property("exp.factor.melee", 1.00);  // Just a small boost for lowbies, becomes insignificant at higher levels  -Odorf
+// debug("melee 1 exp gain (%d)", (int)XP);     
+    if (GET_LEVEL(victim) < GET_LEVEL(ch) - 5)
+        XP = XP / (1 + (GET_LEVEL(ch) - GET_LEVEL(victim) + 5) / 2); // no exp flow from fighting small mobs
+// debug("melee 2 exp gain (%d)", (int)XP);     
     XP = gain_global_exp_modifiers(ch, XP);
-    XP = XP * exp_mod(ch, victim) / 100;  
-    XP = modify_exp_by_zone_trophy(ch, type, XP);  
+// debug("melee 3 exp gain (%d)", (int)XP);                
+    XP = XP * exp_mod(ch, victim) / 100;
+// debug("melee 4 exp gain (%d)", (int)XP);  
+    XP = modify_exp_by_zone_trophy(ch, type, XP);
+// debug("melee 5 exp gain (%d)", (int)XP);  
     XP = gain_exp_modifiers(ch, victim, XP);
-    XP = gain_exp_modifiers_race_only(ch, victim, XP); 
+// debug("melee 6 exp gain (%d)", (int)XP);  
+    XP = gain_exp_modifiers_race_only(ch, victim, XP);
+// debug("melee 7 exp gain (%d)", (int)XP);  
     XP = check_nexus_bonus(ch, (int)XP, NEXUS_BONUS_EXP); 
+// debug("melee 8 exp gain (%d)", (int)XP);  
   }
   else if(type == EXP_DEATH)
   {
@@ -1246,51 +1216,111 @@ int gain_exp(P_char ch, P_char victim, const int value, int type)
     }
 
     XP = -1 * (new_exp_table[GET_LEVEL(ch) + 1] * get_property("exp.death.level.loss", 0.10));
+// debug("death 1 exp gain (%d)", (int)XP);  
   }
   else if(type == EXP_KILL)
   {
     if(ch == victim)
     {
+// debug("Self-kill returning 0");      
       return 0;
     }
   
-    // No exps for killing your friends.
+// No exps for killing your friends.
     if(IS_PC(ch) && IS_PC(victim) && !(pvp) && !CHAR_IN_TOWN(ch))
     {
+// debug("Same side kill returning 0");      
       return 0;
     }
-     
-    if (!IS_PC(victim))
+    
+// Hard coding goodie anti-griefing code for hometowns. Oct09 -Lucrot
+// This is a pure pvp mud.  Learn to intergrate into the pbase.
+/*     
+       if(IS_PC(ch) &&
+       IS_PC(victim) &&
+       CHAR_IN_TOWN(ch) &&
+       GOOD_RACE(ch) &&
+       GOOD_RACE(victim) &&
+       GET_LEVEL(victim) >= (int)(get_property("pvp.good.level.grief.victim", 20)) &&
+       GET_LEVEL(ch) >= (int)(get_property("pvp.good.level.grief.ch", 20)) ||
+       IS_PC_PET(ch))
     {
-      XP = XP * get_property("exp.factor.kill", 1.00) ;
-      XP = gain_global_exp_modifiers(ch, XP);
-      XP = XP * exp_mod(ch, victim) / 100;
-      XP = modify_exp_by_zone_trophy(ch, type, XP);
-      XP = gain_exp_modifiers(ch, victim, XP);
-      XP = gain_exp_modifiers_race_only(ch, victim, XP);
-      XP = check_nexus_bonus(ch, (int)XP, NEXUS_BONUS_EXP); 
+      XP = -1 * (new_exp_table[GET_LEVEL(ch) + 1] >> 4);
+      send_to_char("&+WThe divine forces of &+RDuris &+Wfrowns upon you...\r\n", ch);
+      send_to_char("&+WArcing bolts of energy drain away your life.\r\n", ch);
+      send_to_char("&+RA blood red aura surrounds you.\r\n", ch);
+      
+      struct affected_type af;
+      bzero(&af, sizeof(af));
+
+      af.type = SPELL_CURSE;
+      af.flags = AFFTYPE_NODISPEL | AFFTYPE_PERM;
+      af.modifier = 20;
+      af.duration = 25;
+
+      af.location = APPLY_SAVING_SPELL;
+      affect_to_char(ch, &af);
+      
+      af.location = APPLY_SAVING_BREATH;
+      affect_to_char(ch, &af);
+      
+      af.location = APPLY_SAVING_PARA;
+      affect_to_char(ch, &af);
+      
+      af.location = APPLY_SAVING_FEAR;
+      affect_to_char(ch, &af);
+      
+      af.modifier = 2;
+      af.type = SPELL_SLOW;
+      affect_to_char(ch, &af);
     }
-    logit(LOG_EXP,
+    else
+    {
+    */
+      if (!IS_PC(victim))
+      {
+        XP = XP * get_property("exp.factor.kill", 1.00) ;
+// debug("kill 1 exp gain (%d)", (int)XP);
+        XP = gain_global_exp_modifiers(ch, XP);
+// debug("kill 2 exp gain (%d)", (int)XP);
+        XP = XP * exp_mod(ch, victim) / 100;
+// debug("kill 3 exp gain (%d)", (int)XP);
+        XP = modify_exp_by_zone_trophy(ch, type, XP);
+// debug("kill 4 exp gain (%d)", (int)XP);
+        XP = gain_exp_modifiers(ch, victim, XP);
+// debug("kill 5 exp gain (%d)", (int)XP);
+        XP = gain_exp_modifiers_race_only(ch, victim, XP);
+// debug("kill 6 exp gain (%d)", (int)XP);
+        XP = check_nexus_bonus(ch, (int)XP, NEXUS_BONUS_EXP); 
+// debug("kill 7 exp gain (%d)", (int)XP);
+      }
+      logit(LOG_EXP,
             "KILL EXP: %s (%d) killed by %s (%d): old exp: %d, new exp: %d, +exp: %d",
             GET_NAME(victim), GET_LEVEL(victim), GET_NAME(ch),
             GET_LEVEL(ch), GET_EXP(ch), GET_EXP(ch) + (int)XP, (int)XP);
+    //}
     
     if(pvp)
     {
       XP = XP * get_property("gain.exp.mod.pvp", 1.000);
+// debug("kill 8 exp gain (%d)", (int)XP);
     }
   }
   else if(type == EXP_WORLD_QUEST)
   {
     XP = gain_exp_modifiers_race_only(ch, NULL, XP);
+// debug("world quest 1 (%d)", (int)XP);   
   }
   else if(type == EXP_QUEST)
   {
     XP = gain_exp_modifiers_race_only(ch, NULL, XP); 
+// debug("quest 1 (%d)", (int)XP);   
   }
   
   int XP_final = (int)XP;
+// debug("check 3 xp (%d)", XP_final);  
   int range = new_exp_table[GET_LEVEL(ch) + 1] / 3;
+// debug("check 4 xp (%d)", XP_final);  
   XP_final = BOUNDED(-range, XP_final, range);
  
   // if(XP_final > 0 &&
@@ -1328,7 +1358,7 @@ int gain_exp(P_char ch, P_char victim, const int value, int type)
         (new_exp_table[i] <= GET_EXP(ch)); i++)
     {
       GET_EXP(ch) -= new_exp_table[i];
-      advance_level(ch, FALSE);
+      advance_level(ch);
     }
    }
   }
@@ -1349,6 +1379,7 @@ int gain_exp(P_char ch, P_char victim, const int value, int type)
   if (type == EXP_KILL)
     check_boon_completion(ch, victim, (int)XP, BOPT_RACE);
 
+// debug("Gain exps final return (%d).", XP_final);
   return XP_final;
 }
 
@@ -1370,6 +1401,10 @@ int gain_condition(P_char ch, int condition, int value)
 
       GET_COND(ch, i) = BOUNDED(0, (GET_COND(ch, i) + value), 24);
 
+//        GET_COND(ch,i) = -1; /* prolly unnecessary but who knows */
+      /* hunger/thirst removed as per tripods orders */
+
+
       if (IS_TRUSTED(ch))
         continue;
 
@@ -1389,6 +1424,7 @@ int gain_condition(P_char ch, int condition, int value)
         if (GET_COND(ch, i) >= 0)
         {
           if (!GET_COND(ch, i))
+//          send_to_char("&+RYou feel yourself weakening from intense hunger..\r\n", ch);
             send_to_char("&+RYou are hungry.\r\n", ch);
           else if (GET_COND(ch, i) < 3 &&
                    !IS_SET(ch->specials.act, PLR_WRITE))
@@ -1409,6 +1445,7 @@ int gain_condition(P_char ch, int condition, int value)
         {
           if (!GET_COND(ch, i))
           {
+//          send_to_char("&+RYou feel yourself weakening from intense thirst..\r\n", ch);
             send_to_char("&+RYou are thirsty.\r\n", ch);
 
 /*            num = (GET_MAX_HIT(ch) / 24) + 8;
@@ -1460,7 +1497,7 @@ void point_update(void)
     if (IS_SET(i->specials.act, PLR_MORPH))
       continue;
       
-    // No idle rent for imprisonment as it crashes the game. Mar09 -Lucrot
+// No idle rent for imprisonment as it crashes the game. Mar09 -Lucrot
     if(IS_SET(i->specials.affected_by5, AFF5_IMPRISON))
     {
       continue;
@@ -1472,7 +1509,7 @@ void point_update(void)
       i->specials.timer++;
 
     if (i->specials.timer > 3)
-      if (!IS_SET(i->specials.act, PLR_AFK) && !IS_TRUSTED(i))
+      if (!IS_SET(i->specials.act, PLR_AFK))
       {
         SET_BIT(i->specials.act, PLR_AFK);
 #if defined (CTF_MUD) && (CTF_MUD == 1)
@@ -1497,6 +1534,18 @@ void point_update(void)
       
       if (!GET_NAME(i))
         continue;
+
+      // Getting tired of this giving free recalls.
+      /*
+      int reloghere = GET_BIRTHPLACE(i);
+      
+      if (!reloghere)
+        reloghere = GET_HOME(i);
+      if (!reloghere)
+        reloghere = GET_ORIG_BIRTHPLACE(i);
+      if (!reloghere)
+        reloghere = i->in_room;
+      */
       
       strcat(Gbuf1, GET_NAME(i));
       strcat(Gbuf1, ", ");

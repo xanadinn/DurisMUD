@@ -212,8 +212,7 @@ struct ship_reg_node *ship_reg_db = NULL;
  *
  * ** only the values that varied from 'stock' are saved, as follows: { c
  * name c short_description c description c action_description i*4
- * value[0-3] b type i wear_flags i extra_flags i weight i condition i
- * max_condition i cost l
+ * value[0-3] b type i wear_flags i extra_flags i weight i cost l
  * bitvector l bitvector2 { b obj->affected[0].location b
  * obj->affected[0].modifier b obj->affected[1].location b
  * obj->affected[1].modifier } }
@@ -470,7 +469,7 @@ int writeStatus(char *buf, P_char ch)
   ADD_INT(buf, ch->only.pc->quest_zone_number );
   ADD_INT(buf, ch->only.pc->quest_giver);
   ADD_INT(buf, ch->only.pc->quest_level );
-  ADD_INT(buf, ch->only.pc->quest_receiver );
+  ADD_INT(buf, ch->only.pc->quest_reciver );
   ADD_INT(buf, ch->only.pc->quest_shares_left );
   ADD_INT(buf, ch->only.pc->quest_kill_how_many);
   ADD_INT(buf, ch->only.pc->quest_kill_original);
@@ -916,8 +915,7 @@ int writeObject(P_obj obj, int o_f_flag, ulong o_u_flag, int count, int loc, cha
   ADD_BYTE(ibuf, o_f_flag);
   ADD_INT(ibuf, obj_index[obj->R_num].virtual_number);
   ADD_SHORT(ibuf, obj->craftsmanship);
-  ADD_INT(ibuf, obj->condition);
-  ADD_INT(ibuf, obj->max_condition);
+  ADD_SHORT(ibuf, obj->condition);
 
   if (o_f_flag & O_F_WORN)
     ADD_BYTE(ibuf, loc);
@@ -1707,8 +1705,7 @@ int writeCharacter(P_char ch, int type, int room)
   /*
    * if they are staying in game, re-equip them
    */
-  if ((type != RENT_INN) && (type != RENT_LINKDEAD) && (type != RENT_CAMPED)
-    && (type != RENT_DEATH) && (type != RENT_POOFARTI) && (type != RENT_SWAPARTI))
+  if ((type != RENT_INN) && (type != RENT_LINKDEAD) && (type != RENT_CAMPED) && (type != RENT_DEATH))
   {
     for (i = 0; i < MAX_WEAR; i++)
       if (save_equip[i])
@@ -2401,7 +2398,7 @@ int restoreStatus(char *buf, P_char ch)
   ch->only.pc->quest_zone_number = GET_INTE(buf);
   ch->only.pc->quest_giver = GET_INTE(buf);
   ch->only.pc->quest_level = GET_INTE(buf);
-  ch->only.pc->quest_receiver = GET_INTE(buf);
+  ch->only.pc->quest_reciver = GET_INTE(buf);
   ch->only.pc->quest_shares_left = GET_INTE(buf);
   ch->only.pc->quest_kill_how_many = GET_INTE(buf);
   ch->only.pc->quest_kill_original = GET_INTE(buf);
@@ -2713,7 +2710,7 @@ int restorePasswdOnly(P_char ch, char *name)
     fprintf(stderr, "Problem restoring save file of: %s\n", name);
     logit(LOG_FILE, "Problem restoring save file of %s.", name);
     send_to_char
-      ("Error 1: There is something wrong with your save file!  Please talk to a God.\r\n",
+      ("There is something wrong with your save file!  Please talk to a God.\r\n",
        ch);
     return -2;
   }
@@ -2742,7 +2739,7 @@ int restorePasswdOnly(P_char ch, char *name)
     fprintf(stderr, "Problem restoring save file of: %s\n", name);
     logit(LOG_FILE, "Problem restoring save file of %s.", name);
     send_to_char
-      ("Error 2: There is something wrong with your save file!  Please talk to a God.\r\n",
+      ("There is something wrong with your save file!  Please talk to a God.\r\n",
        ch);
     return -2;
   }
@@ -2769,14 +2766,9 @@ int restorePasswdOnly(P_char ch, char *name)
           csize);
     fprintf(stderr, "Problem restoring save file of: %s\n", name);
     logit(LOG_FILE, "Problem restoring save file of %s.", name);
-    if( size > csize )
-      send_to_char
-        ("Error 3a: There is something wrong with your save file!  Please talk to a God.\r\n",
-         ch);
-    else
-      send_to_char
-        ("Error 3b: There is something wrong with your save file!  Please talk to a God.\r\n",
-         ch);
+    send_to_char
+      ("There is something wrong with your save file!  Please talk to a God.\r\n",
+       ch);
     return -2;
   }
   room = GET_INTE(buf);         /*
@@ -2864,7 +2856,7 @@ int restoreCharOnly(P_char ch, char *name)
     fprintf(stderr, "Problem restoring save file of: %s\n", name);
     logit(LOG_FILE, "Problem restoring save file of %s.", name);
     send_to_char
-      ("Error 4: There is something wrong with your save file!  Please talk to a God.\r\n",
+      ("There is something wrong with your save file!  Please talk to a God.\r\n",
        ch);
     return -2;
   }
@@ -2900,7 +2892,7 @@ int restoreCharOnly(P_char ch, char *name)
     fprintf(stderr, "Problem restoring save file of: %s\n", name);
     logit(LOG_FILE, "Problem restoring save file of %s.", name);
     send_to_char
-      ("Error 5: There is something wrong with your save file!  Please talk to a God.\r\n",
+      ("There is something wrong with your save file!  Please talk to a God.\r\n",
        ch);
     return -2;
   }
@@ -2920,7 +2912,7 @@ int restoreCharOnly(P_char ch, char *name)
     fprintf(stderr, "Problem restoring save file of: %s\n", name);
     logit(LOG_FILE, "Problem restoring save file of %s.", name);
     send_to_char
-      ("Error 6: There is something wrong with your save file!  Please talk to a God.\r\n",
+      ("There is something wrong with your save file!  Please talk to a God.\r\n",
        ch);
     return -2;
   }
@@ -2941,7 +2933,7 @@ int restoreCharOnly(P_char ch, char *name)
     fprintf(stderr, "Problem restoring save file of: %s\n", name);
     logit(LOG_FILE, "Problem restoring save file of %s.", name);
     send_to_char
-      ("Error 7: There is something wrong with your save file!  Please talk to a God.\r\n",
+      ("There is something wrong with your save file!  Please talk to a God.\r\n",
        ch);
     return -2;
   }
@@ -2962,7 +2954,7 @@ int restoreCharOnly(P_char ch, char *name)
       fprintf(stderr, "Problem restoring save file of: %s\n", name);
       logit(LOG_FILE, "Problem restoring save file of %s.", name);
       send_to_char
-        ("Error 8: There is something wrong with your save file!  Please talk to a God.\r\n",
+        ("There is something wrong with your save file!  Please talk to a God.\r\n",
          ch);
       return -2;
     }
@@ -2977,7 +2969,7 @@ int restoreCharOnly(P_char ch, char *name)
       fprintf(stderr, "Problem restoring save file of: %s\n", name);
       logit(LOG_FILE, "Problem restoring save file of %s.", name);
       send_to_char
-        ("Error 9: There is something wrong with your save file!  Please talk to a God.\r\n",
+        ("There is something wrong with your save file!  Please talk to a God.\r\n",
          ch);
       return -2;
     }
@@ -2988,7 +2980,7 @@ int restoreCharOnly(P_char ch, char *name)
       fprintf(stderr, "Problem restoring save file of: %s\n", name);
       logit(LOG_FILE, "Problem restoring save file of %s.", name);
       send_to_char
-        ("Error 10: There is something wrong with your save file!  Please talk to a God.\r\n",
+        ("There is something wrong with your save file!  Please talk to a God.\r\n",
          ch);
       return -2;
     }
@@ -3134,8 +3126,7 @@ P_obj restoreObjects(char *buf, P_char ch, int not_room)
     obj->craftsmanship = GET_SHORT(buf);
     if (obj_vers < 32)
       GET_SHORT(buf);
-    obj->condition = GET_INTE(buf);
-    obj->max_condition = GET_INTE(buf);
+    obj->condition = GET_SHORT(buf);
     if (o_f_flag & O_F_WORN)
     {
       loc = GET_BYTE(buf);
@@ -3487,8 +3478,7 @@ P_obj read_one_object(char *read_buf)
 
     obj->g_key = 1;
     obj->craftsmanship = GET_SHORT(buf);
-    obj->condition = GET_INTE(buf);
-    obj->max_condition = GET_INTE(buf);
+    obj->condition = GET_SHORT(buf);
 
     if (o_f_flag & O_F_COUNT)
       i_count = GET_SHORT(buf);
@@ -4007,7 +3997,7 @@ int restoreItemsOnly(P_char ch, int flatrate)
             GET_NAME(ch), affect_off, item_off);
     logit(LOG_FILE, "Problem restoring save file of %s.", GET_NAME(ch));
     send_to_char
-      ("Error 11: There is something wrong with your save file!  Please talk to a God.\r\n",
+      ("There is something wrong with your save file!  Please talk to a God.\r\n",
        ch);
     return -2;
   }

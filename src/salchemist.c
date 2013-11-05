@@ -847,12 +847,16 @@ void do_encrust(P_char ch, char *argument, int cmd)
   sprintf(buf2, "%s attempts to encrust %s with %s...", GET_NAME(ch),
           item->short_description, jewel->short_description);
   act(buf2, TRUE, ch, 0, 0, TO_ROOM);
-  wizlog(56, buf2);
 
   craftsmanship = item->craftsmanship;
-  item->value[5] = jewel->value[6];
-  item->value[6] = GET_LEVEL(ch);
-  item->value[7] = 30;
+//  if(!item->value[5] || !item->value[6] || !item->value[7])
+  {
+
+    item->value[5] = jewel->value[6];
+    item->value[6] = GET_LEVEL(ch);
+    item->value[7] = 30;
+
+  }
 
   if(number(1, 110) > skill)
   {
@@ -865,10 +869,10 @@ void do_encrust(P_char ch, char *argument, int cmd)
   }
   else
   {
-    notch_skill(ch, SKILL_ENCRUST, 40);
+    //notch_skill(ch, SKILL_ENCRUST, 12);
     wizlog(56, "and created %s", item->short_description);
     act("...creating a real masterpiece!", TRUE, ch, 0, 0, TO_ROOM);
-    act("Success!", FALSE, ch, 0, 0, TO_CHAR);
+    act("Hurrah! Hurrah!", FALSE, ch, 0, 0, TO_CHAR);
   }
 
   P_obj new_item = read_object(1251, VIRTUAL);
@@ -897,7 +901,7 @@ void do_encrust(P_char ch, char *argument, int cmd)
   SET_BIT(new_item->extra_flags, item->extra_flags);
   SET_BIT(new_item->extra2_flags, item->extra2_flags);
   
-  new_item->craftsmanship = MIN(craftsmanship + 1, OBJCRAFT_HIGHEST);
+  new_item->craftsmanship = MIN(craftsmanship+1, OBJCRAFT_HIGHEST);
 
   int i = 0;
   for(i;i < 7;i++)
@@ -1097,10 +1101,6 @@ void do_fix(P_char ch, char *argument, int cmd)
       act("You fiddle with $p, but you fail, breaking it even more!", TRUE, ch,
           item, 0, TO_CHAR);
     }
-<<<<<<< HEAD
-    notch_skill(ch, SKILL_FIX, 40);
-=======
->>>>>>> master
   }
     int done;
  while(done < 1)
@@ -1248,7 +1248,7 @@ void do_smelt(P_char ch, char *arg, int cmd)
       act("&+LThe furnace hums with activity!&n", FALSE, ch, 0, 0, TO_CHAR);
       act("&+LYou have created $p!", FALSE, ch, new_obj, 0, TO_CHAR);
       act("&+L$p &+Lmakes a roaring sound!&n", FALSE, 0, furnace, 0, TO_ROOM);
-      notch_skill(ch, SKILL_SMELT, 40);
+      //notch_skill(ch, SKILL_SMELT, 1);
     }
 }
 
@@ -1373,6 +1373,8 @@ int thrusted_eq_proc(P_obj obj, P_char ch, int cmd, char *arg)
   if(cmd != CMD_PERIODIC)
     return FALSE;
 
+  wizlog(56, "hi");
+
   if(OBJ_ROOM(obj))
   {
     for (i = world[obj->loc.room].people; i; i = i->next_in_room)
@@ -1454,6 +1456,7 @@ int thrusted_eq_proc(P_obj obj, P_char ch, int cmd, char *arg)
     }
   }
 
+  wizlog(56, "NOW!");
   return FALSE;
 
 }
@@ -1613,7 +1616,7 @@ void do_enchant(P_char ch, char *argument, int cmd)
     }
 
     GET_PLATINUM(ch) = GET_PLATINUM(ch) - (circle * 10);
-    notch_skill(ch, SKILL_ENCHANT, 40);
+    //notch_skill(ch, SKILL_ENCHANT, 12);
 
     act
       ("&+L$n melts some &+Wplatinum &+Lcoins in a vial of &+gacid &+Land then&n &L&+Lproceeds to carefully pour it over $s $q.&n",
@@ -1749,7 +1752,7 @@ void spell_napalm(int level, P_char ch, char *arg, int type, P_char victim, P_ob
   spell_damage(ch, victim, dam, SPLDAM_FIRE, SPLDAM_NODEFLECT, &messages);
 }
 
-/*void spell_strong_acid(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
+void spell_strong_acid(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   int dam;
   struct damage_messages messages = {
@@ -1763,59 +1766,6 @@ void spell_napalm(int level, P_char ch, char *arg, int type, P_char victim, P_ob
   dam = (int)(10.5 * MIN(level, 50)) + number(1, 25);
 
   spell_damage(ch, victim, dam, SPLDAM_ACID, SPLDAM_NODEFLECT, &messages);
-}*/
-
-void spell_strong_acid(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-{
-   switch(level / 5)
-   {
-     case 12:
-       spell_acidimmolate(level, ch, 0, 0, victim, 0);
-       spell_acid_blast(level, ch, 0, 0, victim, 0);
-       break;
-     case 11:
-       spell_acidimmolate(level, ch, 0, 0, victim, 0);
-       spell_acid_stream(level, ch, 0, 0, victim, 0);
-       break;
-     case 10:
-       spell_acidimmolate(level, ch, 0, 0, victim, 0);
-       break;
-     case 9:
-       spell_acidimmolate(level, ch, 0, 0, victim, 0);
-       break;
-     case 8:
-       spell_acid_blast(level, ch, 0, 0, victim, 0);
-       spell_acid_stream(level, ch, 0, 0, victim, 0);
-       break;
-     case 7:
-       spell_acid_blast(level, ch, 0, 0, victim, 0);
-       spell_acid_stream(level, ch, 0, 0, victim, 0);
-       break;
-     case 6:
-       spell_acid_blast(level, ch, 0, 0, victim, 0);
-       spell_acid_stream(level, ch, 0, 0, victim, 0);
-       break;
-     case 5:
-       spell_acid_blast(level, ch, 0, 0, victim, 0);
-       spell_acid_stream(level, ch, 0, 0, victim, 0);
-       break;
-     case 4:
-       spell_acid_blast(level, ch, 0, 0, victim, 0);
-       break;
-     case 3:
-       spell_acid_blast(level, ch, 0, 0, victim, 0);
-       break;
-     case 2:
-       spell_acid_stream(level, ch, 0, 0, victim, 0);
-       break;
-     case 1:
-       spell_acid_stream(level, ch, 0, 0, victim, 0);
-       break;
-     default:
-       spell_acid_blast(level, ch, 0, 0, victim, 0);
-  }
-
-  return;
 }
 
 void spell_glass_bomb(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)

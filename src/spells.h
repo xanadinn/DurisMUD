@@ -208,7 +208,7 @@
 #define SPELL_TRANSFER_WELLNESS      194
 #define SPELL_FLAMEBURST             195
 #define SPELL_SCALDING_BLAST         196
-#define SPELL_COBRASTING             197
+#define SPELL_PYTHONSTING            197
 #define SPELL_SNAILSPEED             198
 #define SPELL_MOLEVISION             199
 #define SPELL_PURIFY_SPIRIT          200
@@ -233,7 +233,7 @@
 #define SPELL_GREATER_SOUL_DISTURB   219
 #define SPELL_SPIRIT_WARD            220
 #define SPELL_ELEPHANTSTRENGTH       221
-#define SPELL_GREATER_COBRASTING     222
+#define SPELL_GREATER_PYTHONSTING    222
 #define SPELL_SCATHING_WIND          223
 #define SPELL_REVEAL_TRUE_FORM       224
 #define SPELL_GREATER_SPIRIT_SIGHT   225
@@ -276,7 +276,7 @@
 #define SPELL_REVEAL_TRUE_NAME       262
 #define SPELL_BLUR                   263
 #define SPELL_PRISMATIC_CUBE         264
-#define SPELL_JUDGMENT              265
+#define SPELL_JUDGEMENT              265
 #define SPELL_GREATER_WRAITHFORM     266
 #define SPELL_ELEMENTAL_FORM         267
 #define SPELL_RAISE_SPECTRE          268
@@ -558,11 +558,11 @@
 #define SPELL_TRANS_LAVA_ROCK   519
 #define SPELL_COMET             520
 
-// Reaver spells
+// Flame Reaver Spell
 #define SPELL_CEGILUNE_BLADE      521
 #define SPELL_RIGHTEOUS_AURA      522
 #define SPELL_BLEAK_FOEMAN        523
-#define SPELL_UMBERLEES_FURY      524
+#define SPELL_STORMCALLERS_FURY   524
 #define SPELL_CHILLING_IMPLOSION  525
 #define SPELL_LIGHTNINGSHIELD     526
 
@@ -657,7 +657,7 @@
 #define SPELL_MEND_SOUL              608
 #define SPELL_HOLY_AURA              609
 #define SPELL_AID_OF_THE_HEAVENS     610
-
+#define SPELL_VOICE_OF_CREATION      611
 #define SPELL_PYROKINESIS            612
 #define SPELL_OBTENEBRATION          613
 #define SPELL_HOLY_BLADE             614
@@ -939,12 +939,6 @@
 #define SKILL_RAGE_REORIENT          1262 // Added to handle reorient on rage skill
 #define SKILL_TIGER_PALM             1263
 #define SKILL_DIAMOND_SOUL           1264
-<<<<<<< HEAD
-#define SKILL_GARROTE                1265
-#define SKILL_SPELL_KNOWLEDGE_PSIONIC 1266
-#define SKILL_SPELL_KNOWLEDGE_NATURE 1267
-#define LAST_SKILL                   SKILL_SPELL_KNOWLEDGE_NATURE
-=======
 #define SKILL_RESTRAIN               1293
 #define SKILL_BLADE_BARRAGE		  1294
 #define SKILL_RIFF                   1295
@@ -994,7 +988,6 @@
 #define BLUE_SKILL                   -2
 #define LAST_SKILL                   SKILL_NATURESSENSES
 #endif
->>>>>>> master
 
 #define FIRST_SECONDARY_SKILL        1501
 
@@ -1093,7 +1086,7 @@
 #define TYPE_TRAP                    2037
 #define TAG_HIT_COUNTER              2038
 #define TAG_NUKED_COUNTER            2039
-#define TAG_UMBERLEES_FURY_TARGET    2040
+#define TAG_STORMCALLERS_FURY_TARGET 2040
 #define TAG_CHILLING_IMPLOSION_TARGET 2041
 #define TAG_ENHANCE_HEALING          2042
 #define TAG_GRAPPLE                  2043
@@ -1122,9 +1115,6 @@
 #define TAG_BOON		     2066
 #define TAG_CTF			     2067
 #define TAG_CTF_BONUS		     2068
-<<<<<<< HEAD
-#define TAG_PVP_ENGAGE               2069
-=======
 #define TAG_RACIAL_SKILLS		  2069
 #define TAG_SOULBIND			  2070
 #define ACH_UNSTOPPABLE		  2071
@@ -1155,7 +1145,6 @@
 #define TAG_POTION_TIMER	         2096
 #define TAG_MERC_DEFENSE             2097
 #define TAG_LAYONHANDS		  2098
->>>>>>> master
 #define DAMAGE_FALLING               2100       /* From falling to the ground */
 
 #define SAVING_PARA   0

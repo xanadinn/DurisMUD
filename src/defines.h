@@ -43,7 +43,6 @@ typedef unsigned long int ulong;
     (defined(_POSIX_SOURCE) && !defined(_SVID_SOURCE))
 typedef unsigned int uint;
 #endif
-
 /* rather than doing these over and over again, define once here and use the
    defines in the other defines.  JAB */
 
@@ -152,7 +151,7 @@ typedef unsigned int uint;
 #define ITEM_WEAR_ARMS      BIT_9
 #define ITEM_WEAR_SHIELD    BIT_10
 #define ITEM_WEAR_ABOUT     BIT_11
-#define ITEM_WEAR_WAIST     BIT_12
+#define ITEM_WEAR_WAIST    BIT_12
 #define ITEM_WEAR_WRIST     BIT_13
 #define ITEM_WIELD          BIT_14
 #define ITEM_HOLD           BIT_15
@@ -1290,14 +1289,5 @@ struct material_data {
 #define FIND_AND_ASK   2
 
 #define RANDOM_ZONES 1 // Set to 1 to enable
-#define wipe2011 1 // enabled
-#define MAX_AC_APPLY 30 // used to cap benefit from items that use APPLY_AC
-
-// Tiamat stuff - OBJECT_FIRESWORN procs load leader + 4 followers 
-#define SPHINX_CROWN       135218
-#define LEADER_FIRESWORN   135217
-#define FOLLOWER_FIRESWORN 135216
-#define OBJECT_FIRESWORN   135238
-#define ROOM_FIRESWORN      78596
 
 #endif /* _DURIS_DEFINES_H_ */

@@ -16,13 +16,13 @@ void spell_holy_sword(int level, P_char ch, char *arg, int type, P_char victim, 
 {
   struct affected_type af;
 
-  if(affected_by_spell(ch, SPELL_HOLY_SWORD))
+  if (affected_by_spell(ch, SPELL_HOLY_SWORD))
   {
     send_to_char("&+WYou cannot imbue your weapon with any more holy powers.&n\n", ch);
     return;
   }
 
-  if( !ch->equipment[WIELD] || !IS_SWORD( ch->equipment[WIELD] ))
+  if ( !ch->equipment[WIELD] || !IS_SWORD( ch->equipment[WIELD] ))
   {
     send_to_char("&+WThe Gods refuse to bless your anything but your sword.&n.\n", ch);
     return;
@@ -43,40 +43,42 @@ void spell_holy_sword(int level, P_char ch, char *arg, int type, P_char victim, 
   send_to_char("&+WHoliness flows down from the heavens, and imbues your sword with might!&n\n", ch);
 }
 
-void spell_divine_power(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
+void spell_divine_power(int level, P_char ch, char *arg, int type,
+                           P_char victim, P_obj obj)
 {
   struct affected_type af;
-  int healpoints = level;
+  int      healpoints = level;
 
-  if(!IS_GOOD(ch))
+  if (!IS_GOOD(ch))
   {
     send_to_char("Nothing seems to happen.\n", ch);
     return;
   }
-
-  if(!affected_by_spell(ch, SPELL_DIVINE_POWER))
+  if (!affected_by_spell(ch, SPELL_DIVINE_POWER))
   {
-     act("&+WHoly power surrounds $n&+W, and imbues him with its might!&n", FALSE, ch, 0, 0, TO_ROOM);
+    act
+    ("&+WHoly power surrounds $n&+W, and imbues him with it's might!&n",
+     FALSE, ch, 0, 0, TO_ROOM);
      send_to_char("&+WA wave of holy energy sweeps over your body.\n", ch);
 
-     bzero(&af, sizeof(af));
+	 bzero(&af, sizeof(af));
 
      af.type = SPELL_DIVINE_POWER;
-     af.duration = level;
+     af.duration = level/2;
      af.location = APPLY_HITROLL;
-     af.modifier = number(2, 4);
+     af.modifier = number(2, 5);
      affect_to_char(ch, &af);
 
      af.location = APPLY_STR_MAX;
-     af.modifier = number(2, 4);
+     af.modifier = number(2, 5);
      affect_to_char(ch, &af);
 
-     if(GET_LEVEL(ch) > 49)
-     {
-       af.location = APPLY_HIT;
-       af.modifier = healpoints;
-       affect_to_char(ch, &af);
-     }
+	if (GET_LEVEL(ch) > 49)
+	{
+     af.location = APPLY_HIT;
+     af.modifier = healpoints;
+     affect_to_char(ch, &af);
+	}
   }
 }
 
@@ -86,7 +88,7 @@ void spell_atonement(int level, P_char ch, char *arg, int type,
   struct affected_type af;
   char     Gbuf1[100];
 
-  if(affected_by_spell(ch, SPELL_ATONEMENT))
+  if (affected_by_spell(ch, SPELL_ATONEMENT))
   {
     send_to_char("&+wFurther forgiveness cannot be achieved.&n\n", ch);
     return;
@@ -98,7 +100,7 @@ void spell_atonement(int level, P_char ch, char *arg, int type,
   af.type = SPELL_ATONEMENT;
   af.duration = level / 2;
   af.location = APPLY_HIT_REG;
-  af.modifier = level / 3;
+  af.modifier = level * 2;
   send_to_char(Gbuf1, ch);
   affect_to_char(ch, &af);
 }
@@ -119,15 +121,15 @@ void do_holy_smite(P_char ch, char *argument, int cmd)
       0
   };
 
-  if((skl_lvl = GET_CHAR_SKILL(ch, SKILL_HOLY_SMITE)) == 0)
+  if ((skl_lvl = GET_CHAR_SKILL(ch, SKILL_HOLY_SMITE)) == 0)
   {
     send_to_char("You don't know how.\r\n", ch);
     return;
   }
 
-  if(!*argument)
+  if (!*argument)
   {
-    if(!(vict = ch->specials.fighting))
+    if (!(vict = ch->specials.fighting))
     {
       send_to_char
         ("Smite whom?\r\n",
@@ -135,11 +137,11 @@ void do_holy_smite(P_char ch, char *argument, int cmd)
       return;
     }
   }
-  if(!vict)
+  if (!vict)
   {
     one_argument(argument, name);
 
-    if(!(vict = get_char_room_vis(ch, name)))
+    if (!(vict = get_char_room_vis(ch, name)))
     {
       send_to_char
         ("Smite whom?\r\n",
@@ -147,18 +149,18 @@ void do_holy_smite(P_char ch, char *argument, int cmd)
       return;
     }
   }
-  if(!CanDoFightMove(ch, vict))
+  if (!CanDoFightMove(ch, vict))
     return;
 
-  if(GET_ALIGNMENT(vict) > -1)
+  if (GET_ALIGNMENT(vict) > -1)
   {
    send_to_char
 	 ("Your conscience prevents you from executing such a maneuver on this being.\r\n",
 	  ch);
    return;
   }
-  if(!notch_skill(ch, SKILL_HOLY_SMITE,
-                   get_property("skill.notch.offensive", 20)) &&
+  if (!notch_skill(ch, SKILL_HOLY_SMITE,
+                   get_property("skill.notch.offensive", 15)) &&
       number(1, 101) > skl_lvl)
   {
     act("You fruitlessly attempt to judge $N's sins.", FALSE, ch, 0, vict, TO_CHAR);
@@ -174,7 +176,7 @@ void do_holy_smite(P_char ch, char *argument, int cmd)
   {
     melee_damage(ch, vict, (dice((GET_LEVEL(ch) / 2), (skl_lvl / 10)) * 2), PHSDAM_NOSHIELDS | PHSDAM_NOREDUCE | PHSDAM_NOPOSITION,
     &messages);
-    if((GET_LEVEL(ch) / 2) > number(1, 150) && IS_ALIVE(vict))
+    if ((GET_LEVEL(ch) / 2) > number(1, 150) && IS_ALIVE(vict))
 	{
 	  act("&+L$N&+L is blinded by the &+Wholy&+L energy!&n", FALSE, ch, 0, vict, TO_CHAR);
       act("&+LYou are blinded by the &+Wholy&+L energy!&n", FALSE, ch,
@@ -193,7 +195,7 @@ void spell_celestial_aura(int level, P_char ch, char *arg, int type,
   struct affected_type af;
 
   //The affects here are temporary, until I have time to whip up something really unique -Zion 9/13/08
-  if(!affected_by_spell(ch, SPELL_CELESTIAL_AURA))
+  if (!affected_by_spell(ch, SPELL_CELESTIAL_AURA))
   {
     act("&+WA beam of light emerges from the heavens, infusing $n&+W's body with h&+Yol&+Wy energy!&n",
         TRUE, ch, 0, 0, TO_ROOM);
@@ -203,11 +205,11 @@ void spell_celestial_aura(int level, P_char ch, char *arg, int type,
     af.type = SPELL_CELESTIAL_AURA;
     af.duration =  4;
     af.location = APPLY_AC;
-    af.modifier = -number(30, 50);
+    af.modifier = -number(80, 150);
     affect_to_char(ch, &af);
 
     af.location = APPLY_HIT;
-    af.modifier = number(30, 50);
+    af.modifier = number(50, 150);
     affect_to_char(ch, &af);
   }
 }

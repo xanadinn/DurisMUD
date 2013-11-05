@@ -91,9 +91,11 @@ void do_multiclass(P_char ch, char *arg, int cmd)
   int found_one = FALSE, i;
   int min_level = get_property("multiclass.level.req.min", 41);
   
-  if(IS_MULTICLASS_PC(ch))
+  if (IS_MULTICLASS_PC(ch))
   {
-    send_to_char("You've already chosen your secondary class!\r\n", ch);
+    send_to_char
+      ("You've already chosen your secondary class..  it's too late now to change your mind.\r\n",
+       ch);
     return;
   }
 
@@ -120,7 +122,7 @@ void do_multiclass(P_char ch, char *arg, int cmd)
 
   for (i = 1; i <= CLASS_COUNT; i++)
   {
-    if (can_char_multi_to_class(ch, i))
+    if (can_char_multi_to_class(ch, i ))
     {
       char     strn[2048];
 
@@ -633,7 +635,8 @@ void do_berserk(P_char ch, char *argument, int cmd)
             affected_by_spell(ch, TAG_PVPDELAY) &&
             GET_HIT(ch) < (GET_MAX_HIT(ch) * 0.30))
     {
-      send_to_char("&+RImPoSsIbLe!&n", ch);
+      send_to_char
+        ("Your &+rwounds&n are severe, you taste &+Rblood&n and &+ysweat&n, thus coming out of your &+Rbloodlust&n is impossible!\r\n", ch);
       return;
     }
       
@@ -657,17 +660,19 @@ void do_berserk(P_char ch, char *argument, int cmd)
     return;
   }
 
-  if (GET_CHAR_SKILL(ch, SKILL_BERSERK) < number(1, 101))
+  if (GET_CHAR_SKILL(ch, SKILL_BERSERK) < number(1, 100))
   {
     send_to_char("You fail to evoke the dreaded battle rage.\r\n", ch);
-    notch_skill(ch, SKILL_BERSERK, 25);
+    notch_skill(ch, SKILL_BERSERK, 5);
   }
   else
   {
     duration = 5 * (MAX(25, (GET_CHAR_SKILL(ch, SKILL_BERSERK) + GET_LEVEL(ch))));
     
-    if(GET_CLASS(ch, CLASS_BERSERKER))
-      duration *= GET_LEVEL(ch) / 12;
+    if(GET_CLASS(ch, CLASS_BERSERKER) ||
+       GET_RACE(ch) == RACE_MOUNTAIN ||
+       GET_RACE(ch) == RACE_DUERGAR)
+          duration *= 4;
     
     berserk(ch, duration);
   }
@@ -690,7 +695,8 @@ void do_berserk(P_char ch, char *argument, int cmd)
 /* Let's see if berserk is used more often other than
  * in zones with this tweak. -Lucrot
  */
-  else if(GET_CLASS(ch, CLASS_WARRIOR) && GET_LEVEL(ch) >= 51)
+  else if(GET_CLASS(ch, CLASS_WARRIOR) &&
+           GET_LEVEL(ch) >= 51)
     CharWait(ch, 2);
   else
     CharWait(ch, 2 * PULSE_VIOLENCE);
@@ -758,7 +764,7 @@ void do_rampage(P_char ch, char *argument, int cmd)
     af.duration = 3;
 
     affect_to_char(ch, &af);
-    notch_skill(ch, SKILL_RAMPAGE, 20);
+    notch_skill(ch, SKILL_RAMPAGE, 5);
     CharWait(ch, 8);
 
     return;
@@ -829,7 +835,7 @@ void do_infuriate(P_char ch, char *argument, int cmd)
   act
     ("$n is overwhelmed with &+RANGER&n, and starts to increase in size!\r\n",
      FALSE, ch, 0, 0, TO_ROOM);
-  notch_skill(ch, SKILL_INFURIATE, 20);
+  notch_skill(ch, SKILL_INFURIATE, 5);
   CharWait(ch, PULSE_VIOLENCE);
   }
   else
@@ -859,7 +865,7 @@ void do_infuriate(P_char ch, char *argument, int cmd)
     send_to_char("Your &+rblood boils&n and you feel your body grow to enormous proportions!\r\n", ch);
     act("$n is overwhelmed with &+RHATRED&n, and begins to grow to enormous proportions!\r\n",
     FALSE, ch, 0, 0, TO_ROOM);
-    notch_skill(ch, SKILL_INFURIATE, 20);
+    notch_skill(ch, SKILL_INFURIATE, 5);
     CharWait(ch, PULSE_VIOLENCE);
   }
 }
@@ -899,6 +905,7 @@ void do_rage(P_char ch, char *argument, int cmd)
 	return;
   }
 
+  
   if(number(1, 105) > GET_CHAR_SKILL(ch, SKILL_RAGE))
   {
     send_to_char("&+RYou are unable to call forth the rage within you...\r\n", ch);
@@ -906,28 +913,26 @@ void do_rage(P_char ch, char *argument, int cmd)
     return;
   }
   
-  notch_skill(ch, SKILL_RAGE, (int) get_property("skill.notch.offensive", 20));
+  notch_skill(ch, SKILL_RAGE, (int) get_property("skill.notch.offensive", 1.));
         
   if(!(GET_SPEC(ch, CLASS_BERSERKER, SPEC_RAGELORD)))
     CharWait(ch, 1.5 * PULSE_VIOLENCE);
   else
     CharWait(ch, (int)(0.5 * PULSE_VIOLENCE));
 
-  act("&+rYou feel a rage start to come from within...\n", FALSE, ch, 0, 0, TO_CHAR);
+  act("&+rYou feel a rage start to come from within...\n",
+    FALSE, ch, 0, 0, TO_CHAR);
   send_to_char("&+rYou are filled with a HUGE rush of BLOODLUST!\r\n", ch);
-  act("$n fills with a &+RSURGE&n of &+rBLoOdLuST! ROARRRRRRRR!!!\r\n", FALSE, ch, 0, 0, TO_ROOM);
+  act("$n fills with a &+RSURGE&n of &+rBLoOdLuST! ROARRRRRRRR!!!\r\n",
+    FALSE, ch, 0, 0, TO_ROOM);
 
-  dura = PULSE_VIOLENCE * (GET_CHAR_SKILL(ch, SKILL_RAGE) / 10);
+  dura = (4 * PULSE_VIOLENCE * GET_CHAR_SKILL(ch, SKILL_RAGE)) / 100;
 
   ch->specials.combat_tics = 3;
   memset(&af, 0, sizeof(struct affected_type));
   af.type = SKILL_RAGE;
   af.flags = AFFTYPE_SHORT;
-<<<<<<< HEAD
-  af.bitvector2 = AFF2_FLURRY; 
-=======
   af.bitvector2 = AFF2_FLURRY;
->>>>>>> master
   af.duration = dura;
   affect_to_char(ch, &af);
 
@@ -1894,6 +1899,9 @@ void do_sneak(P_char ch, char *argument, int cmd)
   percent = number(1, 101);
   CharWait(ch, PULSE_VIOLENCE);
 
+// Notching check moved to actmove.c Apr09 -Lucrot
+//  notch_skill(ch, SKILL_SNEAK, 20);
+
   bzero(&af, sizeof(af));
   af.type = SKILL_SNEAK;
   af.duration = GET_LEVEL(ch);
@@ -2023,10 +2031,10 @@ void do_hide(P_char ch, char *argument, int cmd)
     }
     if (percent > skl_lvl + agi_app[STAT_INDEX(GET_C_AGI(ch))].hide)
     {
-      notch_skill(ch, SKILL_HIDE, 50);
+      notch_skill(ch, SKILL_HIDE, 5);
       return;
     }
-    notch_skill(ch, SKILL_HIDE, 100);
+    notch_skill(ch, SKILL_HIDE, 5);
     SET_BIT(ch->specials.affected_by, AFF_HIDE);
     struct affected_type af;
 
@@ -2139,7 +2147,7 @@ void listen(P_char ch, char *argument)
       else
         sprintf(buf, "You hear an odd rustling in the immediate area.\r\n");
       send_to_char(buf, ch);
-      notch_skill(ch, SKILL_LISTEN, 100);
+      notch_skill(ch, SKILL_LISTEN, 1);
     }
     else
       send_to_char(heard_nothing, ch);
@@ -2183,7 +2191,7 @@ void listen(P_char ch, char *argument)
                   ((dir == 5) ? "below" : (dir == 4) ? "above" : "the "),
                   ((dir == 5) ? "" : (dir == 4) ? "" : dirs[dir]));
         send_to_char(buf, ch);
-        notch_skill(ch, SKILL_LISTEN, 100);
+        notch_skill(ch, SKILL_LISTEN, 1);
       }
       else
         send_to_char(heard_nothing, ch);
@@ -3616,31 +3624,32 @@ void do_use(P_char ch, char *argument, int cmd)
 
   argument = one_argument(argument, Gbuf1);
 
+  /*
+   ** To avoid player killing, we restrict wands to be usable
+   ** by either a PC, or an NPC who is not charmed.
+   */
+
   if (CHAR_IN_NO_MAGIC_ROOM(ch))
   {
-    send_to_char("No magic exists around here for the wand to draw upon!\r\n", ch);
+    send_to_char
+      ("No magic exists around here for the wand to draw upon!\r\n", ch);
     return;
   }
-
   if (IS_NPC(ch) && IS_AFFECTED(ch, AFF_CHARM))
     return;
 
   if (!(stick = get_object_in_equip_vis(ch, Gbuf1, &i)))
   {
-    send_to_char("Use applies only to objects in your equipment list (usually held).\r\n", ch);
+    send_to_char
+      ("Use applies only to objects in your equipment list (usually held).\r\n",
+       ch);
     return;
   }
-
-  if(stick->value[0] > GET_LEVEL(ch) + 5)
-  {
-    send_to_char("You don't possess the power to use that item.", ch);
-    return;
-  }
-
   if (stick->type == ITEM_STAFF)
   {
     act("$n taps $p three times on the ground.", TRUE, ch, stick, 0, TO_ROOM);
-    act("You tap $p three times on the ground.", FALSE, ch, stick, 0, TO_CHAR);
+    act("You tap $p three times on the ground.", FALSE, ch, stick, 0,
+        TO_CHAR);
 
     if (GET_LEVEL(ch) > MAXLVLMORTAL)
     {
@@ -5822,7 +5831,7 @@ void do_blood_scent(P_char ch, char *argument, int cmd)
   if (GET_CHAR_SKILL(ch, SKILL_BLOOD_SCENT) < number(1, 100))
   {
     send_to_char("You sniff around but cant smell anything special.\r\n", ch);
-    notch_skill(ch, SKILL_BLOOD_SCENT, 15);
+    notch_skill(ch, SKILL_BLOOD_SCENT, 12);
     CharWait(ch, (2 * PULSE_VIOLENCE));
     return;
   }
@@ -5847,79 +5856,16 @@ void do_blood_scent(P_char ch, char *argument, int cmd)
   af.flags = AFFTYPE_SHORT | AFFTYPE_NODISPEL | AFFTYPE_NOSHOW;
   af.duration = WAIT_SEC * GET_CHAR_SKILL(ch, SKILL_BLOOD_SCENT);
   affect_to_char(ch, &af);
+
+  /* I don't see the point of this...so lets comment it out!
+  if (GET_CHAR_SKILL(ch, SKILL_BLOOD_SCENT) > number(1, 100))
+  {
+    af.flags |= AFFTYPE_CUSTOM1;
+    af.duration >>= 1;
+    affect_to_char(ch, &af);
+    notch_skill(ch, SKILL_BLOOD_SCENT, 12);
+  }*/ 
 }
-
-/*void ascend_theurgist(P_char ch)
-{
-  P_char teacher;
-  char buff[64];
-  int i;
-
-  if (!ch)
-  {
-    logit(LOG_EXIT, "ascend_theurgist called in actoth.c with no ch");
-    raise(SIGSEGV);
-  }
-  if (IS_NPC(ch))
-    return;
-
-  if (IS_TRUSTED(ch))
-  {
-    send_to_char("This would be really really really really really dumb........\n\r",ch);
-    return;
-  }
-
-  if(!(teacher = FindTeacher(ch)))
-  {
-    send_to_char("You need a teacher to help you with this.......\n\r", ch);
-    return;
-  }
-
-  if(ch->only.pc->epics < (int) get_property("ascend.epicCost.Eladrin", 250))
-  {
-    sprintf(buff, "It costs &+W%d&n epics to ascend...\n", (int) get_property("descend.epicCost", 10));
-    send_to_char(buff, ch);
-    return;
-  }
-
-  if((GET_CLASS(ch, CLASS_THEURGIST) && !GET_CLASS(teacher, CLASS_THEURGIST)))
-  {
-    send_to_char("How about finding the appropriate teacher first?\n", ch);
-    return;
-  }
-
-  for (i = 0; i < MAX_SKILLS; i++)
-  {
-    ch->only.pc->skills[i].learned = 0;
-  }
-  NewbySkillSet(ch);
-       ch->points.max_mana = 0;
-            do_start(ch, 1);
-
-  int k = 0;
-  P_obj temp_obj;
-  for (k = 0; k < MAX_WEAR; k++)
-  {
-    temp_obj = ch->equipment[k];
-    if(temp_obj)
-      obj_to_char(unequip_char(ch, k), ch);
-  }
-
-  GET_SIZE(ch) = SIZE_MEDIUM;
-  GET_RACE(ch) = RACE_ELADRIN;
-  ch->player.m_class = CLASS_THEURGIST;
-
-  send_to_char("You feel a chill and realize that you are naked.\r\n", ch);
-  generate_desc(ch);
-  GET_AGE(ch) = 500;
-  GET_VITALITY(ch) =  GET_MAX_VITALITY(ch) = 120;
-  forget_spells(ch, -1);
-  ch->player.spec = 0;
-  ch->player.secondary_class = 0;
-  ch->only.pc->epics = MAX(0, ch->only.pc->epics - (int) get_property("ascend.epicCost.Eladrin", 10));
-  // Lets not home them on the map.
-  //GET_HOME(ch) = GET_BIRTHPLACE(ch) = GET_ORIG_BIRTHPLACE(ch) = ch->in_room;
-}*/
 
 void ascend_theurgist(P_char ch)
 {
@@ -5993,13 +5939,14 @@ void ascend_theurgist(P_char ch)
   //GET_HOME(ch) = GET_BIRTHPLACE(ch) = GET_ORIG_BIRTHPLACE(ch) = ch->in_room;
 }
 
-void make_alchemist(P_char ch)
+void do_ascend(P_char ch, char *arg, int cmd)
 {
-  bool ascend = FALSE;
- 
+  int spec;
+  char buffer[256];
+  
   if(!ch)
   {
-    logit(LOG_EXIT, "make_alchemist called in actoth.c with no ch");
+    logit(LOG_EXIT, "do_ascend called in actoth.c with no ch");
     raise(SIGSEGV);
   }
   if(ch) // Just making sure.
@@ -6015,15 +5962,6 @@ void make_alchemist(P_char ch)
         ("This would be really really really really really dumb........\n\r",ch);
       return;
     }
-<<<<<<< HEAD
-    
-    if(GET_CLASS(ch, CLASS_DRUID) || GET_CLASS(ch, CLASS_SHAMAN) || GET_CLASS(ch, CLASS_CLERIC))
-    {
-    }
-    else
-    {
-      send_to_char("Your class cannot become an alchemist.\r\n", ch);
-=======
     if (affected_by_spell(ch, TAG_RACE_CHANGE))
     {
       send_to_char("You cannot ascend until you're in your true form.\n\r", ch);
@@ -6032,104 +5970,48 @@ void make_alchemist(P_char ch)
     if (GET_CLASS(ch, CLASS_THEURGIST))
     {  
       ascend_theurgist(ch);
->>>>>>> master
       return;
     }
-  
-    if(world[ch->in_room].number == ALCHEMIST_ASCEND_ROOM)
+    
+    if(!GET_CLASS(ch, CLASS_PALADIN) &&
+      !GET_CLASS(ch, CLASS_AVENGER))
     {
-      ascend = TRUE;
+      send_to_char("You raise your hands towards the skies and await a miracle.\n", ch);
+      return;
+    }
+
+    if(world[ch->in_room].number == 13272)
+    {
+      spec = SPEC_LIGHTBRINGER;
+    }
+    else if(world[ch->in_room].number == 75610)
+    {
+      spec = SPEC_INQUISITOR;
     }
     else
     {
-      send_to_char("Nothing happens.\n", ch);
+      send_to_char("Ascension can happen only in a holy place.\n", ch);
       return;
     }
 
-    if(ascend && GET_LEVEL(ch) > 50)
+    if(GET_CLASS(ch, CLASS_AVENGER))
     {
-      send_to_char("You feel a bit strange as knowledge flows into you from some unknown place...\n\n", ch);
-      ch->only.pc->epics = MAX(0, ch->only.pc->epics - (int) get_property("alchemist.epicCost", 250));
-      ch->player.m_class = CLASS_ALCHEMIST;
-      do_start(ch, 1);
-      return;
-    }
-    else
-    {
-      send_to_char("You haven't advanced far enough to undergo this change...\n\n", ch);
-      return;
-    }
-  }
-}
-
-void do_ascend(P_char ch, char *arg, int cmd)
-{
-  int spec;
-  char buffer[256];
-  
-  if(!ch)
-  {
-    logit(LOG_EXIT, "do_ascend called in actoth.c with no ch");
-    raise(SIGSEGV);
-  }
-  if(ch) // Just making sure.
-  {
-    if(IS_NPC(ch))
-    {
-      return;
-    }
-    if(IS_TRUSTED(ch))
-    {
-      send_to_char
-        ("This would be really really really really really dumb........\n\r",ch);
-      return;
-    }
-
-    if (GET_CLASS(ch, CLASS_THEURGIST))
-    {  
-      ascend_theurgist(ch);
-      return;
-    }
-    else if(GET_CLASS(ch, CLASS_PALADIN) && GET_CLASS(ch, CLASS_AVENGER))
-    {
-      if(world[ch->in_room].number == 13272)
-      {
-        spec = SPEC_LIGHTBRINGER;
-      }
-      else if(world[ch->in_room].number == 75610)
-      {
-        spec = SPEC_INQUISITOR;
-      }
-      else
-      {
-        send_to_char("Ascension can happen only in a holy place.\n", ch);
-        return;
-      }
-
-      if(GET_CLASS(ch, CLASS_AVENGER))
-      {
-        ch->player.spec = spec;
-        send_to_char(
-          "You pray to your god, asking for judgment over your past deeds,\n"
-          "seeking further enlightment. A &+Wholy glow&n seems to encase you,\n"
-          "lifting your spirits and heightening your awareness.\n"
-          "Your prayers have been answered, as you ascend into the ranks of\n"
-          "the holy army, from this day on you will be an "
-          "&+WAvenger&n of divine law.\n\n", ch);
-        sprintf(buffer,
-          "You hear a loud voice exclaiming, '&+WWelcome my child, you shall\n"
-          "&+Wnow be the avenging hand of %s,\n"
-          "&+Wthe %s &+Wfor his enemies!'",
-          get_god_name(ch),
-          GET_SPEC_NAME(ch->player.m_class, spec-1));
-        send_to_char(buffer, ch);
-        ch->only.pc->epics = MAX(0, ch->only.pc->epics - (int) get_property("ascend.epicCost", 250));
-        return;
-      }
-    }
-    else
-    {
-      make_alchemist(ch);
+      ch->player.spec = spec;
+      send_to_char(
+        "You pray to your god, asking for judgement over your past deeds,\n"
+        "seeking further enlightment. A &+Wholy glow&n seems to encase you,\n"
+        "lifting your spirits and heightening your awareness.\n"
+        "Your prayers have been answered, as you ascend into the ranks of\n"
+        "the holy army, from this day on you will be an "
+        "&+WAvenger&n of divine law.\n\n", ch);
+      sprintf(buffer,
+        "You hear a loud voice exclaiming, '&+WWelcome my child, you shall\n"
+        "&+Wnow be the avenging hand of %s,\n"
+        "&+Wthe %s &+Wfor his enemies!'",
+        get_god_name(ch),
+        GET_SPEC_NAME(ch->player.m_class, spec-1));
+      send_to_char(buffer, ch);
+      ch->only.pc->epics = MAX(0, ch->only.pc->epics - (int) get_property("ascend.epicCost", 250));
       return;
     }
 
@@ -6157,7 +6039,7 @@ void do_ascend(P_char ch, char *arg, int cmd)
     do_start(ch, 1);
     ch->only.pc->epics = MAX(0, ch->only.pc->epics - (int) get_property("ascend.epicCost", 250));
     send_to_char(
-        "You pray to your god, asking for judgment over your past deeds,\n"
+        "You pray to your god, asking for judgement over your past deeds,\n"
         "seeking further enlightment. A &+Wholy glow&n seems to encase you,\n"
         "lifting your spirits and heightening your awareness.\n"
         "Your prayers have been answered, as you ascend into the ranks of\n"
@@ -6349,7 +6231,7 @@ void do_old_descend(P_char ch, char *arg, int cmd)
     if(GET_CLASS(ch, CLASS_NECROMANCER))
     {
       SELECTION = NECRO;
-      cost = get_property("descend.epicCost.Lich", 2500);
+      cost = get_property("descent.epicCost.Lich", 250);
     }
       /*
      if (!str_cmp(second_arg,  "Warrior")){

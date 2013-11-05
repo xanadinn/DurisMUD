@@ -749,13 +749,16 @@ void cast_plane_shift(int level, P_char ch, char *arg, int type,
         send_to_char("You must reach level 41 to use this ability.\r\n", ch);
         return;
       }
-
-      if (world[ch->in_room].sector_type == SECT_OCEAN)
-      {
-        send_to_char("Chant such a complex spell while swimming?\r\n", ch);
-        return;
-      }
- 
+/*
+*   Allowing mortals to shift, gate, word and well from ocean tiles
+*   to encourage naval battles: 22Aug08 Lucrot
+*
+*   if (world[ch->in_room].sector_type == SECT_OCEAN)
+*    {
+*      send_to_char("Chant such a complex spell while swimming?\r\n", ch);
+*      return;
+*    }
+*/ 
 // plane_id
 // 0    earth, 
 // 1    water,
@@ -1464,6 +1467,7 @@ struct grow_data
   int      room;
   byte     old_sect;
   ulong    flags;
+  event_func_type func_bye;
   int      skill;
   int      duration;
 };
@@ -1471,214 +1475,135 @@ struct grow_data
 //-------------------------------------------------------------------------------
 void event_transmute_bye(P_char ch, P_char victim, P_obj obj, void *data)
 {
-  struct grow_data *g_data = (struct grow_data *) data;
-
-  switch( g_data->skill )
-  {
-  case SPELL_ETHEREAL_GROUNDS:
-    send_to_room("&+LAs mysterious &+wh&+Waz&+we &+Wf&+wad&+Les the surroundings start to look familiar again.\n", g_data->room);
-  break;
-  case SPELL_TRANS_MUD_ROCK:
-    send_to_room("The water in the ground rises, becoming &+mswampy&n.\n", g_data->room);
-  break;
-  case SPELL_TRANS_ROCK_MUD:
-    send_to_room("The swamp dries out and becomes &+ysolid&n.\n", g_data->room);
-  break;
-  case SPELL_TRANS_MUD_WATER:
-    send_to_room("The water in this room drains and the area becomes more &+mswampy&n.\n", g_data->room);
-  break;
-  case SPELL_TRANS_WATER_MUD:
-    send_to_room("The swamp becomes so filled with water, it returns to &+Bwater&n.\n", g_data->room);
-  break;
-  case SPELL_TRANS_WATER_AIR:
-    send_to_room("The air once again condenses into &+Bwater&n.\n", g_data->room);
-  break;
-  case SPELL_TRANS_AIR_WATER:
-    send_to_room("The water evaporates and reverts to &+Cair&n.\n", g_data->room);
-  break;
-  case SPELL_TRANS_ROCK_LAVA:
-    send_to_room("The &+rlava&n cools down and forms to rock.\n", g_data->room);
-  break;
-  case SPELL_TRANS_LAVA_ROCK:
-    send_to_room("The &+rlava&n bursts through the ground and once again surrounds you!\n", g_data->room);
-  break;
-  case SPELL_DEPRESSED_EARTH:
-    send_to_room("&+cThe &+Wspriitual &+cpresence in this land returns to normal.&n\n", g_data->room);
-  break;
-  case SPELL_GROW:
-    send_to_room("The &+Gtrees&n start to wither and die and within minutes nothing"
-      " is left of the once proud forest.\n", g_data->room);
-  break;
-  default:
-    send_to_room("The room reverts to its previous state.\n", g_data->room);
-//char     buf[1024];
-//sprintf(buf, "The room reverts to its previous state (%d).\n", g_data->skill);
-//send_to_room(buf, g_data->room);
-  }
-
-  world[g_data->room].sector_type = g_data->old_sect;
-  world[g_data->room].room_flags = g_data->flags;
+   struct grow_data *g_data = (struct grow_data *) data;
+   if(g_data && g_data->func_bye)
+   {
+      g_data->func_bye(ch, victim, obj, data);
+   }
+   else
+   {
+      world[g_data->room].sector_type = g_data->old_sect;
+      world[g_data->room].room_flags = g_data->flags;
+   }
 }
 
 //-------------------------------------------------------------------------------
 bool prepare_room_transmute(P_char ch, int room, int skill, int duration, int delay,
-                            event_func_type trans_func)
+                            event_func_type trans_func, event_func_type func_bye)
 {
-  // cannot transmute if another transmute in action
-  if(get_spell_from_room(&world[room], TAG_TRANSMUTE_ROOM))
-  {
-    send_to_char("Sparks flow from your hands, but CHAOS in room disperse your magic.\r\n", ch);
-    return FALSE;
-  }
+   // cannot transmute if another transmute in action
+   if(get_spell_from_room(&world[room], TAG_TRANSMUTE_ROOM))
+   {
+      send_to_char("Sparks flow from your hands, but CHAOS in room disperse your magic.\r\n", ch);
+      return FALSE;
+   }
 
-  struct grow_data g_data;
-  g_data.room = ch->in_room;
-  g_data.skill = skill;
-  g_data.duration = duration;
+   struct grow_data g_data;
+   g_data.room = ch->in_room;
+   g_data.skill = skill;
+   g_data.duration = duration;
+   g_data.func_bye = func_bye;
    
-  if(delay > 0)
-  {
-    // mark for other transmutes that action in progress
-    struct room_affect af;
-    memset(&af, 0, sizeof(struct room_affect));
-    af.type = TAG_TRANSMUTE_ROOM;
-    af.duration = delay + 10;
-    af.ch = ch;
-    affect_to_room(room, &af);
+   if(delay > 0)
+   {
+      // mark for other transmutes that action in progress
+      struct room_affect af;
+      memset(&af, 0, sizeof(struct room_affect));
+      af.type = TAG_TRANSMUTE_ROOM;
+      af.duration = delay + 10;
+      af.ch = ch;
+      affect_to_room(room, &af);
 
-    // mark for current transmute that action in progress
-    struct room_affect af1;
-    memset(&af1, 0, sizeof(struct room_affect));
-    af1.type = skill;
-    af1.duration = delay + 10;
-    af1.ch = ch;
-    affect_to_room(room, &af1);
+      // mark for current transmute that action in progress
+      struct room_affect af1;
+      memset(&af1, 0, sizeof(struct room_affect));
+      af1.type = skill;
+      af1.duration = delay + 10;
+      af1.ch = ch;
+      affect_to_room(room, &af1);
 
-    add_event(trans_func, delay, ch, NULL, NULL, 0, &g_data, sizeof(g_data));
-  }
-  else
-  {
-    trans_func(ch, NULL, NULL, &g_data);
-  }
+      add_event(trans_func, delay, ch, NULL, NULL, 0, &g_data,
+                sizeof(g_data));
+   }
+   else
+   {
+      trans_func(ch, NULL, NULL, &g_data);
+   }
    
-  return TRUE;
+   return TRUE;
 }
 
 //-------------------------------------------------------------------------------
 void finish_room_transmute(P_char ch, struct grow_data *data)
 {
-  struct grow_data g_data;
-  struct room_affect *af;
+   struct grow_data g_data;
+   struct room_affect *af;
 
-  af = get_spell_from_room(&world[data->room], TAG_TRANSMUTE_ROOM);
-  if(af)
-  {
-    affect_room_remove(data->room, af);
-  }
-  af = get_spell_from_room(&world[data->room], data->skill);
-  if(af)
-  {
-    affect_room_remove(data->room, af);
-  }
+   af = get_spell_from_room(&world[data->room], TAG_TRANSMUTE_ROOM);
+   if(af)
+   {
+      affect_room_remove(data->room, af);
+   }
+   af = get_spell_from_room(&world[data->room], data->skill);
+   if(af)
+   {
+      affect_room_remove(data->room, af);
+   }
 
-  g_data.room = data->room;
-  g_data.old_sect = world[g_data.room].sector_type;
-  g_data.flags = world[g_data.room].room_flags;
-  g_data.skill = data->skill;
+   g_data.room = data->room;
+   g_data.old_sect = world[g_data.room].sector_type;
+   g_data.flags = world[g_data.room].room_flags;
+   g_data.func_bye = data->func_bye;
    
-  // find an associated event and disarm it
-  // also take original room sector/flags
-  P_nevent e;
-  for (e = get_scheduled(ch, event_transmute_bye); e;
-       e = get_next_scheduled(e, event_transmute_bye))
-  {
-    struct grow_data *tmp_data = (struct grow_data *) e->data;
-    if( tmp_data->room == data->room)
-    {
-      g_data.old_sect = tmp_data->old_sect;
-      g_data.flags = tmp_data->flags;
-      disarm_single_event(e);
-      break;
-    }
-  }
+   // find an associated event and disarm it
+   // also take original room sector/flags
+   P_nevent e;
+   for (e = get_scheduled(ch, event_transmute_bye); e;
+        e = get_next_scheduled(e, event_transmute_bye))
+   {
+     struct grow_data *tmp_data = (struct grow_data *) e->data;
+     if( tmp_data->room == data->room)
+     {
+       g_data.old_sect = tmp_data->old_sect;
+       g_data.flags = tmp_data->flags;
+       disarm_single_event(e);
+       break;
+     }
+   }
 
-  add_event(event_transmute_bye, data->duration, 0, NULL, NULL, 0, &g_data,
+   add_event(event_transmute_bye, data->duration, 0, NULL, NULL, 0, &g_data,
              sizeof(g_data));
-}
-
-void event_transmute_room(P_char ch, P_char victim, P_obj obj, void *data)
-{
-  struct grow_data *g_data = (struct grow_data *) data;
-  finish_room_transmute(ch, g_data);
-  
-  switch( g_data->skill )
-  {
-  case SPELL_ETHEREAL_GROUNDS:
-    send_to_room("&+LThe surroundings begin to &+cb&+Cl&+cu&+Cr &+Land &+ct&+Cw&+ci&+Cs&+ct &+Las mysterious &+wh&+Waz&+we &+Lfills the area.\n", g_data->room);
-    world[g_data->room].sector_type = SECT_ETHEREAL;
-  break;
-  case SPELL_TRANS_MUD_ROCK:
-    send_to_room("&+yThe muddy ground swirls together and becomes &nsolid.\n", g_data->room);
-    world[g_data->room].sector_type = SECT_FIELD;
-  break;
-  case SPELL_TRANS_ROCK_MUD:
-    send_to_room("&+yThe ground swirls around and becomes &+mswampy!&n\n", g_data->room);
-    world[g_data->room].sector_type = SECT_SWAMP;
-  break;
-  case SPELL_TRANS_MUD_WATER:
-    send_to_room("&+yThe &+mswamp &+Bwater &+yrises and fills the area!&n\n", g_data->room);
-    world[g_data->room].sector_type = SECT_WATER_SWIM;
-  break;
-  case SPELL_TRANS_WATER_MUD:
-    send_to_room("&+BThe water in this area drains, turning the area into &+ma swamp&n!&n\n", g_data->room);
-    world[g_data->room].sector_type = SECT_SWAMP;
-  break;
-  case SPELL_TRANS_WATER_AIR:
-    send_to_room("&+BThe water in this area &+Wevaporates!&n\n", g_data->room);
-    world[g_data->room].sector_type = SECT_AIR_PLANE;
-  break;
-  case SPELL_TRANS_AIR_WATER:
-    send_to_room("&+CThe air becomes heavy and finally condenses into &+Bwater!&n\n", g_data->room);
-    world[g_data->room].sector_type = SECT_WATER_SWIM;
-  break;
-  case SPELL_TRANS_ROCK_LAVA:
-    send_to_room("&+RThe ground opens up spewing lava everywhere!&n\n", g_data->room);
-    world[g_data->room].sector_type = SECT_FIREPLANE;
-  break;
-  case SPELL_TRANS_LAVA_ROCK:
-    send_to_room("&+RThe lava &+Ccools&+r and forms an island of &+Lrock&n!&n\n", g_data->room);
-    world[g_data->room].sector_type = SECT_HILLS;
-  break;
-  case SPELL_DEPRESSED_EARTH:
-    send_to_room("&+LA wave of spiritual dread turns this area into &+ma swamp!&n\n", g_data->room);
-    world[g_data->room].sector_type = SECT_SWAMP;
-  break;
-  case SPELL_GROW:
-    if (IS_UNDERWORLD(g_data->room))
-    {
-      send_to_room("The ground buckles and splits apart as large "
-        "&+Mmushrooms&n and flailing\n&+Gtrees&n grow from pod to full "
-        "stature in a matter of seconds.\n", g_data->room);
-    }
-    else
-    {
-      send_to_room("Small &+Gplants&n sprout up from the ground and "
-        "start to grow at an incredible speed.\nWithin "
-        "seconds you are surrounded by a small forest!\n", g_data->room);
-    }
-    world[g_data->room].sector_type = SECT_FOREST;
-  break;
-  default:
-    send_to_room("The room changes to a new state.\n", g_data->room);
-  }
-
-  REMOVE_BIT(world[g_data->room].room_flags, INDOORS);
 }
 //-------------------------------------------------------------------------------
 
-void spell_ethereal_grounds(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
+//--------- SPELL_ETHEREAL_GROUNDS ------------
+void event_ethereal_grounds_bye(P_char ch, P_char victim, P_obj obj, void *data)
 {
-  int terrain_type, seconds;
+  struct grow_data *g_data = (struct grow_data *) data;
+
+  send_to_room("&+LAs mysterious &+wh&+Waz&+we &+Wf&+wad&+Les the surroundings start to look familiar again.\n",
+               g_data->room);
+
+  world[g_data->room].sector_type = g_data->old_sect;
+  world[g_data->room].room_flags = g_data->flags;
+}
+
+void event_ethereal_grounds(P_char ch, P_char victim, P_obj obj, void *data)
+{
+   struct grow_data *g_data = (struct grow_data *) data;
+   finish_room_transmute(ch, g_data);
+  
+   send_to_room("&+LThe surroundings begin to &+cb&+Cl&+cu&+Cr &+Land &+ct&+Cw&+ci&+Cs&+ct &+Las mysterious &+wh&+Waz&+we &+Lfills the area.\n",
+                g_data->room);
+
+   world[g_data->room].sector_type = SECT_ETHEREAL;
+   REMOVE_BIT(world[g_data->room].room_flags, INDOORS);
+}
+
+void spell_ethereal_grounds(int level, P_char ch, char *arg, int type,
+                            P_char victim, P_obj obj)
+{
+  int      terrain_type, seconds;
   struct room_affect af;
 
   if(!ch)
@@ -1690,14 +1615,14 @@ void spell_ethereal_grounds(int level, P_char ch, char *arg, int type, P_char vi
   seconds = 5 + dice(2, 5);
   terrain_type = world[ch->in_room].sector_type;
 
-  switch (terrain_type)
-  {
-  case SECT_ETHEREAL:
-    send_to_char("This room is ethereal enough!\n", ch);
-    return;
-  default:
-  break;
-  }
+   switch (terrain_type)
+   {
+      case SECT_ETHEREAL:
+         send_to_char("This room is ethereal enough!\n", ch);
+         return;
+      default:
+          break;
+   }
 
   if (get_spell_from_room(&world[ch->in_room], SPELL_ETHEREAL_GROUNDS))
   {
@@ -1706,31 +1631,54 @@ void spell_ethereal_grounds(int level, P_char ch, char *arg, int type, P_char vi
   }
 
   if( !prepare_room_transmute(ch, ch->in_room, SPELL_ETHEREAL_GROUNDS,
-    4 * 60, 4 * seconds, event_transmute_room) )
-    return;
+                              4 * 60, 4 * seconds,
+                              event_ethereal_grounds, event_ethereal_grounds_bye) )
+     return;
   
   send_to_room("&+cThe ground starts to swirl together...&n\n", ch->in_room);
 }
 
-void cast_transmute_mud_rock(int level, P_char ch, char *arg, int type, P_char tar_ch, P_obj tar_obj)
+//--------- SPELL_TRANS_MUD_ROCK ------------
+void event_mud_rock_bye(P_char ch, P_char victim, P_obj obj, void *data)
 {
-  int terrain_type, seconds;
+  struct grow_data *g_data = (struct grow_data *) data;
+
+  send_to_room("The water in the ground rises, becoming &+mswampy&n.\n", g_data->room);
+
+  world[g_data->room].sector_type = g_data->old_sect;
+  world[g_data->room].room_flags = g_data->flags;
+}
+
+void event_trans_mud_rock(P_char ch, P_char victim, P_obj obj, void *data)
+{
+   struct grow_data *g_data = (struct grow_data *) data;
+   finish_room_transmute(ch, g_data);
+  
+  send_to_room("&+yThe muddy ground swirls together and becomes &nsolid.\n", g_data->room);
+
+  world[g_data->room].sector_type = SECT_FIELD;
+  REMOVE_BIT(world[g_data->room].room_flags, INDOORS);
+}
+
+void cast_transmute_mud_rock(int level, P_char ch, char *arg, int type, P_char tar_ch,
+               P_obj tar_obj)
+{
+  int      terrain_type, seconds;
   struct room_affect af;
 
   seconds = 5 + dice(2, 5);
   terrain_type = world[ch->in_room].sector_type;
 
-  switch (terrain_type)
-  {
-  case SECT_FIELD:
-  case SECT_FOREST:
-  case SECT_SWAMP:
-    break;
-  default:
-    send_to_char("There's no mud to form earth here!\r\n", ch);
-    return;
-  break;
-  }
+	switch (terrain_type) {
+                case SECT_FIELD:
+                case SECT_FOREST:
+		case SECT_SWAMP:
+		   break;
+		default:
+			 send_to_char("There's no mud to form earth here!\r\n", ch);
+			 return;
+			 break;
+	}
 
   if (get_spell_from_room(&world[ch->in_room], SPELL_TRANS_MUD_ROCK))
   {
@@ -1739,40 +1687,63 @@ void cast_transmute_mud_rock(int level, P_char ch, char *arg, int type, P_char t
   }
 
   if( !prepare_room_transmute(ch, ch->in_room, SPELL_TRANS_MUD_ROCK,
-    4 * 60, 4 * seconds, event_transmute_room) )
-    return;
+                              4 * 60, 4 * seconds,
+                              event_trans_mud_rock, event_mud_rock_bye) )
+     return;
   
   send_to_room("&+yThe ground starts to swirl together...&n\n", ch->in_room);
 }
 
-void cast_transmute_rock_mud(int level, P_char ch, char *arg, int type, P_char tar_ch, P_obj tar_obj)
+//--------- SPELL_TRANS_ROCK_MUD ------------
+void event_rock_mud_bye(P_char ch, P_char victim, P_obj obj, void *data)
 {
-  int terrain_type, seconds;
+  struct grow_data *g_data = (struct grow_data *) data;
+
+  send_to_room("The swamp dries out and becomes &+ysolid&n.\n", g_data->room);
+
+  world[g_data->room].sector_type = g_data->old_sect;
+  world[g_data->room].room_flags = g_data->flags;
+}
+
+void event_trans_rock_mud(P_char ch, P_char victim, P_obj obj, void *data)
+{
+   struct grow_data *g_data = (struct grow_data *) data;
+   finish_room_transmute(ch, g_data);
+  
+  send_to_room("&+yThe ground swirls around and becomes &+mswampy!&n\n", g_data->room);
+
+  world[g_data->room].sector_type = SECT_SWAMP;
+  REMOVE_BIT(world[g_data->room].room_flags, INDOORS);
+}
+
+void cast_transmute_rock_mud(int level, P_char ch, char *arg, int type, P_char tar_ch,
+               P_obj tar_obj)
+{
+  int      terrain_type, seconds;
   struct room_affect af;
 
   seconds = 5 + dice(2, 5);
   terrain_type = world[ch->in_room].sector_type;
 
-  switch (terrain_type)
-  {
-  case SECT_MOUNTAIN:
-  case SECT_HILLS:
-  case SECT_FIELD:
-  case SECT_FOREST:
-  case SECT_ARCTIC:
-  case SECT_UNDRWLD_WILD:
-  case SECT_UNDRWLD_CITY:
-  case SECT_UNDRWLD_MOUNTAIN:
-  case SECT_UNDRWLD_LOWCEIL:
-  case SECT_UNDRWLD_LIQMITH:
-  case SECT_UNDRWLD_MUSHROOM:
-  case SECT_EARTH_PLANE:
-  break;
-  default:
-    send_to_char("You'll have a tough time making lots of mud here!\r\n", ch);
-    return;
-  break;
-  }
+	switch (terrain_type) {
+          case SECT_MOUNTAIN:
+  	  case SECT_HILLS:
+	  case SECT_FIELD:
+          case SECT_FOREST:
+          case SECT_ARCTIC:
+          case SECT_UNDRWLD_WILD:
+          case SECT_UNDRWLD_CITY:
+          case SECT_UNDRWLD_MOUNTAIN:
+          case SECT_UNDRWLD_LOWCEIL:
+          case SECT_UNDRWLD_LIQMITH:
+          case SECT_UNDRWLD_MUSHROOM:
+	  case SECT_EARTH_PLANE:
+		   break;
+		default:
+			 send_to_char("You'll have a tough time making lots of mud here!\r\n", ch);
+			 return;
+			 break;
+	}
 
   if (get_spell_from_room(&world[ch->in_room], SPELL_TRANS_ROCK_MUD))
   {
@@ -1781,31 +1752,55 @@ void cast_transmute_rock_mud(int level, P_char ch, char *arg, int type, P_char t
   }
 
   if( !prepare_room_transmute(ch, ch->in_room, SPELL_TRANS_ROCK_MUD,
-    4 * 60, 4 * seconds, event_transmute_room) )
-    return;
+                              4 * 60, 4 * seconds,
+                              event_trans_rock_mud, event_rock_mud_bye) )
+     return;
   
   send_to_room("&+yThe ground starts to &+Bswirl together...&n\n", ch->in_room);
 }
 
-void cast_transmute_mud_water(int level, P_char ch, char *arg, int type, P_char tar_ch, P_obj tar_obj)
+//--------- SPELL_TRANS_MUD_WATER ------------
+void event_mud_water_bye(P_char ch, P_char victim, P_obj obj, void *data)
 {
-  int terrain_type, seconds;
+  struct grow_data *g_data = (struct grow_data *) data;
+
+  send_to_room("The water in this room drains and the area becomes more &+mswampy&n.\n", g_data->room);
+
+  world[g_data->room].sector_type = g_data->old_sect;
+  world[g_data->room].room_flags = g_data->flags;
+}
+
+void event_trans_mud_water(P_char ch, P_char victim, P_obj obj, void *data)
+{
+   struct grow_data *g_data = (struct grow_data *) data;
+   finish_room_transmute(ch, g_data);
+  
+  send_to_room("&+yThe &+mswamp &+Bwater &+yrises and fills the area!&n\n", g_data->room);
+
+  world[g_data->room].sector_type = SECT_WATER_SWIM;
+  REMOVE_BIT(world[g_data->room].room_flags, INDOORS);
+}
+
+void cast_transmute_mud_water(int level, P_char ch, char *arg, int type, P_char tar_ch,
+               P_obj tar_obj)
+{
+  int      terrain_type, seconds;
   struct room_affect af;
 
   seconds = 5 + dice(2, 5);
   terrain_type = world[ch->in_room].sector_type;
 
-  switch (terrain_type)
-  {
-  case SECT_FOREST:
-  case SECT_FIELD:
-  case SECT_SWAMP:
-  break;
-  default:
-    send_to_char("This might as well be a desert!\r\n", ch);
-    return;
-  break;
-  }
+	switch (terrain_type)
+	{
+      case SECT_FOREST:
+      case SECT_FIELD:
+		case SECT_SWAMP:
+		   break;
+		default:
+			 send_to_char("This might as well be a desert!\r\n", ch);
+			 return;
+			 break;
+	}
 
   if (get_spell_from_room(&world[ch->in_room], SPELL_TRANS_MUD_WATER))
   {
@@ -1814,35 +1809,60 @@ void cast_transmute_mud_water(int level, P_char ch, char *arg, int type, P_char 
   }
 
   if( !prepare_room_transmute(ch, ch->in_room, SPELL_TRANS_MUD_WATER,
-    4 * 60, 4 * seconds, event_transmute_room) )
-    return;
+                              4 * 60, 4 * seconds,
+                              event_trans_mud_water, event_mud_water_bye) )
+     return;
   
   send_to_room("&+BThe area starts to flood...&n\n", ch->in_room);
 }
 
-void cast_transmute_water_mud(int level, P_char ch, char *arg, int type, P_char tar_ch, P_obj tar_obj)
+//--------- SPELL_TRANS_WATER_MUD ------------
+void event_water_mud_bye(P_char ch, P_char victim, P_obj obj, void *data)
 {
-  int terrain_type, seconds;
+  struct grow_data *g_data = (struct grow_data *) data;
+
+  send_to_room("The swamp becomes so filled with water, it returns to &+Bwater&n.\n", g_data->room);
+
+  world[g_data->room].sector_type = g_data->old_sect;
+  world[g_data->room].room_flags = g_data->flags;
+}
+
+void event_trans_water_mud(P_char ch, P_char victim, P_obj obj, void *data)
+{
+   struct grow_data *g_data = (struct grow_data *) data;
+   finish_room_transmute(ch, g_data);
+  
+  send_to_room("&+BThe water in this area drains, turning the area into &+ma swamp&n!&n\n",
+               g_data->room);
+
+  world[g_data->room].sector_type = SECT_SWAMP;
+  REMOVE_BIT(world[g_data->room].room_flags, INDOORS);
+}
+
+void cast_transmute_water_mud(int level, P_char ch, char *arg, int type, P_char tar_ch,
+               P_obj tar_obj)
+{
+  int      terrain_type, seconds;
   struct room_affect af;
 
   seconds = 5 + dice(2, 5);
   terrain_type = world[ch->in_room].sector_type;
 
-  switch (terrain_type)
-  {
-  case SECT_UNDRWLD_WATER:
-  case SECT_UNDERWATER:
-  case SECT_UNDERWATER_GR:
-  case SECT_OCEAN:
-  case SECT_WATER_SWIM:
-  case SECT_WATER_PLANE:
-  case SECT_WATER_NOSWIM:
-  break;
-  default:
-    send_to_char("You need a fair amount of water and mud to work with!\r\n", ch);
-    return;
-  break;
-  }
+	switch (terrain_type) {
+		
+                case SECT_UNDRWLD_WATER:
+                case SECT_UNDERWATER:
+                case SECT_UNDERWATER_GR:
+                case SECT_OCEAN:
+		case SECT_WATER_SWIM:
+		case SECT_WATER_PLANE:
+		case SECT_WATER_NOSWIM:
+		   break;
+		default:
+			 send_to_char("You need a fair amount of water and mud to work with!\r\n", ch);
+			 return;
+			 break;
+	}
 
   if (get_spell_from_room(&world[ch->in_room], SPELL_TRANS_WATER_MUD))
   {
@@ -1851,35 +1871,59 @@ void cast_transmute_water_mud(int level, P_char ch, char *arg, int type, P_char 
   }
 
   if( !prepare_room_transmute(ch, ch->in_room, SPELL_TRANS_WATER_MUD,
-    4 * 60, 4 * seconds, event_transmute_room) )
-    return;
+                              4 * 60, 4 * seconds,
+                              event_trans_water_mud, event_water_mud_bye) )
+     return;
 
-  send_to_room("&+bThe water clouds &+yand becomes more solid...&n\n", ch->in_room);
+  send_to_room("&+bThe water clouds &+yand becomes more solid...&n\n",
+               ch->in_room);
 }
 
-void cast_transmute_water_air(int level, P_char ch, char *arg, int type, P_char tar_ch, P_obj tar_obj)
+//--------- SPELL_TRANS_WATER_AIR ------------
+void event_water_air_bye(P_char ch, P_char victim, P_obj obj, void *data)
 {
-  int terrain_type, seconds;
+  struct grow_data *g_data = (struct grow_data *) data;
+
+  send_to_room("The air once again condenses into &+Bwater&n.\n", g_data->room);
+
+  world[g_data->room].sector_type = g_data->old_sect;
+  world[g_data->room].room_flags = g_data->flags;
+}
+
+void event_trans_water_air(P_char ch, P_char victim, P_obj obj, void *data)
+{
+   struct grow_data *g_data = (struct grow_data *) data;
+   finish_room_transmute(ch, g_data);
+  
+   send_to_room("&+BThe water in this area &+Wevaporates!&n\n", g_data->room);
+
+   world[g_data->room].sector_type = SECT_AIR_PLANE;
+   REMOVE_BIT(world[g_data->room].room_flags, INDOORS);
+}
+
+void cast_transmute_water_air(int level, P_char ch, char *arg, int type, P_char tar_ch,
+               P_obj tar_obj)
+{
+  int      terrain_type, seconds;
   struct room_affect af;
 
   seconds = 5 + dice(2, 5);
   terrain_type = world[ch->in_room].sector_type;
 
-  switch (terrain_type)
-  {
-  case SECT_UNDRWLD_WATER:
-  case SECT_UNDERWATER:
-  case SECT_UNDERWATER_GR:
-  case SECT_OCEAN:
-  case SECT_WATER_SWIM:
-  case SECT_WATER_PLANE:
-  case SECT_WATER_NOSWIM:
-    break;
-  default:
-    send_to_char("You need a fair amount of water to work with!\r\n", ch);
-    return;
-  break;
-  }
+	switch (terrain_type) {
+                case SECT_UNDRWLD_WATER:
+                case SECT_UNDERWATER:
+                case SECT_UNDERWATER_GR:
+                case SECT_OCEAN:
+		case SECT_WATER_SWIM:
+		case SECT_WATER_PLANE:
+		case SECT_WATER_NOSWIM:
+		   break;
+		default:
+			 send_to_char("You need a fair amount of water to work with!\r\n", ch);
+			 return;
+			 break;
+	}
 
   if (get_spell_from_room(&world[ch->in_room], SPELL_TRANS_WATER_AIR))
   {
@@ -1888,29 +1932,54 @@ void cast_transmute_water_air(int level, P_char ch, char *arg, int type, P_char 
   }
 
   if( !prepare_room_transmute(ch, ch->in_room, SPELL_TRANS_WATER_AIR,
-    4 * 60, 4 * seconds, event_transmute_room) )
-    return;
+                              4 * 60, 4 * seconds,
+                              event_trans_water_air, event_water_air_bye) )
+     return;
 
-  send_to_room("&+BThe water starts to &+Cevaporate...&n\n", ch->in_room);
+  send_to_room("&+BThe water starts to &+Cevaporate...&n\n",
+               ch->in_room);
 }
 
-void cast_transmute_air_water(int level, P_char ch, char *arg, int type, P_char tar_ch, P_obj tar_obj)
+//--------- SPELL_TRANS_AIR_WATER ------------
+void event_air_water_bye(P_char ch, P_char victim, P_obj obj, void *data)
 {
-  int terrain_type, seconds;
+  struct grow_data *g_data = (struct grow_data *) data;
+
+  send_to_room("The water evaporates and reverts to &+Cair&n.\n", g_data->room);
+
+  world[g_data->room].sector_type = g_data->old_sect;
+  world[g_data->room].room_flags = g_data->flags;
+}
+
+void event_trans_air_water(P_char ch, P_char victim, P_obj obj, void *data)
+{
+   struct grow_data *g_data = (struct grow_data *) data;
+   finish_room_transmute(ch, g_data);
+  
+   send_to_room("&+CThe air becomes heavy and finally condenses into &+Bwater!&n\n",
+                g_data->room);
+
+   world[g_data->room].sector_type = SECT_WATER_SWIM;
+   REMOVE_BIT(world[g_data->room].room_flags, INDOORS);
+}
+
+void cast_transmute_air_water(int level, P_char ch, char *arg, int type, P_char tar_ch,
+               P_obj tar_obj)
+{
+  int      terrain_type, seconds;
   struct room_affect af;
 
   seconds = 5 + dice(2, 5);
   terrain_type = world[ch->in_room].sector_type;
 
-  switch (terrain_type)
-  {
-  case SECT_AIR_PLANE:
-  break;
-  default:
-    send_to_char("You need more air than this!\r\n", ch);
-    return;
-  break;
-  }
+	switch (terrain_type) {
+		case SECT_AIR_PLANE:
+		   break;
+		default:
+			 send_to_char("You need more air than this!\r\n", ch);
+			 return;
+			 break;
+	}
 
   if (get_spell_from_room(&world[ch->in_room], SPELL_TRANS_AIR_WATER))
   {
@@ -1919,15 +1988,40 @@ void cast_transmute_air_water(int level, P_char ch, char *arg, int type, P_char 
   }
 
   if( !prepare_room_transmute(ch, ch->in_room, SPELL_TRANS_AIR_WATER,
-    4 * 60, 4 * seconds, event_transmute_room) )
-    return;
+                              4 * 60, 4 * seconds,
+                              event_trans_air_water, event_air_water_bye) )
+     return;
 
-  send_to_room("&+cThe air starts becoming &+Bvery moist...&n\n", ch->in_room);
+  send_to_room("&+cThe air starts becoming &+Bvery moist...&n\n",
+               ch->in_room);
 }
 
-void cast_transmute_rock_lava(int level, P_char ch, char *arg, int type, P_char tar_ch, P_obj tar_obj)
+//--------- SPELL_TRANS_ROCK_LAVA ------------
+void event_rock_lava_bye(P_char ch, P_char victim, P_obj obj, void *data)
 {
-  int terrain_type, seconds;
+  struct grow_data *g_data = (struct grow_data *) data;
+
+  send_to_room("The &+rlava&n cools down and forms to rock.\n", g_data->room);
+
+  world[g_data->room].sector_type = g_data->old_sect;
+  world[g_data->room].room_flags = g_data->flags;
+}
+
+void event_trans_rock_lava(P_char ch, P_char victim, P_obj obj, void *data)
+{
+   struct grow_data *g_data = (struct grow_data *) data;
+   finish_room_transmute(ch, g_data);
+
+  send_to_room("&+RThe ground opens up spewing lava everywhere!&n\n", g_data->room);
+
+  world[g_data->room].sector_type = SECT_FIREPLANE;
+  REMOVE_BIT(world[g_data->room].room_flags, INDOORS);
+}
+
+void cast_transmute_rock_lava(int level, P_char ch, char *arg, int type, P_char tar_ch,
+               P_obj tar_obj)
+{
+  int      terrain_type, seconds;
   struct room_affect af;
 
   if (CHAR_IN_TOWN(ch))
@@ -1939,23 +2033,22 @@ void cast_transmute_rock_lava(int level, P_char ch, char *arg, int type, P_char 
   seconds = 5 + dice(2, 5);
   terrain_type = world[ch->in_room].sector_type;
 
-  switch (terrain_type)
-  {
-  case SECT_DESERT:
-  case SECT_ARCTIC:
-  case SECT_CITY:
-  case SECT_FOREST:
-  case SECT_FIELD:
-  case SECT_HILLS:
-  case SECT_MOUNTAIN:
-  case SECT_UNDRWLD_WILD:
-  case SECT_EARTH_PLANE:
-  break;
-  default:
-    send_to_char("How about trying this with more rock?\r\n", ch);
-    return;
-  break;
-  }
+	switch (terrain_type)
+	{
+	   case SECT_DESERT:
+      case SECT_ARCTIC:
+      case SECT_CITY:
+      case SECT_FOREST:
+      case SECT_FIELD:
+      case SECT_HILLS:
+      case SECT_MOUNTAIN:
+      case SECT_UNDRWLD_WILD:
+      case SECT_EARTH_PLANE:
+		   break;
+		default:
+			 send_to_char("How about trying this with more rock?\r\n", ch);
+			 return;
+	}
 
   if (get_spell_from_room(&world[ch->in_room], SPELL_TRANS_ROCK_LAVA))
   {
@@ -1964,29 +2057,54 @@ void cast_transmute_rock_lava(int level, P_char ch, char *arg, int type, P_char 
   }
 
   if( !prepare_room_transmute(ch, ch->in_room, SPELL_TRANS_ROCK_LAVA,
-    4 * 60, 4 * seconds, event_transmute_room) )
-    return;
+                              4 * 60, 4 * seconds,
+                              event_trans_rock_lava, event_rock_lava_bye) )
+     return;
 
-  send_to_room("&+LThe rocky ground &+Rstarts to melt before your eyes...&n\n", ch->in_room);
+  send_to_room("&+LThe rocky ground &+Rstarts to melt before your eyes...&n\n",
+               ch->in_room);
 }
 
-void cast_transmute_lava_rock(int level, P_char ch, char *arg, int type, P_char tar_ch, P_obj tar_obj)
+//--------- SPELL_TRANS_LAVA_ROCK ------------
+void event_lava_rock_bye(P_char ch, P_char victim, P_obj obj, void *data)
 {
-  int terrain_type, seconds;
+  struct grow_data *g_data = (struct grow_data *) data;
+
+  send_to_room("The &+rlava&n bursts through the ground and once again surrounds you!\n", g_data->room);
+
+  world[g_data->room].sector_type = g_data->old_sect;
+  world[g_data->room].room_flags = g_data->flags;
+}
+
+void event_trans_lava_rock(P_char ch, P_char victim, P_obj obj, void *data)
+{
+   struct grow_data *g_data = (struct grow_data *) data;
+   finish_room_transmute(ch, g_data);
+  
+   send_to_room("&+RThe lava &+Ccools&+r and forms an island of &+Lrock&n!&n\n",
+                g_data->room);
+
+   world[g_data->room].sector_type = SECT_HILLS;
+   REMOVE_BIT(world[g_data->room].room_flags, INDOORS);
+}
+
+void cast_transmute_lava_rock(int level, P_char ch, char *arg, int type, P_char tar_ch,
+               P_obj tar_obj)
+{
+  int      terrain_type, seconds;
   struct room_affect af;
 
   seconds = 5 + dice(2, 5);
   terrain_type = world[ch->in_room].sector_type;
 
-  switch (terrain_type)
-  {
-  case SECT_FIREPLANE:
-  break;
-  default:
-    send_to_char("How about trying this with more lava?\r\n", ch);
-    return;
-  break;
-  }
+	switch (terrain_type)
+	{
+		case SECT_FIREPLANE:
+		   break;
+		default:
+			 send_to_char("How about trying this with more lava?\r\n", ch);
+			 return;
+	}
 
   if (get_spell_from_room(&world[ch->in_room], SPELL_TRANS_LAVA_ROCK))
   {
@@ -1995,35 +2113,60 @@ void cast_transmute_lava_rock(int level, P_char ch, char *arg, int type, P_char 
   }
 
   if( !prepare_room_transmute(ch, ch->in_room, SPELL_TRANS_LAVA_ROCK,
-    4 * 60, 4 * seconds, event_transmute_room) )
-    return;
+                              4 * 60, 4 * seconds,
+                              event_trans_lava_rock, event_lava_rock_bye) )
+     return;
   
-  send_to_room("&+LThe lava starts to &+Ccool &+Lright before your eyes!&n\n", ch->in_room);
+  send_to_room("&+LThe lava starts to &+Ccool &+Lright before your eyes!&n\n",
+               ch->in_room);
 }
 
-void cast_depressed_earth(int level, P_char ch, char *arg, int type, P_char tar_ch, P_obj tar_obj)
+//--------- SPELL_DEPRESSED_EARTH ------------
+void event_depressed_earth_bye(P_char ch, P_char victim, P_obj obj, void *data)
 {
-  int terrain_type, seconds;
+  struct grow_data *g_data = (struct grow_data *) data;
+
+  send_to_room("&+cThe &+Wspiritual &+cpresence in this land returns to normal&n.\n", g_data->room);
+
+  world[g_data->room].sector_type = g_data->old_sect;
+  world[g_data->room].room_flags = g_data->flags;
+}
+
+void event_depressed_earth(P_char ch, P_char victim, P_obj obj, void *data)
+{
+   struct grow_data *g_data = (struct grow_data *) data;
+   finish_room_transmute(ch, g_data);
+  
+   send_to_room("&+LA wave of spiritual dread turns this area into &+ma swamp!&n\n",
+                g_data->room);
+
+   world[g_data->room].sector_type = SECT_SWAMP;
+   REMOVE_BIT(world[g_data->room].room_flags, INDOORS);
+}
+
+void cast_depressed_earth(int level, P_char ch, char *arg, int type, P_char tar_ch,
+               P_obj tar_obj)
+{
+  int      terrain_type, seconds;
   struct room_affect af;
 
   seconds = 5 + dice(2, 5);
   terrain_type = world[ch->in_room].sector_type;
 
-  switch (terrain_type)
-  {
-  case SECT_FOREST:
-  case SECT_HILLS:
-  case SECT_FIELD:
-  case SECT_UNDRWLD_WILD:
-  case SECT_CITY:
-  case SECT_ROAD:
-  case SECT_UNDRWLD_CITY:
-  break;
-  default:
-    send_to_char("The spirits of this area withstand your spell!\r\n", ch);
-    return;
-  break;
-  }
+	switch (terrain_type) {
+		case SECT_FOREST:
+		case SECT_HILLS:
+		case SECT_FIELD:
+		case SECT_UNDRWLD_WILD:
+		case SECT_CITY:
+                case SECT_ROAD:
+		case SECT_UNDRWLD_CITY:
+		   break;
+		default:
+			 send_to_char("The spirits of this area withstand your spell!\r\n", ch);
+			 return;
+			 break;
+	}
 
   if (get_spell_from_room(&world[ch->in_room], SPELL_DEPRESSED_EARTH))
   {
@@ -2032,15 +2175,56 @@ void cast_depressed_earth(int level, P_char ch, char *arg, int type, P_char tar_
   }
 
   if( !prepare_room_transmute(ch, ch->in_room, SPELL_DEPRESSED_EARTH,
-    4 * 60, 4 * seconds, event_transmute_room) )
-    return;
+                              4 * 60, 4 * seconds,
+                              event_depressed_earth, event_depressed_earth_bye) )
+     return;
   
-  send_to_room("&+LA wave of depression sweeps through these &+ylands...&n\n", ch->in_room);
+  send_to_room("&+LA wave of depression sweeps through these &+ylands...&n\n",
+               ch->in_room);
 }
 
-void cast_grow(int level, P_char ch, char *arg, int type, P_char tar_ch, P_obj tar_obj)
+//--------- SPELL_GROW ------------
+void event_grow_bye(P_char ch, P_char victim, P_obj obj, void *data)
 {
-  int terrain_type, seconds, duration;
+  struct grow_data *g_data = (struct grow_data *) data;
+
+  send_to_room("The &+Gtrees&n start to wither and die and within "
+               "minutes nothing is left of the once proud forest.\n",
+               g_data->room);
+
+  world[g_data->room].sector_type = g_data->old_sect;
+  world[g_data->room].room_flags = g_data->flags;
+}
+
+void event_grow(P_char ch, P_char victim, P_obj obj, void *data)
+{
+   struct grow_data *g_data = (struct grow_data *) data;
+   finish_room_transmute(ch, g_data);
+
+  if (IS_UNDERWORLD(g_data->room))
+  {
+    send_to_room("The ground buckles and splits apart as large "
+                 "&+Mmushrooms&n and flailing\n"
+                 "&+Gtrees&n grow from pod to full stature in a "
+                 "matter of seconds.\n",
+                 g_data->room);
+  }
+  else
+  {
+    send_to_room("Small &+Gplants&n sprout up from the ground and "
+                 "start to grow at an incredible speed.\n"
+                 "Within seconds you are surrounded by a small forest!\n",
+                 g_data->room);
+  }
+
+  world[g_data->room].sector_type = SECT_FOREST;
+  REMOVE_BIT(world[g_data->room].room_flags, INDOORS);
+}
+
+void cast_grow(int level, P_char ch, char *arg, int type, P_char tar_ch,
+               P_obj tar_obj)
+{
+  int      terrain_type, seconds, duration;
   struct room_affect af;
 
   seconds = 5 + dice(2, 5);
@@ -2059,29 +2243,30 @@ void cast_grow(int level, P_char ch, char *arg, int type, P_char tar_ch, P_obj t
     return;
   }
   
-  switch(terrain_type)
-  {
-  case SECT_FOREST:
-    send_to_char("&+GThere seems to be enough vegetation here already.&n\n", ch);
-    return;
-  case SECT_FIELD:
-  case SECT_SWAMP:
-  case SECT_MOUNTAIN:
-  case SECT_HILLS:
-  case SECT_ARCTIC:
-  case SECT_CITY:
-  case SECT_EARTH_PLANE:
-  case SECT_ASTRAL:
-  case SECT_ETHEREAL:
-    break;   	
-  case SECT_DESERT:
-  case SECT_UNDRWLD_MOUNTAIN:
-  case SECT_ROAD:
-  case SECT_INSIDE:
-  default:
-    send_to_char("This terrain is not fit for a forest.\n", ch);
-    return;
-  break;
+  switch(terrain_type) {
+
+	case SECT_FOREST:
+		send_to_char("&+GThere seems to be enough vegetation here already.&n\n", ch);
+	 	return;
+	case SECT_FIELD:
+   case SECT_SWAMP:
+   case SECT_MOUNTAIN:
+	case SECT_HILLS:
+	case SECT_ARCTIC:
+   case SECT_CITY:
+	case SECT_EARTH_PLANE:
+	case SECT_ASTRAL:
+	case SECT_ETHEREAL:
+		break;   	
+	case SECT_DESERT:
+	case SECT_UNDRWLD_MOUNTAIN:
+	case SECT_ROAD:
+	case SECT_INSIDE:
+   default:
+		send_to_char("This terrain is not fit for a forest.\n", ch);
+		return;
+		break;
+
   }
   
   if(IS_SET(world[ch->in_room].room_flags, GUILD_ROOM))
@@ -2091,13 +2276,17 @@ void cast_grow(int level, P_char ch, char *arg, int type, P_char tar_ch, P_obj t
   }
   
   if( !prepare_room_transmute(ch, ch->in_room, SPELL_GROW,
-    4 * 60, 4 * seconds, event_transmute_room) )
-    return;
+                              4 * 60, 4 * seconds,
+                              event_grow, event_grow_bye) )
+     return;
 
-  send_to_room("&+GThe ground starts to glow with a soft green light.&n\n", ch->in_room);
+  send_to_room("&+GThe ground starts to glow with a soft green light.&n\n",
+               ch->in_room);
 }
 
-void cast_vines(int level, P_char ch, char *arg, int type, P_char tar_ch, P_obj tar_obj)
+
+void cast_vines(int level, P_char ch, char *arg, int type, P_char tar_ch,
+                P_obj tar_obj)
 {
   P_obj    t_obj, next_obj;
   P_obj    used_obj[32];
@@ -2107,11 +2296,13 @@ void cast_vines(int level, P_char ch, char *arg, int type, P_char tar_ch, P_obj 
   if (IS_AFFECTED5(ch, AFF5_VINES))
     return;
 
-  if (world[ch->in_room].sector_type != SECT_FOREST || world[ch->in_room].sector_type != SECT_FIELD
-      || world[ch->in_room].sector_type != SECT_SWAMP) {
+/*
+  if (world[ch->in_room].sector_type != SECT_FOREST || world[ch->in_room].sector_type == SECT_FIELD
+      || world[ch->in_room].sector_type == SECT_SWAMP) {
      send_to_char("There doesn't appear to be many vines around here.\n", ch);
      return;
   }
+*/
 
   if(IS_PC(ch) ||
      IS_PC_PET(ch))
@@ -2130,7 +2321,8 @@ void cast_vines(int level, P_char ch, char *arg, int type, P_char tar_ch, P_obj 
 
     if (!count)
     {
-      send_to_char("You must have &+ga green herb&n in your inventory.\r\n", ch);
+      send_to_char("You must have &+ga green herb&n in your inventory.\r\n",
+                   ch);
       return;
     }
 
@@ -2141,22 +2333,20 @@ void cast_vines(int level, P_char ch, char *arg, int type, P_char tar_ch, P_obj 
       extract_obj(used_obj[i], TRUE);
   }
   else
-    count = level / 7;
+    count = (int)(level / 10);
     
-  act("&+GGreen&n vines sprout up around you forming a protective shield.", FALSE, ch, 0, 0, TO_CHAR);
-  act("&+GVines&n sprout up around $n forming a protective shield.", FALSE, ch, 0, 0, TO_NOTVICT);
+  act("&+GGreen&n vines sprout up around you forming a protective shield.",
+      FALSE, ch, 0, 0, TO_CHAR);
+
+  act("&+GVines&n sprout up around $n forming a protective shield.",
+    FALSE, ch, 0, 0, TO_NOTVICT);
 
   memset(&af, 0, sizeof(af));
   af.type = SPELL_VINES;
   af.flags = AFFTYPE_NOSHOW | AFFTYPE_NODISPEL;
   af.bitvector5 = AFF5_VINES;
-<<<<<<< HEAD
-  af.duration = 4;
-  af.modifier = count * 5;
-=======
   af.duration = level / 2;
   af.modifier = 40 * count;
->>>>>>> master
   affect_to_char(ch, &af);
 }
 
@@ -2597,25 +2787,13 @@ void cast_bloodstone(int level, P_char ch, char *arg, int type, P_char victim, P
   }
 
   af.type = SPELL_BLOODSTONE;
-  GET_VITALITY(victim) -= level / 2;
+
+  GET_VITALITY(victim) -= 2;
   StartRegen(victim, EVENT_MOVE_REGEN);
-<<<<<<< HEAD
-  af.duration = (level / 4) * WAIT_SEC;
-=======
 
   af.duration = dur;
   af.flags = AFFTYPE_SHORT | AFFTYPE_NODISPEL;
->>>>>>> master
   affect_to_char(victim, &af);
-
-  if(level > 51)
-  {
-    af.type = SPELL_BLOODSTONE;
-    af.duration = (level / 4) * PULSE_VIOLENCE;
-    af.location = victim->points.combat_pulse;
-    af.modifier = 1;
-    affect_to_char(victim, &af);
-  }
 
   act("You feel as if though your blood starts to flow slower in your veins.",
     FALSE, victim, 0, 0, TO_CHAR);

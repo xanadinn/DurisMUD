@@ -855,11 +855,6 @@ void outpost_death(P_char outpost, P_char killer)
   rubble->value[1] = stone;
   */
   P_obj rubble = read_object(97800, VIRTUAL);
-  if(!rubble)
-  {
-    logit(LOG_DEBUG, "Rubble object wasn't loaded for some stupid reason!  %s was killer", GET_NAME(killer));
-    return;
-  }
   rubble->value[3] = building->id;
   obj_to_room(rubble, outpost->in_room);
   reset_one_outpost(building);

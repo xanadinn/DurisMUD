@@ -622,17 +622,23 @@ void shopping_sell(char *arg, P_char ch, P_char keeper, int shop_nr)
     return;
   }
   cost_factor = (float) cha_app[STAT_INDEX(MAX(100, GET_C_CHA(ch)))].modifier;
-
   if (GET_RACE(ch) != GET_RACE(keeper))
     cost_factor = cost_factor / 2.;
 
-  cost_factor = shop_index[shop_nr].buy_percent * (1.0 + (cost_factor / 100.));
-
+  cost_factor =
+    shop_index[shop_nr].buy_percent * (1.0 + (cost_factor / 100.));
   if (cost_factor > shop_index[shop_nr].buy_percent)
     cost_factor = shop_index[shop_nr].buy_percent - .01;
 
+/*
+  Taken out the staff/scroll/wand/potion modifier since players only
+  sell these items now and never buy them
+  if (temp1->type == ITEM_SCROLL || temp1->type == ITEM_POTION ||
+      temp1->type == ITEM_STAFF || temp1->type == ITEM_WAND)
+    cost_factor *= .1;
+*/
   /* condition affects value too */
-  sale = (int) (temp1->cost * cost_factor * ((float) temp1->condition / temp1->max_condition));
+  sale = (int) (temp1->cost * cost_factor * MIN(100, temp1->condition) / 100);
 
   if (sale < 1)
     sale = 1;
@@ -770,20 +776,20 @@ void shopping_value(char *arg, P_char ch, P_char keeper, int shop_nr)
   if (cost_factor > shop_index[shop_nr].buy_percent)
     cost_factor = shop_index[shop_nr].buy_percent - .01;
 
-  if (has_innate(ch, INNATE_BARTER)) 
-  {
-    if (GET_C_CHA(ch) > number(75, 125)) 
-    {
-      cost_factor -= .25;
-    } 
-    else 
-    {
-      cost_factor += .10;
-    }
+  if (has_innate(ch, INNATE_BARTER)) {
+   if (GET_C_CHA(ch) > number(0, 125)) {
+    cost_factor -= .25;
+   } else {
+    cost_factor += .10;
+   }
   }
-
+/*
+  if (temp1->type == ITEM_SCROLL || temp1->type == ITEM_POTION ||
+      temp1->type == ITEM_STAFF || temp1->type == ITEM_WAND)
+    cost_factor *= .1;
+*/
   /* condition affects value too */
-  sale = (int) (temp1->cost * cost_factor * (temp1->condition / temp1->max_condition));
+  sale = (int) (temp1->cost * cost_factor * MIN(100, temp1->condition) / 100);
 
   if (sale < 1)
     sale = 1;
@@ -1772,37 +1778,15 @@ void shopping_stat( P_char ch, P_char keeper, char *arg, int cmd )
 {
    int i = 0;
    P_obj obj;
-   int shop_nr;
 
    if( !ch || !keeper )
-      return;
-
-  for (shop_nr = 0; shop_index[shop_nr].keeper != GET_RNUM(keeper); shop_nr++) ;
-
-  if (SHOP_FUNC(shop_nr))       /* Check secondary function  */
-    if ((SHOP_FUNC(shop_nr)) (keeper, ch, cmd, arg))
       return;
 
    for( obj = keeper->carrying; obj; obj = obj->next_content )
       if( CAN_SEE_OBJ( ch, obj ) && ( obj->cost > 0 ) )
          if( ++i == atoi(arg) )
          { 
-            if( shop_producing( obj, shop_nr) )
-            {
-               int cost = GET_LEVEL(ch);
-               if( cost > 25 )
-                  cost = 25;
-               if( cost > 1 )
-                  cost = ( cost - 1 ) * 40;
-               if( cost == 960 )
-                  cost = 1000;
-               if (!transact(ch, NULL, keeper, cost))
-                  act("It costs money to learn about $p.", FALSE, ch, obj, 0, TO_CHAR);
-               else
-                  lore_item( ch, obj );
-            }
-            else
-               act("I don't know anthing about $p.", FALSE, ch, obj, 0, TO_CHAR);
+            lore_item( ch, obj );
             return;
          }
    mobsay( keeper, "I do not sell that item." );

@@ -335,39 +335,53 @@ int room_light(int room_nr, int flag)
   else
     return -1;
 
-  if(rroom == NOWHERE)
+  if (rroom == NOWHERE)
     return -1;
 
-  if(IS_SURFACE_MAP(rroom))
-    amt = 0;  // treat surface as twilight unless sun is up
+  amt = 1;
 
-  if(IS_SET(world[rroom].room_flags, DARK))
-    amt -= 1;
-  else if(IS_SET(world[rroom].room_flags, MAGIC_DARK))
-    amt -= 1;
-
-  if(IS_SET(world[rroom].room_flags, MAGIC_LIGHT))
-    amt += 1;
-  else if(world[rroom].sector_type == SECT_FIREPLANE)
-    amt += 1;
-  else if(world[rroom].sector_type == SECT_UNDRWLD_LIQMITH)
+  if (IS_SURFACE_MAP(rroom))
     amt += 1;
 
-  // The way light works is... frankly stupid.  Adding light sources to create a lighter room, when that
-  // room can be lit by a single item, is pointless and stupid.  We only want to know if there is a light
-  // source in the room for normal vision folks, and only want to know if it's not ultra-bright for the
-  // ultravision folks.  Ultra-bright will mean a sunlit room or a continual light(magic light) room.
-  // Beyond this, you get into nuances that detract from the playability of the game.  - Jexni 4/15/12
-  // wipe2011 - Moving check for light to individual character trying to look(ac_can_see/vis_mode)
+  //if (world[rroom].sector_type == SECT_INSIDE)
+  //{
+  if (IS_SET(world[rroom].room_flags, DARK))
+    amt -= 2;
 
-/*  int dirty_loop_fix = 0;
+    if (IS_SET(world[rroom].room_flags, MAGIC_DARK ))
+      amt -= 1;
+    //else
+      //amt++;                    /* give them a little light */
+  //}
+  //else if (IS_SET(world[rroom].room_flags, DARK))
+    //amt--;
+
+  //if (IS_SET(world[rroom].room_flags, MAGIC_DARK))
+  //{
+//    world[rroom].light = -1;
+//    return -1;
+    //amt = -1;
+    //amt--;
+  //}
+  if (IS_SET(world[rroom].room_flags, MAGIC_LIGHT))
+    amt += 4;
+
+  if (world[rroom].sector_type == SECT_FIREPLANE)
+    amt += 4;
+  if (world[rroom].sector_type == SECT_UNDRWLD_LIQMITH)
+    amt += 2;
+  int dirty_loop_fix = 0;
+  
   for (t_ch = world[rroom].people; t_ch; t_ch = t_ch->next_in_room)
   {
-    dirty_loop_fix++;  
-    if (t_ch->light == -1)
+
+	dirty_loop_fix++;  
+  if (t_ch->light == -1)
       dark = 1;
     else
       amt += t_ch->light;
+
+    /* wild guess that a wacky pointer is causing an infinite loop.. */
 
     if(dirty_loop_fix > 100)
 	    break;
@@ -375,7 +389,11 @@ int room_light(int room_nr, int flag)
       break;
   }
 
-  // items lit in room?
+  /*
+   * lit items in room count
+   */
+
+
   for (t_obj = world[rroom].contents; !dark && t_obj;
        t_obj = t_obj->next_content)
   {
@@ -387,11 +405,14 @@ int room_light(int room_nr, int flag)
         amt += 1;
     }
   }
-*/
 
-  amt = BOUNDED(-1, amt, 2);
+  /*
+   * have to do something about ambient (sun) light, not sure what yet
+   */
+  if (dark)
+    amt = BOUNDED(-1, amt, 1);
 
-  world[rroom].light = amt;
+  world[rroom].light = BOUNDED(-1, amt, 127);
 #if 0
   if (world[rroom].people && !ALONE(world[rroom].people))
   {
@@ -504,7 +525,7 @@ void poison_lifeleak(int level, P_char ch, char *arg, int type, P_char victim,
   }
   else
   {
-    send_to_char("You feel a burning sensation in yer blood.\n", victim);
+    send_to_char("Ye feel a burning sensation in yer blood.\n", victim);
     GET_HIT(victim) = MAX(1, GET_HIT(victim) - 10);
   }
   if (number(0, 20))
@@ -598,14 +619,14 @@ void poison_weakness(int level, P_char ch, char *arg, int type, P_char victim,
   if (number(0, 100))
   {
     send_to_char
-      ("You feel a wave of strange weakness running through your body.\n",
+      ("Ye feel a wave of strange weakness running through yer body.\n",
        victim);
     add_event(event_poison, WAIT_SEC * 120, victim, 0, 0, 0, &af->type,
               sizeof(af->type));
   }
   else
   {
-    send_to_char("You feel full strength again.\n", victim);
+    send_to_char("Ye feel at yer full strength again.\n", victim);
     affect_remove(victim, af);
   }
 }
@@ -846,10 +867,6 @@ int char_to_room(P_char ch, int room, int dir)
   }
 #endif
 
-  // putting these here for a point_update to ensure regen updates for any travel
-  StartRegen(ch, EVENT_HIT_REGEN);
-  StartRegen(ch, EVENT_MOVE_REGEN);
-
   if (!IS_SET(world[room].room_flags, SINGLE_FILE))
   {
     ch->next_in_room = world[room].people;
@@ -915,6 +932,8 @@ int char_to_room(P_char ch, int room, int dir)
 //      broadcast_to_arena("%s has entered the arena.\r\n", ch, 0, room);
     }
   }
+
+
 
   for (gl = ch->group; gl; gl = gl->next)
   {
@@ -1141,6 +1160,8 @@ int char_to_room(P_char ch, int room, int dir)
 
   t_ch = PickTarget(ch);
   
+
+
   /*
    * delay is 0 to 7, 0 to 5 for avg. dex, 0 to 4 for 18, 0 to 1 for
    * 23+, that's pulses, so at most, delay < 2 seconds.  delays for
@@ -2572,14 +2593,18 @@ void update_char_objects(P_char ch)
 
       if (ch->equipment[i]->value[2] <= 0)
       {
-        act("Your $q just went out.", FALSE, ch, ch->equipment[i], 0, TO_CHAR);
-        act("$n's $q just went out.", FALSE, ch, ch->equipment[i], 0, TO_ROOM);
+        act("Your $q just went out.", FALSE, ch, ch->equipment[i], 0,
+            TO_CHAR);
+        act("$n's $q just went out.", FALSE, ch, ch->equipment[i], 0,
+            TO_ROOM);
         change = 1;
       }
       else if (ch->equipment[i]->value[2] <= 2)
-        act("Your $q glows dimly, barely illuminating the room.", FALSE, ch, ch->equipment[i], 0, TO_CHAR);
+        act("Your $q glows dimly, barely illuminating the room.", FALSE, ch,
+            ch->equipment[i], 0, TO_CHAR);
       else if (ch->equipment[i]->value[2] <= 6)
-        act("Your $q flickers as it slowly burns down.", FALSE, ch, ch->equipment[i], 0, TO_CHAR);
+        act("Your $q flickers as it slowly burns down.", FALSE, ch,
+            ch->equipment[i], 0, TO_CHAR);
     }
   if (change)
   {
@@ -2928,9 +2953,6 @@ P_char get_char_room_vis(P_char ch, const char *name)
   char     tmpname[MAX_STRING_LENGTH];
   char    *tmp;
 
-  if(!ch || !IS_ALIVE(ch))
-    raise(SIGSEGV);
-
   if (!name || !*name)
     return NULL;
 
@@ -2946,7 +2968,8 @@ P_char get_char_room_vis(P_char ch, const char *name)
   if (!str_cmp(tmp, "me") || !str_cmp(tmp, "self"))
     return (ch);
 
-  for (i = world[ch->in_room].people, j = 1; i && (j <= k); i = i->next_in_room)
+  for (i = world[ch->in_room].people, j = 1;
+       i && (j <= k); i = i->next_in_room)
   {
 
     if (CAN_SEE(ch, i) && (ch->specials.z_cord == i->specials.z_cord) && (
@@ -3530,11 +3553,22 @@ int can_prime_class_use_item(P_char ch, P_obj obj)
  	  return TRUE;
 }
 
-float agi_defense(P_char ch)
+int io_agi_defense(P_char ch)
 {
-  int      i = GET_C_AGI(ch), final = 0;
-  i = i * (stat_factor[GET_RACE(ch)].Agi / 100);
-  i = MAX(-250, 300 - i);
-  final = (((i * i) / 484 + i)) - get_property("agi.def.minus", 355);
-  return final;
+  int      i = GET_C_AGI(ch);
+
+#ifdef GOND_KLUDGE
+  return agi_app[STAT_INDEX(i)].defensive;
+#else
+
+  /*
+   * NOTE:  This formula took me _hours_ to come up with.  It produces values
+   * that are very close to what the "gond kludge" method does, however, it
+   * works much smoother, allowing naked AC to 'notch' 1 point at a time,
+   * instead of 8-10 points at a time.   DON'T FUCK WITH THIS UNLESS YOU HAVE A
+   * FUCKING PH.D. IN STATISTICS!
+   */
+  i = MAX(-275, 275 - i);
+  return -((18906 - (i * i / 4)) / 151 - 44);
+#endif
 }

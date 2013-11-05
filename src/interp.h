@@ -829,12 +829,6 @@ extern unsigned int game_locked;
 #define CMD_FOCUS       802
 #define CMD_BOON        803
 #define CMD_CTF		804
-<<<<<<< HEAD
-#define CMD_GARROTE     805
-#define CMD_TETHER	806
-#define CMD_QUESTWHERE  807
-#define CMD_NEWBSA      808
-=======
 #define CMD_TETHER	805
 #define CMD_QUESTWHERE  806
 #define CMD_NEWBSA      807
@@ -855,7 +849,6 @@ extern unsigned int game_locked;
 #define CMD_GARROTE	   822
 #define CMD_CONJURE	   823
 #define CMD_DISMISS	   824
->>>>>>> master
 
 /* cmds below are not real commands, they are
                 used in item special procedures to identify

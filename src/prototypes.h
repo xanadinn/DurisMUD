@@ -301,7 +301,6 @@ int wear(P_char, P_obj, int, int);
 int remove_item(P_char, P_obj, int);
 int remove_and_wear(P_char, P_obj, int, int, int);
 bool find_chance(P_char);
-bool is_salvageable(P_obj);
 void do_drink(P_char, char *, int);
 void do_drop(P_char, char *, int);
 void do_eat(P_char, char *, int);
@@ -384,8 +383,6 @@ void do_kick(P_char, char *, int);
 void do_maul(P_char, char *, int);
 void do_restrain(P_char, char *, int);
 void do_roundkick(P_char, char *, int);
-void do_garrote(P_char, char *, int);
-void garrote_decap(P_char, P_char);
 void do_kill(P_char, char *, int);
 void do_murde(P_char, char *, int);
 void do_murder(P_char, char *, int);
@@ -414,7 +411,6 @@ void do_battle_orders(P_char, char *, int);
 void battle_orders(P_char, P_char);
 void do_call_grave(P_char, char *, int);
 void do_fade(P_char, char *, int);
-void event_garrote(P_char, P_char, P_obj, void *);
 void event_call_grave(P_char, P_char, P_obj, void *);
 void event_call_grave_target(P_char, P_char, P_obj, void *);
 void event_bye_grave(P_char, P_char, P_obj, void *);
@@ -499,7 +495,6 @@ void do_use(P_char, char *, int);
 void do_withdraw(P_char, char *, int);
 void halfling_stealaction(P_char, char *, int);
 void racial_strength(P_char);
-void make_alchemist(P_char);
 void reward_for_bury(P_char ch, int gold);
 void show_toggles(P_char);
 void try_to_donate(P_char, P_obj);
@@ -787,7 +782,6 @@ void init_cmdlog(void);
 void loop_debug(void);
 
 /* drannak.c */
-bool quested_spell(P_char ch, int spl);
 int vnum_in_inv(P_char ch, int cmd);
 void vnum_from_inv(P_char ch, int item, int count);
 void set_surname(P_char ch, int num);
@@ -810,7 +804,6 @@ bool minotaur_race_proc(P_char, P_char);
 void do_dismiss(P_char ch, char *argument, int cmd);
 bool valid_conjure(P_char, P_char);
 int calculate_shipfrags(P_char);
-void randomizeitem(P_char, P_obj);
 
 
 /* editor.c */
@@ -848,11 +841,7 @@ void disarm_obj_events(P_obj, event_func_type);
 void clear_char_events(P_char, int, void*);
 int ne_event_time(P_nevent);
 void zone_purge(int);
-<<<<<<< HEAD
- 
-=======
 
->>>>>>> master
 /* fight.c */
 bool rapier_dirk(P_char, P_char);
 int calculate_thac_zero(P_char, int);
@@ -902,7 +891,7 @@ float group_exp_modifier(P_char ch);
 bool hit(P_char, P_char, P_obj);
 int chance_to_hit(P_char, P_char, int, P_obj);
 bool weapon_proc(P_obj, P_char, P_char);
-int calculate_ac(P_char, bool);
+int calculate_ac(P_char);
 #endif
 void load_messages(void);
 P_obj make_corpse(P_char, int);
@@ -1005,7 +994,7 @@ void create_randoms();
 int check_random_drop(P_char ch, P_char mob, int piece);
 P_obj create_random_eq(int charlvl, int moblvl, int item_type, int material_type);
 P_obj create_random_eq_new(P_char killer, P_char mob, int item_type, int material_type);
-P_obj setprefix_obj(P_obj obj, P_char, int modifier, int affectnumber);
+P_obj setprefix_obj(P_obj obj, int modifier, int affectnumber);
 P_obj create_stones(P_char ch);
 P_obj create_material(int index);
 P_obj create_material(P_char ch, P_char mob);
@@ -1177,7 +1166,10 @@ struct obj_affect* get_obj_affect(P_obj, int);
 int obj_affect_time(P_obj, struct obj_affect*);
 void set_obj_affected(P_obj, int, sh_int, sh_int);
 int affect_from_obj(P_obj, sh_int);
-float agi_defense(P_char);
+
+
+int io_agi_defense(P_char);
+int io_con_hitp(P_char);
 
 
 /* innates.c */
@@ -1281,8 +1273,7 @@ int mana_limit(P_char);
 int mana_regen(P_char);
 int vitality_limit(P_char);
 int move_regen(P_char);
-bool check_advancement(P_char);
-void advance_level(P_char, bool);
+void advance_level(P_char);
 void illithid_advance_level(P_char);
 void check_idling(P_char);
 int gain_condition(P_char, int, int);
@@ -1540,8 +1531,8 @@ void spell_sustenance (int, P_char, char*, int, P_char, P_obj);
 void spell_transfer_wellness (int, P_char, char*, int, P_char, P_obj);
 void spell_bloodhound(int, P_char, char*, int, P_char, P_obj);
 void spell_spirit_armor (int, P_char, char*, int, P_char, P_obj);
-void spell_greater_cobrasting (int, P_char, char*, int, P_char, P_obj);
-void spell_cobrasting (int, P_char, char*, int, P_char, P_obj);
+void spell_greater_pythonsting (int, P_char, char*, int, P_char, P_obj);
+void spell_pythonsting (int, P_char, char*, int, P_char, P_obj);
 void spell_greater_earthen_grasp (int, P_char, char*, int, P_char, P_obj);
 void spell_earthen_grasp (int, P_char, char*, int, P_char, P_obj);
 void spell_earthen_rain (int, P_char, char*, int, P_char, P_obj);
@@ -1602,7 +1593,7 @@ P_obj ran_obj(P_char, ulong);
 
 /* memorize.c */
 int IS_PART_NOT_CASTER(P_char ch);
-float mem_time_modifiers(P_char, float, bool);
+
 void balance_align(P_char ch);
 
 bool book_class( P_char ch );
@@ -1853,9 +1844,6 @@ void nanny(P_desc, char *);
 void newby_announce(P_desc);
 void print_recommended_action(P_desc);
 void select_alignment(P_desc, char *);
-void select_attrib(P_desc, char *);
-int allocation_check(P_char, int, int);
-int calc_attr_cost(int, int);
 void select_bonus(P_desc, char *);
 void select_class(P_desc, char *);
 void select_class_info(P_desc, char *);
@@ -2477,8 +2465,8 @@ void spell_command_horde(int, P_char, char *, int, P_char, P_obj);
 void spell_command_undead(int, P_char, char *, int, P_char, P_obj);
 void spell_comprehend_languages(int, P_char, char *, int, P_char, P_obj);
 void spell_cone_of_cold(int, P_char, char *, int, P_char, P_obj);
-void spell_conjure_elemental(int, P_char, char *, int, P_char, P_obj);
-void spell_conjure_greater_elemental(int, P_char, char *, int, P_char, P_obj);
+void spell_conjour_elemental(int, P_char, char *, int, P_char, P_obj);
+void spell_conjour_greater_elemental(int, P_char, char *, int, P_char, P_obj);
 void spell_call_woodland_beings(int, P_char, char *, int, P_char, P_obj);
 void spell_mirror_image(int, P_char, char *, int, P_char, P_obj);
 void spell_continual_light(int, P_char, char *, int, P_char, P_obj);
@@ -2621,14 +2609,14 @@ void spell_reduce(int, P_char, char *, int, P_char, P_obj);
 void spell_dazzle(int, P_char, char *, int, P_char, P_obj);
 void spell_blur(int, P_char, char *, int, P_char, P_obj);
 void cast_prismatic_cube(int, P_char, char *, int, P_char, P_obj);
-void spell_judgment(int, P_char, char *, int, P_char, P_obj);
+void spell_judgement(int, P_char, char *, int, P_char, P_obj);
 void spell_apocalypse(int, P_char, char *, int, P_char, P_obj);
 void spell_sanctuary(int, P_char, char *, int, P_char, P_obj);
 void spell_hellfire(int, P_char, char *, int, P_char, P_obj);
 void spell_battletide(int, P_char, char *, int, P_char, P_obj);
 void spell_starshell(int, P_char, char *, int, P_char, P_obj);
 void spell_cloak_of_fear(int, P_char, char *, int, P_char, P_obj);
-void spell_vampiric_trance(int, P_char, char *, int, P_char, P_obj);
+void spell_vampire(int, P_char, char *, int, P_char, P_obj);
 void spell_raise_spectre(int, P_char, char *, int, P_char, P_obj);
 void spell_raise_wraith(int, P_char, char *, int, P_char, P_obj);
 void spell_raise_shadow(int, P_char, char *, int, P_char, P_obj);
@@ -2867,7 +2855,7 @@ char *striplinefeed(char *mesg);
 int ScaleAreaDamage(P_char ch, int orig_dam);
 int flag2idx(int);
 bool can_char_multi_to_class(P_char, int);
-//int GET_LEVEL(P_char);
+int GET_LEVEL(P_char);
 int GET_CLASS(P_char, uint);
 int GET_PRIME_CLASS(P_char, uint);
 int GET_SECONDARY_CLASS(P_char, uint);

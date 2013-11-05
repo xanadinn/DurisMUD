@@ -14,8 +14,8 @@ void spell_cegilunes_searing_blade(int, P_char, char *, int, P_char, P_obj);
 bool cegilune_blade(P_char ch, P_char victim, P_obj wpn);
 void event_cegilune_searing(P_char ch, P_char vict, P_obj obj, void *data);
 
-void spell_umberlees_fury(int, P_char, char *, int, P_char, P_obj);
-bool umberlees_fury(P_char ch, P_char victim, P_obj wpn);
+void spell_stormcallers_fury(int, P_char, char *, int, P_char, P_obj);
+bool stormcallers_fury(P_char ch, P_char victim, P_obj wpn);
 
 bool kostchtchies_implosion(P_char ch, P_char victim, P_obj wpn);
 void spell_kostchtchies_implosion(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj);

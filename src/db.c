@@ -116,11 +116,7 @@ char    *generaltable = NULL;   /* * race/class comparison charts * */
 char    *racewars = NULL;       /* * good/evil race explanation * */
 char    *classtable = NULL;     /* * class selection tables * */
 char    *racetable = NULL;      /* * race selection tables * */
-<<<<<<< HEAD
-char    *attribmod = NULL;      /* * attribute modification for wipe 2011 * */
-=======
 //char    *attribmod = NULL;      /* * attribute modification for wipe 2011 * */
->>>>>>> master
 char    *namechart = NULL;
 char    *reroll = NULL;
 char    *bonus = NULL;
@@ -463,13 +459,8 @@ void boot_db(int mini_mode)
   generaltable = file_to_string(GENERALTABLE_FILE);
   logit(LOG_STATUS, "Reading Race table.");
   racetable = file_to_string(RACETABLE_FILE);
-<<<<<<< HEAD
-  logit(LOG_STATUS, "Reading Attribute Mod Message(wipe 2011)");
-  attribmod = file_to_string(ATTRIBMOD_FILE);
-=======
 //  logit(LOG_STATUS, "Reading Attribute Mod Message(wipe 2011)");
 //  attribmod = file_to_string(ATTRIBMOD_FILE);
->>>>>>> master
   logit(LOG_STATUS, "Reading Class table.");
   classtable = file_to_string(CLASSTABLE_FILE);
   logit(LOG_STATUS, "Reading Racewars explanation.");
@@ -2185,11 +2176,7 @@ P_char read_mobile(int nr, int type)
     mob->points.hitroll = mob->points.base_hitroll;
 
     fscanf(mob_f, " %ld ", &tmp);
-<<<<<<< HEAD
-    mob->points.base_armor = tmp;
-=======
     mob->points.base_armor = BOUNDED(-250, tmp, 250);
->>>>>>> master
 
     tmp = 0;
     tmp2 = 0;
@@ -2278,12 +2265,8 @@ P_char read_mobile(int nr, int type)
             mob_index[nr].virtual_number, mob->points.hit);
 
     fscanf(mob_f, " %ld ", &tmp);
-<<<<<<< HEAD
-    mob->points.base_armor = tmp;
-=======
 
     mob->points.base_armor = 250;
->>>>>>> master
 
     fscanf(mob_f, " %ld ", &tmp);
     mob->points.mana = mob->points.base_mana = mob->points.max_mana = tmp;
@@ -2472,21 +2455,12 @@ P_char read_mobile(int nr, int type)
 
     mob->base_stats.Str = BOUNDED(25, mob->base_stats.Str, 200);
     mob->base_stats.Dex = BOUNDED(25, mob->base_stats.Dex, 200);
-<<<<<<< HEAD
-    mob->base_stats.Agi = BOUNDED(25, mob->base_stats.Agi, 200);
-    mob->base_stats.Con = BOUNDED(25, mob->base_stats.Con, 200);
-    mob->base_stats.Pow = BOUNDED(25, mob->base_stats.Pow, 200);
-    mob->base_stats.Int = BOUNDED(25, mob->base_stats.Int, 200);
-    mob->base_stats.Wis = BOUNDED(25, mob->base_stats.Wis, 200);
-    mob->base_stats.Cha = BOUNDED(25, mob->base_stats.Cha, 200);
-=======
     mob->base_stats.Agi = BOUNDED(25, mob->base_stats.Dex, 200);
     mob->base_stats.Con = BOUNDED(25, mob->base_stats.Con, 200);
     mob->base_stats.Pow = BOUNDED(25, mob->base_stats.Con, 200);
     mob->base_stats.Int = BOUNDED(25, mob->base_stats.Int, 200);
     mob->base_stats.Wis = BOUNDED(25, mob->base_stats.Wis, 200);
     mob->base_stats.Cha = BOUNDED(25, mob->base_stats.Wis, 200);
->>>>>>> master
 
     /* * variable mana */
     i = 80 + dice(MAX(1, GET_LEVEL(mob)), IS_ANIMAL(mob) ? 1 : 4) +
@@ -2573,9 +2547,8 @@ P_char read_mobile(int nr, int type)
     /* Set the damage as some standard 1d6 */
     fscanf(mob_f, " %ldd%ld+%ld %ld\n", &tmp, &tmp2, &tmp3, &tmp4);
     mob->points.base_damroll = mob->points.damroll = tmp3;
-    mob->points.damnodice = BOUNDED(1, tmp, 7);
-    mob->points.damsizedice = BOUNDED(1, tmp2, 7); // wipe2011, making sure we have lower limits engaged
-
+    mob->points.damnodice = tmp;
+    mob->points.damsizedice = tmp2;
     /* was warping things.  Tempy fix til everything changes.  JAB */
     if(IS_WARRIOR(mob) ||
       IS_GREATER_RACE(mob) ||
@@ -2631,7 +2604,7 @@ P_char read_mobile(int nr, int type)
     bar = MIN(foo, 60);
   }
 
-  if (foo > bar && GET_VNUM(mob) > 1200)
+  if (foo > bar)
   {
     foo = bar;
     logit(LOG_MOB, "FYI - no changes made to MOB: %d has _RIDICULOUS_ damage. %dd%d + %d (%d to %d) check mob code, stats and racial stats.",
@@ -2847,19 +2820,12 @@ P_obj read_object(int nr, int type)
   obj->weight = tmp;
   fscanf(obj_f, " %d ", &tmp);
   obj->cost = tmp;
-  fscanf(obj_f, " %d ", &tmp);
-  obj->condition = tmp;
-<<<<<<< HEAD
   fscanf(obj_f, " %d \n", &tmp);
-  obj->max_condition = tmp;
-  if(obj->max_condition < 100)
-    obj->max_condition = 100;
-=======
+  obj->condition = tmp;
 //  fscanf(obj_f, " %d \n", &tmp);
 //  obj->max_condition = tmp;  wipe2011
 //  if(obj->max_condition < 100)
 //    obj->max_condition = 100;
->>>>>>> master
 
   if (fscanf(obj_f, " %lu \n", &utmp) == 1)
   {
@@ -2876,21 +2842,12 @@ P_obj read_object(int nr, int type)
     }
   }
 
-<<<<<<< HEAD
-  if(obj->craftsmanship > ((OBJCRAFT_HIGHEST - 1) / 2))
-  {
-    obj->max_condition = (int) BOUNDED(100, (50 * 1.4285 * (obj->craftsmanship - 6)), 500);
-    // 1.4285 = 10 / 7(max condition is 1000, there are 7 values after average craftsmanship)
-  } 
-  obj->condition = obj->max_condition;
-=======
 //  if(obj->craftsmanship > ((OBJCRAFT_HIGHEST - 1) / 2))
 //  {
 //    obj->max_condition = (int) BOUNDED(100, (50 * 1.4285 * (obj->craftsmanship - 6)), 500);
     // 1.4285 = 10 / 7(max condition is 1000, there are 7 values after average craftsmanship)
 //  } 
 //  obj->condition = obj->max_condition;  wipe2011
->>>>>>> master
 
   // nuke the proclib flag - it'll be put back if needed
   REMOVE_BIT(obj->extra_flags, ITEM_PROCLIB);
@@ -3078,11 +3035,7 @@ void no_reset_zone_reset(int zone_number)
   }
   else
   {
-<<<<<<< HEAD
-    add_event(event_reset_zone, 1, 0, 0, 0, 0, &zone_number, sizeof(zone_number));
-=======
     add_event(event_reset_zone, WAIT_MIN * 60, 0, 0, 0, 0, &zone_number, sizeof(zone_number));
->>>>>>> master
     db_query("UPDATE zones SET reset_perc = '%d' WHERE id = '%d'", atoi(row[0]) + 1, zone_number);
   }
 }
@@ -4131,7 +4084,6 @@ void reset_char(P_char ch)
   ch->followers = 0;
   ch->following = 0;
   ch->carrying = 0;
-  ch->specials.z_cord = 0;
 #ifdef REALTIME_COMBAT
   ch->specials.combat = 0;
 #else
@@ -4170,6 +4122,9 @@ void clear_char(P_char ch)
   ch->in_room = NOWHERE;
   ch->specials.was_in_room = NOWHERE;
   SET_POS(ch, POS_STANDING + STAT_NORMAL);
+#if 1
+  ch->points.base_armor = 0;  /* Basic Armor */
+#endif
 
   /*
    * Zero out our other flags -- this should have been done when
@@ -4177,7 +4132,8 @@ void clear_char(P_char ch)
    */
 
   ch->affected = NULL;
-  ch->lobj = NULL;
+
+	ch->lobj = NULL;
 }
 
 /*

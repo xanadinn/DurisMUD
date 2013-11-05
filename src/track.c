@@ -116,7 +116,7 @@ void event_track_move(P_char ch, P_char vict, P_obj obj, void *data)
 
     add_event(event_track_move, 10 + number(-2, 10), ch, vict, 0, 0, 0, 0);
     act("$n intently searches for tracks.", TRUE, ch, 0, 0, TO_ROOM);
-    notch_skill(ch, SKILL_TRACK, 40);
+    notch_skill(ch, SKILL_TRACK, 4);
   }
 }
 
@@ -257,7 +257,7 @@ void do_track_not_in_use(P_char ch, char *arg, int cmd)
     send_to_char("&+LYou are unable to find any tracks.&n\r\n", ch);
   }
   
-  notch_skill(ch, SKILL_TRACK, 40);
+  notch_skill(ch, SKILL_TRACK, 10);
   
   CharWait(ch, (int)(PULSE_VIOLENCE * (float)get_property("track.scan.lag", 1)));
 
@@ -366,7 +366,7 @@ void do_track(P_char ch, char *arg, int cmd) //do_track_not_in_use
   send_to_char("You attempt your skills at tracking.\n", ch);
   add_event(event_track_move, 5, ch, victim, 0, 0, 0, 0);
   CharWait(ch, PULSE_VIOLENCE);
-  notch_skill(ch, SKILL_TRACK, 40);
+  notch_skill(ch, SKILL_TRACK, 4);
 
   return;
 }
@@ -913,7 +913,7 @@ void show_tracks(P_char ch)
           }	
           else if ( (GET_CLASS(ch, CLASS_DRUID) || (IS_MULTICLASS_PC(ch) && GET_SECONDARY_CLASS(ch, CLASS_DRUID))) && 
                    !(GET_CLASS(ch, CLASS_RANGER)) /* && 
-                   !(GET_SPEC(ch, CLASS_DRUID, SPEC_FOREST))*/ ) 
+                   !(GET_SPEC(ch, CLASS_DRUID, SPEC_WOODLAND))*/ ) 
           {
             if (outside == 1)
             {	
@@ -942,14 +942,14 @@ void show_tracks(P_char ch)
             // shamans get the straight chance for all of the outside terrains
             return;
           }  
-          else if (skill > percent || GET_SPEC(ch, CLASS_DRUID, SPEC_FOREST))
+          else if (skill > percent || GET_SPEC(ch, CLASS_DRUID, SPEC_WOODLAND))
           {
             if (percent < 0)
             { 
               percent = 0;
             }
             if (skill - percent > 30 || 
-             ( (GET_SPEC(ch, CLASS_DRUID, SPEC_FOREST)) &&	(world[ch->in_room].sector_type == SECT_FOREST) ) ) 
+             ( (GET_SPEC(ch, CLASS_DRUID, SPEC_WOODLAND)) &&	(world[ch->in_room].sector_type == SECT_FOREST) ) ) 
             {
               if (number(0,2))
               {
@@ -959,7 +959,7 @@ void show_tracks(P_char ch)
             }
             else
             {
-              if (GET_SPEC(ch, CLASS_DRUID, SPEC_FOREST))
+              if (GET_SPEC(ch, CLASS_DRUID, SPEC_WOODLAND))
               {
                 return;
               }

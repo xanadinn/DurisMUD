@@ -1940,7 +1940,7 @@ int demon_slayer(P_obj obj, P_char ch, int cmd, char *arg)
             act("&+rEuronymous suddenly leaps forward and sinks his fangs into the neck of $n, sending blood flying.&n", TRUE, ch, obj, vict, TO_ROOM);
             act("$n &+Lbegins to look rather &+wpale &+Las the last drops of &+Rblood &+Ldrip to the floor.&n", TRUE, ch, obj, vict, TO_ROOM);
 
-            spell_vampiric_trance(56, ch, 0, SPELL_TYPE_SPELL, ch, 0);
+            spell_vampire(56, ch, 0, SPELL_TYPE_SPELL, ch, 0);
 
             act("&nAs life departs from your body, you feel strained.&n", TRUE, ch, obj, vict, TO_CHAR);
 
@@ -2273,7 +2273,7 @@ int helmet_vampires(P_obj obj, P_char ch, int cmd, char *arg)
    
           if(rand > 975)
           {
-            spell_vampiric_trance(50, ch, 0, SPELL_TYPE_SPELL, ch, 0);
+            spell_vampire(50, ch, 0, SPELL_TYPE_SPELL, ch, 0);
           }
 
           if(rand == 1000)
@@ -4098,7 +4098,7 @@ int collar_frost(P_obj obj, P_char ch, int cmd, char *arg)
         icemental->player.m_class = CLASS_WARRIOR;
         justice_witness(ch, NULL, CRIME_SUMMON);
         icemental->player.level = 45;
-        sum = dice(GET_LEVEL(icemental), 8) + (GET_LEVEL(icemental));
+        sum = dice(GET_LEVEL(icemental) * 4, 8) + (GET_LEVEL(icemental) * 3);
         while (icemental->affected)
           affect_remove(icemental, icemental->affected);
         if (!IS_SET(icemental->specials.act, ACT_MEMORY))
@@ -4260,7 +4260,7 @@ int collar_flames(P_obj obj, P_char ch, int cmd, char *arg)
 	firemental->player.m_class = CLASS_WARRIOR;
 	justice_witness(ch, NULL, CRIME_SUMMON);
 	firemental->player.level = 45 + number(-5, 0);
-        sum = dice(GET_LEVEL(firemental), 8) + (GET_LEVEL(firemental) * 3);
+        sum = dice(GET_LEVEL(firemental) * 4, 8) + (GET_LEVEL(firemental) * 3);
         while (firemental->affected)
 	  affect_remove(firemental, firemental->affected);
 	if (!IS_SET(firemental->specials.act, ACT_MEMORY))

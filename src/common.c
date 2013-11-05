@@ -1415,9 +1415,9 @@ const char *craftsmanship_names[OBJCRAFT_HIGHEST + 1] = {
   "of above average quality",
   "of well above average quality",
   "excellently made",
-  "made by a skilled artisan",
-  "made by a very skilled artisan",
-  "made by a master artisan",
+  "made by a skilled artisian",
+  "made by a very skilled artisian",
+  "made by a master artisian",
   "of one-of-a-kind craftsmanship"
 };
 

@@ -189,7 +189,7 @@ int illesarus(P_obj obj, P_char ch, int cmd, char *arg)
     act("&+LYou swing&n $q &+Lwith a broad two-handed arch at&n $N.&n", FALSE, ch, obj, vict, TO_CHAR);
     act("$n &+Lswings&n $q &+Lwith a broad two-handed arch at you.&n", FALSE, ch, obj, vict, TO_VICT);
     act("$n &+Lswings&n $q &+Lwith a broad two-handed arch at&n $N.&n", FALSE, ch, obj, vict, TO_NOTVICT);
-    raw_damage(ch, vict, (BOUNDED(0, (GET_HIT(vict) + 9), 100)), RAWDAM_DEFAULT, &messages);
+    raw_damage(ch, vict, (BOUNDED(0, (GET_HIT(vict) + 9), 100) * 4), RAWDAM_DEFAULT, &messages);
 
     // The severing.. going to use grapple code here since it already exists
     // and does exactly what I'm looking for.

@@ -77,7 +77,7 @@ extern void event_spellcast(P_char, P_char, P_obj, void *);
 int ship_obj_proc(P_obj obj, P_char ch, int cmd, char *arg);
 extern struct mm_ds *dead_mob_pool;
 extern struct mm_ds *dead_pconly_pool;
-extern const char *get_function_name(void *);
+
 char     GS_buf1[MAX_STRING_LENGTH];
 
 
@@ -92,9 +92,7 @@ int      CheckFor_remember(P_char ch, P_char victim);
 int get_vis_mode(P_char ch, int room)
 {
   P_char   tch;
-  int      flame, globe, illum;
-
-  flame = globe = illum = 0;
+  int      flame;
 
   for (tch = world[room].people; tch; tch = tch->next_in_room)
   {
@@ -102,33 +100,21 @@ int get_vis_mode(P_char ch, int room)
     {
       flame = 1;
     }
-
-    if (IS_AFFECTED4(tch, AFF4_GLOBE_OF_DARKNESS))
-    {
-      globe = 1;
-    }
-
-    if(tch->light > 0)
-    {
-      illum = 1;
-    }
   }
 
   if (IS_TRUSTED(ch))
     return 1;
-  else if(EYELESS(ch))
-    return 2;
   else if (IS_AFFECTED(ch, AFF_WRAITHFORM))
     return 4;
   else if (IS_LIGHT(room) || flame)
+    return 2;
+  else if (!RACE_GOOD(ch))
     return 2;
   else if (IS_UNDERWORLD(room) && IS_AFFECTED(ch, AFF_UD_VISION))
     return 2;
   else if (IS_TWILIGHT_ROOM(room))
     return 2;
-  else if (IS_AFFECTED2(ch, AFF2_ULTRAVISION) || globe)
-    return 2;
-  else if (illum)
+  else if (IS_AFFECTED2(ch, AFF2_ULTRAVISION))
     return 2;
   else if (IS_AFFECTED(ch, AFF_INFRAVISION))
 // TODO: want to rework farsee scan, till then 
@@ -136,7 +122,7 @@ int get_vis_mode(P_char ch, int room)
 // raiding
     return 2;
   else
-    return 0;
+    return 2;
 }
 
 int god_check(char *name)
@@ -1138,10 +1124,12 @@ int exist_in_equipment(P_char ch, int bitflag)
 
 int ac_can_see(P_char sub, P_char obj, bool check_z)
 {
-  int      globe, flame, illum;
+  /* minor detail, sleeping chars can't see squat! */
+  int      globe, flame;
   P_char   tmp_char;
 
-  globe = flame = illum = 0;
+  globe = 0;
+  flame = 0;
 
   if(!(sub))
   {
@@ -1149,41 +1137,29 @@ int ac_can_see(P_char sub, P_char obj, bool check_z)
     raise(SIGSEGV);
   }
 
-  // mobs with quests can see in any light, to better facilitate questing, should pose no issues
-  // in zone situations, but will monitor - Jexni 4/19/12
-  if(IS_NPC(sub))
-  {
-    if(mob_index[GET_RNUM(sub)].func.mob &&
-        !strcmp(get_function_name((void*)mob_index[GET_RNUM(sub)].func.mob), "world_quest"))
-      {
-        return 1;
-      }
-      else if(mob_index[GET_RNUM(sub)].qst_func)
-      {
-        if(has_quest(sub))
-        {
-          return 1;
-        }
-      }
-   }
-
   // No idea what happened, but let's hack this until we figure it out.
-  if(sub->in_room == -1)
+  if (sub->in_room == -1)
     return 0;
 
-  if(!AWAKE(sub))
+  for (tmp_char = world[sub->in_room].people; tmp_char; tmp_char = tmp_char->next_in_room)
+  {
+    if (IS_AFFECTED4(tmp_char, AFF4_MAGE_FLAME))
+    {
+      flame = 1;
+    }
+    if (IS_AFFECTED4(tmp_char, AFF4_GLOBE_OF_DARKNESS))
+    {
+      globe = 1;
+    }
+  }
+
+  if (!AWAKE(sub))
     return 0;
 
-  if(IS_BLIND(sub))
+  if (WIZ_INVIS(sub, obj))
     return 0;
 
-  if(sub == obj)
-    return 1;
-
-  if(WIZ_INVIS(sub, obj))
-    return 0;
-
-  if(IS_TRUSTED(sub))
+  if (GET_LEVEL(sub) > MAXLVLMORTAL)
     return 1;
 
   /* Flyers */
@@ -1209,28 +1185,24 @@ int ac_can_see(P_char sub, P_char obj, bool check_z)
       !(IS_NPC(obj) && (obj->following == sub) &&
       IS_AFFECTED4(sub, AFF4_SENSE_FOLLOWER)))
         return 0;
-  }
+
+/* NPCs can't be non-detected?  why? */
+
+/*
+    if ((!IS_AFFECTED(sub, AFF_DETECT_INVISIBLE)) ||
+        (!IS_NPC(sub) &&
+          IS_AFFECTED (sub, AFF_DETECT_INVISIBLE)
+          && IS_AFFECTED3(obj, AFF3_NON_DETECTION)))
+          return 0;
+*/
+  }                             /* end sub invis */
+
+  /* Subject is blinded */
+  if(IS_BLIND(sub))
+    return 0;
   
   if(IS_AFFECTED(obj, AFF_HIDE) && !affected_by_spell(obj, TAG_CTF))// && (obj != sub))
     return 0;
-
-  for (tmp_char = world[sub->in_room].people; tmp_char; tmp_char = tmp_char->next_in_room)
-  {
-    if(tmp_char->light > 0)
-      illum = 1;
-
-    if (IS_AFFECTED4(tmp_char, AFF4_MAGE_FLAME))
-    {
-      flame = 1;
-    }
-    if (IS_AFFECTED4(tmp_char, AFF4_GLOBE_OF_DARKNESS))
-    {
-      globe = 1;
-    }
-  }
-
-  if(globe && (flame || illum))
-    return 1;
 
   /*
    * Room is magically dark
@@ -1239,11 +1211,19 @@ int ac_can_see(P_char sub, P_char obj, bool check_z)
     IS_PC(sub) &&
     !IS_AFFECTED2(sub, AFF2_ULTRAVISION) &&
     !IS_TWILIGHT_ROOM(obj->in_room) &&
-    !flame && 
-    !illum)
-  {
-     return 0;
-  }
+    !flame)
+      return 1;
+
+  /*
+   * Determine visibility by "vis" command
+   */
+
+  /* uhh, this is already done above */
+
+/*
+  if (WIZ_INVIS (sub, obj))
+    return 0;
+*/
 
   /*
    * as wraithform is kind of kludge, semi-godsight.
@@ -1258,10 +1238,18 @@ int ac_can_see(P_char sub, P_char obj, bool check_z)
   if(IS_AFFECTED(obj, AFF_WRAITHFORM))
     return 0;
 
+  /*if (RACE_EVIL(sub))
+    return 1;*/
+
+  /*if ((GET_RACE(sub) == RACE_ORC) || IS_THRIKREEN(sub) ||
+      IS_MINOTAUR(sub) || IS_UNDEAD(sub) || (GET_RACE(sub) == RACE_ILLITHID))
+    return 1;*/
+
   if(IS_SURFACE_MAP(obj->in_room) ||
     IS_UD_MAP(obj->in_room))
       return 1;
 
+  // if (IS_UNDERWORLD(obj->in_room) && IS_AFFECTED(sub, AFF_UD_VISION))
   if(IS_UNDERWORLD(obj->in_room))
       return 1;
 
@@ -1274,26 +1262,27 @@ int ac_can_see(P_char sub, P_char obj, bool check_z)
   if(GET_MASTER(sub) == obj)
       return 1;
 
-  if(IS_AFFECTED2(sub, AFF2_ULTRAVISION) && IS_PC(sub))
+  if(IS_AFFECTED2(sub, AFF2_ULTRAVISION) &&
+    IS_PC(sub))
   {
-    if(IS_SET(world[obj->in_room].room_flags, MAGIC_LIGHT) ||
-     IS_SUNLIT(obj->in_room))
-    {
-      if(!globe)
-        return 0;
-      else
+    if((IS_SUNLIT(obj->in_room) ||
+      (IS_SET(world[obj->in_room].room_flags, MAGIC_LIGHT) &&
+      !IS_TWILIGHT_ROOM(obj->in_room))) &&
+      !globe)
         return 1;
-    }
-    return 1;
+    else
+      return 1;
   }
-  else if(IS_LIGHT(obj->in_room) || illum)
+  else if(IS_LIGHT(obj->in_room))
   {
     return 1;
   }
-
   /*
    * room is dark - do infra checks
    */
+  if(IS_NPC(sub))
+    return 1;
+
   if(IS_AFFECTED((sub), AFF_INFRAVISION))
   {
     if(IS_UNDEAD(obj) || IS_INSECT(obj) ||
@@ -1303,14 +1292,14 @@ int ac_can_see(P_char sub, P_char obj, bool check_z)
       (GET_RACE(obj) == RACE_ARACHNID) ||
       (GET_RACE(obj) == RACE_AQUATIC_ANIMAL) ||
       (GET_RACE(obj) == RACE_PLANT) ||
-      (GET_RACE(obj) == RACE_PARASITE) || 
-      (GET_RACE(obj) == RACE_SLIME) ||
-      (GET_RACE(obj) == RACE_CONSTRUCT))
-        return 0;           // invis to infravision                              
+      (GET_RACE(obj) == RACE_PARASITE) || (GET_RACE(obj) == RACE_SLIME))
+        return 1;                 /*
+                                 * invis to infravision
+                                 */
     else
-    {
-      return -1;             //  will see 'red shape'
-    }                              
+      return 1;                 /*
+                                 * will see 'red shape'
+                                 */
   }
   return 0;
 }
@@ -1323,38 +1312,31 @@ int ac_can_see_obj(P_char sub, P_obj obj)
 {
   int      rroom;
   P_char   tmp_char;
-  int      vis_mode, globe, flame, illum;
-
-  globe = flame = illum = 0;
-
-  if(!obj || !sub)
-  {
-    logit(LOG_EXIT, "ac_can_see_obj was not passed proper parms.");
-    raise(SIGSEGV);
-  }
+  int      vis_mode;
 
   /* wraiths can't see any objects */
-  if(IS_AFFECTED(sub, AFF_WRAITHFORM))
+  if (IS_AFFECTED(sub, AFF_WRAITHFORM))
     return 0;
 
   /* sub is flying, obj isn't */
-  if(OBJ_ROOM(obj))
+  if (OBJ_ROOM(obj) && sub->specials.z_cord != obj->z_cord)
   {
-    if (sub->specials.z_cord != obj->z_cord)
-    {
-      if (obj_index[obj->R_num].func.obj != ship_obj_proc) // ships show above/below
-        return 0;
-    }
-  } 
+    if (obj_index[obj->R_num].func.obj != ship_obj_proc) // ships show above/below
+      return 0;
+  }
   
+/*
+  if (OBJ_NOWHERE(obj)) {
+    debug("OBJ_NOWHERE\r\n");
+    return 0;
+  }
+*/
   /* Immortal can see anything */
   if (IS_TRUSTED(sub) && GET_LEVEL(sub) >= IMMORTAL)      // level 58 and higher
     return 1;
 
+  /* minor detail, sleeping chars can't see squat! */
   if (!AWAKE(sub))
-    return 0;
-
-  if (IS_BLIND(sub))
     return 0;
 
   if (IS_NOSHOW(obj))
@@ -1365,11 +1347,23 @@ int ac_can_see_obj(P_char sub, P_obj obj)
       !IS_AFFECTED(sub, AFF_DETECT_INVISIBLE))
     return 0;
 
+  /* Check if subject is blind */
+  if (IS_BLIND(sub))
+    return 0;
+
   if (IS_SET((obj)->extra_flags, ITEM_SECRET))
     return 0;
 
   if (IS_SET((obj)->extra_flags, ITEM_BURIED))
     return 0;
+
+  /* Room is magically dark
+     Done Later - Granor */
+  /*if (IS_SET (world[obj->loc.room].room_flags, MAGIC_DARK) && IS_PC(sub)
+     && !IS_AFFECTED2(sub, AFF2_ULTRAVISION) &&
+     !IS_TWILIGHT_ROOM(obj->loc.room))
+     return 0;
+   */
 
   while (OBJ_INSIDE(obj))
     obj = obj->loc.inside;
@@ -1385,36 +1379,7 @@ int ac_can_see_obj(P_char sub, P_obj obj)
   else
     return IS_TRUSTED(sub) ? 1 : 0;
 
-  for (tmp_char = world[rroom].people; tmp_char; tmp_char = tmp_char->next_in_room)
-  {
-    if(tmp_char->light > 0)
-      illum = 1;
-
-    if (IS_AFFECTED4(tmp_char, AFF4_MAGE_FLAME))
-    {
-      flame = 1;
-    }
-    if (IS_AFFECTED4(tmp_char, AFF4_GLOBE_OF_DARKNESS))
-    {
-      globe = 1;
-    }
-  }
-
-  // Room is magically dark
-  if (IS_SET(world[rroom].room_flags, MAGIC_DARK) && 
-      !IS_AFFECTED2(sub, AFF2_ULTRAVISION) &&
-      !IS_TWILIGHT_ROOM(rroom))
-     return 0;
-
-  if(IS_SET(world[rroom].room_flags, MAGIC_LIGHT) && IS_AFFECTED2(sub, AFF2_ULTRAVISION))
-  {
-    if(globe)
-      return 1;
-    else
-      return 0;
-  }
-
-  if(illum || flame)
+  if (IS_NPC(sub))
     return 1;
 
   vis_mode = get_vis_mode(sub, rroom);
@@ -1423,17 +1388,20 @@ int ac_can_see_obj(P_char sub, P_obj obj)
 
 #endif
 
+
 bool can_char_multi_to_class(P_char ch,  int m_class)
 {
   int      i = 0;
 
+  
   while (allowed_secondary_classes[flag2idx(ch->player.m_class)][i] != -1)
   {
-    if (flag2idx(allowed_secondary_classes[flag2idx(ch->player.m_class)][i]) == m_class)
-    {
+    if (flag2idx(allowed_secondary_classes[flag2idx(ch->player.m_class)][i]) == m_class) {
+        
       if ((class_table[(int)GET_RACE(ch)] [m_class ]) != 5)
                return TRUE;
-    }
+               }
+
     i++;
   }
 
@@ -1819,6 +1787,10 @@ bool FightingCheck(P_char ch, P_char vic, const char *calling)
    chars that are 1. of the class(param) 2. >= to min_level(param)
    3. in same room and 4. are consented to leader
 */
+
+
+
+
 
 int get_multicast_chars(P_char leader, int m_class, int min_level)
 {
@@ -2435,11 +2407,11 @@ bool StatSave(P_char ch, int stat, int mod)
       /*
        * those heavy loaded folks are less than nimble eh?
        */
-      if (load_modifier(ch) > 150)
+      if (load_modifier(ch) > 299)
         save_num -= 3;
-      else if (load_modifier(ch) > 100)
+      else if (load_modifier(ch) > 199)
         save_num -= 2;
-      else if (load_modifier(ch) > 50)
+      else if (load_modifier(ch) > 99)
         save_num -= 1;
 
       /*
@@ -2472,11 +2444,11 @@ bool StatSave(P_char ch, int stat, int mod)
     /*
      * those heavy loaded folks are less than nimble eh?
      */
-    if (load_modifier(ch) > 150)
+    if (load_modifier(ch) > 299)
       save_num -= 3;
-    else if (load_modifier(ch) > 100)
+    else if (load_modifier(ch) > 199)
       save_num -= 2;
-    else if (load_modifier(ch) > 50)
+    else if (load_modifier(ch) > 99)
       save_num -= 1;
 
     /*
@@ -2545,28 +2517,11 @@ char    *PERS(P_char ch, P_char vict, int short_d)
 
 char    *PERS(P_char ch, P_char vict, int short_d, bool noansi)
 {
-  P_char tch;
-  int flame, globe, illum;
-
-  flame = globe = illum = 0;
-
-  for (tch = world[ch->in_room].people; tch; tch = tch->next_in_room)
-  {
-    if (IS_AFFECTED4(tch, AFF4_MAGE_FLAME))
-    {
-      flame = 1;
-    }
-    if(tch->light > 0)
-    {
-      illum = 1;
-    }
-  }
-
   if (!CAN_SEE_Z_CORD(vict, ch) ||
       ((abs(ch->specials.z_cord - vict->specials.z_cord) > 2) &&
        !IS_AFFECTED4(vict, AFF4_HAWKVISION) && !IS_TRUSTED(vict)))
   {
-    strcpy(GS_buf1, "Someone");
+    strcpy(GS_buf1, "someone");
     return GS_buf1;
   }
 
@@ -2610,10 +2565,10 @@ char    *PERS(P_char ch, P_char vict, int short_d, bool noansi)
     }
     return GS_buf1;
   }
-  if(IS_DARK(ch->in_room) && !IS_TWILIGHT_ROOM(ch->in_room))
+  if (IS_DARK(ch->in_room) && !IS_TWILIGHT_ROOM(ch->in_room))
   {
     if (IS_TRUSTED(vict) || IS_AFFECTED2(vict, AFF2_ULTRAVISION) ||
-        IS_AFFECTED(vict, AFF_WRAITHFORM) || illum || flame)
+        IS_AFFECTED(vict, AFF_WRAITHFORM))
     {
       if (IS_NPC(ch))
         return (ch->player.short_descr);
@@ -2805,12 +2760,14 @@ string strip_ansi(const char *str)
   return colorless;
 }
 
+
+
 /*
  * all stats are 1-100, all adjusted stats are 0-511 (ubyte), by nature of the thing,
  * they are all treated identically, however, I shudder at the thought of 10 tables
  * with 511 entries each.  So, run the GET_C_XXX value through this function to yield
  * a number from 0 to 51.  Index values from 0-16 follow the bell-curve, but above
- * 100, the divisions are also not linear....  The lookup tables reflect this.
+ * 100, the divisions are linear.  The lookup tables reflect this.
  * You can of course, use this return value directly, or the stat directly.
  * This WAS a macro, but the expansions were hideous, and actually exhausted virtual
  * memory during compile.  So it's a function, though a simple one.  JAB
@@ -2970,12 +2927,11 @@ int STAT_INDEX_SPELL_PULSE(float v)
 
  return 12;
 }
-      /*
-       * SKB - 20 May 1995
-       */
 
 bool are_together(P_char ch1, P_char ch2)
-{
+{                               /*
+                                 * SKB - 20 May 1995
+                                 */
   if (!ch1 || !ch2)
   {
     return (FALSE);
@@ -3061,6 +3017,7 @@ bool spell_can_affect_char(P_char ch, int spl)
 }
 
 /* is viewee at war with viewer? */
+
 char racewar(P_char viewer, P_char viewee)
 {
   if (!viewer || !viewee)
@@ -3106,6 +3063,8 @@ char racewar(P_char viewer, P_char viewee)
     }
     if (GET_RACEWAR(viewer) == viewee->disguise.racewar)
     {
+       //if (IS_PC(viewer) && IS_PC(viewee))
+//         wizlog(57,"&+Wooooooooooooooooooooooooops. viewer: %d, viewee: %d. viewee disguise: %d",GET_RACEWAR(viewer), GET_RACEWAR(viewee), viewee->disguise.racewar);
       return FALSE;
     }
     return TRUE;
@@ -3203,6 +3162,7 @@ int maproom_of_zone(int zone_num)
             return (world[world[i].dir_option[i2]->to_room].number);
   return NOWHERE;
 }
+
 
 /* real rooms only! */
 int distance_from_shore(int room)
@@ -3383,7 +3343,6 @@ int race_portal_check(P_char ch, P_char vict)
   return TRUE;
 }
 
-// this function is used only for NPCs
 int room_has_valid_exit(const int rnum)
 {
   int      i;
@@ -3402,18 +3361,7 @@ int room_has_valid_exit(const int rnum)
         !(world[rnum].dir_option[i]->exit_info & EX_BLOCKED) &&
         !(world[rnum].dir_option[i]->exit_info & EX_WALLED) &&
         (world[rnum].dir_option[i]->to_room >= 0))
-    {
-      // adding this check to prevent mobs from falling on their own 
-      // ignoring flyers etc. for simplification, can add later if necessary - Jexni 5/24/12
-      // note: this doesn't appear to have fixed all instances, but I can't
-      // find what's being missed - 6/2/12
-      if(world[world[rnum].dir_option[i]->to_room].chance_fall > 0)
-      {
-        continue;
-      }
-      else
-        return TRUE;
-    }
+      return TRUE;
   }
 
   return FALSE;
@@ -3973,16 +3921,13 @@ int flag2idx(int flag)
 
   return i;
 }
+
 /*
+ *
+ */
+
 int GET_LEVEL(P_char ch)
 {
-<<<<<<< HEAD
-  if(!(ch)  || !IS_ALIVE(ch))
-  {
-    logit(LOG_DEBUG, "No/dead character passed to GET_LEVEL in utility.c...  whaaaaa?");
-    raise(SIGSEGV);
-  }
-=======
   if(!ch)
   return NULL;
 
@@ -3992,13 +3937,10 @@ int GET_LEVEL(P_char ch)
 /*
  * GET_CLASS
  */
->>>>>>> master
 
-  return (int) (ch)->player.level;
-}
-*/
 int GET_CLASS(P_char ch, uint m_class)
-{  
+{
+  
   return ((ch->player.m_class & m_class) || (ch->player.secondary_class & m_class));
 }
 
@@ -4030,6 +3972,15 @@ int GET_CLASS1(P_char ch, uint m_class)
 
 }
 
+
+/*
+#define GET_ALT_SIZE(ch) (BOUNDED(SIZE_MINIMUM, ((ch)->player.size + \
+                                 ((IS_AFFECTED3((ch), AFF3_ENLARGE)) ? 1 : \
+                                                           ((IS_AFFECTED3((ch), AFF3_REDUCE)) ? -1 : 0))) + \
+                               ( ( IS_AFFECTED5( (ch) , AFF5_TITAN_FORM ) ) ? 3 : 0), \
+                                                        SIZE_MAXIMUM))
+
+*/
 int GET_ALT_SIZE(P_char ch)
 {
   int size = GET_SIZE(ch);
@@ -4057,6 +4008,7 @@ int GET_ALT_SIZE(P_char ch)
  *          limited to max of 100
  */
 
+
 ClassSkillInfo SKILL_DATA_ALL(P_char ch, int skill)
 {
   ClassSkillInfo dummy;
@@ -4065,7 +4017,7 @@ ClassSkillInfo SKILL_DATA_ALL(P_char ch, int skill)
   float pri_mod = get_property("skill.cap.multi.mod.primarySkill", 0.950);
   float sec_mod = get_property("skill.cap.multi.mod.secondarySkill", 0.750);
   
-  if(IS_MULTICLASS_PC(ch))
+  if (IS_MULTICLASS_PC(ch))
   {
     new_cap = 0;
     required_level = 0;
@@ -4075,26 +4027,26 @@ ClassSkillInfo SKILL_DATA_ALL(P_char ch, int skill)
     pri_cap = SKILL_DATA(ch, skill).maxlearn[0];
     sec_cap = SKILL_DATA2(ch, skill).maxlearn[0];
     
-    if(pri_rlevel && !sec_rlevel)
+    if( pri_rlevel && !sec_rlevel )
     {
-      new_cap = (int) (pri_cap * pri_mod);
+      new_cap = (int) ( pri_cap * pri_mod);
       required_level = pri_rlevel;
     }
-    else if(sec_rlevel && !pri_rlevel)
+    else if( sec_rlevel && !pri_rlevel )
     {
       new_cap = (int) (sec_cap * sec_mod);
       required_level = sec_rlevel + 5;
     } 
-    else if(pri_rlevel && sec_rlevel)
+    else if( pri_rlevel && sec_rlevel )
     {
-      new_cap = MAX((int) (pri_cap * pri_mod), (int) (sec_cap * sec_mod));
-      required_level = MIN(pri_rlevel, (sec_rlevel + 5));
+      new_cap = MAX( (int) (pri_cap * pri_mod), (int) (sec_cap * sec_mod) );
+      required_level = MIN(pri_rlevel, (sec_rlevel+5) );
     }
 
     dummy.maxlearn[0] = new_cap;
     dummy.rlevel[0] = required_level;
   }
-  else if(IS_MULTICLASS_NPC(ch))
+  else if( IS_MULTICLASS_NPC(ch) )
   {
     /* because multiclass NPCs store their multiple classes in m_class, it's not possible
     to simply use SKILL_DATA(), as this just returns the skill data for the class with the
@@ -4207,8 +4159,7 @@ int GET_CHAR_SKILL_P(P_char ch, int skl)
 
   if(skllvl > 0)
   { 
-    if(IS_SET(skills[skl].category, SKILL_CATEGORY_DEFENSIVE))
-    { 
+    if( IS_SET(skills[skl].category , SKILL_CATEGORY_DEFENSIVE)){ 
        if(IS_AFFECTED5(ch, AFF5_STANCE_OFFENSIVE))
          mod = mod - 15;
        if(IS_AFFECTED5(ch, AFF5_STANCE_DEFENSIVE))
@@ -4216,13 +4167,12 @@ int GET_CHAR_SKILL_P(P_char ch, int skl)
     } 
 
    
-    if(IS_SET(skills[skl].category, SKILL_CATEGORY_OFFENSIVE))  
-    {
+    if( IS_SET(skills[skl].category , SKILL_CATEGORY_OFFENSIVE))  {
       if(IS_AFFECTED5(ch, AFF5_STANCE_OFFENSIVE))
          mod = mod + 10;
       if(IS_AFFECTED5(ch, AFF5_STANCE_DEFENSIVE)) 
          mod = mod - 10;
-    }
+   }
   }
  
    return MAX(0, (skllvl + mod) );
@@ -4539,15 +4489,16 @@ int cast_as_damage_area(P_char ch,
   for (int i = 0; i < count; i++)
   {
     P_char tch = vict_array[i];
-    if(!tch)
+    if (!tch)
       continue;
-    if(!is_char_in_room(tch, ch_room))
+    if (!is_char_in_room(tch, ch_room))
       continue;
-    if(!is_char_in_room(ch, ch_room))
+    if (!is_char_in_room(ch, ch_room))
       break;
-    if(has_innate(tch, INNATE_EVASION) && GET_SPEC(tch, CLASS_MONK, SPEC_ELAPHIDIST))
+    if (has_innate(tch, INNATE_EVASION) &&
+	GET_SPEC(tch, CLASS_MONK, SPEC_WAYOFSNAKE))
     {
-      if((int) get_property("innate.evasion.removechance", 15.000) > number(1, 100))
+      if ((GET_LEVEL(tch) - ((int) get_property("innate.evasion.removechance", 15.000))) > number(1,100))
       {
         send_to_char("You twist out of the way avoiding the harmful magic!\n", tch);
         act ("$n twists out of the way avoiding the harmful magic!", FALSE, tch, 0, ch, TO_ROOM);
@@ -4596,15 +4547,17 @@ int cast_as_damage_area(P_char ch,
   int hit = 0;
   for (int chance = 100, i = 0; tch = vict_array[i]; i++)
   {
-    if(!is_char_in_room(tch, vict_room))
+    if (!is_char_in_room(tch, vict_room))
       continue;
-    if(!is_char_in_room(ch, ch_room))
+    if (!is_char_in_room(ch, ch_room))
       break;
-    if((tch == ch ? ch == victim : select_func(ch, tch)) && (chance > number(0, 99) || IS_NPC(ch)))    
+    if ((tch == ch ? ch == victim : select_func(ch, tch))
+        && (chance > number(0, 99) || IS_NPC(ch)))    
     {
-      if(has_innate(tch, INNATE_EVASION))
+      if (has_innate(tch, INNATE_EVASION))
       {
-        if(((int) get_property("innate.evasion.removechance", 15.000))) > number(1 ,100))
+  
+        if ((GET_LEVEL(tch) - ((int) get_property("innate.evasion.removechance", 15.000))) > number(1,100))
         {
           send_to_char("You twist out of the way avoiding the harmful magic!\n", tch);
           act ("$n twists out of the way avoiding the harmful magic!", FALSE, tch, 0, ch, TO_ROOM);
@@ -4742,23 +4695,23 @@ bool is_hot_in_room(int room)
 
 int IS_TWILIGHT_ROOM(int r)
 {
-  if(IS_SET(world[r].room_flags, TWILIGHT)) 
+  if( !IS_SET(world[r].room_flags, MAGIC_DARK) && IS_SET(world[r].room_flags, TWILIGHT) ) 
     return TRUE;
  
-  if(IS_UD_MAP(r))
+  if( IS_UD_MAP(r) )
     return TRUE;
  
-  if(!IS_SUNLIT(r) && 
+  if( !IS_SUNLIT(r) && 
       !IS_SET(world[r].room_flags, INDOORS | MAGIC_LIGHT | MAGIC_DARK | DARK) && 
       !IS_UNDERWORLD(r) && 
-      (world[r].sector_type != SECT_INSIDE))
+      (world[r].sector_type != SECT_INSIDE) )
     return TRUE;
     
-  if(IS_SET(world[r].room_flags, MAGIC_LIGHT) && IS_SET(world[r].room_flags, MAGIC_DARK | DARK))
+  if( IS_SET(world[r].room_flags, MAGIC_LIGHT) && IS_SET(world[r].room_flags, MAGIC_DARK | DARK) )
     return TRUE;
   
-  if(!IS_SET(world[r].room_flags, MAGIC_LIGHT) && 
-      (IS_SWAMP_ROOM(r) || IS_FOREST_ROOM(r)))
+  if( !IS_SET(world[r].room_flags, MAGIC_LIGHT) && 
+      ( IS_SWAMP_ROOM(r) || IS_FOREST_ROOM(r) ) )
     return TRUE;
 
   if(world[r].sector_type == SECT_ASTRAL || world[r].sector_type == SECT_ETHEREAL)

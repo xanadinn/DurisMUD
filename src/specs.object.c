@@ -2887,7 +2887,6 @@ int living_necroplasm(P_obj obj, P_char ch, int cmd, char *arg)
         act("$p &+Rburns &+ran angry red &+Las it retreats from your body&n", FALSE, ch, obj, 0, TO_CHAR);
         obj_to_char(unequip_char(ch, plasm_slot), ch);
         // dispel any SPELL_VAMPIRE to prevent cheesing of removing arti, wearing plasm, wearing other arti
-        affect_from_char(ch, SPELL_VAMPIRE);
         if (affected_by_spell(ch, SPELL_VAMPIRE))
         {
           affect_from_char(ch, SPELL_VAMPIRE);
@@ -2927,7 +2926,7 @@ int living_necroplasm(P_obj obj, P_char ch, int cmd, char *arg)
         act
           ("$p &+Lruns its &+Gtendrils&+L through your body, transforming you!",
            FALSE, ch, obj, 0, TO_CHAR);
-        spell_vampiric_trance(55, ch, 0, 0, ch, 0);
+        spell_vampire(55, ch, 0, 0, ch, 0);
       }
       return TRUE;
     }
@@ -3283,15 +3282,7 @@ int good_evil_stoneOrSoulshield(P_obj obj)
   int      curr_time;
   P_char   temp_ch;
 
-  if(!obj)
-   return FALSE;
-
-  if(obj->loc.wearing)
-  {
-    temp_ch = obj->loc.wearing;
-  }
-  else
-    return FALSE;
+  temp_ch = obj->loc.wearing;
 
   if ((GET_ALIGNMENT(temp_ch) < 900) && (GET_ALIGNMENT(temp_ch) > -900))
   {
@@ -3318,9 +3309,12 @@ int good_evil_stoneOrSoulshield(P_obj obj)
 void good_evil_procDrain(P_char ch, P_obj obj, P_char opponent,
                          int *swordMana)
 {
-  act("Your $p &+Rglows&N as it &+rbites deeply&n into $N!", FALSE, ch, obj, opponent, TO_CHAR);
-  act("$n's $p &+rbites deeply&n into you, draining your &+Wlife force&n.", FALSE, ch, obj, opponent, TO_VICT);
-  act("$N &+Lpales&n as $S &+Wlife force&n is drained significantly.", FALSE, ch, obj, opponent, TO_NOTVICTROOM);
+  act("Your $p &+Rglows&N as it &+rbites deeply&n into $N&n", FALSE, ch, obj,
+      opponent, TO_CHAR);
+  act("$n's $p &+rbites deeply&n into you, draining your &+Wlife force&n.",
+      FALSE, ch, obj, opponent, TO_VICT);
+  act("$N &+Lpales&n as $S &+Wlife force&n is drained significantly.", FALSE,
+      ch, obj, opponent, TO_NOTVICTROOM);
   GET_HIT(opponent) -= 50;
   GET_HIT(ch) += 50;
   *swordMana += 100;
@@ -3329,11 +3323,6 @@ void good_evil_procDrain(P_char ch, P_obj obj, P_char opponent,
 int good_evil_attemptFightProc(P_char ch, P_obj obj, P_char opponent,
                                int procMana, int *swordMana)
 {
-  if(!ch || !obj || !opponent)
-  {
-    logit(LOG_EXIT, "good_Evil_attemptFightProc... failed...");
-    raise(SIGSEGV);
-  }
 
   act("$p &+Wglows brightly&N for a moment.", FALSE, ch, obj, 0, TO_CHAR);
   act("$p &+Wglows brightly&N for a moment.", FALSE, ch, obj, 0, TO_ROOM);
@@ -3352,32 +3341,27 @@ int good_evil_fightingProc(P_char ch, P_obj obj, int isGood, int mana)
 {
   /* PUT IN USEFUL VALUES HERE */
   int      manaCosts[] = {
-    25,                         /* 0  dazzle */
-    25,                         /* 1  blind */
-    25,                         /* 2  curse */
-    150,                        /* 3  bigbys hand */
+    50,                         /* 0  dazzle */
+    50,                         /* 1  blind */
+    50,                         /* 2  curse */
+    100,                        /* 3  bigby's hand */
     0,                          /* 4  keep at zero for mana draining */
     100,                        /* 5  heal */
-    100,                        /* 6  bigbys fist */
-    75,                         /* 7  immolate */
-    25,                         /* 8  earthquake */
+    100,                        /* 6  fist */
+    50,                         /* 7  immolate */
+    100,                        /* 8  earthquake */
     0,                          /* 9  keep at zero for mana draining */
-    150,                        /* 10 gStornog */
-    25,                         /* 11 poison */
-    50,                         /* 12 (un)holy word */
+    100,                        /* 10 gStornog */
+    50,                         /* 11 poison */
+    100,                        /* 12 (un)holy word */
     0,                          /* 13 keep at zero for mana draining */
-    200                         /* 14 apocalypse / judgment */
+    200                         /* 14 apocalypse / judgement */
   };
 
   int      rand, save;
   P_char   tar_ch, next;
-  P_char   opponent;
 
-  if(!ch || !obj)
-  {
-    logit(LOG_EXIT, "good_evil_fightingProc... failed");
-    raise(SIGSEGV);
-  }
+  P_char   opponent;
 
   mana += 100;
   if (mana > GET_HIT(ch))
@@ -3394,14 +3378,17 @@ int good_evil_fightingProc(P_char ch, P_obj obj, int isGood, int mana)
 
   if (good_evil_attemptFightProc(ch, obj, opponent, manaCosts[rand], &mana))
   {
+
     switch (rand)
     {
     case 0:
       break;
     case 1:
       /* blind */
-      act("&+LA dark cloud shoots forth toward you!&N", FALSE, ch, 0, opponent, TO_VICT);
-      act("&+LA dark cloud shoots forth toward $n!&N", TRUE, opponent, 0, 0, TO_ROOM);
+      act("&+LA dark cloud shoots forth toward you!&N", FALSE, ch, 0,
+          opponent, TO_VICT);
+      act("&+LA dark cloud shoots forth toward $n!&N", TRUE, opponent, 0, 0,
+          TO_ROOM);
       save = opponent->specials.apply_saving_throw[SAVING_SPELL];
       opponent->specials.apply_saving_throw[SAVING_SPELL] += 15;
       spell_blindness(60, ch, 0, SPELL_TYPE_SPELL, opponent, 0);
@@ -3409,8 +3396,10 @@ int good_evil_fightingProc(P_char ch, P_obj obj, int isGood, int mana)
       break;
     case 2:
       /* curse */
-      act("&+rA red cloud shoots forth toward you!&N", FALSE, ch, 0, opponent, TO_VICT);
-      act("&+rA red cloud shoots forth toward $n!&N", TRUE, opponent, 0, 0, TO_ROOM);
+      act("&+rA red cloud shoots forth toward you!&N", FALSE, ch, 0, opponent,
+          TO_VICT);
+      act("&+rA red cloud shoots forth toward $n!&N", TRUE, opponent, 0, 0,
+          TO_ROOM);
       save = opponent->specials.apply_saving_throw[SAVING_SPELL];
       opponent->specials.apply_saving_throw[SAVING_SPELL] += 15;
       spell_curse(60, ch, 0, SPELL_TYPE_SPELL, opponent, 0);
@@ -3418,11 +3407,13 @@ int good_evil_fightingProc(P_char ch, P_obj obj, int isGood, int mana)
       break;
     case 11:
       /* poison */
-      act("&+GA green cloud shoots forth toward you!&N", FALSE, ch, 0, opponent, TO_VICT);
-      act("&+GA green cloud shoots forth toward $n!&N", TRUE, opponent, 0, 0, TO_ROOM);
+      act("&+GA green cloud shoots forth toward you!&N", FALSE, ch, 0,
+          opponent, TO_VICT);
+      act("&+GA green cloud shoots forth toward $n!&N", TRUE, opponent, 0, 0,
+          TO_ROOM);
       save = opponent->specials.apply_saving_throw[SAVING_SPELL];
       opponent->specials.apply_saving_throw[SAVING_SPELL] += 15;
-      spell_poison(60, ch, 0, SPELL_TYPE_SPELL, opponent, 0);
+      spell_poison(30, ch, 0, SPELL_TYPE_SPELL, opponent, 0);
       opponent->specials.apply_saving_throw[SAVING_SPELL] = save;
       break;
     case 4:
@@ -3432,37 +3423,28 @@ int good_evil_fightingProc(P_char ch, P_obj obj, int isGood, int mana)
       good_evil_procDrain(ch, obj, opponent, &mana);
       break;
     case 5:
-      /* group/self heal */
-      if(ch->group)
+      /* group heal */
+      for (tar_ch = world[ch->in_room].people; tar_ch; tar_ch = next)
       {
-        for (tar_ch = world[ch->in_room].people; tar_ch; tar_ch = next)
+        next = tar_ch->next_in_room;
+        if (tar_ch->group == ch->group)
         {
-          next = tar_ch->next_in_room;
-          if(tar_ch->group)
-          {
-            if(tar_ch->group == ch->group)
-            {
-              spell_heal(55, ch, 0, 0, tar_ch, 0);
-            }
-          }
+          spell_heal(55, ch, 0, 0, tar_ch, 0);
         }
       }
-      else
-      {
-        spell_full_heal(56, ch, 0, 0, ch, 0);
-      }
+      spell_heal(20, ch, 0, 0, ch, 0);
       break;
     case 6:
       /* fist */
-      spell_bigbys_clenched_fist(56, ch, NULL, SPELL_TYPE_SPELL, opponent, 0);
+      spell_bigbys_clenched_fist(60, ch, NULL, SPELL_TYPE_SPELL, opponent, 0);
       break;
     case 7:
       /* immolate */
-      spell_immolate(56, ch, NULL, 0, opponent, 0);
+      spell_immolate(60, ch, NULL, 0, opponent, 0);
       break;
     case 8:
       /* earthquake */
-      spell_earthquake(56, ch, NULL, SPELL_TYPE_SPELL, NULL, 0);
+      spell_earthquake(60, ch, NULL, SPELL_TYPE_SPELL, NULL, 0);
       break;
     case 10:
       /* group stornog */
@@ -3470,7 +3452,7 @@ int good_evil_fightingProc(P_char ch, P_obj obj, int isGood, int mana)
       break;
     case 3:
       /* hand */
-      spell_bigbys_crushing_hand(56, ch, NULL, SPELL_TYPE_SPELL, opponent, 0);
+      spell_bigbys_crushing_hand(60, ch, NULL, SPELL_TYPE_SPELL, opponent, 0);
       break;
     case 12:
       /* holy word / unholy word */
@@ -3486,19 +3468,7 @@ int good_evil_fightingProc(P_char ch, P_obj obj, int isGood, int mana)
       }
       break;
     case 14:
-            /* Judgment / Apoc */
-      if (isGood)
-      {
-        if (GET_ALIGNMENT(ch) > -350)
-          spell_judgment(60, ch, NULL, 0, opponent, 0);
-      }
-      else
-      {
-        if (GET_ALIGNMENT(ch) < 350)
-          spell_apocalypse(60, ch, NULL, 0, opponent, 0);
-      }
-      break;
-    default:
+      spell_nova(60, ch, 0, 0, NULL, 0);
       break;
     }
   }
@@ -3510,11 +3480,6 @@ int good_evil_fightingProc(P_char ch, P_obj obj, int isGood, int mana)
 int good_evil_attemptDefenseProc(P_char ch, P_obj obj, int procMana,
                                  int *swordMana)
 {
-  if(!ch || !obj)
-  {
-    logit(LOG_EXIT, "good_Evil_attemptDefenseProc.... failed");
-    raise(SIGSEGV);
-  }
 
   if (procMana < *swordMana)
   {
@@ -3544,12 +3509,6 @@ int good_evil_defenseProc(P_char ch, P_obj obj, int isGood, int mana)
   };
 
   P_char   tar_ch, next;
-
-  if(!ch || !obj)
-  {
-    logit(LOG_EXIT, "good_Evil_attemptDefenseProc.... failed");
-    raise(SIGSEGV);
-  }
 
   if (number(0, 14))
     return mana;
@@ -3639,12 +3598,6 @@ int good_evil_defenseProc(P_char ch, P_obj obj, int isGood, int mana)
 
 int good_evil_checkHunger(P_char ch, P_obj obj, int mana)
 {
-  if(!ch || !obj)
-  {
-    logit(LOG_EXIT, "good_Evil_attemptDefenseProc.... failed");
-    raise(SIGSEGV);
-  }
-
   if (mana < 0 && !IS_TRUSTED(ch))      //punishment
   {
     act("$p &+rbecomes hungry and saps some of your strength.&N", FALSE, ch,
@@ -3691,12 +3644,6 @@ int isWieldingVnum(P_char ch, int vnum)
 
 void good_evil_spellUp(P_char ch)
 {
-  if(!ch)
-  {
-    logit(LOG_EXIT, "good_Evil_attemptDefenseProc.... failed");
-    raise(SIGSEGV);
-  }
-
   /* Put in some cool spells here... deflect and blur for example */
   spell_blur(60, ch, 0, 0, ch, 0);
   spell_deflect(60, ch, NULL, SPELL_TYPE_SPELL, ch, 0);
@@ -3750,12 +3697,6 @@ void good_evil_startBigFight(P_char attacker, P_char defender,
 
 void good_evil_coolDown(P_obj obj, P_char ch)
 {
-  if(!ch || !obj)
-  {
-    logit(LOG_EXIT, "good_Evil_attemptDefenseProc.... failed");
-    raise(SIGSEGV);
-  }
-
   /* PUT IN SOME COOL DOWN MESSAGE HERE */
   act("&+bColdness seeps into you as $p &+btakes it's toll on you.&N",
       FALSE, ch, obj, 0, TO_CHAR);
@@ -3768,6 +3709,7 @@ void good_evil_coolDown(P_obj obj, P_char ch)
 
 int killOtherSword(P_obj obj, P_char ch, int isGood)
 {
+
   P_char   opponent;
   int      enemySwordVNum;
 
@@ -3795,19 +3737,20 @@ int killOtherSword(P_obj obj, P_char ch, int isGood)
     // I WAS in a big fight, but not now.. cool down!
     good_evil_coolDown(obj, ch);
   return FALSE;
+
+
 }
 
 int attemptToDisengage(P_char ch, int cmd, char *arg)
 {
-  if(!ch)
-   return FALSE;
-
   if (cmd == CMD_KILL ||
       cmd == CMD_HIT ||
       cmd == CMD_INNATE ||
       cmd == CMD_FLEE || cmd == CMD_RESCUE || cmd == CMD_RETREAT)
   {
-    send_to_char("&+LYour weapon compels you to continue fighting its nemesis!&N\n", ch);
+    send_to_char
+      ("&+LYour weapon compels you to continue fighting its nemesis!&N\n",
+       ch);
     return TRUE;
   }
   return FALSE;
@@ -3816,9 +3759,6 @@ int attemptToDisengage(P_char ch, int cmd, char *arg)
 void good_evil_poofSword(P_char ch, P_obj obj)
 {
   int      i;
-
-  if(!ch || !obj)
-   return;
 
   /* Zap the char and poof */
   act("$p &+Wflares up&n, burns your hands, and vaporizes!&N",
@@ -3844,24 +3784,12 @@ void good_evil_configSword(P_char ch, P_obj obj)
   // configure the sword as 1h or 2h depending on the wielder, and set the dice
   // as follows:
   //  1h 5d5 5/5
-  //  2h 6d8 8/8
+  //  2h 6d6 6/6
 
   // classes which use as a 2h:  paladin, anti-paladin,
 
   // if the object is already worn, or there's no ch, then don't do anything
-  if(!obj)
-  {
-    logit(LOG_STATUS, "good_evil_configSword wasn't passed an obj, fail...");
-    return;
-  }
-
-  if(!ch)
-  {
-    logit(LOG_EXIT, "good_Evil_configSword wasn't passed a ch, fail...");
-    raise(SIGSEGV);
-  }
-
-  if (OBJ_WORN(obj))
+  if (OBJ_WORN(obj) || !ch)
     return;
 
   obj->value[6] = 0;  //  // which "random" effect
@@ -3874,10 +3802,9 @@ void good_evil_configSword(P_char ch, P_obj obj)
   {
     SET_BIT(obj->extra_flags, ITEM_TWOHANDS);
     obj->value[0] = 13;
-    obj->value[1] = 6;
-    obj->value[2] = 8;
-    obj->affected[0].modifier = obj->affected[1].modifier = 8;
-    obj->weight = 20;
+    obj->value[1] = obj->value[2] = 6; // 6d6
+    obj->affected[0].modifier = obj->affected[1].modifier = 6;
+    obj->weight = 15;
   }
   else
   {
@@ -3885,7 +3812,7 @@ void good_evil_configSword(P_char ch, P_obj obj)
     obj->value[0] = 5;
     obj->value[1] = obj->value[2] = 5;  // 5d5
     obj->affected[0].modifier = obj->affected[1].modifier = 5;
-    obj->weight = 10;
+    obj->weight = 7;
   }
 }
 
@@ -3915,16 +3842,16 @@ int good_evil_sword(P_obj obj, P_char ch, int cmd, char *arg)
     "This world has not yet seen our true power, show them!",
     "Satisfy my thirst for blood, my minion.",
     "Bring me to Symmetry so that I can absorb its power.",     //5
-    "Without me, what would you be but a useless husk...",
+    "All your base are belong to us!",
     "Slice your enemies apart with me, so that I may absorb their souls."
   };
   char *g_whispers[] = {
-    "Pursue the path of goodness always.",
+    "Persue the path of goodness always.",
     "Study the way of 'pleasantry' that you may better love the gods.",
     "You must destroy the non-believers.",
     "This world shall be cleansed of evil by our power.",
     "You must vanquish more evil for me to aid you more.",      //5
-    "My power can only be wielded by the worthy...",
+    "All your base are belong to us!",
     "Do not be swayed to the dark side."
   };
 
@@ -4096,6 +4023,7 @@ int good_evil_sword(P_obj obj, P_char ch, int cmd, char *arg)
   }
   return FALSE;
 }
+
 
 int dranum_mask(P_obj obj, P_char ch, int cmd, char *arg)
 {
@@ -4588,7 +4516,7 @@ int neg_orb(P_obj obj, P_char ch, int cmd, char *arg)
     return (FALSE);
 
   messages.obj = obj;
-  spell_damage(ch, victim, 75, SPLDAM_GENERIC,
+  spell_damage(ch, victim, 75 * 4, SPLDAM_GENERIC,
                SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, &messages);
   return (TRUE);
 }
@@ -5350,7 +5278,7 @@ int holy_weapon(P_obj obj, P_char ch, int cmd, char *arg)
         {      
            if(CanDoFightMove(ch, tch))
            {
-              if(alignment == 0)
+              if(alignment = 0)
               {
                  act("Your $q &+Wglows &+was you slam the pommel into $N&+w,&L&+wknocking $M away from your ally!", FALSE, ch, obj, tch, TO_CHAR);
                  act("$p &+Wglows &+was its pommel is slammed into $N&+w,&L&+wknocking $M away from YOU!", FALSE, vict, obj, tch, TO_CHAR);
@@ -8937,7 +8865,7 @@ int transparent_blade(P_obj obj, P_char ch, int cmd, char *arg)
   victim = (P_char) arg;
   if (!victim || number(0, 30))
     return (FALSE);
-  spell_damage(ch, victim, 75, SPLDAM_SPIRIT,
+  spell_damage(ch, victim, 75 * 4, SPLDAM_SPIRIT,
                SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, &messages);
   return (TRUE);
 }
@@ -13360,6 +13288,7 @@ int doom_blade_Proc(P_obj obj, P_char ch, int cmd, char *arg)
 
   int rand, i, dam = cmd / 1000, lvl = 1;
   P_char   vict, tar_ch, next;
+
 
   if(cmd == CMD_SET_PERIODIC)
   {

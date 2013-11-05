@@ -46,7 +46,6 @@ extern const int exp_table[61];
 extern const struct stat_data stat_factor[];
 extern struct command_info cmd_info[];
 extern struct dex_app_type dex_app[];
-extern struct agi_app_type agi_app[];
 extern struct shapechange_struct shapechange_name_list[];
 extern struct str_app_type str_app[];
 extern const char *item_types[];
@@ -79,8 +78,6 @@ extern int itemvalue(P_char ch, P_obj obj);
 
 void yank_make_item(P_char, P_obj);
 void lore_item( P_char ch, P_obj obj );
-void     set_keywords(P_obj t_obj, const char *newKeys);
-void     set_short_description(P_obj t_obj, const char *newShort);
 
 // This sets players to forego all their attacks. It is useful for 
 // caster type classes which do not want their opponent to riposte or
@@ -169,7 +166,7 @@ void do_aggr(P_char ch, char *arg, int cmd)
   if (GET_CLASS(ch, CLASS_PALADIN))
   {
     send_to_char("Be an aggressive paladin?!  Not in this lifetime!\r\n", ch);
-    send_to_char("You'll have to use better judgment than that.\r\n", ch);
+    send_to_char("You'll have to use better judgement than that.\r\n", ch);
     return;
   }
 #endif
@@ -519,9 +516,9 @@ void do_stampede(P_char ch, char *arg, int cmd)
 // SPEC SKILL FOR WARRIOR - Kvark
 void do_war_cry(P_char ch, char *arg, int cmd)
 {
-  int      hpoints = (GET_CHAR_SKILL(ch, SKILL_WAR_CRY) / 4);
+  int      hpoints = (GET_CHAR_SKILL(ch, SKILL_WAR_CRY) / 2);
   struct group_list *gl;
-  int      dampoints = (GET_CHAR_SKILL(ch, SKILL_WAR_CRY) / 25);
+  int      dampoints = (GET_CHAR_SKILL(ch, SKILL_WAR_CRY) / 20);
   int      skl;
   struct affected_type af;
 
@@ -559,10 +556,13 @@ void do_war_cry(P_char ch, char *arg, int cmd)
         af.location = APPLY_DAMROLL;
         affect_to_char(gl->ch, &af);
         update_pos(gl->ch);
-        send_to_char("You feel like you could &+rfight&n forever.\r\n", gl->ch);
-        //act("&+L$n becomes alert and ready to &+rfight&n.", TRUE, gl->ch, 0, 0, TO_ROOM);
+        send_to_char("You feel like you could &+rfight&n forever.\r\n",
+                     gl->ch);
+        act("&+L$n becomes alert and ready to &+rfight&n.", TRUE, gl->ch, 0,
+            0, TO_ROOM);
         notch_skill(ch, SKILL_WAR_CRY, 15);
       }
+
     }
     /* followers */
     for (gl = gl->next; gl; gl = gl->next)
@@ -587,8 +587,10 @@ void do_war_cry(P_char ch, char *arg, int cmd)
           af.location = APPLY_DAMROLL;
           affect_to_char(gl->ch, &af);
           update_pos(gl->ch);
-          send_to_char("You feel like you could &+rfight&n forever.\r\n", gl->ch);
-          //act("&+L$n becomes alert and ready to &+rfight&n.", TRUE, gl->ch, 0, 0, TO_ROOM);
+          send_to_char("You feel like you could &+rfight&n forever.\r\n",
+                       gl->ch);
+          act("&+L$n becomes alert and ready to &+rfight&n.", TRUE, gl->ch, 0,
+              0, TO_ROOM);
           notch_skill(ch, SKILL_WAR_CRY, 50);
         }
       }
@@ -615,7 +617,8 @@ void do_war_cry(P_char ch, char *arg, int cmd)
       affect_to_char(ch, &af);
       update_pos(ch);
       send_to_char("You feel like you could &+rfight&n forever.\r\n", ch);
-     // act("&+L$n becomes alert and ready to &+rfight&n.", TRUE, ch, 0, 0, TO_ROOM);
+      act("&+L$n becomes alert and ready to &+rfight&n.", TRUE, ch, 0, 0,
+          TO_ROOM);
     }
   }
 
@@ -625,6 +628,7 @@ void do_war_cry(P_char ch, char *arg, int cmd)
 
 int do_roar_of_heroes(P_char ch)
 {
+
   struct group_list *gl;
   struct affected_type af;
   
@@ -643,7 +647,6 @@ int do_roar_of_heroes(P_char ch)
   
   if(affected_by_spell(ch, SKILL_ROAR_OF_HEROES))
   {
-    send_to_char("You need to gather your strength a bit longer...\r\n", ch);
     return 0;
   }
   
@@ -660,10 +663,11 @@ int do_roar_of_heroes(P_char ch)
       {
         bzero(&af, sizeof(af));
         af.type = SKILL_ROAR_OF_HEROES;
-        af.duration = 1;
-        af.modifier = number(9, 13);
+        af.duration = 5;
+        af.modifier = af.modifier = number(9, 13);
         af.location = APPLY_CON_MAX;
         affect_to_char(gl->ch, &af);
+    
         update_pos(gl->ch);
         send_to_char("&+rAdrenaline burns your veins as the battle cry rings in your ears.&n\r\n",
         gl->ch);
@@ -723,8 +727,9 @@ int do_roar_of_heroes(P_char ch)
         {
           bzero(&af, sizeof(af));
           af.type = SKILL_ROAR_OF_HEROES;
-          af.duration = 1;
-          af.modifier = number(9, 13);
+          af.duration = 5;
+          af.modifier = af.modifier = number(9, 13);
+
           af.location = APPLY_CON_MAX;
           affect_to_char(gl->ch, &af);
 
@@ -786,8 +791,8 @@ int do_roar_of_heroes(P_char ch)
     {
       bzero(&af, sizeof(af));
       af.type = SKILL_ROAR_OF_HEROES;
-      af.duration = 1;
-      af.modifier = number(9, 13);
+      af.duration = 5;
+      af.modifier = af.modifier = number(9, 13);
       af.location = APPLY_CON_MAX;
       affect_to_char(ch, &af);
       update_pos(ch);
@@ -841,12 +846,8 @@ int do_roar_of_heroes(P_char ch)
     }
   }
 
-  af.type = SKILL_ROAR_OF_HEROES;
-  af.duration = 5;
-  affect_to_char(ch, &af);
+  return 1;
   CharWait(ch, PULSE_VIOLENCE * 1);
-
-  return FALSE;
 }
 
 void do_flurry_of_blows(P_char ch, char *arg)
@@ -1494,7 +1495,7 @@ void do_disarm(P_char ch, char *arg, int cmd)
     act("$n starts to fumble $s weapon in a vain attempt to disarm you.",
         FALSE, ch, 0, victim, TO_VICT);
     act
-      ("You make a grave error in judgment, and lose control of your weapon.",
+      ("You make a grave error in judgement, and lose control of your weapon.",
        FALSE, ch, 0, 0, TO_CHAR);
     notch_skill(ch, SKILL_DISARM, 50);
   }
@@ -1663,7 +1664,7 @@ P_char morph(P_char ch, int rnum, int mode)
    */
   if (!is_avatar)
   {
-    mob->points.base_armor = 100 - (GET_LEVEL(mob) * 4);
+    mob->points.base_armor = 0 - (GET_LEVEL(mob) * 4);
     mob->points.base_hitroll = mob->points.hitroll = GET_LEVEL(mob) / 4;
     mob->points.base_damroll = mob->points.damroll = GET_LEVEL(mob) / 5;
     MonkSetSpecialDie(mob);
@@ -1953,7 +1954,7 @@ bool shapechange_canShapechange(P_char ch)
   if (IS_SET(world[ch->in_room].room_flags, NO_MOB) ||
       IS_SET(world[ch->in_room].room_flags, SAFE_ZONE))
   {
-    send_to_char("Something in the air prevents your magic!\r\n", ch);
+    send_to_char("Something in the air prevents yer magics!\r\n", ch);
     return FALSE;
   }
   if (!has_innate(ch, INNATE_SHAPECHANGE) && !IS_TRUSTED(ch) && !IS_MORPH(ch))
@@ -2284,7 +2285,7 @@ void shapechange_learn(P_char ch, char *mobname)
   if (!GET_CLASS(ch, CLASS_DRUID))
     chLevel -= 5;
 
-  if (GET_SPEC(ch, CLASS_DRUID, SPEC_FOREST)) 
+  if (GET_SPEC(ch, CLASS_DRUID, SPEC_WOODLAND)) 
     chLevel++;
   
   if ((chLevel < shapechange_levelNeeded(GET_RACE(mob))) && !IS_TRUSTED(ch)) {
@@ -2314,12 +2315,6 @@ void do_shapechange(P_char ch, char *arg, int cmd)
 
   if (!ch->desc)
     return;
-
-  if (!has_innate(ch, INNATE_SHAPECHANGE) && !IS_TRUSTED(ch) && !IS_MORPH(ch))
-  {
-    send_to_char("You don't know how to change your form!\r\n", ch);
-    return;
-  }
 
   rest = one_argument(arg, mobname);
 
@@ -2845,13 +2840,6 @@ void lore_item( P_char ch, P_obj obj )
             else
                strcpy(Gbuf3, "not at all");
          }
-         else if (obj->affected[i].location == APPLY_AC)
-         {
-           if (obj->affected[i].modifier < 0)
-             strcpy(Gbuf3, "for the better");
-           else if (obj->affected[i].modifier > 0)
-             strcpy(Gbuf3, "for the worse");
-         }
          else if (obj->affected[i].location != APPLY_FIRE_PROT)
          {
             if (obj->affected[i].modifier > 0)
@@ -3350,7 +3338,7 @@ void do_hamstring(P_char ch, char *arg, int cmd)
   {
     act("Such a maneuver appears to be useless against $N!", FALSE, ch, 0,
         vict, TO_CHAR);
-    send_to_char("And just for the attempt, you fall on your ass.\r\n", ch);
+    send_to_char("And just for the attempt, you fall on yer ass.\r\n", ch);
     act("$n tries a tricky maneuver on you, and winds up flat on $s ass.",
         TRUE, ch, 0, vict, TO_VICT);
     act("$n tries some fancy maneuver on $N, but winds up flat on $s ass.",
@@ -3662,9 +3650,6 @@ void do_craft(P_char ch, char *argument, int cmd)
  
   char     buf[256], *buff, buf2[256], rbuf[MAX_STRING_LENGTH];
   char     Gbuf1[MAX_STRING_LENGTH], selectedrecipe[MAX_STRING_LENGTH];
-  char tempdesc [MAX_INPUT_LENGTH];
-  char short_desc[MAX_STRING_LENGTH];
-  char keywords[MAX_INPUT_LENGTH];
   char buffer[256];
   FILE    *f;
   FILE    *recipelist;
@@ -3782,8 +3767,6 @@ void do_craft(P_char ch, char *argument, int cmd)
 
    float tobjvalue = itemvalue(ch, tobj);
 
-   tobjvalue += 4; //minimum craft start value.
-
    int startmat = get_matstart(tobj);
 
    tobjvalue = (float)tobjvalue / (float)5;
@@ -3846,8 +3829,6 @@ if(difference == 0)
    tobj = read_object(selected, VIRTUAL);
 
    float tobjvalue = itemvalue(ch, tobj);
-
-   tobjvalue += 4;
 
    int startmat = get_matstart(tobj);
 
@@ -3931,25 +3912,21 @@ if(difference == 0)
 	if((GET_OBJ_VNUM(t_obj) == obj1) && (i < fullcount) )
          {
 	   obj_from_char(t_obj, TRUE);
-	   extract_obj(t_obj, TRUE);
           i++;
          }
        if((GET_OBJ_VNUM(t_obj) == obj2) && (o < difference))
          {
 	   obj_from_char(t_obj, TRUE);
-	   extract_obj(t_obj, TRUE);
           o++;
          }
        if((GET_OBJ_VNUM(t_obj) == 400211) && (z < affcount))
          {
 	   obj_from_char(t_obj, TRUE);
-	   extract_obj(t_obj, TRUE);
           z++;
          }
        if((GET_OBJ_VNUM(t_obj) == 400224) && (y < 1))
          {
 	   obj_from_char(t_obj, TRUE);
-	   extract_obj(t_obj, TRUE);
           y++;
          }
       }
@@ -3960,14 +3937,6 @@ if(difference == 0)
   P_obj reward = read_object(selected, VIRTUAL);
   SET_BIT(reward->extra2_flags, ITEM2_CRAFTED);
   SET_BIT(reward->extra_flags, ITEM_NOREPAIR);
-  randomizeitem(ch, reward);
-  sprintf(keywords, "%s %s tradeskill", reward->name, GET_NAME(ch));
-
-  sprintf(tempdesc, "%s", reward->short_description);
-  sprintf(short_desc, "%s &+ymade by&n &+r%s&n", tempdesc, GET_NAME(ch));
-  set_keywords(reward, keywords);
-  set_short_description(reward, short_desc);
-
 
   obj_to_char(reward, ch);
   act
@@ -4133,30 +4102,21 @@ void do_smith(P_char ch, char *argument, int cmd)
 int chance_throw_potion(P_char ch, P_char victim)
 {
   int      chance = 0;
-  int dex_chance, agi_chance;
 
-  if(IS_PC(ch))
+  if (IS_PC(ch))
   {
-    chance = GET_CHAR_SKILL(ch, SKILL_THROW_POTIONS) + number(-20, 20);
+    chance = GET_CHAR_SKILL(ch, SKILL_THROW_POTIONS);
   }
-  else
+  else if (GET_PRIME_CLASS(ch, CLASS_ALCHEMIST))
   {
-    chance = GET_LEVEL(ch) * 2 - number(0, 30);
-    chance = BOUNDED(10, chance, 100);
+    chance = GET_LEVEL(ch) * 2;
   }
-<<<<<<< HEAD
-  dex_chance = STAT_INDEX((stat_factor[GET_RACE(ch)].Dex * GET_C_DEX(ch) / 100));
-  agi_chance = STAT_INDEX((stat_factor[GET_RACE(victim)].Agi * GET_C_AGI(victim) / 100));
-  chance += dex_chance - agi_chance;
-=======
   
   if(number(1, 140) > GET_C_AGI(ch))
   chance = 1;
   
   return (int) chance;
->>>>>>> master
 
-  return (int) chance;
 }
 
 bool throw_potion(P_char ch, P_obj scroll, P_char victim, P_obj obj)
@@ -4171,7 +4131,7 @@ bool throw_potion(P_char ch, P_obj scroll, P_char victim, P_obj obj)
 
   chance = chance_throw_potion(ch, victim);
 
-  if(!chance)
+  if (!chance)
   {
     act("Well, trying might not hurt.", FALSE, ch, 0, 0, TO_CHAR);
     return FALSE;
@@ -4186,30 +4146,27 @@ bool throw_potion(P_char ch, P_obj scroll, P_char victim, P_obj obj)
      return FALSE;
     }
 
-  if(scroll == ch->equipment[HOLD])
+  if (scroll == ch->equipment[HOLD])
     equipped = TRUE;
 
-  lag = get_property("alchemist.throwp.reorient.rounds", 1.00);
+  lag = get_property("alchemist.throwp.reorient.rounds", 1.75);
 
-  if(IS_AFFECTED2(ch, AFF2_FLURRY))
+  if (IS_AFFECTED2(ch, AFF2_FLURRY))
   {
     lag *= 0.5;
   }
-  else if(IS_AFFECTED(ch, AFF_HASTE))
+  else if (IS_AFFECTED(ch, AFF_HASTE))
   {
     lag *= 0.8;
   }
     
-  CharWait(ch, (int) (get_property("alchemist.throwp.lag.rounds", 1.00) * PULSE_VIOLENCE) );
+  CharWait(ch, (int) (get_property("alchemist.throwp.lag.rounds", 0.75) * PULSE_VIOLENCE) );
   set_short_affected_by(ch, SKILL_THROW_POTIONS, (int) (lag * PULSE_VIOLENCE));
 
   notch_skill(ch, SKILL_THROW_POTIONS, 15);
 
-  if(victim)
+  if (victim)
   {
-<<<<<<< HEAD
-    if(number(0, chance))
-=======
 
      if(chance == 1)
       {
@@ -4227,14 +4184,13 @@ bool throw_potion(P_char ch, P_obj scroll, P_char victim, P_obj obj)
       }
 
     if (number(0, chance))
->>>>>>> master
     {
       victim = victim;
     }
     else
     {
       the_room = ch->in_room;
-      for(tch = world[the_room].people; tch; tch = temp)
+      for (tch = world[the_room].people; tch; tch = temp)
       {
         temp = tch->next_in_room;
         if (number(0, 1))
@@ -4247,31 +4203,35 @@ bool throw_potion(P_char ch, P_obj scroll, P_char victim, P_obj obj)
       if (!victim)
         victim = ch;
 
-      if(victim == ch)
+      if (victim == ch)
       {
         if (equipped)
-        {
           unequip_char(ch, HOLD);
-        }
         obj_from_char(scroll, TRUE);
         obj_to_room(scroll, ch->in_room);
-        send_to_char("&+YYou aim your throw a little too high, sending your potion flying across the room!\r\n&n",ch);
-        act("$n slips as $e throws a $p, sending it bouncing along the ground!", TRUE, ch, scroll, 0, TO_ROOM);
+        send_to_char
+          ("&+YYou aim your throw a little too high, sending your potion flying across the room!\r\n&n",
+           ch);
+        act
+          ("$n slips as $e throws a $p, sending it bouncing along the ground!",
+           TRUE, ch, scroll, 0, TO_ROOM);
         return FALSE;
       }
     }
   }
 
-  if(victim)
+  if (victim)
   {
-    act("&+LYou throw a potion at&n $p&n&+L...&n", FALSE, ch, obj, 0, TO_CHAR);
-    act("&+W$n&n &+Lthrows a potion at&n $p&n&+L...&n", FALSE, ch, obj, 0, TO_ROOM);
-
-    act("&+L$N&n &-L&+Wscreams&N &+Las $p &+Lhits $M dead on!&n", FALSE, ch, scroll, victim, TO_NOTVICT);
-    act("&+L$N's&n&+L face turns&+W pale &+Las $p &+Lhits $M dead on!&n ", FALSE, ch, scroll, victim, TO_CHAR);
-    act("&+LYour face &+Wpales&N&+L as $p &+Lthrown by&n&+m $n &n&+Lhits you!&N", FALSE, ch, scroll, victim, TO_VICT);
+    act
+      ("&+W$N&n &+Wpales&N &+Las $p &+Lthrown by&n&+m $n&n&+L hits $M&n &+Lin the face.&n",
+       FALSE, ch, scroll, victim, TO_NOTVICT);
+    act("&+W$N's&n&+L face turns&+W pale &+Las $p &+Lhits $M dead on!&n ",
+        FALSE, ch, scroll, victim, TO_CHAR);
+    act
+      ("&+LYour face &+Wpales&N&+L as $p &+Lthrown by&n&+m $n &n&+Lhits you dead on.&N",
+       FALSE, ch, scroll, victim, TO_VICT);
   }
-  else if(obj)
+  else if (obj)
   {
     act("&+LYou throw a potion at&n $p&n&+L...&n", FALSE, ch, obj, 0, TO_CHAR);
     act("&+W$n&n &+Lthrows a potion at&n $p&n&+L...&n", FALSE, ch, obj, 0, TO_ROOM);
@@ -4282,20 +4242,18 @@ bool throw_potion(P_char ch, P_obj scroll, P_char victim, P_obj obj)
     return FALSE;
   }
 
-  if(equipped)
+  if (equipped)
   {
     unequip_char(ch, HOLD);
   }
   
-  if(IS_SET(world[ch->in_room].room_flags, NO_MAGIC) && !IS_TRUSTED(ch))
+  if (IS_SET(world[ch->in_room].room_flags, NO_MAGIC) && !IS_TRUSTED(ch))
   {
     send_to_char("Nothing seems to happen.\r\n", ch);
   }
-  else if(victim && 
-         (victim != ch) && 
-         !IS_TRUSTED(ch) &&
-         (IS_SET(world[ch->in_room].room_flags, SINGLE_FILE)) &&
-         !AdjacentInRoom(ch, victim))
+  else if (victim && (victim != ch) && !IS_TRUSTED(ch) &&
+           (IS_SET(world[ch->in_room].room_flags, SINGLE_FILE)) &&
+           !AdjacentInRoom(ch, victim))
   {
     send_to_char("You can't get a clear line of sight!\r\n",
                  ch);
@@ -4525,9 +4483,8 @@ void do_home(P_char ch, char *argument, int cmd)
     act(buf2, TRUE, ch, 0, 0, TO_CHAR);
     return;
   } 
-  else
-  {
-  //  wizlog(MINLVLIMMORTAL, "do_home(): Non-good/evil race attempting to home.  If a new racewar is back in the game, fix this.");
+  else {
+    wizlog(MINLVLIMMORTAL, "do_home(): Non-good/evil race attempting to home.  If a new racewar is back in the game, fix this.");
     send_to_char("Get out of here!", ch);
   }
 

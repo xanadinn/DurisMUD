@@ -385,7 +385,7 @@ struct edit_data {
 #define INNATE_HAMMER_MASTER     92
 #define INNATE_AXE_MASTER        93
 #define INNATE_GAZE              94
-#define INNATE_EMBRACE_DEATH     95
+#define INNATE_EMBRACE_DEATH       95
 #define INNATE_LIFEDRAIN         96
 #define INNATE_IMMOLATE          97
 #define INNATE_VULN_SUN          98
@@ -395,9 +395,9 @@ struct edit_data {
 #define INNATE_SUMMON_WARG       102
 #define INNATE_HATRED            103
 #define INNATE_EVASION           104
-#define INNATE_DRAGONMIND        105
-#define INNATE_SHIFT_ETHEREAL    106
-#define INNATE_ASTRAL_NATIVE     107
+#define INNATE_DRAGONMIND           105
+#define INNATE_SHIFT_ETHEREAL       106
+#define INNATE_ASTRAL_NATIVE        107
 #define INNATE_TWO_DAGGERS       108
 #define INNATE_HOLY_LIGHT        109
 #define INNATE_COMMAND_AURA      110
@@ -448,10 +448,6 @@ struct edit_data {
 #define INNATE_LONGSWORD_MASTER  155
 #define INNATE_MELEE_MASTER      156
 #define INNATE_GUARDIANS_BULWARK 157
-<<<<<<< HEAD
-#define INNATE_ELEMENTAL_POWER   158
-#define LAST_INNATE              158   // LAST means last, not last + 1 or whatever
-=======
 #define INNATE_WALL_CLIMBING     158
 #define INNATE_WOODLAND_RENEWAL  159
 #define INNATE_NATURAL_MOVEMENT  160
@@ -461,7 +457,6 @@ struct edit_data {
 #define INNATE_GIANT_AVOIDANCE	     164
 #define INNATE_SEADOG	     165
 #define LAST_INNATE              165   // LAST means last, not last + 1 or whatever
->>>>>>> master
 
 struct extra_descr_data {
   char *keyword;                /* Keyword in look/examine          */
@@ -511,8 +506,7 @@ struct obj_data {
   sh_int trap_dam;              /* trap damage type                 */
   sh_int trap_charge;           /* trap charges                     */
   sh_int trap_level;
-  int condition;                /* items condition or level         */
-  int max_condition;            /* items maximum condition          */
+  sh_int condition;             /* items condition or level         */
   sh_int craftsmanship;         /* how well made item is            */
   sh_int z_cord;                /* where in the room (up/down)      */
 
@@ -665,7 +659,6 @@ struct zone_data {
                     LAST_HOME */
   char *owner;
   int avg_mob_level;
-  int mob_count;
 };
 
 struct table_element {
@@ -1156,9 +1149,7 @@ struct pc_only_data {           /* values only used by PCs        */
   ubyte screen_length;          /* adjust paging to fit terminal */
   ubyte echo_toggle;
   ush_int prompt;
-  char pwd[40];                 /* 'CRYPT'ed password    */
-
-  int creation_pnts;            /* character creation points for wipe 2011 */
+  char pwd[12];                 /* 'CRYPT'ed password    */
 
 /* coins in bank */
   int spare1;
@@ -1182,7 +1173,6 @@ struct pc_only_data {           /* values only used by PCs        */
   int numb_gcmd;                /* number of granted cmds */
 
   ulong law_flags;              /* KNOWN, WANTED, OUTCAST in hometowns */
-  int justice_level;            /* Sets level of justice raid response */
   int olc_zone;                 /* what are they editing? */
 #ifdef OVL
   sh_int ovl_count;
@@ -1221,7 +1211,7 @@ struct pc_only_data {           /* values only used by PCs        */
   int quest_zone_number;
   int quest_giver;
   int quest_level;
-  int quest_receiver;
+  int quest_reciver;
   int quest_shares_left;
   int quest_kill_how_many;
   int quest_kill_original;
@@ -1268,7 +1258,7 @@ struct char_special_data {
 
   byte x_cord;                  /* Sub-coordinate of large room            */
   byte y_cord;
-  byte z_cord;                  /* height for flyers                       */
+  byte z_cord;                  /* hieght for flyers                       */
 
   ubyte position;               /* posture and status                      */
   unsigned int act;             /* flags for NPC behavior                  */
@@ -1508,7 +1498,7 @@ struct txt_q {
 #define CON_ACCT_NEW_CHAR_NAME 80
 #define CON_HARDCORE     81
 #define CON_NEWBIE              82
-#define CON_STATMOD 83
+
 
 /* modes of confirmation- SAM 7-94 */
 #define CONFIRM_NONE    0
@@ -1560,7 +1550,7 @@ struct descriptor_data {
   char last_command[MAX_INPUT_LENGTH];
   P_acct account;
   /* SAM 7-94, used to allow confirming commands */
-  char old_pwd[40];             /* old password held here when
+  char old_pwd[12];             /* old password held here when
                                    changing SAM 7-94 */
   struct edit_data *editor;     /* for new editor code */
   int out_compress;             /* are we compressing output ? */
@@ -1580,7 +1570,7 @@ struct damage_messages {
         char *death_victim;
         char *death_room;
         int type;
-        P_obj obj;
+  P_obj obj;
 };
 
 struct msg_type {
@@ -1616,7 +1606,7 @@ struct dex_app_type {
   byte miss_att;
   byte p_pocket;
   byte p_locks;
-  byte hitroll;
+  byte traps;
 };
 
 struct agi_app_type {
@@ -1672,12 +1662,6 @@ struct shapechange_struct {
 
 /* Types */
 
-struct spell_res_data {
-  char tochar[MAX_STRING_LENGTH];
-  char tovict[MAX_STRING_LENGTH];
-  char toroom[MAX_STRING_LENGTH];
-  bool true_false;
-};
 
 
 #define SKILL_CATEGORY_OFFENSIVE BIT_1
@@ -1970,11 +1954,16 @@ struct mcname {
 //#endif
 
 #define MIN_SPEC 0
+//Bard Specs
+#define SPEC_LOREMASTER 1
+#define SPEC_BATTLESEINGER 2
+#define SPEC_STORMSINGER 3
 
 //Monk Specs
-#define SPEC_REDDRAGON 1
-#define SPEC_ELAPHIDIST 2
+#define SPEC_WAYOFDRAGON 1
+#define SPEC_WAYOFSNAKE 2
 #define SPEC_CHIMONK 3
+
 
 // Dreadlord Specs
 #define SPEC_DEATHLORD 1
@@ -1997,7 +1986,7 @@ struct mcname {
 #define SPEC_BLACKSMITH 2
 
 //Merc Specs
-#define SPEC_BRIGAND 1
+#define SPEC_OPPORTUNIST 1
 #define SPEC_BOUNTY 2
 #define SPEC_PROFITEER 3
 
@@ -2020,7 +2009,7 @@ struct mcname {
 #define SPEC_SWASHBUCKLER 3
 
 /*AntiPaladin Specs */
-#define SPEC_KNIGHT 1
+#define SPEC_DARKKNIGHT 1
 #define SPEC_DEMONIC 2
 #define SPEC_VIOLATOR 3
 #define SPEC_SPAWN 4
@@ -2028,18 +2017,21 @@ struct mcname {
 /* CLASS_PALADIN Specs */
 #define SPEC_CRUSADER 1
 #define SPEC_CAVALIER 2
-
 /* CLASS_SORCERER Specs */
 #define SPEC_WILDMAGE 1
 #define SPEC_WIZARD 2
 #define SPEC_SHADOW 3
+
+#define SPEC_TRICKSTER 1
+#define SPEC_CUTPURSE 2
+#define SPEC_ROGUE 3
 
 #define SPEC_ELEMENTALIST 1
 #define SPEC_SPIRITUALIST 2
 #define SPEC_ANIMALIST 3
 
 #define SPEC_BLADEMASTER 1
-#define SPEC_HUNTSMAN    2
+#define SPEC_WOODSMAN    2
 #define SPEC_MARSHALL    3
 
 #define SPEC_ZEALOT  1
@@ -2047,7 +2039,7 @@ struct mcname {
 #define SPEC_HOLYMAN 3
 
 //Druid Specs
-#define SPEC_FOREST 1
+#define SPEC_WOODLAND 1
 #define SPEC_STORM 2
 #define LUNAR_DRUID 3
 
@@ -2067,7 +2059,7 @@ struct mcname {
 #define SPEC_PSYCHEPORTER 3
 
 //Illu Specs
-#define SPEC_MAGICIAN 1
+#define SPEC_DECEIVER 1
 #define SPEC_DARK_DREAMER 2
 
 /* CLASS_CABALIST Specs */
@@ -2089,9 +2081,6 @@ struct mcname {
 #define SPEC_MEDIUM 1
 #define SPEC_TEMPLAR 2
 #define SPEC_THAUMATURGE 3
-
-#define SPEC_CUTPURSE 1
-#define SPEC_TRICKSTER 2
 
 #define MAX_SPEC 4
 
@@ -2164,11 +2153,12 @@ struct randomeq_slots {
 };
 
 struct randomeq_material {
+
+
         int m_number;
         char *m_name;
         float m_stat;
         float m_ac;
-        int m_wt;
 };
 
 struct spell_target_data {

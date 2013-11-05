@@ -56,7 +56,7 @@ extern bool has_skin_spell(P_char);
 
 void event_illithid_feeding(P_char ch, P_char victim, P_obj obj, void *data)
 {
-  if((!victim) || (ch->in_room != victim->in_room))
+  if ((!victim) || (ch->in_room != victim->in_room))
   {
     send_to_char("Alas, your victim doesn't seem to be around anymore.\r\n",
                  ch);
@@ -68,7 +68,7 @@ void event_illithid_feeding(P_char ch, P_char victim, P_obj obj, void *data)
       victim, TO_NOTVICT);
   act("$n releases you, pulling $s tentacles out of your ear.", TRUE, ch, 0,
       victim, TO_VICT);
-  if(GET_MANA(ch) < GET_MAX_MANA(ch))
+  if (GET_MANA(ch) < GET_MAX_MANA(ch))
     GET_MANA(ch) = GET_MAX_MANA(ch);
   GET_COND(ch, FULL) += 36;
   GET_COND(ch, THIRST) += 36;
@@ -80,36 +80,31 @@ void do_drain(P_char ch, char *arg, int cmd)
 {
   P_char   victim;
 
-<<<<<<< HEAD
-  if(GET_RACE(ch) != RACE_ILLITHID && \
-     GET_RACE(ch) != RACE_PILLITHID)
-=======
   if (GET_RACE(ch) != RACE_ILLITHID)
->>>>>>> master
   {
     send_to_char("What a sicko. Go home.\r\n", ch);
     return;
   }
 
-  if(!*arg)
+  if (!*arg)
   {
     send_to_char("Who?!?!\r\n", ch);
     return;
   }
 
-  if(!(victim = get_char_room_vis(ch, arg)))
+  if (!(victim = get_char_room_vis(ch, arg)))
   {
     send_to_char("I don't believe they are here.\r\n", ch);
     return;
   }
 
-  if(victim == ch)
+  if (victim == ch)
   {
     send_to_char("Wouldn't that be exciting?\r\n", ch);
     return;
   }
 
-  if(GET_STAT(victim) >= STAT_SLEEPING)
+  if (GET_STAT(victim) >= STAT_SLEEPING)
   {
     send_to_char("Prep your food first!\r\n", ch);
     return;
@@ -132,12 +127,8 @@ void event_githyanki_neckbite(P_char ch, P_char victim, P_obj obj, void *data)
 {
   int      get_mana = 0;
 
-<<<<<<< HEAD
-  if((!victim) || (ch->in_room != victim->in_room))
-=======
 
   if ((!victim) || (ch->in_room != victim->in_room))
->>>>>>> master
   {
     send_to_char("Alas, your victim doesn't seem to be around anymore.\r\n",
                  ch);
@@ -149,10 +140,10 @@ void event_githyanki_neckbite(P_char ch, P_char victim, P_obj obj, void *data)
       TRUE, ch, 0, victim, TO_NOTVICT);
   act("$n&n removes $s teeth from your neck -- you feel terrible.", TRUE, ch,
       0, victim, TO_VICT);
-  if(GET_HIT(ch) < GET_MAX_HIT(ch))
+  if (GET_HIT(ch) < GET_MAX_HIT(ch))
     GET_HIT(ch) += MIN(GET_LEVEL(victim) * 4, GET_MAX_HIT(ch) - GET_HIT(ch));
 
-  if(GET_LEVEL(victim) < MAX(GET_LEVEL(ch) / 2, GET_LEVEL(ch - 10)))
+  if (GET_LEVEL(victim) < MAX(GET_LEVEL(ch) / 2, GET_LEVEL(ch - 10)))
   {
     get_mana = MIN(GET_LEVEL(victim) * 2, GET_MAX_MANA(ch) - GET_MANA(ch));
   }
@@ -161,7 +152,7 @@ void event_githyanki_neckbite(P_char ch, P_char victim, P_obj obj, void *data)
 
   GET_MANA(ch) += get_mana;
 
-  if(GET_MANA(ch) < GET_MAX_MANA(ch)) ;
+  if (GET_MANA(ch) < GET_MAX_MANA(ch)) ;
   send_to_char
     ("&+RSadly, your victim had too weak lifeforce to fully feed you.\r\n",
      ch);
@@ -173,37 +164,37 @@ void do_gith_neckbite(P_char ch, char *arg, int cmd)
 {
   P_char   victim;
 
-  if(GET_RACE(ch) != RACE_PVAMPIRE)
+  if (GET_RACE(ch) != RACE_PVAMPIRE)
   {
     send_to_char("What a sicko. Go home.\r\n", ch);
     return;
   }
 
-  if(!*arg)
+  if (!*arg)
   {
     send_to_char("Who?!?!\r\n", ch);
     return;
   }
 
-  if(!(victim = get_char_room_vis(ch, arg)))
+  if (!(victim = get_char_room_vis(ch, arg)))
   {
     send_to_char("I don't believe they are here.\r\n", ch);
     return;
   }
 
-  if(ch == victim)
+  if (ch == victim)
   {
     send_to_char("Bite your own neck?\r\n", ch);
     return;
   }
 
-  if(!IS_HUMANOID(victim))
+  if (!IS_HUMANOID(victim))
   {
     send_to_char("You sure they have a neck to bite?\r\n", ch);
     return;
   }
 
-  if((GET_STAT(victim) >= STAT_SLEEPING))
+  if ((GET_STAT(victim) >= STAT_SLEEPING))
   {
     send_to_char("Prep your food first!\r\n", ch);
     return;
@@ -211,25 +202,34 @@ void do_gith_neckbite(P_char ch, char *arg, int cmd)
 
   add_event(event_githyanki_neckbite, 15, ch, victim, 0, 0, 0, 0);
 
-  send_to_char("&+RYou sink your teeth deeply into their neck, relishing in the feast...\r\n", ch);
-  act("&+R$n&+R sinks $s teeth into $N&n&+R's neck, clearly relishing the experience.", FALSE, ch, 0, victim, TO_NOTVICT);
-  act("&+RA wave of pain runs through your entire body as $n&+R sinks $s teeth into your neck.", TRUE, ch, 0, victim, TO_VICT);
+  send_to_char
+    ("&+RYou sink your teeth deeply into their neck, relishing in the feast that is just beginning..\r\n",
+     ch);
+  act
+    ("&+R$n&+R sinks $s teeth into $N&n&+R's neck, clearly relishing the experience.",
+     TRUE, ch, 0, victim, TO_NOTVICT);
+  act
+    ("&+RA wave of pain runs through your entire body as $n&+R sinks $s teeth into your neck.",
+     FALSE, ch, 0, victim, TO_VICT);
 }
 
 void event_illithid_feeding2(P_char ch, P_char victim, P_obj obj, void *data)
 {
-  if((!victim) || (ch->in_room != victim->in_room))
+  if ((!victim) || (ch->in_room != victim->in_room))
   {
     send_to_char("Alas, your victim doesn't seem to be around anymore.\r\n",
                  ch);
     return;
   }
 
-  send_to_char("&+GYou suck the last bit of free energy from your victim.\r\n", ch);
+  send_to_char
+    ("&+GYou suck the last bit of free energy from your victim.\r\n", ch);
   send_to_char("&+GYou complete your feeding, feeling refreshed.\r\n", ch);
-  act("&+G$n releases $N&+G, pulling $s tentacles out of $S ear.", FALSE, ch, 0, victim, TO_NOTVICT);
-  act("&+G$n releases you, pulling $s tentacles out of your ear.", TRUE, ch, 0, victim, TO_VICT);
-  if(GET_HIT(ch) < GET_MAX_HIT(ch))
+  act("&+G$n releases $N&+G, pulling $s tentacles out of $S ear.", TRUE, ch,
+      0, victim, TO_NOTVICT);
+  act("&+G$n releases you, pulling $s tentacles out of your ear.", TRUE, ch,
+      0, victim, TO_VICT);
+  if (GET_HIT(ch) < GET_MAX_HIT(ch))
     GET_HIT(ch) = GET_MAX_HIT(ch);
 
   die(victim, ch);
@@ -239,36 +239,33 @@ void do_absorbe(P_char ch, char *arg, int cmd)
 {
   P_char   victim;
 
-<<<<<<< HEAD
-  if(GET_RACE(ch) != RACE_ILLITHID && \
-      GET_RACE(ch) != RACE_PILLITHID)
-=======
   if (GET_RACE(ch) != RACE_ILLITHID)
->>>>>>> master
   {
     send_to_char("What a sicko. Go home.\r\n", ch);
     return;
   }
 
-  if(!*arg)
+  if (!*arg)
   {
     send_to_char("Who?!?!\r\n", ch);
     return;
   }
 
-  if(!(victim = get_char_room_vis(ch, arg)))
+  if (!(victim = get_char_room_vis(ch, arg)))
   {
     send_to_char("I don't believe they are here.\r\n", ch);
     return;
   }
 
-  if(victim == ch)
+  if (victim == ch)
   {
-    send_to_char("You send a tentacle into your brain..  R.I.P. you are dead!  go away..\r\n", ch);
+    send_to_char
+      ("You send a tentacle into your brain..  R.I.P. you are dead!  go away..\r\n",
+       ch);
     return;
   }
 
-  if((GET_STAT(victim) >= STAT_SLEEPING))
+  if ((GET_STAT(victim) >= STAT_SLEEPING))
   {
     send_to_char("Your victim must be held in place first.\r\n", ch);
     return;
@@ -276,44 +273,34 @@ void do_absorbe(P_char ch, char *arg, int cmd)
 
   add_event(event_illithid_feeding2, GET_LEVEL(victim) >> 1, ch, victim, 0, 0, 0, 0);
 
-  act("&+GYou grip your victim's head in your tentacles, sending one deep into $S brain.  The feeding begins!",
-     TRUE, ch, 0, victim, TO_CHAR);
-  act("&+G$n grips $N&+G's head in $s tentacles, sending one deep into $S brain.", FALSE, ch, 0, victim, TO_NOTVICT);
-  act("&+RA wave of pain grips your brain, as $N begins to slowly suck it out through your ear.", FALSE, ch, 0, victim, TO_VICT);
+  act
+    ("&+GYou grip your victim's head in your tentacles, sending one deep into $S brain.  The feeding begins!",
+     FALSE, ch, 0, victim, TO_CHAR);
+  act
+    ("&+G$n grips $N&+G's head in $s tentacles, sending one deep into $S brain.",
+     TRUE, ch, 0, victim, TO_NOTVICT);
+  act
+    ("&+RA wave of pain grips your brain, as $N begins to slowly suck it out through your ear.",
+     FALSE, ch, 0, victim, TO_VICT);
 }
 
-<<<<<<< HEAD
-void spell_molecular_control(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-=======
 void
 spell_molecular_control(int level, P_char ch, char *arg, int type,
                         P_char victim, P_obj obj)
->>>>>>> master
 {
   struct affected_type af;
 
-  if(!((level >= 0) && ch))
+  if (!((level >= 0) && ch))
   {
     logit(LOG_EXIT, "assert: bogus parms in molecular control");
     raise(SIGSEGV);
   }
-<<<<<<< HEAD
-  
-  if(IS_PC(ch) ||
-     IS_PC_PET(ch))
-        dur = (int)(level / 14);
-  else
-    dur = level / 12;
-    
-  if(affected_by_spell(ch, SPELL_MOLECULAR_CONTROL))
-=======
   if (affected_by_spell(ch, SPELL_MOLECULAR_CONTROL))
->>>>>>> master
   {
     struct affected_type *af1;
 
     for (af1 = victim->affected; af1; af1 = af1->next)
-      if(af1->type == SPELL_MOLECULAR_CONTROL)
+      if (af1->type == SPELL_MOLECULAR_CONTROL)
       {
         af1->duration = level / 4;
       }
@@ -326,14 +313,6 @@ spell_molecular_control(int level, P_char ch, char *arg, int type,
   af.bitvector2 = AFF2_PASSDOOR;
   affect_to_char(ch, &af);
 
-<<<<<<< HEAD
-  act("&+YYou gain a keener understanding of your molecules!", TRUE, ch, 0, 0, TO_CHAR);
-  act("&+W$n vibrates for a second, then is still.", FALSE, ch, 0, 0, TO_ROOM);
-
-  return;
-}
-void spell_molecular_agitation(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-=======
   act("&+YYou gain a keener understanding of your molecules!", FALSE, ch, 0,
       0, TO_CHAR);
   act("&+W$n vibrates for a second, then is still.", TRUE, ch, 0, 0, TO_ROOM);
@@ -344,7 +323,6 @@ void spell_molecular_agitation(int level, P_char ch, char *arg, int type, P_char
 void
 spell_molecular_agitation(int level, P_char ch, char *arg, int type,
                           P_char victim, P_obj obj)
->>>>>>> master
 {
 
   int      dam_each[61] = {
@@ -365,33 +343,6 @@ spell_molecular_agitation(int level, P_char ch, char *arg, int type,
     "The pain you're feeling is so intense you'd rather be dead. Ah, you are...",
     "$N suddenly doubles over due to what must be incredible pain. Only death can save $M. Wait, it did..."
   };
-<<<<<<< HEAD
-  
-  if(!(ch) ||
-     !(victim))
-      return;
-  
-  dam = dice(18, 2) + level / 4;
-  
-  if(StatSave(victim, APPLY_POW, POW_DIFF(ch, victim)))
-    dam >> 1;
-
-  spell_damage(ch, victim, dam, SPLDAM_PSI, SPLDAM_NOSHRUG, &messages);
-}
-
-void spell_adrenaline_control(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-{
-  struct affected_type af;
-  int dur;
-  
-  if(IS_PC(ch) ||
-     IS_PC_PET(ch))
-        dur = level / 2;
-  else
-    dur = level;
-
-  if(affected_by_spell(victim, SPELL_ADRENALINE_CONTROL))
-=======
 
   level = MIN(level, (sizeof(dam_each) / sizeof(dam_each[0] - 1)));
   level = MAX(0, level);
@@ -408,26 +359,11 @@ void spell_adrenaline_control(int level, P_char ch, char *arg, int type,
   struct affected_type af;
 
   if (affected_by_spell(ch, SPELL_ADRENALINE_CONTROL))
->>>>>>> master
   {
     send_to_char
       ("Any more of an adrenaline rush, and yer heart would stop.\r\n", ch);
     return;
   }
-<<<<<<< HEAD
-  
-  if(!affected_by_spell(victim, SPELL_ENHANCED_STR) ||
-     !affected_by_spell(victim, SPELL_ENHANCED_CON))
-  {
-    bzero(&af, sizeof(af));
-    af.type = SPELL_ADRENALINE_CONTROL;
-    af.duration = dur;
-    af.location = APPLY_STR;
-    af.modifier = level / 14;
-    affect_to_char(ch, &af);
-    af.location = APPLY_CON;
-    affect_to_char(ch, &af);
-=======
   bzero(&af, sizeof(af));
   af.type = SPELL_ADRENALINE_CONTROL;
   af.duration = level + 5;
@@ -437,21 +373,11 @@ void spell_adrenaline_control(int level, P_char ch, char *arg, int type,
   affect_to_char(ch, &af);
   af.location = APPLY_CON;
   affect_to_char(ch, &af);
->>>>>>> master
 
-    send_to_char("&+CYou feel a massive rush of adrenaline!\r\n", ch);
-    return;
-  }
+  send_to_char("&+CYou feel a massive rush of adrenaline!\r\n", ch);
+  return;
 }
 
-<<<<<<< HEAD
-void spell_aura_sight(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-{
-  struct affected_type af;
-  int duration;
-  
-  if(!((level >= 0) && ch))
-=======
 void
 spell_aura_sight(int level, P_char ch, char *arg, int type, P_char victim,
                  P_obj obj)
@@ -459,7 +385,6 @@ spell_aura_sight(int level, P_char ch, char *arg, int type, P_char victim,
   struct affected_type af;
 
   if (!((level >= 0) && ch))
->>>>>>> master
   {
     logit(LOG_EXIT, "assert: bogus parms in aura sight");
     raise(SIGSEGV);
@@ -469,7 +394,7 @@ spell_aura_sight(int level, P_char ch, char *arg, int type, P_char victim,
     struct affected_type *af1;
 
     for (af1 = victim->affected; af1; af1 = af1->next)
-      if(af1->type == SPELL_AURA_SIGHT)
+      if (af1->type == SPELL_AURA_SIGHT)
       {
         af1->duration = 36;
       }
@@ -492,20 +417,20 @@ spell_aura_sight(int level, P_char ch, char *arg, int type, P_char victim,
     affect_to_char(ch, &af);
   }
 
-  if(GET_LEVEL(ch) > 25)
+  if (GET_LEVEL(ch) > 25)
   {
     af.bitvector = AFF_SENSE_LIFE;
     af.bitvector2 = 0;
     affect_to_char(ch, &af);
   }
 
-  if(GET_LEVEL(ch) > 36)
+  if (GET_LEVEL(ch) > 36)
   {
     af.bitvector = AFF_DETECT_INVISIBLE;
     affect_to_char(ch, &af);
   }
 
-  if(GET_LEVEL(ch) > 41)
+  if (GET_LEVEL(ch) > 41)
   {
     af.bitvector = AFF_FARSEE;
     affect_to_char(ch, &af);
@@ -557,7 +482,7 @@ void spell_awe(int level, P_char ch, char *arg, int type, P_char victim, P_obj o
   struct affected_type af;
   struct follow_type *followers;
 
-  if(!(ch))
+  if (!(ch))
   {
     logit(LOG_EXIT, "assert: bogus parms");
     raise(SIGSEGV);
@@ -698,17 +623,6 @@ void spell_awe(int level, P_char ch, char *arg, int type, P_char victim, P_obj o
   }
 }
 
-<<<<<<< HEAD
-void spell_ballistic_attack(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-{
-  int      dam, in_room;
-  
-  if(!(ch) ||
-     !(victim))
-      return;
-  
-  if(IS_BLIND(ch))
-=======
 void spell_mind_travel(int level, P_char ch, char *arg, int type, P_char victim,
                   P_obj obj)
 {
@@ -722,7 +636,6 @@ void spell_mind_travel(int level, P_char ch, char *arg, int type, P_char victim,
   };
 
   if (IS_FIGHTING(ch))
->>>>>>> master
   {
     act
       ("$n travel with the speed of &+Clight&n and reapear at the same place...",
@@ -736,29 +649,6 @@ void spell_mind_travel(int level, P_char ch, char *arg, int type, P_char victim,
   if (IS_SET(world[ch->in_room].room_flags, NO_TELEPORT) ||
       world[ch->in_room].sector_type == SECT_OCEAN)
   {
-<<<<<<< HEAD
-    send_to_char("You see a bunch of water, but no rocks!\r\n", ch);
-    return;
-  }
-  
-  dam = dice(10, 2) + level / 4;
-
-  int mod = MAX(1, level - GET_LEVEL(victim));
-  
-  if(StatSave(victim, APPLY_POW, POW_DIFF(ch, victim)))
-    dam >> 1;
-
-  act("With your telekinetic powers, you propel a large rock at $N.", FALSE, ch, 0, victim, TO_CHAR);
-  act("$n looks over a large rock, then seems to send it crashing into you!", FALSE, ch, 0, victim, TO_VICT);
-  act("$n looks over a large rock, then seems to send it crashing into $N!", FALSE, ch, 0, victim, TO_NOTVICT);
-
-  if(!StatSave(victim, APPLY_AGI, mod))
-  {
-    act("The rock smashes into $N with a huge thud.", FALSE, ch, 0, victim, TO_CHAR);
-    act("You are smashed by the large rock!", TRUE, ch, 0, victim, TO_VICT);
-    act("$N is smashed by the large rock!", FALSE, ch, 0, victim, TO_NOTVICT);
-    dam << 1;
-=======
     send_to_char("&+CYou failed.\r\n", ch);
     return;
   }
@@ -808,26 +698,11 @@ spell_ballistic_attack(int level, P_char ch, char *arg, int type,
     act("&+L$N&+L is almost smashed by the heavy projectile!", TRUE, ch, 0,
         victim, TO_NOTVICT);
     dam *= 2;
->>>>>>> master
   }
 
   damage(ch, victim, dam, SPELL_BALLISTIC_ATTACK);
 }
 
-<<<<<<< HEAD
-void spell_biofeedback(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-{
-  struct affected_type af;
-
-  if(!GET_CLASS(ch, CLASS_PSIONICIST) && !GET_CLASS(ch, CLASS_MINDFLAYER))
-  {
-    send_to_char("You don't have the slightest clue how do to that...\r\n", ch);
-    return;
-  }
-
-  if(has_skin_spell(victim))
-  {
-=======
 void
 spell_biofeedback(int level, P_char ch, char *arg, int type, P_char victim,
                   P_obj obj)
@@ -835,19 +710,19 @@ spell_biofeedback(int level, P_char ch, char *arg, int type, P_char victim,
   struct affected_type af;
 
   if (has_skin_spell(victim) && IS_PC(victim)) {
->>>>>>> master
     send_to_char("Nothing happens.\n", ch);
     return;
   }
 
   bzero(&af, sizeof(af));
   af.type = SPELL_BIOFEEDBACK;
-  af.duration = level / 14;
-  af.modifier = level + (level / 4);
+  af.duration = 6;
+  af.modifier = (level / 2 + number(1, 4));
   affect_to_char(victim, &af);
 
-  send_to_char("&+GYou are surrounded by a green mist!\r\n", ch);
-  act("$n&+G is suddenly surrounded by a green mist!", FALSE, ch, 0, 0, TO_NOTVICT);
+  send_to_char("&+GYou are surrounded by a green mist!&n\r\n", ch);
+  act("&+G$n&+G is suddenly surrounded by a green mist!", TRUE, ch, 0, 0,
+      TO_NOTVICT);
 }
 
 
@@ -855,73 +730,6 @@ void
 spell_cell_adjustment(int level, P_char ch, char *arg, int type,
                       P_char victim, P_obj obj)
 {
-<<<<<<< HEAD
-  if(!(ch) ||
-     !IS_ALIVE(ch))
-      return;
-      
-  if(victim != ch)
-    victim = ch;
-
-   if(level > 10 &&
-     (affected_by_spell(victim, SPELL_POISON) ||
-     IS_SET(victim->specials.affected_by2, AFF2_POISONED)))
-  {
-    act("&+gYour will has neutralized the &+Gpoison &+gin your bloodstream.", FALSE, ch, 0, victim, TO_CHAR);
-    poison_common_remove(victim);
-  }
-
-  if(level > 20 &&
-     affected_by_spell(victim, SPELL_CURSE))
-  {
-    act("&+YYou are able to lift the &+rcurse &+Yon your soul.", FALSE, ch, 0, victim, TO_CHAR);
-    affect_from_char(victim, SPELL_CURSE);
-  }
-  
-  if(level > 30 &&
-    IS_AFFECTED(victim, AFF_BLIND))
-  {
-    act("&+WYour vision returns.", FALSE, ch, 0, victim, TO_CHAR);
-    affect_from_char(victim, SPELL_BLINDNESS);
-    
-    if(IS_SET(victim->specials.affected_by, AFF_BLIND))
-      REMOVE_BIT(victim->specials.affected_by, AFF_BLIND);
-  }
-  
-  if(level > 40 && !number(0, 20) &&
-    affected_by_spell(victim, SPELL_RAY_OF_ENFEEBLEMENT))
-  {
-    act("&+rYou will the removal of enfeeblement.", FALSE, ch, 0, victim, TO_CHAR);
-    affect_from_char(victim, SPELL_RAY_OF_ENFEEBLEMENT);
-  }
-
-  if(level > 20 &&
-     affected_by_spell(victim, SPELL_MALISON))
-  {
-    act("&+YYou are able to lift the &+rcurse &+Yon your soul.", FALSE, ch, 0, victim, TO_CHAR);
-    affect_from_char(victim, SPELL_MALISON);
-  }
-  
-  if(level > 30 &&
-     affected_by_spell(victim, SPELL_SLOW))
-  {
-    act("&+mYou neutralize the slowness affecting you!", FALSE, ch, 0, victim, TO_CHAR);
-    affect_from_char(victim, SPELL_SLOW);
-  }
-  
-  if(level > 50 && !number(0, 20) &&
-    affected_by_spell(victim, SPELL_WITHER))
-  {
-    act("&+rYour sheer will causes your body to overcome the withering.", FALSE, ch, 0, victim, TO_CHAR);
-    affect_from_char(victim, SPELL_WITHER);
-  }
-
-  if(level > 51 && !number(0, 20) &&
-    affected_by_spell(victim, SPELL_DISEASE))
-  {
-    act("&+rWith nothing but sheer will, you shrug off the putrid disease!", FALSE, ch, 0, victim, TO_CHAR);
-    affect_from_char(victim, SPELL_DISEASE);
-=======
   int      poison, curse, wither, disease, blind;
 
   poison = FALSE;
@@ -988,7 +796,6 @@ spell_cell_adjustment(int level, P_char ch, char *arg, int type,
     affect_from_char(victim, SPELL_BLINDNESS);
     if (IS_SET(victim->specials.affected_by, AFF_BLIND))
       REMOVE_BIT(victim->specials.affected_by, AFF_BLIND);
->>>>>>> master
   }
 
   return;
@@ -999,64 +806,21 @@ spell_combat_mind(int level, P_char ch, char *arg, int type, P_char victim,
                   P_obj obj)
 {
   struct affected_type af;
-<<<<<<< HEAD
-  
-  if(!(ch) ||
-     !IS_ALIVE(ch))
-      return;
-      
-  if(victim != ch)
-    victim = ch;
-#if wipe2011
-#else
-  if(affected_by_spell(ch, SPELL_COMBAT_MIND))
-=======
 
   if (affected_by_spell(ch, SPELL_COMBAT_MIND))
->>>>>>> master
   {
     struct affected_type *af1;
 
     for (af1 = victim->affected; af1; af1 = af1->next)
-      if(af1->type == SPELL_COMBAT_MIND)
+      if (af1->type == SPELL_COMBAT_MIND)
       {
         af1->duration = level + 3;
       }
     return;
   }
-#endif
+
   bzero(&af, sizeof(af));
   af.type = SPELL_COMBAT_MIND;
-<<<<<<< HEAD
-  af.flags = AFFTYPE_NODISPEL;
-  
-  if(GET_CLASS(victim, CLASS_PSIONICIST | CLASS_MINDFLAYER))
-  {
-    af.duration = (int)(level / 2);
-    af.modifier = (int)(level / 8);
-    af.location = APPLY_HITROLL;
-    affect_to_char(victim, &af);
-
-    af.duration = (int)(level / 2);
-    af.modifier = (int)(level / 12);
-    af.location = APPLY_DAMROLL;
-    affect_to_char(victim, &af);
-  }
-  else
-  {
-    af.duration = level / 14;
-    af.modifier = level / 12;
-    af.location = APPLY_HITROLL;
-    affect_to_char(victim, &af);
-
-    af.duration = level / 14;
-    af.modifier = level / 14;
-    af.location = APPLY_DAMROLL;
-    affect_to_char(victim, &af);
-  }
-
-  act("&+yYour knowledge of &+Rbattle tactics &+Yincreases!", FALSE, ch, 0, 0, TO_CHAR);
-=======
   af.duration = level + 3;
   af.modifier = level / 6;
   af.bitvector = 0;
@@ -1072,26 +836,27 @@ spell_combat_mind(int level, P_char ch, char *arg, int type, P_char victim,
     act("Ok.", FALSE, ch, 0, victim, TO_CHAR);
   act("&+yYour knowledge of battle tactics increases!", FALSE, ch, 0, victim,
       TO_VICT);
->>>>>>> master
   return;
 }
 
-void spell_fire_aura(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
+void spell_fire_aura(int level, P_char ch, char *arg, int type,
+                          P_char victim, P_obj obj)
 {
   struct affected_type af;
 
-  if(!ch)
+  if (!ch)
     return;
 
-  if(affected_by_spell(ch, SPELL_FIRE_AURA))
+  if (affected_by_spell(ch, SPELL_FIRE_AURA))
   {
     send_to_char("Nothing seems to happen.\n", ch);
     return;
   }
 
-  if(world[ch->in_room].sector_type == SECT_FIREPLANE) {
+  if (world[ch->in_room].sector_type == SECT_FIREPLANE) {
     act("&+rYour body glows with an aura of fire!", FALSE, ch, 0, 0, TO_CHAR);
-    act("&+r$n's&+r body glows with an aura of fire!", FALSE, ch, 0, 0,  TO_ROOM);
+    act("&+r$n's&+r body glows with an aura of fire!", FALSE, ch, 0, 0,
+        TO_ROOM);
     bzero(&af, sizeof(af));
     af.type = SPELL_FIRE_AURA;
     af.duration = (SECS_PER_MUD_DAY / 60);
@@ -1115,10 +880,12 @@ void spell_fire_aura(int level, P_char ch, char *arg, int type, P_char victim, P
     af.modifier = 25;
     affect_to_char(victim, &af);
 
-    if(NewSaves(ch, SAVING_FEAR, 4))
+    if (NewSaves(ch, SAVING_FEAR, 4))
     {
-      act("&+RYour body bursts into flames as you achieve full form!", FALSE, ch, 0, 0, TO_CHAR);
-      act("&+R$n's&+R body bursts into flames as $e achieves full form!", FALSE, ch, 0, 0, TO_ROOM);
+      act("&+RYour body bursts into flames as you achieve full form!", FALSE,
+          ch, 0, 0, TO_CHAR);
+      act("&+R$n's&+R body bursts into flames as $e achieves full form!",
+          FALSE, ch, 0, 0, TO_ROOM);
       af.location = 0;
       af.modifier = 0;
       af.bitvector2 = AFF2_FIRE_AURA;
@@ -1133,53 +900,6 @@ void spell_fire_aura(int level, P_char ch, char *arg, int type, P_char victim, P
   }
 }
 
-<<<<<<< HEAD
-void spell_ego_blast(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-{
-  int  dam;
-
-  struct damage_messages messages = {
-    "&+MYou mentally blast $N's ego.",
-    "&+M$n mentally blasts your mind with stunning force!",
-    "&+M$n squints and $N&+M screams out in pain, holding $S head!",
-    "&+MYou destroy your opponents mind with a thought...",
-    "&+MYour mind is utterly destroyed by the attack...",
-    "&+M$N collapses, $S mind utterly destroyed..."
-  };
-  
-  if(!(ch) ||
-     !(victim))
-      return;
-  
-  if(IS_BRAINLESS(victim))
-  {
-    act("$N lacks any mental capacity whatsoever!", FALSE, ch, 0, victim, TO_CHAR);
-    return;
-  }
-
-  if(ch == victim)
-    return;
-  
-  dam = dice(32, 2) + level / 4;
-  
-  if(StatSave(victim, APPLY_POW, POW_DIFF(ch, victim)))
-    dam >> 1;
-
-  spell_damage(ch, victim, dam, SPLDAM_PSI, SPLDAM_NOSHRUG, &messages);
-}
-
-void spell_create_sound(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-{
-  if(IS_SET(world[ch->in_room].room_flags, ROOM_SILENT))
-  {
-    act("&+WYour sonic boom of mental power dispels the silence!", FALSE, ch, 0, 0, TO_CHAR);
-    act("&+W$n sends out a blast of psionic sound!", FALSE, ch, 0, 0, TO_ROOM);
-    REMOVE_BIT(world[ch->in_room].room_flags, ROOM_SILENT);
-  }
-  else
-    send_to_char("Hmm, seems pretty noisy already.\r\n", ch);
-}
-=======
 void
 spell_control_flames(int level, P_char ch, char *arg, int type, P_char victim,
                 P_obj obj)
@@ -1220,7 +940,6 @@ TO_NOTVICT);
   return;
 }
 
->>>>>>> master
 
 /* used to be control_flames */
 
@@ -1303,31 +1022,6 @@ void spell_psychic_crush(int level, P_char ch, char *arg, int type, P_char victi
     logit(LOG_EXIT, "spell_psychic_crush called in psionics.c with no ch");
     raise(SIGSEGV);
   }
-<<<<<<< HEAD
-  
-  dam = dice(66, 2) + level / 4;
-  
-  if(StatSave(victim, APPLY_POW, POW_DIFF(ch, victim)))
-    dam >> 1;
-  
-  if(GET_SPEC(ch, CLASS_PSIONICIST, SPEC_ENSLAVER))
-     dam = ((float)dam * 1.10);
-
-  if(victim == ch)
-    dam = 1;
-
-  if(spell_damage(ch, victim, dam, SPLDAM_PSI, SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, &messages) != DAM_NONEDEAD)
-    return;
-  
-  if(!affected_by_spell(victim, SPELL_PSYCHIC_CRUSH))
-  {
-    bzero(&af, sizeof(af));
-    af.type = SPELL_PSYCHIC_CRUSH;
-    af.duration =  1;
-    af.modifier = (int) (-1 * (level / 7));
-
-    act("$n &+msuddenly clutches $s head, as if trying to shrug off some unknown malady.", FALSE, victim, 0, 0, TO_ROOM);
-=======
   if(ch &&
      victim)
   {
@@ -1345,28 +1039,9 @@ void spell_psychic_crush(int level, P_char ch, char *arg, int type, P_char victi
 
     act("$n &+msuddenly clutches their head, as if trying to shrug off some unknown malady.&n",
         FALSE, victim, 0, 0, TO_ROOM);
->>>>>>> master
 
     switch (number(0, 2))	  
     {
-<<<<<<< HEAD
-      case 0:
-        send_to_char("&+mThat last attack was particularly invasive, and you feel your power decrease.\r\n", victim);
-        af.location = APPLY_POW;
-        break;
-        
-      case 1:
-        send_to_char("&+mThat last attack was particularly invasive, and you feel your intelligence decrease.\r\n", victim);
-        af.location = APPLY_INT;
-        break;
-        
-      case 2:
-        send_to_char("&+mThat last attack was particularly invasive, and you feel your wisdom decrease.\r\n", victim);
-        af.location = APPLY_WIS;
-        break;
-      default:
-        break;
-=======
     case 0:
       send_to_char("&+wThat last attack was particularly invasive, and you feel your collective power decrease.&n\r\n", victim);
       af.location = APPLY_POW;
@@ -1381,7 +1056,6 @@ void spell_psychic_crush(int level, P_char ch, char *arg, int type, P_char victi
       send_to_char("&+wThat last attack was particularly invasive, and you feel your collective wisdom decrease.&n\r\n", victim);
       af.location = APPLY_WIS;
       break;
->>>>>>> master
     }
     
     affect_to_char(victim, &af);
@@ -1424,12 +1098,6 @@ if(!StatSave(victim, APPLY_POW, (GET_LEVEL(victim) - GET_LEVEL(ch)) / 5) &&
       GET_RACE(victim) == RACE_PLANT ||
       IS_ZOMBIE(victim)))
     {
-<<<<<<< HEAD
-      if(!IS_STUNNED(victim))
-        Stun(victim, ch, PULSE_VIOLENCE, FALSE);
-      
-      if(IS_HUMANOID(victim))
-=======
       return;
     }
     if(ch &&
@@ -1438,9 +1106,8 @@ if(!StatSave(victim, APPLY_POW, (GET_LEVEL(victim) - GET_LEVEL(ch)) / 5) &&
     {
       Stun(victim, ch, PULSE_VIOLENCE * 1, TRUE);
       if(ch && victim && IS_HUMANOID(victim))
->>>>>>> master
       {
-        strcpy(buf, "&n&+wGeT tHiS &+MThiNg &+wOuT oF mY hEaD!!!&n");
+        strcpy(buf, "&n&+wGeT tHiS &+MThiNg&n &+wOuT oF mY hEaD !!!&n");
         do_say(victim, buf, CMD_SHOUT);
       }
     }
@@ -1449,11 +1116,6 @@ if(!StatSave(victim, APPLY_POW, (GET_LEVEL(victim) - GET_LEVEL(ch)) / 5) &&
           (spec_affect < 15))
     {
       SET_POS(victim, POS_KNEELING + GET_STAT(victim));
-<<<<<<< HEAD
-      act("&+yYou fall to your knees as uncontrollable pain engulfs your entire brain!", FALSE, ch, NULL, victim, TO_VICT);
-      act("$N &+yfalls to their knees, grasping $s head and screaming in pain!", FALSE, ch, NULL, victim, TO_NOTVICT);
-      act("$N &+yfalls to their knees, grasping $s head and screaming in pain!!", FALSE, ch, NULL, victim, TO_CHAR);
-=======
       act
         ("&+yYou fall to your knees as uncontrollable pain engulfs your entire brain!&n",
          FALSE, ch, NULL, victim, TO_VICT);
@@ -1463,7 +1125,6 @@ if(!StatSave(victim, APPLY_POW, (GET_LEVEL(victim) - GET_LEVEL(ch)) / 5) &&
       act
         ("$N &+yfalls to their knees, grasping $s head and screaming in pain!!&n",
          TRUE, ch, NULL, victim, TO_CHAR);
->>>>>>> master
       do_action(victim, 0, CMD_CRY);
     }
     else if(ch &&
@@ -1476,7 +1137,8 @@ if(!StatSave(victim, APPLY_POW, (GET_LEVEL(victim) - GET_LEVEL(ch)) / 5) &&
   }
 }
 
-void spell_single_death_field(int level, P_char ch, char *args, int type, P_char victim, P_obj obj)
+void spell_single_death_field(int level, P_char ch, char *args, int type,
+                              P_char victim, P_obj obj)
 {
   int      dam;
   struct damage_messages messages = {
@@ -1491,43 +1153,17 @@ void spell_single_death_field(int level, P_char ch, char *args, int type, P_char
    dam = dam * 2;
   }
   
-<<<<<<< HEAD
-  if(!(ch) ||
-     !IS_ALIVE(ch) ||
-     !(victim) ||
-     !IS_ALIVE(victim))
-      return;
-      
-  if(IS_BRAINLESS(victim))
-    return;
-
-  dam = dice(60, 2) + level / 4;
-    
-  if(StatSave(victim, APPLY_POW, POW_DIFF(ch, victim)))
-    dam >> 1;
-
-  if(IS_PC_PET(ch))
-    dam = (int)(dam * 0.65);
-  
-  if(IS_PC(ch) && IS_PC(victim))
-    dam = dam * get_property("spell.area.damage.to.pc", 0.5);
-  
-  dam = dam * get_property("spell.area.damage.factor.deathField", 1.000);
-=======
->>>>>>> master
 
   spell_damage(ch, victim, dam, SPLDAM_PSI, 0, &messages);
 }
 
-void spell_death_field(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
+
+void spell_death_field(int level, P_char ch, char *arg, int type,
+                       P_char victim, P_obj obj)
 {
   P_char   tch;
 
-<<<<<<< HEAD
-/*   if(IS_PC(ch) &&
-=======
   if (IS_PC(ch) &&
->>>>>>> master
       (tch =
        stack_area(ch, SPELL_DEATH_FIELD,
                   (int) get_property("spell.area.stackTimer.deathField", 5))))
@@ -1552,15 +1188,11 @@ void spell_death_field(int level, P_char ch, char *arg, int type, P_char victim,
   CharWait(ch, (int) (PULSE_SPELLCAST * 1.1)); //old 1.5
 }
 
-<<<<<<< HEAD
-void spell_detonate(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-=======
 
 
 void
 spell_detonate2(int level, P_char ch, char *arg, int type, P_char victim,
                P_obj obj)
->>>>>>> master
 {
   int      dam;
   struct damage_messages messages = {
@@ -1587,40 +1219,6 @@ spell_detonate2(int level, P_char ch, char *arg, int type, P_char victim,
       return;
 
   
-<<<<<<< HEAD
-  if(!(ch) ||
-     !(victim))
-        return;
-      
-  dam = dice(48, 2) + level / 4;
-  
-  if(victim == ch)
-    dam = 1;
-    
-  if(StatSave(victim, APPLY_POW, POW_DIFF(ch, victim)))
-    dam >> 1;
-  
-  if(GET_SPEC(ch, CLASS_PSIONICIST, SPEC_PYROKINETIC))
-  {
-    dam = (int)(dam * get_property("spell.detonate.shrugModifier", 0.750));
-    
-    // 40% harder to shrug, same as crush
-    if(number(1, 100) < 60 && resists_spell(ch, victim))
-        return;
-
-    dam >> 1;
-    
-    spell_damage(ch, victim, dam, SPLDAM_FIRE, SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, &messages);
-    
-    if(IS_ALIVE(victim))
-      spell_damage(ch, victim, dam, SPLDAM_PSI, SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, 0);
-  }
-  else
-    spell_damage(ch, victim, dam, SPLDAM_PSI, SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, &messages);
-}
-
-void spell_spinal_corruption(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-=======
 if(!StatSave(victim, APPLY_POW, (GET_LEVEL(victim) - GET_LEVEL(ch)) / 5) &&
            !IS_ELITE(victim))
   {
@@ -1637,7 +1235,6 @@ if(!StatSave(victim, APPLY_POW, (GET_LEVEL(victim) - GET_LEVEL(ch)) / 5) &&
 void
 spell_detonate(int level, P_char ch, char *arg, int type, P_char victim,
                P_obj obj)
->>>>>>> master
 {
   int      dam;
   struct damage_messages messages = {
@@ -1683,18 +1280,10 @@ void spell_spinal_corruption(int level, P_char ch, char *arg, int type,
 
   if(!(ch)) // Something amiss. Nov08 -Lucrot
   {
-<<<<<<< HEAD
-    send_to_char("You sense an ethereal disturbance and abort your spell!\r\n", ch);
-    return;
-  }
-  
-  if(StatSave(victim, APPLY_POW, POW_DIFF(ch, victim)))
-=======
     logit(LOG_EXIT, "spell_spinal_corruption called in psionics.c without ch");
     raise(SIGSEGV);
   }
   if(ch) // Just making sure.
->>>>>>> master
   {
     if(!IS_ALIVE(ch))
     {
@@ -1726,18 +1315,12 @@ void spell_spinal_corruption(int level, P_char ch, char *arg, int type,
     }
     appear(ch);
 
-<<<<<<< HEAD
-  act("&+RYou smile as you sense the agony $N&+R is feeling.", TRUE, ch, 0, victim, TO_CHAR);
-  act("&+RYou collapse in agony as pure fire envelops your spine!", TRUE, ch, 0, victim, TO_VICT);
-  act("&+R$N&+R suddenly collapses, screaming in agony!", FALSE, ch, 0, victim, TO_NOTVICT);
-=======
     act("&+RYou smile as you sense the agony $N&+R is feeling.", TRUE, ch, 0,
         victim, TO_CHAR);
     act("&+RYou collapse in agony as pure fire envelops your spine!&n", TRUE,
         ch, 0, victim, TO_VICT);
     act("&+R$N&+R suddenly collapses, screaming in agony!", TRUE, ch, 0, victim,
         TO_NOTVICT);
->>>>>>> master
 
     if(ch &&
        victim &&
@@ -1745,19 +1328,6 @@ void spell_spinal_corruption(int level, P_char ch, char *arg, int type,
     {
       switch (number(1, 5))
       {
-<<<<<<< HEAD
-        act("$n &+Mfalls to the ground, thrashing wildly!", FALSE, victim, 0, 0, TO_ROOM);
-        send_to_char("&+LYou feel your body stop responding to your commands, and you fall to the ground...\r\n", victim);
-        CharWait(victim, (int) (0.75 * PULSE_VIOLENCE));
-        break;
-      }
-      case 2:
-        if(GET_STAT(ch) > STAT_SLEEPING && !IS_TRUSTED(ch))
-        {
-          act("&+L$n suddenly loses control, and falls asleep.", FALSE, victim, 0, 0, TO_ROOM);
-          send_to_char("&+LYou are overwhelmed with a great desire to get some rest. Yawn.\r\n", victim);
-          SET_POS(victim, GET_POS(victim) + STAT_SLEEPING);
-=======
       case 1:
     	{
     	  CharWait(victim, (int) (0.75 * PULSE_VIOLENCE));
@@ -1777,49 +1347,30 @@ void spell_spinal_corruption(int level, P_char ch, char *arg, int type,
             ("&+LYour are overwhelmed with a great desire to get some rest. Yawn.\r\n",
              victim);
     			SET_POS(victim, GET_POS(victim) + STAT_SLEEPING);
->>>>>>> master
           update_pos(victim);
     		}
         break;
       case 3:
-<<<<<<< HEAD
-        spell_silence(60, ch, NULL, 0, victim, 0);
-        send_to_char("&+rYour throat clenches up and you are unable to speak...\r\n", ch);
-=======
     	  spell_silence(60, ch, NULL, 0, victim, 0);
->>>>>>> master
         break;
       case 4:
     	  if(!affected_by_spell(victim, SPELL_SPINAL_CORRUPTION))
     		{
           bzero(&af, sizeof(af));
           af.type = SPELL_SPINAL_CORRUPTION;
-<<<<<<< HEAD
-          af.duration = level / 28;
-          af.bitvector2 = AFF2_SLOW;
-          affect_to_char(victim, &af);
-          act("&+LThe power of your psychic assault renders&n $N &+Lunable to react as quickly!",
-               TRUE, ch, 0, victim, TO_CHAR);
-=======
           af.duration =  3;
           af.bitvector2 = AFF2_SLOW;
           affect_to_char(victim, &af);
           act("&+LThe power of your psychic assault renders $N unable to react as quickly!", TRUE, ch, 0,
             victim, TO_CHAR);
->>>>>>> master
           send_to_char("&+LIt seems as though you aren't as spry as you once were...\r\n", victim);
     		}
     	  break;
       case 5:
       {
         poison_lifeleak(level, ch, 0, 0, victim, 0);
-<<<<<<< HEAD
-        act("$n&n&+G shivers slightly.", FALSE, victim, 0, 0, TO_ROOM);
-        send_to_char("&+yYou feel very sick.\r\n", victim);
-=======
         act("$n&n&+G shivers slightly.", TRUE, victim, 0, 0, TO_ROOM);
          send_to_char("&+yYou feel very sick.\n", victim);
->>>>>>> master
         break;
       }
       default:
@@ -1832,13 +1383,6 @@ void spell_spinal_corruption(int level, P_char ch, char *arg, int type,
   }
 }
 
-<<<<<<< HEAD
-void spell_displacement(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-{
-  struct affected_type af;
-
-  if(affected_by_spell(ch, SPELL_DISPLACEMENT))
-=======
 void
 spell_mental_anguish(int level, P_char ch, char *arg, int type, P_char victim,
                      P_obj obj)
@@ -1847,7 +1391,6 @@ spell_mental_anguish(int level, P_char ch, char *arg, int type, P_char victim,
 
   appear(ch);
   if (CheckMindflayerPresence(ch))
->>>>>>> master
   {
     send_to_char
       ("You sense an ethereal disturbance and abort your spell!\r\n", ch);
@@ -1860,17 +1403,6 @@ spell_mental_anguish(int level, P_char ch, char *arg, int type, P_char victim,
     return;
   }
 
-<<<<<<< HEAD
-  bzero(&af, sizeof(af));
-  af.type = SPELL_DISPLACEMENT;
-  af.duration = level / 14;
-  af.modifier = -1 * (level / 4);
-  af.location = APPLY_AC;
-  affect_to_char(victim, &af);
-
-  act("&+WYour form shimmers, and you appear displaced.", FALSE, ch, 0, victim, TO_CHAR);
-  act("&+W$N shimmers and appears a few inches away.", FALSE, ch, 0, victim, TO_ROOM);
-=======
 
   if (StatSave(victim, APPLY_POW, MIN(0, POW_DIFF(ch, victim))))
   {
@@ -1915,7 +1447,6 @@ spell_memory_block(int level, P_char ch, char *arg, int type, P_char victim,
     return;
   }
   appear(ch);
->>>>>>> master
 
   act("$N stares around blankly.", TRUE, ch, 0, victim, TO_CHAR);
   act("You seem to have forgotten why you are here!&n", TRUE, ch, 0,
@@ -1926,11 +1457,6 @@ spell_memory_block(int level, P_char ch, char *arg, int type, P_char victim,
   return;
 }
 
-<<<<<<< HEAD
-void spell_domination(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-{
-  if(victim == ch)
-=======
 void
 spell_psionic_cloud(int level, P_char ch, char *arg, int type, P_char victim,
                     P_obj obj)
@@ -1940,7 +1466,6 @@ spell_psionic_cloud(int level, P_char ch, char *arg, int type, P_char victim,
   P_char   tch, next;
 
   if (CheckMindflayerPresence(ch))
->>>>>>> master
   {
     send_to_char
       ("You sense an ethereal disturbance and abort your spell!\r\n", ch);
@@ -2023,17 +1548,15 @@ spell_domination(int level, P_char ch, char *arg, int type, P_char victim,
     send_to_char("Dominate yourself? You're wierd.\r\n", ch);
     return;
   }
-<<<<<<< HEAD
-  
-  if(GET_MASTER(victim) || GET_MASTER(ch)
-=======
   if (GET_MASTER(victim) || GET_MASTER(ch)
->>>>>>> master
       || level < GET_LEVEL(victim) ||
       StatSave(victim, APPLY_POW, POW_DIFF(ch, victim)))
     return;
-
-  setup_pet(victim, ch, MAX(4, number(level - 20, level)), 0);
+/*
+   if (victim->leader)
+   stop_follower(victim);
+ */
+  setup_pet(victim, ch, MAX(1, number(level - 20, level)), 0);
   add_follower(victim, ch);
   act("Your will dominates $N!", FALSE, ch, 0, victim, TO_CHAR);
   act("Your will is dominated by $n!", FALSE, ch, 0, victim, TO_VICT);
@@ -2041,28 +1564,17 @@ spell_domination(int level, P_char ch, char *arg, int type, P_char victim,
   return;
 }
 
-<<<<<<< HEAD
-void spell_ectoplasmic_form(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-=======
 void
 spell_ectoplasmic_form(int level, P_char ch, char *arg, int type,
                        P_char victim, P_obj obj)
->>>>>>> master
 {
   struct affected_type af;
 
-  if(!(victim && ch))
+  if (!((victim || obj) && ch))
   {
     logit(LOG_EXIT, "assert: bogus parms in ectoplasmic form");
     raise(SIGSEGV);
   }
-<<<<<<< HEAD
- 
-  if(!affected_by_spell(victim, SPELL_ECTOPLASMIC_FORM))
-  {
-    act("$n's &+Lform shimmers and then fades from sight.", FALSE, victim, 0, 0, TO_ROOM);
-    send_to_char("&+LYou shimmer, then fade from sight.\r\n", victim);
-=======
   if (obj)
   {
     if (!IS_SET(obj->extra_flags, ITEM_INVISIBLE) &&
@@ -2084,79 +1596,26 @@ spell_ectoplasmic_form(int level, P_char ch, char *arg, int type,
       act("&+L$n's form shimmers and then fades from sight..", TRUE, victim,
           0, 0, TO_ROOM);
       send_to_char("&+LYou shimmer, then fade from sight.\r\n", victim);
->>>>>>> master
 
-    bzero(&af, sizeof(af));
+      bzero(&af, sizeof(af));
 
-    af.type = SPELL_ECTOPLASMIC_FORM;
-    af.duration = level / 14;
-    af.bitvector3 = AFF3_ECTOPLASMIC_FORM;
-    affect_to_char(victim, &af);
-  }
-  else
-  {
-    struct affected_type *af1;
+      af.type = SPELL_ECTOPLASMIC_FORM;
+      af.duration = level / 2;
+      af.bitvector3 = AFF3_ECTOPLASMIC_FORM;
+      affect_to_char(victim, &af);
+    }
+    else
+    {
+      struct affected_type *af1;
 
-    for (af1 = victim->affected; af1; af1 = af1->next)
-      if(af1->type == SPELL_ECTOPLASMIC_FORM)
-      {
-        af1->duration = level / 14;
-      }
+      for (af1 = victim->affected; af1; af1 = af1->next)
+        if (af1->type == SPELL_ECTOPLASMIC_FORM)
+        {
+          af1->duration = level / 2;
+        }
+    }
   }
 }
-<<<<<<< HEAD
-
-void spell_ego_whip(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-{
-  int  dam;
-  struct damage_messages messages = {
-    "&+MYou mentally beat upon $N's ego.",
-    "&+M$n mentally beats upon your mind with stunning force!",
-    "&+M$n squints and $N&+M screams out in pain, holding $S head!",
-    "&+MYou destroy your opponents mind with a thought...",
-    "&+MYour mind is utterly destroyed by the attack...",
-    "&+M$N collapses, $S mind utterly destroyed..."
-  };
-
-  if(!(ch) ||
-     !(victim))
-      return;
-  
-  if(IS_BRAINLESS(victim))
-  {
-    act("$N lacks any mental capacity whatsoever!", FALSE, ch, 0, victim, TO_CHAR);
-    return;
-  }
-  
-  dam = dice(4, 2) + level / 4;
-  
-  if(StatSave(victim, APPLY_POW, POW_DIFF(ch, victim)))
-    dam >> 1;
-
-  if(victim == ch)
-    dam = 1;
-
-  spell_damage(ch, victim, dam, SPLDAM_PSI, SPLDAM_NOSHRUG, &messages);
-}
-
-void spell_energy_containment(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-{
-  struct affected_type af;
-
-  int dur;
-  
-  if(!(ch) ||
-     !IS_ALIVE(ch))
-        return;
-
-  if(IS_PC(ch) ||
-     IS_PC_PET(ch))
-      dur = (int)(level / 2);
-  else
-    dur = level;
-    
-  if(affected_by_spell(ch, SPELL_ENERGY_CONTAINMENT))
-=======
 void
 spell_ego_whip(int level, P_char ch, char *arg, int type, P_char victim,
                P_obj obj)
@@ -2202,12 +1661,11 @@ spell_energy_containment(int level, P_char ch, char *arg, int type,
     raise(SIGSEGV);
   }
   if (affected_by_spell(ch, SPELL_ENERGY_CONTAINMENT))
->>>>>>> master
   {
     struct affected_type *af1;
 
     for (af1 = victim->affected; af1; af1 = af1->next)
-      if(af1->type == SPELL_ENERGY_CONTAINMENT)
+      if (af1->type == SPELL_ENERGY_CONTAINMENT)
       {
         af1->duration = level / 2 + 7;
       }
@@ -2226,13 +1684,9 @@ spell_energy_containment(int level, P_char ch, char *arg, int type,
   return;
 }
 
-<<<<<<< HEAD
-void spell_enhanced_strength(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-=======
 void
 spell_enhance_armor(int level, P_char ch, char *arg, int type, P_char victim,
                     P_obj obj)
->>>>>>> master
 {
   struct affected_type af;
 
@@ -2242,21 +1696,6 @@ spell_enhance_armor(int level, P_char ch, char *arg, int type, P_char victim,
     raise(SIGSEGV);
   }
   
-<<<<<<< HEAD
-  if(!GET_CLASS(ch, CLASS_PSIONICIST) && !GET_CLASS(ch, CLASS_MINDFLAYER))
-  {
-    send_to_char("You don't possess the mental faculties to achieve enhanced strength...\r\n", ch);
-    return;
-  }
-
-  if(IS_PC(ch) ||
-     IS_PC_PET(ch))
-        dur = level / 2;
-  else
-    dur = level;
-  
-  if(affected_by_spell(victim, SPELL_ENHANCED_STR))
-=======
   if (!affected_by_spell(victim, SPELL_ENHANCE_ARMOR))
   {
     bzero(&af, sizeof(af));
@@ -2271,7 +1710,6 @@ spell_enhance_armor(int level, P_char ch, char *arg, int type, P_char victim,
       TRUE, victim, 0, 0, TO_ROOM);
   }
   else
->>>>>>> master
   {
     struct affected_type *af1;
 
@@ -2297,19 +1735,6 @@ spell_enhanced_strength(int level, P_char ch, char *arg, int type,
       send_to_char("No effect...\r\n", ch);
     return;
   }
-<<<<<<< HEAD
-  
-  if(!affected_by_spell(victim, SPELL_ADRENALINE_CONTROL))
-  {
-    bzero(&af, sizeof(af));
-    af.type = SPELL_ENHANCED_STR;
-    af.duration = dur;
-    af.location = APPLY_STR;
-    af.modifier = 4 + (level / 14);
-    affect_to_char(victim, &af);
-  
-    send_to_char("Your muscles begin to expand.\r\n", victim);
-=======
   bzero(&af, sizeof(af));
   af.type = SPELL_ENHANCED_STR;
   af.duration = level;
@@ -2318,38 +1743,13 @@ spell_enhanced_strength(int level, P_char ch, char *arg, int type,
   affect_to_char(victim, &af);
 
   send_to_char("Your muscles begin to expand.\r\n", victim);
->>>>>>> master
   
-    act("$n looks physically stronger.", FALSE, victim, 0, 0, TO_ROOM);
+  act("$n looks physically stronger.",
+      TRUE, victim, 0, 0, TO_ROOM);
 
-    return;
-  }
+  return;
 }
 
-<<<<<<< HEAD
-void spell_enhanced_dexterity(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-{
-  struct affected_type af;
-  int dur;
-  
-  if(!(ch) ||
-   !IS_ALIVE(ch))
-      return;
-
-  if(!GET_CLASS(ch, CLASS_PSIONICIST) && !GET_CLASS(ch, CLASS_MINDFLAYER))
-  {
-    send_to_char("You don't possess the mental faculties to achieve enhanced dexterity...\r\n", ch);
-    return;
-  }
-  
-  if(IS_PC(ch) ||
-     IS_PC_PET(ch))
-        dur = level / 2;
-  else
-    dur = level;
-  
-  if(affected_by_spell(victim, SPELL_ENHANCED_DEX))
-=======
 void
 spell_enhanced_dexterity(int level, P_char ch, char *arg, int type,
                          P_char victim, P_obj obj)
@@ -2357,7 +1757,6 @@ spell_enhanced_dexterity(int level, P_char ch, char *arg, int type,
   struct affected_type af;
 
   if (affected_by_spell(victim, SPELL_ENHANCED_DEX))
->>>>>>> master
   {
     send_to_char("You can't get any more dextrous than this.\r\n", victim);
     if (ch != victim)
@@ -2368,7 +1767,7 @@ spell_enhanced_dexterity(int level, P_char ch, char *arg, int type,
   af.type = SPELL_ENHANCED_DEX;
   af.duration = level;
   af.location = APPLY_DEX;
-  af.modifier = 4 + (level / 14);
+  af.modifier = 1 + (level / 4);
   affect_to_char(victim, &af);
 
   send_to_char("Your coordination increases greatly.\r\n", victim);
@@ -2376,30 +1775,6 @@ spell_enhanced_dexterity(int level, P_char ch, char *arg, int type,
   return;
 }
 
-<<<<<<< HEAD
-void spell_enhanced_agility(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-{
-  struct affected_type af;
-  int dur;
-  
-  if(!(ch) ||
-     !IS_ALIVE(ch))
-        return;
-
-  if(!GET_CLASS(ch, CLASS_PSIONICIST) && !GET_CLASS(ch, CLASS_MINDFLAYER))
-  {
-    send_to_char("You don't possess the mental faculties to achieve enhanced agility...\r\n", ch);
-    return;
-  }
-  
-  if(IS_PC(ch) ||
-     IS_PC_PET(ch))
-        dur = level / 2;
-  else
-    dur = level;
-  
-  if(affected_by_spell(victim, SPELL_ENHANCED_AGI))
-=======
 void
 spell_enhanced_agility(int level, P_char ch, char *arg, int type,
                        P_char victim, P_obj obj)
@@ -2407,7 +1782,6 @@ spell_enhanced_agility(int level, P_char ch, char *arg, int type,
   struct affected_type af;
 
   if (affected_by_spell(victim, SPELL_ENHANCED_AGI))
->>>>>>> master
   {
     send_to_char("You can't get any more agile than this.\r\n", victim);
     if (ch != victim)
@@ -2418,43 +1792,20 @@ spell_enhanced_agility(int level, P_char ch, char *arg, int type,
   af.type = SPELL_ENHANCED_AGI;
   af.duration = level;
   af.location = APPLY_AGI;
-  af.modifier = 4 + (level / 14);
+  af.modifier = 1 + (level / 4);
   affect_to_char(victim, &af);
-<<<<<<< HEAD
-  
-=======
 
->>>>>>> master
   send_to_char("You feel more agile.\r\n", victim);
 
   return;
 }
 
-void spell_enhanced_constitution(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
+void spell_enhanced_constitution(int level, P_char ch, char *arg, int type,
+                            P_char victim, P_obj obj)
 {
   struct affected_type af;
   
-<<<<<<< HEAD
-  if(!(ch) ||
-     !IS_ALIVE(ch))
-        return;
-
-  if(!GET_CLASS(ch, CLASS_PSIONICIST) && !GET_CLASS(ch, CLASS_MINDFLAYER))
-  {
-    send_to_char("You don't possess the mental faculties to achieve enhanced constitution...\r\n", ch);
-    return;
-  }
-  
-  if(IS_PC(ch) ||
-     IS_PC_PET(ch))
-        dur = level / 2;
-  else
-    dur = level;
-  
-  if(affected_by_spell(victim, SPELL_ENHANCED_CON))
-=======
   if(!(ch))
->>>>>>> master
   {
     logit(LOG_EXIT, "assert: bogus params (enhanced constitution)");
     raise(SIGSEGV);
@@ -2467,21 +1818,6 @@ void spell_enhanced_constitution(int level, P_char ch, char *arg, int type, P_ch
       send_to_char("No effect...\r\n", ch);
     return;
   }
-<<<<<<< HEAD
-
-  if(!affected_by_spell(victim, SPELL_ADRENALINE_CONTROL))
-  {
-    bzero(&af, sizeof(af));
-    af.type = SPELL_ENHANCED_CON;
-    af.duration = dur; 
-    af.location = APPLY_CON;
-    af.modifier = 4 + (level / 14);
-    affect_to_char(victim, &af);
-
-    send_to_char("You feel more &+Cvitalized.\r\n", victim);
-    return;
-  }
-=======
   bzero(&af, sizeof(af));
   af.type = SPELL_ENHANCED_CON;
   af.duration = level;
@@ -2492,27 +1828,12 @@ void spell_enhanced_constitution(int level, P_char ch, char *arg, int type, P_ch
   send_to_char("You feel more vitalized.\r\n", victim);
 
   return;
->>>>>>> master
 }
 
-void spell_flesh_armor(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
+void spell_flesh_armor(int level, P_char ch, char *arg, int type, P_char victim,
+                  P_obj obj)
 {
   struct affected_type af;
-<<<<<<< HEAD
-  int dur;
-  float mod;
-
-  if(!(ch) ||
-     !IS_ALIVE(ch))
-        return;
-  
-  if(IS_PC(ch) ||
-     IS_PC_PET(ch))
-        dur = level / 4;
-  else
-    dur = level / 2;
-  
-=======
 
   if(!(ch))
   {
@@ -2524,111 +1845,64 @@ void spell_flesh_armor(int level, P_char ch, char *arg, int type, P_char victim,
   {
     return;
   }
->>>>>>> master
   if(IS_AFFECTED5(ch, AFF5_FLESH_ARMOR))
   {
     struct affected_type *af1;
 
     for (af1 = victim->affected; af1; af1 = af1->next)
-      if(af1->type == SPELL_FLESH_ARMOR)
+      if (af1->type == SPELL_FLESH_ARMOR)
       {
         af1->duration = 25;
       }
     return;
   }
 
-<<<<<<< HEAD
-  if(ARMORED(victim))
-  {
-     send_to_char("Nothing seems to happen...\n", ch);
-     return;
-  }
-
-  if(GET_CLASS(ch, CLASS_PSIONICIST | CLASS_MINDFLAYER))
-    mod = 1.25;
-  else
-    mod = 1;
-    
-=======
->>>>>>> master
   bzero(&af, sizeof(af));
   af.type = SPELL_FLESH_ARMOR;
   af.duration = 25;
   af.location = APPLY_AC;
   af.bitvector5 = AFF5_FLESH_ARMOR;
-<<<<<<< HEAD
-  af.modifier = -1 * mod * level;
-=======
   af.modifier = (int) (-1 * level);
->>>>>>> master
   affect_to_char(victim, &af);
 
   send_to_char("&+RYour flesh gains a steel-like hardness.\r\n", victim);
-  act("$N'&+Rs flesh begins to shimmer, then gains a &+Lharder &+Rlook to it.", FALSE, ch, 0, victim, TO_ROOM);
+  act("$N's &+Rflesh begins to shimmer, then gains a harder look to it.",
+      TRUE, ch, 0, victim, TO_ROOM);
 
   return;
 }
 
-void spell_inertial_barrier(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
+void spell_inertial_barrier(int level, P_char ch, char *arg, int type,
+                       P_char victim, P_obj obj)
 {
   struct affected_type af;
 
-<<<<<<< HEAD
-  if(!(ch) ||
-     !IS_ALIVE(ch))
-        return;
-
-  if(!GET_CLASS(ch, CLASS_PSIONICIST) && !GET_CLASS(ch, CLASS_MINDFLAYER))
-  {
-    send_to_char("You don't have the slightest clue how do to that...\r\n", ch);
-    return;
-  }
-
-#if wipe2011
-#else        
-  if(affected_by_spell(ch, SPELL_INERTIAL_BARRIER))
-=======
   if (!(victim && ch))
   {
     logit(LOG_EXIT, "assert: bogus params (inertial barrier)");
     raise(SIGSEGV);
   }
   if (affected_by_spell(ch, SPELL_INERTIAL_BARRIER))
->>>>>>> master
   {
     struct affected_type *af1;
 
     for (af1 = victim->affected; af1; af1 = af1->next)
-      if(af1->type == SPELL_INERTIAL_BARRIER)
+      if (af1->type == SPELL_INERTIAL_BARRIER)
       {
-<<<<<<< HEAD
-        if(GET_LEVEL(ch) >= 57 ||
-           IS_ELITE(ch))
-              af1->duration = 100;
-        else if(GET_LEVEL(ch) > 50)
-          af1->duration = 30;
-        else if(GET_LEVEL(ch) > 40)
-=======
         if (GET_LEVEL(ch) >= 57 )
           af1->duration = 50;
         else if (GET_LEVEL(ch) < 57)
           af1->duration = 30;
         else if (GET_LEVEL(ch) < 50)
->>>>>>> master
           af1->duration = 15;
         else if (GET_LEVEL(ch) < 41)
           af1->duration = 10;
       }
     return;
   }
-#endif
+
   bzero(&af, sizeof(af));
   af.type = SPELL_INERTIAL_BARRIER;
-<<<<<<< HEAD
-  if(GET_LEVEL(ch) >= 57 || IS_ELITE(ch))
-    level += 8;
-  af.duration = ((float)level / 14);
-=======
   if (GET_LEVEL(ch) >= 57 )
     af.duration = 50;
   else if (GET_LEVEL(ch) < 57)
@@ -2637,69 +1911,22 @@ void spell_inertial_barrier(int level, P_char ch, char *arg, int type, P_char vi
     af.duration = 15;
   else if (GET_LEVEL(ch) < 41)
     af.duration = 6;
->>>>>>> master
   af.modifier = 0;
   af.bitvector3 = AFF3_INERTIAL_BARRIER;
   affect_to_char(victim, &af);
 
-  send_to_char("You focus your will into an invisible dampening force...", ch);
   return;
 }
 
-<<<<<<< HEAD
-void spell_inflict_pain(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-=======
 void
 spell_inflict_pain(int level, P_char ch, char *arg, int type, P_char victim,
                    P_obj obj)
->>>>>>> master
 {
   struct damage_messages messages = {
     "$N &+Bscreams out in &+Rpain!&N",
     "&+BA horrible &+Rpain&N wracks your brain!",
     "$N &+Bscreams out in &+Rpain!&N"
   };
-<<<<<<< HEAD
-  
-  if(!(ch) ||
-     !IS_ALIVE(ch) ||
-     !(victim) ||
-     !IS_ALIVE(victim))
-        return;
-        
-  if(IS_BRAINLESS(victim))
-  {
-    send_to_char("Your victim lacks a brain!\r\n", ch);
-    return;
-  }
-      
-  dam = dice(32, 2) + level / 4;
-  
-  if(victim == ch)
-    dam = 1;
-
-  if(spell_damage(ch, victim, dam, SPLDAM_PSI, SPLDAM_NOSHRUG | RAWDAM_NOKILL, &messages) == DAM_NONEDEAD)
-       if(!IS_STUNNED(victim) &&
-         !IS_GREATER_RACE(victim) &&
-         !IS_ELITE(victim) &&
-         StatSave(victim, APPLY_POW, POW_DIFF(ch, victim)) &&
-         level > GET_LEVEL(victim) &&
-         GET_C_POW(ch) > number(1, 1000))
-          Stun(victim, ch, PULSE_VIOLENCE, FALSE);
-}
-
-void spell_intellect_fortress(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-{
-  struct affected_type af;
-  
-  int dur;
-  
-  if(IS_PC(ch) ||
-   IS_PC_PET(ch))
-      dur = (int)(level / 2);
-  else
-    dur = level;
-=======
   int      dam = dice((int) (MIN(level, 31) * 1.5), 10);
 
   if (StatSave(victim, APPLY_POW, POW_DIFF(ch, victim)))
@@ -2714,14 +1941,13 @@ spell_intellect_fortress(int level, P_char ch, char *arg, int type,
                          P_char victim, P_obj obj)
 {
   struct affected_type af;
->>>>>>> master
 
-  if(affected_by_spell(ch, SPELL_INTELLECT_FORTRESS))
+  if (affected_by_spell(ch, SPELL_INTELLECT_FORTRESS))
   {
     struct affected_type *af1;
 
     for (af1 = victim->affected; af1; af1 = af1->next)
-      if(af1->type == SPELL_INTELLECT_FORTRESS)
+      if (af1->type == SPELL_INTELLECT_FORTRESS)
       {
         af1->duration = 24;
       }
@@ -2732,11 +1958,7 @@ spell_intellect_fortress(int level, P_char ch, char *arg, int type,
   af.type = SPELL_INTELLECT_FORTRESS;
   af.duration = 24;
   af.location = APPLY_INT;
-<<<<<<< HEAD
-  af.modifier = 4 + (level / 14);
-=======
   af.modifier = 1 + level/5;
->>>>>>> master
   affect_to_char(ch, &af);
 
   send_to_char("&+WA virtual fortress forms around you.\r\n", ch);
@@ -2744,18 +1966,14 @@ spell_intellect_fortress(int level, P_char ch, char *arg, int type,
   return;
 }
 
-<<<<<<< HEAD
-void spell_lend_health(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-=======
 void
 spell_lend_health(int level, P_char ch, char *arg, int type, P_char victim,
                   P_obj obj)
->>>>>>> master
 {
   int      hp;
   float    ratio;
 
-  if(ch == victim)
+  if (ch == victim)
   {
     send_to_char("Lend health to yourself? What a wierdo.\r\n", ch);
     return;
@@ -2763,26 +1981,13 @@ spell_lend_health(int level, P_char ch, char *arg, int type, P_char victim,
   hp = MIN(50, GET_MAX_HIT(victim) - GET_HIT(victim));
   hp = MIN(25+GET_LEVEL(ch)*3/2, GET_MAX_HIT(victim) - GET_HIT(victim));
   
-<<<<<<< HEAD
-  hp = MIN(25 + GET_LEVEL(ch) * 3 / 2 , GET_MAX_HIT(victim) - GET_HIT(victim));
-
-  ratio = get_property("spell.lendHealth.healRatio", 1.000);
-  
-  if((GET_HIT(ch) - (hp/ratio)) <= 1)
-=======
   if (hp <= 0)
->>>>>>> master
   {
     act("Nice thought, but $N doesn't need healing.", 0, ch, 0, victim,
         TO_CHAR);
     return;
   }
-<<<<<<< HEAD
-  
-  if((GET_HIT(ch) - hp) <= 1)
-=======
   if (GET_HIT(ch) - hp < -9)
->>>>>>> master
   {
     send_to_char("You do not feel healthy enough yourself!\r\n", ch);
     return;
@@ -2811,25 +2016,15 @@ spell_lend_health(int level, P_char ch, char *arg, int type, P_char victim,
   update_pos(victim);
   update_pos(ch);
 
-<<<<<<< HEAD
-  act("&+WYou lend some of your health to $N.", FALSE, ch, 0, victim, TO_CHAR);
-  act("&+W$n lends you some of $s health.", FALSE, ch, 0, victim, TO_VICT);
-  //act("&+W$n lends $N some of $s health.", FALSE, ch, 0, victim, TO_ROOM);
-=======
   act("&+WYou lend some of your health to $N.", 0, ch, 0, victim, TO_CHAR);
   act("&+W$n lends you some of $s health.", 0, ch, 0, victim, TO_VICT);
->>>>>>> master
 
   return;
 }
 
-<<<<<<< HEAD
-void spell_confuse(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-=======
 void
 spell_confuse(int level, P_char ch, char *arg, int type, P_char victim,
               P_obj obj)
->>>>>>> master
 {
   int      temp, max_level = 0;
   P_char   tch, next;
@@ -2843,17 +2038,13 @@ spell_confuse(int level, P_char ch, char *arg, int type, P_char victim,
     raise(SIGSEGV);
   }
 
-  if(victim == ch)
+  if (victim == ch)
   {
     send_to_char("You suddenly decide against that, oddly enough.\r\n", ch);
     return;
   }
   appear(ch);
 
-<<<<<<< HEAD
-  act("&+LYou send out a wave of mental &+Yc&+yo&+Yn&+yf&+Yu&+ys&+Yi&+yo&+Yn!", FALSE, ch, 0, 0, TO_CHAR);
-  act("$n &+Lprojects out a wave of &+Mos&+mci&+Mll&+mat&+Min&+mg &+cenergy!", FALSE, ch, 0, 0, TO_ROOM);
-=======
   if(GET_CLASS(ch, CLASS_BARD))
     {
     act("&+yYou &+Wsin&+Yg a s&+yong whic&+Yh seem&+Ws to con&+Yfuse you&+yr enemies thou&+Yght&+Ws!", FALSE, ch, 0, 0, TO_CHAR);
@@ -2864,7 +2055,6 @@ spell_confuse(int level, P_char ch, char *arg, int type, P_char victim,
   act("&+LYou send out a wave of confusion!", FALSE, ch, 0, 0, TO_CHAR);
   act("&+L$n sends out a wave of energy!", FALSE, ch, 0, 0, TO_ROOM);
     }
->>>>>>> master
 
   max_level = level * 3;
 
@@ -2883,11 +2073,6 @@ spell_confuse(int level, P_char ch, char *arg, int type, P_char victim,
         temp = number(1, 10);
         switch (temp)
         {
-<<<<<<< HEAD
-          if(number(1, 101) <= 30)
-          {
-            if(cht != tch)
-=======
         case 1:
         case 2:
         case 3:
@@ -2918,7 +2103,6 @@ spell_confuse(int level, P_char ch, char *arg, int type, P_char victim,
           for (cht = world[ch->in_room].people; cht; cht = cht->next_in_room)
           {
             if (number(1, 101) <= 30)
->>>>>>> master
             {
               if (cht != tch)
               {
@@ -2931,23 +2115,12 @@ spell_confuse(int level, P_char ch, char *arg, int type, P_char victim,
 
         }
       }
-<<<<<<< HEAD
-      
-      max_level -= GET_LEVEL(tch);
-    }
-    else if(IS_NPC(tch) && CAN_SEE(tch, ch))
-    {
-      remember(tch, ch);
-      if(!IS_FIGHTING(tch))
-        MobStartFight(tch, ch);
-=======
       else if (IS_NPC(tch) && CAN_SEE(tch, ch))
       {
         remember(tch, ch);
         if (!IS_FIGHTING(tch))
           MobStartFight(tch, ch);
       }
->>>>>>> master
     }
   }
   // lets drain some extra mana if it's a gith. - Kvark
@@ -2955,26 +2128,6 @@ spell_confuse(int level, P_char ch, char *arg, int type, P_char victim,
     GET_MANA(ch) = (GET_MANA(ch) - 50);
 }
 
-<<<<<<< HEAD
-void spell_enrage(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-{
-  if(!(ch) ||
-     !IS_ALIVE(ch))
-      return;
-
-  if(ch == victim)
-  {
-    send_to_char("You get really mad... but it doesn't feel the same...\r\n", ch);
-    return;
-  }
-
-  appear(ch);
-
-  if((ch != victim) && StatSave(victim, APPLY_POW, 0))
-  {                          
-    send_to_char("You feel a brief bit of &+Ranger&n, but it passes.\r\n", victim);
-    return;
-=======
 void spell_pyrokinesis(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   char     buf[256];
@@ -3033,7 +2186,6 @@ void spell_pyrokinesis(int level, P_char ch, char *arg, int type, P_char victim,
         return;
       if(spell_damage(ch, victim, phys_dam, SPLDAM_PSI, SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, &messages) != DAM_NONEDEAD)
         return;
->>>>>>> master
   }
     }
   if(!affected_by_spell(victim, SPELL_PYROKINESIS))
@@ -3043,13 +2195,6 @@ void spell_pyrokinesis(int level, P_char ch, char *arg, int type, P_char victim,
     af.duration =  1;
     af.modifier = (int) (-1 * (level / 5));
 
-<<<<<<< HEAD
-  berserk(victim, level / 28);  /* flag to start regardless of skill */
-  return;
-}
-
-void spell_cannibalize(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-=======
     act("&+m$n &+msuddenly looks in pain as $e moves.&n",
         FALSE, victim, 0, 0, TO_ROOM);
 
@@ -3079,13 +2224,9 @@ void spell_cannibalize(int level, P_char ch, char *arg, int type, P_char victim,
 
 void spell_celerity(int level, P_char ch, char *arg, int type,
                          P_char victim, P_obj obj)
->>>>>>> master
 {
   int movepoints;
 
-<<<<<<< HEAD
-  if(!(victim && ch))
-=======
   if(!(ch) ||
      !IS_ALIVE(ch) ||
      !(ch->in_room))
@@ -3094,33 +2235,10 @@ void spell_celerity(int level, P_char ch, char *arg, int type,
   movepoints = dice(3, level/2);
 
   if (GET_VITALITY(ch) > (GET_MAX_VITALITY(ch) - (movepoints/2)))
->>>>>>> master
   {
         send_to_char("You are quite capable of running right now, no need for extra boost.\n", ch);
         return;
   }
-<<<<<<< HEAD
-  
-  if(IS_PC(ch) ||
-     IS_PC_PET(ch))
-        dur = level / 4;
-  else
-    dur = level;
-    
-  if(affected_by_spell(ch, SPELL_CANNIBALIZE))
-  {
-    struct affected_type *af1;
-
-    for (af1 = victim->affected; af1; af1 = af1->next)
-      if(af1->type == SPELL_CANNIBALIZE)
-      {
-        af1->duration = dur;
-      }
-  
-  act("You refresh your will to &+mleech the power&n of your enemies.", FALSE, ch, 0, 0, TO_CHAR);
-  act("$n is surrounded by a &+Mmagenta haze&n which dissipates quickly.", FALSE, ch, 0, 0, TO_ROOM);
-    
-=======
 
   act("&+WYou concentrate and attempt to transform part of your lifeforce....&n",
     FALSE, ch, 0, victim, TO_CHAR);
@@ -3129,28 +2247,19 @@ void spell_celerity(int level, P_char ch, char *arg, int type,
 
   if(spell_damage(ch, ch, movepoints*4, SPLDAM_PSI, 
      SPLDAM_NODEFLECT | SPLDAM_NOSHRUG, 0) != DAM_NONEDEAD)
->>>>>>> master
     return;
 
-<<<<<<< HEAD
-  act("&+YYou bend your will towards sapping the power of your enemies.", FALSE, ch, 0, 0, TO_CHAR);
-=======
   GET_VITALITY(ch) = MIN(GET_VITALITY(ch)+movepoints, GET_MAX_VITALITY(ch));
 
   act("&+yFresh energy pours through your body. &+WYou are invigorated!&n",
     FALSE, ch, 0, 0, TO_CHAR);
   act("$N &+Wappears invigorated.&n",
     FALSE, ch, 0, 0, TO_ROOM);
->>>>>>> master
 
   update_pos(ch);       
 }
 
-<<<<<<< HEAD
-void spell_tower_iron_will(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-=======
 void spell_depart(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
->>>>>>> master
 {
   P_char  t_ch;
   int tries = 0, to_room, dir;
@@ -3161,86 +2270,24 @@ void spell_depart(int level, P_char ch, char *arg, int type, P_char victim, P_ob
      !(ch->in_room))
         return;
 
-<<<<<<< HEAD
-  if(!(victim && ch))
-=======
   if((IS_SET(world[ch->in_room].room_flags, NO_TELEPORT) ||
       IS_HOMETOWN(ch->in_room) ||
       world[ch->in_room].sector_type == SECT_OCEAN) &&
       level < 60)
->>>>>>> master
   {
     send_to_char("The magic in this room prevents you from leaving.\n", ch);
     return;
   }
   
-<<<<<<< HEAD
-  if(IS_PC(ch) ||
-     IS_PC_PET(ch))
-        dur = (int)(level / 14);
-  else
-    dur = level / 2;
-#if wipe2011
-#else    
-  if(affected_by_spell(ch, SPELL_TOWER_IRON_WILL))
-  {
-    struct affected_type *af1;
-
-    for (af1 = victim->affected; af1; af1 = af1->next)
-      if(af1->type == SPELL_TOWER_IRON_WILL)
-      {
-        af1->duration = dur;
-      }
-    return;
-  }
-#endif
-  bzero(&af, sizeof(af));
-  af.type = SPELL_TOWER_IRON_WILL;
-  af.duration = dur;
-  af.bitvector3 = AFF3_TOWER_IRON_WILL;
-  affect_to_char(ch, &af);
-
-  act("&+YYour mind will now be more resistant to psionic attack!", FALSE, ch, 0, 0, TO_CHAR);
-
-  return;
-}
-
-void spell_innate_blast(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-{
-  struct affected_type af;
-  int      lev = level;
-
-  if(!((victim || obj) && ch))
-=======
   if(!victim)
     victim = ch;
     
   if((ch && !is_Raidable(ch, 0, 0)) ||
      (victim && !is_Raidable(victim, 0, 0)))
->>>>>>> master
   {
     send_to_char("&+WYou are not raidable. The spell fails!\r\n", victim);
     return;
   }
-<<<<<<< HEAD
-  if(GET_STAT(ch) == STAT_DEAD)
-    return;
-
-  if(IS_TRUSTED(victim))
-  {
-    send_to_char("If only.\r\n", ch);
-    return;
-  }
-
-  if(number(0, 1))
-    appear(ch);
-
-  if(!number(0, 2) &&
-      !StatSave(victim, APPLY_POW,
-                MAX(-3, (GET_LEVEL(ch) - GET_LEVEL(victim)) / 3)) &&
-      !(IS_NPC(victim) && IS_SET(victim->specials.act, ACT_IMMUNE_TO_PARA)))
-  {
-=======
 
   if(IS_MAP_ROOM(victim->in_room))
   {
@@ -3251,20 +2298,12 @@ void spell_innate_blast(int level, P_char ch, char *arg, int type, P_char victim
       tries = 0;
       do
         dir = number(0,3);
->>>>>>> master
 
       while(tries++ < 10 &&
              !VALID_TELEPORT_EDGE(to_room, dir, victim->in_room));
 
-<<<<<<< HEAD
-    if((GET_LEVEL(ch) > 25) && number(0, 1))
-    {
-      af.type = SPELL_MAJOR_PARALYSIS;
-      af.bitvector2 = AFF2_MAJOR_PARALYSIS;
-=======
       if(tries < 10)
         to_room = TOROOM(to_room, dir);
->>>>>>> master
     }
   }
   else
@@ -3283,45 +2322,13 @@ void spell_innate_blast(int level, P_char ch, char *arg, int type, P_char victim
           tries < 1000);
   }
 
-<<<<<<< HEAD
-    if(!IS_AFFECTED2(victim, AFF2_MAJOR_PARALYSIS) &&
-        !IS_AFFECTED2(victim, AFF2_MINOR_PARALYSIS))
-    {
-      af.duration = (lev >> 5 + 1);
-      if(af.duration < 1)
-        af.duration = 1;
-
-      affect_to_char(victim, &af);
-=======
   if(tries >= 1000)
     to_room = victim->in_room;
->>>>>>> master
 
   if(LIMITED_TELEPORT_ZONE(victim->in_room))
   {
     if(how_close(victim->in_room, to_room, 5))
       send_to_char
-<<<<<<< HEAD
-        ("&+LYou are paralyzed!\r\n",
-         victim);
-      if(IS_FIGHTING(victim))
-        stop_fighting(victim);
-
-      /*
-       * stop all non-vicious/agg attackers
-       */
-      StopMercifulAttackers(victim);
-    }
-
-    if(CAN_SEE(victim, ch))
-      remember(victim, ch);
-  }
-  else if(IS_NPC(victim) && CAN_SEE(victim, ch))
-  {
-    remember(victim, ch);
-    if(!IS_FIGHTING(victim))
-      MobStartFight(victim, ch);
-=======
         ("The magic gathers, but somehow fades away before taking effect.\n", victim);
     return;
   }
@@ -3344,7 +2351,6 @@ void spell_innate_blast(int level, P_char ch, char *arg, int type, P_char victim
   {
     char_from_room(victim);
     char_to_room(victim, to_room, -1);
->>>>>>> master
   }
   
   act("and appear somewhere else!&n",
@@ -3355,11 +2361,7 @@ void spell_innate_blast(int level, P_char ch, char *arg, int type, P_char victim
   CharWait(victim, (3 * WAIT_SEC));
 }
 
-<<<<<<< HEAD
-void spell_ether_warp(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-=======
 void spell_psionic_wave_blast(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
->>>>>>> master
 {
   struct damage_messages messages = {
     "You begin your mental assault upon $N.&n",
@@ -3396,15 +2398,6 @@ void spell_psionic_wave_blast(int level, P_char ch, char *arg, int type, P_char 
     return;
   }
   
-<<<<<<< HEAD
-  act("&+yYour body reforms from the &+Ylight...&n",
-    FALSE, ch, 0, 0, TO_CHAR);
-  act("Beams of &+Ylight&n appear from nowhere, and $n materializes suddenly!",
-    FALSE, ch, 0, 0, TO_ROOM);
-}
-
-void spell_thought_beacon(int level, P_char ch, char *arg, int type, P_char victim, P_obj tar_obj)
-=======
   dam = dice(level, 4);
   
   if(number(0, 2) &&  // 66 percent less shrugging of this spell at start.
@@ -3431,7 +2424,6 @@ void spell_thought_beacon(int level, P_char ch, char *arg, int type, P_char vict
 }
 
 void event_psionic_wave_blast(P_char ch, P_char victim, P_obj obj, void *data)
->>>>>>> master
 {
   int      level, dam, in_room;
   struct affected_type *af;
@@ -3444,25 +2436,6 @@ void event_psionic_wave_blast(P_char ch, P_char victim, P_obj obj, void *data)
     "", 0
   };
 
-<<<<<<< HEAD
-  if(IS_SET(world[ch->in_room].room_flags, NO_TELEPORT) ||
-      world[ch->in_room].sector_type == SECT_OCEAN) {
-    send_to_char("Something blocks your mental powers here.\n", ch);
-    return;
-  }
-
-  if(afp = get_spell_from_char(ch, SPELL_THOUGHT_BEACON)) {
-    beacon = get_obj_in_list_num(real_object(416), world[afp->modifier].contents);
-    if(beacon)
-      extract_obj(beacon, FALSE);
-    afp->modifier = ch->in_room;
-  } else {
-    memset(&af, 0, sizeof(af));
-    af.type = SPELL_THOUGHT_BEACON;
-    af.flags = /*AFFTYPE_NOSHOW | AFFTYPE_NOSAVE |*/ AFFTYPE_NODISPEL | AFFTYPE_NOAPPLY;
-    af.modifier = ch->in_room;
-    af.duration = duration / PULSES_IN_TICK;
-=======
   level = *((int *) data);
 
   for (af = victim->affected; af && af->type != SPELL_PSIONIC_WAVE_BLAST; af = af->next)
@@ -3524,7 +2497,6 @@ void event_psionic_wave_blast(P_char ch, P_char victim, P_obj obj, void *data)
   
   if(ch->in_room != victim->in_room)
     dam /= 3;
->>>>>>> master
 
   if(spell_damage(ch, victim, dam, SPLDAM_PSI, SPLDAM_NODEFLECT | SPLDAM_NOSHRUG, &messages)
       == DAM_NONEDEAD)
@@ -3547,14 +2519,10 @@ void spell_enrage(int level, P_char ch, char *arg, int type, P_char victim,
                   P_obj obj)
 {
 
-<<<<<<< HEAD
-  if(!beacon)
-=======
   if (!ch || !victim)
     return;
 #if 0
   if (ch == victim)
->>>>>>> master
   {
     send_to_char("You cannot do this to yourself!\r\n", ch);
     return;
@@ -3595,49 +2563,6 @@ spell_mind_blank(int level, P_char ch, char *arg, int type, P_char victim,
     return;
   }
 
-<<<<<<< HEAD
-   if(!victim)
-   {
-    victim = ch;
-   }
-
-   /*
-   if(IS_ILLITHID(ch) && !IS_ILLITHID(victim) && !IS_TRUSTED(ch))
-   {
-      send_to_char("You can't target them!\r\n", ch);
-      return;
-   }
-   */
-   /*
-   if(GET_RACE(ch) == RACE_GITHYANKI)
-   {
-      send_to_char("&+LYour mind is too puny to create such a rift!&N\r\n", ch);
-      return;
-   }
-   */
-   
-   // disables BEACON
-   /*if(victim == ch)
-   {
-      return;
-   }
-   */
-  if(ch) // Just making sure... Nov08 -Lucrot
-  {
-     if(victim == ch)
-     {
-      afp = get_spell_from_char(ch, SPELL_THOUGHT_BEACON);
-      if(afp)
-      {
-         to_room = afp->modifier;
-         for (beacon = world[to_room].contents; beacon; beacon = beacon->next_content)
-         {
-          if( obj_index[beacon->R_num].virtual_number == 416 && beacon->value[0] == GET_PID(ch))
-           break;
-         }
-         if(!beacon)
-            success = false;
-=======
   if (affected_by_spell(ch, TAG_CONJURED_PET))
   return;
 
@@ -3649,7 +2574,6 @@ spell_mind_blank(int level, P_char ch, char *arg, int type, P_char victim,
       if (af1->type == SPELL_MIND_BLANK)
       {
         af1->duration = level / 2;
->>>>>>> master
       }
     return;
   }
@@ -3672,23 +2596,7 @@ void spell_cannibalize(int level, P_char ch, char *arg, int type, P_char victim,
   struct affected_type af;
 
 
-<<<<<<< HEAD
-  if(diff < -20)
-  {
-    act("$N's mental power is &+yfar greater than yours.", TRUE, ch, 0, victim, TO_CHAR);
-    act("$n has probed your mind!", TRUE, ch, 0, victim, TO_VICT);
-    return;
-  }
-  else if(diff < -10)
-  {
-    act("$N's mental power is &+ygreater&n than yours.", TRUE, ch, 0, victim, TO_CHAR);
-    act("$n has probed your mind!", TRUE, ch, 0, victim, TO_VICT);
-    return;
-  }
-  else if(diff < 10)
-=======
   if (!(victim && ch))
->>>>>>> master
   {
     logit(LOG_EXIT, "assert: bogus params in cannibalize");
     raise(SIGSEGV);
@@ -3733,9 +2641,6 @@ spell_tower_iron_will(int level, P_char ch, char *arg, int type,
   }
   if (affected_by_spell(ch, SPELL_TOWER_IRON_WILL))
   {
-<<<<<<< HEAD
-    act("Your mental powers are &+Ymuch &+ygreater&n than $N's.", TRUE, ch, 0, victim, TO_CHAR);
-=======
     struct affected_type *af1;
 
     for (af1 = victim->affected; af1; af1 = af1->next)
@@ -3743,7 +2648,6 @@ spell_tower_iron_will(int level, P_char ch, char *arg, int type,
       {
         af1->duration = level / 2;
       }
->>>>>>> master
     return;
   }
 
@@ -3826,138 +2730,12 @@ void spell_innate_blast(int level, P_char ch, char *arg, int type,
     if (CAN_SEE(victim, ch))
       remember(victim, ch);
   }
-<<<<<<< HEAD
-  
-  act("You will yourself to be elsewhere...", FALSE, victim, 0, 0, TO_CHAR);
-  act("A &+Lblack line&n forms from nowhere and $n falls through it!", FALSE, victim, 0, 0, TO_ROOM);
-  
-  if(IS_FIGHTING(victim))
-    stop_fighting(victim);
-  
-  if(victim->in_room != NOWHERE)
-    for (t_ch = world[victim->in_room].people; t_ch; t_ch = t_ch->next)
-      if(IS_FIGHTING(t_ch) &&
-         t_ch->specials.fighting == victim)
-            stop_fighting(t_ch);
-  
-  if(victim->in_room != to_room)
-=======
   else if (IS_NPC(victim) && CAN_SEE(victim, ch))
->>>>>>> master
   {
     remember(victim, ch);
     if (!IS_FIGHTING(victim))
       MobStartFight(victim, ch);
   }
-<<<<<<< HEAD
-  
-  act("and appear somewhere else!", FALSE, victim, 0, 0, TO_CHAR);  
-  act("A &+Lblack line&n appears from nowhere and $n rises directly out of it.", FALSE, victim, 0, 0, TO_ROOM);
-    
-  CharWait(victim, (3 * WAIT_SEC));
-}
-
-void spell_pyrokinesis(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-{
-  char     buf[256];
-  struct affected_type af;
-  struct damage_messages messages = {
-    "&+mYou ignite an &+ri&+Rn&+rf&+Re&+rr&+Rn&+ro &+mwithin &N$N's &+mbody.",
-    "&+mYou scream in &+Wa&+wg&+Wo&+wn&+Wy &+mas &+rs&+Rea&+rri&+Rng &+rh&+Re&+Ra&+rt &+wi&+rg&+wn&+wi&+rt&+we&+rs and &+rb&+Rur&+Ws&+wt&+Rs &+Ri&+Wn&+wt&+Ro f&+Wl&+wa&+Wm&+Re&+Rs &+mwithin your body.",
-    "&N$N &+mscreams and doubles over in &+Wa&+wg&+Wo&+wn&+Wy &+mas &+rs&+Rea&+rri&+Rng &+rh&+Re&+Ra&+rt &+ri&+Rg&+wn&+Wit&+we&+Rs &+mwithin $S body.",
-    "&+mYou set &N$N's &+mwhole body &+Rab&+wl&+Wa&+wz&+Re&+m, leaving nothing but &+Lscorched &+mremains.",
-    "&+RBl&+wa&+Wz&+wi&+Rn&+rg i&+Rn&+rf&+Re&+rr&+Rn&+ro &+mgrows from within and &+Lscorches &+myour whole body dead.",
-    "&+RRa&+rgi&+Rng &+rf&+Rla&+rme&+Rs &+Wb&+wu&+Wr&+ws&+Wt &+mfrom within and &+We&+wn&+Wg&+wu&+Wl&+wf &N$N's &+mwhole body, leaving nothing but &+Lscorched &+mremains.", 0
-  };
-  
-  if(!(ch) || 
-     !IS_ALIVE(ch) ||
-     !(victim) ||
-     !IS_ALIVE(victim))
-      return;
-
-  int phys_dam = dice(level / 2, 3);
-  int fire_dam = dice(level / 2, 3);
-
-  if(GET_SPEC(ch, CLASS_PSIONICIST, SPEC_PYROKINETIC))
-     fire_dam = (int)(fire_dam * 1.20);
-
-  if(NewSaves(ch, SAVING_SPELL, 0))
-    fire_dam >> 1;
-
-  if(NewSaves(ch, SAVING_PARA, 0))
-    phys_dam >> 1;
-  
- if(!StatSave(victim, APPLY_POW, POW_DIFF(ch, victim)))
-    fire_dam = ((float)fire_dam * 1.25);
-
-  spell_damage(ch, victim, fire_dam, SPLDAM_FIRE, SPLDAM_NOSHRUG | SPLDAM_NODEFLECT | RAWDAM_NOKILL, 0);
-  if(IS_ALIVE(victim))
-  {
-      if((IS_AFFECTED2(victim, AFF2_FIRE_AURA) && IS_AFFECTED2(victim, AFF2_FIRESHIELD)) || GET_RACE(victim) == RACE_F_ELEMENTAL)
-        return;
-      if(spell_damage(ch, victim, phys_dam, SPLDAM_PSI, SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, &messages) != DAM_NONEDEAD)
-        return;
-  }
-  
-  if(!affected_by_spell(victim, SPELL_PYROKINESIS) && !number(0, 3))
-  {
-    int mod = number(level / 5, level / 14);
-    bzero(&af, sizeof(af));
-    af.type = SPELL_PYROKINESIS;
-    af.duration =  1;
-    af.modifier = (int) (-1 * (level / mod));
-
-    act("&+m$n &+msuddenly looks in pain as $e moves.", FALSE, victim, 0, 0, TO_ROOM);
-
-    switch (number(0, 2))
-    {
-      case 0:
-        send_to_char("&+mThe heat damages your muscles, you feel less agile.\r\n", victim);
-        af.location = APPLY_AGI;
-        break;
-        
-      case 1:
-        send_to_char("&+mThe heat damages your muscles, you feel less dexterous.\r\n", victim);
-        af.location = APPLY_DEX;
-        break;
-        
-      case 2:
-        send_to_char("&+mThe heat damages your muscles, you feel weaker.\r\n", victim);
-        af.location = APPLY_STR;
-        break;
-      default:
-        break;
-    }
-    affect_to_char(victim, &af);
-  }
-}
-
-
-/////////////////////////
-// MINDFLYER ONLY SPELLS
-/////////////////////////
-
-void spell_mind_blank(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-{
-  struct affected_type af;
-  int dur;
-
-  if(!(ch) ||
-     !IS_ALIVE(ch))
-      return;
-  
-  if(IS_PC(ch) ||
-     IS_PC_PET(ch))
-        dur = level;
-  else
-    dur = 100;
-  
-  if(CheckMindflayerPresence(ch))
-  {
-    send_to_char
-      ("You sense an ethereal disturbance and abort your spell!\r\n", ch);
-=======
 }
 
 
@@ -3969,48 +2747,8 @@ spell_radial_navigation(int level, P_char ch, char *arg, int type,
   int      distance, i, dir, to_room, temp, curr_room;
 
   if (!ch)
->>>>>>> master
     return;
 
-<<<<<<< HEAD
-  if(affected_by_spell(ch, SPELL_MIND_BLANK))
-  {
-    struct affected_type *af1;
-
-    for (af1 = victim->affected; af1; af1 = af1->next)
-      if(af1->type == SPELL_MIND_BLANK)
-      {
-        af1->duration = dur;
-      }
-    send_to_char("Ah yes, you blank your mind of all thoughts...\r\n", victim);
-    return;
-  }
-
-  bzero(&af, sizeof(af));
-  af.type = SPELL_MIND_BLANK;
-  af.duration = dur;
-  af.bitvector3 = AFF3_NON_DETECTION;
-  affect_to_char(ch, &af);
-
-  act("&+YYour mind now protect you against most detection!",
-    FALSE, ch, 0, 0, TO_CHAR);
-
-  return;
-}
-
-void spell_mind_travel(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-{
-  int      num_rooms = 24;      /* match the array below - 1 */
-  int      r_room = -1;
-  int      to_room[] = { 96563, 96563, 11545, 15273, 96900,
-    36171, 96563, 4109, 4437, 4109,
-    96803, 17589, 17607, 96909, 3404,
-    23812, 23805, 12535, 12528, 25458,
-    25459, 25458, 12535, 12536, 12540
-  };
-
-  if(IS_FIGHTING(ch))
-=======
   argument_interpreter(arg, arg1, arg2);
 
 /* Bypassing class check. Lucrot 31Aug2008
@@ -4027,18 +2765,11 @@ void spell_mind_travel(int level, P_char ch, char *arg, int type, P_char victim,
     return;
   }
   if (!arg2)
->>>>>>> master
   {
     send_to_char("You must specify the distance you wish to travel.\r\n", ch);
     return;
   }
-<<<<<<< HEAD
-
-  if(IS_SET(world[ch->in_room].room_flags, NO_TELEPORT) ||
-      world[ch->in_room].sector_type == SECT_OCEAN)
-=======
   switch (*arg1)
->>>>>>> master
   {
   case 'n':
     dir = 0;
@@ -4056,66 +2787,26 @@ void spell_mind_travel(int level, P_char ch, char *arg, int type, P_char victim,
     send_to_char("That is not a valid direction.\r\n", ch);
     return;
   }
-<<<<<<< HEAD
-  char_from_room(ch);
-  while (r_room == -1)
-    r_room = real_room(to_room[number(0, num_rooms)]);
-  act("$n travel with the speed of &+Clight&n and reappear elsewhere...bye!",
-      FALSE, ch, obj, 0, TO_CHAR);
-  act("You travel with the speed of &+Clight&n and reappear elsewhere...",
-      FALSE, ch, obj, 0, TO_CHAR);
-  char_to_room(ch, r_room, -1);
-  CharWait(ch, 5);
-  return;
-}
-
-void spell_mental_anguish(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-{
-  struct affected_type af;
-
-  if(!(ch) ||
-     !IS_ALIVE(ch) ||
-     !(victim) ||
-     !IS_ALIVE(victim))
-      return;
-  
-  if(IS_BRAINLESS(victim))
-=======
   if (!(is_number(arg2) && (distance = atoi(arg2))))
->>>>>>> master
   {
     send_to_char("That is not a proper distance.\r\n", ch);
     return;
   }
-<<<<<<< HEAD
-  
-  appear(ch);
-  
-  if(CheckMindflayerPresence(ch))
-=======
   if (distance > (GET_LEVEL(ch) + 10))
->>>>>>> master
   {
     send_to_char("Your meager mentality cannot carry you that far!\r\n", ch);
     return;
   }
-<<<<<<< HEAD
-  if(affected_by_spell(victim, SPELL_MENTAL_ANGUISH))
-=======
   to_room = ch->in_room;
   for (curr_room = 0; curr_room <= top_of_world; curr_room++)
     BFSUNMARK(curr_room);
   for (i = 0; i < distance; i++)
->>>>>>> master
   {
     if (!VALID_RADIAL_EDGE(to_room, dir))
       break;
     to_room = TOROOM(to_room, dir);
   }
 
-<<<<<<< HEAD
-  if(StatSave(victim, APPLY_POW, MIN(0, POW_DIFF(ch, victim))))
-=======
   temp = world[ch->in_room].sector_type;
   if (!IS_TRUSTED(ch) &&
       ((to_room == NOWHERE) || (to_room == ch->in_room) ||
@@ -4123,7 +2814,6 @@ void spell_mental_anguish(int level, P_char ch, char *arg, int type, P_char vict
        IS_SET(world[ch->in_room].room_flags, NO_TELEPORT) ||
        IS_SET(world[to_room].room_flags, NO_TELEPORT) ||
        (GET_MASTER(ch) && IS_PC(victim))))
->>>>>>> master
   {
     act
       ("&+L$n's&+L outline begins to &n&+rvibrate&+L, then &+Bblur&+L.... then stabilize.&N",
@@ -4159,13 +2849,9 @@ void spell_mental_anguish(int level, P_char ch, char *arg, int type, P_char vict
   }
 }
 
-<<<<<<< HEAD
-void spell_memory_block(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-=======
 
 void spell_ethereal_rift(int level, P_char ch, char *arg, int type,
                          P_char victim, P_obj obj)
->>>>>>> master
 {
   int      to_room, dam, temp, found = 0;
   int      z, room, mask;
@@ -4181,284 +2867,12 @@ void spell_ethereal_rift(int level, P_char ch, char *arg, int type,
 
   if (IS_NPC(victim))
   {
-<<<<<<< HEAD
-    send_to_char("Your victim is brainless and without any sort of memory.\r\n", ch);
-    return;
-  }
-  
-  if(CheckMindflayerPresence(ch))
-  {
-    send_to_char
-      ("You sense an ethereal disturbance and abort your spell!\r\n", ch);
-    return;
-  }
-
-  if(StatSave(victim, APPLY_POW, MIN(0, POW_DIFF(ch, victim))))
-  {
-    //if(StatSave (victim, APPLY_POW, MIN(1, GET_LEVEL(ch) - GET_LEVEL(victim))*POW_DIFF(ch, victim))) {
-    send_to_char("&+RYou briefly forget why you're here.&n\r\n", victim);
-    return;
-  }
-  
-  appear(ch);
-
-  act("$N stares around &+Wblankly.&n",
-    TRUE, ch, 0, victim, TO_CHAR);
-  act("You seem to have &+yforgotten&n why you are here!&n",
-    TRUE, ch, 0, victim, TO_VICT);
-  act("$N stares around &+Wblankly.&n",
-    TRUE, ch, 0, victim, TO_NOTVICT);
-
-  SET_BIT(victim->specials.affected_by5, AFF5_MEMORY_BLOCK);
-  return;
-}
-
-void spell_psionic_cloud(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-{
-  struct affected_type af;
-  struct affected_type af1;
-  P_char   tch, next;
-  int save;
-
-  if(CheckMindflayerPresence(ch))
-  {
-    send_to_char
-      ("You sense an ethereal disturbance and abort your spell!\r\n", ch);
-    return;
-  }
-
-  act("&+LYou summon a dark haze of psionic energy with the power of your mind!",
-      FALSE, ch, 0, 0, TO_CHAR);
-  act("&+L$n &+Lsquints and a dark haze of psionic energy appears!", FALSE,
-      ch, 0, 0, TO_ROOM);
-
-
-  bzero(&af, sizeof(af));
-  af.type = SPELL_PSIONIC_CLOUD;
-  af.duration = 2;
-  af.modifier = -1 * number(level / 4, 30);
-  af.bitvector = 0;
-  af.location = APPLY_POW;
-
-  bzero(&af1, sizeof(af1));
-  af1.type = SPELL_PSIONIC_CLOUD;
-  af1.duration = 2;
-  af1.modifier = -1 * number(level / 4, 25);
-  af1.bitvector = 0;
-  af1.location = APPLY_MOVE;
-
-  for (tch = world[ch->in_room].people; tch; tch = next)
-  {
-    next = tch->next_in_room;
-
-    if(should_area_hit(ch, tch))
-    {
-      if(affected_by_spell(tch, SPELL_PSIONIC_CLOUD))
-	  {
-		 act("$N &+Lis already affected by your psionic haze!&n",
-         TRUE, ch, 0, tch, TO_CHAR);
-        continue;
-	  }
-
-      save = BOUNDED(5, GET_C_POW(ch) + level - GET_C_INT(tch) - GET_LEVEL(tch), 95);
-
-      if(save > number(0, 100))
-	  {
-      act("$N &+Lis engulfed by the psionic haze!&n",
-          TRUE, ch, 0, tch, TO_CHAR);
-      act("&+LYou feel much less virile as you are engulfed by &n$n&+L's psionic cloud...&n",
-          TRUE, ch, 0, tch, TO_VICT);
-      act("$N &+Lis engulfed by the psionic haze!&n",
-          TRUE, ch, 0, tch, TO_NOTVICT);
-      affect_to_char(tch, &af);
-      affect_to_char(tch, &af1);
-	  }
-    }
-  }
-
-  zone_spellmessage(ch->in_room,
-                    "&+LYou feel weakened as your psyche senses a massive energy influx!\r\n",
-                    "&+LYou feel weakened as your psyche senses a massive energy influx coming from the %s!\r\n");
-
-  return;
-}
-
-
-void spell_enhance_armor(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-{
-  struct affected_type af;
-  int dur;
-  
-  if(!(ch) ||
-     !IS_ALIVE(ch))
-        return;
-  
-  if(IS_PC(ch) ||
-     IS_PC_PET(ch))
-        dur = (int)(level / 4);
-  else
-    dur = level / 2;
-  
-  if(!affected_by_spell(victim, SPELL_ENHANCE_ARMOR))
-  {
-    bzero(&af, sizeof(af));
-    af.type = SPELL_ENHANCE_ARMOR;
-    af.duration = dur;
-    af.location = APPLY_AC;
-    af.modifier = -1 * level / 2;
-    affect_to_char(victim, &af);
-    send_to_char("&+BBands of psionic force surround you!\r\n", victim);
-    
-    act("$n&+L's image becaomes &+Yhazy &+Las &+wmisty bands &+Lsurround $m.", FALSE, victim, 0, 0, TO_ROOM);
-  }
-  else
-  {
-    struct affected_type *af1;
-
-    for (af1 = victim->affected; af1; af1 = af1->next)
-      if(af1->type == SPELL_ENHANCE_ARMOR)
-      {
-        af1->duration = 25;
-      }
-  }
-}
-
-///////////////////
-// UNUSED SPELLS
-///////////////////
-
-void spell_radial_navigation(int level, P_char ch, char *arg, int type, P_char victim, P_obj tar_obj)
-{
-  char     arg1[MAX_STRING_LENGTH], arg2[MAX_STRING_LENGTH];
-  int      distance, i, dir, to_room, temp, curr_room;
-
-  if(!ch)
-    return;
-
-  argument_interpreter(arg, arg1, arg2);
-
-/* Bypassing class check. Lucrot 31Aug2008
- *  if(!IS_TRUSTED(ch) && !GET_CLASS(ch, CLASS_PSIONICIST))
- * {
- *   send_to_char("You cannot master that power!\r\n", ch);
- *   return;
- * }
-*/
- 
- if(!arg1)
-  {
-    send_to_char("You must specify a direction of travel: n,s,e,w\r\n", ch);
-    return;
-  }
-  if(!arg2)
-  {
-    send_to_char("You must specify the distance you wish to travel.\r\n", ch);
-    return;
-  }
-  switch (*arg1)
-  {
-  case 'n':
-    dir = 0;
-    break;
-  case 'e':
-    dir = 1;
-    break;
-  case 's':
-    dir = 2;
-    break;
-  case 'w':
-    dir = 3;
-    break;
-  default:
-    send_to_char("That is not a valid direction.\r\n", ch);
-    return;
-  }
-  if(!(is_number(arg2) && (distance = atoi(arg2))))
-  {
-    send_to_char("That is not a proper distance.\r\n", ch);
-    return;
-  }
-  if(distance > (GET_LEVEL(ch) + 10))
-  {
-    send_to_char("Your meager mentality cannot carry you that far!\r\n", ch);
-    return;
-  }
-  to_room = ch->in_room;
-  bfs_clear_marks();
-  for (i = 0; i < distance; i++)
-  {
-    if(!VALID_RADIAL_EDGE(to_room, dir))
-      break;
-    to_room = TOROOM(to_room, dir);
-  }
-
-  temp = world[ch->in_room].sector_type;
-  if(!IS_TRUSTED(ch) &&
-      ((to_room == NOWHERE) || (to_room == ch->in_room) ||
-       !IS_MAP_ROOM(ch->in_room) || !IS_MAP_ROOM(to_room) ||
-       IS_SET(world[ch->in_room].room_flags, NO_TELEPORT) ||
-       IS_SET(world[to_room].room_flags, NO_TELEPORT) ||
-       (GET_MASTER(ch) && IS_PC(victim))))
-  {
-    act
-      ("&+L$n's&+L outline begins to &n&+rvibrate&+L, then &+Bblur&+L.... then stabilize.&N",
-       TRUE, ch, 0, 0, TO_ROOM);
-    act("&+wYour will is not strong enough to carry you away.&n", TRUE, ch, 0,
-        0, TO_CHAR);
-  }
-  else
-  {
-    act
-      ("&+L$n's&+L outline begins to &n&+rvibrate&+L, then &+Bblur&+L, then.....    disappear.&N",
-       TRUE, ch, 0, 0, TO_ROOM);
-    char_from_room(ch);
-    char_to_room(ch, to_room, -1);
-    send_to_char("&+LYou feel exhausted from the jaunt.&N\r\n", ch);
-    act
-      ("&+LFrom out of nowhere $n's&+L blurred form streaks into the room!&N",
-       TRUE, ch, 0, 0, TO_ROOM);
-  }
-
-  /* subtract mana regardless of success..  snif */
-
-  GET_MANA(ch) -= (distance * 2);
-  CharWait(ch, 10);
-
-  /* twould be best to add more to their knock out time if they're already knocked out, but f it */
-
-  if((GET_MANA(ch) < 0) && !IS_AFFECTED(ch, AFF_KNOCKED_OUT))
-  {
-    act("Exhausted, $n passes out!", FALSE, ch, 0, 0, TO_ROOM);
-    send_to_char("Reserves exhausted, you pass out!\r\n", ch);
-    KnockOut(ch, -(int) ((float) (GET_MANA(ch)) * 1.5));
-  }
-}
-
-
-void spell_ethereal_rift(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-{
-  int      to_room, dam, temp, found = 0;
-  int      z, room, mask;
-  struct remember_data *chars_in_zone;
-  P_char   tmp, tmp_next;
-
-
-  if(!ch)
-    return;
-
-  if(!victim)
-    victim = ch;
-
-  if(IS_NPC(victim))
-  {
-=======
->>>>>>> master
     send_to_char("Nice try...\r\n", ch);
     return;
   }
 
   dam = 1;
-  if(dam <= 0)
+  if (dam <= 0)
     dam = 1;
 
   do
@@ -4473,21 +2887,21 @@ void spell_ethereal_rift(int level, P_char ch, char *arg, int type, P_char victi
           IS_HOMETOWN(to_room) ||
           world[to_room].sector_type == SECT_OCEAN) && found < 1000);
 
-  if((IS_SET(world[victim->in_room].room_flags, PRIVATE) ||
+  if ((IS_SET(world[victim->in_room].room_flags, PRIVATE) ||
        IS_SET(world[victim->in_room].room_flags, PRIV_ZONE) ||
        IS_SET(world[victim->in_room].room_flags, NO_TELEPORT) ||
        IS_HOMETOWN(victim->in_room) ||
        world[victim->in_room].sector_type == SECT_OCEAN))
     to_room = ch->in_room;
 
-  if((IS_SET(world[ch->in_room].room_flags, PRIVATE) ||
+  if ((IS_SET(world[ch->in_room].room_flags, PRIVATE) ||
        IS_SET(world[ch->in_room].room_flags, PRIV_ZONE) ||
        IS_SET(world[ch->in_room].room_flags, NO_TELEPORT) ||
        IS_HOMETOWN(ch->in_room) ||
        world[ch->in_room].sector_type == SECT_OCEAN))
     to_room = ch->in_room;
 
-  if(found == 1000)
+  if (found == 1000)
     to_room = ch->in_room;
 
   send_to_char
@@ -4497,7 +2911,7 @@ void spell_ethereal_rift(int level, P_char ch, char *arg, int type, P_char victi
   for (tmp = world[ch->in_room].people; tmp; tmp = tmp_next)
   {
     tmp_next = tmp->next_in_room;
-    if(IS_AFFECTED(tmp, AFF_BLIND) || (tmp == ch))
+    if (IS_AFFECTED(tmp, AFF_BLIND) || (tmp == ch))
       continue;
     act
       ("&+LA dark tear in reality opens, and $n shimmers and fades away!\r\n",
@@ -4512,7 +2926,7 @@ void spell_ethereal_rift(int level, P_char ch, char *arg, int type, P_char victi
   for (tmp = world[ch->in_room].people; tmp; tmp = tmp_next)
   {
     tmp_next = tmp->next_in_room;
-    if(IS_AFFECTED(tmp, AFF_BLIND) || (tmp == ch))
+    if (IS_AFFECTED(tmp, AFF_BLIND) || (tmp == ch))
       continue;
     act("&+LA black cloud shimmers and slowly forms into $n!\r\n", FALSE, ch,
         0, tmp, TO_VICT);
@@ -4546,59 +2960,6 @@ void spell_ether_warp(int level, P_char ch, char *arg, int type,
     dam = 1;
   }
 
-<<<<<<< HEAD
-    if(!ch || !victim)
-    return;
-    
-    if(!victim->following) {
-        send_to_char("There is no link for you to sever. This creature is already free!\r\n", ch);
-        return;
-    }
-    
-    send_to_char("You attempt to sever the link between the pet and the master.\r\n", ch);
-    send_to_char("You feel as if someone is probing the bond to your pet.\r\n", victim->following);
-    
-    if(GET_LEVEL(victim) > 50) {
-      send_to_char("But it seems that this time you are powerless.\r\n", ch);
-      send_to_char("But it seems they are powerless.\r\n", victim->following);
-      act("$N just tried to break the link between you and your master...", FALSE, ch, 0, victim, TO_CHAR);
-      if(!IS_FIGHTING(victim))
-         MobStartFight(victim, ch);
-      return;
-    }
-    
-    if(number(0, 99) < BOUNDED(10, (100 - GET_LEVEL(victim)), 90)) {
-      act("$N jerks slightly as you tear through the bond.", FALSE, ch, 0, victim, TO_CHAR);
-      send_to_char("A stabbing pain fills your head as the bond is torn to shreds!\r\n", victim->following);
-      send_to_char("A sudden wave of blackness obscures your vision...\r\n", victim);
-      send_to_char("...and when it dissipates you feel you are no longer being controlled.\r\n", victim);
-      stop_follower(victim);
-    } else
-    MobStartFight(victim, ch);
-}
-
-void spell_control_flames(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-{
-  char buf[MAX_STRING_LENGTH];
-  int  dam;
-
-  const int dam_each[61] = { 0,
-    0, 0, 0, 0, 0, 0, 0, 16, 20, 24,
-    28, 32, 35, 38, 40, 42, 44, 45, 45, 45,
-    46, 46, 46, 47, 47, 47, 48, 48, 48, 49,
-    49, 49, 50, 50, 50, 51, 51, 51, 52, 52,
-    52, 53, 53, 53, 54, 54, 54, 55, 55, 55,
-    56, 56, 56, 57, 57, 58, 58, 58, 59, 59
-  };
-
-  sprintf (buf, "torch");
-  obj = get_obj_in_list_vis (ch, buf, victim->carrying);
-  if(!obj)
-    {
-      act ("Your target must be carrying a torch.", 0, ch, 0, 0, TO_CHAR);
-      return;
-    }
-=======
   if(victim &&
     IS_PC(victim) &&
     IS_ILLITHID(ch) &&
@@ -4640,7 +3001,6 @@ void spell_control_flames(int level, P_char ch, char *arg, int type, P_char vict
   {
     to_room = ch->in_room;
   }
->>>>>>> master
 
   if (!IS_TRUSTED(ch) /* && IS_ILLITHID(ch) */  &&
       ((to_room == NOWHERE) || (to_room == ch->in_room) ||
@@ -4658,14 +3018,6 @@ void spell_control_flames(int level, P_char ch, char *arg, int type, P_char vict
     to_room = ch->in_room;
   }
 
-<<<<<<< HEAD
-  if(StatSave(victim, APPLY_POW, 0))
-    dam /= 2;
-
-      act ("&+r$N's $p suddenly flares up, engulfing $M in flames!", TRUE, ch, obj, victim, TO_CHAR);
-      act ("&+rYour $p suddenly flares up, engulfing you in flames!", TRUE, ch, obj, victim, TO_VICT);
-      act ("&+r$N's $p suddenly flares up, engulfing $M in flames!", TRUE, ch, obj, victim, TO_NOTVICT);
-=======
   send_to_char("Your body explodes into light.\r\n", ch);
 
   if (!IS_TRUSTED(ch))
@@ -4691,7 +3043,6 @@ void spell_control_flames(int level, P_char ch, char *arg, int type, P_char vict
   ch->specials.z_cord = victim->specials.z_cord;
   char_to_room(ch, to_room, -1);
   send_to_char("&+LYour body reforms from the light.\r\n", ch);
->>>>>>> master
 
   for (tmp = world[ch->in_room].people; tmp; tmp = tmp_next)
   {
@@ -4713,12 +3064,8 @@ void spell_control_flames(int level, P_char ch, char *arg, int type, P_char vict
 	}
 }
 
-<<<<<<< HEAD
-void spell_celerity(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
-=======
 void spell_thought_beacon(int level, P_char ch, char *arg, int type,
                         P_char victim, P_obj tar_obj)
->>>>>>> master
 {
   P_obj    beacon;
   struct affected_type af, *afp;
@@ -4730,14 +3077,6 @@ void spell_thought_beacon(int level, P_char ch, char *arg, int type,
     return;
   }
 
-<<<<<<< HEAD
-  movepoints = dice(3, level / 8);
-
-  if(GET_VITALITY(ch) > (GET_MAX_VITALITY(ch) - (movepoints/2)))
-  {
-        send_to_char("You are quite capable of running right now, no need for extra boost.\n", ch);
-        return;
-=======
   if (afp = get_spell_from_char(ch, SPELL_THOUGHT_BEACON)) {
     beacon = get_obj_in_list_num(real_object(416), world[afp->modifier].contents);
     if (beacon)
@@ -4751,7 +3090,6 @@ void spell_thought_beacon(int level, P_char ch, char *arg, int type,
     af.duration = duration / PULSES_IN_TICK;
 
     affect_to_char(ch, &af);
->>>>>>> master
   }
 
   beacon = read_object(real_object(416), REAL);
@@ -4814,33 +3152,10 @@ void spell_wormhole(int level, P_char ch, char *arg, int type, P_char victim, P_
     raise(SIGSEGV);
   }
 
-<<<<<<< HEAD
-  if(!number(0, 2) &&
-     resists_spell(ch, victim))
-  {
-    if(!(IS_SET((ch)->specials.affected_by2, AFF2_CASTING)))
-      SET_BIT((ch)->specials.affected_by2, AFF2_CASTING);
-    
-    GET_MANA(ch) -= 50;
-    
-    add_event(event_psionic_wave_blast, PULSE_VIOLENCE, ch,
-      victim, NULL, 0, &level, sizeof(level));
-    return;
-  }
-  
-  dam = dice(level, 4);
-  
-  if(!StatSave(victim, APPLY_POW, POW_DIFF(ch, victim)))
-    dam = (int)(dam * 1.25);
-  
-  if(ch->in_room != victim->in_room)
-    dam /= 3;
-=======
    if (!victim)
    {
     victim = ch;
    }
->>>>>>> master
 
    /*
    if(IS_ILLITHID(ch) && !IS_ILLITHID(victim) && !IS_TRUSTED(ch))

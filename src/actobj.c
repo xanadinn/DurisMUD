@@ -504,9 +504,7 @@ void do_get(P_char ch, char *argument, int cmd)
            if (check_get_disarmed_obj(ch, o_obj->last_to_hold, o_obj))
            continue; */
 
-        if ((IS_CARRYING_N(ch) + 1) <= CAN_CARRY_N(ch)  ||   
-           ((GET_OBJ_VNUM(o_obj) > 400000) &&
-	   (GET_OBJ_VNUM(o_obj) < 400211) ))
+        if ((IS_CARRYING_N(ch) + 1) <= CAN_CARRY_N(ch))
         {
           if ((IS_CARRYING_W(ch) + GET_OBJ_WEIGHT(o_obj)) <= CAN_CARRY_W(ch))
           {
@@ -569,9 +567,7 @@ void do_get(P_char ch, char *argument, int cmd)
        return;
        */
 
-      if (IS_CARRYING_N(ch) < CAN_CARRY_N(ch) ||   
-           ((GET_OBJ_VNUM(o_obj) > 400000) &&
-	   (GET_OBJ_VNUM(o_obj) < 400211) ))
+      if (IS_CARRYING_N(ch) < CAN_CARRY_N(ch))
       {
         if ((IS_CARRYING_W(ch) + GET_OBJ_WEIGHT(o_obj)) <= CAN_CARRY_W(ch))
         {
@@ -699,9 +695,7 @@ void do_get(P_char ch, char *argument, int cmd)
            */
           if (CAN_SEE_OBJ(ch, o_obj))
           {
-            if (IS_CARRYING_N(ch) < CAN_CARRY_N(ch) ||   
-           ((GET_OBJ_VNUM(o_obj) > 400000) &&
-	   (GET_OBJ_VNUM(o_obj) < 400211) ))
+            if (IS_CARRYING_N(ch) < CAN_CARRY_N(ch))
             {
               if (((IS_CARRYING_W(ch) + GET_OBJ_WEIGHT(o_obj)) <
                    CAN_CARRY_W(ch)) || OBJ_CARRIED(s_obj))
@@ -926,9 +920,7 @@ void do_get(P_char ch, char *argument, int cmd)
           o_obj = get_obj_in_list_vis(ch, arg1, s_obj->contains);
         if (o_obj)
         {
-          if (IS_CARRYING_N(ch) < CAN_CARRY_N(ch) ||   
-           ((GET_OBJ_VNUM(o_obj) > 400000) &&
-	   (GET_OBJ_VNUM(o_obj) < 400211) ))
+          if (IS_CARRYING_N(ch) < CAN_CARRY_N(ch))
           {
             if (((IS_CARRYING_W(ch) + GET_OBJ_WEIGHT(o_obj)) <
                  CAN_CARRY_W(ch)) || OBJ_CARRIED(s_obj))
@@ -3593,27 +3585,22 @@ int wear(P_char ch, P_obj obj_object, int keyword, int showit)
   char     Gbuf3[MAX_STRING_LENGTH];
   int      free_hands, wield_to_where, o_size, hands_needed, comnd;
 
-<<<<<<< HEAD
-  if(obj_object->condition <= 0)
-=======
   // Kill on !Object or !Character
   if(!obj_object || !ch)
     return false;
 
   // Scrap it. Might cause crash. Dec08 -Lucrot
   if(obj_object->condition <= 0) 
->>>>>>> master
   {
+    wizlog(56, "%s wore %s that's condition 0 or less : attempting to scrap.",
+          GET_NAME(ch),
+          obj_object->short_description);
     MakeScrap(ch, obj_object);
     return false;
   }
-<<<<<<< HEAD
-#if 0
-=======
 
   // Quick and dirty periodic check for buggy items. Dec08 -Lucrot
   // Can write to player log if these checks are sufficient.
->>>>>>> master
   for (int i = 0; i < 3; i++ )
   {  // Hunting a bad apply ...
     if(obj_object->affected[i].location > APPLY_LAST &&
@@ -3662,7 +3649,6 @@ int wear(P_char ch, P_obj obj_object, int keyword, int showit)
       }
     }
   }
-#endif
 
   // Cannot use the item.  Return FALSE.
   if (!can_char_use_item(ch, obj_object))
@@ -3671,12 +3657,13 @@ int wear(P_char ch, P_obj obj_object, int keyword, int showit)
       act("You can't use $p.", FALSE, ch, obj_object, 0, TO_CHAR);
     return FALSE;
   }
-
+#if 1
   /*
    * monk weight restriction
    */
   if (IS_PC(ch) && GET_CLASS(ch, CLASS_MONK) && keyword != 20)
   {
+    /*
     if (GET_LEVEL(ch) < 40 &&
        (GET_OBJ_WEIGHT(obj_object) > (27 - (GET_LEVEL(ch) / 2))))
     {
@@ -3684,6 +3671,7 @@ int wear(P_char ch, P_obj obj_object, int keyword, int showit)
         act("$p is far too heavy and cumbersome, your skills would be useless!", FALSE, ch, obj_object, 0, TO_CHAR);
       return FALSE;
     }
+    */
     int monkweight = get_property("monk.weight.str.modifier.denominator", 10);
 
     if(GET_OBJ_WEIGHT(obj_object) > (int)(GET_C_STR(ch) / monkweight))
@@ -3693,14 +3681,9 @@ int wear(P_char ch, P_obj obj_object, int keyword, int showit)
       return FALSE;
     }
   }
-<<<<<<< HEAD
-
-  /* let's check for artis here */
-=======
 #endif
 /* let's check for artis here */
 /*
->>>>>>> master
 #if 0
   if (IS_ARTIFACT(obj_object) &&
       !CAN_WEAR(obj_object, WEAR_IOUN) &&
@@ -3845,11 +3828,7 @@ int wear(P_char ch, P_obj obj_object, int keyword, int showit)
       if (showit)
       {
         if (IS_ILLITHID(ch) || IS_PILLITHID(ch))
-<<<<<<< HEAD
-          send_to_char("You can't wear that on your head and make use of your brain, so why would you?\r\n", ch);
-=======
           send_to_char("Sorry, you can't wear anything on your head.\r\n", ch);
->>>>>>> master
         else
           send_to_char("You can't wear that on your head.\r\n", ch);
       }
@@ -3860,16 +3839,9 @@ int wear(P_char ch, P_obj obj_object, int keyword, int showit)
     if (CAN_WEAR(obj_object, ITEM_WEAR_LEGS) && 
        !IS_DRIDER(ch) &&
        !IS_CENTAUR(ch) &&
-<<<<<<< HEAD
-       !IS_OGRE(ch) &&
-       !IS_SNOWOGRE(ch) &&
-       !IS_HARPY(ch)/* &&
-       !IS_MINOTAUR(ch) */)
-=======
        !IS_HARPY(ch) &&
        !IS_OGRE(ch) &&
        !(GET_RACE(ch) == RACE_FIRBOLG))
->>>>>>> master
     {
       if (ch->equipment[WEAR_BODY] &&
           IS_SET(ch->equipment[WEAR_BODY]->extra_flags, ITEM_WHOLE_BODY))
@@ -3943,11 +3915,6 @@ int wear(P_char ch, P_obj obj_object, int keyword, int showit)
     }
     break;
 
-<<<<<<< HEAD
-  case 8:
-    if(CAN_WEAR(obj_object, ITEM_WEAR_ARMS) && !IS_OGRE(ch) && !IS_SGIANT(ch) &&
-      !(GET_RACE(ch) == RACE_SNOW_OGRE))
-=======
   case 8: /* Arms */
     if(CAN_WEAR(obj_object, ITEM_WEAR_ARMS)
        &&
@@ -3956,7 +3923,6 @@ int wear(P_char ch, P_obj obj_object, int keyword, int showit)
       // !IS_SGIANT(ch) &&
       // !(GET_RACE(ch) == RACE_SNOW_OGRE)
       )
->>>>>>> master
     {
       /* Didn't condense the following because it differentiates enough and a compound 
        * ternary expression is too much to read. - Sniktiorg (Nov.12.12)
@@ -4617,7 +4583,8 @@ void do_wear(P_char ch, char *argument, int cmd)
   };
   int      loop = 0;
 
-  if(IS_ANIMAL(ch) || IS_DRAGON(ch))
+  // Letting dragons wear eq
+  if (IS_ANIMAL(ch))
   {
     send_to_char("DUH!\r\n", ch);
     return;
@@ -4718,11 +4685,7 @@ void do_wear(P_char ch, char *argument, int cmd)
           {
             if (CAN_WEAR(obj_object, equipment_pos_table[loop][0]))
             {
-<<<<<<< HEAD
-              wear(ch, obj_object, equipment_pos_table[loop][1], 1);
-=======
 	      wear(ch, obj_object, equipment_pos_table[loop][1], TRUE);
->>>>>>> master
               break;
             }
           }
@@ -4748,7 +4711,7 @@ void do_wield(P_char ch, char *argument, int cmd)
   char     Gbuf1[MAX_STRING_LENGTH], Gbuf2[MAX_STRING_LENGTH];
   char     Gbuf3[MAX_STRING_LENGTH];
 
-  if (IS_ANIMAL(ch) || (IS_DRAGON(ch) && GET_LEVEL(ch) < 46))
+  if (IS_ANIMAL(ch))
   {
     send_to_char("DUH!\r\n", ch);
     return;
@@ -5073,65 +5036,6 @@ bool find_chance(P_char ch)
   return FALSE;
 }
 
-bool is_salvageable(P_obj temp)
-{
-if(obj_index[temp->R_num].virtual_number == 1252)
-      {
-    return FALSE;
-   }
-
-
-//make sure its not food or container
-  if ((temp->type == ITEM_CONTAINER ||
-       temp->type == ITEM_STORAGE) && temp->contains)
-   {
-    return FALSE;
-   }
-
-  if (IS_SET(temp->extra_flags, ITEM_NOSELL))
-    {
-        return FALSE;
-	}
-
-  if(GET_OBJ_VNUM(temp) == 366)
-   {
-    return FALSE;
-   }
-
-  if (temp->type == ITEM_WAND)
-   {
-    return FALSE;
-   }
-   
-     if(GET_OBJ_VNUM(temp) == 352)
-  {
-    return FALSE;
-  }
-
-
-  if (temp->type == ITEM_FOOD)
-   {
-    return FALSE;
-   }
-  if (temp->type == ITEM_TREASURE || temp->type == ITEM_POTION || temp->type == ITEM_MONEY || temp->type == ITEM_KEY)
-   {
-    return FALSE;
-   }
-  if (IS_OBJ_STAT2(temp, ITEM2_STOREITEM))
-   {
-    return FALSE;
-   }
-  if (IS_SET(temp->extra_flags, ITEM_ARTIFACT))
-  {
-    return FALSE;
-  }
-  if((temp->type == ITEM_STAFF) && (temp->value[3] > 0))
-  return FALSE;
-
-return TRUE;
-}
-
-
 void do_salvage(P_char ch, char *argument, int cmd)
 {
   P_obj    temp;
@@ -5178,16 +5082,76 @@ void do_salvage(P_char ch, char *argument, int cmd)
     act("$n breaks down their $p into its &+ylesser&n material...", TRUE, ch, temp, 0, TO_ROOM);
     act("You break down your $p into its &+ylesser &+Ymaterial&n...", FALSE, ch, temp, 0, TO_CHAR);
     obj_from_char(temp, TRUE); 
-    extract_obj(temp, TRUE);
     return;
    }
 
-  if (!is_salvageable(temp))
+  if(GET_OBJ_VNUM(temp) == 352)
   {
-    act("That item cannot be &+ysalvaged&n.", FALSE, ch, 0, 0, TO_CHAR);
-  return;
+    act("$n &+Ltries to break down their $p &+Lbut suddenly &+rDrannak&+L appears from the skies!", TRUE, ch, temp, 0, TO_ROOM);
+    act("You attempt to break down your $p but suddenly &+rDrannak&n appears from the skies!", FALSE, ch, temp, 0, TO_CHAR);
+    act("&+rDrannak&n makes a strange gesture, causing a large brick of &+Ycheese&n the size of a whale to suddenly fall on $n, crushing them completely!", TRUE, ch, temp, 0, TO_ROOM);
+    act("&+rDrannak&n makes a strange gesture, causing a large brick of &+Ycheese&n the size of a whale to suddenly fall on you, crushing you completely!", FALSE, ch, temp, 0, TO_CHAR);
+    die(ch, ch);
+    return;
   }
 
+  if(obj_index[temp->R_num].virtual_number == 1252)
+      {
+    act("That item cannot be &+ysalvaged&n.", FALSE, ch, 0, 0, TO_CHAR);
+    return;
+   }
+
+
+//make sure its not food or container
+  if ((temp->type == ITEM_CONTAINER ||
+       temp->type == ITEM_STORAGE) && temp->contains)
+   {
+    act("You may want to empty that container before you try to &+ysalvage &nit.", FALSE, ch, 0, 0, TO_CHAR);
+    return;
+   }
+
+  if (IS_SET(temp->extra_flags, ITEM_NOSELL))
+    {
+	 act("There is apparently no &+Yworth &nto that item.", FALSE, ch, 0, 0, TO_CHAR); 
+        return;
+	}
+
+  if(GET_OBJ_VNUM(temp) == 366)
+   {
+    send_to_char("You cheezy swine, no salvaging this.&n\r\n", ch);
+    return;
+   }
+
+  if (temp->type == ITEM_WAND)
+   {
+    send_to_char("This item is too powerful for you to salvage.\r\n", ch);
+    return;
+   }
+
+
+  if (temp->type == ITEM_FOOD)
+   {
+    act("Why would you want to salvage anything from your &+Ydinner&n?", FALSE, ch, 0, 0, TO_CHAR);
+    return;
+   }
+  if (temp->type == ITEM_TREASURE || temp->type == ITEM_POTION || temp->type == ITEM_MONEY || temp->type == ITEM_KEY)
+   {
+    act("That's probably more valuable than what you could break it down into... lets not.", FALSE, ch, 0, 0, TO_CHAR);
+    return;
+   }
+  if (IS_OBJ_STAT2(temp, ITEM2_STOREITEM))
+   {
+    act("This appears to be from a store or minor created... no dice.", FALSE, ch, 0, 0, TO_CHAR);
+    return;
+   }
+  if (IS_SET(temp->extra_flags, ITEM_ARTIFACT))
+  {
+    send_to_char
+      ("&+LYou decide against destroying an &+RARTIFACT&+L!\r\n",
+       ch);
+    return;
+  }
+  
   rolled = number(1, 105);
   if  ((GET_CHAR_SKILL(ch, SKILL_SALVAGE) < rolled) && (scitools < 1))
    {

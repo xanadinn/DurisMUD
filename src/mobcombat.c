@@ -188,7 +188,7 @@ void SkeletonCombat(P_char ch, P_char victim)
     do_action(ch, 0, CMD_MOAN);
     act("Your attack dislodged one of $n&n's pale white bones, sending it flying into your flesh.", TRUE, ch, 0, victim, TO_VICT);
     act("$N&n's critical hit dislodged one of $n's bones, sending it tearing into $N's flesh.", TRUE, ch, 0, victim, TO_NOTVICT);
-    damage(ch, victim, number(5, 10), 0);
+    damage(ch, victim, GET_LEVEL(ch), 0);
   }
   else if(!number(0, 4) &&  // 20%
           GET_LEVEL(ch) >= 50 &&
@@ -198,7 +198,7 @@ void SkeletonCombat(P_char ch, P_char victim)
     act("You feel your life force slipping away...", TRUE, ch, 0, victim, TO_VICT);
     act("$N recoils from $n!", TRUE, ch, 0, victim, TO_NOTVICT);
     
-    dam = dice(5, 4) * 2;
+    dam = dice(5, 10) * 2;
     spell_damage(ch, victim, dam, SPLDAM_NEGATIVE, 0, 0);
   }
 }
@@ -236,7 +236,8 @@ void SpectreCombat(P_char ch, P_char victim)
   }
   else if(random <= 10)
   {
-    act("$n suddenly becomes incorporeal and vanishes from your sight!", FALSE, ch, 0, victim, TO_ROOM);
+    act("$n suddenly becomes incorporeal and vanishes from your sight!",
+      TRUE, ch, 0, victim, TO_ROOM);
     spell_blink(50, ch, 0, SPELL_TYPE_SPELL, ch, 0);
   }
   else if(!number(0, 9) &&  // 10%
@@ -270,8 +271,9 @@ int top;
   switch (number(1, top))
   {
   case 1:
-    act("$n silently moves through the room, covering the area in darkness!.", FALSE, ch, 0, 0, TO_ROOM);
-    spell_darkness(GET_LEVEL(ch), ch, 0, SPELL_TYPE_SPELL, ch, 0);
+    act("$n silently moves through the room, covering the area in darkness!.",
+        TRUE, ch, 0, 0, TO_ROOM);
+    spell_darkness(50, ch, 0, SPELL_TYPE_SPELL, ch, 0);
     break;
   case 2:
   case 3:
@@ -280,11 +282,12 @@ int top;
   case 4:
   case 5:
   case 6:
+  case 10:
     if( victim )
     {
-      act("$n suddenly flares black, and encases you in darkness!", FALSE, ch, 0, victim, TO_VICT);
-      act("$n emits a pure sphere of darkness, enveloping $N!", FALSE, ch, 0, victim, TO_NOTVICT);
-      blind(ch, victim, 5 * WAIT_SEC);
+      act("$n suddenly flares black, and encases you in darkness!", TRUE, ch, 0, victim, TO_VICT);
+      act("$n emits a pure sphere of darkness, enveloping $N!", TRUE, ch, 0, victim, TO_NOTVICT);
+      blind(ch, victim, 10 * WAIT_SEC);
     }
     break;
   default:
@@ -294,7 +297,7 @@ int top;
 
 void WraithCombat(P_char ch, P_char victim)
 {
-   int top;
+int top;
 
 // Multiclass will have other ability and specials to use.
   if(IS_MULTICLASS_NPC(ch))
@@ -315,7 +318,8 @@ void WraithCombat(P_char ch, P_char victim)
   switch (number(1, top))
   {
   case 1:
-    act("$n flows gracefully in combat, with dreadful accuracy.", FALSE, ch, 0, 0, TO_ROOM);
+    act("$n flows gracefully in combat, with dreadful accuracy.",
+        TRUE, ch, 0, 0, TO_ROOM);
     break;
   case 2:
   case 3:
@@ -329,7 +333,7 @@ void WraithCombat(P_char ch, P_char victim)
   case 10:
     if( victim )
     {
-      act("$n lets out a long, &+Wfrightening &nhowl.", FALSE, ch, 0, victim, TO_VICT);
+      act("$n lets out a long, &+Wfrightening &nhowl.\n", TRUE, ch, 0, victim, TO_VICT);
       if (!fear_check(victim))
       {
         if (GET_LEVEL(victim) < (GET_LEVEL(ch) / 2))
@@ -375,17 +379,17 @@ int UndeadCombat(P_char ch)
 
   if(!IS_PC_PET(ch) &&
     (GET_RACE(ch) == RACE_GHOST || GET_RACE(ch) == RACE_SPECTRE ||
-     GET_RACE(ch) == RACE_WRAITH || GET_RACE(ch) == RACE_SHADOW ||
-     (number(1, 100) <= 10)))
+    GET_RACE(ch) == RACE_WRAITH || GET_RACE(ch) == RACE_SHADOW ||
+    GET_RACE(ch) == RACE_BRALANI || GET_RACE(ch) == RACE_DEVA) &&
+    (number(1, 100) <= 10))
   {
     GhostFearEffect(ch);
     return TRUE;
   }
 
   if (IS_DRACOLICH(ch) && IS_PC_PET(ch))
-  {
     DragonCombat(ch, FALSE);
-  }
+
   if( IS_FIGHTING(ch) )
     victim = ch->specials.fighting;
   
@@ -438,9 +442,8 @@ int AngelCombat(P_char ch)
   }
 
   if ((IS_TITAN(ch) || IS_AVATAR(ch)) && IS_PC_PET(ch))
-  {
     DragonCombat(ch, FALSE);
-  }
+
   if( IS_FIGHTING(ch) )
     victim = ch->specials.fighting;
   
@@ -482,9 +485,9 @@ int BeholderCombat(P_char ch)
   {
     return TRUE;
   }
+/*  if (!number(0, 2))*/
 
-  if(GET_C_LUCK(ch) > number(0, 300))
-    gotlucky = TRUE;
+  gotlucky = TRUE;
 
   for (tch = world[ch->in_room].people; tch; tch = tch->next_in_room)
   {
@@ -530,6 +533,12 @@ int BeholderCombat(P_char ch)
       if(currPC == luckyPC)
       {
         hitpc = TRUE;
+
+        /*
+         * mostly based on AD&D beholders - get sleep, telekinesis, flesh to
+         * stone (major para), disintegrate, fear, slow, and cause serious (more
+         * like full harm on Duris)
+         */
         random = number(0, 9);  // beholders will not proc every round - Jexni 5/15/09
         {
           /* sleep */
@@ -928,8 +937,10 @@ bool DragonCombat(P_char ch, int awe)
       CharWait(ch, 9);
     }
     
-    act("Your ROAR fills your victims with sheer terror!", TRUE, ch, 0, 0, TO_CHAR);
-    act("$n&N &+RROARS&n, filling your heart with &+Lsheer terror!", FALSE, ch, 0, 0, TO_ROOM);
+    act("Your ROAR fills your victims with sheer terror!",
+      0, ch, 0, 0, TO_CHAR);
+    act("$n&N &+RROARS&n, filling your heart with &+Lsheer terror!&n",
+      1, ch, 0, 0, TO_ROOM);
       
     radiate_message_from_room(ch->in_room, "&+CA thundering roar echoes through the area!\r\n", 
 	                            GET_LEVEL(ch)/10 + (GET_LEVEL(ch) > 30 ? (GET_LEVEL(ch)-30)/5 : 0), 

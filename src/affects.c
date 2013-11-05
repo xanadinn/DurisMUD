@@ -1,3 +1,4 @@
+
 /*
  * ***************************************************************************
  *  file: affects.c                                          part of Duris
@@ -63,7 +64,6 @@ extern const int rev_dir[];
 extern int top_of_world;
 extern struct con_app_type con_app[];
 extern struct dex_app_type dex_app[];
-extern struct str_app_type str_app[];
 extern struct max_stat max_stats[];
 extern const struct racial_data_type racial_data[];
 extern struct zone_data *zone_table;
@@ -122,7 +122,7 @@ struct hold_data TmpAffs;
 
 int apply_ac(P_char ch, int eq_pos)
 {
-  int value, i;
+  int value;
 
   if (!(ch && (eq_pos >= 0) && (eq_pos < MAX_WEAR) && ch->equipment[eq_pos]))
   {
@@ -130,55 +130,53 @@ int apply_ac(P_char ch, int eq_pos)
     raise(SIGSEGV);
   }
 
+/*  if (GET_ITEM_TYPE(ch->equipment[eq_pos]) == ITEM_SHIELD &&
+      eq_pos == WEAR_SHIELD)
+    value = ch->equipment[eq_pos]->value[3];*/
+
   if (!GET_ITEM_TYPE(ch->equipment[eq_pos]) == ITEM_ARMOR &&
       !GET_ITEM_TYPE(ch->equipment[eq_pos]) == ITEM_SHIELD)
-  {
-    if(GET_ITEM_TYPE(ch->equipment[eq_pos]) == ITEM_WORN &&
-       (ch->equipment[eq_pos]->affected[0].location == APPLY_AC ||
-        ch->equipment[eq_pos]->affected[1].location == APPLY_AC ||
-        ch->equipment[eq_pos]->affected[2].location == APPLY_AC))
-    {}
-    else
-     return 0;
-  }
+    return 0;
 
   switch (ch->equipment[eq_pos]->material) {
     case MAT_UNDEFINED:
     case MAT_NONSUBSTANTIAL:
-    case MAT_PAPER:
-    case MAT_PARCHMENT:
-    case MAT_LIQUID:
       value = 0;
       break;
     case MAT_FLESH:
+    case MAT_REEDS:
     case MAT_HEMP:
+    case MAT_LIQUID:
     case MAT_CLOTH:
+    case MAT_PAPER:
+    case MAT_PARCHMENT:
     case MAT_LEAVES:
     case MAT_GENERICFOOD:
     case MAT_RUBBER:
     case MAT_FEATHER:
     case MAT_WAX:
-    case MAT_EGGSHELL:
-    case MAT_SOFTWOOD:
       value = 1;
       break;
     case MAT_BARK:
+    case MAT_SOFTWOOD:
     case MAT_SILICON:
+    case MAT_CERAMIC:
     case MAT_PEARL:
-    case MAT_BAMBOO:
+    case MAT_EGGSHELL:
       value = 2;
       break;
     case MAT_HIDE:
     case MAT_LEATHER:
     case MAT_CURED_LEATHER:
-    case MAT_CHITINOUS:
+    case MAT_LIMESTONE:
       value = 3;
       break;
-    case MAT_CLAY:
     case MAT_IVORY:
+    case MAT_BAMBOO:
     case MAT_HARDWOOD:
     case MAT_COPPER:
     case MAT_BONE:
+    case MAT_MARBLE:
       value = 4;
       break;
     case MAT_STONE:
@@ -186,15 +184,15 @@ int apply_ac(P_char ch, int eq_pos)
     case MAT_BRONZE:
     case MAT_IRON:
     case MAT_REPTILESCALE:
-    case MAT_BRASS:
-    case MAT_GLASSTEEL:
       value = 5;
       break;
-    case MAT_LIMESTONE:
     case MAT_GOLD:
+    case MAT_CHITINOUS:
     case MAT_CRYSTAL:
     case MAT_STEEL:
+    case MAT_BRASS:
     case MAT_OBSIDIAN:
+    case MAT_GRANITE:
     case MAT_GEM:
       value = 6;
       break;
@@ -203,19 +201,16 @@ int apply_ac(P_char ch, int eq_pos)
     case MAT_RUBY:
     case MAT_EMERALD:
     case MAT_SAPPHIRE:
+    case MAT_GLASSTEEL:
       value = 7;
       break;
-    case MAT_MARBLE:
-    case MAT_GRANITE:
+    case MAT_DRAGONSCALE:
+    case MAT_DIAMOND:
       value = 8;
       break;
     case MAT_MITHRIL:
     case MAT_ADAMANTIUM:
       value = 9;
-      break;
-    case MAT_DRAGONSCALE:
-    case MAT_DIAMOND:
-      value = 10;
       break;
     default:
       value = 0;
@@ -224,18 +219,14 @@ int apply_ac(P_char ch, int eq_pos)
   switch (eq_pos)
   {
     case WEAR_SHIELD:
-      value *= 2;
+      value *= 15;
 
-      if(GET_CHAR_SKILL(ch, SKILL_SHIELD_COMBAT))
+      if( GET_CHAR_SKILL(ch, SKILL_SHIELD_COMBAT) )
       {
-<<<<<<< HEAD
-        value += (int) (GET_CHAR_SKILL(ch, SKILL_SHIELD_COMBAT) * (float) get_property("skill.shieldCombat.ACBonusMultiplier", 1.00));
-=======
         value += (int) ( GET_CHAR_SKILL(ch, SKILL_SHIELD_COMBAT) * (float) get_property("skill.shieldCombat.ACBonusMultiplier", 1.00) );
         if (GET_CLASS(ch, CLASS_WARRIOR | CLASS_PALADIN | CLASS_ANTIPALADIN | CLASS_MERCENARY))
 	  value *= 2;
                     notch_skill(ch, SKILL_SHIELD_COMBAT, 50);
->>>>>>> master
       }
       break;
     case WEAR_BODY:
@@ -251,12 +242,12 @@ int apply_ac(P_char ch, int eq_pos)
       if (IS_SET(ch->equipment[eq_pos]->extra_flags, ITEM_WHOLE_HEAD))
         value *= 3;
       else
-        value = (int) (value * 1.3);
+        value = (int) (value * 1.5);
       break;
     case WEAR_LEGS:
     case WEAR_ARMS:
     case WEAR_ARMS_2:
-      value = (int) (value * 1.1);
+      value = (int) (value * 1.2);
       break;
     case WEAR_FEET:
     case WEAR_HANDS:
@@ -271,29 +262,17 @@ int apply_ac(P_char ch, int eq_pos)
     case WEAR_NECK_1:
     case WEAR_NECK_2:
     case WEAR_FACE:
-      value = (int) (value * 0.4);
+      value = (int) (value * 0.7);
       break;
     case WEAR_EYES:
     case WEAR_HORN:
-      value = (int) (value * 0.1);
+      value = (int) (value * 0.4);
       break;
     default:
       return 0;
   }
 
-  if(GET_ITEM_TYPE(ch->equipment[eq_pos]) == ITEM_WORN)
-  {
-    for(i = 0;i < 3;i++)
-    {
-      if(ch->equipment[eq_pos]->affected[i].location == APPLY_AC)
-        value += ch->equipment[eq_pos]->affected[i].modifier;
-    }
-    
-    if(value > MAX_AC_APPLY)
-      value = MAX_AC_APPLY;
-  }
-
-  return BOUNDED(-250, value * (int) ((float) ch->equipment[eq_pos]->condition / ch->equipment[eq_pos]->max_condition), 250);
+  return BOUNDED( -500, (value * MIN(100, ch->equipment[eq_pos]->condition)) / 100, 500);
 }
 
 int calculate_mana(P_char ch)
@@ -315,29 +294,40 @@ int calculate_mana(P_char ch)
 int calculate_hitpoints(P_char ch)
 {
   char buf[128];
-  int i, lvl, j, mod, toughness, con, classmod;
-  float hps, sfact;
+  int hps, i, lvl, old_bonus, hitpoint_bonus, j, mod, toughness;
   P_obj obj;
-   
-  con = GET_C_CON(ch);
-  sfact = stat_factor[GET_RACE(ch)].Con;
-  lvl = hps = GET_LEVEL(ch);
+  bool apply_maxconbonus_hitpoints = false;
+  
+  lvl = GET_LEVEL(ch);
 
-  // class matters when it comes to HP - wipe2011 - Jexni 4/8/12
-  if(GET_CLASS(ch, CLASS_WARRIOR | CLASS_PALADIN | CLASS_ANTIPALADIN | CLASS_MERCENARY))
-    classmod = 10;
-  if(GET_CLASS(ch, CLASS_ROGUE | CLASS_RANGER | CLASS_REAVER | CLASS_AVENGER | CLASS_DREADLORD | CLASS_BERSERKER | CLASS_MONK))
-    classmod = 8;	
-  if(GET_CLASS(ch, CLASS_CLERIC | CLASS_DRUID | CLASS_SHAMAN | CLASS_BARD | CLASS_ALCHEMIST))
-    classmod = 7;
-  if(GET_CLASS(ch, CLASS_SORCERER | CLASS_CONJURER | CLASS_NECROMANCER | CLASS_ILLUSIONIST | CLASS_PSIONICIST | 
-                   CLASS_CABALIST | CLASS_ETHERMANCER | CLASS_THEURGIST))
-    classmod = 5;
+  i = MAX(-390, 390 - MIN(GET_C_CON(ch), stat_factor[GET_RACE(ch)].Con));
+  old_bonus = (int) (lvl * ((152100.0 - i * i) / 10864.285 - 4.0));
+  hps = old_bonus;
+  hps += (int) (((float) lvl) / 50 *
+                stat_factor[GET_RACE(ch)].Con *
+                stat_factor[GET_RACE(ch)].Con *
+                get_property("hitpoints.conMultiplier", 0.035));
+                
+  if (IS_MULTICLASS_PC(ch))
+  {
+    hps = (int) (hps * MAX(class_hitpoints[flag2idx(ch->player.m_class)],
+              class_hitpoints[flag2idx(ch->player.secondary_class)]));
+  }
+  else
+    hps = (int) (hps * class_hitpoints[flag2idx(ch->player.m_class)]);
 
+  if (GET_AGE(ch) <= racial_data[GET_RACE(ch)].max_age)
+    hps += graf(ch, age(ch).year, 2, 4, 17, 14, 8, 4, 3);
 
-  hps *= classmod;
-  hps = hps * (sfact / 100);
-  hps = (hps * con) / 100;
+  hps += MAX(0, 10 - lvl);
+
+  // should be made simpler some time, we add old con_bons part from
+  // maxcon outside class multiplier
+  i = MAX(-390, 390 - GET_C_CON(ch));
+  hps += (int) (lvl * ((152100.0 - i * i) / 10864.285 - 4.0)) - old_bonus;
+
+  if (IS_HARDCORE(ch))
+    hps += (2 * lvl);
 
   /* This calculates the HP bonus from the toughness
    * epic skill. Remove or comment it out if for some
@@ -355,7 +345,7 @@ int calculate_hitpoints(P_char ch)
    }
 */
 
-  if (IS_ILLITHID(ch) && IS_PC(ch))
+  if (IS_ILLITHID(ch))
   {
     // 10 hps at level 1, 1 points in max con = 1 hp, gains 1 hp per level.
     hps = GET_LEVEL(ch) + 10 + MAX(GET_C_CON(ch), 100) - 100;
@@ -366,8 +356,7 @@ int calculate_hitpoints(P_char ch)
   if(toughness > 0 &&
      !GET_CLASS(ch, CLASS_MONK))
   {
-    hps += (int) (toughness * get_property("epic.skill.toughness", 0.500) * 
-           (GET_CLASS(ch, CLASS_WARRIOR | CLASS_PALADIN | CLASS_ANTIPALADIN | CLASS_MERCENARY) ? 2 : 1));
+    hps += (int) (toughness * get_property("epic.skill.toughness", 0.500) * (GET_CLASS(ch, CLASS_WARRIOR | CLASS_PALADIN | CLASS_ANTIPALADIN | CLASS_MERCENARY) ? 2 : 1));
   }
   else
   {
@@ -381,25 +370,66 @@ int calculate_hitpoints(P_char ch)
   }
   if (hps < 0)
   {
-    logit(LOG_DEBUG, "%s has negative hitpoints!", GET_NAME(ch));
+    logit(LOG_DEBUG, "%s has negative hitpoints bonus: %d (%d, %d)",
+          GET_NAME(ch), hps, old_bonus, i);
     return 0;
   }
-                
-  if (IS_MULTICLASS_PC(ch))
+  // Casters get hitpoint bonus with con_max eq. Dec08 -Lucrot
+
+  // Never liked this and it grew from making hitters far too powerful
+  // downing this and finding a better solution - Jexni 2/6/11
+
+  if(ch &&
+    IS_MAX_CON_BONUS_CLASS(ch) &&
+    !IS_MULTICLASS_PC(ch))
   {
-    hps = (int) (hps * MAX(class_hitpoints[flag2idx(ch->player.m_class)],
-              class_hitpoints[flag2idx(ch->player.secondary_class)]));
+    apply_maxconbonus_hitpoints = true;
   }
-  else
-    hps = (int) (hps * class_hitpoints[flag2idx(ch->player.m_class)]);
-
-  if (GET_AGE(ch) <= racial_data[GET_RACE(ch)].max_age)
-    hps += graf(ch, age(ch).year, 2, 4, 17, 14, 8, 4, 3);
-
-  hps += MAX(0, 20 - lvl);
-
-  if (IS_HARDCORE(ch))
-    hps += (2 * lvl);
+  
+  if(ch &&
+    IS_MULTICLASS_PC(ch) &&
+    GET_PRIME_CLASS(ch, CLASS_ETHERMANCER | CLASS_DRUID | CLASS_CLERIC | CLASS_SORCERER | CLASS_NECROMANCER | CLASS_SHAMAN | CLASS_PSIONICIST | CLASS_ILLUSIONIST | CLASS_CONJURER | CLASS_BARD) &&
+    GET_SECONDARY_CLASS(ch, CLASS_ETHERMANCER | CLASS_DRUID | CLASS_CLERIC | CLASS_SORCERER | CLASS_NECROMANCER | CLASS_SHAMAN | CLASS_PSIONICIST | CLASS_ILLUSIONIST | CLASS_CONJURER | CLASS_BARD))
+  {
+    apply_maxconbonus_hitpoints = true;
+  }
+ 
+  if(ch &&
+    IS_PC(ch) &&
+    apply_maxconbonus_hitpoints)
+  {
+    hitpoint_bonus = 0;
+    for (i = 0; i < MAX_WEAR; i++)
+    {
+      if(i == WEAR_ATTACH_BELT_1 || // Non max con bonuses for belted items.
+        i == WEAR_ATTACH_BELT_2 ||
+        i == WEAR_ATTACH_BELT_3)
+      {
+        continue;
+      }
+      if(ch->equipment[i])
+      {
+        obj = ch->equipment[i];
+        
+        for (j = 0; j < MAX_OBJ_AFFECT; j++)
+        {
+          if(obj->affected[j].location == APPLY_CON_MAX &&
+            obj->affected[j].modifier > 0)
+          {
+            hitpoint_bonus += obj->affected[j].modifier;
+          }
+        }
+      }
+    }
+// Max con hitpoint bonus now uses a racial constitution ratio. May2010 -Lucrot   
+    if(IS_PC(ch) &&
+       hitpoint_bonus)
+    {
+      sprintf(buf, "stats.con.%s", race_names_table[GET_RACE(ch)].no_spaces);
+      mod = (int) get_property(buf, 100.);
+      hps += (int) (hitpoint_bonus * get_property("hitpoints.spellcaster.maxConBonus", 2.5) * mod / 100);
+    }
+  }
 
   return hps;
 }
@@ -696,15 +726,18 @@ void apply_affs(P_char ch, int mode)
 
   GET_AC(ch) = ch->points.base_armor + ((mode) ? TmpAffs.AC : 0);
 
+  if (GET_C_AGI(ch) > stat_factor[(int) GET_RACE(ch)].Agi)
+  {
+    GET_AC(ch) -= (int) (GET_C_AGI(ch) - stat_factor[(int) GET_RACE(ch)].Agi);
+  }
+
   ch->points.damroll = ch->points.base_damroll + ((mode) ? TmpAffs.Dam : 0);
+
+  P_obj wpn;
 
   if (IS_PC(ch) && ch->points.damroll > damroll_cap)
     ch->points.damroll = damroll_cap;
 
-#if 1 // wipe2011
-  ch->points.damroll = ch->points.damroll + str_app[STAT_INDEX(GET_C_STR(ch))].todam;
-  ch->points.damroll = MAX(0, ch->points.damroll);
-#else
   if (GET_C_STR(ch) > stat_factor[(int) GET_RACE(ch)].Str)
   {
     if (GET_C_STR(ch) - stat_factor[(int) GET_RACE(ch)].Str < 9)
@@ -720,7 +753,6 @@ void apply_affs(P_char ch, int mode)
       ch->points.damroll += (int) sqrt(sqrt(diff * diff * diff));
     }
   }
-#endif
 
   ch->points.hitroll = ch->points.base_hitroll + ((mode) ? TmpAffs.Hit : 0);
 
@@ -730,25 +762,28 @@ void apply_affs(P_char ch, int mode)
       ch->points.hitroll += 5;
   }
 
-#if 1 // wipe2011
-  ch->points.hitroll += dex_app[STAT_INDEX(GET_C_DEX(ch))].hitroll;
-#else
+  if (IS_PC(ch) && ch->points.hitroll > damroll_cap )
+  {
+    ch->points.hitroll = damroll_cap;
+  }
+
   if (GET_C_DEX(ch) > stat_factor[(int) GET_RACE(ch)].Dex)
   {
-    ch->points.hitroll += (int) (GET_C_DEX(ch) - stat_factor[(int) GET_RACE(ch)].Dex) / 2;
+    ch->points.hitroll +=
+      (int) (GET_C_DEX(ch) - stat_factor[(int) GET_RACE(ch)].Dex) / 2;
   }
-#endif
 
-  if((GET_CLASS(ch, CLASS_PALADIN) || GET_CLASS(ch, CLASS_ANTIPALADIN)) &&
-      is_wielding_paladin_sword(ch))
+  if ( ( GET_CLASS(ch, CLASS_PALADIN) || GET_CLASS(ch, CLASS_ANTIPALADIN) ) &&
+       is_wielding_paladin_sword(ch) )
   {
     ch->points.hitroll += GET_LEVEL(ch) / 6;
     ch->points.damroll += GET_LEVEL(ch) / 6;
   }
    
-  if(has_innate(ch, INNATE_DUAL_WIELDING_MASTER) &&
-     ch->equipment[PRIMARY_WEAPON] &&
-     ch->equipment[SECONDARY_WEAPON])
+  if (has_innate(ch, INNATE_DUAL_WIELDING_MASTER) &&
+      ch->equipment[PRIMARY_WEAPON] &&
+      ch->equipment[SECONDARY_WEAPON])
+
   {
     ch->points.hitroll += GET_LEVEL(ch) / 5;
   }
@@ -761,22 +796,23 @@ void apply_affs(P_char ch, int mode)
     ch->points.damroll += GET_LEVEL(ch) / 10;
   }
 
-  if(has_innate(ch, INNATE_AXE_MASTER) &&
-    (ch->equipment[PRIMARY_WEAPON] && ch->equipment[PRIMARY_WEAPON]->value[0] == WEAPON_AXE))
+  if( has_innate(ch, INNATE_AXE_MASTER) &&
+      ( ch->equipment[PRIMARY_WEAPON] && ch->equipment[PRIMARY_WEAPON]->value[0] == WEAPON_AXE )
+    )
   {
     ch->points.hitroll += GET_LEVEL(ch) / 8;
     ch->points.damroll += GET_LEVEL(ch) / 12;
   }
 
-  if(has_innate(ch, INNATE_LONGSWORD_MASTER) &&
-    (ch->equipment[PRIMARY_WEAPON] && 
-     ch->equipment[PRIMARY_WEAPON]->value[0] == WEAPON_LONGSWORD))
+  if( has_innate(ch, INNATE_LONGSWORD_MASTER) &&
+      ( ch->equipment[PRIMARY_WEAPON] && 
+	ch->equipment[PRIMARY_WEAPON]->value[0] == WEAPON_LONGSWORD))
   {
     ch->points.hitroll += GET_LEVEL(ch) / 8;
     ch->points.damroll += GET_LEVEL(ch) / 12;
   }
   
-  if(has_innate(ch, INNATE_GAMBLERS_LUCK))
+  if (has_innate(ch, INNATE_GAMBLERS_LUCK))
   {
     GET_C_LUCK(ch) = GET_C_LUCK(ch) + 10;
   }
@@ -887,30 +923,14 @@ void apply_affs(P_char ch, int mode)
 
   if (mode)
   {
-    struct affected_type *af1;
-    bool a, b, gsw, sw;
-    a = b = sw = gsw = FALSE;
-
-    for(af1 = ch->affected; af1; af1 = af1->next)
-    {
-      if(af1->type == AFF_ARMOR)
-        a = TRUE; 
-      if(af1->type == AFF_BARKSKIN)
-        b = TRUE;
-      if(af1->type == AFF3_GR_SPIRIT_WARD)
-        gsw = TRUE;
-      if(af1->type == AFF3_SPIRIT_WARD)
-        sw = TRUE;
-   }
-
-    if(IS_AFFECTED(ch, AFF_ARMOR) && !a)
-       GET_AC(ch) -= 25;
-    if(IS_AFFECTED(ch, AFF_BARKSKIN) && !b)
-       GET_AC(ch) -= 75;
-    if(IS_AFFECTED3(ch, AFF3_GR_SPIRIT_WARD) && !gsw)
-       ch->specials.apply_saving_throw[SAVING_SPELL] -= 4;
-    if(IS_AFFECTED3(ch, AFF3_SPIRIT_WARD) && !sw)
-       ch->specials.apply_saving_throw[SAVING_SPELL] -= 2;
+    if (IS_AFFECTED(ch, AFF_ARMOR))
+      GET_AC(ch) -= 30;
+    if (IS_AFFECTED(ch, AFF_BARKSKIN))
+      GET_AC(ch) -= 100;
+    if (IS_AFFECTED3(ch, AFF3_GR_SPIRIT_WARD))
+      ch->specials.apply_saving_throw[SAVING_SPELL] -= 4;
+    if (IS_AFFECTED3(ch, AFF3_SPIRIT_WARD))
+      ch->specials.apply_saving_throw[SAVING_SPELL] -= 2;
   }
   two_weapon_check(ch);
 
@@ -1159,12 +1179,15 @@ void affect_modify(int loc, int mod, unsigned int *bitv, int from_eq)
   case APPLY_FIRE_PROT:
     SET_BIT(TmpAffs.BV_1, AFF_PROT_FIRE);
     break;
+
+#if 1
   case APPLY_ARMOR:
     TmpAffs.AC += mod;
     break;
-  //case APPLY_AGE:
- //   TmpAffs.Age += mod;
- //   break;
+#endif
+  case APPLY_AGE:
+    TmpAffs.Age += mod;
+    break;
 
   case APPLY_DAMROLL:
     TmpAffs.Dam += mod;
@@ -1208,9 +1231,9 @@ void affect_modify(int loc, int mod, unsigned int *bitv, int from_eq)
   case APPLY_SAVING_SPELL:
     TmpAffs.S_spell += mod;
     break;
-  //case APPLY_CURSE:
-  //  if (mod < 0)
-  //    mod = -mod;
+  case APPLY_CURSE:
+    if (mod < 0)
+      mod = -mod;
 
     TmpAffs.S_breath += mod;
     TmpAffs.S_para += mod;
@@ -1265,9 +1288,9 @@ void get_aura_affects(P_char ch)
   affect_modify(af.location, af.modifier, &(af.bitvector), FALSE);
 
   if (GET_CLASS(ch, CLASS_AVENGER))
-  {
-    af.location = APPLY_SAVING_FEAR;
-    af.modifier = GET_LEVEL(ch)/10;
+        {
+    af.location = APPLY_HIT_REG;
+    af.modifier = GET_LEVEL(ch)/2;
     affect_modify(af.location, af.modifier, &(af.bitvector), FALSE);
 
     if (GET_SPEC(ch, CLASS_AVENGER, SPEC_INQUISITOR))
@@ -1302,7 +1325,7 @@ void get_aura_affects(P_char ch)
       af.modifier = GET_LEVEL(ch)/10;
       affect_modify(af.location, af.modifier, &(af.bitvector), FALSE);
     }
-  }
+}
 }
 
 void get_epic_stat_affects(P_char ch)
@@ -1429,7 +1452,7 @@ void all_affects(P_char ch, int mode)
         continue;
     }
 // Below commented code is to hunt bad object affects.
-    for(j = 0; j < MAX_OBJ_AFFECT; j++)
+    for (j = 0; j < MAX_OBJ_AFFECT; j++)
     {
     affect_modify(ch->equipment[i]->affected[j].location,
                  ch->equipment[i]->affected[j].modifier,
@@ -1439,14 +1462,14 @@ void all_affects(P_char ch, int mode)
   }
 
   /* HERE is the place to go into TmpAffs and tone things down */
- // TmpAffs.Hits = BOUNDED(0, TmpAffs.Hits, GET_LEVEL(ch) * 3);
+  TmpAffs.Hits = BOUNDED(0, TmpAffs.Hits, GET_LEVEL(ch) * 3);
 
   /* better +dam handling */
-  //TmpAffs.Dam = MIN(GET_LEVEL(ch) + 35, TmpAffs.Dam);
+  TmpAffs.Dam = MIN(GET_LEVEL(ch) + 35, TmpAffs.Dam);
 
-  for(af = ch->affected; af; af = af->next)
+  for (af = ch->affected; af; af = af->next)
   {
-    if(!IS_SET(af->flags, AFFTYPE_NOAPPLY))
+    if ( !IS_SET(af->flags, AFFTYPE_NOAPPLY) )
     {
       affect_modify(af->location, af->modifier, &(af->bitvector), FALSE);
     }
@@ -1454,7 +1477,7 @@ void all_affects(P_char ch, int mode)
 
   get_epic_stat_affects(ch);
 
-  if(in_command_aura(ch))
+  if (in_command_aura(ch))
   {
     get_aura_affects(ch->group->ch);
   }
@@ -1464,7 +1487,7 @@ void all_affects(P_char ch, int mode)
    * now recalc con bonus, since we could have just changed something
    * dealing with Con
    */
-  if(IS_PC(ch))
+  if (IS_PC(ch))
   {
     int      missing_hps = GET_MAX_HIT(ch) - GET_HIT(ch);
     int      missing_mana = GET_MAX_MANA(ch) - GET_MANA(ch);
@@ -1588,9 +1611,9 @@ char affect_total(P_char ch, int kill_ch)
 */
   ch->specials.damage_mod = combat_by_race[GET_RACE(ch)][1];
 
-  if(IS_PC(ch))
+  if (IS_PC(ch))
   {
-    if(IS_MULTICLASS_PC(ch))
+    if (IS_MULTICLASS_PC(ch))
     {
       ch->specials.base_combat_round += (int) MIN(combat_by_class[flag2idx(ch->player.m_class)][0],
                                                  combat_by_class[flag2idx(ch->player.secondary_class)][0]);
@@ -1611,34 +1634,30 @@ char affect_total(P_char ch, int kill_ch)
 
     if( zone_difficulty > 1 )
     {
-      float damage_mod_mod = 1.0 + (get_property("damage.zoneDifficulty.mod.factor", 0.200) * zone_difficulty);
+      float damage_mod_mod = 1.0+(get_property("damage.zoneDifficulty.mod.factor", 0.200)*zone_difficulty);
       ch->specials.damage_mod = (float) (ch->specials.damage_mod * damage_mod_mod);
     }
   }
 
   ch->specials.base_combat_round += ch->points.combat_pulse;
 
-  if(affected_by_spell(ch, SKILL_WHIRLWIND))
+  if (affected_by_spell(ch, SKILL_WHIRLWIND))
   {
     ch->specials.base_combat_round -= (ch->specials.base_combat_round >> 1);
   }
 
-  if(innate_two_daggers(ch))
+  if (innate_two_daggers(ch))
     ch->specials.base_combat_round += (int) get_property("innate.dualDaggers.pulse", -3.0);
 
-  if(IS_AFFECTED2(ch, AFF2_FLURRY))
+  if (IS_AFFECTED2(ch, AFF2_FLURRY))
     ch->specials.base_combat_round -= (int)(0.60 * ch->specials.base_combat_round);
 
-  if(GET_CLASS(ch, CLASS_REAVER))
+  if( GET_CLASS(ch, CLASS_REAVER) )
     apply_reaver_mods(ch);
 
   ch->specials.base_combat_round = MAX(3, ch->specials.base_combat_round);
 
-<<<<<<< HEAD
-  if(IS_PC(ch) && GET_CHAR_SKILL(ch, SKILL_FORGE) >= 70)
-=======
   if (IS_PC(ch) && GET_CHAR_SKILL(ch, SKILL_MINE) >= 30)
->>>>>>> master
 	  ch->specials.affected_by5 |= AFF5_MINE; /* high enough skill in forge grants miner's sight */
 
   /* only if actually in game. JAB */
@@ -1803,7 +1822,7 @@ void affect_to_end(P_char ch, struct affected_type *af)
   struct affected_type *afp, *prev = NULL;
   int      create = TRUE;
 
-  for(afp = ch->affected; afp; afp = afp->next)
+  for (afp = ch->affected; afp; afp = afp->next)
   {
     if (afp == af)
     {
@@ -3299,7 +3318,8 @@ bool falling_char(P_char ch, const int kill_char, bool caller_is_event)
       send_to_char("But wait!  Saved by a bug!\n", ch);
       act("$n is granted a reprieve, and breathes a prayer of thanks", FALSE,
           ch, 0, 0, TO_ROOM);
-      //logit(LOG_DEBUG, "Room (%d) Name: (%s) is NO_GROUND but has no valid 'down' exit", world[ch->in_room].number, GET_NAME(ch));
+      logit(LOG_DEBUG, "Room (%d) Name: (%s) is NO_GROUND but has no valid 'down' exit",
+            world[ch->in_room].number, GET_NAME(ch));
       world[ch->in_room].sector_type = SECT_INSIDE;
       return FALSE;
     }
@@ -3381,14 +3401,14 @@ bool falling_char(P_char ch, const int kill_char, bool caller_is_event)
 
     /* oh dear, we seem to have run out of falling room!  Muhahaha  */
 
-    dam = (int) (GET_MAX_HIT(ch) * ((speed / 2.5) / 100)) + (number(40, 100) - GET_C_AGI(ch));
+    dam = (int) (GET_MAX_HIT(ch) * ((speed / 2.5) / 100)) + (number(80, 120) - GET_C_AGI(ch));
 
-    if (dam < 1)
-      dam = 1;
+    if (dam < 2)
+      dam = 2;
 
     if (GET_CHAR_SKILL(ch, SKILL_SAFE_FALL))
       if (GET_CHAR_SKILL(ch, SKILL_SAFE_FALL) > number(1, 101))
-        dam >> 1; // as someone originally screwed this check up to be backwards, nice job! - Jexni
+        dam <<= 1;
 
     if (world[ch->in_room].dir_option[DOWN])
     { 
@@ -3610,7 +3630,8 @@ bool falling_obj(P_obj obj, int start_speed, bool caller_is_event)
     {
       act("$p quivers in space for a second, then settles to the ground.",
         TRUE, 0, obj, 0, TO_ROOM);
-     // logit(LOG_DEBUG, "Room (%d) obj vnum (%d) is NO_GROUND but has no valid 'down' exit", world[obj->loc.room].number, obj_index[obj->R_num].virtual_number);
+      logit(LOG_DEBUG, "Room (%d) obj vnum (%d) is NO_GROUND but has no valid 'down' exit",
+        world[obj->loc.room].number, obj_index[obj->R_num].virtual_number);
       world[obj->loc.room].sector_type = SECT_INSIDE;
       return FALSE;
     }
@@ -3941,32 +3962,3 @@ swimming_char(i);*/
 
   }
 }                               /* short_affect_update  */
-
-/*  OLD HP CALCULATION, REMOVED FOR WIPE 2011
-
-  i = MAX(-390, 390 - MIN(GET_C_CON(ch), stat_factor[GET_RACE(ch)].Con));
-  old_bonus = (int) (lvl * ((152100.0 - i * i) / 10864.285 - 4.0));
-  hps = old_bonus;
-  hps += (int) (((float) lvl) / 50 *
-                stat_factor[GET_RACE(ch)].Con *
-                stat_factor[GET_RACE(ch)].Con *
-                get_property("hitpoints.conMultiplier", 0.035));
-                
-  if (IS_MULTICLASS_PC(ch))
-  {
-    hps = (int) (hps * MAX(class_hitpoints[flag2idx(ch->player.m_class)],
-              class_hitpoints[flag2idx(ch->player.secondary_class)]));
-  }
-  else
-    hps = (int) (hps * class_hitpoints[flag2idx(ch->player.m_class)]);
-
-  if (GET_AGE(ch) <= racial_data[GET_RACE(ch)].max_age)
-    hps += graf(ch, age(ch).year, 2, 4, 17, 14, 8, 4, 3);
-
-  hps += MAX(0, 10 - lvl);
-
-  // should be made simpler some time, we add old con_bons part from
-  // maxcon outside class multiplier
-  i = MAX(-390, 390 - GET_C_CON(ch));
-  hps += (int) (lvl * ((152100.0 - i * i) / 10864.285 - 4.0)) - old_bonus;
-*/

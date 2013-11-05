@@ -1,7 +1,4 @@
-#include "db.h"
 #include "structs.h"
-#include "defines.h"
-#include "graph.h"
 #include "utils.h"
 #include "interp.h"
 #include "comm.h"
@@ -47,21 +44,20 @@ void proc_lohrr( P_obj obj, P_char ch, int cmd, char *argument )
 /*
 // It's a percentage chance to make them attack a few extra times.
 // It's size dependdent: < medium = 10, medium/large = 6, > large = 4
-int dagger_of_wind( P_obj obj, P_char ch, int cmd, char *argument )
+void dagger_of_wind( P_obj obj, P_char ch, int cmd, char *argument )
 {
    int numhits = 0;
    int i = 0;
 
    // Verify that obj is dagger of wind and being wielded by ch.
-   if( cmd != CMD_PERIODIC || !ch || !obj
-      || !OBJ_WORN(obj) || obj->loc.wearing != ch )
-      return FALSE;
+   if( cmd != CMD_MELEE_HIT || !ch || !obj || !OBJ_WORN(obj) || obj->loc.wearing != ch )
+      return;
    // Verify that ch is in battle with someone.
    if( !IS_FIGHTING(ch) || !ch->specials.fighting )
-      return FALSE;
+      return;
 
-   // 99% chance to proc.
-   if( number(1,100) > 1 )
+   // 50% chance to proc.
+   if( number(1,100) > 50 )
    {
        act("You move with a blur of speed!",
           FALSE, ch, obj, 0, TO_CHAR);
@@ -85,26 +81,20 @@ int dagger_of_wind( P_obj obj, P_char ch, int cmd, char *argument )
          i++;
       }
    }
-   return TRUE;
 }
-<<<<<<< HEAD
-
-// Proc for object vnum SPHINX_CROWN.
-=======
 */
 // Alright, so... I made a first attempt at trying to hack some code together and
 //  wanted to see if I did it correct. I'm going to cut/paste the proc I put together.
 // Basicly, what I was intending, is for a proc that works on command, with a cooldown
 //  (yea, the current cooldown is to fast for this item, but i can tweak)... lemme know
 //  if it looks right, or what needs to change...
->>>>>>> master
 int sphinx_prefect_crown( P_obj obj, P_char ch, int cmd, char *arg )
 {
    int curr_time;
    char first_arg256;
 
    if( cmd == CMD_SET_PERIODIC )
-      return FALSE;
+      return TRUE;
    if( !OBJ_WORN_POS( obj, WEAR_HEAD ) )
       return FALSE;
 
@@ -130,7 +120,7 @@ int sphinx_prefect_crown( P_obj obj, P_char ch, int cmd, char *arg )
          act("&+LA wicked &+rgrin &+Lpasses across $n's &+Lface as they are &+me&+Mm&+mp&+Mo&+mw&+Me&+mr&+Me&+md &+Lwith &+rancient &+gwisdom &+Land &+Cknowledge&+L!&n", TRUE, ch, obj, NULL, TO_ROOM);
          spell_mordenkainens_lucubration(60, ch, 0, 0, ch, NULL);
          obj->timer[0] = curr_time;
-         obj->timer[1] = 0;
+         obj->timer[1] = 0;														      return FALSE;
          return TRUE;
       }
    }
@@ -142,8 +132,6 @@ int sphinx_prefect_crown( P_obj obj, P_char ch, int cmd, char *arg )
          TRUE, obj->loc.wearing, obj, 0, TO_CHAR);
       obj->timer[1] = 1;														      return FALSE;
    }
-
-   return FALSE;
 }
 
 int adjacent_room_nesw(P_char ch, int num_rooms )
@@ -198,8 +186,7 @@ int leviathan( P_char ch, P_char pl, int cmd, char *arg )
           return TRUE;
       }
 
-   // Toss people around, if fighting.
-   if( cmd == CMD_PERIODIC && !number( 0, 1 ) && IS_FIGHTING(ch) )
+   if( cmd == CMD_PERIODIC && !number( 0, 1 ) )
    {
       switch( number( 1, 2 ) )
       {
@@ -209,8 +196,6 @@ int leviathan( P_char ch, P_char pl, int cmd, char *arg )
          // To each char in room, chance of knockdown.
          for( tch = world[ch->in_room].people;tch;tch = tch->next_in_room )
          {
-            if( !IS_ALIVE(tch) || IS_TRUSTED(tch) )
-              continue;
             if( tch != ch )
             {
                if( number( 0, 1 ) )
@@ -224,13 +209,9 @@ int leviathan( P_char ch, P_char pl, int cmd, char *arg )
                }
             }
          }
-         return TRUE;
       break;
       case 2:
          tch = ch->specials.fighting;
-         if( !IS_ALIVE(tch) || IS_TRUSTED(tch)
-           || tch->in_room != ch->in_room )
-           return FALSE;
          if( tch )
          {
             act( "$N lashes out with a tentacle, wrapping it around you, lifts and quickly slams you upon the water surface!", FALSE, tch, NULL, ch, TO_CHAR );
@@ -244,7 +225,6 @@ int leviathan( P_char ch, P_char pl, int cmd, char *arg )
             stop_fighting( tch );
             // Stun for 3-5 sec
             CharWait( tch, number( 3, 5 ) );
-            return TRUE;
          }
       default:
       break;
@@ -254,7 +234,7 @@ int leviathan( P_char ch, P_char pl, int cmd, char *arg )
    return FALSE;
 }
 
-// Returns an undocked ship if it's near Leviathan
+// Returns a ship if it's near Leviathan
 P_ship leviathan_find_ship( P_char leviathan, int room, int num_rooms )
 {
    int i;
@@ -269,13 +249,9 @@ P_ship leviathan_find_ship( P_char leviathan, int room, int num_rooms )
    // Look through contents
    for(obj = world[room].contents;obj;obj = obj->next_content )
       // If found a ship && percent >= 50
-      if( obj && (GET_ITEM_TYPE(obj) == ITEM_SHIP) && (obj->value[6] == 1)
-        && number( 0, 1) )
-        {
-          ship = shipObjHash.find(obj);
-          if( ship && !SHIP_DOCKED(ship) )
-            return ship;
-        }
+      if( obj && (GET_ITEM_TYPE(obj) == ITEM_SHIP) && (obj->value[6] == 1) && number( 0, 1) )
+         return shipObjHash.find(obj);
+
    // This is a bit repetative, but that's ok, it's for a small number.
    if( num_rooms > 0 )
    {
@@ -292,75 +268,4 @@ P_ship leviathan_find_ship( P_char leviathan, int room, int num_rooms )
       }
    }
    return NULL;
-}
-
-// This is a proc for loading Firesworn crew in Tiamat.
-int proc_load_firesworn( P_obj obj, P_char ch, int cmd, char *argument )
-{
-  P_char leader, mob;
-
-  if( !ch || !obj || IS_TRUSTED(ch) )
-    return FALSE;
-
-  // Movement proc only.
-  if(  cmd != CMD_NORTH && cmd != CMD_SOUTH
-    && cmd != CMD_EAST && cmd != CMD_WEST
-    && cmd != CMD_UP && cmd != CMD_DOWN
-    && cmd != CMD_NORTHWEST && cmd != CMD_NW
-    && cmd != CMD_NORTHEAST && cmd != CMD_NE
-    && cmd != CMD_SOUTHEAST && cmd != CMD_SE
-    && cmd != CMD_SOUTHWEST && cmd != CMD_SW )
-    return FALSE;
-
-  // Percent to load.
-  if( number(1,100) > 30 )
-    return FALSE;
-
-  // Maximum number of procs is 1, so we don't load 2 groups at once.
-  if( obj->value[0] >= 1 )
-    return FALSE;
-  obj->value[0]++;
-
-  // Load the leader.
-  leader = read_mobile(LEADER_FIRESWORN, VIRTUAL);  
-  if( !leader )
-  {
-    wizlog( 56, "proc_load_firesworn : Failed to load leader mob." );
-    return FALSE;
-  }
-  char_to_room(leader, ROOM_FIRESWORN, 0);
-  // Start hating!
-  remember( leader, ch);
-
-  // Load the followers
-  for( int i = 0;i < 4;i++)
-  {
-    mob = read_mobile(FOLLOWER_FIRESWORN, VIRTUAL);  
-    if( !mob )
-    {
-      wizlog( 56, "proc_load_firesworn : Failed to load follower mob." );
-    }
-    else
-    {
-      char_to_room(mob, ROOM_FIRESWORN, 0);
-      add_follower(mob, leader);
-    }
-  }
-
-  // Send out a shout...
-  radiate_message_from_room(ROOM_FIRESWORN, "&+LYou shudder as a violent &+Ycrash &+Lof &+cthunder &+Lbreaks across the walls of the caverns.&n\n\r"
-    "&+rMalphas&+L, Duke of A&+wve&+Wr&+wnu&+Ls and &+yGuardian &+Lof &+rTiamat&+L'&+rs &+LLair &+wshouts &+Lin a &+Ygutteral &+Ltongue:&n\n\r"
-    "&+L\"&+rF&+RI&+YR&+WESW&+YO&+RR&+rN &+LLEGION! &n&+RTO ARMS!&n &+WSEEK &+LAND &+WDESTROY &+LTHOSE WHO WOULD CHALLENGE THE MIGHT OF THE "
-    "&+GD&+gR&+GA&+gG&+GO&+gN &+MQ&+mU&+ME&+mE&+MN&+L!\"&n\n\r"
-    "&+LThe sounds of heavy marching feet and demonic hissing seems to echo off the A&+rz&+Lh&+ru&+Lr&+ra&+Ll cavern walls...&n\n\r", 15,
-    (RMFR_FLAGS) (RMFR_RADIATE_ALL_DIRS | RMFR_PASS_WALL | RMFR_PASS_DOOR | RMFR_CROSS_ZONE_BARRIER), 100);
-  // Send shout to the load room too.
-  act( "&+LYou shudder as a violent &+Ycrash &+Lof &+cthunder &+Lbreaks across the walls of the caverns.&n\n\r"
-    "&+rMalphas&+L, Duke of A&+wve&+Wr&+wnu&+Ls and &+yGuardian &+Lof &+rTiamat&+L'&+rs &+LLair &+wshouts &+Lin a &+Ygutteral &+Ltongue:&n\n\r"
-    "&+L\"&+rF&+RI&+YR&+WESW&+YO&+RR&+rN &+LLEGION! &n&+RTO ARMS!&n &+WSEEK &+LAND &+WDESTROY &+LTHOSE WHO WOULD CHALLENGE THE MIGHT OF THE "
-    "&+GD&+gR&+GA&+gG&+GO&+gN &+MQ&+mU&+ME&+mE&+MN&+L!\"&n\n\r"
-    "&+LThe sounds of heavy marching feet and demonic hissing seems to echo off the A&+rz&+Lh&+ru&+Lr&+ra&+Ll cavern walls...&n\n\r",
-    FALSE, leader, NULL, 0, TO_ROOM);
-  // We always return false 'cause we don't want to prevent movement.
-  return FALSE;
 }

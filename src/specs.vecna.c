@@ -577,7 +577,6 @@ int vecna_staffoaken(P_obj obj, P_char ch, int cmd, char *arg)
     if (cmd == CMD_PERIODIC && !IS_TRUSTED(ch) && number(0, 100) <= 70 && world[ch->in_room].sector_type == SECT_INSIDE || IS_SET(world[ch->in_room].room_flags, INDOORS))
     {
       dam = dice(25, 5) + 75;
-      dam /= 4;
       if (number(0, 100) <= 50)
       {
         act("&+gYou sense $p&+g's urgent longing to be outside.&n", TRUE, ch, obj, NULL, TO_CHAR);
@@ -1084,9 +1083,12 @@ int krindor_illusionist(P_obj obj, P_char ch, int cmd, char *arg)
     data = (struct proc_data *) arg;
     victim = data->victim;
     
-    act("Your $q &+ys&+Yh&+yi&+Ym&+ym&+Ye&+yr&+Ys!", FALSE, ch, obj, victim, TO_CHAR | ACT_NOTTERSE);
-    act("$n's $q &+ys&+Yh&+yi&+Ym&+ym&+Ye&+yr&+Ys...", FALSE, ch, obj, victim, TO_VICT | ACT_NOTTERSE);
-    act("$n's $q &+ys&+Yh&+yi&+Ym&+ym&+Ye&+yr&+Ys...", FALSE, ch, obj, victim, TO_NOTVICT | ACT_NOTTERSE);
+    act("Your $q &+ys&+Yh&+yi&+Ym&+ym&+Ye&+yr&+Ys!",
+      FALSE, ch, obj, victim, TO_CHAR | ACT_NOTTERSE);
+    act("$n's $q &+ys&+Yh&+yi&+Ym&+ym&+Ye&+yr&+Ys...",
+      FALSE, ch, obj, victim, TO_VICT | ACT_NOTTERSE);
+    act("$n's $q &+ys&+Yh&+yi&+Ym&+ym&+Ye&+yr&+Ys...",
+      FALSE, ch, obj, victim, TO_NOTVICT | ACT_NOTTERSE);
     
     if(random == 2 ||
        random == 6)

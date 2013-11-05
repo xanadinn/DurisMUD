@@ -45,10 +45,7 @@ extern char *spells[];
 
 int GET_LVL_FOR_SKILL(P_char ch, int skill);
 P_obj find_gh_library_book_obj(P_char ch);
-<<<<<<< HEAD
-=======
 void do_practice_new(P_char ch, char *arg, int cmd);
->>>>>>> master
 
 #define MAX_GUILDS    15        /* max size of high/low lists */
 
@@ -149,13 +146,10 @@ int notch_skill(P_char ch, int skill, int chance)
   int intel, t, lvl, l, slvl, percent_chance;
   char buf[MAX_STRING_LENGTH];
 
-<<<<<<< HEAD
-=======
 #ifdef SKILLPOINTS
   return 0;
 #endif
 
->>>>>>> master
   if(!(ch) || !IS_ALIVE(ch))
     return 0;
   
@@ -268,12 +262,8 @@ int SpellCopyCost(P_char ch, int spell)
    // new simple cost formula, none of that other BS - Jexni 1/2/12
    circle = get_spell_circle(ch, spell);
    cost = circle * get_property("spell.cost.plat.per.circle", 1000.000);
-<<<<<<< HEAD
-   return cost;
-=======
    // All spells are currently free to scribe. - Lohrr
    return 0;
->>>>>>> master
 }
 
 #if 0

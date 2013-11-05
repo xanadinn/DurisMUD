@@ -666,7 +666,7 @@ int getSpellCost(const int spell)
     return 25000;
   case SPELL_SCALDING_BLAST:
     return 35000;
-  case SPELL_COBRASTING:
+  case SPELL_PYTHONSTING:
     return 8500;
   case SPELL_SNAILSPEED:
     return 23450;
@@ -716,7 +716,7 @@ int getSpellCost(const int spell)
     return 80000;
   case SPELL_ELEPHANTSTRENGTH:
     return 75000;
-  case SPELL_GREATER_COBRASTING:
+  case SPELL_GREATER_PYTHONSTING:
     return 35000;
   case SPELL_SCATHING_WIND:
     return 150000;
@@ -802,7 +802,7 @@ int getSpellCost(const int spell)
     return 80000;
   case SPELL_PRISMATIC_CUBE:
     return 250000;
-  case SPELL_JUDGMENT:
+  case SPELL_JUDGEMENT:
     return 50000;
   case SPELL_GREATER_WRAITHFORM:
     return 3000000;
@@ -920,7 +920,7 @@ void material_restrictions(P_obj obj)
   {
     return;
   }
-  /*
+  
   if (IS_RIGID(mat) && (obj->wear_flags & ITEM_WEAR_BODY))
   {
     anti = ALL_MAGES | ALL_ROGUES | CLASS_MONK;
@@ -935,7 +935,7 @@ void material_restrictions(P_obj obj)
       (obj->wear_flags & (ITEM_WEAR_FACE |ITEM_WEAR_ARMS | ITEM_WEAR_HEAD | ITEM_WEAR_LEGS)))
   {
     anti |= ALL_MAGES;
-  }   Cutting restrictions on random equipment in favor of larger detriments to AC from weight -- Jexni 10/16/11 */  
+  }
 
   if (obj->extra_flags & ITEM_ALLOWED_CLASSES)
     obj->anti_flags &= ~anti;
@@ -945,7 +945,7 @@ void material_restrictions(P_obj obj)
 
 void convertObj(P_obj obj)
 {
-  int      i, val0, val1, val2, val3, type, counter = 0;
+  int      i, val0, val1, val2, val3, type;
   long     weight = 0, cost = 0;
   char     buf2[MAX_STRING_LENGTH];
 
@@ -969,49 +969,59 @@ void convertObj(P_obj obj)
     break;
   case ITEM_SCROLL:
   case ITEM_POTION:
-    /*  Better cost solution here, to prevent great items from going too cheaply in shops
-        Each successive spell adds to the overall cost by a bigger factor -- Jexni 10/16/11 */
+    /* 5g per circle * (lvl / 10) * spells */
+/*
     cost = 500 * (val0 / 10) * GetCircle(val1);
-    if(val2)
-    {
-       counter += 1;
-       cost += (500 * (val0 / 10) * GetCircle(val2));
-    }
-    if(val3)
-    {
-       counter += 1;
-       cost += (500 * (val0 / 10) * GetCircle(val3));
-    }
-
-    cost *= counter;
-
-    if(type == ITEM_SCROLL)
-      cost *= 1.5;
+    if (val3)
+      cost += (500 * (val0 / 10) * GetCircle(val2));
+    else if (val2)
+      cost += (500 * (val0 / 10) * GetCircle(val3));
+*/
+ /* 
+   cost = (getSpellCost(val1) + getSpellCost(val2) + getSpellCost(val3));
+    if (val0 >= 5)
+      cost *= (val0 / 5);
+*/
+    /* scrolls are slightly better than potions, being targettable on anyone for
+       some spells */
+/*
+    if (type == ITEM_SCROLL)
+      cost = (int) (cost * 1.25);
+*/
+    weight = 2;
     break;
   case ITEM_WAND:
   case ITEM_STAFF:
+    /* 5 g * circle * lvl * percentage of charges left */
+/*
+    if (val1 && val2)
+      cost = 500 * (val0 / 10) * (val1 / val2) * GetCircle(val3);
+    else
+      cost = 500 * (val0 / 10) * .1 * GetCircle(val3);
+*/
     /* rather than base it on percentage of charges left [a 100 charge staff with one
        charge of relocate would thus be rather cheap], let's just make it cost more
        for number of charges and a little more based on max */
-    if(val1 > 15)
-      obj->value[1] = 15;
-    cost = (int) 500 * (GetCircle(val3) * val1 * (1.0 + (0.1 * val1)));
+
+/*
+    cost = (int) (getSpellCost(val3) * val2 * (1.0 + (0.01 * val1)));
     if (val0 >= 5)
       cost *= (val0 / 5);
-
+*/
     /* staves are decidedly better than wands */
-    if(type == ITEM_STAFF)
-      cost *= 3;
+/*
+    if (type == ITEM_STAFF)
+      cost *= 2;
     else
       cost = (int) (cost * 1.5);
-
-    weight = (type == ITEM_WAND) ? 2 : 8;
+*/
+    weight = (type == ITEM_WAND) ? 2 : 5;
     break;
   case ITEM_WEAPON:
     /* 1 g * max damage */
 
     /* number of dice more important than size.. */
-    cost = 400 * (val1 * 2) * val2;
+    cost = 100 * (val1 * 2) * val2;
     break;
   case ITEM_FIREWEAPON:
     /* 1 s * missle type * rate of fire */
@@ -1027,35 +1037,42 @@ void convertObj(P_obj obj)
   case ITEM_OTHER:
     /* hmm */
     break;
-/*  case ITEM_ARMOR:
+  case ITEM_ARMOR:
+    /* 1 g * ac */
     if (val0 < 10)
-      cost = 100 * val0;
+      cost = 150 * val0;
     else if (val0 < 20)
-      cost = 400 * val0;
+      cost = 300 * val0;
     else if (val0 < 30)
-      cost = 850 * val0;
+      cost = 625 * val0;
     else if (val0 < 40)
-      cost = 1500 * val0;
+      cost = 1250 * val0;
     else
       cost = 2500 * val0;
-    break;  val0 doesn't actually mean anything to armor type items atm, as all AC is pulled from material
-            type and where the item is worn, thus it's pointless to use the created "ac value" from the
-            original files to translate the supposed worth of the item - Jexni 12/23/11 */
+#if 0
+    weight = 10;                /* modified later by material */
+#endif
+    break;
   case ITEM_WORN:
     cost = 100;
+#if 0
+    weight = 1;
+#endif
     break;
   case ITEM_CONTAINER:
     /* 1 silver per pound */
     cost = 25 * val0;
-    if(obj->weight <= 0)
+    if (obj->weight <= 0)
     {
       weight = obj->weight;
       cost += (weight * -500);
     }
     if (weight >= 0)
-      weight = (val0 > 50) ? 5 : 2;
-    if (IS_SET(obj->wear_flags, ITEM_ATTACH_BELT) && weight > 5)
+      weight = (val0 > 50) ? 3 : 1;
+    if (IS_SET(obj->wear_flags, ITEM_ATTACH_BELT) && weight > 9)
       REMOVE_BIT(obj->wear_flags, ITEM_ATTACH_BELT);
+    if (obj->R_num == real_object(96443))
+      cost = 1000;
     break;
   case ITEM_DRINKCON:
   case ITEM_QUIVER:
@@ -1082,11 +1099,14 @@ void convertObj(P_obj obj)
     break;
   case ITEM_KEY:
     cost = 5;
-    weight = 0;
+    if (type == ITEM_BOOK)
+      weight = 3;
+    else
+      weight = 0;
     SET_BIT(obj->extra_flags, ITEM_NORENT);
     break;
   case ITEM_SPELLBOOK:
-    cost = (int) 100 * obj->value[2];
+    /* 15 c per page in book */
     break;
   case ITEM_INSTRUMENT:
     if (!strstr(obj->name, "instrument"))
@@ -1096,12 +1116,14 @@ void convertObj(P_obj obj)
     }
     break;
   case ITEM_TOTEM:
+    /* ? */
     if (!strstr(obj->name, "totem"))
     {
       sprintf(buf2, "%s %s", obj->name, "totem");
       obj->name = str_dup(buf2);
     }
-    weight = (GET_ITEM_TYPE(obj) == ITEM_TOTEM) ? 2 : 3;
+/*    weight = (GET_ITEM_TYPE(obj) == ITEM_TOTEM) ? 2 : 3;
+    cost = 1;*/
     break;
   case ITEM_STORAGE:
     /* 5 p per pound held */
@@ -1125,40 +1147,40 @@ void convertObj(P_obj obj)
   /* figure in the extras flags */
 
   if (IS_SET(obj->extra2_flags, ITEM2_MAGIC))
-    cost *= 3;
+    cost *= 2;
   if (IS_SET(obj->extra_flags, ITEM_GLOW))
     cost += 100;
   if (IS_SET(obj->extra_flags, ITEM_HUM))
-    cost *= 3;
-  if (IS_SET(obj->extra2_flags, ITEM2_BLESS))
-    cost += 200;
-  if (IS_SET(obj->extra_flags, ITEM_FLOAT))
-    cost += 1500;
-  if (IS_SET(obj->extra_flags, ITEM_NOSUMMON))
-    cost += 150000;
-  if (IS_SET(obj->extra_flags, ITEM_LIT))
     cost += 100;
+  if (IS_SET(obj->extra2_flags, ITEM2_BLESS))
+    cost += 500;
+  if (IS_SET(obj->extra_flags, ITEM_FLOAT))
+    cost += 1000;
+  if (IS_SET(obj->extra_flags, ITEM_NOSUMMON))
+    cost += 15000;
+  if (IS_SET(obj->extra_flags, ITEM_LIT))
+    cost += 500;
   if (IS_SET(obj->extra_flags, ITEM_NOSLEEP))
-    cost += 150000;
+    cost += 15000;
   if (IS_SET(obj->extra_flags, ITEM_NOCHARM))
-    cost += 150000;
+    cost += 12500;
   if (IS_SET(obj->extra_flags, ITEM_TWOHANDS))
-    if (weight < 10 && !IS_SET(obj->extra2_flags, ITEM2_MAGIC))
-      weight += 5;
+    weight += 5;
   if (IS_SET(obj->extra2_flags, ITEM2_SILVER))
   {
     cost += 5000;
+    weight += 2;
   }
   if (IS_SET(obj->extra2_flags, ITEM2_SLAY_GOOD))
-    cost += 10000;
+    cost += 6000;
   if (IS_SET(obj->extra2_flags, ITEM2_SLAY_EVIL))
-    cost += 10000;
+    cost += 6000;
   if (IS_SET(obj->extra2_flags, ITEM2_SLAY_UNDEAD))
-    cost += 15000;
+    cost += 6000;
   if (IS_SET(obj->extra2_flags, ITEM2_SLAY_LIVING))
-    cost += 30000;
+    cost += 6000;
   if (IS_SET(obj->extra_flags, ITEM_RETURNING))
-    cost += 5000;
+    cost += 2500;
   if (IS_SET(obj->extra_flags, ITEM_CAN_THROW1))
   {
     cost += 1200;
@@ -1170,7 +1192,7 @@ void convertObj(P_obj obj)
     weight -= 2;
   }
   if (IS_SET(obj->extra_flags, ITEM_NORENT))
-    cost /= 4;
+    cost /= 2;
   if (IS_SET(obj->extra_flags, ITEM_NODROP))
     cost = (int) (cost / 1.5);
 
@@ -1192,9 +1214,9 @@ void convertObj(P_obj obj)
     case APPLY_KARMA:
     case APPLY_LUCK:
       if (obj->affected[i].modifier > 0)
-        cost += obj->affected[i].modifier * 1500;
+        cost += obj->affected[i].modifier * 150;
       else
-        cost += obj->affected[i].modifier * 500;
+        cost += obj->affected[i].modifier * 100;
       break;
     case APPLY_STR_MAX:
     case APPLY_DEX_MAX:
@@ -1216,7 +1238,7 @@ void convertObj(P_obj obj)
     case APPLY_CHA_RACE:
     case APPLY_KARMA_RACE:
     case APPLY_LUCK_RACE:
-      cost += obj->affected[i].modifier * 5000;
+      cost += obj->affected[i].modifier * 2500;
       break;
     case APPLY_SEX:
     case APPLY_CLASS:
@@ -1225,75 +1247,72 @@ void convertObj(P_obj obj)
     case APPLY_CHAR_HEIGHT:
     case APPLY_GOLD:
     case APPLY_EXP:
-    case APPLY_AGE:
-      /*  these applies should NEVER be set */
+      cost += 5000;
       break;
     case APPLY_HIT:
-      cost += obj->affected[i].modifier * 2000;
+      cost += obj->affected[i].modifier * 1000;
       break;
     case APPLY_MANA:
       cost += obj->affected[i].modifier * 500;
       break;
     case APPLY_MOVE:
-      cost += obj->affected[i].modifier * 250;
+      cost += obj->affected[i].modifier * 50;
+      break;
+    case APPLY_AGE:
+      cost -= obj->affected[i].modifier * 1500; /* minus cause younger is better */
       break;
     case APPLY_ARMOR:
-      val0 = 10000;
-      if (obj->affected[i].modifier > -5)
-        cost -= 1500 * val0;
-      else if (obj->affected[i].modifier > -10)
-        cost -= 3000 * val0;
-      else if (obj->affected[i].modifier > -15)
-        cost -= 6000 * val0;
+      if (obj->affected[i].modifier > -10)
+        cost -= 500 * val0;
       else if (obj->affected[i].modifier > -20)
-        cost -= 15000 * val0;
+        cost -= 1000 * val0;
+      else if (obj->affected[i].modifier > -30)
+        cost -= 2000 * val0;
+      else if (obj->affected[i].modifier > -40)
+        cost -= 3500 * val0;
       else
-        cost -= 25000 * val0;
-
-      if(IS_SET(obj->extra_flags, ITEM_WHOLE_BODY | ITEM_WHOLE_HEAD))
-        cost /= 4;
+        cost -= 6000 * val0;
       /* minus cause armor is a neg value */
       break;
     case APPLY_HITROLL:
-      cost += obj->affected[i].modifier * 700;
     case APPLY_DAMROLL:
-      cost += obj->affected[i].modifier * 2200;
+      cost += obj->affected[i].modifier * 1300;
       break;
     case APPLY_SAVING_PARA:
     case APPLY_SAVING_ROD:
     case APPLY_SAVING_FEAR:
     case APPLY_SAVING_BREATH:
     case APPLY_SAVING_SPELL:
-      cost -= obj->affected[i].modifier * 4500; /* negative is better */
+      cost -= obj->affected[i].modifier * 2500; /* negative is better */
       break;
     }
   }
 
   /* bitvectors make big difference */
   if (IS_SET(obj->bitvector, AFF_BLIND))
-    cost -= 50000;
+    cost -= 5000;
   if (IS_SET(obj->bitvector, AFF_INVISIBLE))
-    cost += 1000000;
+    cost += 100000;
   if (IS_SET(obj->bitvector, AFF_FARSEE))
-    cost += 20000;
+    cost += 10000;
   if (IS_SET(obj->bitvector, AFF_DETECT_INVISIBLE))
-    cost += 400000;
+    cost += 4000;
   if (IS_SET(obj->bitvector, AFF_HASTE))
-    cost += 250000;
+    cost += 25000;
   if (IS_SET(obj->bitvector, AFF_SENSE_LIFE))
     cost += 3500;
   if (IS_SET(obj->bitvector, AFF_MINOR_GLOBE))
-    cost += 25000;
+    cost += 125000;
   if (IS_SET(obj->bitvector, AFF_STONE_SKIN))
-    cost += 1500000;
+    cost += 25000;
   if (IS_SET(obj->bitvector, AFF_UD_VISION))
-    cost += 45000;
+    cost += 15000;
   if (IS_SET(obj->bitvector, AFF_WRAITHFORM))
-    cost += 50000;
+    cost += 20000;
   if (IS_SET(obj->bitvector, AFF_WATERBREATH))
-    cost += 6000;
+    cost += 10000;
   if (IS_SET(obj->bitvector, AFF_PROTECT_EVIL))
-    cost += 5000;
+    cost += 15000;
   if (IS_SET(obj->bitvector, AFF_SLOW_POISON))
     cost += 7500;
   if (IS_SET(obj->bitvector, AFF_PROTECT_GOOD))
@@ -1301,125 +1320,161 @@ void convertObj(P_obj obj)
   if (IS_SET(obj->bitvector, AFF_SLEEP))
     cost += 2500;
   if (IS_SET(obj->bitvector, AFF_SNEAK))
-    cost += 500000;
+    cost += 50000;
   if (IS_SET(obj->bitvector, AFF_HIDE))
     cost += 250000;
   if (IS_SET(obj->bitvector, AFF_BARKSKIN))
-    cost += 15000;
+    cost += 10420;
   if (IS_SET(obj->bitvector, AFF_INFRAVISION))
-    cost += 10000;
+    cost += 60000;
   if (IS_SET(obj->bitvector, AFF_LEVITATE))
-    cost += 20000;
+    cost += 40000;
   if (IS_SET(obj->bitvector, AFF_FLY))
-    cost += 100000;
+    cost += 90000;
   if (IS_SET(obj->bitvector, AFF_AWARE))
     cost += 100000;
   if (IS_SET(obj->bitvector, AFF_PROT_FIRE))
     cost += 25000;
   if (IS_SET(obj->bitvector, AFF_BIOFEEDBACK))
-    cost += 750000;
+    cost += 75000;
   if (IS_SET(obj->bitvector2, AFF2_FIRESHIELD))
     cost += 200000;
   if (IS_SET(obj->bitvector2, AFF2_ULTRAVISION))
-    cost += 175000;
+    cost += 75000;
   if (IS_SET(obj->bitvector2, AFF2_DETECT_EVIL))
-    cost += 5000;
+    cost += 10000;
   if (IS_SET(obj->bitvector2, AFF2_DETECT_GOOD))
-    cost += 5000;
+    cost += 10000;
   if (IS_SET(obj->bitvector2, AFF2_DETECT_MAGIC))
-    cost += 5000;
+    cost += 4000;
   if (IS_SET(obj->bitvector2, AFF2_PROT_COLD))
     cost += 25000;
   if (IS_SET(obj->bitvector2, AFF2_PROT_LIGHTNING))
     cost += 25000;
   if (IS_SET(obj->bitvector2, AFF2_GLOBE))
-    cost += 900000;
+    cost += 500000;
   if (IS_SET(obj->bitvector2, AFF2_PROT_GAS))
     cost += 25000;
   if (IS_SET(obj->bitvector2, AFF2_PROT_ACID))
     cost += 25000;
   if (IS_SET(obj->bitvector2, AFF2_SOULSHIELD))
-    cost += 175000;
+    cost += 75000;
   if (IS_SET(obj->bitvector2, AFF2_MINOR_INVIS))
     cost += 200000;
   if (IS_SET(obj->bitvector2, AFF2_VAMPIRIC_TOUCH))
-    cost += 450000;
+    cost += 150000;
   if (IS_SET(obj->bitvector2, AFF2_PASSDOOR))
-    cost += 175000;
+    cost += 75000;
 
   /* default condition hurts it */
-  // not by that much...
-  if (obj->condition / obj->max_condition < .500)
-    cost = (int) 1.5 * cost;
-  else if (obj->condition / obj->max_condition < .750)
-    cost = (int) 1.25 * cost;
-  else if (obj->condition / obj->max_condition < .900)
-    cost = (int) 1.10 * cost;
+  if (obj->condition < 50)
+    cost /= 3;
+  else if (obj->condition < 75)
+    cost /= 2;
+  else if (obj->condition < 90)
+    cost = (int) (cost * 1.25);
 
+  /* for some items, consider material type */
+#if 0
+  if (GET_ITEM_TYPE(obj) == ITEM_ARMOR)
+  {
+    switch (obj->material)
+    {
+    case MAT_METAL:
+      weight += 10;
+      break;
+    case MAT_MAG_METAL:
+      weight += 5;
+      cost += 1000;
+      break;
+    case MAT_WOOD:
+      weight += 5;
+      cost += 250;
+      break;
+    case MAT_CLOTH:
+      cost += 50;
+      break;
+    case MAT_HIDE:
+      weight += 1;
+      cost += 125;
+      break;
+    case MAT_SILICON:
+      weight += 5;
+      cost += 750;
+      break;
+    case MAT_CRYSTAL:
+      weight += 7;
+      cost += 1000;
+      break;
+    case MAT_MAGICAL:
+      weight += 5;
+      cost += 1250;
+      break;
+    case MAT_BONE:
+      weight += 10;
+      cost += 50;
+      break;
+    case MAT_STONE:
+      weight += 25;
+      cost += 25;
+    }
+  }
+#endif
   /* armor and worn items weights are affected by locale worn */
   if (GET_ITEM_TYPE(obj) == ITEM_ARMOR || GET_ITEM_TYPE(obj) == ITEM_WORN)
-  {
-    if (CAN_WEAR(obj, ITEM_WEAR_FINGER) || CAN_WEAR(obj, ITEM_GUILD_INSIGNIA) || 
-        CAN_WEAR(obj, ITEM_WEAR_EARRING))
-    {
-       weight += number(0, 1);
-    }
-    else if (CAN_WEAR(obj, ITEM_WEAR_WAIST) || CAN_WEAR(obj, ITEM_WEAR_NECK) ||
-             CAN_WEAR(obj, ITEM_WEAR_WRIST) || CAN_WEAR(obj, ITEM_WEAR_TAIL) || 
-             CAN_WEAR(obj, ITEM_WEAR_QUIVER) || CAN_WEAR(obj, ITEM_WEAR_NOSE) ||
-             CAN_WEAR(obj, ITEM_WEAR_HORN) || CAN_WEAR(obj, ITEM_WEAR_EYES))
-    {
-      weight += number(0, 2);
-    }
-    else if (CAN_WEAR(obj, ITEM_WEAR_FACE) || CAN_WEAR(obj, ITEM_WEAR_HEAD) ||
+    if (CAN_WEAR(obj, ITEM_WEAR_FINGER) || CAN_WEAR(obj, ITEM_GUILD_INSIGNIA)
+        || CAN_WEAR(obj, ITEM_WEAR_EYES) || CAN_WEAR(obj, ITEM_WEAR_EARRING))
+      weight = 0;
+    else if (CAN_WEAR(obj, ITEM_WEAR_HEAD) || CAN_WEAR(obj, ITEM_WEAR_WAIST)
+             || CAN_WEAR(obj, ITEM_WEAR_WRIST) ||
+             CAN_WEAR(obj, ITEM_WEAR_TAIL) || CAN_WEAR(obj, ITEM_WEAR_QUIVER)
+             || CAN_WEAR(obj, ITEM_WEAR_NOSE) ||
+             CAN_WEAR(obj, ITEM_WEAR_HORN))
+      weight -= 10;
+    else if (CAN_WEAR(obj, ITEM_WEAR_NECK) || CAN_WEAR(obj, ITEM_WEAR_FACE) ||
              CAN_WEAR(obj, ITEM_WEAR_FEET) || CAN_WEAR(obj, ITEM_WEAR_HANDS))
-    {
-      weight += number(0, 3);
-    }
-    else if (CAN_WEAR(obj, ITEM_WEAR_BODY) || CAN_WEAR(obj, ITEM_HORSE_BODY) || 
-             CAN_WEAR(obj, ITEM_SPIDER_BODY))
-    {
-      weight += number(3, 8);
-    }
+      weight -= 5;
+    else if (CAN_WEAR(obj, ITEM_WEAR_BODY) || CAN_WEAR(obj, ITEM_HORSE_BODY) || CAN_WEAR(obj, ITEM_SPIDER_BODY))
+      weight += 10;
     else if (CAN_WEAR(obj, ITEM_WEAR_SHIELD))
     {
       if (isname("spiked", obj->name))
       {
-        cost += 2500;
-        weight += number(3, 5);
+        cost += 500;
+        weight += 1;
       }
       if (isname("large", obj->name) || isname("huge", obj->name))
       {
-        cost += 1000;
-        weight += number(5, 10);
+        cost += 100;
+        weight += 5;
       }
       if (isname("small", obj->name) || isname("tiny", obj->name))
-        weight -= BOUNDED(1, number(2, 5), 20);
+        weight -= 5;
     }
-  }
 
   /* check some keywords */
   if (isname("ornate", obj->name) || isname("gem", obj->name) ||
       isname("gold", obj->name) || isname("platinum", obj->name) ||
-      isname("jewel", obj->name) || isname("diamond", obj->name) ||
-      isname("sapphire", obj->name) || isname("ruby", obj->name))
-    cost *= 5;
-
+      isname("jewel", obj->name))
+    cost *= 2;
   if (isname("worn", obj->name) || isname("broken", obj->name) ||
-      isname("ruined", obj->name) || isname("flesh", obj->name) ||
-      isname("rusted", obj->name) || isname("rusty", obj->name) ||
-      isname("poor", obj->name))
-    cost /= 5;
+      isname("ruined", obj->name))
+    cost /= 2;
 
-  cost = BOUNDED(1, cost, 9000000);
-  if(type != ITEM_CONTAINER)
-    weight = BOUNDED(0, weight, 10000);
-  else
-    weight = BOUNDED(-300, weight, 10000);
+  cost = BOUNDED(1, cost, 5000000);
+  weight = BOUNDED(0, weight, 10000);
 
-  obj->weight = weight;
+  /* slight randomizing */
+  cost += ((cost / 100) * number(-2, 2));
+
+/*  obj->weight = weight;*/
   if ((type != ITEM_INSTRUMENT) && (type != ITEM_TOTEM))
     obj->cost = cost;
+
+/*  setItemMaxSP(obj);*/
+#if 0
+  obj->curr_sp = obj->max_sp;   /* temporary */
+#endif
 }
 
   

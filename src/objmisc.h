@@ -16,7 +16,7 @@
 #define MAT_HARDWOOD   6
 #define MAT_SILICON    7
 #define MAT_CRYSTAL    8
-#define MAT_CLAY    9
+#define MAT_CERAMIC    9
 #define MAT_BONE      10
 #define MAT_STONE     11
 #define MAT_HIDE      12
@@ -66,37 +66,27 @@
                         mat == MAT_ADAMANTIUM || mat == MAT_GOLD || \
                         mat == MAT_SILVER || mat == MAT_PLATINUM || \
                         mat == MAT_MITHRIL || mat == MAT_ELECTRUM )
-
-#define IS_MAG_METAL(mat) ( mat == MAT_ELECTRUM || mat == MAT_MITHRIL || \
-                            mat == MAT_ADAMANTIUM)
-
 #define IS_STONE(mat) ( mat == MAT_GRANITE || mat == MAT_GEM || \
                         mat == MAT_EMERALD || mat == MAT_SAPPHIRE || \
                         mat == MAT_OBSIDIAN || mat == MAT_MARBLE || \
                         mat == MAT_LIMESTONE || mat == MAT_RUBY || \
                         mat == MAT_DIAMOND || mat == MAT_CRYSTAL || \
-                        mat == MAT_STONE || mat == MAT_CLAY )
-
+                        mat == MAT_STONE || mat == MAT_CERAMIC )
 #define IS_LEATHER(mat) ( mat == MAT_HIDE || mat == MAT_REPTILESCALE || \
                           mat == MAT_CURED_LEATHER || mat == MAT_LEATHER || \
-                          mat == MAT_REEDS)
-
+                          mat == MAT_DRAGONSCALE )
 #define IS_WOODEN(mat) ( mat == MAT_BAMBOO || mat == MAT_SOFTWOOD || \
                          mat == MAT_HARDWOOD || mat == MAT_BARK )
-
 #define IS_CLOTH(mat) ( mat == MAT_REEDS || mat == MAT_HEMP || \
                         mat == MAT_LEAVES || mat == MAT_PARCHMENT || \
                         mat == MAT_PAPER || mat == MAT_CLOTH || \
                         mat == MAT_FEATHER )
-
 #define IS_PLASTIC(mat) ( mat == MAT_WAX || mat == MAT_RUBBER || \
                           mat == MAT_GENERICFOOD || mat == MAT_FLESH || \
                           mat == MAT_SILICON )
-
 #define IS_RIGID(mat) ( IS_METAL(mat) || IS_STONE(mat) || IS_WOODEN(mat) || \
                         mat == MAT_IVORY || mat == MAT_PEARL || \
-                        mat == MAT_CHITINOUS || mat == MAT_BONE || \
-                        mat == MAT_DRAGONSCALE || mat == MAT_GLASSTEEL)
+                        mat == MAT_CHITINOUS || mat == MAT_BONE )
 
 #define MAT_HIGHEST     52
 #define NUMB_MATERIALS (MAT_HIGHEST + 1)

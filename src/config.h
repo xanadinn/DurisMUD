@@ -21,20 +21,20 @@
 #define DFLT_PORT 7777          /* default port */
 // randomeq constants
 #define MAX_SLOT 108
-#define MAXMATERIAL 42
+#define MAXMATERIAL 34
 #define MAXPREFIX 56
 #define RANDOM_EQ_VNUM 1252
 /* configurable options */
 
 #define ENABLE_TERSE 1
 #define THARKUN_ARTIS 1
-#undef CTF_MUD
+
 #define MEMCHK 1                /* Memory debugger, 1 for simple, 2 for long */
 #define DB_NOTIFYoff            /* Logs when it can't find shit in area files */
 #define SHIPS_BROKEoff          /* turns em on and off. Virtual ships that is */
 #define CONFIG_JAIL             /* are the jails working? */
 #undef ERANDOM                  /* enable BSD-sytle pseudo-random nuber generator */
-#undef FIGHT_DEBUG              /* for step by step debug info on fight routines */
+#undef  FIGHT_DEBUG             /* for step by step debug info on fight routines */
 #undef  GR                      /* some wierd thing dealing with high system loads */
 #define LANGUAGE_CRYPT          /* Scramble unknown spoken languages */
 #define MEM_DEBUG               /* detailed tracking of where all the RAM is going */
@@ -66,9 +66,9 @@
 #define MAX_TRACK_DIST         32 /* old limit for tracking */
 #define SHADOW_AWARE_PENALTY   20 /* penalty to shadowers skill, if target is 'aware' */
 #define MAX_TROPHY_SIZE        75 /* max number of mobs to keep in trophy array */
-//#define MIN_FLEE_CHANCE        30  /* this is the chance to flee from room with 1 exit*/
-//#define MAX_FLEE_CHANCE        85  /* this is the chance to flee from room with 4+ exits*/
-//#define MAX_CONTROL_FLEE       95  /* this is the chance for controlled flee with skill at 100 */
+#define MIN_CHANCE_TO_FLEE      78  /* this is the chance to flee from room with 1 exit*/
+#define MAX_CHANCE_TO_FLEE      86  /* this is the chance to flee from room with 4+ exits*/
+#define MAX_CHANCE_TO_CONTROL_FLEE 95  /* this is the chance for controlled flee with skill at 100 */
 #define MAX_PETS                5 /* number of pets we can save for reloading */
 
 /* time factors */
@@ -80,7 +80,7 @@
 #define PULSE_VEHICLE             2     /* for ships, 1 second */
 #define PULSE_VIOLENCE           12     /* combat round, 3 seconds */
 #define PULSE_SPELLCAST           9     /* casting crap about 2 seconds */
-#define PULSE_MOB_HUNT            7     /* how often a HUNTER mob moves */
+#define PULSE_MOB_HUNT            6     /* how often a HUNTER mob moves */
 #define PULSE_AUCTION             8
 #define PULSE_SHAPECHANGE        30     /* Time for each * while changing */
 
@@ -137,8 +137,6 @@
 
 /* room in heavens to store corpses if room is invalid */
 #define CORPSE_STORAGE 40
-
-#define ALCHEMIST_ASCEND_ROOM 500
 
 /* misc thingies */
 #define DEFAULT_MODE (SHOW_NAME | SHOW_ON)      /* information that whod reveals */

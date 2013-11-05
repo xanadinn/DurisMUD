@@ -374,7 +374,7 @@ void assign_mobiles(void)
   mob_index[real_mobile0(8047)].func.mob = cityguard;
 
   /* transparent tower */
-  mob_index[real_mobile0(16205)].func.mob = transp_tow_aceralde;
+  mob_index[real_mobile0(16205)].func.mob = transp_tow_acerlade;
 
   /* necro dracoliches */
   mob_index[real_mobile0(3)].func.mob = necro_dracolich;
@@ -1061,8 +1061,6 @@ void assign_mobiles(void)
   mob_index[real_mobile0(19880)].func.mob = astral_succubus;
   mob_index[real_mobile0(19600)].func.mob = block_dir;
 
-  obj_index[real_object0(OBJECT_FIRESWORN)].func.obj = proc_load_firesworn;
-  obj_index[real_object0(SPHINX_CROWN)].func.obj = sphinx_prefect_crown;
   /* Shabo shouts */
 
   mob_index[real_mobile0(32828)].func.mob = strychnesch_shout;
@@ -2617,13 +2615,6 @@ void assign_rooms(void)
   obj_index[real_object0(87601)].func.obj = flow_amulet; 
   obj_index[real_object0(87611)].func.obj = jubilex_grid_mob_generator; 
   obj_index[real_object0(67274)].func.obj = zion_netheril;
-
-  /* Brass */
-  mob_index[real_mobile0(139014)].func.mob = block_dir;
-  mob_index[real_mobile0(139115)].func.mob = guild_guard;
-  mob_index[real_mobile0(139111)].func.mob = guild_guard;
-  mob_index[real_mobile0(139001)].func.mob = guild_guard;
-  mob_index[real_mobile0(139130)].func.mob = basilisk_freeze;
 
   /* Fortress of Dreams */
   mob_index[real_mobile0(32604)].func.mob = block_dir;

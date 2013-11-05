@@ -405,9 +405,17 @@ int bard_saves(P_char ch, P_char victim, int song)
       !victim ||
       !IS_ALIVE(victim))
   
+// Saves are bounded to 4. Here are some examples:
+// Sept08 -Lucrot
+// Level bard / Level instrument / Level victim / save
+// 56/56/56/6 ~ bounded to 4
+// 40/40/40/4
+// 40/56/56/-3
+// 15/30/56/-18
+// 40/56/62/-6
     if(ch && victim)
     {
-      smod = (int) MIN((((bard_song_level(ch, song)) / 15) + ((GET_LEVEL(ch) - GET_LEVEL(victim)) / 2)), 6);
+      smod = (int) MIN((((bard_song_level(ch, song)) / 15) + ((GET_LEVEL(ch) - GET_LEVEL(victim)) / 2)), 4);
       save = NewSaves(victim, SAVING_SPELL, smod);
       return save;
     }
@@ -416,6 +424,12 @@ int bard_saves(P_char ch, P_char victim, int song)
   {
     return 0;
   }
+  // if(ch && victim)
+    // return NewSaves(victim, SAVING_SPELL,
+                    // (((bard_song_level(ch, song) + GET_LEVEL(ch)) / 2) -
+                     // GET_LEVEL(victim)) / 7);
+  // else
+    // return 0;
 }
 
 void do_bardsing(P_char ch, char *arg)
@@ -928,7 +942,12 @@ void bard_harming(int l, P_char ch, P_char victim, int song)
     
     if(IS_NPC(ch))
     {
-      empower += GET_LEVEL(ch) * 2;
+      empower += 100;
+    }
+    
+    if(resists_spell(ch, victim)) // Added. Nov08 -Lucrot
+    {
+      return;
     }
     
     dam = (int) (l * 3 + empower / 4 + number(-4, 4)); // Adjusted. Nov08 -Lucrot
@@ -1030,7 +1049,7 @@ void bard_protection(int l, P_char ch, P_char victim, int song)
           !IS_AFFECTED(victim, AFF_MINOR_GLOBE))
               spell_minor_globe(l, ch, 0, 0, victim, NULL);
   
-  if(IS_PC(victim) && GET_LEVEL(ch) >= 46 &&
+  if(GET_LEVEL(ch) >= 46 &&
      !has_skin_spell(victim))
       if (IS_UNDEAD(victim) || IS_ANGEL(ch))
 	spell_prot_undead(l, ch, 0, 0, victim, NULL);
@@ -1060,7 +1079,7 @@ void bard_heroism(int l, P_char ch, P_char victim, int song)
     !IS_AFFECTED(victim, AFF_HASTE))
       spell_haste(l, ch, 0, 0, victim, NULL);
 
-  if(GET_LEVEL(ch) > 50 && !affected_by_spell(victim, SONG_HEROISM))
+  if(!affected_by_spell(victim, SONG_HEROISM))
   {
     memset(&af, 0, sizeof(af));
     af.type = SONG_HEROISM;
@@ -1091,7 +1110,7 @@ void bard_heroism(int l, P_char ch, P_char victim, int song)
     send_to_char("&+WA sense of &+yheroism &+Wgrows in your &+rheart.\r\n&N", victim);
   }
   
-  if(GET_LEVEL(ch) > 35 && !affected_by_spell(ch, SONG_HEROISM))
+  if(!affected_by_spell(ch, SONG_HEROISM))
   {
     memset(&af, 0, sizeof(af));
     af.type = SONG_HEROISM;
@@ -1741,11 +1760,11 @@ void event_bardsong(P_char ch, P_char victim, P_obj obj, void *data)
     }
   }
 
-  notch_skill(ch, song, 100);
+  notch_skill(ch, song, 50);
   if((instrument = has_instrument(ch)))
   {
     if(bard_get_type(song) == instrument->value[0] + INSTRUMENT_OFFSET)
-      notch_skill(ch, instrument->value[0] + INSTRUMENT_OFFSET, 100);
+      notch_skill(ch, instrument->value[0] + INSTRUMENT_OFFSET, 50);
   }
   for (af = ch->affected; af; af = af2)
   {

@@ -262,7 +262,7 @@ void event_enchant_arrow(P_char ch, P_char victim, P_obj obj, void *data)
 
   obj->name = arrow->name;
   obj->short_description = arrow->short_description;
-  obj->timer[3] = ARROW_NONE;
+  obj->timer[5] = ARROW_NONE;
 }
 
 void enchant_arrows(P_char ch, P_char vict, P_obj arrow, int cmd)
@@ -284,7 +284,7 @@ void enchant_arrows(P_char ch, P_char vict, P_obj arrow, int cmd)
   case ARROW_NONE:
     break;
   case ARROW_MARK:
-    if (arrow->timer[3] == ARROW_MARK)
+    if (arrow->timer[5] == ARROW_MARK)
       return;
     
     sprintf(buf2, "&n of &+L%s&n", GET_NAME(ch));
@@ -295,7 +295,7 @@ void enchant_arrows(P_char ch, P_char vict, P_obj arrow, int cmd)
     sprintf(buf, "%s a%s", arrow->name, GET_NAME(ch));
     arrow->name = str_dup(buf);
     
-    arrow->timer[3] = ARROW_MARK;
+    arrow->timer[5] = ARROW_MARK;
     duration = WAIT_SEC * (int)get_property("archery.enchantArrows.mark.duration", 300);
     add_event(event_enchant_arrow, duration, 0, 0, arrow, 0, 0, 0);
     break;
@@ -529,7 +529,7 @@ void do_fire(P_char ch, char *argument, int cmd)
 
    if (IS_FIGHTING(ch))
    {
-      if( notch_skill(ch, SKILL_POINT_BLANK_SHOT, 20) ||
+      if( notch_skill(ch, SKILL_POINT_BLANK_SHOT, 10) ||
           number(1, 130) <= GET_CHAR_SKILL(ch, SKILL_POINT_BLANK_SHOT) )
       {
          send_to_char("You take aim, and fire upon your enemy!\n", ch);
@@ -635,8 +635,8 @@ void do_fire(P_char ch, char *argument, int cmd)
    {
      sprintf(buf, "You aim high, arcing %s skyward.\r\n", ch->equipment[WIELD]->short_description);
      send_to_char(buf, ch);
-     if(!notch_skill(ch, SKILL_INDIRECT_SHOT, 100) &&
-          GET_CHAR_SKILL(ch, SKILL_INDIRECT_SHOT) < number(1, 130))
+     if( !notch_skill(ch, SKILL_INDIRECT_SHOT, 100) &&
+          GET_CHAR_SKILL(ch, SKILL_INDIRECT_SHOT) < number(1, 130) )
      {
        to_hit = 0;
      }
@@ -664,8 +664,8 @@ void do_fire(P_char ch, char *argument, int cmd)
 
       // cursed is auto return arrows
       // now is max 50%, might add some luck mod too
-      if(notch_skill(ch, SKILL_CURSED_ARROWS, 20) ||
-          number(0, 100) < (int)((GET_CHAR_SKILL(ch, SKILL_CURSED_ARROWS) / 2) *
+      if( notch_skill(ch, SKILL_CURSED_ARROWS, 10) ||
+          number(0, 100) < (int)((GET_CHAR_SKILL(ch, SKILL_CURSED_ARROWS)/2) *
                                  get_property("archery.cursedArrows.mod", 1.0))
         )
       {
@@ -683,7 +683,7 @@ void do_fire(P_char ch, char *argument, int cmd)
       // For get all.aplayername
       if ( GET_CHAR_SKILL(ch, SKILL_ENCHANT_ARROWS) >= number(1, 100) )
       {
-         notch_skill(ch, SKILL_ENCHANT_ARROWS, 20);
+         notch_skill(ch, SKILL_ENCHANT_ARROWS, 10);
          enchant_arrows(ch, victim, missile, ARROW_MARK);
       }
 
@@ -702,7 +702,7 @@ void do_fire(P_char ch, char *argument, int cmd)
 
       if(room == victim->in_room &&
         (IS_IMMOBILE(victim) ||
-        notch_skill(ch, SKILL_ARCHERY, get_property("skill.notch.offensive.auto", 100) / 2) || 
+        notch_skill(ch, SKILL_ARCHERY, get_property("skill.notch.offensive.auto", 100)/2) || 
         to_hit >= number(1, 100)))
       {
         if (IS_PC(ch) && IS_PC(victim))
@@ -1018,7 +1018,7 @@ void do_fire(P_char ch, char *argument, int cmd)
    // appeari screwing up what we've done ni interp.c, we do this.
    if (hidecheck)
    {
-     if( notch_skill(ch, SKILL_SHADOW_ARCHERY, 25) ||
+     if( notch_skill(ch, SKILL_SHADOW_ARCHERY, 5) ||
          (GET_CHAR_SKILL(ch, SKILL_SHADOW_ARCHERY) / 2) > number(1, 105))
      {
        SET_BIT(ch->specials.affected_by, AFF_HIDE);

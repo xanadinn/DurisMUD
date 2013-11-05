@@ -336,9 +336,6 @@ int epic_random_task_zone(P_char ch)
 
   mysql_free_result(res);
 
-  if(epic_zone_done(zone_number))
-    epic_random_task_zone(ch);
-
   return zone_number;
 
 #endif
@@ -350,9 +347,10 @@ void epic_choose_new_epic_task(P_char ch)
   int zone_number = -1;
   P_obj nexus;
 
-  if(!(ch) || !IS_ALIVE(ch))
+  if(!(ch) ||
+     !IS_ALIVE(ch))
   {
-     return;
+    return;
   }
   
   struct affected_type af, *afp;
@@ -366,11 +364,6 @@ void epic_choose_new_epic_task(P_char ch)
     zone_number = epic_random_task_zone(ch);
   }
 
-<<<<<<< HEAD
-  if(zone_number < 0)
-  {
-    nexus = get_random_enemy_nexus(ch);
-=======
 //Getting rid of nexus . 7/13 Drannak
 
   //zone_number = epic_random_task_zone(ch);
@@ -378,7 +371,6 @@ void epic_choose_new_epic_task(P_char ch)
   if(zone_number < 0)
   {
    /* nexus = get_random_enemy_nexus(ch);
->>>>>>> master
     if((number(0, 100) < 50) && (GET_LEVEL(ch) >= 51) && nexus)
     {
       act("The Gods of &+rDuris&n demand that you seek out $p and convert it!", FALSE, ch, nexus, 0, TO_CHAR);
@@ -544,10 +536,7 @@ void gain_epic(P_char ch, int type, int data, int amount)
     return;
   }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> master
   if(IS_AFFECTED4(ch, AFF4_EPIC_INCREASE))
   {
     send_to_char("You feel the &+cblessing&n of the &+WGods&n wash over you.\n", ch);
@@ -626,13 +615,8 @@ void gain_epic(P_char ch, int type, int data, int amount)
   if(GET_LEVEL(ch) >= get_property("exp.maxExpLevel", 46) &&
       GET_LEVEL(ch) < get_property("epic.maxFreeLevel", 50))
   {
-<<<<<<< HEAD
-     //epic_free_level(ch);
-     advance_level(ch, FALSE); // handles leveling for wipe2011
-=======
      epic_free_level(ch);
      //advance_level(ch);//, FALSE); handles leveling for wipe2011
->>>>>>> master
   }
 
   // feed artifacts
@@ -646,20 +630,11 @@ void gain_epic(P_char ch, int type, int data, int amount)
     epic_gain_skillpoints(ch, skill_notches);
   }
 
-  if((type == EPIC_ZONE ||
-     type == EPIC_RANDOM_ZONE ||
-     type == EPIC_NEXUS_STONE) && 
-     !number(0, 8))
-  {
-    epic_choose_new_epic_task(ch);
-  }
-
-/*
   if((old / errand_notch < (old + amount) / errand_notch) && !has_epic_task(ch))
   {
     epic_choose_new_epic_task(ch);
   }
-*/
+
 }
 
 struct affected_type *get_epic_task(P_char ch)
@@ -741,12 +716,9 @@ void epic_feed_artifacts(P_char ch, int epics, int epic_type)
 
   if(num_artis > 0)
     feed_seconds = (int) (feed_seconds / num_artis);
-<<<<<<< HEAD
-=======
 
   if(affected_by_spell(ch, TAG_PLR_RECENT_FRAG))
     feed_seconds *= 3;
->>>>>>> master
 
   for (int i = 0; i < MAX_WEAR; i++)
   {
@@ -803,20 +775,7 @@ int epic_stone_payout(P_obj obj, P_char ch)
   {
     for(struct group_list *gl = ch->group; gl; gl = gl->next)
     {
-<<<<<<< HEAD
-      if(gl->ch == ch)
-      {
-        continue;
-      }
-      if(!IS_PC(gl->ch) ||
-         IS_TRUSTED(gl->ch))
-      {
-        continue;
-      }
-      if(gl->ch->in_room == ch->in_room)
-=======
       if(gl->ch != ch && IS_PC(gl->ch) && !IS_TRUSTED(gl->ch) && gl->ch->in_room == ch->in_room)
->>>>>>> master
       {
         num_players++;
       }
@@ -897,12 +856,8 @@ void epic_free_level(P_char ch)
          ch->only.pc->epics >= epics_for_level)
      {
          GET_EXP(ch) -= new_exp_table[GET_LEVEL(ch) + 1];
-<<<<<<< HEAD
-         advance_level(ch, FALSE);
-=======
 	ch->only.pc->epics -= epics_for_level;
          advance_level(ch);//, FALSE); wipe2011
->>>>>>> master
 		 wizlog(56, "%s has attained epic level &+W%d&n!",
                 GET_NAME(ch),
                 GET_LEVEL(ch));
@@ -921,11 +876,7 @@ void epic_stone_level_char(P_obj obj, P_char ch)
   sprintf(buf, "epic.forLevel.%d", GET_LEVEL(ch)+1);
 
   int epics_for_level = get_property(buf, 1 << (obj->value[3] - 43));
-<<<<<<< HEAD
-
-=======
   int nostone_epics_for_level;
->>>>>>> master
   if(IS_MULTICLASS_PC(ch) && GET_LEVEL(ch) >= 51)
   {
     epics_for_level *= (int) get_property("exp.multiEpicMultiplier", 3);
@@ -935,14 +886,6 @@ void epic_stone_level_char(P_obj obj, P_char ch)
   epics_for_level = (int)(epics_for_level/3);
  
 #endif
-<<<<<<< HEAD
-
-  if(GET_EXP(ch) >= new_exp_table[GET_LEVEL(ch)+1] &&
-      ch->only.pc->epics >= epics_for_level)
-  {
-    GET_EXP(ch) -= new_exp_table[GET_LEVEL(ch) + 1];
-    advance_level(ch, TRUE);
-=======
   //nostone_epics_for_level = epics_for_level * 2; //Multiclass now use same epics
   nostone_epics_for_level = epics_for_level;
   if((GET_EXP(ch) >= new_exp_table[GET_LEVEL(ch)+1] &&
@@ -951,7 +894,6 @@ void epic_stone_level_char(P_obj obj, P_char ch)
     GET_EXP(ch) -= new_exp_table[GET_LEVEL(ch) + 1];
     ch->only.pc->epics -= epics_for_level;
     advance_level(ch);//, TRUE); wipe2011
->>>>>>> master
 	wizlog(56, "%s has attained epic level &+W%d&n!",
            GET_NAME(ch),
            GET_LEVEL(ch));
@@ -966,11 +908,7 @@ void epic_stone_one_touch(P_obj obj, P_char ch, int epic_value)
 {
   if(!obj || !ch || !epic_value)
     return;
-<<<<<<< HEAD
-
-=======
   int curr_epics = ch->only.pc->epics;
->>>>>>> master
   /*if(get_zone_exp(ch, world[ch->in_room].zone) < calc_min_zone_exp(ch))	
   {
     act("The burst of &+Bblue energy&n from $p flows around $n, leaving them unaffected!",
@@ -1006,9 +944,6 @@ void epic_stone_one_touch(P_obj obj, P_char ch, int epic_value)
     gain_epic(ch, EPIC_ZONE, obj->value[2], epic_value);
   }
 
-<<<<<<< HEAD
-  if(GET_LEVEL(ch) == (obj->value[3] - 1))
-=======
   //Characters can now level up to 55 by epics and exp alone - 11/13/12 Drannak
   if((GET_LEVEL(ch) == (obj->value[3] - 1)) ||
     (curr_epics > 3000 && GET_LEVEL(ch) == 50) ||
@@ -1016,7 +951,6 @@ void epic_stone_one_touch(P_obj obj, P_char ch, int epic_value)
     (curr_epics > 5000 && GET_LEVEL(ch) == 52) ||
     (curr_epics > 7500 && GET_LEVEL(ch) == 53) ||
     (curr_epics > 8000 && GET_LEVEL(ch) == 54))
->>>>>>> master
   {
     epic_stone_level_char(obj, ch);
   }
@@ -1141,22 +1075,13 @@ int epic_stone(P_obj obj, P_char ch, int cmd, char *arg)
     epic_stone_one_touch(obj, ch, epic_value);
 
     /* go through all members of group */
-<<<<<<< HEAD
-=======
     int group_size = 1;
 
->>>>>>> master
     if(ch->group)
     {
       for(struct group_list *gl = ch->group; gl; gl = gl->next)
       {
-<<<<<<< HEAD
-        if(gl->ch == ch) continue;
-        if(!IS_PC(gl->ch) || IS_TRUSTED(gl->ch)) continue;
-        if(gl->ch->in_room == ch->in_room)
-=======
         if(gl->ch != ch && IS_PC(gl->ch) && !IS_TRUSTED(gl->ch) && gl->ch->in_room == ch->in_room )
->>>>>>> master
         {
           group_size++;
           epic_stone_one_touch(obj, gl->ch, epic_value);
@@ -1172,10 +1097,7 @@ int epic_stone(P_obj obj, P_char ch, int cmd, char *arg)
       // set completed flag
       epic_zone_completions.push_back(epic_zone_completion(zone_number, time(NULL), delta));
       db_query("UPDATE zones SET last_touch = '%d' WHERE number = '%d'", time(NULL), zone_number);
-<<<<<<< HEAD
-=======
       db_query("INSERT INTO zone_touches (boot_time, touched_at, zone_number, toucher_pid, group_size, epic_value, alignment_delta) VALUES (%d, %d, %d, %d, %d, %d, %d);", boot_time, time(NULL), zone_number, GET_PID(ch), group_size, epic_value, delta);
->>>>>>> master
 
       //  Allow !reset zones to possibly reset somewhere down the line...  - Jexni 11/7/11
       if(!zone_table[zone_number].reset_mode)
@@ -1204,10 +1126,6 @@ void epic_zone_balance()
   
   for (i = 0; i <= epic_zones.size(); i++)
   {
-<<<<<<< HEAD
-    // No need to balance at 0, and code automatically fixes it to 1 or -1
-=======
->>>>>>> master
     if(!qry("SELECT alignment, last_touch FROM zones WHERE number = %d", epic_zones[i].number))
       return;
 
@@ -1232,11 +1150,7 @@ void epic_zone_balance()
     if(lt == 0)
       db_query("UPDATE zones SET last_touch='%d' WHERE number='%d'", time(NULL), epic_zones[i].number);
 
-<<<<<<< HEAD
-    if((alignment == 0) || (alignment == 1) || (alignment == -1))
-=======
     if((alignment == 0))
->>>>>>> master
       continue;
     
     //debug("zone %d alignment %d", epic_zones[i].number, alignment);
@@ -1810,7 +1724,7 @@ int devotion_spell_check(int spell)
   {
     case SPELL_FLAMESTRIKE:
     case SPELL_APOCALYPSE:
-    case SPELL_JUDGMENT:
+    case SPELL_JUDGEMENT:
     case SPELL_FULL_HARM:
     case SPELL_HARM:
     case SPELL_CAUSE_LIGHT:
@@ -2139,11 +2053,7 @@ vector<string> get_epic_players(int racewar)
   debug("get_epic_players(): __NO_MYSQL__, returning 0");
   return names;
 #else
-<<<<<<< HEAD
-  if(!qry("SELECT name from players_core WHERE epics > 0 and racewar = '%d' and level < 57 order by epics desc limit %d", racewar, (int) get_property("epic.list.limit", 10)))
-=======
   if(!qry("SELECT name from players_core WHERE active=1 AND epics > 0 AND racewar = '%d' AND level < 57 ORDER BY epics DESC LIMIT %d", racewar, (int) get_property("epic.list.limit", 10)))
->>>>>>> master
     return names;
 
   MYSQL_RES *res = mysql_store_result(DB);
@@ -2175,11 +2085,7 @@ void do_epic(P_char ch, char *arg, int cmd)
     return;
 
   argument_interpreter(arg, buff2, buff3);
-<<<<<<< HEAD
-
-=======
 /*
->>>>>>> master
   if(!str_cmp("reset", buff2))
   {
     do_epic_reset(ch, arg, cmd);
@@ -2191,11 +2097,7 @@ void do_epic(P_char ch, char *arg, int cmd)
     do_epic_skills(ch, arg, cmd);
     return;
   }
-<<<<<<< HEAD
-
-=======
 */
->>>>>>> master
   if(!str_cmp("trophy", buff2))
   {
     do_epic_trophy(ch, arg, cmd);
@@ -2931,15 +2833,12 @@ void do_infuse(P_char ch, char *arg, int cmd)
     return;
   }
 
-<<<<<<< HEAD
-=======
   if(isname("wicked", device->name))
   {
     send_to_char("You do not possess the extreme power to infuse this particular item.\r\n", ch);
     return;
   }
 
->>>>>>> master
   if(device->value[7] >= 2)
   {
     send_to_char("This device is too worn out to be infused.\r\n", ch);

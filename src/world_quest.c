@@ -8,9 +8,14 @@
  * ***************************************************************************
 
 todo:
+
+
 Version 2
 - Change so you can ask solo, small.
-*/
+
+
+
+ */
 
 #include <vector>
 using namespace std;
@@ -119,7 +124,7 @@ void resetQuest(P_char ch)
   ch->only.pc->quest_zone_number = -1;
   ch->only.pc->quest_giver = 0;
   ch->only.pc->quest_level = 0;
-  ch->only.pc->quest_receiver = 0;
+  ch->only.pc->quest_reciver = 0;
   ch->only.pc->quest_shares_left = 0;
   ch->only.pc->quest_kill_how_many = 0;
   ch->only.pc->quest_kill_original = 0;
@@ -193,19 +198,14 @@ P_obj quest_item_reward(P_char ch)
     reward = create_random_eq_new(ch, ch, -1, -1);
   
   if(reward)
-  { 
-    // Changed this to debug so it won't spam imms.
-    logit( LOG_DEBUG, "%s reward was: %s", GET_NAME(ch), reward->short_description);
-
+  {
+    wizlog(56, "%s reward was: %s", GET_NAME(ch), reward->short_description);
+    
     REMOVE_BIT(reward->extra_flags, ITEM_SECRET);
     REMOVE_BIT(reward->extra_flags, ITEM_INVISIBLE);
-    if(!number(0, 2))  // wipe 2011, quest reward items only set to !repair 33% of the time - Jexni 7/13/11
-      SET_BIT(reward->extra_flags, ITEM_NOREPAIR);
+    SET_BIT(reward->extra_flags, ITEM_NOREPAIR);
     REMOVE_BIT(reward->extra_flags, ITEM_NODROP);
   }
-  else
-    logit(LOG_DEBUG, "quest_item_reward: No reward item." );
-
   return reward;
 }
 
@@ -282,8 +282,12 @@ void quest_ask(P_char ch, P_char quest_mob)
 void quest_kill(P_char ch, P_char quest_mob)
 {
 
-  if( !(ch) || !IS_ALIVE(ch) || !(quest_mob) )
+  if(!(ch) ||
+     !IS_ALIVE(ch) ||
+     !(quest_mob))
+  {
     return;
+  }
   
   if(ch->only.pc->quest_active != 1)
     return;
@@ -312,18 +316,17 @@ void quest_kill(P_char ch, P_char quest_mob)
   }
 
   gain_exp(ch, NULL, exp_gain / ch->only.pc->quest_kill_original, EXP_WORLD_QUEST);
+  if (number(1, ch->only.pc->quest_kill_original + 1) <= 2)
+  {
+    P_obj reward = quest_item_reward(ch);
+    obj_to_char(reward, quest_mob);
+  }
+
 
   if(ch->only.pc->quest_kill_how_many - ch->only.pc->quest_kill_original == 0)
   {
     send_to_char("&+WCongratulations&n&n&+W, you finished your quest!&n\r\n", ch);
-    wizlog(56, "%s finished quest @%s (kill quest)", GET_NAME(ch), quest_mob->player.short_descr);
-
-    if (number(1, (10 - ch->only.pc->quest_kill_original + 1)) <= 2 )
-    {
-      P_obj reward = quest_item_reward(ch);
-      obj_to_char(reward, quest_mob);
-    } //  wipe 2011 - quest reward will give items more often to quests that require more kills(lower level quests generally)
-      //  this should mitigate the influx of too much good eq - Jexni 7/13/11           
+    wizlog(56, "%s finished quest @%s (kill quest)", GET_NAME(ch), quest_mob->player.short_descr );
 
     if( GET_CLASS(ch, CLASS_MERCENARY) && GET_LEVEL(ch) > 24)
     {
@@ -383,6 +386,7 @@ int get_map_room(int zone_id)
                  world[world[i].dir_option[i2]->to_room].number,
                  world[i].dir_option[i2]->to_room,
                  world[world[i].dir_option[i2]->to_room].name);
+                 wizlog(56, "%s", o_buf);
                */
               return world[i].dir_option[i2]->to_room;
             }
@@ -435,7 +439,7 @@ void do_quest(P_char ch, char *args, int cmd)
       resetQuest(victim);
 
       send_to_char("Someone magically cleared your quest.\r\n", victim);
-      send_to_char("You cleared the quest.\r\n", ch);
+      send_to_char("You've cleared his quest.\r\n", ch);
       return;
     }
 
@@ -449,24 +453,24 @@ void do_quest(P_char ch, char *args, int cmd)
   if(*name)
     if (isname(name, "share"))
     {
-      if(ch->only.pc->quest_receiver != GET_PID(ch))
+
+      if(ch->only.pc->quest_reciver != GET_PID(ch))
       {
-        send_to_char("Only the quest receiver can share the quest.\r\n", ch);
+        send_to_char("Only the quest reciver can share the quest.\r\n", ch);
         return;
       }
-      
-      if(ch->only.pc->quest_kill_how_many != 0)
+
+      /*if(ch->only.pc->quest_kill_how_many != 0)
       {
         send_to_char("You already started the quest alone, so finish it alone!\r\n", ch);
         return;
-      }
-      
+      }*/
       if(ch->only.pc->quest_shares_left == 0)
       {
-        send_to_char("You can't share this quest with more people.\r\n", ch);
+        send_to_char("You cant share this quest with more people.\r\n", ch);
         return;
       }
-      
+
       if(!*who)
       {
         send_to_char("Who do you want to share your quest with?\r\n", ch);
@@ -542,13 +546,16 @@ void do_quest(P_char ch, char *args, int cmd)
       victim->only.pc->quest_zone_number = ch->only.pc->quest_zone_number;
       victim->only.pc->quest_giver = ch->only.pc->quest_giver;
       victim->only.pc->quest_level =  ch->only.pc->quest_level;
-      victim->only.pc->quest_receiver = ch->only.pc->quest_receiver;
+      victim->only.pc->quest_reciver = ch->only.pc->quest_reciver;
       victim->only.pc->quest_kill_how_many = ch->only.pc->quest_kill_how_many;
       victim->only.pc->quest_kill_original =  ch->only.pc->quest_kill_original;
       do_quest(victim, "", 0);
 
+
       return;
     }
+
+
 
   if (q_giver = read_mobile(real_mobile(ch->only.pc->quest_giver), REAL))
   {
@@ -564,15 +571,17 @@ void do_quest(P_char ch, char *args, int cmd)
   }
   else
   {
-    wizlog(56, "UNABLE TO LOAD Q MOB:%d for char %s resetting the quest.", ch->only.pc->quest_giver, GET_NAME(ch));
+    wizlog(56, "UNABLE TO LOAD Q MOB:%d for char %s reseting his quest.", ch->only.pc->quest_giver, GET_NAME(ch));
     send_to_char("HMMMMM (bug), Seems like you forgot your quest already, go grab a new one, if this one dont work, try another bartender around the world. Sorry we working on a fix ASAP.!\r\n", ch);
     resetQuest(ch);	
     return;
   }
 
+  //wizlog(56, "questmob num:%d",ch->only.pc->quest_mob_vnum);
   if (q_mob = read_mobile(real_mobile(ch->only.pc->quest_mob_vnum), REAL))
   {
     sprintf(q_name, "%s", q_mob->player.short_descr);
+
 
     if(ch->only.pc->quest_type == FIND_AND_ASK)
     {
@@ -584,6 +593,9 @@ void do_quest(P_char ch, char *args, int cmd)
     {
       sprintf(buf, "Go kill %d %s (%d left) in %s!\r\n", ch->only.pc->quest_kill_original, q_name,  (ch->only.pc->quest_kill_original - ch->only.pc->quest_kill_how_many),  zone_table[real_zone0(ch->only.pc->quest_zone_number)].name );
       send_to_char(buf, ch);
+      wizlog(56, "%s got a quest to go kill %d of mob vnum %d; they have %d left.", 
+           GET_NAME(ch), ch->only.pc->quest_kill_original, ch->only.pc->quest_mob_vnum,
+           (ch->only.pc->quest_kill_original - ch->only.pc->quest_kill_how_many));
     }
 
     if (q_mob)
@@ -610,7 +622,7 @@ void do_quest(P_char ch, char *args, int cmd)
     send_to_char("This quest is already finished, go talk to the quest master!\r\n", ch);
   }
 
-  if(ch->only.pc->quest_receiver != GET_PID(ch)){
+  if(ch->only.pc->quest_reciver != GET_PID(ch)){
     send_to_char("&+RThis quest was shared with you&n.\r\n", ch);
 
   }
@@ -638,7 +650,7 @@ int createQuest(P_char ch, P_char giver)
   vector<int> valid_zones;
   getQuestZoneList(ch, valid_zones);
 
-  if(valid_zones.empty())
+  if( valid_zones.empty() )
   {
     wizlog(56, "Unable to find a quest zone for %s", GET_NAME(ch));
     return -1;
@@ -646,12 +658,12 @@ int createQuest(P_char ch, P_char giver)
 
   for (int z = 0; z < 10; z++)
   {
-    quest_zone = valid_zones[number(0, valid_zones.size() - 1)];
+    quest_zone  = valid_zones[number(0, valid_zones.size() - 1)];
  
     for (int m = 0; m < 3; m++)
     {
       QUEST_TYPE = number(2,4) / 2;
-      if(GET_LEVEL(ch) > 46)
+      if(GET_LEVEL(ch) > 49)
         QUEST_TYPE = FIND_AND_KILL;
 
       //wizlog(56, "suggesting zone:%s for this dude",zone_table[quest_zone].name);
@@ -685,7 +697,7 @@ int createQuest(P_char ch, P_char giver)
     return -1; 
   }
 
-  ch->only.pc->quest_shares_left = get_property("world_quest.quest.shares.number", 4);
+  ch->only.pc->quest_shares_left = 4;
   ch->only.pc->quest_active = 1;
   ch->only.pc->quest_mob_vnum = quest_mob;
   ch->only.pc->quest_type = QUEST_TYPE;
@@ -694,11 +706,11 @@ int createQuest(P_char ch, P_char giver)
   ch->only.pc->quest_zone_number = zone_table[quest_zone].number;
   ch->only.pc->quest_giver = GET_VNUM(giver);
   ch->only.pc->quest_level = GET_LEVEL(ch);
-  ch->only.pc->quest_receiver = GET_PID(ch);
+  ch->only.pc->quest_reciver = GET_PID(ch);
 
   int rnum = real_mobile(quest_mob);
 
-  ch->only.pc->quest_kill_original =  MIN(number(6, 9) , mob_index[rnum].limit - 1);
+  ch->only.pc->quest_kill_original =  MIN(number(7,9) , mob_index[rnum].limit - 1);
   debug("Quest Kill Original Value: %d, mob_index number: %d, mob_index limit: %d, mob_vnum: %d", 
        ch->only.pc->quest_kill_original, mob_index[rnum].number, mob_index[rnum].limit -1, mob_index[rnum].virtual_number);
 
@@ -792,28 +804,22 @@ int getItemFromZone(int zone)
   *buff = '\0';
   length = 0;
   for (i = 0; i <= top_of_objt; i++)
-    if((obj_index[i].virtual_number >= world[z_num->real_bottom].number) &&
+    if ((obj_index[i].virtual_number >= world[z_num->real_bottom].number) &&
         (obj_index[i].virtual_number <= world[z_num->real_top].number))
     {
-       //  easier to just load one, and free it, than load only
-       //  ones that aren't already in game.
-       
-      if((t_obj = read_object(obj_index[i].virtual_number, VIRTUAL)))
+
+
+      /*
+       * easier to just load one, and free it, than load only
+       * ones that aren't already in game.
+       */
+      if ((t_obj = read_object(obj_index[i].virtual_number, VIRTUAL)))
       {
-        if(IS_SET(t_obj->extra_flags, ITEM_NORENT) || 
+        if (IS_SET(t_obj->extra_flags, ITEM_NORENT) || 
             IS_SET(t_obj->str_mask, STRUNG_KEYS) ||
             t_obj->type == ITEM_POTION ||
             !IS_SET(t_obj->wear_flags, ITEM_TAKE) ||
             IS_SET(t_obj->extra_flags, ITEM_TRANSIENT) ||
-<<<<<<< HEAD
-            t_obj->type == ITEM_MONEY ||
-            t_obj->type == ITEM_TRASH ||
-            t_obj->type == ITEM_VEHICLE ||
-            t_obj->type == ITEM_BOAT ||
-            t_obj->type == ITEM_TELEPORT||
-            IS_SET(t_obj->bitvector, AFF_HIDE) ||
-            IS_SET(t_obj->bitvector, AFF_SNEAK) ||
-=======
 	    (t_obj->type != ITEM_WAND &&
 	     t_obj->type != ITEM_STAFF &&
 	     t_obj->type != ITEM_WEAPON &&
@@ -836,22 +842,28 @@ int getItemFromZone(int zone)
             IS_SET(t_obj->bitvector3, AFF3_INERTIAL_BARRIER) ||
             IS_SET(t_obj->bitvector3, AFF3_REDUCE) ||
             IS_SET(t_obj->bitvector2, AFF2_GLOBE) ||
->>>>>>> master
             IS_ARTIFACT(t_obj) ||
             isname("_noquest_", t_obj->name) ||
             GET_OBJ_WEIGHT(t_obj) > 99 ||
+            IS_SET(t_obj->bitvector, AFF_HASTE) ||
+            IS_SET(t_obj->bitvector, AFF_DETECT_INVISIBLE) ||            
+            IS_SET(t_obj->bitvector4, AFF4_DETECT_ILLUSION) ||
             IS_NOSHOW(t_obj))
         {
           extract_obj(t_obj, FALSE);
           continue;
         }
+        //sprintf(buf, "%6d  %5d  %-s\n",
+        //      obj_index[i].virtual_number, obj_index[i].number - 1,
+        //    (t_obj->short_description) ?
+        //  t_obj->short_description : "None");
+
+        //wizlog(56, buf);
         valid_items[list] = obj_index[i].virtual_number;
         list++;
         extract_obj(t_obj, FALSE);
         t_obj = NULL;
-        // Added a failsafe here (I doubt any zone has 1k items though).
-        if( list > 1000 )
-          break;
+
       }
       else
         logit(LOG_DEBUG, "do_world(): obj %d not loadable",
@@ -877,6 +889,10 @@ bool isInvalidQuestZone(int zone_number)
 
 void getQuestZoneList(P_char ch, vector<int> &valid_zones)
 {
+  //If lvl 15 or lower it's same zone as the dude.
+  //if( GET_LEVEL(ch) < 15)
+  //	return world[ch->in_room].zone;
+
   int curZone = world[ch->in_room].zone;
   vector<int> curMapExits;
   bool curUDExit = false;
@@ -1128,9 +1144,9 @@ int calc_zone_mob_level()
     else
     {
       zone_table[i].avg_mob_level = (int) avg_mob_level[i];
-      zone_table[i].mob_count = mob_count[i];
     }
   }
   
 }
+
 
