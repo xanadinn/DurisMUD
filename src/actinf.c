@@ -4125,7 +4125,7 @@ void do_attributes(P_char ch, char *argument, int cmd)
       sprintf(buf, "&+cArmor Points: &+Y%d&+c  Increases melee damage taken by &+Y%.1f&+y%%&n\n", t_val, (double)(t_val * 0.10) );
       else
       sprintf(buf, "&+cArmor Points: &+Y%d&+c  Reduces melee damage taken by &+Y%.1f&n&+y%%&n \n", t_val, (double)(t_val * -0.10) );
-
+  send_to_char(buf, ch);
 /*  statupdate2013 stats - drannak */
 
      if(IS_PC(ch))
@@ -4156,12 +4156,12 @@ void do_attributes(P_char ch, char *argument, int cmd)
       modifier = 0;
 
 	//vamp percentage:
-       double vamppct = GET_C_POW(ch) / 90;
-       if (vamppct < 1.10)
+       double vamppct = BOUNDED(110, ((GET_C_POW(ch) * 10) / 9), 220);
+      /* if (vamppct < 1.10)
        vamppct = 1.10;
        else if (vamppct > 2.20)
-       vamppct = 2.20;
-       vamppct *= 100;
+       vamppct = 2.20;*/
+       //vamppct *= 100.00;
 
       // Magic Dam:
       int dammod = GET_C_STR(ch);
@@ -4169,29 +4169,41 @@ void do_attributes(P_char ch, char *argument, int cmd)
       double remod = 100;
       if(modifierx >=1)
       {
-
-      if (modifier <= 20)
+      if (modifierx <= 20)
       remod += 10;
-      else if (modifier <= 60)
+      else if (modifierx <= 60)
       remod += 20;
       else
       remod += 30;
       }
 
 
-        sprintf(buf, "&+cMelee Critical Percentage(int): &+Y%d%   &n&+cMax Spell Damage Reduction Percent(wis): &+Y%d%\r\n",
+       /* sprintf(buf, "&+cMelee Critical Percentage(int): &+Y%d%   &n&+cMax Spell Damage Reduction Percent(wis): &+Y%d%\r\n",
             critroll,
+            (int)modifier);
+  send_to_char(buf, ch);*/
+
+        sprintf(buf, "&+cMelee Critical Percentage&n(&+Mint&n): &+Y%d%\r\n", critroll);
+  send_to_char(buf, ch);        
+sprintf(buf, "&+cMax Spell Damage Reduction Percent&n(&+cwis&n): &+Y%d% \r\n",
             (int)modifier);
   send_to_char(buf, ch);
 
-        sprintf(buf, "&+cCalming Chance(cha): &+Y%d% \r\n",
+        sprintf(buf, "&+cCalming Chance&n(&+Ccha&n): &+Y%d% \r\n",
             calmroll);
   send_to_char(buf, ch);
 
-        sprintf(buf, "&+cHP Vamp Cap Percentage(pow): &+Y%d%     &n&+cSpell Damage Modifier(str): &+Y%d%\r\n",
+        /*sprintf(buf, "&+cHP Vamp Cap Percentage&n(&+mpow&n): &+Y%d%     &n&+cSpell Damage Modifier(str): &+Y%d%\r\n",
             (int)vamppct,
+            (int)remod);*/
+	
+        sprintf(buf, "&+cHP Vamp Cap Percentage&n(&+mpow&n): &+Y%d% \r\n",
+            (int)vamppct);
+  send_to_char(buf, ch);
+        sprintf(buf, "&+cSpell Damage Modifier&n(&+rstr&n): &+Y%d% \r\n",
             (int)remod);
 	}
+
 
 
 //    sprintf(buf, "&+cArmor Class: &+Y%s\n", ac_to_string(t_val));

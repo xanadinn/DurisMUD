@@ -560,9 +560,12 @@ void berserk(P_char ch, int duration)
   af.location = APPLY_CON_MAX;
   affect_to_char(ch, &af);
 
+  if(!GET_CLASS(ch, CLASS_BERSERKER))
+  {
   af.modifier = -(ch->base_stats.Int * 2 / 3);
   af.location = APPLY_INT;
   affect_to_char(ch, &af);
+  }
   
   if(GET_CLASS(ch, CLASS_BERSERKER) &&
     (GET_RACE(ch) == RACE_MOUNTAIN ||

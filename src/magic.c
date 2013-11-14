@@ -878,7 +878,7 @@ void spell_restore_spirit(int level, P_char ch, char *arg, int type,
     dam <<= 1;
   }
   
-  vamp(ch, (int)(dam / 4), (int) (GET_MAX_HIT(ch) * 1.10));
+  vamp(ch, (int)(dam / 4), (int) (GET_MAX_HIT(ch) * (double)(BOUNDED(110, ((GET_C_POW(ch) * 10) / 9), 220) * .01)));
 
   if(GET_VITALITY(victim) >= 10 &&
      !IS_AFFECTED2(victim, AFF2_SOULSHIELD))
@@ -989,7 +989,7 @@ void spell_enervation(int level, P_char ch, char *arg, int type,
     dam <<= 1;
   }
   
-  vamp(ch, (int)(dam / 4), (int) (GET_MAX_HIT(ch) * 1.10));
+  vamp(ch, (int)(dam / 4), (int) (GET_MAX_HIT(ch) * (double)(BOUNDED(110, ((GET_C_POW(ch) * 10) / 9), 220) * .01)));
 
   if(GET_VITALITY(victim) >= 10 &&
      !IS_AFFECTED4(victim, AFF4_NEG_SHIELD))
@@ -1183,10 +1183,10 @@ void spell_energy_drain(int level, P_char ch, char *arg, int type,
       if(IS_PC(ch) || 
          IS_PC_PET(ch))
       {
-        vamp(ch, (int)(dam / 5), (int) (GET_MAX_HIT(ch) * get_property("vamping.maxHP.PC", 1.100)));
+        vamp(ch, (int)(dam / 5), (int) (GET_MAX_HIT(ch) * (double)(BOUNDED(110, ((GET_C_POW(ch) * 10) / 9), 220) * .01)));
       }
       else
-        vamp(ch, (int)(dam / 2), (int) (GET_MAX_HIT(ch) * get_property("vamping.maxHP.PC", 1.100)));
+        vamp(ch, (int)(dam / 2), (int) (GET_MAX_HIT(ch) * (double)(BOUNDED(110, ((GET_C_POW(ch) * 10) / 9), 220) * .01)));
 	 
     }
 
@@ -7186,14 +7186,14 @@ void spell_invisibility(int level, P_char ch, char *arg, int type,
       af.type = SPELL_INVISIBLE;
       af.duration = level / 2;
 
-    /*  if(GET_SPEC(ch, CLASS_SORCERER, SPEC_SHADOW) && Drannak - disabling for now
+      if(GET_SPEC(ch, CLASS_SORCERER, SPEC_SHADOW) && 
          ch == victim &&
          !IS_WATER_ROOM(ch->in_room) &&
          world[room].sector_type != SECT_OCEAN)
       {
         af.bitvector = AFF_HIDE;
       }
-      */
+      
       af.bitvector2 = AFF2_MINOR_INVIS;
       affect_to_char(victim, &af);
     }
@@ -21257,7 +21257,7 @@ void spell_life_bolt(int level, P_char ch, char *arg, int type,
     {
       send_to_char("&+WYou send a quick prayer to your Deity, offering your &+Rlifeforce&+W and asking for divine energy to flow through you!\r\n", ch);
 
-      vamp(ch, self_dam/6, GET_MAX_HIT(ch) * 1.1);
+      vamp(ch, self_dam/6, GET_MAX_HIT(ch) * (double)(BOUNDED(110, ((GET_C_POW(ch) * 10) / 9), 220) * .01));
       //if (spell_damage(ch, ch, self_dam, SPLDAM_HOLY, RAWDAM_NOKILL | SPLDAM_NOSHRUG, 0) != DAM_NONEDEAD)
 	//        return;
     }
