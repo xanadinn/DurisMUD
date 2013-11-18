@@ -1954,6 +1954,8 @@ void enhance(P_char ch, P_obj source, P_obj material)
 		(IS_SET(source->wear_flags, ITEM_WEAR_LEGS) && !IS_SET(robj->wear_flags, ITEM_WEAR_LEGS)) ||
 		(IS_SET(source->wear_flags, ITEM_WEAR_ARMS) && !IS_SET(robj->wear_flags, ITEM_WEAR_ARMS)) ||
 		(IS_SET(source->wear_flags, ITEM_WEAR_HEAD) && !IS_SET(robj->wear_flags, ITEM_WEAR_HEAD)) ||
+		(IS_SET(source->wear_flags, ITEM_WEAR_NECK) && !IS_SET(robj->wear_flags, ITEM_WEAR_NECK)) ||
+		(IS_SET(source->wear_flags, ITEM_WEAR_WAIST) && !IS_SET(robj->wear_flags, ITEM_WEAR_WAIST)) ||
 		(IS_SET(source->wear_flags, ITEM_WEAR_ABOUT) && !IS_SET(robj->wear_flags, ITEM_WEAR_ABOUT)) ||
 		(IS_SET(source->wear_flags, ITEM_WEAR_FEET) && !IS_SET(robj->wear_flags, ITEM_WEAR_FEET)) ||
 		(IS_SET(source->wear_flags, ITEM_WEAR_SHIELD) && !IS_SET(robj->wear_flags, ITEM_WEAR_SHIELD)) ||
@@ -1996,7 +1998,7 @@ void enhance(P_char ch, P_obj source, P_obj material)
 	obj_from_char(material, TRUE);
        extract_obj(material, FALSE);
 	 statuslog(ch->player.level,
-        "&+MFaerie Bag:&n (%s&n) just got [%d] (%s&n) at [%d]!",
+        "&+BEnhancement&n:&n (%s&n) just got [%d] (%s&n) at [%d]!",
           GET_NAME(ch),
           obj_index[robj->R_num].virtual_number,
           robj->short_description,
