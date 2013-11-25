@@ -2091,12 +2091,12 @@ void do_enhance(P_char ch, char *argument, int cmd)
 
 int get_progress(P_char ch, int ach, uint required)
 {
-  return 0;
   int prog = 0, percentage = 0;
   struct affected_type *findaf, *next_af;  //initialize affects
 
   for(findaf = ch->affected; findaf; findaf = next_af)
   {
+    next_af = findaf->next;
    if(findaf && findaf->type == ach)
    prog = findaf->modifier;
   }
@@ -2110,7 +2110,7 @@ int get_progress(P_char ch, int ach, uint required)
   }
 
   if(prog < 0)
-  return 1;
+  return 0;
 
  return percentage;
 }

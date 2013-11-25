@@ -2879,8 +2879,8 @@ void display_achievements(P_char ch, char *arg, int cmd)
   sprintf(buf3, "  &+L%-43s&+L%-45s&+L%s\r\n",
           "&+gDr&+Gag&+Lon &+gS&+Glaye&+gr&n", "&+BKill 1000 Dragons", "&+B10% damage increase vs Dragons");
   else
-  sprintf(buf3, "  &+L%-43s&+L%-45s&+L%s \r\n",
-          "&+gDr&+Gag&+Lon &+gS&+Glaye&+gr&n", "&+wKill 1000 Dragons", "&+w10% damage increase vs Dragons");
+  sprintf(buf3, "  &+L%-43s&+L%-45s&+L%s &+W%d%\r\n",
+          "&+gDr&+Gag&+Lon &+gS&+Glaye&+gr&n", "&+wKill 1000 Dragons", "&+w10% damage increase vs Dragons", get_progress(ch, AIP_DRAGONSLAYER, 1000));
   strcat(buf, buf3);
   //-----DRagonslayer
 
@@ -2900,9 +2900,8 @@ void display_achievements(P_char ch, char *arg, int cmd)
   sprintf(buf3, "  &+L%-40s&+L%-45s&+L%s\r\n", 
           "&+WMay I &+WHe&+Ya&+Wls &+WYou?&n", "&+BHeal 1,000,000 points of player damage", "&+BAccess to the salvation command");
   else
-  sprintf(buf3, "  &+L%-40s&+L%-45s&+L%s \r\n", 
-  //        "&+WMay I &+WHe&+Ya&+Wls &+WYou?&n", "&+wHeal 1,000,000 points of player damage", "&+wAccess to the salvation command", get_progress(ch, AIP_MAYIHEALSYOU, 1000000));
-          "&+WMay I &+WHe&+Ya&+Wls &+WYou?&n", "&+wHeal 1,000,000 points of player damage", "&+wAccess to the salvation command");
+  sprintf(buf3, "  &+L%-40s&+L%-45s&+L%s &+W%d%&n\r\n", 
+          "&+WMay I &+WHe&+Ya&+Wls &+WYou?&n", "&+wHeal 1,000,000 points of player damage", "&+wAccess to the salvation command", get_progress(ch, AIP_MAYIHEALSYOU, 1000000));
   strcat(buf, buf3);
   //-----May I Heals You
 
@@ -2917,9 +2916,8 @@ void display_achievements(P_char ch, char *arg, int cmd)
   //-----Master of Deception
 
   //-----Achievement: Addicted to Blood
-  sprintf(buf3, "  &+L%-28s&+L%-51s&+L%s  &+W\r\n",
- //         "&+rAddicted to Blood&n", "&+wKill &+W30 &+wmobs within 30 minutes", "&+wEXP and Plat Bonus&n", get_progress(ch, AIP_ATB, 30));
-         "&+rAddicted to Blood&n", "&+wKill &+W30 &+wmobs within 30 minutes", "&+wEXP and Plat Bonus&n");
+  sprintf(buf3, "  &+L%-28s&+L%-51s&+L%s &+W%d%&n\r\n",
+          "&+rAddicted to Blood&n", "&+wKill &+W30 &+wmobs within 30 minutes", "&+wEXP and Plat Bonus&n", get_progress(ch, AIP_ATB, 30));
   strcat(buf, buf3);
   //-----Master of Deception
 
