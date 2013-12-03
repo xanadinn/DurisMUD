@@ -1258,11 +1258,13 @@ void spell_hammer(int level, P_char ch, char *arg, int type, P_char victim,
   }
 
   dam = 9 * level + number(-25, 25);
-  
+
   if(spell_damage(ch, victim, dam, SPLDAM_GENERIC, SPLDAM_NOSHRUG, &messages)  
     != DAM_NONEDEAD)
         return;
 
+ if(GET_SPEC(ch, CLASS_ILLUSIONIST, SPEC_DECEIVER))
+ {
   if(!number(0, 19))
   {
     if(stunself)
@@ -1270,6 +1272,7 @@ void spell_hammer(int level, P_char ch, char *arg, int type, P_char victim,
     else
       Stun(victim, ch, PULSE_VIOLENCE, TRUE);
   }
+ }
 }
 
 void spell_detect_illusion(int level, P_char ch, char *arg, int type,

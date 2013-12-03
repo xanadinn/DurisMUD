@@ -7201,6 +7201,7 @@ int wall_generic(P_obj obj, P_char ch, int cmd, char *arg)
 
     if (type == WALL_OF_STONE ||
 	      type == WALL_OF_BONES ||
+             type == WATCHING_WALL ||
 	      type == WALL_OF_ICE)
       dam = GET_DAMROLL(ch);
     else if (type == WATCHING_WALL &&

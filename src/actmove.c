@@ -1499,11 +1499,11 @@ int do_simple_move_skipping_procs(P_char ch, int exitnumb, unsigned int flags)
     affect_from_char(ch, SPELL_VINES);
   }
 
-  if (is_illusion_char(ch) && GET_CLASS(ch, CLASS_ILLUSIONIST) && !GET_SPEC(ch, CLASS_ILLUSIONIST, SPEC_DECEIVER))
+ /* if (is_illusion_char(ch) && GET_CLASS(ch, CLASS_ILLUSIONIST) && !GET_SPEC(ch, CLASS_ILLUSIONIST, SPEC_DECEIVER))
   {
    send_to_char("&+LUnable to maintain your &+mspell's &+Lfocus, you f&+wa&+Wde &+Lback into your own image.&n\n", ch);
    remove_disguise(ch, FALSE);
-  }
+  } drannak - reenabling*/
 
   /* Trap check */
   if (checkmovetrap(ch, exitnumb))
