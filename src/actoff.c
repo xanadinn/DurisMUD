@@ -3376,7 +3376,7 @@ int chance_kick(P_char ch, P_char victim)
   return (int) percent_chance;
 }
 
-bool kick(P_char ch, P_char victim)
+void kick(P_char ch, P_char victim)
 {
   struct damage_messages messages;
   int takedown_chance = 0, dam = 0, door, target_room;
@@ -3397,12 +3397,12 @@ bool kick(P_char ch, P_char victim)
     if(!IS_ALIVE(ch) ||
       !IS_ALIVE(victim))
     {
-      return false;
+      return;
     }
     
     if((percent_chance = chance_kick(ch, victim)) == 0)
     {
-      return false;
+      return;
     }
     
     dam = MAX((int) (GET_C_STR(ch) / 2),
@@ -3440,25 +3440,26 @@ bool kick(P_char ch, P_char victim)
       act(messages.room, FALSE, ch, 0, victim, TO_NOTVICT);
       
       engage(ch, victim);
-      return false;
+
+      return;
     }
 
     kick_messages(ch, victim, TRUE, &messages);
     
     if(melee_damage(ch, victim, dam , PHSDAM_TOUCH, &messages) != DAM_NONEDEAD)
     {
-      return false;
+      return;
     }
     
     if(!IS_ALIVE(ch))
     {
-      return false;
+      return;
     }
     
     if(LEGLESS(ch) ||
       !IS_ALIVE(victim))
     {
-      return false;
+      return;
     }
     
     if(csize <= (vsize - 2))
@@ -3471,7 +3472,7 @@ bool kick(P_char ch, P_char victim)
     }
     else 
     {
-      return true;
+      return;
     }
     
     if(IS_NPC(ch) &&
@@ -3492,7 +3493,7 @@ bool kick(P_char ch, P_char victim)
     if(takedown_chance == TAKEDOWN_CANCELLED ||
       takedown_chance == TAKEDOWN_PENALTY)
     {
-      return TRUE;
+      return;
     }
     
     if(GET_POS(victim) !=  POS_STANDING)
@@ -3557,7 +3558,7 @@ bool kick(P_char ch, P_char victim)
         CharWait(victim, (int) (PULSE_VIOLENCE *
           get_property("kick.wallkick.victimlag", 1.5)));
       }
-      return true;
+      return;
     }
     if(IS_HUMANOID(victim) &&
       takedown_chance > random_number &&
@@ -3579,7 +3580,7 @@ bool kick(P_char ch, P_char victim)
       stop_fighting(victim);
       CharWait(victim, (int) (PULSE_VIOLENCE * get_property("kick.groinkick.victimlag", 1.000)));
     }
-    return TRUE;
+    return;
   }
 }
 

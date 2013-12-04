@@ -48,3 +48,6 @@ parsefile
 
 FUNCTIONNAME="do_tackle"
 parsefile
+
+FUNCTIONNAME="kick"
+parsefile

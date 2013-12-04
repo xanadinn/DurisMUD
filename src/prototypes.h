@@ -401,7 +401,7 @@ void do_trample(P_char, char *, int);
 int takedown_check(P_char, P_char, int, int, ulong);
 void do_rearkick(P_char, char *, int);
 void do_whirlwind(P_char, char *, int);
-bool kick(P_char, P_char);
+void kick(P_char, P_char);
 bool roundkick(P_char, P_char);
 int chance_kick(P_char, P_char);
 int chance_roundkick(P_char, P_char);
