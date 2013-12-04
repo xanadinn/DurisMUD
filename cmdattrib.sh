@@ -49,7 +49,16 @@ parsefile
 FUNCTIONNAME="bool backstab"
 parsefile
 
+FUNCTIONNAME="void event_barrage"
+parsefile
+
 FUNCTIONNAME="void bash"
+parsefile
+
+FUNCTIONNAME="void do_bodyslam"
+parsefile
+
+FUNCTIONNAME="void buck"
 parsefile
 
 FUNCTIONNAME="void event_combination"
@@ -73,6 +82,9 @@ parsefile
 FUNCTIONNAME="void do_drag"
 parsefile
 
+FUNCTIONNAME="bool flank"
+parsefile
+
 FUNCTIONNAME="void do_flee"
 parsefile
 
@@ -80,6 +92,9 @@ FUNCTIONNAME="void do_flurry_of_blows"
 parsefile
 
 FUNCTIONNAME="void do_hamstring"
+parsefile
+
+FUNCTIONNAME="void do_headbutt"
 parsefile
 
 FUNCTIONNAME="void do_hit"
@@ -91,13 +106,49 @@ parsefile
 FUNCTIONNAME="void kick"
 parsefile
 
+FUNCTIONNAME="void maul"
+parsefile
+
+FUNCTIONNAME="void do_mug"
+parsefile
+
 FUNCTIONNAME="void do_murder"
+parsefile
+
+FUNCTIONNAME="void parlay"
+parsefile
+
+FUNCTIONNAME="void rescue"
+parsefile
+
+FUNCTIONNAME="void restrain"
+parsefile
+
+FUNCTIONNAME="void do_rearkick"
+parsefile
+
+FUNCTIONNAME="void do_retreat"
+parsefile
+
+FUNCTIONNAME="int chance_roundkick"
+parsefile
+
+FUNCTIONNAME="void rush"
 parsefile
 
 FUNCTIONNAME="void do_search"
 parsefile
 
+FUNCTIONNAME="void shieldpunch"
+parsefile
+
 FUNCTIONNAME="void do_smith"
+parsefile
+
+FUNCTIONNAME="void do_springleap"
+parsefile
+
+FUNCTIONNAME="void event_sneaky_strike"
 parsefile
 
 FUNCTIONNAME="void do_stampede"
@@ -109,7 +160,13 @@ parsefile
 FUNCTIONNAME="void do_subterfuge"
 parsefile
 
+FUNCTIONNAME="void do_sweeping_thrust"
+parsefile
+
 FUNCTIONNAME="void do_tackle"
+parsefile
+
+FUNCTIONNAME="int takedown_check"
 parsefile
 
 FUNCTIONNAME="void do_throat_crush"
@@ -118,41 +175,23 @@ parsefile
 FUNCTIONNAME="void do_throw_potion"
 parsefile
 
+FUNCTIONNAME="void do_trample"
+parsefile
+
 FUNCTIONNAME="void do_trap"
+parsefile
+
+FUNCTIONNAME="void do_trip"
 parsefile
 
 FUNCTIONNAME="void do_war_cry"
 parsefile
 
+FUNCTIONNAME="void do_whirlwind"
+parsefile
+
 exit
 
-actoff.c:void do_barrage(P_char ch, char *argument, int cmd)
-actoff.c:void do_bash(P_char ch, char *argument, int cmd)
-actoff.c:void do_buck(P_char ch, char *argument, int cmd)
-actoff.c:void do_rush(P_char ch, char *argument, int cmd)
-actoff.c:void do_rescue(P_char ch, char *argument, int cmd)
-actoff.c:void do_maul(P_char ch, char *argument, int cmd)
-actoff.c:void do_restrain(P_char ch, char *argument, int cmd)
-actoff.c:void do_kick(P_char ch, char *argument, int cmd)
-actoff.c:void do_roundkick(P_char ch, char *argument, int cmd)
-actoff.c:void do_assist_core(P_char ch, P_char victim)
-actoff.c:void do_assist(P_char ch, char *argument, int cmd)
-actoff.c:void do_headbutt(P_char ch, char *argument, int cmd)
-actoff.c:void do_mug(P_char ch, char *argument, int cmd)
-actoff.c:void do_sneaky_strike(P_char ch, char *argument, int cmd)
-actoff.c:void do_parlay(P_char ch, char *argument, int cmd)
-actoff.c:void do_tackle(P_char ch, char *arg, int cmd)
-actoff.c:void do_disengage(P_char ch, char *arg, int cmd)
-actoff.c:void do_retreat(P_char ch, char *arg, int cmd)
-actoff.c:void do_shieldpunch(P_char ch, char *argument, int cmd)
-actoff.c:void do_sweeping_thrust(P_char ch, char *argument, int cmd)
-actoff.c:void do_rearkick(P_char ch, char *argument, int cmd)
-actoff.c:void do_trample(P_char ch, char *argument, int cmd)
-actoff.c:void do_bodyslam(P_char ch, char *arg, int cmd)
-actoff.c:void do_springleap(P_char ch, char *argument, int cmd)
-actoff.c:void do_whirlwind(P_char ch, char *argument, int cmd)
-actoff.c:void do_trip(P_char ch, char *argument, int cmd)
-actoff.c:void do_flank(P_char ch, char *argument, int cmd)
 actoff.c:void do_call_grave(P_char ch, char *argument, int cmd)
 actoff.c:void do_battle_orders(P_char ch, char *argument, int cmd)
 actoff.c:void do_gaze(P_char ch, char *argument, int cmd)

@@ -8876,7 +8876,7 @@ void flanking_broken(struct char_link_data *cld)
       cld->linked, TO_ROOM);
 }
 
-int flank(P_char ch, P_char victim)
+bool flank(P_char ch, P_char victim)
 {
   P_char   tch;
 
@@ -8890,7 +8890,7 @@ int flank(P_char ch, P_char victim)
   {
     send_to_char("You haven't reoriented yet enough for another attempt!\n",
                  ch);
-    return 0;
+    return FALSE;
   }
 
   if(ch == victim)
@@ -8917,7 +8917,7 @@ int flank(P_char ch, P_char victim)
         FALSE, ch, 0, victim, TO_NOTVICT);
     act("You notice $n's clumsy attempt to flank you and turn to face $m.",
         FALSE, ch, 0, victim, TO_VICT);
-    return 0;
+    return FALSE;
   }
 
   for (tch = world[ch->in_room].people; tch; tch = tch->next_in_room)

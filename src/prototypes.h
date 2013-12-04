@@ -345,7 +345,7 @@ void do_dice(P_char ch, char *arg, int cmd);
 /* actoff.c */
 bool CheckMultiProcTiming(P_char);
 bool single_stab(P_char ch, P_char victim, P_obj weapon);
-int flank(P_char ch, P_char victim);
+bool flank(P_char ch, P_char victim);
 bool circle(P_char ch, P_char victim);
 bool bad_flee_dir(const P_char, const int);
 P_char parse_victim(P_char, char *, unsigned int);
