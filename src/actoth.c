@@ -3277,23 +3277,6 @@ void do_cheat(P_char ch, char *argument, int cmd)
     }
 }
 
-void do_brief(P_char ch, char *argument, int cmd)
-{
-  if (IS_NPC(ch))
-    return;
-
-  if (IS_SET(ch->specials.act, PLR_BRIEF))
-  {
-    send_to_char("Brief mode off.\r\n", ch);
-    REMOVE_BIT(ch->specials.act, PLR_BRIEF);
-  }
-  else
-  {
-    send_to_char("Brief mode on.\r\n", ch);
-    SET_BIT(ch->specials.act, PLR_BRIEF);
-  }
-}
-
 void do_area(P_char ch, char *argument, int cmd)
 {
   char  buf[MAX_STRING_LENGTH], buf2[MAX_STRING_LENGTH];

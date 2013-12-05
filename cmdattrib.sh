@@ -55,6 +55,12 @@ parsefile
 FUNCTIONNAME="void bash"
 parsefile
 
+FUNCTIONNAME="void battle_orders"
+parsefile
+
+FUNCTIONNAME="void do_berserk"
+parsefile
+
 FUNCTIONNAME="void do_bodyslam"
 parsefile
 
@@ -91,10 +97,22 @@ parsefile
 FUNCTIONNAME="void do_flurry_of_blows"
 parsefile
 
+FUNCTIONNAME="void do_forage"
+parsefile
+
+FUNCTIONNAME="void do_garrote"
+parsefile
+
+FUNCTIONNAME="void gaze"
+parsefile
+
 FUNCTIONNAME="void do_hamstring"
 parsefile
 
 FUNCTIONNAME="void do_headbutt"
+parsefile
+
+FUNCTIONNAME="void do_hide"
 parsefile
 
 FUNCTIONNAME="void do_hit"
@@ -103,7 +121,13 @@ parsefile
 FUNCTIONNAME="void do_hitall"
 parsefile
 
+FUNCTIONNAME="void do_infuriate"
+parsefile
+
 FUNCTIONNAME="void kick"
+parsefile
+
+FUNCTIONNAME="void do_listen"
 parsefile
 
 FUNCTIONNAME="void maul"
@@ -116,6 +140,12 @@ FUNCTIONNAME="void do_murder"
 parsefile
 
 FUNCTIONNAME="void parlay"
+parsefile
+
+FUNCTIONNAME="void do_rage"
+parsefile
+
+FUNCTIONNAME="void do_rampage"
 parsefile
 
 FUNCTIONNAME="void rescue"
@@ -139,22 +169,37 @@ parsefile
 FUNCTIONNAME="void do_search"
 parsefile
 
+FUNCTIONNAME="void do_shadowstep"
+parsefile
+
 FUNCTIONNAME="void shieldpunch"
+parsefile
+
+FUNCTIONNAME="void do_shriek"
 parsefile
 
 FUNCTIONNAME="void do_smith"
 parsefile
 
-FUNCTIONNAME="void do_springleap"
+FUNCTIONNAME="void do_sneak"
 parsefile
 
 FUNCTIONNAME="void event_sneaky_strike"
+parsefile
+
+FUNCTIONNAME="void do_springleap"
 parsefile
 
 FUNCTIONNAME="void do_stampede"
 parsefile
 
 FUNCTIONNAME="void do_stance"
+parsefile
+
+FUNCTIONNAME="void do_steal"
+parsefile
+
+FUNCTIONNAME="void do_newsteal"
 parsefile
 
 FUNCTIONNAME="void do_subterfuge"
@@ -192,45 +237,6 @@ parsefile
 
 exit
 
-actoff.c:void do_call_grave(P_char ch, char *argument, int cmd)
-actoff.c:void do_battle_orders(P_char ch, char *argument, int cmd)
-actoff.c:void do_gaze(P_char ch, char *argument, int cmd)
-actoff.c:void do_shriek(P_char ch, char *argument, int cmd)
-actoff.c:void do_dreadnaught(P_char ch, char *, int)
-actoff.c:void do_shadowstep(P_char ch, char *, int)
-actoff.c:void do_garrote(P_char ch, char *argument, int cmd)
-actoth.c:void do_terrain(P_char ch, char *arg, int cmd)
-actoth.c:void do_multiclass(P_char ch, char *arg, int cmd)
-actoth.c:void do_testcolor(P_char ch, char *arg, int cmd)
-actoth.c:void do_target(P_char ch, char *arg, int cmd)
-actoth.c:void do_order_target(P_char ch, P_char vict, char *arg, int cmd)
-actoth.c:void do_camp(P_char ch, char *arg, int cmd)
-actoth.c:void do_berserk(P_char ch, char *argument, int cmd)
-actoth.c:void do_rampage(P_char ch, char *argument, int cmd)
-actoth.c:void do_infuriate(P_char ch, char *argument, int cmd)
-actoth.c:void do_rage(P_char ch, char *argument, int cmd)
-actoth.c:void do_forage(P_char ch, char *arg, int cmd)
-actoth.c:void do_qui(P_char ch, char *argument, int cmd)
-actoth.c:void do_quit(P_char ch, char *argument, int cmd)
-actoth.c:void do_save_silent(P_char ch, int type)
-actoth.c:void do_save(P_char ch, char *argument, int cmd)
-actoth.c:void do_not_here(P_char ch, char *argument, int cmd)
-actoth.c:void do_no_buy(P_char ch, char *argument, int cmd)
-actoth.c:void do_balance(P_char ch, char *argument, int cmd)
-actoth.c:void do_deposit(P_char ch, char *argument, int cmd)
-actoth.c:void do_withdraw(P_char ch, char *argument, int cmd)
-actoth.c:void do_sneak(P_char ch, char *argument, int cmd)
-actoth.c:void do_hide(P_char ch, char *argument, int cmd)
-actoth.c:void do_listen(P_char ch, char *argument, int cmd)
-actoth.c:void do_steal(P_char ch, char *argument, int cmd)
-actoth.c:void do_newsteal(P_char ch, char *argument, int cmd)
-actoth.c:void do_explist(P_char ch, char *argument, int cmd)
-actoth.c:void do_idea(P_char ch, char *argument, int cmd)
-actoth.c:void do_typo(P_char ch, char *argument, int cmd)
-actoth.c:void do_bug(P_char ch, char *argument, int cmd)
-actoth.c:void do_cheat(P_char ch, char *argument, int cmd)
-actoth.c:void do_brief(P_char ch, char *argument, int cmd)
-actoth.c:void do_area(P_char ch, char *argument, int cmd)
 actoth.c:void do_anonymous(P_char ch, char *argument, int cmd)
 actoth.c:void do_compact(P_char ch, char *argument, int cmd)
 actoth.c:void do_quaff(P_char ch, char *argument, int cmd)
@@ -255,87 +261,6 @@ actoth.c:void do_ascend(P_char ch, char *arg, int cmd)
 actoth.c:void do_descend(P_char ch, char *arg, int cmd)
 actoth.c:void do_old_descend(P_char ch, char *arg, int cmd)
 actset.c:void do_setbit(P_char ch, char *arg, int cmd)
-actwiz.c:void do_reload_help(P_char ch, char *arg, int cmd)
-actwiz.c:void do_reboot_restore(P_char ch, P_char victim)
-actwiz.c:void do_read_player(P_char ch, char *arg, int cmd)
-actwiz.c:void do_release(P_char ch, char *argument, int cmd)
-actwiz.c:void do_emote(P_char ch, char *argument, int cmd)
-actwiz.c:void do_echo(P_char ch, char *argument, int cmd)
-actwiz.c:void do_newbie(P_char ch, char *argument, int cmd)
-actwiz.c:void do_make_guide(P_char ch, char *argument, int cmd)
-actwiz.c:void do_trans(P_char ch, char *argument, int cmd)
-actwiz.c:void do_at(P_char ch, char *argument, int cmd)
-actwiz.c:void do_goto(P_char ch, char *argument, int cmd)
-actwiz.c:void do_affectpurge(P_char ch, char *argument, int cmd)
-actwiz.c:void do_deathobj(P_char ch, char *argument, int cmd)
-actwiz.c:void do_stat(P_char ch, char *argument, int cmd)
-actwiz.c:void do_echoa(P_char ch, char *argument, int cmd)
-actwiz.c:void do_echoz(P_char ch, char *arg, int cmd)
-actwiz.c:void do_echog(P_char ch, char *arg, int cmd)
-actwiz.c:void do_echoe(P_char ch, char *arg, int cmd)
-actwiz.c:void do_echou(P_char ch, char *arg, int cmd)
-actwiz.c:void do_shutdow(P_char ch, char *argument, int cmd)
-actwiz.c:void do_wizlock(P_char ch, char *arg, int cmd)
-actwiz.c:void do_nchat(P_char ch, char *argument, int cmd)
-actwiz.c:void do_wizmsg(P_char ch, char *arg, int cmd)
-actwiz.c:void do_shutdown(P_char ch, char *argument, int cmd)
-actwiz.c:void do_snoop(P_char ch, char *argument, int cmd)
-actwiz.c:void do_switch(P_char ch, char *argument, int cmd)
-actwiz.c:void do_return(P_char ch, char *argument, int cmd)
-actwiz.c:void do_force(P_char ch, char *argument, int cmd)
-actwiz.c:void do_load(P_char ch, char *argument, int cmd)
-actwiz.c:void do_purge(P_char ch, char *argument, int cmd)
-actwiz.c:void do_start(P_char ch, int nomsg)
-actwiz.c:void do_advance(P_char ch, char *argument, int cmd)
-actwiz.c:void do_reroll(P_char ch, char *argument, int cmd)
-actwiz.c:void do_restore(P_char ch, char *argument, int cmd)
-actwiz.c:void do_freeze(P_char ch, char *argument, int cmd)
-actwiz.c:void do_zreset(P_char ch, char *argument, int cmd)
-actwiz.c:void do_reinitphys(P_char ch, char *arg, int cmd)
-actwiz.c:void do_silence(P_char ch, char *argument, int cmd)
-actwiz.c:void do_vis(P_char ch, char *argument, int cmd)
-actwiz.c:void do_law_flags(P_char ch, char *argument, int cmd)
-actwiz.c:void do_demote(P_char ch, char *argument, int cmd)
-actwiz.c:void do_setattr(P_char ch, char *arg, int cmd)
-actwiz.c:void do_poofIn(P_char ch, char *argument, int cmd)
-actwiz.c:void do_poofOut(P_char ch, char *argument, int cmd)
-actwiz.c:void do_poofInSound(P_char ch, char *argument, int cmd)
-actwiz.c:void do_poofOutSound(P_char ch, char *argument, int cmd)
-actwiz.c:void do_teleport(P_char ch, char *argument, int cmd)
-actwiz.c:void do_wizhost(P_char ch, char *argument, int cmd)
-actwiz.c:void do_ban(P_char ch, char *argument, int cmd)
-actwiz.c:void do_allow(P_char ch, char *argument, int cmd)
-actwiz.c:void do_secret(P_char ch, char *argument, int cmd)
-actwiz.c:void do_lookup(P_char ch, char *argument, int cmd)
-actwiz.c:void do_money_supply(P_char ch, char *argument, int cmd)
-actwiz.c:void do_ptell(P_char ch, char *arg, int cmd)
-actwiz.c:void do_finger(P_char ch, char *arg, int cmd)
-actwiz.c:void do_decline(P_char ch, char *arg, int cmd)
-actwiz.c:void do_accept(P_char ch, char *arg, int cmd)
-actwiz.c:void do_invite(P_char ch, char *arg, int cmd)
-actwiz.c:void do_uninvite(P_char ch, char *arg, int cmd)
-actwiz.c:void do_clone(P_char ch, char *argument, int cmd)
-actwiz.c:void do_knock(P_char ch, char *arg, int cmd)
-actwiz.c:void do_ingame(P_char ch, char *args, int cmd)
-actwiz.c:void do_inroom(P_char ch, char *args, int cmd)
-actwiz.c:void do_which(P_char ch, char *args, int cmd)
-actwiz.c:void do_grant(P_char ch, char *args, int cmd)
-actwiz.c:void do_revoke(P_char ch, char *args, int cmd)
-actwiz.c:void do_revoketitle(P_char ch, char *args, int cmd)
-actwiz.c:void do_sethome(P_char ch, char *args, int cmd)
-actwiz.c:void do_proc(P_char ch, char *args, int cmd)
-actwiz.c:void do_terminate(P_char ch, char *argument, int cmd)
-actwiz.c:void do_sacrifice(P_char ch, char *argument, int cmd)
-actwiz.c:void do_echot(P_char ch, char *argument, int cmd)
-actwiz.c:void do_unspec(P_char ch, char *argument, int cmd)
-actwiz.c:void do_RemoveSpecTimer(P_char ch, char *argument, int cmd)
-actwiz.c:void do_tranquilize(P_char ch, char *argument, int cmd)
-actwiz.c:void do_storage(P_char ch, char *arg, int cmd)
-actwiz.c:void do_newb_spellup_all(P_char ch, char *arg, int cmd)
-actwiz.c:void do_newb_spellup(P_char ch, char *arg, int cmd)
-actwiz.c:void do_givepet(P_char ch, char *arg, int cmd)
-actwiz.c:void do_petition_block(P_char ch, char *argument, int cmd)
-actwiz.c:void do_questwhere(P_char ch, char *arg, int cmd)
 alliances.c:void do_alliance(P_char ch, char *arg, int cmd)
 alliances.c:void do_acc(P_char ch, char *argument, int cmd)
 artifact.c:void do_artifact(P_char ch, char *arg, int cmd)

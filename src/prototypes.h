@@ -445,7 +445,6 @@ void do_anonymous(P_char, char *, int);
 void do_balance(P_char, char *, int);
 void do_berserk(P_char, char *, int);
 void do_bodyslam(P_char, char *, int);
-void do_brief(P_char, char *, int);
 void do_breath(P_char, char *, int);
 void do_bug(P_char, char *, int);
 void do_cheat(P_char, char *, int);
