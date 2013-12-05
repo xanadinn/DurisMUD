@@ -5711,8 +5711,14 @@ void do_weather(P_char ch, char *argument, int cmd)
 
 void do_help(P_char ch, char *argument, int cmd)
 {
+  char *attribs;
+
   send_to_char( wiki_help(string(argument)).c_str(), ch );
-  send_to_char("\n", ch);
+  send_to_char( "\n", ch );
+
+  attribs = attrib_help(argument);
+  if( attribs )
+    send_to_char( attribs, ch );
 }
 
 void do_wizhelp(P_char ch, char *argument, int cmd)
