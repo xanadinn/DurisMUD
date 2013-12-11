@@ -508,7 +508,7 @@ void bard_drifting(int l, P_char ch, P_char victim, int song)
 }
 
 /*
-void bard_healing(int l, P_char ch, P_char victim, int song)
+*void bard_healing(int l, P_char ch, P_char victim, int song)
 {
   struct affected_type af;
   int empower = GET_CHAR_SKILL(ch, SKILL_EMPOWER_SONG);

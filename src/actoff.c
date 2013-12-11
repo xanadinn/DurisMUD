@@ -375,8 +375,7 @@ void show_failed_takedown_messages(P_char ch, P_char victim, int skill,
 
 // TAKEDOWN_CANCELLED means the victim was able to prevent the full action.
 
-int takedown_check(P_char ch, P_char victim, int chance, int skill,
-                   ulong applicable)
+int takedown_check(P_char ch, P_char victim, int chance, int skill, ulong applicable)
 {
   int cagi, vagi;
   

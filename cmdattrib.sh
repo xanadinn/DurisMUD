@@ -9,7 +9,7 @@ parsefile ( )
   declare -i FOUNDIT number
   FOUNDIT=0
 
-  FILENAME=`grep -l "$FUNCTIONNAME" ./src/*.c`
+  FILENAME=`grep -l "$FUNCTIONNAME(" ./src/*.c`
 
   cat $FILENAME | 
   while read LINE;
@@ -98,8 +98,12 @@ echo "buck" >> command_attributes.txt
 FUNCTIONNAME="void buck"
 parsefile
 
+echo "calm" >> command_attributes.txt
+FUNCTIONNAME="bool calmcheck"
+parsefile
+
 echo "capture" >> command_attributes.txt
-FUNCTIONNAME="void do_capture"
+FUNCTIONNAME="void capture"
 parsefile
 
 echo "carve" >> command_attributes.txt
@@ -138,6 +142,10 @@ echo "craft" >> command_attributes.txt
 FUNCTIONNAME="void do_craft"
 parsefile
 
+echo "dig" >> command_attributes.txt
+FUNCTIONNAME="void do_dig"
+parsefile
+
 echo "dirttoss" >> command_attributes.txt
 FUNCTIONNAME="void do_dirttoss"
 parsefile
@@ -150,6 +158,10 @@ echo "disguise" >> command_attributes.txt
 FUNCTIONNAME="void do_disguise"
 parsefile
 
+echo "dodge" >> command_attributes.txt
+FUNCTIONNAME="int dodgeSucceed"
+parsefile
+
 echo "drag" >> command_attributes.txt
 FUNCTIONNAME="void do_drag"
 parsefile
@@ -159,7 +171,7 @@ FUNCTIONNAME="void do_dragon_punch"
 parsefile
 
 echo "enhance" >> command_attributes.txt
-FUNCTIONNAME="void do_enhance"
+FUNCTIONNAME="void enhance"
 parsefile
 
 echo "feign death" >> command_attributes.txt
@@ -258,6 +270,10 @@ echo "listen" >> command_attributes.txt
 FUNCTIONNAME="void do_listen"
 parsefile
 
+echo "mangle" >> command_attributes.txt
+FUNCTIONNAME="int try_mangle"
+parsefile
+
 echo "maul" >> command_attributes.txt
 FUNCTIONNAME="void maul"
 parsefile
@@ -282,6 +298,10 @@ echo "parlay" >> command_attributes.txt
 FUNCTIONNAME="void parlay"
 parsefile
 
+echo "parry" >> command_attributes.txt
+FUNCTIONNAME="int parrySucceed"
+parsefile
+
 echo "play" >> command_attributes.txt
 FUNCTIONNAME="int bard_calc_chance"
 parsefile
@@ -300,6 +320,10 @@ parsefile
 
 echo "rampage" >> command_attributes.txt
 FUNCTIONNAME="void do_rampage"
+parsefile
+
+echo "rapier and dirk" >> command_attributes.txt
+FUNCTIONNAME="bool rapier_dirk"
 parsefile
 
 echo "recite" >> command_attributes.txt
@@ -326,6 +350,10 @@ echo "riff" >> command_attributes.txt
 FUNCTIONNAME="void do_riff"
 parsefile
 
+echo "riposte" >> command_attributes.txt
+FUNCTIONNAME="int try_riposte"
+parsefile
+
 echo "roundkick" >> command_attributes.txt
 FUNCTIONNAME="int chance_roundkick"
 parsefile
@@ -350,6 +378,10 @@ echo "shadowstep" >> command_attributes.txt
 FUNCTIONNAME="void do_shadowstep"
 parsefile
 
+echo "shield block" >> command_attributes.txt
+FUNCTIONNAME="int blockSucceed"
+parsefile
+
 echo "shieldpunch" >> command_attributes.txt
 FUNCTIONNAME="void shieldpunch"
 parsefile
@@ -370,6 +402,22 @@ echo "sneaky strike" >> command_attributes.txt
 FUNCTIONNAME="void event_sneaky_strike"
 parsefile
 
+echo "song of charming" >> command_attributes.txt
+FUNCTIONNAME="void bard_charm"
+parsefile
+
+echo "song of dissonance" >> command_attributes.txt
+FUNCTIONNAME="void bard_dissonance"
+parsefile
+
+echo "song of healing" >> command_attributes.txt
+FUNCTIONNAME="void bard_healing"
+parsefile
+
+echo "song of sleep" >> command_attributes.txt
+FUNCTIONNAME="void bard_sleep"
+parsefile
+
 echo "springleap" >> command_attributes.txt
 FUNCTIONNAME="void do_springleap"
 parsefile
@@ -383,7 +431,7 @@ FUNCTIONNAME="void do_steal"
 parsefile
 
 echo "newsteal" >> command_attributes.txt
-FUNCTIONNAME="void do_newsteal"
+FUNCTIONNAME="bool newsteal_CheckIfValid"
 parsefile
 
 echo "subterfuge" >> command_attributes.txt
@@ -411,7 +459,7 @@ FUNCTIONNAME="void do_throw"
 parsefile
 
 echo "throwpotion" >> command_attributes.txt
-FUNCTIONNAME="void do_throw_potion"
+FUNCTIONNAME="int chance_throw_potion"
 parsefile
 
 echo "trample" >> command_attributes.txt

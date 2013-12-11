@@ -54,7 +54,24 @@ GET_C_AGI(vi
 ~
 buck
 ~
+calm
+GET_C_CHA(ch
+GET_C_CHA(ch
+GET_C_CHA(ch
+~
 capture
+GET_C_AGI(ch
+GET_C_AGI(vi
+GET_C_AGI(ch
+GET_C_AGI(vi
+GET_C_DEX(ch
+GET_C_DEX(vi
+GET_C_DEX(ch
+GET_C_DEX(vi
+GET_C_LUK(ch
+GET_C_LUK(vi
+GET_C_LUK(ch
+GET_C_LUK(vi
 ~
 carve
 ~
@@ -85,6 +102,9 @@ GET_C_INT(to
 ~
 craft
 ~
+dig
+GET_C_LUK(ch
+~
 dirttoss
 GET_C_AGI(vi
 ~
@@ -94,15 +114,30 @@ GET_C_DEX(vi
 ~
 disguise
 ~
+dodge
+GET_C_AGI(ch
+GET_C_AGI(ch
+GET_C_DEX(at
+GET_C_AGI(ch
+~
 drag
 ~
 dragon punch
 ~
 enhance
+GET_C_LUK(ch
 ~
 feign death
 ~
 fire
+GET_C_DEX(ch
+GET_C_STR(ch
+GET_C_AGI(vi
+GET_C_DEX(vi
+GET_C_LUK(vi
+GET_C_DEX(ch
+GET_C_LUK(ch
+GET_C_LUK(ch
 ~
 flank
 ~
@@ -187,6 +222,10 @@ GET_C_DEX(ch
 listen
 GET_C_LUK(ch
 ~
+mangle
+GET_C_DEX(vi
+GET_C_DEX(ch
+~
 maul
 ~
 mine
@@ -207,6 +246,18 @@ GET_C_WIS(ch
 parlay
 GET_C_LUK(ch
 ~
+parry
+GET_C_DEX(vi
+GET_C_WIS(vi
+GET_C_STR(at
+GET_C_STR(at
+GET_C_STR(at
+GET_C_STR(vi
+GET_C_STR(at
+GET_C_STR(vi
+GET_C_LUK(vi
+GET_C_LUK(at
+~
 play
 GET_C_AGI(ch
 GET_C_DEX(ch
@@ -224,6 +275,10 @@ rage
 ~
 rampage
 ~
+rapier and dirk
+GET_C_AGI(vi
+GET_C_WIS(vi
+~
 recite
 ~
 rescue
@@ -240,6 +295,10 @@ GET_C_STR(ch
 retreat
 ~
 riff
+~
+riposte
+GET_C_LUK(ch
+GET_C_LUK(vi
 ~
 roundkick
 GET_C_DEX(ch
@@ -269,6 +328,11 @@ GET_C_INT(sh
 ~
 shadowstep
 ~
+shield block
+GET_C_DEX(vi
+GET_C_LUK(vi
+GET_C_STR(at
+~
 shieldpunch
 GET_C_LUK(ch
 GET_C_LUK(vi
@@ -280,6 +344,7 @@ shriek
 smith
 ~
 sneak
+GET_C_AGI(ch
 ~
 sneaky strike
 GET_C_STR(ch
@@ -287,6 +352,22 @@ GET_C_DEX(ch
 GET_C_AGI(vi
 GET_C_AGI(vi
 GET_C_AGI(vi
+~
+song of charming
+GET_C_INT(vi
+GET_C_INT(vi
+~
+song of dissonance
+GET_C_CHA(ch
+GET_C_LUK(ch
+GET_C_CHA(t)
+GET_C_LUK(t)
+~
+song of healing
+GET_C_CHA(ch
+~
+song of sleep
+GET_C_CHA(ch
 ~
 springleap
 ~
@@ -303,6 +384,8 @@ GET_C_LUK(vi
 GET_C_LUK(ch
 ~
 newsteal
+GET_C_DEX(ch
+GET_C_DEX(vi
 ~
 subterfuge
 ~
@@ -318,6 +401,10 @@ GET_C_AGI(ch
 GET_C_CON(ch
 ~
 takedowns
+GET_C_AGI(ch
+GET_C_AGI(vi
+GET_C_LUK(ch
+GET_C_LUK(vi
 ~
 throat crush
 GET_C_AGI(vi
@@ -327,8 +414,12 @@ GET_C_LUK(ch
 GET_C_LUK(vi
 ~
 throw
+GET_C_DEX(ch
+GET_C_LUK(ch
+GET_C_STR(ch
 ~
 throwpotion
+GET_C_AGI(ch
 ~
 trample
 GET_C_DEX(ch
