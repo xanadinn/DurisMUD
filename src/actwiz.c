@@ -10219,7 +10219,7 @@ void load_towns()
         fgets( line, sizeof line, town_file );
         (*town)->offense = atoi( line );
 
-        logit(LOG_DEBUG, "Town loaded: '%s'", zone_table[i].filename );
+//        logit(LOG_DEBUG, "Town loaded: '%s'", zone_table[i].filename);
 
         town = &((*town)->next_town);
         break;

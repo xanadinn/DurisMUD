@@ -1,5 +1,7 @@
+#include "damage.h"
 #include "structs.h"
 #include "graph.h"
+#include "db.h"
 #include "utils.h"
 #include "interp.h"
 #include "comm.h"
@@ -9,6 +11,7 @@ extern P_room world;
 
 int adjacent_room_nesw(P_char ch, int num_rooms );
 P_ship leviathan_find_ship( P_char leviathan, int room, int num_rooms );
+void explode_ammo( P_char ch, P_obj ammo, int in_room );
 
 // This is an old proc for Lohrr's eq..
 void proc_lohrr( P_obj obj, P_char ch, int cmd, char *argument )
@@ -283,7 +286,27 @@ int siege_move_wait( P_char ch )
   return retval;
 }
 
+// Based on chars str and agi right now.
+int siege_load_wait( P_char ch, P_obj engine )
+{
+  // Base: 100 str, 100 agi, 2 secs
+  int retval = 100*100*10*WAIT_SEC;
+
+  retval /= GET_C_STR( ch );
+  retval /= GET_C_AGI( ch );
+
+  return retval;
+}
+
+void event_load_engine(P_char ch, P_char victim, P_obj obj, void *data)
+{
+  act( "You finish loading $p.", FALSE, ch, obj, NULL, TO_CHAR );
+  act( "$n finishes loading $p.", TRUE, ch, obj, 0, TO_ROOM);
+  obj->value[2] = 1;
+}
+
 // Having to write this is a pain! Ok.. so not so bad.
+// Char can move if exit is unblocked and ch not fighting.
 bool can_move( P_char ch, int dir )
 {
   if( IS_FIGHTING(ch) )
@@ -307,10 +330,15 @@ bool can_move( P_char ch, int dir )
 // This proc is for a ballista(OBJ # 461).
 int ballista( P_obj obj, P_char ch, int cmd, char *arg )
 {
-  char arg1[MAX_STRING_LENGTH];
-  char arg2[MAX_STRING_LENGTH];
-  char buf[MAX_STRING_LENGTH];
-  int dir;
+  char   arg1[MAX_STRING_LENGTH];
+  char   arg2[MAX_STRING_LENGTH];
+  char   arg3[MAX_STRING_LENGTH];
+  char   buf[MAX_STRING_LENGTH];
+  int    num_rooms;
+  int    in_room, ch_room;
+  P_obj  ammo;
+  int    dir;
+  P_char vict;
 
   if( cmd == CMD_SET_PERIODIC )
     return TRUE;
@@ -332,7 +360,10 @@ int ballista( P_obj obj, P_char ch, int cmd, char *arg )
       else if( is_abbrev(arg2, "west") )
         dir = WEST;
       if( dir == -1 || *arg2 == '\0' )
+      {
         send_to_char( "Move the ballista what direction?\n", ch );
+        return TRUE;
+      }
       else
       {
         // If there is no exit in that direction, or it's blocked.
@@ -352,6 +383,131 @@ int ballista( P_obj obj, P_char ch, int cmd, char *arg )
           obj, 0, &dir, sizeof(int) );
       }
       return TRUE;
+    }
+  }
+  else if ( cmd == CMD_RELOAD )
+  {
+    if( obj->value[2] > 0 )
+      act( "$p is already loaded.", FALSE, ch, obj, NULL, TO_CHAR );
+    else
+    {
+      act( "You begin loading $p.", FALSE, ch, obj, NULL, TO_CHAR );
+      act( "$n begins loading $p.", FALSE, ch, obj, NULL, TO_ROOM );
+      add_event(event_load_engine, siege_load_wait(ch, obj), ch, NULL, 
+        obj, 0, NULL, 0 );
+      // Yes, this lags you while loading.
+      CharWait(ch, siege_move_wait(ch) );
+    }
+    return TRUE;
+  }
+  else if( cmd == CMD_FIRE )
+  {
+    // Parse argument.
+    half_chop(arg, arg1, arg);
+    half_chop(arg, arg2, arg);
+    half_chop(arg, arg3, arg);
+
+    if(  isname( arg1, "ballista" )
+      || isname( arg1, obj->name ) )
+    {
+      dir = -1;
+
+      if( obj->value[2] == 0 )
+      {
+        act( "$p has no ammo.  Try to reload it first.", FALSE, ch, obj, NULL, TO_CHAR );
+        return TRUE;
+      }
+
+      // Figure out what direction.
+      if( is_abbrev(arg3, "north") )
+        dir = NORTH;
+      else if( is_abbrev(arg3, "south") )
+        dir = SOUTH;
+      else if( is_abbrev(arg3, "east") )
+        dir = EAST;
+      else if( is_abbrev(arg3, "west") )
+        dir = WEST;
+      if( dir == -1 || *arg3 == '\0' )
+      {
+        send_to_char( "Fire the ballista at who what direction?\n", ch );
+        return TRUE;
+      }
+      else
+      {
+        sprintf( buf, "You fire $p %sward.", dirs[dir] );
+        act( buf, FALSE, ch, obj, NULL, TO_CHAR );
+        sprintf( buf, "$n fires $p %sward.", dirs[dir] );
+        act( buf, TRUE, ch, obj, 0, TO_ROOM);
+
+        if( obj->loc_p != LOC_ROOM )
+        {
+          logit(LOG_DEBUG, "ballista: firing siege weapon not in a room.");
+          return FALSE;
+        }
+        in_room = obj->loc.room;
+        if( !in_room )
+        {
+          logit(LOG_DEBUG, "ballista: firing siege weapon in room 0.");
+          return FALSE;
+        }
+        // Load exploded ammo into the room.
+        ammo = read_object(real_object(178), REAL);
+        obj->value[2] = 0;
+        obj_to_room( ammo, in_room );
+        vict = NULL;
+        // Fire the weapon 3x spaces to the dir. Hits walls.
+        for( num_rooms = 0;num_rooms<3;num_rooms++)
+        {
+          ch_room = ch->in_room;
+          ch->in_room = in_room;
+          // Impale the target!
+          if( !vict && (vict = get_char_room_vis(ch, arg2)) )
+          {
+            act( "$p impales $n!", TRUE, vict, ammo, 0, TO_ROOM );
+            act( "$p impales YOU!", TRUE, vict, ammo, 0, TO_CHAR );
+            char_from_room( vict );
+          }
+          ch->in_room = ch_room;
+          // If we hit a wall.
+          if(  !VIRTUAL_EXIT(in_room, dir)
+            || !VIRTUAL_EXIT(in_room, dir)->to_room )
+          {
+            sprintf( buf, "$p hits the %s wall.", dirs[dir] );
+            act( buf, TRUE, NULL, ammo, 0, TO_ROOM );
+            break;
+          }
+          else
+          {
+            in_room = VIRTUAL_EXIT(in_room, dir)->to_room;
+            obj_from_room(ammo);
+            obj_to_room(ammo, in_room);
+            act( "$p flies through the room..", TRUE, NULL, ammo, 0, TO_ROOM );
+          }
+        }
+        ch_room = ch->in_room;
+        ch->in_room = ammo->loc.room;
+        // Missile go SMACK!
+        // If victim was impaled...
+        if( vict )
+        {
+          char_to_room( vict, ammo->loc.room, -1 );
+          act( "$p slams into the ground with $n impaled upon it.", TRUE, vict, ammo, NULL, TO_ROOM );
+          act( "You hit the ground and bounce off of $p.", TRUE, vict, ammo, NULL, TO_CHAR );
+        }
+        // If victim in final room...
+        else if( (vict = get_char_room_vis(ch, arg2)) != NULL )
+        {
+          act( "$p slams into $n before hitting the dirt.", TRUE, vict, ammo, NULL, TO_ROOM );
+          act( "$p slams into you before hitting the dirt.", TRUE, vict, ammo, NULL, TO_CHAR );
+        }
+        // Miss!
+        else
+          act( "$p slams into the ground.", TRUE, NULL, ammo, NULL, TO_ROOM );
+        if( vict )
+          damage(ch, vict, 50, MSG_CRUSH );
+        ch->in_room = ch_room;
+        return TRUE;
+      }
     }
   }
   return FALSE;
@@ -385,7 +541,10 @@ int battering_ram( P_obj obj, P_char ch, int cmd, char *arg )
       else if( is_abbrev(arg2, "west") )
         dir = WEST;
       if( dir == -1 || *arg2 == '\0' )
+      {
         send_to_char( "Move the battering ram what direction?\n", ch );
+        return TRUE;
+      }
       else
       {
         // If there is no exit in that direction, or it's blocked.
@@ -413,10 +572,13 @@ int battering_ram( P_obj obj, P_char ch, int cmd, char *arg )
 // This proc is for a catapult(OBJ # 463).
 int catapult( P_obj obj, P_char ch, int cmd, char *arg )
 {
-  char arg1[MAX_STRING_LENGTH];
-  char arg2[MAX_STRING_LENGTH];
-  char buf[MAX_STRING_LENGTH];
-  int dir;
+  char  arg1[MAX_STRING_LENGTH];
+  char  arg2[MAX_STRING_LENGTH];
+  char  buf[MAX_STRING_LENGTH];
+  int   dir;
+  int   num_rooms;
+  int   in_room;
+  P_obj ammo;
 
   if( cmd == CMD_SET_PERIODIC )
     return TRUE;
@@ -438,7 +600,10 @@ int catapult( P_obj obj, P_char ch, int cmd, char *arg )
       else if( is_abbrev(arg2, "west") )
         dir = WEST;
       if( dir == -1 || *arg2 == '\0' )
+      {
         send_to_char( "Move the catapult what direction?\n", ch );
+        return TRUE;
+      }
       else
       {
         // If there is no exit in that direction, or it's blocked.
@@ -460,6 +625,100 @@ int catapult( P_obj obj, P_char ch, int cmd, char *arg )
       return TRUE;
     }
   }
+  else if ( cmd == CMD_RELOAD )
+  {
+    if( obj->value[2] > 0 )
+      act( "$p is already loaded.", FALSE, ch, obj, NULL, TO_CHAR );
+    else
+    {
+      act( "You begin loading $p.", FALSE, ch, obj, NULL, TO_CHAR );
+      act( "$n begins loading $p.", FALSE, ch, obj, NULL, TO_ROOM );
+      add_event(event_load_engine, siege_load_wait(ch, obj), ch, NULL, 
+        obj, 0, NULL, 0 );
+      // Yes, this lags you while loading.
+      CharWait(ch, siege_move_wait(ch) );
+    }
+    return TRUE;
+  }
+  else if( cmd == CMD_FIRE )
+  {
+    // Parse argument.
+    argument_interpreter(arg, arg1, arg2);
+    if(  isname( arg1, "catapult" )
+      || isname( arg1, obj->name ) )
+    {
+      dir = -1;
+
+      if( obj->value[2] == 0 )
+      {
+        act( "$p has no ammo.  Try to reload it first.", FALSE, ch, obj, NULL, TO_CHAR );
+        return TRUE;
+      }
+
+      // Figure out what direction.
+      if( is_abbrev(arg2, "north") )
+        dir = NORTH;
+      else if( is_abbrev(arg2, "south") )
+        dir = SOUTH;
+      else if( is_abbrev(arg2, "east") )
+        dir = EAST;
+      else if( is_abbrev(arg2, "west") )
+        dir = WEST;
+      if( dir == -1 || *arg2 == '\0' )
+      {
+        send_to_char( "Fire the catapult what direction?\n", ch );
+        return TRUE;
+      }
+      else
+      {
+        sprintf( buf, "You fire $p %sward.", dirs[dir] );
+        act( buf, FALSE, ch, obj, NULL, TO_CHAR );
+        sprintf( buf, "$n fires $p %sward.", dirs[dir] );
+        act( buf, TRUE, ch, obj, 0, TO_ROOM);
+
+        if( obj->loc_p != LOC_ROOM )
+        {
+          logit(LOG_DEBUG, "catapult: firing siege weapon not in a room.");
+          return FALSE;
+        }
+        in_room = obj->loc.room;
+        if( !in_room )
+        {
+          logit(LOG_DEBUG, "catapult: firing siege weapon in room 0.");
+          return FALSE;
+        }
+        // Load exploded ammo into the room.
+        ammo = read_object(real_object(179), REAL);
+        obj->value[2] = 0;
+        obj_to_room( ammo, in_room );
+        // Fire the weapon 4x spaces to the dir. Hits walls.
+        for( num_rooms = 0;num_rooms<4;num_rooms++)
+        {
+          // If we hit a wall.
+          if(  !VIRTUAL_EXIT(in_room, dir)
+            || !VIRTUAL_EXIT(in_room, dir)->to_room )
+          {
+            sprintf( buf, "A huge rock slams into the %s wall.", dirs[dir] );
+            act( buf, TRUE, NULL, ammo, 0, TO_ROOM );
+            return TRUE;
+          }
+          else
+          {
+            in_room = VIRTUAL_EXIT(in_room, dir)->to_room;
+            obj_from_room(ammo);
+            obj_to_room(ammo, in_room);
+            act( "A huge rock flies overhead", TRUE, NULL, ammo, 0, TO_ROOM );
+          }
+        }
+        // Ammo lands in to_room.. BOOM, SPLAT!
+        act( "A huge rock explodes overhead", TRUE, NULL, ammo, 0, TO_ROOM );
+        explode_ammo( ch, ammo, in_room );
+        return TRUE;
+      }
+    }
+    else
+        send_to_char( "Fire what?\n", ch );
+  }
   return FALSE;
 }
 
@@ -470,7 +729,7 @@ void event_move_engine(P_char ch, P_char victim, P_obj obj, void *data)
   int dir = *((int *)data);
   int to_room;
 
-  // If there's an exit and it's unblocked.
+  // If there's an exit and it's unblocked (and ch isn't fighting).
   if( can_move( ch, dir ) )
   {
     sprintf( buf, "You push $p %sward.", dirs[dir] );
@@ -491,4 +750,16 @@ void event_move_engine(P_char ch, P_char victim, P_obj obj, void *data)
   else
     send_to_char( "You can't leave that way right now.\n", ch );
 
+}
+
+// This will probably want an update with ammo types.
+void explode_ammo( P_char ch, P_obj ammo, int in_room )
+{
+  P_char vict, next_vict;
+
+  for( vict = next_vict = world[ammo->loc.room].people;vict;vict = next_vict )
+  {
+    next_vict = next_vict->next_in_room;
+    damage(ch, vict, 50, MSG_CRUSH );
+  }
 }
