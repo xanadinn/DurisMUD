@@ -2672,9 +2672,9 @@ int itemvalue(P_char ch, P_obj obj)
    //send_to_char("ghetto proc\r\n", ch);
   }
 
-  //------- A0/A1 -------------  
+  //------- A0/A1/A2 -------------  
  int i = 0; 
- while(i < 2)
+ while(i < 3)
  {
   //dam/hitroll are normal values
    if (

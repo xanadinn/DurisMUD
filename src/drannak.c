@@ -70,6 +70,8 @@ extern int find_map_place();
 extern int getItemFromZone(int zone);
 
 void     set_short_description(P_obj t_obj, const char *newShort);
+void     set_keywords(P_obj t_obj, const char *newKeys);
+void     set_long_description(P_obj t_obj, const char *newDescription);
 
 void set_surname(P_char ch, int num)
 {
@@ -2091,13 +2093,266 @@ void do_enhance(P_char ch, char *argument, int cmd)
    return;
                }
    if( (IS_SET(source->wear_flags, ITEM_WIELD) && !IS_SET(material->wear_flags, ITEM_WIELD)) ||
-        (IS_SET(material->wear_flags, ITEM_WIELD) && !IS_SET(source->wear_flags, ITEM_WIELD)))
+        (IS_SET(material->wear_flags, ITEM_WIELD) && !IS_SET(source->wear_flags, ITEM_WIELD)) && (GET_OBJ_VNUM(material) < 400238 && GET_OBJ_VNUM(material) > 400258))
         {
           send_to_char("&+YWeapons&+y can only enhance other &+Yweapons&n!\r\n", ch);
           return;
         }
-
+ if(GET_OBJ_VNUM(material) > 400237 && GET_OBJ_VNUM(material) < 400259)
+ modenhance(ch, source, material);
+ else
  enhance(ch, source, material);
+}
+
+void modenhance(P_char ch, P_obj source, P_obj material)
+{
+
+
+    if(!ch || !source || !material)
+	return;
+	
+   char buf[MAX_STRING_LENGTH], modstring[MAX_STRING_LENGTH];
+	 P_obj robj;
+	 long robjint;
+	 int mod = 0, loctype = 0;
+	 int validobj, cost, searchcount = 0, tries;
+        int sval = itemvalue(ch, source);
+	 validobj = 0;
+	 int val = itemvalue(ch, material);
+        int minval = itemvalue(ch, source) - 5;
+
+
+       if(val <= 20)
+       {
+        cost = 1000;
+	 if (GET_MONEY(ch) < 1000)
+        {
+	  send_to_char("It will require &+W1 platinum&n to &+Benhance&n this item.\r\n", ch);
+         return;
+        }
+       }
+       if(val > 20 && val < 30)
+       {
+        cost = 10000;
+	 if (GET_MONEY(ch) < 20000)
+        {
+	  send_to_char("It will require &+W20 platinum&n to &+Benhance&n this item.\r\n", ch);
+         return;
+        }
+       }
+	     if(val > 30)
+       {
+        cost = 50000;
+	 if (GET_MONEY(ch) < 100000)
+        {
+	  send_to_char("It will require &+W100 platinum&n to &+Benhance&n this item.\r\n", ch);
+         return;
+        }
+       }
+	 
+	int modtype = GET_OBJ_VNUM(material);
+	switch (modtype)
+	 {
+	  case 400238:
+         if (source->affected[2].location == APPLY_INT)
+         loctype = 1; 
+         else
+         source->affected[2].location = APPLY_INT;
+         sprintf(modstring, "&+wof &+Mintelligence&n");
+	  mod = 1;
+	  break;
+	  case 400239:
+         if (source->affected[2].location == APPLY_INT_MAX)
+         loctype = 1; 
+         else
+         source->affected[2].location = APPLY_INT_MAX;
+         sprintf(modstring, "&+wof &+Mgreater intelligence&n");
+	  mod = 1;
+	  break;
+	  case 400240:
+         if (source->affected[2].location == APPLY_CON)
+         loctype = 1; 
+         else
+         source->affected[2].location = APPLY_CON;
+         sprintf(modstring, "&+wof &+cconstitution&n");
+	  mod = 1;
+	  break;
+	  case 400241:
+         if (source->affected[2].location == APPLY_CON_MAX)
+         loctype = 1; 
+         else
+         source->affected[2].location = APPLY_CON_MAX;
+         sprintf(modstring, "&+wof &+cgreater constitution&n");
+	  mod = 1;
+	  break;
+         case 400242:
+         if (source->affected[2].location == APPLY_AGI)
+         loctype = 1; 
+         else
+         source->affected[2].location = APPLY_AGI;
+         sprintf(modstring, "&+wof &+Bagility&n");
+	  mod = 1;
+	  break;
+         case 400243:
+         if (source->affected[2].location == APPLY_AGI_MAX)
+         loctype = 1; 
+         else
+         source->affected[2].location = APPLY_AGI_MAX;
+         sprintf(modstring, "&+wof &+Bgreater agility&n");
+	  mod = 1;
+	  break;
+         case 400244:
+         if (source->affected[2].location == APPLY_DEX)
+         loctype = 1; 
+         else
+         source->affected[2].location = APPLY_DEX;
+         sprintf(modstring, "&+wof &+gdexterity&n");
+	  mod = 1;
+	  break;
+         case 400245:
+         if (source->affected[2].location == APPLY_DEX_MAX)
+         loctype = 1; 
+         else
+         source->affected[2].location = APPLY_CON;
+         sprintf(modstring, "&+wof &+ggreater dexterity&n");
+	  mod = 1;
+	  break;
+         case 400246:
+         if (source->affected[2].location == APPLY_STR)
+         loctype = 1; 
+         else
+         source->affected[2].location = APPLY_STR;
+         sprintf(modstring, "&+wof &+rstrength&n");
+	  mod = 1;
+	  break;
+         case 400247:
+         if (source->affected[2].location == APPLY_STR_MAX)
+         loctype = 1; 
+         else
+         source->affected[2].location = APPLY_STR_MAX;
+         sprintf(modstring, "&+wof &+rgreater strength&n");
+	  mod = 1;
+	  break;
+         case 400248:
+         if (source->affected[2].location == APPLY_CHA)
+         loctype = 1; 
+         else
+         source->affected[2].location = APPLY_CHA;
+         sprintf(modstring, "&+wof &+Ccharisma&n");
+	  mod = 1;
+	  break;
+         case 400249:
+         if (source->affected[2].location == APPLY_CHA_MAX)
+         loctype = 1; 
+         else
+         source->affected[2].location = APPLY_CHA_MAX;
+         sprintf(modstring, "&+wof &+Cgreater charisma&n");
+	  mod = 1;
+	  break;
+         case 400250:
+         if (source->affected[2].location == APPLY_WIS)
+         loctype = 1; 
+         else
+         source->affected[2].location = APPLY_WIS;
+         sprintf(modstring, "&+wof &+cwisdom&n");
+	  mod = 1;
+	  break;
+         case 400251:
+         if (source->affected[2].location == APPLY_WIS_MAX)
+         loctype = 1; 
+         else
+         source->affected[2].location = APPLY_WIS_MAX;
+         sprintf(modstring, "&+wof &+cgreater wisdom&n");
+	  mod = 1;
+	  break;
+         case 400252:
+         if (source->affected[2].location == APPLY_POW)
+         loctype = 1; 
+         else
+         source->affected[2].location = APPLY_POW;
+         sprintf(modstring, "&+wof &+Lpower&n");
+	  mod = 1;
+	  break;
+         case 400253:
+         if (source->affected[2].location == APPLY_POW_MAX)
+         loctype = 1; 
+         else
+         source->affected[2].location = APPLY_POW_MAX;
+         sprintf(modstring, "&+wof &+Lgreater power&n");
+	  mod = 1;
+	  break;
+         case 400254:
+         if (source->affected[2].location == APPLY_HIT)
+         loctype = 1; 
+         else
+         source->affected[2].location = APPLY_HIT;
+         sprintf(modstring, "&+wof &+Rhealth&n");
+	  mod = 1;
+	  break;
+         case 400255:
+         if (source->affected[2].location == APPLY_HITROLL)
+         loctype = 1; 
+         else
+         source->affected[2].location = APPLY_HITROLL;
+         sprintf(modstring, "&+wof &+yprecision&n");
+	  mod = 1;
+	  break;
+         case 400256:
+         if (source->affected[2].location == APPLY_DAMROLL)
+         loctype = 1; 
+         else
+         source->affected[2].location = APPLY_DAMROLL;
+         sprintf(modstring, "&+wof &+ydamage&n");
+	  mod = 1;
+	  break;
+         case 400257:
+         if (source->affected[2].location == APPLY_HIT_REG)
+         loctype = 1; 
+         else
+         source->affected[2].location = APPLY_HIT_REG;
+         sprintf(modstring, "&+wof &+cconstitution&n");
+	  mod = 3;
+	  break;
+         case 400258:
+         if (source->affected[2].location == APPLY_MOVE_REG)
+         loctype = 1; 
+         else
+         source->affected[2].location = APPLY_MOVE_REG;
+         sprintf(modstring, "&+wof &+cconstitution&n");
+	  mod = 3;
+	  break;
+
+	  default:
+	  break;
+	 }
+	 
+        if (loctype == 1)
+	 source->affected[2].modifier += mod;
+        else
+        source->affected[2].modifier = mod;
+	
+
+	
+	SUB_MONEY(ch, cost, 0);
+       send_to_char("Your pockets feel &+Wlighter&n.\r\n", ch);
+
+      	act("&+BYour enhancement is a success! Your &n$p&+B now feels slightly more powerful!\r\n", FALSE, ch, source, 0, TO_CHAR);
+
+	obj_from_char(material, TRUE);
+       extract_obj(material, FALSE);
+
+   P_obj tempobj = read_object(GET_OBJ_VNUM(source), VIRTUAL);
+   char tempdesc[MAX_STRING_LENGTH], short_desc[MAX_STRING_LENGTH], keywords[MAX_STRING_LENGTH];
+
+  sprintf(keywords, "%s enhanced", tempobj->name);
+
+  sprintf(tempdesc, "%s", tempobj->short_description);
+  sprintf(short_desc, "%s %s&n", tempdesc, modstring);
+  set_keywords(source, keywords);
+  set_short_description(source, short_desc);
+extract_obj(tempobj, FALSE);
+     
+	return;
 }
 
 int get_progress(P_char ch, int ach, uint required)
@@ -2141,6 +2396,96 @@ void thanksgiving_proc(P_char ch)
   return;
  obj_to_char(read_object(400232, VIRTUAL), mob);
  char_to_room(mob, ch->in_room, 0);
+}
+
+void enhancematload(P_char ch)
+{
+ int reward;
+ int moblvl = GET_LEVEL(ch);
+ if (IS_ELITE(ch))
+ moblvl * 10;
+ if(number(1, 5000) < moblvl)
+ {
+  if(number(1, 10000) < moblvl)
+  {
+   reward = number(1, 8);
+   switch (reward)
+   {
+    case 1:
+    reward = 400239;
+    break;
+    case 2:
+    reward = 400241;
+    break;
+    case 3:
+    reward = 400243;
+    break;
+    case 4:
+    reward = 400245;
+    break;
+    case 5:
+    reward = 400247;
+    break;
+    case 6:
+    reward = 400249;
+    break;
+    case 7:
+    reward = 400251;
+    break;
+    case 8:
+    reward = 400253;
+    break;
+   }
+  }
+  else
+  {
+   reward = number(1, 13);
+   switch (reward)
+   {
+    case 1:
+    reward = 400238;
+    break;
+    case 2:
+    reward = 400240;
+    break;
+    case 3:
+    reward = 400242;
+    break;
+    case 4:
+    reward = 400244;
+    break;
+    case 5:
+    reward = 400246;
+    break;
+    case 6:
+    reward = 400248;
+    break;
+    case 7:
+    reward = 400250;
+    break;
+    case 8:
+    reward = 400252;
+    break;
+    case 9:
+    reward = 400254;
+    break;
+    case 10:
+    reward = 400255;
+    break;
+    case 11:
+    reward = 400256;
+    break;
+    case 12:
+    reward = 400257;
+    break;
+    case 13:
+    reward = 400258;
+    break;
+   }
+  }
+  P_obj gift = read_object(reward, VIRTUAL);
+  obj_to_char(gift, ch);
+ }
 }
 
 void christmas_proc(P_char ch)

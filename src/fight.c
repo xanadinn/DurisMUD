@@ -2218,6 +2218,11 @@ void die(P_char ch, P_char killer)
     christmas_proc(ch);
      }
 
+    if(IS_NPC(ch) && !IS_PC_PET(ch))
+    {
+     enhancematload(ch);
+    }
+
   }
 
  /* if(  (IS_PC(ch)) &&
