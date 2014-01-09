@@ -1412,6 +1412,7 @@ void assign_objects(void)
   obj_index[real_object0(23807)].func.obj = blind_boots;
 
   obj_index[real_object0(400237)].func.obj = thanksgiving_wings;
+    obj_index[real_object0(55320)].func.obj = artifact_stone;
 
   obj_index[real_object0(12410)].func.obj =
     obj_index[real_object0(19916)].func.obj =
