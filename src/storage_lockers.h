@@ -41,6 +41,7 @@ public:
   
   void LockerToPFile(void);
   void PFileToLocker(void);
+  void SortIValues(void);
   
   static void event_resortLocker(P_char chLocker, P_char ch, P_obj obj, void *data);
    int m_itemCount;
@@ -53,6 +54,7 @@ protected:
   P_char m_chLocker;
   P_char m_chUser;
 //  int m_itemCount;
+  bool m_bIValue;
 };
 
 

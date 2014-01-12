@@ -45,7 +45,7 @@ extern P_char character_list;
 extern struct zone_data *zone_table;
 
 extern P_nevent get_scheduled(P_char ch, event_func func);
-
+extern int itemvalue(P_char ch, P_obj obj);
 
 #define LOCKERS_START           65201
 #define LOCKERS_MAX             99
@@ -80,7 +80,8 @@ StorageLocker::StorageLocker(int rroom, P_char chLocker, P_char chUser)
                 m_chLocker(chLocker),
                 m_chUser(chUser),
                 m_pChestList(NULL),
-                m_itemCount(0)
+                m_itemCount(0),
+                m_bIValue(false)
 {
   if (!world[rroom].ex_description)
   {
@@ -242,6 +243,8 @@ bool StorageLocker::MakeChests(P_char ch, const char *args)
         bFound = bMakeHoldable = true;
       IF_ISLOCKERTYPE("attach", "attached to belt")
         bFound = bMakeAttachable = true;
+      IF_ISLOCKERTYPE("ivalue", "in chest sorted by item value")
+        bFound = m_bIValue = true;
       IF_ISLOCKERTYPE("horns", "worn on body")
         p =
         AddLockerChest(new EqSlotChest(ITEM_WEAR_HORN, chestKeyword, chestDesc));
@@ -2051,6 +2054,9 @@ void StorageLocker::PFileToLocker(void)
       obj_to_room(tmp_object, m_realRoom);
   }
   m_itemCount = nCount;
+
+  if( m_bIValue )
+    SortIValues();
 }
 
 
@@ -2141,4 +2147,57 @@ bool rename_locker(P_char ch, char *old_charname, char *new_charname)
 
    /* here we pray that write realy writed locker char or we just nuked someones locker */
    return TRUE;
+}
+
+void StorageLocker::SortIValues(void)
+{
+  P_obj object, rest, pObjList;
+  char buf[MAX_STRING_LENGTH];
+  LockerChest *pChests = m_pChestList;
+  int value;
+
+  if( m_bIValue )
+  {
+    while (pChests)
+    {
+      rest = pChests->m_pChestObject->contains;
+      pChests->m_pChestObject->contains = NULL;
+
+      // While there is more to sort..
+      while( rest )
+      {
+        // Remove one object from the list
+        object = rest;
+        rest = rest->next_content;
+        object->next_content = NULL;
+        value = itemvalue( m_chUser, object );
+
+        // Put into right spot in chest.
+        // If value is smallest, insert to head of list.
+        if( !pChests->m_pChestObject->contains
+          || value <= itemvalue( m_chUser, pChests->m_pChestObject->contains ) )
+        {
+          object->next_content = pChests->m_pChestObject->contains;
+          pChests->m_pChestObject->contains = object;
+        }
+        else
+        {
+          // Walk through the list to find the correct spot.
+          pObjList = pChests->m_pChestObject->contains;
+          while( pObjList->next_content
+            && value > itemvalue( m_chUser, pObjList->next_content ) )
+            pObjList = pObjList->next_content;
+
+          // Insert the object into the list.
+          object->next_content = pObjList->next_content;
+          pObjList->next_content = object;
+        }
+      }
+      pChests = pChests->m_pNextInChain;
+    }
+
+  }
+  else
+    logit( LOG_DEBUG, "SortIValues called when m_bIValue is not set!" );
+  m_bIValue = false;
 }
