@@ -81,6 +81,8 @@ long unsigned int ip2ul(const char *ip);
 void load_alliances();
 void initialize_transport();
 void load_towns();
+bool newLeaderBoard(P_char ch, char *arg, int cmd);
+bool newHardcoreBoard(P_char ch, char *arg, int cmd);
 
 /* local globals */
 
@@ -399,10 +401,11 @@ void run_the_game(int port)
   fprintf(stderr, "-- Touching leaderboard\r\n");
   sprintf( buf, "touch %s", leaderboard_file );
   system( buf );
+  newLeaderBoard( NULL, "boot", 0 );
   fprintf(stderr, "-- Touching hall of fame\r\n");
   sprintf( buf, "touch %s", halloffamelist_file );
   system( buf );
-  
+  newHardcoreBoard( NULL, "boot", 0 );
   init_ctf();
 
   loadHints();
