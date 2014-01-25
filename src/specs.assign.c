@@ -1398,13 +1398,13 @@ void assign_objects(void)
 #endif
 
   obj_index[real_object0(67280)].func.obj =
-    obj_index[real_object0(16263)].func.obj =
-    obj_index[real_object0(16268)].func.obj =
-    obj_index[real_object0(26653)].func.obj =
-    obj_index[real_object0(25719)].func.obj =
-    obj_index[real_object0(911)].func.obj =
-    obj_index[real_object0(23808)].func.obj =
-    obj_index[real_object0(67244)].func.obj = artifact_stone;
+  obj_index[real_object0(16263)].func.obj =
+  obj_index[real_object0(16268)].func.obj =
+  obj_index[real_object0(26653)].func.obj =
+  obj_index[real_object0(25719)].func.obj =
+  obj_index[real_object0(911)].func.obj =
+  obj_index[real_object0(23808)].func.obj = artifact_stone;
+//  obj_index[real_object0(67244)].func.obj = artifact_stone;
   obj_index[real_object0(17)].func.obj = artifact_stone;
   obj_index[real_object0(23806)].func.obj = earthquake_gauntlet;
 
