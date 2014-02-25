@@ -510,6 +510,13 @@ void do_get(P_char ch, char *argument, int cmd)
         {
           if ((IS_CARRYING_W(ch) + GET_OBJ_WEIGHT(o_obj)) <= CAN_CARRY_W(ch))
           {
+
+	     if(ch && o_obj)
+            {
+             if(IS_NPC(ch) && (o_obj->type == ITEM_TELEPORT ||  !IS_SET(o_obj->wear_flags, ITEM_TAKE)))
+             return FALSE;
+	     }            
+
             if (CAN_WEAR(o_obj, ITEM_TAKE) || GET_LEVEL(ch) >= 60)
             {
               get(ch, o_obj, 0, TRUE);
