@@ -880,10 +880,10 @@ void epic_stone_level_char(P_obj obj, P_char ch)
 
   int epics_for_level = get_property(buf, 1 << (obj->value[3] - 43));
   int nostone_epics_for_level;
-  if(IS_MULTICLASS_PC(ch) && GET_LEVEL(ch) >= 51)
+ /* if(IS_MULTICLASS_PC(ch) && GET_LEVEL(ch) >= 51)
   {
     epics_for_level *= (int) get_property("exp.multiEpicMultiplier", 3);
-  }
+  } -multis no longer need this - Drannak */
 
 #if defined(CTF_MUD) && (CTF_MUD == 1)
   epics_for_level = (int)(epics_for_level/3);
