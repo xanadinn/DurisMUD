@@ -14374,6 +14374,10 @@ void spell_feeblemind(int level, P_char ch, char *arg, int type, P_char victim, 
       act("Who/what do you wish to feeb?", TRUE, ch, 0, victim, TO_CHAR);
       return;
     }
+
+    if(IS_NPC(ch))
+    return; //drannak - disabling while i debug
+
     if(affected_by_spell(victim, SPELL_FEEBLEMIND))
     {
       act("$N is already dumb!", TRUE, ch, 0, victim, TO_CHAR);
