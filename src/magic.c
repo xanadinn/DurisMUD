@@ -14768,7 +14768,7 @@ void spell_dispel_magic(int level, P_char ch, char *arg, int type,
           if(!nosave &&
              resists_spell(ch, victim))
                 return;
-                
+
           success = 1;
           wear_off_message(victim, af);
           if((af->type == SPELL_CALL_OF_THE_WILD) && IS_MORPH(victim))
@@ -14786,7 +14786,7 @@ void spell_dispel_magic(int level, P_char ch, char *arg, int type,
             un_morph(victim);
             return;
           }
-          affect_remove(victim, af);
+          affect_from_char(victim, af->type);
         }
       }
     }
