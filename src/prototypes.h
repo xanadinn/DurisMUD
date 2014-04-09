@@ -329,11 +329,13 @@ void do_apply_poison(P_char, char *, int);
 void do_dropalldot(P_char, char *, int);
 bool is_stat_max(sbyte);
 
-/* tradeskill.c */
+/* achievements.c */
 int get_frags(P_char);
-void display_achievements(P_char ch, char *arg, int cmd);
+void do_achievements(P_char ch, char *arg, int cmd);
 void update_achievements(P_char ch, P_char victim, int cmd, int ach);
 void apply_achievement(P_char ch, int ach);
+
+/* tradeskill.c */
 void do_salvation(P_char ch, char *arg, int cmd);
 void do_drandebug(P_char ch, char *arg, int cmd);
 int get_matstart(P_obj obj);
@@ -341,7 +343,6 @@ bool has_affect(P_obj obj);
 void do_refine(P_char ch, char *arg, int cmd);
 int itemvalue(P_char ch, P_obj obj);
 void do_dice(P_char ch, char *arg, int cmd);
-
 
 /* actoff.c */
 bool CheckMultiProcTiming(P_char);
