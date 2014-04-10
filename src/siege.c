@@ -135,7 +135,7 @@ int ballista( P_obj obj, P_char ch, int cmd, char *arg )
         // Yes, this lags you to stop you from spamming.
         CharWait(ch, siege_move_wait(ch) );
         add_event(event_move_engine, siege_move_wait(ch), ch, NULL, 
-          obj, 0, &dir, sizeof(int) );
+            obj, 0, &dir, sizeof(int) );
       }
       return TRUE;
     }
@@ -156,7 +156,7 @@ int ballista( P_obj obj, P_char ch, int cmd, char *arg )
       act( "You begin loading $p.", FALSE, ch, obj, NULL, TO_CHAR );
       act( "$n begins loading $p.", FALSE, ch, obj, NULL, TO_ROOM );
       add_event(event_load_engine, siege_load_wait(ch, obj), ch, NULL, 
-        obj, 0, NULL, 0 );
+          obj, 0, NULL, 0 );
       // Yes, this lags you while loading.
       CharWait(ch, siege_move_wait(ch) );
     }
@@ -246,7 +246,7 @@ int ballista( P_obj obj, P_char ch, int cmd, char *arg )
           ch->in_room = ch_room;
           // If we hit a wall.
           if(  !VIRTUAL_EXIT(in_room, dir)
-            || !VIRTUAL_EXIT(in_room, dir)->to_room )
+              || !VIRTUAL_EXIT(in_room, dir)->to_room )
           {
             sprintf( buf, "$p hits the %s wall.", dirs[dir] );
             act( buf, TRUE, NULL, ammo, 0, TO_ROOM );
@@ -344,7 +344,7 @@ int battering_ram( P_obj obj, P_char ch, int cmd, char *arg )
         // Yes, this lags you to stop you from spamming.
         CharWait(ch, siege_move_wait(ch) );
         add_event(event_move_engine, siege_move_wait(ch), ch, NULL, 
-          obj, 0, &dir, sizeof(int) );
+            obj, 0, &dir, sizeof(int) );
       }
       return TRUE;
     }
@@ -431,7 +431,7 @@ int catapult( P_obj obj, P_char ch, int cmd, char *arg )
         // Yes, this lags you to stop you from spamming.
         CharWait(ch, siege_move_wait(ch) );
         add_event(event_move_engine, siege_move_wait(ch), ch, NULL, 
-          obj, 0, &dir, sizeof(int) );
+            obj, 0, &dir, sizeof(int) );
       }
       return TRUE;
     }
@@ -452,7 +452,7 @@ int catapult( P_obj obj, P_char ch, int cmd, char *arg )
       act( "You begin loading $p.", FALSE, ch, obj, NULL, TO_CHAR );
       act( "$n begins loading $p.", FALSE, ch, obj, NULL, TO_ROOM );
       add_event(event_load_engine, siege_load_wait(ch, obj), ch, NULL, 
-        obj, 0, NULL, 0 );
+          obj, 0, NULL, 0 );
       // Yes, this lags you while loading.
       CharWait(ch, siege_move_wait(ch) );
     }
@@ -513,7 +513,7 @@ int catapult( P_obj obj, P_char ch, int cmd, char *arg )
         {
           // If we hit a wall.
           if(  !VIRTUAL_EXIT(in_room, dir)
-            || !VIRTUAL_EXIT(in_room, dir)->to_room )
+              || !VIRTUAL_EXIT(in_room, dir)->to_room )
           {
             sprintf( buf, "$p slams into the %s wall.", dirs[dir] );
             act( buf, TRUE, NULL, ammo, 0, TO_ROOM );
@@ -598,7 +598,7 @@ bool check_gates( P_char ch, int room )
   for( dir = 0; dir < NUM_EXITS; dir++ )
   {
     if( world[ch->in_room].dir_option[dir]
-     && world[ch->in_room].dir_option[dir]->to_room == room )
+        && world[ch->in_room].dir_option[dir]->to_room == room )
       break;
   }
   // If no exit to room, no gate can block it.
@@ -641,9 +641,9 @@ int castlewall( P_obj obj, P_char ch, int cmd, char *arg )
 
   // Value0 of a castlewall is the direction it blocks.
   if( (obj->value[0] == EAST  && cmd == CMD_EAST) 
-   || (obj->value[0] == WEST  && cmd == CMD_WEST) 
-   || (obj->value[0] == NORTH && cmd == CMD_NORTH) 
-   || (obj->value[0] == SOUTH && cmd == CMD_SOUTH) )
+      || (obj->value[0] == WEST  && cmd == CMD_WEST) 
+      || (obj->value[0] == NORTH && cmd == CMD_NORTH) 
+      || (obj->value[0] == SOUTH && cmd == CMD_SOUTH) )
   {
     if( isname( "gates", obj->name ) )
       act( "$p block your path.", FALSE, ch, obj, NULL, TO_CHAR );
@@ -663,9 +663,9 @@ bool is_siege( P_obj object )
 
   // If the object proc is ballista/battering_ram/catapult..
   if(  obj_index[object->R_num].func.obj == ballista
-    || obj_index[object->R_num].func.obj == battering_ram
-    || obj_index[object->R_num].func.obj == catapult
-    || obj_index[object->R_num].func.obj == castlewall )
+      || obj_index[object->R_num].func.obj == battering_ram
+      || obj_index[object->R_num].func.obj == catapult
+      || obj_index[object->R_num].func.obj == castlewall )
     return TRUE;
 
   return FALSE;
@@ -682,92 +682,92 @@ void damage_siege( P_obj siege, P_obj ammo )
 
   switch( siege->material )
   {
-  default:
-  break;
-  case MAT_NONSUBSTANTIAL:
-  case MAT_LIQUID:
-  case MAT_WAX:
-    damage *= 10;
-  break;
-  case MAT_PAPER:
-  case MAT_PARCHMENT:
-  case MAT_LEAVES:
-  case MAT_FLESH:
-  case MAT_RUBBER:
-  case MAT_FEATHER:
-    damage *= 5;
-  break;
-  case MAT_CLOTH:
-    damage = ( damage * 10 ) / 3;
-  break;
-  case MAT_BAMBOO:
-  case MAT_REEDS:
-  case MAT_HEMP:
-  case MAT_EGGSHELL:
-  case MAT_BARK:
-  case MAT_GENERICFOOD:
-    damage = ( damage * 5 ) / 2;
-  break;
-  case MAT_SOFTWOOD:
-  case MAT_HARDWOOD:
-  case MAT_PEARL:
-    damage = ( damage * 9 ) / 4;
-  break;
-  case MAT_SILICON:
-  case MAT_CERAMIC:
-    damage = ( damage * 5 ) / 3;
-  break;
-  case MAT_HIDE:
-  case MAT_LEATHER:
-  case MAT_CURED_LEATHER:
-    damage = ( damage * 7 ) / 3;
-  break;
-  case MAT_CRYSTAL:
-  case MAT_BONE:
-    damage = ( damage * 7 ) / 3;
-  break;
-  case MAT_GEM:
-  case MAT_STONE:
-  case MAT_GRANITE:
-  case MAT_MARBLE:
-  case MAT_LIMESTONE:
-    damage = ( damage * 85 ) / 100;
-  break;
-  case MAT_IRON:
-  case MAT_STEEL:
-    damage = ( damage * 75 ) / 100;
-  break;
-  case MAT_BRASS:
-  case MAT_MITHRIL:
-    damage = ( damage * 70 ) / 100;
-  break;
-  case MAT_GLASSTEEL:
-  case MAT_ADAMANTIUM:
-    damage = ( damage * 65 ) / 100;
-  break;
-  case MAT_BRONZE:
-  case MAT_COPPER:
-  case MAT_SILVER:
-  case MAT_ELECTRUM:
-  case MAT_GOLD:
-  case MAT_PLATINUM:
-  case MAT_RUBY:
-  case MAT_EMERALD:
-  case MAT_SAPPHIRE:
-  case MAT_IVORY:
-    damage = ( damage * 89 ) / 100;
-  break;
-  case MAT_DRAGONSCALE:
-  case MAT_DIAMOND:
-    damage = ( damage * 67 ) / 100;
-  break;
-  case MAT_OBSIDIAN:
-    damage = ( damage * 63 ) / 100;
-  break;
-  case MAT_CHITINOUS:
-  case MAT_REPTILESCALE:
-    damage = ( damage * 95 ) / 100;
-  break;
+    default:
+      break;
+    case MAT_NONSUBSTANTIAL:
+    case MAT_LIQUID:
+    case MAT_WAX:
+      damage *= 10;
+      break;
+    case MAT_PAPER:
+    case MAT_PARCHMENT:
+    case MAT_LEAVES:
+    case MAT_FLESH:
+    case MAT_RUBBER:
+    case MAT_FEATHER:
+      damage *= 5;
+      break;
+    case MAT_CLOTH:
+      damage = ( damage * 10 ) / 3;
+      break;
+    case MAT_BAMBOO:
+    case MAT_REEDS:
+    case MAT_HEMP:
+    case MAT_EGGSHELL:
+    case MAT_BARK:
+    case MAT_GENERICFOOD:
+      damage = ( damage * 5 ) / 2;
+      break;
+    case MAT_SOFTWOOD:
+    case MAT_HARDWOOD:
+    case MAT_PEARL:
+      damage = ( damage * 9 ) / 4;
+      break;
+    case MAT_SILICON:
+    case MAT_CERAMIC:
+      damage = ( damage * 5 ) / 3;
+      break;
+    case MAT_HIDE:
+    case MAT_LEATHER:
+    case MAT_CURED_LEATHER:
+      damage = ( damage * 7 ) / 3;
+      break;
+    case MAT_CRYSTAL:
+    case MAT_BONE:
+      damage = ( damage * 7 ) / 3;
+      break;
+    case MAT_GEM:
+    case MAT_STONE:
+    case MAT_GRANITE:
+    case MAT_MARBLE:
+    case MAT_LIMESTONE:
+      damage = ( damage * 85 ) / 100;
+      break;
+    case MAT_IRON:
+    case MAT_STEEL:
+      damage = ( damage * 75 ) / 100;
+      break;
+    case MAT_BRASS:
+    case MAT_MITHRIL:
+      damage = ( damage * 70 ) / 100;
+      break;
+    case MAT_GLASSTEEL:
+    case MAT_ADAMANTIUM:
+      damage = ( damage * 65 ) / 100;
+      break;
+    case MAT_BRONZE:
+    case MAT_COPPER:
+    case MAT_SILVER:
+    case MAT_ELECTRUM:
+    case MAT_GOLD:
+    case MAT_PLATINUM:
+    case MAT_RUBY:
+    case MAT_EMERALD:
+    case MAT_SAPPHIRE:
+    case MAT_IVORY:
+      damage = ( damage * 89 ) / 100;
+      break;
+    case MAT_DRAGONSCALE:
+    case MAT_DIAMOND:
+      damage = ( damage * 67 ) / 100;
+      break;
+    case MAT_OBSIDIAN:
+      damage = ( damage * 63 ) / 100;
+      break;
+    case MAT_CHITINOUS:
+    case MAT_REPTILESCALE:
+      damage = ( damage * 95 ) / 100;
+      break;
   }
 
   // This should never happen, but just to make sure we don't heal target...
@@ -779,7 +779,7 @@ void damage_siege( P_obj siege, P_obj ammo )
     destroy = TRUE;
 
   sprintf(buf, "$q %s", destroy ? "is completely destroyed!" :
-                                  "is damaged from the blow!" );
+      "is damaged from the blow!" );
   act(buf, TRUE, NULL, siege, 0, TO_ROOM);
 
   if( destroy )
@@ -792,7 +792,7 @@ void damage_siege( P_obj siege, P_obj ammo )
       return;
     }
     sprintf(buf, "Scraps from %s&n lie in a pile here.",
-      siege->short_description);
+        siege->short_description);
     scraps->description = str_dup(buf);
     sprintf(buf, "a pile of scraps from %s", siege->short_description);
     scraps->short_description = str_dup(buf);
@@ -821,7 +821,7 @@ P_obj get_siege_room( P_char ch, char *arg )
   {
     // If it is a siege weapon, and matches name, and matches amount..
     if( is_siege( obj ) && isname( temp, obj->name ) && howmany == ++count )
-        return obj;
+      return obj;
   }
 
   return NULL;
@@ -856,11 +856,9 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
   P_obj donation, siege;
   int ztop, count, i, j, numgate;
 
-  if( cmd == CMD_SET_PERIODIC )
-    return FALSE;
+  if( cmd == CMD_SET_PERIODIC ) return FALSE;
 
-  if( cmd == CMD_PERIODIC )
-    return FALSE;
+  if( cmd == CMD_PERIODIC ) return FALSE;
 
   if( !ch )
   {
@@ -875,35 +873,38 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
   }
   // In case someone tries to have a pet do warmaster stuff.
   if( IS_NPC( pl ) )
+  {
     return FALSE;
+  }
+  
+  town = gettown( ch );
+  
+  if( !town )
+  {
+    logit(LOG_DEBUG, "warmaster: called outside of town.");
+    return FALSE;
+  }
 
   if(cmd == CMD_LIST)
   {
-    town = gettown( ch );
-    if( !town )
-    {
-      logit(LOG_DEBUG, "warmaster: called outside of town.");
-      return FALSE;
-    }
-
-    // List town's name, offense, defense, and resrources..
+      // List town's name, offense, defense, and resrources..
     sprintf( buf, "'%s'\nOffense:     %7d\nDefense:     %7d\nResources:   %7d\n"
-                  "Town Guards:  %s\nTown Cavalry: %s\nTown Portals: %s\n\n",
-                  town->zone->name, town->offense, town->defense, town->resources, 
-                  town->deploy_guard ? "  Deployed" : "Not Deployed",
-                  town->deploy_cavalry ? "  Deployed" : "Not Deployed",
-                  town->deploy_portals ? "  Deployed" : "Not Deployed" );
+        "Town Guards:  %s\nTown Cavalry: %s\nTown Portals: %s\n\n",
+        town->zone->name, town->offense, town->defense, town->resources, 
+        town->deploy_guard ? "  Deployed" : "Not Deployed",
+        town->deploy_cavalry ? "  Deployed" : "Not Deployed",
+        town->deploy_portals ? "  Deployed" : "Not Deployed" );
     send_to_char( buf, pl );
 
     if( IS_TRUSTED( pl ) )
     {
       sprintf( buf, "Guards: %d deployed of %d max, vnum %d, load in room %d.\n", 
-        town->guard_vnum ? mob_index[real_mobile(town->guard_vnum)].number : 0,
-        town->guard_max, town->guard_vnum, town->guard_load_room );
+          town->guard_vnum ? mob_index[real_mobile(town->guard_vnum)].number : 0,
+          town->guard_max, town->guard_vnum, town->guard_load_room );
       send_to_char( buf, pl );
       sprintf( buf, "Cavalry: %d deployed of %d max, vnum %d, load in room %d.\n\n", 
-        town->cavalry_vnum ? mob_index[real_mobile(town->cavalry_vnum)].number : 0,
-        town->cavalry_max, town->cavalry_vnum,  town->cavalry_load_room );
+          town->cavalry_vnum ? mob_index[real_mobile(town->cavalry_vnum)].number : 0,
+          town->cavalry_max, town->cavalry_vnum,  town->cavalry_load_room );
       send_to_char( buf, pl );
     }
 
@@ -940,13 +941,6 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
   }
   if( cmd == CMD_DONATE )
   {
-    town = gettown( ch );
-    if( !town )
-    {
-      logit(LOG_DEBUG, "warmaster: called outside of town.");
-      return FALSE;
-    }
-
     donation = get_obj_in_list_vis(pl, arg, pl->carrying);
     if( !donation )
     {
@@ -954,7 +948,7 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
       return TRUE;
     }
     sprintf( buf, "You donate %s to %s.\n", donation->short_description, 
-      town->zone->name );
+        town->zone->name );
     send_to_char( buf, pl );
     obj_from_char( donation, TRUE );
     town->resources += itemvalue( ch, donation );
@@ -973,13 +967,6 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
       return FALSE;
     if( IS_SET( pl->specials.act3, PLR3_SURNOBLE ) )
       return FALSE;
-    town = gettown( ch );
-    if( !town )
-    {
-      logit(LOG_DEBUG, "warmaster: called outside of town.");
-      return FALSE;
-    }
-
     one_argument( arg, arg1 );
     if( *arg1 == '\0' )
     {
@@ -996,7 +983,7 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
       if( town->resources < 50000 )
       {
         send_to_char( "This town lacks the resources to deploy guards.\n"
-                      "You must have 50,000 in resources to deploy them.\n", pl );
+            "You must have 50,000 in resources to deploy them.\n", pl );
         return TRUE;
       }
 
@@ -1022,7 +1009,7 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
       if( town->resources < 450000 )
       {
         send_to_char( "This town lacks the resources to deploy cavalry.\n"
-                      "You must have 450,000 in resources to deploy them.\n", pl );
+            "You must have 450,000 in resources to deploy them.\n", pl );
         return TRUE;
       }
 
@@ -1045,7 +1032,7 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
       if( town->resources < 600000 )
       {
         send_to_char( "This town lacks the resources to deploy portals.\n"
-                      "You must have 600,000 in resources to deploy them.\n", pl );
+            "You must have 600,000 in resources to deploy them.\n", pl );
         return TRUE;
       }
 
@@ -1068,8 +1055,8 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
   {
     // People that can't buy anything here.
     if( IS_SET( pl->specials.act3, PLR3_NOSUR ) 
-     || IS_SET( pl->specials.act3, PLR3_SURSERF ) 
-     || IS_SET( pl->specials.act3, PLR3_SURCOMMONER ) )
+        || IS_SET( pl->specials.act3, PLR3_SURSERF ) 
+        || IS_SET( pl->specials.act3, PLR3_SURCOMMONER ) )
       return FALSE;
 
     rest = one_argument( arg, arg1 );
@@ -1105,7 +1092,7 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
       }
     }
     if( is_abbrev( arg1, "battering" ) 
-     || is_abbrev( arg1, "ram" ) )
+        || is_abbrev( arg1, "ram" ) )
     {
       if( 5000 * 1000 > GET_MONEY(pl) )
       {
@@ -1152,23 +1139,17 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
       }
     }
     if( is_abbrev( arg1, "town" ) 
-     || is_abbrev( arg1, "gates" )
-     || atoi(arg1) > 0 )
+        || is_abbrev( arg1, "gates" )
+        || atoi(arg1) > 0 )
     {
       // For 'buy <#>' instead of 'buy gates <#>'
       if( atoi(arg1) > 0 )
         sprintf( arg2, arg1 );
-      town = gettown( ch );
-      if( !town )
-      {
-        logit(LOG_DEBUG, "warmaster: 'buy gates' called outside of town.");
-        return FALSE;
-      }
 
       if( town->resources < 150000 )
       {
         send_to_char( "This town lacks the resources to have gates.\n"
-                      "You must have 150,000 in resources to buy them.\n", pl );
+            "You must have 150,000 in resources to buy them.\n", pl );
         return TRUE;
       }
 
@@ -1194,10 +1175,10 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
             {
               if( has_gates( i ) )
                 sprintf( buf, "%2d)*%-5s %s\n", ++count, dirs[j],
-                  world[world[i].dir_option[j]->to_room].name );
+                    world[world[i].dir_option[j]->to_room].name );
               else
                 sprintf( buf, "%2d) %-5s %s\n", ++count, dirs[j],
-                  world[world[i].dir_option[j]->to_room].name );
+                    world[world[i].dir_option[j]->to_room].name );
               send_to_char( buf, pl );
             }
           }
@@ -1276,8 +1257,8 @@ void check_deploy( struct zone_data *zone )
     rnum = real_mobile( town->guard_vnum );
 
     sprintf( buf, "Mob: %d '%s': Current load: %d, Max load: %d in room: %d.",
-      town->guard_vnum, mob_index[rnum].desc2, mob_index[rnum].number,
-      mob_index[rnum].limit, town->guard_load_room );
+        town->guard_vnum, mob_index[rnum].desc2, mob_index[rnum].number,
+        mob_index[rnum].limit, town->guard_load_room );
     wizlog( 60, buf );
 
     // Deploy guards if necessary..
@@ -1293,10 +1274,10 @@ void check_deploy( struct zone_data *zone )
     rnum = real_mobile( town->cavalry_vnum );
 
     sprintf( buf, "Mob: %d '%s': Current load: %d, Max load: %d in room: %d.",
-      town->cavalry_vnum, mob_index[rnum].desc2, mob_index[rnum].number,
-      mob_index[rnum].limit, town->cavalry_load_room );
+        town->cavalry_vnum, mob_index[rnum].desc2, mob_index[rnum].number,
+        mob_index[rnum].limit, town->cavalry_load_room );
     wizlog( 60, buf );
-    
+
     // Deploy cavalry if necessary..
     for( i = mob_index[rnum].number; i < mob_index[rnum].limit; i++ )
     {
@@ -1305,7 +1286,7 @@ void check_deploy( struct zone_data *zone )
       char_to_room(mob, real_room(town->cavalry_load_room), -1);
     }
   }
-// Need to add portals
+  // Need to add portals
 
 }
 
@@ -1414,14 +1395,14 @@ void multihit_siege( P_char ch )
     destroy = TRUE;
 
   sprintf(buf, "$q %s", destroy ? "is completely destroyed!" :
-                                  "is damaged from the blow!" );
+      "is damaged from the blow!" );
   act(buf, TRUE, NULL, siege, 0, TO_ROOM);
 
   if( destroy )
   {
     stop_destroying( ch );
     for( other_attacker = destroying_list; other_attacker; 
-      other_attacker = other_attacker->specials.next_destroying )
+        other_attacker = other_attacker->specials.next_destroying )
     {
       if( other_attacker->specials.destroying_obj == siege )
         stop_destroying( other_attacker );
@@ -1435,7 +1416,7 @@ void multihit_siege( P_char ch )
       return;
     }
     sprintf(buf, "Scraps from %s&n lie in a pile here.",
-      siege->short_description);
+        siege->short_description);
     scraps->description = str_dup(buf);
     sprintf(buf, "a pile of scraps from %s", siege->short_description);
     scraps->short_description = str_dup(buf);
