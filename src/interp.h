@@ -852,6 +852,7 @@ extern unsigned int game_locked;
 #define CMD_ENHANCE        825
 #define CMD_ADD            826
 #define CMD_DEPLOY         827
+#define CMD_ADDICTED_BLOOD 828
 
 /* cmds below are not real commands, they are
                 used in item special procedures to identify

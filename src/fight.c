@@ -590,7 +590,7 @@ if(affected_by_spell(ch, TAG_NOMISFIRE)) //misfire code - drannak
   {
     gain_exp(healer, ch, hits, EXP_HEALING);
   }
-  
+
 }
 
 bool soul_trap(P_char ch, P_char victim)
@@ -1575,7 +1575,7 @@ void make_bloodstain(P_char ch)
   msgnum = number(0, 3);
   blood->value[0] = msgnum;
   blood->value[1] = BLOOD_FRESH;
-  sprintf(buf, long_desc[msgnum]);
+  sprintf(buf, "%s", long_desc[msgnum]);
   blood->description = str_dup(buf);
 
   // 15 minutes, changes to regular blood at 3 minutes and dry blood at 7 minutes.
@@ -2174,7 +2174,7 @@ void die(P_char ch, P_char killer)
     SET_POS(ch, GET_POS(ch) + stat);
   }
 #endif
-  
+
   for (af = ch->affected; af; af = af->next)
   {
     if(af->type == TAG_RACE_CHANGE)
@@ -2184,8 +2184,8 @@ void die(P_char ch, P_char killer)
     }
   }
 
-      REMOVE_BIT(ch->specials.affected_by3, AFF3_PALADIN_AURA);
-      clear_links(ch, LNK_PALADIN_AURA);
+  REMOVE_BIT(ch->specials.affected_by3, AFF3_PALADIN_AURA);
+  clear_links(ch, LNK_PALADIN_AURA);
 
   /* switched god */
   if(ch->desc &&
@@ -2212,31 +2212,28 @@ void die(P_char ch, P_char killer)
   {
     remove_disguise(ch, TRUE);
   }
-  
-  if (ch && killer)
-    if (check_outpost_death(ch, killer))
-      return;
+
+  if (ch && killer && check_outpost_death(ch, killer))
+    return;
 
   if(!IS_SET(ch->specials.act, ACT_SPEC_DIE))
   {
-     act("$n is dead! &+RR.I.P.&n", TRUE, ch, 0, 0, TO_ROOM);
-     act("&-L&+rYou feel yourself falling to the ground.&n", FALSE, ch, 0, 0, TO_CHAR);
-     act("&-L&+rYour soul leaves your body in the cold sleep of death...&n", FALSE, ch, 0, 0, TO_CHAR);
-     if(IS_NPC(ch) && GET_LEVEL(ch) > 44)
-     { if (get_property("thanksgiving", 0.000) &&
-      (number(0, 100) < get_property("thanksgiving.turkey.chance", 5.000)))
-    thanksgiving_proc(ch);
-     }
-   if(IS_NPC(ch) && GET_LEVEL(ch) > 35)
-     { if (get_property("christmas", 0.000) &&
-      (number(0, 100) < get_property("christmas.elf.chance", 5.000)))
-    christmas_proc(ch);
-     }
+    act("$n is dead! &+RR.I.P.&n", TRUE, ch, 0, 0, TO_ROOM);
+    act("&-L&+rYou feel yourself falling to the ground.&n", FALSE, ch, 0, 0, TO_CHAR);
+    act("&-L&+rYour soul leaves your body in the cold sleep of death...&n", FALSE, ch, 0, 0, TO_CHAR);
+    if(IS_NPC(ch) && GET_LEVEL(ch) > 44)
+    {
+      if (get_property("thanksgiving", 0.000) && (number(0, 100) < get_property("thanksgiving.turkey.chance", 5.000)))
+        thanksgiving_proc(ch);
+    }
+    if(IS_NPC(ch) && GET_LEVEL(ch) > 35)
+    {
+      if (get_property("christmas", 0.000) && (number(0, 100) < get_property("christmas.elf.chance", 5.000)))
+        christmas_proc(ch);
+    }
 
     if(IS_NPC(ch) && !IS_PC_PET(ch))
-    {
-     enhancematload(ch);
-    }
+      enhancematload(ch);
 
   }
 
@@ -2280,11 +2277,11 @@ void die(P_char ch, P_char killer)
   holy_crusade_check(killer, ch);
   soul_taking_check(killer, ch);
 
-  if((IS_NPC(ch) || ch->desc) &&
-    (killer != ch) &&
-    !IS_TRUSTED(killer) &&
-    ch &&
-    killer) 
+  // Changed the order on this to take advantage of C's lazy evaluation.
+  if( ch && killer
+    && (IS_NPC(ch) || ch->desc)
+    && (killer != ch)
+    && !IS_TRUSTED(killer) )
   {
     kill_gain(killer, ch);
 
@@ -2827,10 +2824,8 @@ void kill_gain(P_char ch, P_char victim)
 
   if( IS_PC(victim) )
   {
-    if(GOOD_RACE(ch) && 
-       GOOD_RACE(victim) ||
-       EVIL_RACE(ch) &&
-       EVIL_RACE(victim))
+    if(GOOD_RACE(ch) && GOOD_RACE(victim)
+      || EVIL_RACE(ch) && EVIL_RACE(victim))
     {
       gain = 1;
     }
@@ -2843,23 +2838,62 @@ void kill_gain(P_char ch, P_char victim)
   {
     gain = GET_EXP(victim);
   }
-  
+
   if( !ch->group )
   {
     send_to_char("You receive your share of experience.\r\n", ch);
     gain_exp(ch, victim, gain, EXP_KILL);
     if(IS_PC(ch))
-    add_bloodlust(ch, victim);
+      add_bloodlust(ch, victim);
 
-    update_achievements(ch, victim, 0, 2);//this is for all kinds of kill-type quests
+    // This is for all kinds of kill-type achievements
+    update_achievements(ch, victim, 0, 2);
+
+    // Addicted to blood stuff:
+    if( !IS_PC(victim) && GET_LEVEL(victim) > GET_LEVEL(ch) - 5 )
+    {
+      // Add addicted to blood if it isn't already there
+      if( !affected_by_spell(ch, TAG_ADDICTED_BLOOD) )
+      {
+        struct affected_type aaf;
+        memset(&aaf, 0, sizeof(struct affected_type));
+        aaf.type = TAG_ADDICTED_BLOOD;
+        aaf.modifier = 0;
+        aaf.duration = 60;
+        aaf.location = 0;
+        aaf.flags = AFFTYPE_NOSHOW | AFFTYPE_PERM | AFFTYPE_NODISPEL;
+        affect_to_char(ch, &aaf);
+      }
+      // Now increment the af and check if 30 kills.
+      struct affected_type *af = ch->affected;
+      while( af && !(af->type == TAG_ADDICTED_BLOOD) )
+        af = af->next;
+      // This should always be true, but just in case...
+      if( af )
+      {
+        //check to see if we've hit 30 kills
+        if( af->modifier >= 30)
+        {
+          affect_remove( ch, af );
+          send_to_char("&+rCon&+Rgra&+Wtula&+Rtio&+rns! You have completed &+rAddicted to Blood&+r!&n\r\n", ch);
+          send_to_char("&+yEnjoy an &+Yexp bonus&+y and &+W5 platinum coins&+y!&n\r\n", ch);
+          gain_exp(ch, NULL, GET_EXP(victim) * 10, EXP_BOON);
+          ADD_MONEY(ch, 5000);
+        }
+        // Otherwise, add a kill.
+        else
+          af->modifier += 1;
+      }
+    }
+
     if((GET_LEVEL(victim) > 30) && !IS_PC(victim) && !affected_by_spell(victim, TAG_CONJURED_PET))
-	{
+    {
 	    if((number(1, 5000) < GET_C_LUK(ch)) || (GET_RACE(victim) == RACE_DRAGON && (GET_VNUM(victim) > 10) && (GET_VNUM(victim) != 1108) && (GET_LEVEL(victim) > 49)))
-	   {
-		send_to_char("&+cAs your body absorbs the &+Cexperience&+c, you seem to feel a bit more epic!\r\n", ch);
-		ch->only.pc->epics += 1;
-	   } 
-	}
+      {
+        send_to_char("&+cAs your body absorbs the &+Cexperience&+c, you seem to feel a bit more epic!\r\n", ch);
+        ch->only.pc->epics += 1;
+      }
+    }
     change_alignment(ch, victim);
 
    if(!IS_PC(victim) && affected_by_spell(victim, SPELL_CONTAIN_BEING) && GET_CLASS(ch, CLASS_CONJURER) && IS_SPECIALIZED(ch) && IS_PC(ch))
