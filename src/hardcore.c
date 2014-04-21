@@ -599,7 +599,7 @@ void writeLeaderBoard( P_char ch )
 void checkLeaderBoard( P_char ch )
 {
 
-  if( !ch )
+  if( !ch || !IS_ALIVE(ch) )
     return;
 
   writeLeaderBoard( ch );

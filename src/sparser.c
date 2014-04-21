@@ -307,7 +307,6 @@ int get_weight_allies_in_room(P_char ch, int room_index)
   {
     if (is_ally(ch, t_char))
     {
-     chrace = NULL;
      chrace  = GET_RACE(t_char);
 	  switch (chrace)
 	  {
@@ -1106,7 +1105,7 @@ void show_abort_casting(P_char ch)
     for (P_nevent e1 = ch->nevents; e1; e1 = e1->next) {
       if ( e1->func == event_spellcast) {
         data = (struct spellcast_datatype*)e1->data;
-        if (data->arg) {
+        if (data && data->arg) {
           FREE(data->arg);
           data->arg = NULL;
         }

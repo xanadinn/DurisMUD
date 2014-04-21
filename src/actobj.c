@@ -514,7 +514,7 @@ void do_get(P_char ch, char *argument, int cmd)
 	     if(ch && o_obj)
             {
              if(IS_NPC(ch) && (o_obj->type == ITEM_TELEPORT ||  !IS_SET(o_obj->wear_flags, ITEM_TAKE)))
-             return FALSE;
+             return;
 	     }            
 
             if (CAN_WEAR(o_obj, ITEM_TAKE) || GET_LEVEL(ch) >= 60)
@@ -4914,57 +4914,55 @@ void do_remove(P_char ch, char *argument, int cmd)
         act("&+rYou are too high on &+Radrenaline&+R to perform a remove all.&n", FALSE, ch, 0, 0, TO_CHAR);
         CharWait(ch, PULSE_VIOLENCE * 1);
         return;
-      } 
-      
+      }
       // Remove All Section
       naked = TRUE; // Assume Player is Nude
       for (k = 0; k < MAX_WEAR; k++)
       {
         temp_obj = ch->equipment[k];
-	ret_type = remove_item(ch, ch->equipment[k], k);
-	// Acknowledge Removal
-	if (ret_type == 0 || ret_type == 2)
+	      ret_type = remove_item(ch, ch->equipment[k], k);
+	      // Acknowledge Removal
+        if (ret_type == 0 || ret_type == 2)
         {
           act("You stop using $p.", FALSE, ch, temp_obj, 0, TO_CHAR);
-	//Drannak - set affect noauction to prevent selling off equip prior to being fragged
-        if(!affected_by_spell(ch, SPELL_NOAUCTION))
-        {
-   	 bzero(&af, sizeof(af));
-    	af.type = SPELL_NOAUCTION;
-    	af.duration = PULSE_VIOLENCE / 2;
-    	af.modifier = 4000;
-    	affect_to_char(ch, &af);
-        }
-	
-	//Battlemage robe
-	if (obj_index[temp_obj->R_num].virtual_number == 400218 && !IS_MULTICLASS_PC(ch))
-	{
-	  affect_from_char(ch, SPELL_BATTLEMAGE);
-	  send_to_char("&+rAs you remove the &+Ymaje&+rst&+Yic &+Yrobe&+r, you feel your enhanced &+mpower&+r fade.&n\r\n", ch);
-	}
+	        //Drannak - set affect noauction to prevent selling off equip prior to being fragged
+          affect_from_char(ch, SPELL_NOAUCTION);
+          bzero(&af, sizeof(af));
+          af.type = SPELL_NOAUCTION;
+          af.duration = 2;
+          af.modifier = 4000;
+          affect_to_char(ch, &af);
 
-	  if (naked == TRUE)
-            naked = FALSE;		  
-        }	
-	// Parse Remaining Messages
-	switch(ret_type)
-	{
-	  case 1 : 
+          //Battlemage robe
+          if (obj_index[temp_obj->R_num].virtual_number == 400218 && !IS_MULTICLASS_PC(ch))
+          {
+            affect_from_char(ch, SPELL_BATTLEMAGE);
+            send_to_char("&+rAs you remove the &+Ymaje&+rst&+Yic &+Yrobe&+r, you feel your enhanced &+mpower&+r fade.&n\r\n", ch);
+          }
+
+	        if (naked == TRUE)
+            naked = FALSE;
+        }
+        // Parse Remaining Messages
+        switch(ret_type)
+        {
+          case 1 :
             act("$p won't budge!  Perhaps it's cursed?!?", TRUE, ch, ch->equipment[k], 0, TO_CHAR);
-	    naked = FALSE;
-            //continue;
-	    break;
-	  case 2 :
-	    act("&+cSome of your &+Cmagic&+c dissipates...&n", FALSE, ch, 0, 0, TO_CHAR);
-	    break;
-	  case 3 : 
+            naked = FALSE;
+      	    break;
+	        case 2 :
+            act("&+cSome of your &+Cmagic&+c dissipates...&n", FALSE, ch, 0, 0, TO_CHAR);
+            break;
+          case 3 :
             send_to_char("You can't carry that many items.\r\n", ch);
             break;
         } // End Switch
-	// Break Out of Loop on Full Inventory
-	if (ret_type == 3)
-	  break;
+
+        // Break Out of Loop on Full Inventory
+        if (ret_type == 3)
+          break;
       } // End Loop
+
       // Give Appropriate Attire Change Messages
       if (naked == TRUE && ret_type != 3)
       {
@@ -4985,32 +4983,35 @@ void do_remove(P_char ch, char *argument, int cmd)
       {
         act("You stop using $p.", FALSE, ch, obj_object, 0, TO_CHAR);
         act("$n stops using $p.", TRUE, ch, obj_object, 0, TO_ROOM);
-      bzero(&af, sizeof(af));
-    af.type = SPELL_NOAUCTION;
-    af.duration = PULSE_VIOLENCE / 2;
-    af.modifier = 4000;
-    affect_to_char(ch, &af);
-       //Battlemage robe
-	if (obj_index[obj_object->R_num].virtual_number == 400218 && !IS_MULTICLASS_PC(ch))
-	{
-	  affect_from_char(ch, SPELL_BATTLEMAGE);
-	  send_to_char("&+rAs you remove the &+Ymaje&+rst&+Yic &+Yrobe&+r, you feel your enhanced &+mpower&+r fade.&n\r\n", ch);
-	}
 
-      }	
+     	  affect_from_char(ch, SPELL_NOAUCTION);
+        bzero(&af, sizeof(af));
+        af.type = SPELL_NOAUCTION;
+        af.duration = 2;
+        af.modifier = 4000;
+        affect_to_char(ch, &af);
+
+        //Battlemage robe
+        if (obj_index[obj_object->R_num].virtual_number == 400218 && !IS_MULTICLASS_PC(ch))
+        {
+          affect_from_char(ch, SPELL_BATTLEMAGE);
+          send_to_char("&+rAs you remove the &+Ymaje&+rst&+Yic &+Yrobe&+r, you feel your enhanced &+mpower&+r fade.&n\r\n", ch);
+        }
+      }
+
       // Parse Remaining Messages
       switch(ret_type)
       {
-        case 1 : 
+        case 1 :
           act("$p won't budge!  Perhaps it's cursed?!?", TRUE, ch, obj_object, 0, TO_CHAR);
-	  break;
-	case 2 :
-	  act("&+cAs you remove the item, the &+Cenchantment &+cis broken...&n", FALSE, ch, obj_object, 0, TO_CHAR);
-	  break;
-	case 3 : 
+          break;
+        case 2 :
+          act("&+cAs you remove the item, the &+Cenchantment &+cis broken...&n", FALSE, ch, obj_object, 0, TO_CHAR);
+          break;
+        case 3 :
           send_to_char("You can't carry that many items.\r\n", ch);
           break;
-	case 4 : 
+        case 4 :
           send_to_char("You are not using it.\r\n", ch);
           break;
       } // End Switch

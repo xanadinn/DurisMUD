@@ -719,7 +719,6 @@ void assign_mobiles(void)
   mob_index[real_mobile0(150138)].func.mob = outpost_captain;
   mob_index[real_mobile0(150139)].func.mob = outpost_captain;
   mob_index[real_mobile0(150140)].func.mob = outpost_captain;
-  mob_index[real_mobile0(132676)].func.mob = warmaster;
 
   mob_index[real_mobile0(132593)].func.mob = janitor;
   mob_index[real_mobile0(132519)].func.mob = money_changer;
@@ -741,17 +740,17 @@ void assign_mobiles(void)
  
  mob_index[real_mobile0(53670)].func.mob = world_quest; // Sunwell
 
-  /* Goblin HT - Moregeeth */
-  mob_index[real_mobile0(70109)].func.mob = warmaster;
-
-  /* Grey Elf HT - Charing */
-  mob_index[real_mobile0(45095)].func.mob = warmaster;
-
-  /* Halfling HT - Woodseer */
-  mob_index[real_mobile0(16935)].func.mob = warmaster;
-
-  /* Orc HT - Shady Grove */
-  mob_index[real_mobile0(97606)].func.mob = warmaster;
+  /* Town code */
+  mob_index[real_mobile0(401000)].func.mob = warmaster;
+  mob_index[real_mobile0(401010)].func.mob = warmaster;
+  mob_index[real_mobile0(401020)].func.mob = warmaster;
+  mob_index[real_mobile0(401030)].func.mob = warmaster;
+  mob_index[real_mobile0(401040)].func.mob = warmaster;
+  mob_index[real_mobile0(401050)].func.mob = warmaster;
+  mob_index[real_mobile0(401060)].func.mob = warmaster;
+  mob_index[real_mobile0(401070)].func.mob = warmaster;
+  mob_index[real_mobile0(401080)].func.mob = warmaster;
+  mob_index[real_mobile0(401090)].func.mob = warmaster;
 
   /* Hall of the Ancients */
   mob_index[real_mobile0(77714)].func.mob = morkoth_mother;
@@ -855,7 +854,6 @@ void assign_mobiles(void)
   mob_index[real_mobile0(95506)].func.mob = archer;
   mob_index[real_mobile0(95503)].func.mob = money_changer;
   mob_index[real_mobile0(95535)].func.mob = kimordril_shout;
-  mob_index[real_mobile0(95560)].func.mob = warmaster;
 
   /* Ixarkon */
   mob_index[real_mobile0(96449)].func.mob = money_changer;
@@ -965,7 +963,6 @@ void assign_mobiles(void)
   mob_index[real_mobile0(26222)].func.mob = sister_knight;
 
   /* Troll HT - Ghore */
-  mob_index[real_mobile0(11642)].func.mob = warmaster;
   mob_index[real_mobile0(11542)].func.mob = ghore_paradise;
   mob_index[real_mobile0(11559)].func.mob = money_changer;
   mob_index[real_mobile0(11640)].func.mob = devour;
@@ -1027,7 +1024,6 @@ void assign_mobiles(void)
   mob_index[real_mobile0(14605)].func.mob = barbarian_spiritist;
 
   /* Duergar HT - Khildarak */
-  mob_index[real_mobile0(17266)].func.mob = warmaster;
   mob_index[real_mobile0(17012)].func.mob = archer;
   mob_index[real_mobile0(17132)].func.mob =
     mob_index[real_mobile0(17134)].func.mob =
@@ -1043,7 +1039,6 @@ void assign_mobiles(void)
   mob_index[real_mobile0(17261)].func.mob = poison;
 
   /* Ogre HT - Faang */
-  mob_index[real_mobile0(15604)].func.mob = warmaster;
   mob_index[real_mobile0(15200)].func.mob = boulder_pusher;
   mob_index[real_mobile0(15213)].func.mob = poison;
   mob_index[real_mobile0(15215)].func.mob = poison;
@@ -1116,7 +1111,6 @@ void assign_mobiles(void)
   mob_index[real_mobile0(66022)].func.mob = guild_guard;
   mob_index[real_mobile0(66036)].func.mob = janitor;
   mob_index[real_mobile0(66038)].func.mob = money_changer;
-  mob_index[real_mobile0(66054)].func.mob = warmaster;
 
 
   /*

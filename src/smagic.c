@@ -1907,7 +1907,7 @@ void spell_snailspeed(int level, P_char ch, char *arg, int type,
                       P_char victim, P_obj obj)
 {
   struct affected_type af;
-  int percent = 0, affect, maxpoints;
+  int percent = 0, maxpoints;
   
   if(!(ch) ||
      !IS_ALIVE(ch) ||
@@ -1946,8 +1946,7 @@ void spell_snailspeed(int level, P_char ch, char *arg, int type,
   if(IS_ANIMALIST(ch))
     level += number(10, (int)(GET_LEVEL(ch) / 2));
     
-  if((level - dice(2, 2)) > (GET_MAX_VITALITY(victim) / 2))
-    affect = (int)(GET_MAX_VITALITY(victim) / 2);
+  int affect = (int)(GET_MAX_VITALITY(victim) / 2);
   
   if(percent < 10)
   {

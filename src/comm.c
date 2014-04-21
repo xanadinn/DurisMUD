@@ -55,6 +55,7 @@
 #include "boon.h"
 #include "ctf.h"
 #include "hardcore.h"
+#include "siege.h"
 
 /* external variables */
 
@@ -80,7 +81,6 @@ extern P_nevent ne_schedule[];
 long unsigned int ip2ul(const char *ip);
 void load_alliances();
 void initialize_transport();
-void load_towns();
 bool newLeaderBoard(P_char ch, char *arg, int cmd);
 bool newHardcoreBoard(P_char ch, char *arg, int cmd);
 
@@ -395,7 +395,10 @@ void run_the_game(int port)
   load_alliances();
 
   fprintf(stderr, "-- Loading town data\r\n");
-  load_towns();
+  init_towns();
+
+  fprintf(stderr, "-- Loading siege data\r\n");
+  init_siege_list();
 
   // This guarentees that files exist for reading.
   fprintf(stderr, "-- Touching leaderboard\r\n");

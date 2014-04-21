@@ -2861,35 +2861,35 @@ void do_stat(P_char ch, char *argument, int cmd)
     if(k->specials.affected_by)
     {
       sprintbitde(k->specials.affected_by, affected1_bits, buf2);
-      sprintf(buf, "&+YAffected by (1):\n%s\n", buf2);
+      sprintf(buf, "&+YAffected by (1): %u\n%s\n", k->specials.affected_by, buf2);
       strcat(o_buf, buf);
     }
 
     if(k->specials.affected_by2)
     {
       sprintbitde(k->specials.affected_by2, affected2_bits, buf2);
-      sprintf(buf, "&+YAffected by (2):\n%s\n", buf2);
+      sprintf(buf, "&+YAffected by (2): %u\n%s\n", k->specials.affected_by2, buf2);
       strcat(o_buf, buf);
     }
 
     if(k->specials.affected_by3)
     {
       sprintbitde(k->specials.affected_by3, affected3_bits, buf2);
-      sprintf(buf, "&+YAffected by (3):\n%s\n", buf2);
+      sprintf(buf, "&+YAffected by (3): %u\n%s\n", k->specials.affected_by3, buf2);
       strcat(o_buf, buf);
     }
 
     if(k->specials.affected_by4)
     {
       sprintbitde(k->specials.affected_by4, affected4_bits, buf2);
-      sprintf(buf, "&+YAffected by (4):\n%s\n", buf2);
+      sprintf(buf, "&+YAffected by (4): %u\n%s\n", k->specials.affected_by4, buf2);
       strcat(o_buf, buf);
     }
 
     if(k->specials.affected_by5)
     {
       sprintbitde(k->specials.affected_by5, affected5_bits, buf2);
-      sprintf(buf, "&+YAffected by (5):\n%s\n", buf2);
+      sprintf(buf, "&+YAffected by (5): %u\n%s\n", k->specials.affected_by5, buf2);
       strcat(o_buf, buf);
     }
 
@@ -10171,294 +10171,5 @@ bool is_quested_item( P_obj obj )
       }
    }
    return FALSE;
-}
-
-void load_towns()
-{
-  FILE *town_file;
-  char  line[ MAX_STRING_LENGTH ];
-  char *cp;
-  P_town *town;
-  bool found;
-  int i;
-
-  towns = NULL;
-  town_file = fopen( SAVE_DIR "/towns", "r" );
-
-  if( !town_file)
-  {
-    logit( LOG_DEBUG, "Could not open " SAVE_DIR "/towns" );
-    return;
-  }
-
-  town = &towns;
-  // While there's another town to read...
-  while( fgets( line, sizeof line, town_file ) != NULL )
-  {
-    found = FALSE;
-    // clear the carriage return at the end of the line.
-    for (cp = line; !isspace(*cp); cp++) ;
-    *cp = '\0';
-
-    // Find the town in zone table list.
-    for( i = 1; i <= top_of_zone_table; i++ )
-    {
-      // If found, load the info.
-      if( !strcmp(line, zone_table[i].filename) )
-      {
-        found = TRUE;
-        *town = new struct town;
-        (*town)->next_town = NULL;
-
-        (*town)->zone = &(zone_table[i]);
-
-        // Offense/defense/resources
-        fgets( line, sizeof line, town_file );
-        sscanf(line, "%i %i %i\n", &((*town)->offense), &((*town)->defense), &((*town)->resources));
-        // Guards
-        fgets( line, sizeof line, town_file );
-        (*town)->deploy_guard = !strcmp( line, "TRUE\n" ) ? TRUE : FALSE;
-        fgets( line, sizeof line, town_file );
-        sscanf(line, "%i %i %i\n", &((*town)->guard_vnum), &((*town)->guard_max), &((*town)->guard_load_room));
-        // Cavalry
-        fgets( line, sizeof line, town_file );
-        (*town)->deploy_cavalry = !strcmp( line, "TRUE\n" ) ? TRUE : FALSE;
-        fgets( line, sizeof line, town_file );
-        sscanf(line, "%i %i %i\n", &((*town)->cavalry_vnum), &((*town)->cavalry_max), &((*town)->cavalry_load_room));
-        // Portals
-        fgets( line, sizeof line, town_file );
-        (*town)->deploy_portals = !strcmp( line, "TRUE\n" ) ? TRUE : FALSE;
-        fgets( line, sizeof line, town_file );
-        sscanf(line, "%i %i\n", &((*town)->portal_vnum), &((*town)->portal_load_room));
-
-//        logit(LOG_DEBUG, "Town loaded: '%s'", zone_table[i].filename);
-
-        town = &((*town)->next_town);
-        break;
-      }
-    }
-    if( !found )
-    {
-       logit(LOG_DEBUG, "Town not found: '%s'", line );
-       for( i = 1; i <= top_of_zone_table; i++ )
-         logit(LOG_DEBUG, zone_table[i].filename );
-       return;
-    }
-
-  }
-
-  fclose(town_file);
-
-}
-
-void save_towns()
-{
-  FILE *town_file;
-  char  line[ MAX_STRING_LENGTH ];
-  P_town town;
-
-  town_file = fopen( SAVE_DIR "/towns", "w" );
-
-  if(!town_file)
-  {
-    logit(LOG_DEBUG, "Could not open " SAVE_DIR "/towns" );
-    return;
-  }
-
-  // For each town..
-  for( town = towns; town != NULL; town = town->next_town )
-  {
-    // Save the info.
-    fprintf(town_file, "%s\n", town->zone->filename);
-    fprintf(town_file, "%d %d %d\n", town->offense, town->defense, town->resources);
-    fprintf(town_file, "%s\n", town->deploy_guard ? "TRUE" : "FALSE");
-    fprintf(town_file, "%d %d %d\n", town->guard_vnum, town->guard_max, town->guard_load_room);
-    fprintf(town_file, "%s\n", town->deploy_cavalry ? "TRUE" : "FALSE");
-    fprintf(town_file, "%d %d %d\n", town->cavalry_vnum, town->cavalry_max, town->cavalry_load_room);
-    fprintf(town_file, "%s\n", town->deploy_portals ? "TRUE" : "FALSE");
-    fprintf(town_file, "%d %d\n", town->portal_vnum, town->portal_load_room);
-
-  }
-  fclose(town_file);
-}
-
-void list_town( P_char ch, P_town town )
-{
-  char buf[MAX_STRING_LENGTH];
-
-  if( !town )
-  {
-    send_to_char( "Town doesn't exist!\n", ch );
-    return;
-  }
-
-  // Show town name: level, off, def.
-  sprintf( buf, "Town '%s': Resources %d, Offense %d, Defense %d\n"
-                "  Guards:  %3s: Max %3d Vnum %6d Room %6d.\n"
-                "  Cavalry: %3s: Max %3d Vnum %6d Room %6d.\n"
-                "  Portals: %3s:         Vnum %6d Room %6d.\n",
-    (town->zone != NULL) ? town->zone->name : "Unknown", town->resources, town->offense, town->defense,
-    town->deploy_guard ? "YES" : "NO", town->guard_max, town->guard_vnum, town->guard_load_room,
-    town->deploy_cavalry ? "YES" : "NO", town->cavalry_max, town->cavalry_vnum, town->cavalry_load_room, 
-    town->deploy_portals ? "YES" : "NO", town->portal_vnum, town->portal_load_room );
-  send_to_char( buf, ch );
-}
-
-// Lists all towns with their level/defense/offense.
-void list_towns( P_char ch )
-{
-  P_town town;
-
-  if( !towns )
-  {
-    send_to_char( "Could not find list of towns!!\n", ch );
-    return;
-  }
-
-  // For each town
-  for( town = towns; town; town = town->next_town )
-  {
-    list_town( ch, town);
-  }
-}
-
-void add_troopresources(P_char ch, P_town town, int amount )
-{
-  char buf[MAX_STRING_LENGTH];
-
-/* For debugging...
-  sprintf( buf, "add_trooplevel: '%s' amount: '%d'.\n", town->zone->name, amount );
-  send_to_char( buf, ch );
-*/
-
-  town->resources += amount;
-  if( town->resources < 0 )
-    town->resources = 0;
-  list_town( ch, town );
-  // Save the town info.
-  save_towns();
-}
-
-void add_troopdefense(P_char ch, P_town town, int amount)
-{
-  town->defense += amount;
-  if( town->defense < 0 )
-    town->defense = 0;
-  list_town( ch, town );
-  // Save the town info.
-  save_towns();
-}
-
-void add_troopoffense(P_char ch, P_town town, int amount)
-{
-  town->offense += amount;
-  if( town->offense < 0 )
-    town->offense = 0;
-  list_town( ch, town );
-  // Save the town info.
-  save_towns();
-}
-
-P_town add_findtown( char *arg )
-{
-  P_town town = towns;
-
-  while( town )
-  {
-    if( is_abbrev(arg, stripansi(town->zone->name)) )
-      return town;
-
-    town = town->next_town;
-  }
-
-  return NULL;
-}
-
-void do_add(P_char ch, char *arg, int cmd)
-{
-  char   arg1[MAX_STRING_LENGTH];
-  char   arg2[MAX_STRING_LENGTH];
-  char  *rest;
-  int    amount;
-  P_town town;
-
-  // Parse argument.
-  rest = one_argument(arg, arg1);
-  if(!*arg1 )
-  {
-    send_to_char("This command is to add to troops in a town.\n", ch);
-    send_to_char("Syntax: add [resources|defense|offense] <town> <amount>.\n", ch);
-    send_to_char("     or add list.\n", ch);
-    return;
-  }
-
-  // Add attribute to town.
-  if( is_abbrev(arg1, "list") )
-  {
-    list_towns( ch );
-  }
-  else if( is_abbrev(arg1, "resources") )
-  {
-    argument_interpreter(rest, arg1, arg2);
-    amount = atoi( arg2 );
-    town = add_findtown( arg1 );
-    if( amount == 0)
-    {
-      send_to_char("Syntax: add resources <town> <amount>.\n", ch);
-      return;
-    }
-    if( !town )
-    {
-      send_to_char( "Couldn't find town '", ch );
-      send_to_char( arg1, ch );
-      send_to_char(  "'.\n", ch );
-      return;
-    }
-    add_troopresources( ch, town, amount );
-  }
-  else if( is_abbrev(arg1, "defense") )
-  {
-    argument_interpreter(rest, arg1, arg2);
-    amount = atoi( arg2 );
-    town = add_findtown( arg1 );
-    if( amount == 0)
-    {
-      send_to_char("Syntax: add defense <town> <amount>.\n", ch);
-      return;
-    }
-    if( !town )
-    {
-      send_to_char( "Couldn't find town '", ch );
-      send_to_char( arg1, ch );
-      send_to_char(  "'.\n", ch );
-      return;
-    }
-    add_troopdefense( ch, town, amount );
-  }
-  else if( is_abbrev(arg1, "offense") )
-  {
-    argument_interpreter(rest, arg1, arg2);
-    amount = atoi( arg2 );
-    town = add_findtown( arg1 );
-    if( amount == 0)
-    {
-      send_to_char("Syntax: add offense <town> <amount>.\n", ch);
-      return;
-    }
-    if( !town )
-    {
-      send_to_char( "Couldn't find town '", ch );
-      send_to_char( arg1, ch );
-      send_to_char(  "'.\n", ch );
-      return;
-    }
-    add_troopoffense( ch, town, amount );
-  }
-  else
-  {
-    send_to_char("Syntax: add [resources|defense|offense] <town> <amount>.\n", ch);
-    send_to_char("     or add list.\n", ch);
-    return;
-  }
 }
 

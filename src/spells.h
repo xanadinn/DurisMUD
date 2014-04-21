@@ -1104,7 +1104,7 @@
 #define TAG_DIVINE_FORCE_TIMER       2055 // Divine force
 #define TAG_TRANSMUTE_ROOM           2056 // mark room transmute is in progress
 #define TAG_ARROW_BLEED              2057
-#define TAG_STOP_PROC                2058 
+#define TAG_STOP_PROC                2058
 #define TAG_TROLL_BURN               2059
 #define TAG_RACE_CHANGE              2060
 #define TAG_GUILDHALL                2061
@@ -1112,46 +1112,46 @@
 #define TAG_SPAWN                    2063
 #define TAG_HOLY_OFFENSE             2064  // for holy_weapon proc
 #define TAG_HOLY_DEFENSE             2065  // for holy_weapon proc
-#define TAG_BOON		     2066
-#define TAG_CTF			     2067
-#define TAG_CTF_BONUS		     2068
-#define TAG_RACIAL_SKILLS		  2069
-#define TAG_SOULBIND			  2070
-#define ACH_UNSTOPPABLE		  2071
-#define ACH_LETSGETDIRTY		  2072
-#define ACH_SERIALKILLER		  2073
-#define ACH_JOURNEYBEGINS	         2074
-#define AIP_ARACHNOPHOBIA		  2075
-#define ACH_ARACHNOPHOBIA  		  2076
-#define ACH_TROLLIN			  2077
-#define ACH_MOOJUICE  		  2078
-#define ACH_DRAGONSLAYER		  2079
-#define ACH_MAYIHEALSYOU		  2080
-#define ACH_YOUSTRAHDME		  2081
-#define AIP_MOOJUICE			  2082
-#define AIP_DRAGONSLAYER		  2083
-#define AIP_MAYIHEALSYOU		  2084
-#define AIP_YOUSTRAHDME		  2085
-#define AIP_TROLLIN			  2086
-#define TAG_SALVATION		  2087
-#define TAG_DREADNAUGHT		  2088
-#define TAG_CRIPPLED			  2089
-#define AIP_YOUSTRAHDME2		  2090
-#define AIP_DECEPTICON		  2091
-#define ACH_DECEPTICON		  2092
-#define TAG_RECENTLY_FRAGGED	  2093
-#define TAG_MINOTAUR_RAGE		  2094
-#define TAG_CONJURED_PET		  2095
-#define TAG_POTION_TIMER	         2096
+#define TAG_BOON                     2066
+#define TAG_CTF	                     2067
+#define TAG_CTF_BONUS                2068
+#define TAG_RACIAL_SKILLS            2069
+#define TAG_SOULBIND                 2070
+#define ACH_UNSTOPPABLE              2071
+#define ACH_LETSGETDIRTY             2072
+#define ACH_SERIALKILLER             2073
+#define ACH_JOURNEYBEGINS	           2074
+#define AIP_ARACHNOPHOBIA            2075
+#define ACH_ARACHNOPHOBIA            2076
+#define ACH_TROLLIN                  2077
+#define ACH_MOOJUICE                 2078
+#define ACH_DRAGONSLAYER             2079
+#define ACH_MAYIHEALSYOU             2080
+#define ACH_YOUSTRAHDME              2081
+#define AIP_MOOJUICE                 2082
+#define AIP_DRAGONSLAYER             2083
+#define AIP_MAYIHEALSYOU             2084
+#define AIP_YOUSTRAHDME              2085
+#define AIP_TROLLIN                  2086
+#define TAG_SALVATION                2087
+#define TAG_DREADNAUGHT              2088
+#define TAG_CRIPPLED                 2089
+#define AIP_YOUSTRAHDME2             2090
+#define AIP_DECEPTICON               2091
+#define ACH_DECEPTICON               2092
+#define TAG_RECENTLY_FRAGGED         2093
+#define TAG_MINOTAUR_RAGE            2094
+#define TAG_CONJURED_PET             2095
+#define TAG_POTION_TIMER             2096
 #define TAG_MERC_DEFENSE             2097
-#define TAG_LAYONHANDS		  2098
-#define PR_DEEPGNOME			  2099
-#define DAMAGE_FALLING               2100       /* From falling to the ground */
-#define PR_FORESTGNOME		  2101
-#define PR_ROCKGNOME			  2102
-#define AIP_ATB			  2103
-#define TAG_BLOODLUST		  2104
-#define TAG_EPICS			  2105
+#define TAG_LAYONHANDS               2098
+#define PR_DEEPGNOME                 2099
+#define DAMAGE_FALLING               2100 /* From falling to the ground */
+#define PR_FORESTGNOME               2101
+#define PR_ROCKGNOME                 2102
+#define TAG_ADDICTED_BLOOD           2103
+#define TAG_BLOODLUST                2104
+#define TAG_EPICS                    2105
 
 #define SAVING_PARA   0
 #define SAVING_ROD    1

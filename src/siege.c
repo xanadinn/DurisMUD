@@ -10,23 +10,15 @@
 #include "spells.h"
 #include "structs.h"
 #include "utils.h"
+#include "siege.h"
 #include <string.h>
 
 extern P_room world;
 extern int top_of_objt;
 extern P_town towns;
+extern P_siege siege_objects;
 extern P_char destroying_list;
-
-void explode_ammo( P_char ch, P_obj ammo );
-bool is_siege( P_obj weapon );
-bool is_loading( P_obj siege );
-void damage_siege( P_obj siege, P_obj ammo );
-P_obj get_siege_room( P_char ch, char *arg );
-void save_towns();
-void apply_zone_modifier(P_char ch);
-int castlewall( P_obj obj, P_char ch, int cmd, char *arg );
-bool has_gates( int room );
-int calculate_attacks(P_char ch, int attacks[]);
+extern int top_of_zone_table;
 
 // Dependent on ch's str and weight.  Pretty simple atm.
 int siege_move_wait( P_char ch )
@@ -135,7 +127,7 @@ int ballista( P_obj obj, P_char ch, int cmd, char *arg )
         // Yes, this lags you to stop you from spamming.
         CharWait(ch, siege_move_wait(ch) );
         add_event(event_move_engine, siege_move_wait(ch), ch, NULL, 
-          obj, 0, &dir, sizeof(int) );
+            obj, 0, &dir, sizeof(int) );
       }
       return TRUE;
     }
@@ -149,14 +141,14 @@ int ballista( P_obj obj, P_char ch, int cmd, char *arg )
       act( "$p is already loaded.", FALSE, ch, obj, NULL, TO_CHAR );
     else if( obj->value[3] <= 0 )
       act( "$p has no more ammo.", FALSE, ch, obj, NULL, TO_CHAR );
-    else if( is_loading( obj ) )
+    else if( is_loading_siege( obj ) )
       act( "$p is already being reloaded.", FALSE, ch, obj, NULL, TO_CHAR );
     else
     {
       act( "You begin loading $p.", FALSE, ch, obj, NULL, TO_CHAR );
       act( "$n begins loading $p.", FALSE, ch, obj, NULL, TO_ROOM );
       add_event(event_load_engine, siege_load_wait(ch, obj), ch, NULL, 
-        obj, 0, NULL, 0 );
+          obj, 0, NULL, 0 );
       // Yes, this lags you while loading.
       CharWait(ch, siege_move_wait(ch) );
     }
@@ -246,7 +238,7 @@ int ballista( P_obj obj, P_char ch, int cmd, char *arg )
           ch->in_room = ch_room;
           // If we hit a wall.
           if(  !VIRTUAL_EXIT(in_room, dir)
-            || !VIRTUAL_EXIT(in_room, dir)->to_room )
+              || !VIRTUAL_EXIT(in_room, dir)->to_room )
           {
             sprintf( buf, "$p hits the %s wall.", dirs[dir] );
             act( buf, TRUE, NULL, ammo, 0, TO_ROOM );
@@ -344,7 +336,7 @@ int battering_ram( P_obj obj, P_char ch, int cmd, char *arg )
         // Yes, this lags you to stop you from spamming.
         CharWait(ch, siege_move_wait(ch) );
         add_event(event_move_engine, siege_move_wait(ch), ch, NULL, 
-          obj, 0, &dir, sizeof(int) );
+            obj, 0, &dir, sizeof(int) );
       }
       return TRUE;
     }
@@ -431,7 +423,7 @@ int catapult( P_obj obj, P_char ch, int cmd, char *arg )
         // Yes, this lags you to stop you from spamming.
         CharWait(ch, siege_move_wait(ch) );
         add_event(event_move_engine, siege_move_wait(ch), ch, NULL, 
-          obj, 0, &dir, sizeof(int) );
+            obj, 0, &dir, sizeof(int) );
       }
       return TRUE;
     }
@@ -445,14 +437,14 @@ int catapult( P_obj obj, P_char ch, int cmd, char *arg )
       act( "$p is already loaded.", FALSE, ch, obj, NULL, TO_CHAR );
     else if( obj->value[3] <= 0 )
       act( "$p has no more ammo.", FALSE, ch, obj, NULL, TO_CHAR );
-    else if( is_loading( obj ) )
+    else if( is_loading_siege( obj ) )
       act( "$p is already being reloaded.", FALSE, ch, obj, NULL, TO_CHAR );
     else
     {
       act( "You begin loading $p.", FALSE, ch, obj, NULL, TO_CHAR );
       act( "$n begins loading $p.", FALSE, ch, obj, NULL, TO_ROOM );
       add_event(event_load_engine, siege_load_wait(ch, obj), ch, NULL, 
-        obj, 0, NULL, 0 );
+          obj, 0, NULL, 0 );
       // Yes, this lags you while loading.
       CharWait(ch, siege_move_wait(ch) );
     }
@@ -513,7 +505,7 @@ int catapult( P_obj obj, P_char ch, int cmd, char *arg )
         {
           // If we hit a wall.
           if(  !VIRTUAL_EXIT(in_room, dir)
-            || !VIRTUAL_EXIT(in_room, dir)->to_room )
+              || !VIRTUAL_EXIT(in_room, dir)->to_room )
           {
             sprintf( buf, "$p slams into the %s wall.", dirs[dir] );
             act( buf, TRUE, NULL, ammo, 0, TO_ROOM );
@@ -598,7 +590,7 @@ bool check_gates( P_char ch, int room )
   for( dir = 0; dir < NUM_EXITS; dir++ )
   {
     if( world[ch->in_room].dir_option[dir]
-     && world[ch->in_room].dir_option[dir]->to_room == room )
+        && world[ch->in_room].dir_option[dir]->to_room == room )
       break;
   }
   // If no exit to room, no gate can block it.
@@ -641,9 +633,9 @@ int castlewall( P_obj obj, P_char ch, int cmd, char *arg )
 
   // Value0 of a castlewall is the direction it blocks.
   if( (obj->value[0] == EAST  && cmd == CMD_EAST) 
-   || (obj->value[0] == WEST  && cmd == CMD_WEST) 
-   || (obj->value[0] == NORTH && cmd == CMD_NORTH) 
-   || (obj->value[0] == SOUTH && cmd == CMD_SOUTH) )
+      || (obj->value[0] == WEST  && cmd == CMD_WEST) 
+      || (obj->value[0] == NORTH && cmd == CMD_NORTH) 
+      || (obj->value[0] == SOUTH && cmd == CMD_SOUTH) )
   {
     if( isname( "gates", obj->name ) )
       act( "$p block your path.", FALSE, ch, obj, NULL, TO_CHAR );
@@ -663,9 +655,9 @@ bool is_siege( P_obj object )
 
   // If the object proc is ballista/battering_ram/catapult..
   if(  obj_index[object->R_num].func.obj == ballista
-    || obj_index[object->R_num].func.obj == battering_ram
-    || obj_index[object->R_num].func.obj == catapult
-    || obj_index[object->R_num].func.obj == castlewall )
+      || obj_index[object->R_num].func.obj == battering_ram
+      || obj_index[object->R_num].func.obj == catapult
+      || obj_index[object->R_num].func.obj == castlewall )
     return TRUE;
 
   return FALSE;
@@ -682,92 +674,92 @@ void damage_siege( P_obj siege, P_obj ammo )
 
   switch( siege->material )
   {
-  default:
-  break;
-  case MAT_NONSUBSTANTIAL:
-  case MAT_LIQUID:
-  case MAT_WAX:
-    damage *= 10;
-  break;
-  case MAT_PAPER:
-  case MAT_PARCHMENT:
-  case MAT_LEAVES:
-  case MAT_FLESH:
-  case MAT_RUBBER:
-  case MAT_FEATHER:
-    damage *= 5;
-  break;
-  case MAT_CLOTH:
-    damage = ( damage * 10 ) / 3;
-  break;
-  case MAT_BAMBOO:
-  case MAT_REEDS:
-  case MAT_HEMP:
-  case MAT_EGGSHELL:
-  case MAT_BARK:
-  case MAT_GENERICFOOD:
-    damage = ( damage * 5 ) / 2;
-  break;
-  case MAT_SOFTWOOD:
-  case MAT_HARDWOOD:
-  case MAT_PEARL:
-    damage = ( damage * 9 ) / 4;
-  break;
-  case MAT_SILICON:
-  case MAT_CERAMIC:
-    damage = ( damage * 5 ) / 3;
-  break;
-  case MAT_HIDE:
-  case MAT_LEATHER:
-  case MAT_CURED_LEATHER:
-    damage = ( damage * 7 ) / 3;
-  break;
-  case MAT_CRYSTAL:
-  case MAT_BONE:
-    damage = ( damage * 7 ) / 3;
-  break;
-  case MAT_GEM:
-  case MAT_STONE:
-  case MAT_GRANITE:
-  case MAT_MARBLE:
-  case MAT_LIMESTONE:
-    damage = ( damage * 85 ) / 100;
-  break;
-  case MAT_IRON:
-  case MAT_STEEL:
-    damage = ( damage * 75 ) / 100;
-  break;
-  case MAT_BRASS:
-  case MAT_MITHRIL:
-    damage = ( damage * 70 ) / 100;
-  break;
-  case MAT_GLASSTEEL:
-  case MAT_ADAMANTIUM:
-    damage = ( damage * 65 ) / 100;
-  break;
-  case MAT_BRONZE:
-  case MAT_COPPER:
-  case MAT_SILVER:
-  case MAT_ELECTRUM:
-  case MAT_GOLD:
-  case MAT_PLATINUM:
-  case MAT_RUBY:
-  case MAT_EMERALD:
-  case MAT_SAPPHIRE:
-  case MAT_IVORY:
-    damage = ( damage * 89 ) / 100;
-  break;
-  case MAT_DRAGONSCALE:
-  case MAT_DIAMOND:
-    damage = ( damage * 67 ) / 100;
-  break;
-  case MAT_OBSIDIAN:
-    damage = ( damage * 63 ) / 100;
-  break;
-  case MAT_CHITINOUS:
-  case MAT_REPTILESCALE:
-    damage = ( damage * 95 ) / 100;
-  break;
+    default:
+      break;
+    case MAT_NONSUBSTANTIAL:
+    case MAT_LIQUID:
+    case MAT_WAX:
+      damage *= 10;
+      break;
+    case MAT_PAPER:
+    case MAT_PARCHMENT:
+    case MAT_LEAVES:
+    case MAT_FLESH:
+    case MAT_RUBBER:
+    case MAT_FEATHER:
+      damage *= 5;
+      break;
+    case MAT_CLOTH:
+      damage = ( damage * 10 ) / 3;
+      break;
+    case MAT_BAMBOO:
+    case MAT_REEDS:
+    case MAT_HEMP:
+    case MAT_EGGSHELL:
+    case MAT_BARK:
+    case MAT_GENERICFOOD:
+      damage = ( damage * 5 ) / 2;
+      break;
+    case MAT_SOFTWOOD:
+    case MAT_HARDWOOD:
+    case MAT_PEARL:
+      damage = ( damage * 9 ) / 4;
+      break;
+    case MAT_SILICON:
+    case MAT_CERAMIC:
+      damage = ( damage * 5 ) / 3;
+      break;
+    case MAT_HIDE:
+    case MAT_LEATHER:
+    case MAT_CURED_LEATHER:
+      damage = ( damage * 7 ) / 3;
+      break;
+    case MAT_CRYSTAL:
+    case MAT_BONE:
+      damage = ( damage * 7 ) / 3;
+      break;
+    case MAT_GEM:
+    case MAT_STONE:
+    case MAT_GRANITE:
+    case MAT_MARBLE:
+    case MAT_LIMESTONE:
+      damage = ( damage * 85 ) / 100;
+      break;
+    case MAT_IRON:
+    case MAT_STEEL:
+      damage = ( damage * 75 ) / 100;
+      break;
+    case MAT_BRASS:
+    case MAT_MITHRIL:
+      damage = ( damage * 70 ) / 100;
+      break;
+    case MAT_GLASSTEEL:
+    case MAT_ADAMANTIUM:
+      damage = ( damage * 65 ) / 100;
+      break;
+    case MAT_BRONZE:
+    case MAT_COPPER:
+    case MAT_SILVER:
+    case MAT_ELECTRUM:
+    case MAT_GOLD:
+    case MAT_PLATINUM:
+    case MAT_RUBY:
+    case MAT_EMERALD:
+    case MAT_SAPPHIRE:
+    case MAT_IVORY:
+      damage = ( damage * 89 ) / 100;
+      break;
+    case MAT_DRAGONSCALE:
+    case MAT_DIAMOND:
+      damage = ( damage * 67 ) / 100;
+      break;
+    case MAT_OBSIDIAN:
+      damage = ( damage * 63 ) / 100;
+      break;
+    case MAT_CHITINOUS:
+    case MAT_REPTILESCALE:
+      damage = ( damage * 95 ) / 100;
+      break;
   }
 
   // This should never happen, but just to make sure we don't heal target...
@@ -779,7 +771,7 @@ void damage_siege( P_obj siege, P_obj ammo )
     destroy = TRUE;
 
   sprintf(buf, "$q %s", destroy ? "is completely destroyed!" :
-                                  "is damaged from the blow!" );
+      "is damaged from the blow!" );
   act(buf, TRUE, NULL, siege, 0, TO_ROOM);
 
   if( destroy )
@@ -788,11 +780,12 @@ void damage_siege( P_obj siege, P_obj ammo )
     scraps = read_object(9, VIRTUAL);
     if( !scraps )
     {
+      remove_siege( siege );
       extract_obj( siege, TRUE );
       return;
     }
     sprintf(buf, "Scraps from %s&n lie in a pile here.",
-      siege->short_description);
+        siege->short_description);
     scraps->description = str_dup(buf);
     sprintf(buf, "a pile of scraps from %s", siege->short_description);
     scraps->short_description = str_dup(buf);
@@ -802,6 +795,7 @@ void damage_siege( P_obj siege, P_obj ammo )
     set_obj_affected(scraps, 400, TAG_OBJ_DECAY, 0);
     obj_to_room(scraps, siege->loc.room);
 
+    remove_siege( siege );
     extract_obj( siege, TRUE );
   }
 }
@@ -821,14 +815,14 @@ P_obj get_siege_room( P_char ch, char *arg )
   {
     // If it is a siege weapon, and matches name, and matches amount..
     if( is_siege( obj ) && isname( temp, obj->name ) && howmany == ++count )
-        return obj;
+      return obj;
   }
 
   return NULL;
 }
 
 // See if someone already started a reload event.
-bool is_loading( P_obj siege )
+bool is_loading_siege( P_obj siege )
 {
   for( P_nevent e = siege->nevents; e; e = e->next )
     if( e->func == event_load_engine )
@@ -856,11 +850,9 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
   P_obj donation, siege;
   int ztop, count, i, j, numgate;
 
-  if( cmd == CMD_SET_PERIODIC )
-    return FALSE;
+  if( cmd == CMD_SET_PERIODIC ) return FALSE;
 
-  if( cmd == CMD_PERIODIC )
-    return FALSE;
+  if( cmd == CMD_PERIODIC ) return FALSE;
 
   if( !ch )
   {
@@ -875,35 +867,38 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
   }
   // In case someone tries to have a pet do warmaster stuff.
   if( IS_NPC( pl ) )
+  {
     return FALSE;
+  }
+  
+  town = gettown( ch );
+  
+  if( !town )
+  {
+    logit(LOG_DEBUG, "warmaster: called outside of town.");
+    return FALSE;
+  }
 
   if(cmd == CMD_LIST)
   {
-    town = gettown( ch );
-    if( !town )
-    {
-      logit(LOG_DEBUG, "warmaster: called outside of town.");
-      return FALSE;
-    }
-
-    // List town's name, offense, defense, and resrources..
+      // List town's name, offense, defense, and resrources..
     sprintf( buf, "'%s'\nOffense:     %7d\nDefense:     %7d\nResources:   %7d\n"
-                  "Town Guards:  %s\nTown Cavalry: %s\nTown Portals: %s\n\n",
-                  town->zone->name, town->offense, town->defense, town->resources, 
-                  town->deploy_guard ? "  Deployed" : "Not Deployed",
-                  town->deploy_cavalry ? "  Deployed" : "Not Deployed",
-                  town->deploy_portals ? "  Deployed" : "Not Deployed" );
+        "Town Guards:  %s\nTown Cavalry: %s\nTown Portals: %s\n\n",
+        town->zone->name, town->offense, town->defense, town->resources, 
+        town->deploy_guard ? "  Deployed" : "Not Deployed",
+        town->deploy_cavalry ? "  Deployed" : "Not Deployed",
+        town->deploy_portals ? "  Deployed" : "Not Deployed" );
     send_to_char( buf, pl );
 
     if( IS_TRUSTED( pl ) )
     {
       sprintf( buf, "Guards: %d deployed of %d max, vnum %d, load in room %d.\n", 
-        town->guard_vnum ? mob_index[real_mobile(town->guard_vnum)].number : 0,
-        town->guard_max, town->guard_vnum, town->guard_load_room );
+          town->guard_vnum ? mob_index[real_mobile(town->guard_vnum)].number : 0,
+          town->guard_max, town->guard_vnum, town->guard_load_room );
       send_to_char( buf, pl );
       sprintf( buf, "Cavalry: %d deployed of %d max, vnum %d, load in room %d.\n\n", 
-        town->cavalry_vnum ? mob_index[real_mobile(town->cavalry_vnum)].number : 0,
-        town->cavalry_max, town->cavalry_vnum,  town->cavalry_load_room );
+          town->cavalry_vnum ? mob_index[real_mobile(town->cavalry_vnum)].number : 0,
+          town->cavalry_max, town->cavalry_vnum,  town->cavalry_load_room );
       send_to_char( buf, pl );
     }
 
@@ -940,13 +935,6 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
   }
   if( cmd == CMD_DONATE )
   {
-    town = gettown( ch );
-    if( !town )
-    {
-      logit(LOG_DEBUG, "warmaster: called outside of town.");
-      return FALSE;
-    }
-
     donation = get_obj_in_list_vis(pl, arg, pl->carrying);
     if( !donation )
     {
@@ -954,7 +942,7 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
       return TRUE;
     }
     sprintf( buf, "You donate %s to %s.\n", donation->short_description, 
-      town->zone->name );
+        town->zone->name );
     send_to_char( buf, pl );
     obj_from_char( donation, TRUE );
     town->resources += itemvalue( ch, donation );
@@ -973,13 +961,6 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
       return FALSE;
     if( IS_SET( pl->specials.act3, PLR3_SURNOBLE ) )
       return FALSE;
-    town = gettown( ch );
-    if( !town )
-    {
-      logit(LOG_DEBUG, "warmaster: called outside of town.");
-      return FALSE;
-    }
-
     one_argument( arg, arg1 );
     if( *arg1 == '\0' )
     {
@@ -996,7 +977,7 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
       if( town->resources < 50000 )
       {
         send_to_char( "This town lacks the resources to deploy guards.\n"
-                      "You must have 50,000 in resources to deploy them.\n", pl );
+            "You must have 50,000 in resources to deploy them.\n", pl );
         return TRUE;
       }
 
@@ -1022,7 +1003,7 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
       if( town->resources < 450000 )
       {
         send_to_char( "This town lacks the resources to deploy cavalry.\n"
-                      "You must have 450,000 in resources to deploy them.\n", pl );
+            "You must have 450,000 in resources to deploy them.\n", pl );
         return TRUE;
       }
 
@@ -1045,7 +1026,7 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
       if( town->resources < 600000 )
       {
         send_to_char( "This town lacks the resources to deploy portals.\n"
-                      "You must have 600,000 in resources to deploy them.\n", pl );
+            "You must have 600,000 in resources to deploy them.\n", pl );
         return TRUE;
       }
 
@@ -1068,8 +1049,8 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
   {
     // People that can't buy anything here.
     if( IS_SET( pl->specials.act3, PLR3_NOSUR ) 
-     || IS_SET( pl->specials.act3, PLR3_SURSERF ) 
-     || IS_SET( pl->specials.act3, PLR3_SURCOMMONER ) )
+        || IS_SET( pl->specials.act3, PLR3_SURSERF ) 
+        || IS_SET( pl->specials.act3, PLR3_SURCOMMONER ) )
       return FALSE;
 
     rest = one_argument( arg, arg1 );
@@ -1099,13 +1080,14 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
         }
         SUB_MONEY( pl, 5000 * 1000, 0 );
         obj_to_room( siege, pl->in_room );
+        add_siege( siege );
         act( "You buy $p.", FALSE, pl, siege, NULL, TO_CHAR );
         act( "$n buys $p.", FALSE, pl, siege, NULL, TO_ROOM );
         return TRUE;
       }
     }
     if( is_abbrev( arg1, "battering" ) 
-     || is_abbrev( arg1, "ram" ) )
+        || is_abbrev( arg1, "ram" ) )
     {
       if( 5000 * 1000 > GET_MONEY(pl) )
       {
@@ -1123,6 +1105,7 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
         }
         SUB_MONEY( pl, 5000 * 1000, 0 );
         obj_to_room( siege, pl->in_room );
+        add_siege( siege );
         act( "You buy $p.", FALSE, pl, siege, NULL, TO_CHAR );
         act( "$n buys $p.", FALSE, pl, siege, NULL, TO_ROOM );
         return TRUE;
@@ -1146,29 +1129,24 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
         }
         SUB_MONEY( pl, 5000 * 1000, 0 );
         obj_to_room( siege, pl->in_room );
+        add_siege( siege );
         act( "You buy $p.", FALSE, pl, siege, NULL, TO_CHAR );
         act( "$n buys $p.", FALSE, pl, siege, NULL, TO_ROOM );
         return TRUE;
       }
     }
     if( is_abbrev( arg1, "town" ) 
-     || is_abbrev( arg1, "gates" )
-     || atoi(arg1) > 0 )
+        || is_abbrev( arg1, "gates" )
+        || atoi(arg1) > 0 )
     {
       // For 'buy <#>' instead of 'buy gates <#>'
       if( atoi(arg1) > 0 )
-        sprintf( arg2, arg1 );
-      town = gettown( ch );
-      if( !town )
-      {
-        logit(LOG_DEBUG, "warmaster: 'buy gates' called outside of town.");
-        return FALSE;
-      }
+        sprintf( arg2, "%s", arg1 );
 
       if( town->resources < 150000 )
       {
         send_to_char( "This town lacks the resources to have gates.\n"
-                      "You must have 150,000 in resources to buy them.\n", pl );
+            "You must have 150,000 in resources to buy them.\n", pl );
         return TRUE;
       }
 
@@ -1194,10 +1172,10 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
             {
               if( has_gates( i ) )
                 sprintf( buf, "%2d)*%-5s %s\n", ++count, dirs[j],
-                  world[world[i].dir_option[j]->to_room].name );
+                    world[world[i].dir_option[j]->to_room].name );
               else
                 sprintf( buf, "%2d) %-5s %s\n", ++count, dirs[j],
-                  world[world[i].dir_option[j]->to_room].name );
+                    world[world[i].dir_option[j]->to_room].name );
               send_to_char( buf, pl );
             }
           }
@@ -1239,6 +1217,7 @@ int warmaster( P_char ch, P_char pl, int cmd, char *arg )
                 // Block the correct direction.
                 siege->value[0] = rev_dir[j];
                 obj_to_room( siege, i );//world[i].dir_option[j]->to_room );
+                add_siege( siege );
                 act( "You buy $p.", FALSE, pl, siege, NULL, TO_CHAR );
                 act( "$n buys $p.", FALSE, pl, siege, NULL, TO_ROOM );
                 SUB_MONEY( pl, 5000 * 1000, 0 );
@@ -1276,8 +1255,8 @@ void check_deploy( struct zone_data *zone )
     rnum = real_mobile( town->guard_vnum );
 
     sprintf( buf, "Mob: %d '%s': Current load: %d, Max load: %d in room: %d.",
-      town->guard_vnum, mob_index[rnum].desc2, mob_index[rnum].number,
-      mob_index[rnum].limit, town->guard_load_room );
+        town->guard_vnum, mob_index[rnum].desc2, mob_index[rnum].number,
+        mob_index[rnum].limit, town->guard_load_room );
     wizlog( 60, buf );
 
     // Deploy guards if necessary..
@@ -1293,10 +1272,10 @@ void check_deploy( struct zone_data *zone )
     rnum = real_mobile( town->cavalry_vnum );
 
     sprintf( buf, "Mob: %d '%s': Current load: %d, Max load: %d in room: %d.",
-      town->cavalry_vnum, mob_index[rnum].desc2, mob_index[rnum].number,
-      mob_index[rnum].limit, town->cavalry_load_room );
+        town->cavalry_vnum, mob_index[rnum].desc2, mob_index[rnum].number,
+        mob_index[rnum].limit, town->cavalry_load_room );
     wizlog( 60, buf );
-    
+
     // Deploy cavalry if necessary..
     for( i = mob_index[rnum].number; i < mob_index[rnum].limit; i++ )
     {
@@ -1305,7 +1284,7 @@ void check_deploy( struct zone_data *zone )
       char_to_room(mob, real_room(town->cavalry_load_room), -1);
     }
   }
-// Need to add portals
+  // Need to add portals
 
 }
 
@@ -1414,14 +1393,14 @@ void multihit_siege( P_char ch )
     destroy = TRUE;
 
   sprintf(buf, "$q %s", destroy ? "is completely destroyed!" :
-                                  "is damaged from the blow!" );
+      "is damaged from the blow!" );
   act(buf, TRUE, NULL, siege, 0, TO_ROOM);
 
   if( destroy )
   {
     stop_destroying( ch );
     for( other_attacker = destroying_list; other_attacker; 
-      other_attacker = other_attacker->specials.next_destroying )
+        other_attacker = other_attacker->specials.next_destroying )
     {
       if( other_attacker->specials.destroying_obj == siege )
         stop_destroying( other_attacker );
@@ -1431,11 +1410,12 @@ void multihit_siege( P_char ch )
     scraps = read_object(9, VIRTUAL);
     if( !scraps )
     {
+      remove_siege( siege );
       extract_obj( siege, TRUE );
       return;
     }
     sprintf(buf, "Scraps from %s&n lie in a pile here.",
-      siege->short_description);
+        siege->short_description);
     scraps->description = str_dup(buf);
     sprintf(buf, "a pile of scraps from %s", siege->short_description);
     scraps->short_description = str_dup(buf);
@@ -1445,6 +1425,442 @@ void multihit_siege( P_char ch )
     set_obj_affected(scraps, 400, TAG_OBJ_DECAY, 0);
     obj_to_room(scraps, siege->loc.room);
 
+    remove_siege( siege );
     extract_obj( siege, TRUE );
   }
 }
+
+void init_towns()
+{
+  FILE *town_file;
+  char  line[ MAX_STRING_LENGTH ];
+  char *cp;
+  P_town *town;
+  bool found;
+  int i;
+
+  towns = NULL;
+  town_file = fopen( SAVE_DIR "/towns", "r" );
+
+  if(!town_file)
+  {
+    logit( LOG_DEBUG, "Could not open " SAVE_DIR "/towns" );
+    return;
+  }
+
+  town = &towns;
+  // While there's another town to read...
+  while( fgets( line, sizeof line, town_file ) != NULL )
+  {
+    found = FALSE;
+    // clear the carriage return at the end of the line.
+    for (cp = line; !isspace(*cp); cp++) ;
+    *cp = '\0';
+
+    // Find the town in zone table list.
+    for( i = 1; i <= top_of_zone_table; i++ )
+    {
+      // If found, load the info.
+      if( !strcmp(line, zone_table[i].filename) )
+      {
+        found = TRUE;
+        *town = new struct town;
+        (*town)->next_town = NULL;
+
+        (*town)->zone = &(zone_table[i]);
+
+        // Offense/defense/resources
+        fgets( line, sizeof line, town_file );
+        sscanf(line, "%i %i %i\n", &((*town)->offense), &((*town)->defense), &((*town)->resources));
+        // Guards
+        fgets( line, sizeof line, town_file );
+        (*town)->deploy_guard = !strcmp( line, "TRUE\n" ) ? TRUE : FALSE;
+        fgets( line, sizeof line, town_file );
+        sscanf(line, "%i %i %i\n", &((*town)->guard_vnum), &((*town)->guard_max), &((*town)->guard_load_room));
+        // Cavalry
+        fgets( line, sizeof line, town_file );
+        (*town)->deploy_cavalry = !strcmp( line, "TRUE\n" ) ? TRUE : FALSE;
+        fgets( line, sizeof line, town_file );
+        sscanf(line, "%i %i %i\n", &((*town)->cavalry_vnum), &((*town)->cavalry_max), &((*town)->cavalry_load_room));
+        // Portals
+        fgets( line, sizeof line, town_file );
+        (*town)->deploy_portals = !strcmp( line, "TRUE\n" ) ? TRUE : FALSE;
+        fgets( line, sizeof line, town_file );
+        sscanf(line, "%i %i\n", &((*town)->portal_vnum), &((*town)->portal_load_room));
+
+//        logit(LOG_DEBUG, "Town loaded: '%s'", zone_table[i].filename);
+
+        town = &((*town)->next_town);
+        break;
+      }
+    }
+    if( !found )
+    {
+       logit(LOG_DEBUG, "Town not found: '%s'", line );
+       for( i = 1; i <= top_of_zone_table; i++ )
+         logit(LOG_DEBUG, zone_table[i].filename );
+       return;
+    }
+
+  }
+
+  fclose(town_file);
+
+}
+
+void save_towns()
+{
+  FILE *town_file;
+  char  line[ MAX_STRING_LENGTH ];
+  P_town town;
+
+  town_file = fopen( SAVE_DIR "/towns", "w" );
+
+  if(!town_file)
+  {
+    logit(LOG_DEBUG, "Could not open " SAVE_DIR "/towns" );
+    return;
+  }
+
+  // For each town..
+  for( town = towns; town != NULL; town = town->next_town )
+  {
+    // Save the info.
+    fprintf(town_file, "%s\n", town->zone->filename);
+    fprintf(town_file, "%d %d %d\n", town->offense, town->defense, town->resources);
+    fprintf(town_file, "%s\n", town->deploy_guard ? "TRUE" : "FALSE");
+    fprintf(town_file, "%d %d %d\n", town->guard_vnum, town->guard_max, town->guard_load_room);
+    fprintf(town_file, "%s\n", town->deploy_cavalry ? "TRUE" : "FALSE");
+    fprintf(town_file, "%d %d %d\n", town->cavalry_vnum, town->cavalry_max, town->cavalry_load_room);
+    fprintf(town_file, "%s\n", town->deploy_portals ? "TRUE" : "FALSE");
+    fprintf(town_file, "%d %d\n", town->portal_vnum, town->portal_load_room);
+
+  }
+  fclose(town_file);
+}
+
+void list_town( P_char ch, P_town town )
+{
+  char buf[MAX_STRING_LENGTH];
+
+  if( !town )
+  {
+    send_to_char( "Town doesn't exist!\n", ch );
+    return;
+  }
+
+  // Show town name: level, off, def.
+  sprintf( buf, "Town '%s': Resources %d, Offense %d, Defense %d\n"
+                "  Guards:  %3s: Max %3d Vnum %6d Room %6d.\n"
+                "  Cavalry: %3s: Max %3d Vnum %6d Room %6d.\n"
+                "  Portals: %3s:         Vnum %6d Room %6d.\n",
+    (town->zone != NULL) ? town->zone->name : "Unknown", town->resources, town->offense, town->defense,
+    town->deploy_guard ? "YES" : "NO", town->guard_max, town->guard_vnum, town->guard_load_room,
+    town->deploy_cavalry ? "YES" : "NO", town->cavalry_max, town->cavalry_vnum, town->cavalry_load_room, 
+    town->deploy_portals ? "YES" : "NO", town->portal_vnum, town->portal_load_room );
+  send_to_char( buf, ch );
+}
+
+// Lists all towns with their level/defense/offense.
+void list_towns( P_char ch )
+{
+  P_town town;
+
+  if( !towns )
+  {
+    send_to_char( "Could not find list of towns!!\n", ch );
+    return;
+  }
+
+  // For each town
+  for( town = towns; town; town = town->next_town )
+  {
+    list_town( ch, town);
+  }
+}
+
+void add_troopresources(P_char ch, P_town town, int amount )
+{
+  char buf[MAX_STRING_LENGTH];
+
+/* For debugging...
+  sprintf( buf, "add_trooplevel: '%s' amount: '%d'.\n", town->zone->name, amount );
+  send_to_char( buf, ch );
+*/
+
+  town->resources += amount;
+  if( town->resources < 0 )
+    town->resources = 0;
+  list_town( ch, town );
+  // Save the town info.
+  save_towns();
+}
+
+void add_troopdefense(P_char ch, P_town town, int amount)
+{
+  town->defense += amount;
+  if( town->defense < 0 )
+    town->defense = 0;
+  list_town( ch, town );
+  // Save the town info.
+  save_towns();
+}
+
+void add_troopoffense(P_char ch, P_town town, int amount)
+{
+  town->offense += amount;
+  if( town->offense < 0 )
+    town->offense = 0;
+  list_town( ch, town );
+  // Save the town info.
+  save_towns();
+}
+
+P_town add_findtown( char *arg )
+{
+  P_town town = towns;
+  char town_name[MAX_STRING_LENGTH];
+  stripansi_2(town->zone->name, town_name);
+
+  while( town )
+  {
+    if( is_abbrev(arg, town_name) )
+      return town;
+
+    town = town->next_town;
+  }
+
+  return NULL;
+}
+
+void do_add(P_char ch, char *arg, int cmd)
+{
+  char   arg1[MAX_STRING_LENGTH];
+  char   arg2[MAX_STRING_LENGTH];
+  char  *rest;
+  int    amount;
+  P_town town;
+
+  // Parse argument.
+  rest = one_argument(arg, arg1);
+  if(!*arg1 )
+  {
+    send_to_char("This command is to add to troops in a town.\n", ch);
+    send_to_char("Syntax: add [resources|defense|offense] <town> <amount>.\n", ch);
+    send_to_char("     or add list.\n", ch);
+    return;
+  }
+
+  // Add attribute to town.
+  if( is_abbrev(arg1, "list") )
+  {
+    list_towns( ch );
+    send_to_char( "\n", ch );
+    list_siege( ch );
+  }
+  else if( is_abbrev(arg1, "resources") )
+  {
+    argument_interpreter(rest, arg1, arg2);
+    amount = atoi( arg2 );
+    town = add_findtown( arg1 );
+    if( amount == 0)
+    {
+      send_to_char("Syntax: add resources <town> <amount>.\n", ch);
+      return;
+    }
+    if( !town )
+    {
+      send_to_char( "Couldn't find town '", ch );
+      send_to_char( arg1, ch );
+      send_to_char(  "'.\n", ch );
+      return;
+    }
+    add_troopresources( ch, town, amount );
+  }
+  else if( is_abbrev(arg1, "defense") )
+  {
+    argument_interpreter(rest, arg1, arg2);
+    amount = atoi( arg2 );
+    town = add_findtown( arg1 );
+    if( amount == 0)
+    {
+      send_to_char("Syntax: add defense <town> <amount>.\n", ch);
+      return;
+    }
+    if( !town )
+    {
+      send_to_char( "Couldn't find town '", ch );
+      send_to_char( arg1, ch );
+      send_to_char(  "'.\n", ch );
+      return;
+    }
+    add_troopdefense( ch, town, amount );
+  }
+  else if( is_abbrev(arg1, "offense") )
+  {
+    argument_interpreter(rest, arg1, arg2);
+    amount = atoi( arg2 );
+    town = add_findtown( arg1 );
+    if( amount == 0)
+    {
+      send_to_char("Syntax: add offense <town> <amount>.\n", ch);
+      return;
+    }
+    if( !town )
+    {
+      send_to_char( "Couldn't find town '", ch );
+      send_to_char( arg1, ch );
+      send_to_char(  "'.\n", ch );
+      return;
+    }
+    add_troopoffense( ch, town, amount );
+  }
+  else
+  {
+    send_to_char("Syntax: add [resources|defense|offense] <town> <amount>.\n", ch);
+    send_to_char("     or add list.\n", ch);
+    return;
+  }
+}
+
+// Adds a new siege object to the list (for saves)
+void add_siege( P_obj siege )
+{
+  P_siege newsiege = new struct siege;
+
+  newsiege->obj = siege;
+  newsiege->next_siege = siege_objects;  
+  siege_objects = newsiege;
+
+  save_siege_list();
+}
+
+// Removes a siege object from the list that's been destroyed.
+void remove_siege( P_obj siege )
+{
+  P_siege sieges = siege_objects;
+  P_siege siege2;
+
+  if( sieges->obj == siege )
+  {
+    siege_objects = siege_objects->next_siege;
+    sieges->next_siege = NULL;
+    free( sieges );
+    return;
+  }
+  while( sieges->next_siege )
+  {
+    if( sieges->next_siege->obj == siege )
+    {
+      siege2 = sieges->next_siege;
+      sieges->next_siege = siege2->next_siege;
+      siege2->next_siege = NULL;
+      siege2->obj = NULL;
+      free( siege2 );
+      return;
+    }
+    sieges = sieges->next_siege;
+  }
+  logit(LOG_DEBUG, "remove_siege: siege not in list!" );
+}
+
+// Saves the siege objects.
+void save_siege_list( )
+{
+  FILE   *siege_file;
+  char    line[ MAX_STRING_LENGTH ];
+  char    buff[ SAV_MAXSIZE ];
+  char   *buf;
+  P_siege siege;
+  int     length;
+
+  siege_file = fopen( SAVE_DIR "/siege", "w" );
+
+  if(!siege_file)
+  {
+    logit(LOG_DEBUG, "Could not open " SAVE_DIR "/siege" );
+    return;
+  }
+
+  // For each siege object..
+  for( siege = siege_objects; siege != NULL; siege = siege->next_siege )
+  {
+    // Write the room number.
+    fprintf(siege_file, "#%d\n", siege->obj->loc.room);
+    // Write the object to file
+    buf = buff;
+    length = write_one_object( siege->obj, buf );
+    fwrite( buff, length, 1, siege_file );
+    fprintf( siege_file, "\n" );
+  }
+
+  fclose( siege_file );
+}
+
+// Lists all siege objects with room
+void list_siege( P_char ch )
+{
+  P_siege siege;
+  char    buf[MAX_STRING_LENGTH];
+
+  if( !siege_objects )
+  {
+    send_to_char( "There are no siege objects!!\n", ch );
+    return;
+  }
+
+  // For each siege object
+  for( siege = siege_objects; siege; siege = siege->next_siege )
+  {
+    sprintf( buf, "%d) %s\n", siege->obj->loc.room, siege->obj->short_description );
+    send_to_char( buf, ch );
+  }
+}
+
+// Loads the siege objects.
+void init_siege_list( )
+{
+
+  FILE   *siege_file;
+  char    line[ MAX_STRING_LENGTH ];
+  char   *cp;
+  P_siege siege;
+  P_obj   obj;
+  int     room;
+
+  siege_objects = NULL;
+  siege_file = fopen( SAVE_DIR "/siege", "r" );
+
+  if(!siege_file)
+  {
+    logit( LOG_DEBUG, "Could not open " SAVE_DIR "/siege" );
+    return;
+  }
+
+  while( fgets( line, sizeof line, siege_file ) != NULL )
+  {
+    if( line[0] != '#' )
+    {
+      logit( LOG_DEBUG, line );
+      logit( LOG_DEBUG, "Siege file corrupted.." );
+      fclose( siege_file );
+      return;
+    }
+    cp = line+1;
+    room = atoi( cp );
+    if( !room )
+    {
+      logit( LOG_DEBUG, cp );
+      logit( LOG_DEBUG, "Siege file room corrupted.." );
+      fclose( siege_file );
+    }
+    fgets( line, sizeof line, siege_file );
+    obj = read_one_object(line);
+    obj_to_room( obj, room );
+    siege = new struct siege;
+    siege->obj = obj;
+    siege->next_siege = siege_objects;
+    siege_objects = siege;
+  }
+}
+

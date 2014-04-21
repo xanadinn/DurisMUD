@@ -80,6 +80,7 @@ struct reset_q_type reset_q;
 
 P_room   world;                 /* dyn alloc'ed array of rooms     */
 P_town   towns;                 /* List of towns for defenses      */
+P_siege  siege_objects;         /* List of siege objects to save   */
 int      top_of_world = 0;      /* ref to the top element of world */
 P_obj    object_list = 0;       /* the global linked list of obj's */
 P_char   character_list = 0;    /* global l-list of chars */
@@ -2032,19 +2033,18 @@ P_char read_mobile(int nr, int type)
    */
 
   fgets(buf, sizeof(buf) - 1, mob_f);
-  if (sscanf
-      (buf, " %ld %ld %ld %ld %ld %ld %ld %ld %ld %c \n", &tmp1, &tmp7, &tmp8, &tmp9, &tmp2, &tmp3, &tmp4, &tmp5, &tmp6, &letter) == 10)
+  if (sscanf(buf, " %u %u %u %u %u %u %u %u %u %c \n", &tmp1, &tmp7, &tmp8, &tmp9, &tmp2, &tmp3, &tmp4, &tmp5, &tmp6, &letter) == 10)
   {
     mob->specials.act = tmp1;
-    mob->only.npc->aggro_flags = tmp7;
-    mob->only.npc->aggro2_flags = tmp8;
-    mob->only.npc->aggro3_flags = tmp9;
     mob->specials.affected_by = tmp2;
     mob->specials.affected_by2 = tmp3;
     mob->specials.affected_by3 = tmp4;
     mob->specials.affected_by4 = tmp5;
     mob->specials.affected_by5 = 0;
     mob->specials.alignment = tmp6;
+    mob->only.npc->aggro_flags = tmp7;
+    mob->only.npc->aggro2_flags = tmp8;
+    mob->only.npc->aggro3_flags = tmp9;
   }
   else if (sscanf
       (buf, " %lu %lu %lu %lu %lu %lu %lu %lu %c \n", &tmp1, &tmp7, &tmp8,
@@ -2104,15 +2104,15 @@ P_char read_mobile(int nr, int type)
   if (letter == 'S')
   {
     fgets(buf, sizeof(buf) - 1, mob_f);
-    if (sscanf(buf, " %s %ld %ld %ld %ld \n", Gbuf1, &tmp, &tmp2, &tmp3, &tmp4) == 5)
+    if (sscanf(buf, " %s %i %u %i %i \n", Gbuf1, &tmp, &tmp2, &tmp3, &tmp4) == 5)
     {
       mob->player.race = 0;
 
       /* defaults to RACE_NONE */
       for (i = 0; (i <= LAST_RACE) && !mob->player.race; i++)
-	if (!str_cmp(race_names_table[i].code, Gbuf1))
-	  mob->player.race = i;
-      
+      if (!str_cmp(race_names_table[i].code, Gbuf1))
+        mob->player.race = i;
+
       GET_HOME(mob) = tmp;
       mob->player.m_class = tmp2;
       mob->player.spec = tmp3;
@@ -2120,7 +2120,7 @@ P_char read_mobile(int nr, int type)
     }
     else
     {
-      sscanf(buf, " %s %ld %ld %ld \n", Gbuf1, &tmp, &tmp2, &tmp3);
+      sscanf(buf, " %s %i %u %i \n", Gbuf1, &tmp, &tmp2, &tmp3);
 
       mob->player.race = 0;
 
