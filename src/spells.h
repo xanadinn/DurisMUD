@@ -939,20 +939,6 @@
 #define SKILL_RAGE_REORIENT          1262 // Added to handle reorient on rage skill
 #define SKILL_TIGER_PALM             1263
 #define SKILL_DIAMOND_SOUL           1264
-#define SKILL_RESTRAIN               1293
-#define SKILL_BLADE_BARRAGE		  1294
-#define SKILL_RIFF                   1295
-#define SKILL_CONCENTRATION          1296
-#define SKILL_SALVAGE		  1297
-#define SKILL_DREADNAUGHT		  1298
-#define SKILL_SHADOWSTEP		  1299
-#define SKILL_GARROTE		  1300
-
-#ifndef SKILLPOINTS
-  #define LAST_SKILL                   SKILL_GARROTE
-#endif
-
-// New skills for skill points.
 #define SKILL_BASEWARR               1265
 #define SKILL_BASEROGUE              1266
 #define SKILL_BASEPRIEST             1267
@@ -981,13 +967,22 @@
 #define SKILL_NATURESPROTECTIONS     1290
 #define SKILL_PROTECT_FROM_EVIL      1291
 #define SKILL_NATURESSENSES          1292
+#define SKILL_RESTRAIN               1293
+#define SKILL_BLADE_BARRAGE		       1294
+#define SKILL_RIFF                   1295
+#define SKILL_CONCENTRATION          1296
+#define SKILL_SALVAGE		             1297
+#define SKILL_DREADNAUGHT            1298
+#define SKILL_SHADOWSTEP             1299
+#define SKILL_GARROTE                1300
 
+#define LAST_SKILL                   SKILL_GARROTE
 
-#ifdef SKILLPOINTS
-#define WHITE_SKILL                  -1
-#define BLUE_SKILL                   -2
-#define LAST_SKILL                   SKILL_NATURESSENSES
-#endif
+//#ifdef SKILLPOINTS
+//#define WHITE_SKILL                  -1
+//#define BLUE_SKILL                   -2
+//#define LAST_SKILL                   SKILL_NATURESSENSES
+//#endif
 
 #define FIRST_SECONDARY_SKILL        1501
 
