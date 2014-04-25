@@ -52,9 +52,7 @@
 #include "tether.h"
 #include "auction_houses.h"
 #include "achievements.h"
-#ifdef SIEGE_ENABLED
 #include "siege.h"
-#endif
 
 /*
  * external variables

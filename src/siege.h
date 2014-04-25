@@ -1,3 +1,8 @@
+#ifndef __SIEGE_H__
+#define __SIEGE_H__
+
+//#define SIEGE_ENABLED
+
 #include "prototypes.h"
 #include "files.h"
 
@@ -33,4 +38,4 @@ struct siege {
 };
 
 typedef struct siege *P_siege;
-
+#endif

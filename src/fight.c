@@ -47,10 +47,7 @@
 #include "ctf.h"
 #include "tether.h"
 #include "achievements.h"
-
-#ifdef SIEGE_ENABLED
 #include "siege.h"
-#endif
 
 /*
  * external variables //

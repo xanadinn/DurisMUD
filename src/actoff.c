@@ -52,10 +52,7 @@
 #include "grapple.h"
 #include "guildhall.h"
 #include "buildings.h"
-
-#ifdef SIEGE_ENABLED
 #include "siege.h"
-#endif
 
 /*
  * external variables

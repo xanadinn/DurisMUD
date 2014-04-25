@@ -25,10 +25,7 @@
 #include "spells.h"
 #include "structs.h"
 #include "utils.h"
-
-#ifdef SIEGE_ENABLED
 #include "siege.h"
-#endif
 
 extern const struct str_app_type str_app[52];
 extern P_room world;

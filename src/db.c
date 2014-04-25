@@ -32,9 +32,7 @@
 #include "ships.h"
 #include "assocs.h"
 #include "objmisc.h"
-#ifdef SIEGE_ENABLED
 #include "siege.h"
-#endif
 
 /*
  * external variables

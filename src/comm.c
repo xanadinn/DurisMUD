@@ -55,10 +55,7 @@
 #include "boon.h"
 #include "ctf.h"
 #include "hardcore.h"
-
-#ifdef SIEGE_ENABLED
 #include "siege.h"
-#endif
 
 /* external variables */
 

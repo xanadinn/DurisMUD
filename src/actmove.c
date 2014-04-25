@@ -24,10 +24,7 @@
 #include "map.h"
 #include "graph.h"
 #include "disguise.h"
-
-#ifdef SIEGE_ENABLED
 #include "siege.h"
-#endif
 
 /*
  * external variables
