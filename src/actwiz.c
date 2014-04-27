@@ -1719,7 +1719,24 @@ void do_stat(P_char ch, char *argument, int cmd)
         zone = &zone_table[zone_id];
       }
     }
-    
+    else if( !strcmp( arg2, "teleports" ) )
+    {
+      int i;
+
+      zone_id = world[ch->in_room].zone;
+      zone = &zone_table[zone_id];
+      for( i = zone->real_bottom;i < zone->real_top ;i++ )
+      {
+        // If the room is teleportable, display it w/room number.
+        if( !IS_SET(world[i].room_flags, NO_TELEPORT) )
+        {
+          sprintf( buf, "%d) %s\n", world[i].number, world[i].name );
+          send_to_char( buf, ch );
+        }
+      }
+      return;
+    }
+
     if(!zone)
     {
       send_to_char("Invalid zone number. Type 'world zones' to see list.\n", ch);
