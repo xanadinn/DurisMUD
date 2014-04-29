@@ -1364,7 +1364,6 @@ void do_practice_new( P_char ch, char *arg, int cmd )
     strcat(obuf, "\n&+BSpell                    Cost\n&n");
     for (spl = FIRST_SPELL; spl <= LAST_SPELL; spl++)
     {
-// PENIS : THIS CRASHES MUD with SEG FAULT
       if( GET_LVL_FOR_SKILL(ch, spl) <= GET_LEVEL(ch)
         && GET_LVL_FOR_SKILL(teacher, spl) <= GET_LEVEL(teacher)
         && IS_SPELL(spl) && skill_cost( ch, spl) > 0 )
