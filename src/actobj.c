@@ -380,13 +380,12 @@ void do_get(P_char ch, char *argument, int cmd)
       36, 8, 38, -1
   };
 
-  if(!(ch) ||
-    !IS_ALIVE(ch))
+  if( !(ch) || !IS_ALIVE(ch) )
   {
     return;
   }
 
-  if(IS_IMMOBILE(ch))
+  if( IS_IMMOBILE(ch) )
   {
     send_to_char("No can do in your present state!\r\n", ch);
     return;
@@ -394,7 +393,6 @@ void do_get(P_char ch, char *argument, int cmd)
 
   *Gbuf2 = '\0';
   *Gbuf3 = '\0';
-
 
   for (j = 0; wear_order[j] != -1; j++)
   {
@@ -405,13 +403,13 @@ void do_get(P_char ch, char *argument, int cmd)
     }
   }
 
-  if(IS_AFFECTED(ch, AFF_WRAITHFORM))
+  if( IS_AFFECTED(ch, AFF_WRAITHFORM) )
   {
     send_to_char("You are too intangible!\r\n", ch);
     return;
   }
 
-  if(IS_ANIMAL(ch))
+  if( IS_ANIMAL(ch) )
   {
     send_to_char("You are a beast!\r\n", ch);
     return;
@@ -419,8 +417,7 @@ void do_get(P_char ch, char *argument, int cmd)
 
   argument_interpreter(argument, arg1, arg2);
 
-  if(IS_NPC(ch) &&
-    ch->following &&
+  if(IS_NPC(ch) && ch->following &&
     (ch->in_room == ch->following->in_room))
   {
     hood = ch->following;
@@ -504,22 +501,27 @@ void do_get(P_char ch, char *argument, int cmd)
            if (check_get_disarmed_obj(ch, o_obj->last_to_hold, o_obj))
            continue; */
 
-        if ((IS_CARRYING_N(ch) + 1) <= CAN_CARRY_N(ch)  ||   
-           ((GET_OBJ_VNUM(o_obj) > 400000) &&
-	   (GET_OBJ_VNUM(o_obj) < 400211) ))
+        if( (IS_CARRYING_N(ch) + 1) <= CAN_CARRY_N(ch) ||
+          ( (GET_OBJ_VNUM(o_obj) > 400000) && (GET_OBJ_VNUM(o_obj) < 400211)) )
         {
           if ((IS_CARRYING_W(ch) + GET_OBJ_WEIGHT(o_obj)) <= CAN_CARRY_W(ch))
           {
-
-	     if(ch && o_obj)
+            if(ch && o_obj)
             {
-             if(IS_NPC(ch) && (o_obj->type == ITEM_TELEPORT ||  !IS_SET(o_obj->wear_flags, ITEM_TAKE)))
-             return;
-	     }            
+              if(IS_NPC(ch) && (o_obj->type == ITEM_TELEPORT ||  !IS_SET(o_obj->wear_flags, ITEM_TAKE)))
+                return;
+            }
 
-            if (CAN_WEAR(o_obj, ITEM_TAKE) || GET_LEVEL(ch) >= 60)
+            if( CAN_WEAR(o_obj, ITEM_TAKE) || GET_LEVEL(ch) >= 60 )
             {
               get(ch, o_obj, 0, TRUE);
+              if( IS_ARTIFACT( o_obj ) )
+              {
+                wizlog( 56, "%s getting artifact %s from room %d.",
+                  J_NAME(ch), o_obj->short_description, world[ch->in_room].number );
+                logit(LOG_OBJ, "%s getting artifact %s from room %d.",
+                  J_NAME(ch), o_obj->short_description, world[ch->in_room].number );
+              }
               total++;
             }
             else
@@ -576,16 +578,14 @@ void do_get(P_char ch, char *argument, int cmd)
        return;
        */
 
-      if (IS_CARRYING_N(ch) < CAN_CARRY_N(ch) ||   
-           ((GET_OBJ_VNUM(o_obj) > 400000) &&
-	   (GET_OBJ_VNUM(o_obj) < 400211) ))
+      if( IS_CARRYING_N(ch) < CAN_CARRY_N(ch)
+        || ((GET_OBJ_VNUM(o_obj) > 400000) && (GET_OBJ_VNUM(o_obj) < 400211)) )
       {
-        if ((IS_CARRYING_W(ch) + GET_OBJ_WEIGHT(o_obj)) <= CAN_CARRY_W(ch))
+        if( (IS_CARRYING_W(ch) + GET_OBJ_WEIGHT(o_obj)) <= CAN_CARRY_W(ch) )
         {
-          if (CAN_WEAR(o_obj, ITEM_TAKE) || (GET_LEVEL(ch) >= 60))
+          if( CAN_WEAR(o_obj, ITEM_TAKE) || (GET_LEVEL(ch) >= 60) )
           {
-            if ((GET_ITEM_TYPE(o_obj) == ITEM_CORPSE) &&
-                IS_SET(o_obj->value[1], PC_CORPSE))
+            if( (GET_ITEM_TYPE(o_obj) == ITEM_CORPSE) && IS_SET(o_obj->value[1], PC_CORPSE) )
             {
               owner = get_char(o_obj->action_description);
               if ((ch == owner) ||
@@ -608,6 +608,13 @@ void do_get(P_char ch, char *argument, int cmd)
             }
             found = TRUE;
             get(ch, o_obj, s_obj, TRUE);
+            if( IS_ARTIFACT( o_obj ) )
+            {
+              wizlog( 56, "%s getting artifact %s from room %d.",
+                J_NAME(ch), o_obj->short_description, world[ch->in_room].number );
+              logit(LOG_OBJ, "%s getting artifact %s from room %d.",
+                J_NAME(ch), o_obj->short_description, world[ch->in_room].number );
+            }
 
           }
           else
@@ -801,6 +808,13 @@ void do_get(P_char ch, char *argument, int cmd)
       }*/
 
                   total++;
+                  if( IS_ARTIFACT( s_obj ) )
+                  {
+                    wizlog( 56, "%s getting artifact %s from room %d.",
+                      J_NAME(ch), s_obj->short_description, world[ch->in_room].number );
+                    logit(LOG_OBJ, "%s getting artifact %s from room %d.",
+                      J_NAME(ch), s_obj->short_description, world[ch->in_room].number );
+                  }
                   if (GET_ITEM_TYPE(s_obj) == ITEM_QUIVER)
                     if (s_obj->value[3] > 0)
                       s_obj->value[3]--;
@@ -1360,7 +1374,6 @@ void do_dropalldot(P_char ch, char *name, int cmd)
         obj_from_char(tmp_object, TRUE);
         obj_to_room(tmp_object, ch->in_room);
         total++;
-
         if (IS_TRUSTED(ch))
         {
           wizlog(GET_LEVEL(ch), "%s drops %s [%d].",
@@ -1371,7 +1384,13 @@ void do_dropalldot(P_char ch, char *name, int cmd)
                 world[ch->in_room].number);
           sql_log(ch, WIZLOG, "Drops %s &n[%d]", tmp_object->short_description, obj_index[tmp_object->R_num].virtual_number);
         }
-
+        else if( IS_ARTIFACT( tmp_object ) )
+        {
+          wizlog( 56, "%s dropping artifact %s in room %d.",
+            J_NAME(ch), tmp_object->short_description, world[ch->in_room].number );
+          logit(LOG_OBJ, "%s dropping artifact %s in room %d.",
+            J_NAME(ch), tmp_object->short_description, world[ch->in_room].number );
+        }
       }
   }
 
@@ -1600,6 +1619,13 @@ void do_drop(P_char ch, char *argument, int cmd)
                   world[ch->in_room].number);
             sql_log(ch, WIZLOG, "Dropped %s", tmp_object->short_description);
           }
+          else if( IS_ARTIFACT( tmp_object ) )
+          {
+            wizlog( 56, "%s dropping artifact %s in room %d.",
+              J_NAME(ch), tmp_object->short_description, world[ch->in_room].number );
+            logit(LOG_OBJ, "%s dropping artifact %s in room %d.",
+              J_NAME(ch), tmp_object->short_description, world[ch->in_room].number );
+          }
           obj_to_room(tmp_object, ch->in_room);
 
           if (IS_PC(ch))
@@ -1650,6 +1676,13 @@ void do_drop(P_char ch, char *argument, int cmd)
                   J_NAME(ch), tmp_object->short_description,
                   world[ch->in_room].number);
             sql_log(ch, WIZLOG, "Dropped %s", tmp_object->short_description);
+          }
+          else if( IS_ARTIFACT( tmp_object ) )
+          {
+            wizlog( 56, "%s dropping artifact %s in room %d.",
+              J_NAME(ch), tmp_object->short_description, world[ch->in_room].number );
+            logit(LOG_OBJ, "%s dropping artifact %s in room %d.",
+              J_NAME(ch), tmp_object->short_description, world[ch->in_room].number );
           }
           obj_to_room(tmp_object, ch->in_room);
 
