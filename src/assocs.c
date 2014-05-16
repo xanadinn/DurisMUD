@@ -1510,8 +1510,13 @@ void update_member(P_char member, int full)
   // check to see if they are homed in a guildhall
   // and reset to their original birthplace if they are no longer a guild member, or are homed in the wrong guildhall
   Guildhall *gh = Guildhall::find_by_vnum(GET_BIRTHPLACE(member));
-  if (!asc_number || !IS_MEMBER(temp) || (gh && gh->assoc_id != asc_number) )
+
+  if( !gh )
+    return;
+
+  if( !IS_MEMBER(temp) || gh->assoc_id != asc_number )
   {
+    logit(LOG_DEBUG, "%s was homed in GH but doesn't belong to guild, resetting to original home", GET_NAME(member));
     sprintf(home, "char %s home %d", J_NAME(member), GET_ORIG_BIRTHPLACE(member));
     do_setbit(member, home, CMD_SETHOME);
     sprintf(home, "char %s orighome %d", J_NAME(member), GET_ORIG_BIRTHPLACE(member));
