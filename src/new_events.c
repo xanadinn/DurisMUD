@@ -390,7 +390,8 @@ void ne_init_events(void)
       add_event(event_reset_zone, i, 0, 0, 0, 0, &j, sizeof(j));
     }
 
-    reset_zone(j, TRUE);
+    // The value 2 means that this is a boot-time initial zone reset.
+    reset_zone(j, 2);
   }
 
   /* special cases now */

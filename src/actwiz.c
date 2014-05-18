@@ -5456,7 +5456,7 @@ void do_zreset(P_char ch, char *argument, int cmd)
   {
     sprintf(buf, "Zone: %s has been reset.\n", zone_struct->name);
     send_to_char(buf, ch);
-    reset_zone(zone_number, FALSE);
+    reset_zone(zone_number, 0);
     if(GET_LEVEL(ch) > MAXLVLMORTAL)
     {
       wizlog(GET_LEVEL(ch), "%s just reset the zone %s.",
@@ -5471,7 +5471,7 @@ void do_zreset(P_char ch, char *argument, int cmd)
     sprintf(buf, "Zone: %s has been reset.\n", zone_struct->name);
     send_to_char(buf, ch);
     zone_purge(zone_number);
-    reset_zone(zone_number, TRUE);
+    reset_zone(zone_number, 1);
     if(GET_LEVEL(ch) > MAXLVLMORTAL)
     {
       wizlog(GET_LEVEL(ch), "%s just reset the zone %s.",
