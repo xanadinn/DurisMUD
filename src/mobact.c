@@ -6308,11 +6308,11 @@ bool MobMercenary(P_char ch)
     {
       do_tackle(ch, 0, CMD_TACKLE);
     }
-        else if (!affected_by_spell_flagged(vict, SKILL_THROAT_CRUSH, AFFTYPE_CUSTOM1) && number(0, 1))
-        {
+    else if (!affected_by_spell_flagged(vict, SKILL_THROAT_CRUSH, AFFTYPE_CUSTOM1) && number(0, 1)
+      && GET_CHAR_SKILL_P(ch, SKILL_THROAT_CRUSH) )
+    {
       do_throat_crush(ch, 0, CMD_THROAT_CRUSH);
-        }
-             
+    }
     else
       do_headbutt(ch, 0, CMD_HEADBUTT);
     return TRUE;
