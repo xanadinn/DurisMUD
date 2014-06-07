@@ -3481,7 +3481,7 @@ void do_world(P_char ch, char *argument, int cmd)
     ct = time(0);
     tmstr = asctime(localtime(&ct));
     *(tmstr + strlen(tmstr) - 1) = '\0';
-    sprintf(buf, "Current time is: %s (EDT)\n", tmstr);
+    sprintf(buf, "Current time is: %s (GMT)\n", tmstr);
     send_to_char(buf, ch);
 
     diff_time = ct - boot_time;
@@ -5488,7 +5488,7 @@ void do_time(P_char ch, char *argument, int cmd)
   tmstr = asctime(lt);
   *(tmstr + strlen(tmstr) - 1) = '\0';
   sprintf(Gbuf2, "Current time is: %s (%s)\n",
-          tmstr, (lt->tm_isdst <= 0) ? "EDT" : "EDT");
+          tmstr, (lt->tm_isdst <= 0) ? "GMT" : "GMT");
   send_to_char(Gbuf2, ch);
 
   if (IS_TRUSTED(ch))
