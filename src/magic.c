@@ -10266,6 +10266,8 @@ void spell_identify(int level, P_char ch, char *arg, int type, P_char victim,
         send_to_char(Gbuf1, ch);
       }
     }
+    sprintf( Gbuf1, "$p &nhas an item value of &+W%d&n.", itemvalue(ch, obj) );
+    act( Gbuf1, FALSE, ch, obj, 0, TO_CHAR );
   }
   else
   {
