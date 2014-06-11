@@ -1775,7 +1775,24 @@ void do_dismiss(P_char ch, char *argument, int cmd)
 
   if(GET_CLASS(ch, CLASS_BARD))
   {
-    send_to_char("Just stop singing.\r\n", ch);
+    for (k = ch->followers; k; k = x)
+    {
+      x = k->next;
+
+      // Dismiss mirror images
+      if(IS_NPC(k->follower) && k->follower->only.npc->R_num == 90 )
+      {
+        act("$n makes a &+Mmagical &+mgesture&n, sending $N back to the &+Lnether plane&n.", TRUE, ch, 0,
+            k->follower, TO_ROOM);
+        act("You make a &+Mmagical &+mgesture&n, sending $N back to the &+Lnether plane&n.", TRUE, ch, 0,
+            k->follower, TO_CHAR);
+        extract_char(k->follower);
+        count++;
+      }
+    }
+    // If no images..
+    if( !count )
+      send_to_char("Just stop singing.\r\n", ch);
     return;
   }
 
@@ -1814,11 +1831,11 @@ void do_dismiss(P_char ch, char *argument, int cmd)
   }
   if(get_linked_char(victim, LNK_PET) == ch)
   {
-    extract_char(victim);
     act("$n makes a &+Mmagical &+mgesture&n, sending $N back to the &+Lnether plane&n.", TRUE, ch, 0,
         victim, TO_ROOM);
     act("You make a &+Mmagical &+mgesture&n, sending $N back to the &+Lnether plane&n.", TRUE, ch, 0,
         victim, TO_CHAR);
+    extract_char(victim);
   }
 
 
