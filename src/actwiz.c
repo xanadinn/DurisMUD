@@ -112,7 +112,7 @@ extern int bounce_null_sites;
 extern int number_of_shops;
 extern int invitemode;
 extern int pulse;
-extern int shutdownflag, _reboot, copyover;
+extern int shutdownflag, _reboot, _autoboot, _copyover;
 extern int spl_table[TOTALLVLS][MAX_CIRCLE];
 extern int top_of_mobt;
 extern int top_of_objt;
@@ -3971,7 +3971,7 @@ void timedShutdown(P_char ch, P_char, P_obj, void *data)
         send_to_all(buf);
         logit(LOG_STATUS, buf);
         sql_log(ch, WIZLOG, buf);
-        shutdownflag = copyover = 1;
+        shutdownflag = _copyover = 1;
         break;
 
       case TimedShutdownData::AUTOREBOOT:
@@ -3979,7 +3979,7 @@ void timedShutdown(P_char ch, P_char, P_obj, void *data)
         send_to_all(buf);
         logit(LOG_STATUS, buf);
         sql_log(ch, WIZLOG, buf);
-        shutdownflag = _reboot = 1;
+        shutdownflag = _autoboot = 1;
         break;
 
       default:
