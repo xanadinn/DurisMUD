@@ -126,6 +126,23 @@ void display_map(P_char ch, int n, int show_map_regardless);
 
 
 extern HelpFilesCPPClass help_index;
+struct TimedShutdownData
+{
+  time_t  reboot_time;
+  int  next_warning;
+  enum
+  {
+    NONE,
+    OK,
+    REBOOT,
+    COPYOVER,
+    AUTOREBOOT,
+  }
+  eShutdownType;
+  char IssuedBy[50];
+};
+
+extern struct TimedShutdownData shutdownData;
 
 int astral_clock_setMapModifiers(void);
 void unmulti(P_char ch, P_obj obj);
@@ -5472,11 +5489,15 @@ void do_time(P_char ch, char *argument, int cmd)
  
 
   //Auto Reboot - Drannak
-  if((uptime.day * 24 + uptime.hour) > 65)
+  if( (uptime.day * 24 + uptime.hour) > 65 )
   {
-   do_shutdown(ch, "autoreboot 60", 1); 
+    // If no shutdown in progress, or shutdown is > 60 minutes out.
+    if( shutdownData.reboot_time == 0
+      || shutdownData.reboot_time - time(NULL) > 60 * 60 )
+    {
+      do_shutdown(ch, "autoreboot 60", 1);
+    }
   }
-
 
   sprintf(Gbuf2, "Time elapsed since boot-up: %d:%s%d:%s%d\n",
           uptime.day * 24 + uptime.hour,

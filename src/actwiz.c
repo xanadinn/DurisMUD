@@ -3931,7 +3931,7 @@ struct TimedShutdownData
   char IssuedBy[50];
 };
 
-static TimedShutdownData shutdownData = {0, -1, TimedShutdownData::NONE};
+TimedShutdownData shutdownData = {0, -1, TimedShutdownData::NONE};
 
 
 void timedShutdown(P_char ch, P_char, P_obj, void *data)
