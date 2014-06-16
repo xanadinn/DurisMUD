@@ -2438,8 +2438,11 @@ void event_revenant_crown(P_char ch, P_char victim, P_obj obj, void *data)
   {
     ch->player.race = af->modifier;
     affect_remove(ch, af);
-    ch->player.time.birth = time(NULL) - (racial_data[GET_RACE(ch)].base_age) * 2;
 //    GET_AGE(ch) = racial_data[(int) GET_RACE(ch)].base_age*2;
+    // Set birthdate + base_age + 5 years.
+    ch->player.time.birth = time(NULL);
+    // Add base_age to birthdate + base_age + 5 years.
+    ch->player.time.birth -= (racial_data[GET_RACE(ch)].base_age) * SECS_PER_MUD_YEAR;
     send_to_char
       ("The curse of the dark powers fade and your soul restores the body.\r\n",
        ch);
@@ -2521,9 +2524,11 @@ int revenant_helm(P_obj obj, P_char ch, int cmd, char *arg)
           FALSE, temp_ch, obj, 0, TO_CHAR);
 
       temp_ch->player.race = RACE_REVENANT;
-      temp_ch->player.time.birth = time(NULL);
-      temp_ch->player.time.birth -= (racial_data[RACE_REVENANT].base_age) * 2;
 //      GET_AGE(temp_ch) += racial_data[RACE_REVENANT].base_age*2;
+      // Set birthdate + base_age + 5 years.
+      temp_ch->player.time.birth = time(NULL);
+      // Add base_age to birthdate + base_age + 5 years.
+      temp_ch->player.time.birth -= (racial_data[RACE_REVENANT].base_age) * SECS_PER_MUD_YEAR;
       return TRUE;
 
     }
@@ -2592,9 +2597,12 @@ void event_dragonlord_check(P_char ch, P_char victim, P_obj obj, void *data)
     affect_remove(ch, af);
     ch->player.time.birth = time(NULL) - (racial_data[GET_RACE(ch)].base_age) * 2;
 //    GET_AGE(ch) = racial_data[(int) GET_RACE(ch)].base_age*2;
-    send_to_char
-      ("The curse of the dark powers fade and your soul restores the body.\r\n",
-       ch);
+    // Set birthdate + base_age + 5 years.
+    ch->player.time.birth = time(NULL);
+    // Add base_age to birthdate + base_age + 5 years.
+    ch->player.time.birth -= (racial_data[GET_RACE(ch)].base_age) * SECS_PER_MUD_YEAR;
+    send_to_char("The curse of the dark powers fade and your soul restores the body.\r\n", ch);
+
     int k = 0;
     P_obj temp_obj;
     for (k = 0; k < MAX_WEAR; k++)
@@ -2688,7 +2696,11 @@ int dragonlord_plate_old(P_obj obj, P_char ch, int cmd, char *arg)
 
       temp_ch->player.time.birth = time(NULL) - (racial_data[RACE_DRAGONKIN].base_age) * 2;
 //      GET_AGE(temp_ch) += racial_data[RACE_DRAGONKIN].base_age * 2;
-    
+      // Set birthdate + base_age + 5 years.
+      temp_ch->player.time.birth = time(NULL);
+      // Add base_age to birthdate + base_age + 5 years.
+      temp_ch->player.time.birth -= (racial_data[RACE_DRAGONKIN].base_age) * SECS_PER_MUD_YEAR;
+
       return TRUE;
     }
   }
@@ -2705,7 +2717,7 @@ int dragonlord_plate(P_obj obj, P_char ch, int cmd, char *arg)
    */
   if (cmd == -10)
     return TRUE;
- 
+
  if (!cmd){
     if(OBJ_WORN(obj)) {
       temp_ch = obj->loc.wearing;
