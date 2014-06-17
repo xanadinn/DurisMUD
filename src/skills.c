@@ -5432,6 +5432,7 @@ void update_racial_skills(P_char ch)
 			do_save_silent(ch, 1); // racial skills require a save.
 			break;
 			case RACE_GITHYANKI:
+			case RACE_GITHZERAI:
 			ch->only.pc->skills[SKILL_ADVANCED_MEDITATION].taught = BOUNDED(10, GET_LEVEL(ch) *2, 100);
 			ch->only.pc->skills[SKILL_ADVANCED_MEDITATION].learned = BOUNDED(10, GET_LEVEL(ch) *2, 100);
 			do_save_silent(ch, 1); // racial skills require a save.
