@@ -8413,7 +8413,8 @@ int MonkRiposte(P_char victim, P_char attacker, P_obj wpn)
       act("You tuck in your arms, roll away from $N's blow, then leap to your feet!",
           TRUE, victim, 0, attacker, TO_CHAR);
       SET_POS(victim, POS_STANDING + GET_STAT(victim));
-      CharWait(victim, (1 * WAIT_SEC));
+      // Dunno if this will clear lag or not.
+      CharWait(victim, 0);
       update_pos(victim);
       return false;
     }

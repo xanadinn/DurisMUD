@@ -4601,13 +4601,14 @@ void select_race(P_desc d, char *arg)
   case '!':
     strcpy(Gbuf, "KOBOLD");
     break;
+*/
   case '2':
     GET_RACE(d->character) = RACE_DRIDER;
     break;
   case '@':
     strcpy(Gbuf, "DRIDER");
     break;
-  case '3':
+/*  case '3':
     GET_RACE(d->character) = RACE_KUOTOA;
     break;
   case '#':
