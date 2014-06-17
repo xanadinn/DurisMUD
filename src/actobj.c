@@ -3796,8 +3796,7 @@ int wear(P_char ch, P_obj obj_object, int keyword, int showit)
     break;
 
   case 3: /* Body */
-    if (CAN_WEAR(obj_object, ITEM_WEAR_BODY) && !IS_THRIKREEN(ch)
-      && !IS_DRIDER(ch))
+    if (CAN_WEAR(obj_object, ITEM_WEAR_BODY) && !IS_THRIKREEN(ch) )
     {
       if (IS_SET(obj_object->extra_flags, ITEM_WHOLE_BODY))
       {

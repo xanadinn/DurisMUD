@@ -8709,24 +8709,18 @@ void do_whirlwind(P_char ch, char *argument, int cmd)
     return;
   }
 
-  if(!notch_skill(ch, SKILL_WHIRLWIND,
-                   get_property("skill.notch.offensive", 15)) &&
-      GET_CHAR_SKILL(ch, SKILL_WHIRLWIND) <= number(1, 100))
+  if(!notch_skill(ch, SKILL_WHIRLWIND, get_property("skill.notch.offensive", 15))
+    && GET_CHAR_SKILL(ch, SKILL_WHIRLWIND) <= number(1, 100))
   {
-    send_to_char
-      ("You concentrate and charge at your foes with insane speed.. alas, your coordination fails!\n",
-       ch);
+    send_to_char( "You concentrate and charge at your foes with insane speed.. alas, your coordination fails!\n", ch);
     act("$n attempts to fight even faster, but $s coordination failed $m.",
-        FALSE, ch, 0, 0, TO_ROOM);
+      FALSE, ch, 0, 0, TO_ROOM);
     GET_VITALITY(ch) -= 20;
     return;
   }
 
-  send_to_char
-    ("&+WYour mind goes &+wblank &+Wand the world &+wslows down &+Was you become one with the fight.\n",
-     ch);
-  act("$n turns into a blur of blades as $e charges at $s foes!", FALSE, ch,
-      0, 0, TO_ROOM);
+  send_to_char("&+WYour mind goes &+wblank &+Wand the world &+wslows down &+Was you become one with the fight.\n", ch);
+  act("$n turns into a blur of blades as $e charges at $s foes!", FALSE, ch, 0, 0, TO_ROOM);
 
   memset(&af, 0, sizeof(af));
   af.type = SKILL_WHIRLWIND;
