@@ -17600,6 +17600,12 @@ void spell_cure_disease(int level, P_char ch, char *arg, int type,
     send_to_char("You suddenly feel much much better.\n", victim);
     act("$n looks markedly better.", FALSE, victim, 0, 0, TO_ROOM);
   }
+  else if(affected_by_spell(victim, SPELL_CONTAGION))
+  {
+    affect_from_char(victim, SPELL_CONTAGION);
+    send_to_char("You suddenly feel much much better.\n", victim);
+    act("$n looks markedly better.", FALSE, victim, 0, 0, TO_ROOM);
+  }
   else
     send_to_char("There is no noticeable effect.\n", ch);
 }

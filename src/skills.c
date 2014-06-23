@@ -420,6 +420,11 @@ void initialize_skills()
   SKILL_CREATE("ground casting", SKILL_GROUND_CASTING, TAR_MENTAL);
   SKILL_ADD(CLASS_SORCERER, 41, 100);
 */
+
+  SPELL_CREATE("implosion", SPELL_IMPLOSION, PULSE_SPELLCAST * 2,
+                TAR_CHAR_ROOM | TAR_FIGHT_VICT | TAR_AGGRO, spell_implosion);
+  SPELL_ADD( CLASS_BLIGHTER, 11 );
+
   SPELL_CREATE("chaotic ripple", SPELL_CHAOTIC_RIPPLE, PULSE_SPELLCAST * 2,
                 TAR_CHAR_ROOM | TAR_FIGHT_VICT | TAR_AGGRO, spell_chaotic_ripple);
   SPEC_SPELL_ADD(CLASS_SORCERER, 12, SPEC_WILDMAGE);
@@ -651,11 +656,13 @@ void initialize_skills()
                 TAR_IGNORE | TAR_NOCOMBAT,
                 cast_transmute_rock_mud);
   //SPEC_SPELL_ADD(CLASS_CONJURER, 10, SPEC_EARTH);
+  SPELL_ADD( CLASS_BLIGHTER, 10 );
 
   SPELL_CREATE("transmute mud to rock", SPELL_TRANS_MUD_ROCK, PULSE_SPELLCAST * 4,
                 TAR_IGNORE | TAR_NOCOMBAT,
                 cast_transmute_mud_rock);
   //SPEC_SPELL_ADD(CLASS_CONJURER, 10, SPEC_EARTH);
+  SPELL_ADD( CLASS_BLIGHTER, 10 );
 
   SPELL_CREATE("transmute mud to water", SPELL_TRANS_MUD_WATER, PULSE_SPELLCAST * 4,
                 TAR_IGNORE | TAR_NOCOMBAT,
@@ -715,8 +722,12 @@ void initialize_skills()
   SPELL_CREATE_MSG("blood to stone", SPELL_BLOODSTONE, PULSE_SPELLCAST * 1,
                 TAR_CHAR_ROOM | TAR_FIGHT_VICT | TAR_AGGRO,
                 cast_bloodstone, "Your blood flows normally again.");
-
   SPEC_SPELL_ADD(CLASS_DRUID, 11, SPEC_STORM);
+
+  SPELL_CREATE_MSG("waves of fatigue", SPELL_WAVES_FATIGUE, PULSE_SPELLCAST * 1,
+                TAR_CHAR_ROOM | TAR_FIGHT_VICT | TAR_AGGRO,
+                spell_waves_fatigue, "You feel like moving again.");
+  SPELL_ADD( CLASS_BLIGHTER, 6 );
 
   SPELL_CREATE_MSG("accelerated healing", SPELL_ACCEL_HEALING, PULSE_SPELLCAST * 3 / 2,
                 TAR_CHAR_ROOM,
@@ -1261,6 +1272,7 @@ void initialize_skills()
                 TAR_IGNORE | TAR_AGGRO, spell_earthquake);
   SPELL_ADD(CLASS_CLERIC, 3);
   SPELL_ADD(CLASS_DRUID, 5);
+  SPELL_ADD(CLASS_BLIGHTER, 5);
 
   SPELL_CREATE("call woodland beings", SPELL_CALL_WOODLAND, PULSE_SPELLCAST * 3,
                 TAR_IGNORE | TAR_NOCOMBAT,
@@ -1302,6 +1314,7 @@ void initialize_skills()
                TAR_CHAR_ROOM | TAR_FIGHT_VICT | TAR_AGGRO, spell_harm);
   SPELL_ADD(CLASS_CLERIC, 6);
 //  SPELL_ADD(CLASS_DRUID, 5);
+  SPELL_ADD(CLASS_BLIGHTER, 5);
   SPELL_ADD(CLASS_ANTIPALADIN, 7);
 
   SPELL_CREATE("full harm", SPELL_FULL_HARM, PULSE_SPELLCAST * 3 / 2,
@@ -1328,11 +1341,17 @@ void initialize_skills()
 //  SPELL_ADD(CLASS_DRUID, 6);
 	SPEC_SPELL_ADD(CLASS_DRUID, 9, SPEC_STORM);
 //  SPELL_ADD(CLASS_RANGER, 10);
+  SPELL_ADD(CLASS_BLIGHTER, 9);
   SPEC_SPELL_ADD(CLASS_REAVER, 10, SPEC_FLAME_REAVER);
+
+  SPELL_CREATE("horrid wilting", SPELL_HORRID_WILTING, PULSE_SPELLCAST * 2,
+                TAR_AREA | TAR_OFFAREA | TAR_FIGHT_VICT | TAR_AGGRO, spell_horrid_wilting);
+  SPELL_ADD(CLASS_BLIGHTER, 10);
 
   SPELL_CREATE("flame strike", SPELL_FLAMESTRIKE, PULSE_SPELLCAST + 1,
                 TAR_CHAR_ROOM | TAR_FIGHT_VICT | TAR_CHAR_RANGE | TAR_AGGRO, spell_flamestrike);
   SPELL_ADD(CLASS_CLERIC, 6);
+  SPELL_ADD(CLASS_BLIGHTER, 6);
 
   SPELL_CREATE("teleport", SPELL_TELEPORT, PULSE_SPELLCAST,
                 TAR_SELF_ONLY, spell_teleport);
@@ -1535,6 +1554,10 @@ SPELL_CREATE("vigorize light", SPELL_VIGORIZE_LIGHT, PULSE_SPELLCAST * 2,
   SPELL_ADD(CLASS_DRUID, 2);
   SPEC_SPELL_ADD(CLASS_CLERIC, 3, SPEC_ZEALOT);
 
+  SPELL_CREATE_MSG("contagion", SPELL_CONTAGION, PULSE_SPELLCAST * 3 / 2,
+                TAR_CHAR_ROOM | TAR_FIGHT_VICT | TAR_AGGRO,
+                spell_contagion, "&+YYou feel much better.&n");
+
   SPELL_CREATE_MSG("curse", SPELL_CURSE, PULSE_SPELLCAST * 3 / 2,
                 TAR_CHAR_ROOM | TAR_OBJ_INV | TAR_FIGHT_VICT | TAR_SELF_NONO | TAR_AGGRO, spell_curse,
                "Your heart feels lighter, as you feel the &+Lcurse&n lift.");
@@ -1635,6 +1658,7 @@ SPELL_CREATE("vigorize light", SPELL_VIGORIZE_LIGHT, PULSE_SPELLCAST * 2,
   SPELL_ADD(CLASS_CLERIC, 2);
 //  SPELL_ADD(CLASS_DRUID, 2);
   SPELL_ADD(CLASS_ANTIPALADIN, 5);
+  SPELL_ADD( CLASS_BLIGHTER, 2 );
 
   SPELL_CREATE("cure critic", SPELL_CURE_CRITIC, PULSE_SPELLCAST * 2,
                 TAR_CHAR_ROOM, spell_cure_critic);
@@ -1647,6 +1671,7 @@ SPELL_CREATE("vigorize light", SPELL_VIGORIZE_LIGHT, PULSE_SPELLCAST * 2,
   SPELL_ADD(CLASS_CLERIC, 3);
 //  SPELL_ADD(CLASS_DRUID, 4);
   SPELL_ADD(CLASS_ANTIPALADIN, 6);
+  SPELL_ADD(CLASS_BLIGHTER, 3);
 
   SPELL_CREATE("heal", SPELL_HEAL,
                PULSE_SPELLCAST * 3 / 2, TAR_CHAR_ROOM | TAR_FIGHT_VICT, spell_heal);
@@ -1863,6 +1888,7 @@ SPELL_CREATE("vigorize light", SPELL_VIGORIZE_LIGHT, PULSE_SPELLCAST * 2,
                TAR_FIGHT_VICT | TAR_AGGRO, spell_poison,
                "You feel the &+gpoison &nin your &+Rblood &ndissipate.");
   SPELL_ADD(CLASS_DRUID, 4);
+  SPELL_ADD(CLASS_BLIGHTER, 4);
   SPEC_SPELL_ADD(CLASS_CLERIC, 4, SPEC_ZEALOT);
 
   SPELL_CREATE_MSG("protection from evil", SPELL_PROTECT_FROM_EVIL, PULSE_SPELLCAST,
@@ -1922,7 +1948,8 @@ SPELL_CREATE("vigorize light", SPELL_VIGORIZE_LIGHT, PULSE_SPELLCAST * 2,
   SPELL_CREATE("animate dead", SPELL_ANIMATE_DEAD, PULSE_SPELLCAST * 3,
                 TAR_OBJ_ROOM | TAR_NOCOMBAT, spell_animate_dead);
   SPELL_ADD(CLASS_NECROMANCER, 3);
-  
+  SPELL_ADD(CLASS_BLIGHTER, 5);
+
   SPELL_CREATE("call archon", SPELL_CALL_ARCHON, PULSE_SPELLCAST * 3,
                 TAR_OBJ_ROOM | TAR_NOCOMBAT, spell_call_archon);
   SPELL_ADD(CLASS_THEURGIST, 3);
@@ -2182,6 +2209,11 @@ SPELL_ADD(CLASS_CONJURER, 11);
   SPELL_ADD(CLASS_BARD, 7);
   SPELL_ADD(CLASS_WARLOCK, 6);
 
+  SPELL_CREATE("shambler", SPELL_SHAMBLER, PULSE_SPELLCAST * 4,
+                TAR_IGNORE,
+                spell_shambler);
+  SPELL_ADD(CLASS_BLIGHTER, 11 );
+
   SPELL_CREATE("conjure elemental", SPELL_CONJURE_ELEMENTAL, PULSE_SPELLCAST * 4,
                 TAR_IGNORE,
                 spell_conjour_elemental);
@@ -2243,6 +2275,18 @@ SPELL_ADD(CLASS_CONJURER, 11);
                 "&+CThe magical runes vanish in a &+Lpuff of smoke.");
   SPELL_ADD(CLASS_DRUID, 9);
   SPEC_SPELL_ADD(CLASS_SHAMAN, 9, SPEC_SPIRITUALIST);
+
+  SPELL_CREATE2("desecrate land", SPELL_DESECRATE_LAND, PULSE_SPELLCAST * 3,
+                TAR_IGNORE | TAR_SPIRIT,
+                spell_desecrate_land, "&+LYour magical &+mrunes&+L vanish in a puff of smoke.&n",
+                "&+LThe magical &+mrunes&+L vanish in a puff of smoke.&n");
+  SPELL_ADD(CLASS_BLIGHTER, 9 );
+
+  SPELL_CREATE2("forbiddance", SPELL_FORBIDDANCE, PULSE_SPELLCAST * 3,
+                TAR_IGNORE | TAR_SPIRIT,
+                spell_forbiddance, "&+LYour seal in this area is broken.&n",
+                "&+LThe magical seal in this area is broken.&n");
+  SPELL_ADD(CLASS_BLIGHTER, 7 );
 
   SPELL_CREATE2("summon insects", SPELL_SUMMON_INSECTS, PULSE_SPELLCAST * 3,
                 TAR_IGNORE,
@@ -2415,6 +2459,11 @@ SPELL_ADD(CLASS_NONE, 1);
                 spell_incendiary_cloud);
   SPELL_ADD(CLASS_SORCERER, 9);
 
+  SPELL_CREATE("acid rain", SPELL_ACID_RAIN, (int) (PULSE_SPELLCAST * 3),
+                TAR_AREA | TAR_OFFAREA | TAR_AGGRO,
+                spell_acid_rain);
+  SPELL_ADD(CLASS_BLIGHTER, 9);
+
   SPELL_CREATE("ice storm", SPELL_ICE_STORM, PULSE_SPELLCAST * 2,
                 TAR_AREA | TAR_OFFAREA /*| TAR_CHAR_RANGE */  | TAR_AGGRO, spell_ice_storm);
 //  SPELL_ADD(CLASS_NECROMANCER, 5);
@@ -2436,6 +2485,7 @@ SPELL_ADD(CLASS_NONE, 1);
                 TAR_CHAR_ROOM | TAR_FIGHT_VICT | TAR_AGGRO, spell_acid_stream);
   //SPELL_ADD(CLASS_DRUID, 8);
   SPEC_SPELL_ADD(CLASS_DRUID, 8, SPEC_STORM);
+  SPELL_ADD(CLASS_BLIGHTER, 8 );
 
   SPELL_CREATE("gaseous cloud", SPELL_GASEOUS_CLOUD, PULSE_SPELLCAST * 3 / 2,
                 TAR_CHAR_ROOM | TAR_FIGHT_VICT | TAR_AGGRO | TAR_ELEMENTAL,
@@ -2547,6 +2597,7 @@ SPELL_ADD(CLASS_NONE, 1);
   SPELL_CREATE("wall of flames", SPELL_WALL_OF_FLAMES, PULSE_SPELLCAST * 4,
                 TAR_IGNORE | TAR_NOCOMBAT, cast_wall_of_flames);
   SPELL_ADD(CLASS_CONJURER, 7);
+  SPELL_ADD(CLASS_BLIGHTER, 7);
 
   SPELL_CREATE("wall of ice", SPELL_WALL_OF_ICE, PULSE_SPELLCAST * 6,
                 TAR_IGNORE | TAR_NOCOMBAT, cast_wall_of_ice);
@@ -4180,6 +4231,7 @@ SPELL_ADD(CLASS_NONE, 1);
                 spell_vampiric_touch, "Your hands cease to glow &+Rred.&n");
   SPELL_ADD(CLASS_NECROMANCER, 2);
   SPELL_ADD(CLASS_THEURGIST, 2);
+  SPELL_ADD(CLASS_BLIGHTER, 4);
 
   SPELL_CREATE("protect undead", SPELL_PROT_UNDEAD, PULSE_SPELLCAST * 2,
                 TAR_CHAR_ROOM, spell_prot_undead);
@@ -4236,6 +4288,14 @@ SPELL_ADD(CLASS_NONE, 1);
                 TAR_CHAR_ROOM,
                 spell_thornskin, "Your skin loses its &+ythorny&n texture.");
   SPELL_ADD(CLASS_BLIGHTER, 1);
+
+  SPELL_CREATE("flame sphere", SPELL_FLAME_SPHERE, PULSE_SPELLCAST * 2/3,
+                TAR_CHAR_ROOM | TAR_FIGHT_VICT | TAR_CHAR_RANGE | TAR_RANGE2 | TAR_AGGRO, spell_flame_sphere);
+  SPELL_ADD(CLASS_BLIGHTER, 4);
+
+  SPELL_CREATE("blight", SPELL_BLIGHT, PULSE_SPELLCAST * 2/3,
+                TAR_CHAR_ROOM | TAR_FIGHT_VICT | TAR_AGGRO, spell_blight);
+  SPELL_ADD(CLASS_BLIGHTER, 5);
 
   SPELL_CREATE_MSG("mass barkskin", SPELL_MASS_BARKSKIN, PULSE_SPELLCAST * 3,
                 TAR_IGNORE,
@@ -4620,7 +4680,7 @@ SPELL_ADD(CLASS_NONE, 1);
   SKILL_ADD(CLASS_SORCERER, 1, 100);
 
   SKILL_CREATE("dodge", SKILL_DODGE, TAR_PHYS);
-  SKILL_ADD(CLASS_BLIGHTER, 1, 100);
+//  SKILL_ADD(CLASS_BLIGHTER, 1, 100);
   /*
   SKILL_ADD(CLASS_ANTIPALADIN, 1, 80);
   SKILL_ADD(CLASS_BARD, 1, 70);
