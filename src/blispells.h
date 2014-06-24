@@ -9,3 +9,4 @@ void spell_horrid_wilting(int level, P_char ch, char *arg, int type, P_char vict
 void spell_shambler(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj);
 void spell_implosion(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj);
 void spell_blight(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj);
+void spell_sandstorm(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj);

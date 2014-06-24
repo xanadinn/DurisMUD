@@ -594,3 +594,29 @@ void spell_implosion(int level, P_char ch, char *arg, int type, P_char victim, P
 
 }
 
+// Target Damage.
+void spell_sandstorm(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
+{
+  int dam = dice(level * 3, 6);
+  struct damage_messages messages = {
+    "You molest $N with sand.",
+    "$n sends sand at you!",
+    "$N is beleaguered with sand by $n.",
+    "$N chokes to death on the sand!",
+    "You choke to death on the sand!",
+    "$N chokes to death on the sand!",
+      0
+  };
+
+  if( !ch || !victim || !IS_ALIVE(ch) || !IS_ALIVE(victim) )
+  {
+    return;
+  }
+
+  if(!NewSaves(victim, SAVING_SPELL, 0))
+  {
+    dam /= 2;
+  }
+  spell_damage(ch, victim, dam, SPLDAM_GENERIC, SPLDAM_GLOBE | SPLDAM_GRSPIRIT, &messages);
+
+}
