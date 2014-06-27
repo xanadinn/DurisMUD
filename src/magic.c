@@ -8995,11 +8995,15 @@ void spell_invigorate(int level, P_char ch, char *arg, int type, P_char victim, 
     movepoints = (int)(movepoints * 0.80);
 
   if((movepoints + GET_VITALITY(victim)) > GET_MAX_VITALITY(victim))
+  {
+    debug("INVIGORATE: Movements points (%d) %s to %s.",
+      GET_MAX_VITALITY(victim) - GET_VITALITY(victim), GET_NAME(ch), GET_NAME(victim));
     GET_VITALITY(victim) = GET_MAX_VITALITY(victim);
+  }
   else
   {
+    debug("INVIGORATE: Movements points (%d) %s to %s.", movepoints, GET_NAME(ch), GET_NAME(victim));
     GET_VITALITY(victim) += movepoints;
-    debug("INVIGORATE: Movements points (%d).", movepoints);
   }
 
   act("You &+Winvigorate&n $N with renewed &+cenergy.&n",
