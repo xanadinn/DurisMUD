@@ -5115,9 +5115,8 @@ int melee_damage(P_char ch, P_char victim, double dam, int flags,
   }
 
   // Earth elementals ignore earth aura.
-  if(IS_AFFECTED2(victim, AFF2_EARTH_AURA) &&
-      !number(0, 5) &&
-      GET_RACE(ch) != RACE_E_ELEMENTAL)
+  if(IS_AFFECTED2(victim, AFF2_EARTH_AURA)
+    && !(flags & PHSDAM_NOREDUCE) && !number(0, 5) && GET_RACE(ch) != RACE_E_ELEMENTAL)
   {
     dam = 0;
     act("$n's &+yattack glances off of your stone hide!",
@@ -5130,7 +5129,7 @@ int melee_damage(P_char ch, P_char victim, double dam, int flags,
 
   // Combat mind bypasses displacement.
   if(affected_by_spell(victim, SPELL_DISPLACEMENT) &&
-      (!number(0, 5)) &&
+      (!number(0, 5)) && !(flags & PHSDAM_NOREDUCE) &&
       !affected_by_spell(ch, SPELL_COMBAT_MIND))
   {
     dam = 0;
@@ -5140,32 +5139,32 @@ int melee_damage(P_char ch, P_char victim, double dam, int flags,
         FALSE, victim, 0, 0, TO_CHAR);
   }
 
-  if (affected_by_spell(victim, SPELL_STONE_SKIN))
+  if (affected_by_spell(victim, SPELL_STONE_SKIN) && !(flags & PHSDAM_NOREDUCE))
   {
     reduction = 1. - get_property("damage.reduction.stoneSkin", 0.75);
     skin = SPELL_STONE_SKIN;
   }
-  else if (affected_by_spell(victim, SPELL_BIOFEEDBACK))
+  else if (affected_by_spell(victim, SPELL_BIOFEEDBACK) && !(flags & PHSDAM_NOREDUCE))
   {
     reduction = 1. - get_property("damage.reduction.biofeedback", 0.65);
     skin = SPELL_BIOFEEDBACK;
   }
-  else if (affected_by_spell(victim, SPELL_SHADOW_SHIELD))
+  else if (affected_by_spell(victim, SPELL_SHADOW_SHIELD) && !(flags & PHSDAM_NOREDUCE))
   {
     reduction = 1. - get_property("damage.reduction.stoneSkin", 0.75);
     skin = SPELL_SHADOW_SHIELD;
   }
-  else if (affected_by_spell(victim, SPELL_IRONWOOD))
+  else if (affected_by_spell(victim, SPELL_IRONWOOD) && !(flags & PHSDAM_NOREDUCE))
   {
     reduction = 1. - get_property("damage.reduction.ironwood", 0.80);
     skin = SPELL_IRONWOOD;
   }
-  else if (affected_by_spell(victim, SPELL_ICE_ARMOR))
+  else if (affected_by_spell(victim, SPELL_ICE_ARMOR) && !(flags & PHSDAM_NOREDUCE))
   {
     reduction = 1. - get_property("damage.reduction.icearmor", .75);
     skin = SPELL_ICE_ARMOR;
   }
-  else if (affected_by_spell(victim, SPELL_NEG_ARMOR))
+  else if (affected_by_spell(victim, SPELL_NEG_ARMOR) && !(flags & PHSDAM_NOREDUCE))
   {
     reduction = 1. - get_property("damage.reduction.negarmor", .75);
     skin = SPELL_NEG_ARMOR;
@@ -5206,10 +5205,10 @@ int melee_damage(P_char ch, P_char victim, double dam, int flags,
   if(affected_by_spell(ch, ACH_DRAGONSLAYER) && (GET_RACE(victim) == RACE_DRAGON))
     dam *= 1.10; 
 
-  if(affected_by_spell(ch, SKILL_DREADNAUGHT))
+  if(affected_by_spell(ch, SKILL_DREADNAUGHT) && !(flags & PHSDAM_NOREDUCE))
     dam *= .2;
 
-  if(affected_by_spell(victim, SKILL_DREADNAUGHT))
+  if(affected_by_spell(victim, SKILL_DREADNAUGHT) && !(flags & PHSDAM_NOREDUCE))
     dam *= .4;
 
   dam = MAX(1, dam);
@@ -5607,8 +5606,7 @@ int raw_damage(P_char ch, P_char victim, double dam, uint flags,
     return DAM_NONEDEAD;
   }
 
-  if(ch &&
-      victim) // Just making sure.
+  if(ch && victim) // Just making sure.
   {
 
     //Client
@@ -5680,16 +5678,12 @@ int raw_damage(P_char ch, P_char victim, double dam, uint flags,
       if (IS_HARDCORE(victim))
         dam = (int) dam *0.91;
 
-      if(IS_GOOD(ch) &&
-          affected_by_spell(ch, SPELL_HOLY_SWORD) &&
-          IS_EVIL(victim))
+      if(IS_GOOD(ch) && affected_by_spell(ch, SPELL_HOLY_SWORD) && IS_EVIL(victim))
       {
         dam = ((int) dam + dice(2, 6));
       }
 
-      if(IS_EVIL(ch) &&
-          affected_by_spell(ch, SPELL_HOLY_SWORD) &&
-          IS_GOOD(victim))
+      if(IS_EVIL(ch) && affected_by_spell(ch, SPELL_HOLY_SWORD) && IS_GOOD(victim))
       {
         dam = ( (int) dam - dice(2, 6) );
       }
@@ -5719,24 +5713,22 @@ int raw_damage(P_char ch, P_char victim, double dam, uint flags,
         dam *= dam_factor[DF_SANC];
       }
 
-      if (get_spell_from_room(&world[ch->in_room], SPELL_CONSECRATE_LAND))
+      if( get_spell_from_room(&world[ch->in_room], SPELL_CONSECRATE_LAND) && !(flags & PHSDAM_NOREDUCE))
       {
         dam = ((int) dam) >> 1;
       }
 
-      if (get_spell_from_room(&world[ch->in_room], SPELL_BINDING_WIND))
+      if( get_spell_from_room(&world[ch->in_room], SPELL_BINDING_WIND) && !(flags & PHSDAM_NOREDUCE))
       {
         dam = (int) dam *0.80;
       }
 
-      if(IS_AFFECTED3(victim, AFF3_PROT_ANIMAL) &&
-          IS_ANIMAL(ch))
+      if(IS_AFFECTED3(victim, AFF3_PROT_ANIMAL) && IS_ANIMAL(ch) && !(flags & PHSDAM_NOREDUCE))
       {
         dam = dam_factor[DF_PROTANIMAL] * dam;
       }
 
-      if(IS_AFFECTED3( ch, AFF3_PALADIN_AURA ) &&
-          has_aura(ch, AURA_BATTLELUST ) )
+      if(IS_AFFECTED3( ch, AFF3_PALADIN_AURA ) && has_aura(ch, AURA_BATTLELUST ) && !(flags & PHSDAM_NOREDUCE))
       {
         dam += dam *
           (( get_property("innate.paladin_aura.battlelust_mod", 0.2 ) * aura_mod(ch, AURA_BATTLELUST) ) / 100 );
@@ -5771,12 +5763,13 @@ int raw_damage(P_char ch, P_char victim, double dam, uint flags,
     loss = MIN(dam, (10 + GET_HIT(victim)) * 4);
     damage_dealt = (int) dam;
 
-    dam = ((int) dam) >> 1;
+    if( !(flags & PHSDAM_NOREDUCE) )
+    {
+      dam = ((int) dam) >> 1;
+    }
 
-    if(IS_NPC(ch) &&
-        !IS_PC_PET(ch) &&
-        !IS_MORPH(ch) &&
-        (IS_PC(victim) || IS_PC_PET(victim) || IS_MORPH(victim)))
+    if(IS_NPC(ch) && !IS_PC_PET(ch) && !IS_MORPH(ch)
+      && (IS_PC(victim) || IS_PC_PET(victim) || IS_MORPH(victim)))
     {
       dam = dam * (dam_factor[DF_NPCTOPC] / 2);
       if (GET_RACEWAR(victim) == RACEWAR_GOOD)
@@ -5784,7 +5777,7 @@ int raw_damage(P_char ch, P_char victim, double dam, uint flags,
       if (GET_RACEWAR(victim) == RACEWAR_EVIL)
         dam = dam * (float)get_property("damage.modifier.npcToPc.evil", 1.000);
     }
-    else
+    else if( !(flags & PHSDAM_NOREDUCE) )
     {
       dam = ((int) dam) >> 1;
     }
