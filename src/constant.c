@@ -502,7 +502,7 @@ const float blighter_memtime_terrain_mod[NUM_SECT_TYPES] = {
   1.3,                          /* ud slime */
   1.5,                          /* ud low ceiling */
   2.0,                          /* ud liqmith */
-  1.25,                         /* ud mushroom */
+  1.0,                          /* ud mushroom */
   1.5,                          /* castle wall */
   1.5,                          /* castle gate */
   1.5,                          /* castle */
