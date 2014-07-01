@@ -4553,11 +4553,13 @@ void event_sneaky_strike(P_char ch, P_char victim, P_obj obj, void *data)
 	      act("$n &+Lquickly steps into the sh&+wad&+Wows&+L, and suddenly appears behind $N &+Lstriking violently...",
      	  	TRUE, ch, 0, victim, TO_NOTVICT);
     		single_stab(ch, victim, weapon);
+/* Commenting out 2nd stab
 		    act("&+L...you then meld into your victim's sh&+wad&+Wow&+L, only to attack again!",
      	      FALSE, ch, 0, victim, TO_CHAR);
 		    act("&+L...$n &+Lthen quickly fades into the sh&+wad&+Wow&+L, re-appearing only to attack again!",
      	  	TRUE, ch, 0, victim, TO_NOTVICT);
 		    single_stab(ch, victim, weapon);
+*/
 	    }
 	    else if(GET_CLASS(ch, CLASS_BARD))
 	    {
