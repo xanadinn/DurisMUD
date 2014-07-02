@@ -1016,6 +1016,7 @@ void poof_arti( P_char ch, char *arg )
     vnum = 0;
     extract_obj(obj, FALSE);
   }
+  closedir(dir);
   if( vnum )
   {
     // Get name from arti file.
@@ -1164,6 +1165,7 @@ void swap_arti( P_char ch, char *arg )
       arti2 = NULL;
     }
   }
+  closedir(dir);
   // If found, send error arti2 already in game and return
   if( arti2 || vnum )
   {
@@ -1221,6 +1223,7 @@ void swap_arti( P_char ch, char *arg )
       extract_obj(arti1, FALSE);
       arti1 = NULL;
     }
+    closedir(dir);
   }
   // If !arti1 and !vnum then nothing to swap.
   // If vnum then arti is on pfile.
@@ -1495,6 +1498,7 @@ void set_timer_arti( P_char ch, char *arg )
     vnum = 0;
     extract_obj(obj, FALSE);
   }
+  closedir(dir);
   // If arti is on pfile
   if( vnum )
   {
@@ -1687,6 +1691,7 @@ void event_check_arti_poof( P_char ch, P_char vict, P_obj obj, void * arg )
       }
     }
   }
+  closedir(dir);
 
   // 3600 = 60sec * 60min => Repeat every one hour (not too important to have it sooner).
   add_event( event_check_arti_poof, 3600 * WAIT_SEC, ch, vict, obj, 0, arg, 0 );
