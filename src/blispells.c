@@ -907,3 +907,64 @@ void spell_toxic_fog(int level, P_char ch, char *arg, int type, P_char victim, P
   spell_damage(ch, victim, dam, SPLDAM_GAS, 0, &messages);
 
 }
+
+void spell_faluzures_vitality(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
+{
+  struct affected_type af;
+  bool message = FALSE;
+  int healpoints = (2 * level) + number(40, 90);
+
+  if(!ch)
+  {
+    logit(LOG_EXIT, "spell_faluzures_vitality: No ch!");
+    raise(SIGSEGV);
+  }
+
+  if(affected_by_spell(ch, SPELL_ESHABALAS_VITALITY))
+  {
+    send_to_char("&+LThe blessings of the God &+yFa&+Lluz&+yure&+L are denied!&n\r\n", victim);
+    return;
+  }
+
+  if(affected_by_spell(ch, SPELL_VITALITY))
+  {
+    send_to_char("&+LThe God &+yFa&+Lluz&+yure&+L will not further bless your vitality...&n\r\n", victim);
+    return;
+  }
+
+  if(affected_by_spell(ch, SPELL_MIELIKKI_VITALITY))
+  {
+    send_to_char("&+LThe God &+yFa&+Lluz&+yure&+L will not further bless your vitality...&n\r\n", victim);
+    return;
+  }
+
+  if(affected_by_spell(ch, SPELL_FALUZURES_VITALITY))
+  {
+    struct affected_type *paf;
+
+    for( paf = victim->affected; paf; paf = paf->next )
+    {
+      if( paf->type == SPELL_FALUZURES_VITALITY )
+      {
+        paf->duration = 15;
+        message = true;
+      }
+    }
+    if(message)
+      send_to_char("&+yThe God graces you.\r\n", victim);
+    return;
+  }
+
+  bzero(&af, sizeof(af));
+  af.type = SPELL_MIELIKKI_VITALITY;
+  af.duration = 15;
+  af.modifier = healpoints;
+  af.location = APPLY_HIT;
+  affect_to_char(victim, &af);
+
+  af.modifier = number(20, 45);
+  af.location = APPLY_MOVE;
+  affect_to_char(victim, &af);
+
+  send_to_char("&+yYou feel the &+Lcold &+ybreath of the God &+yFa&+Lluz&+yure.&n\r\n", ch);
+}

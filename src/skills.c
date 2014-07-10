@@ -1377,6 +1377,11 @@ void initialize_skills()
                 spell_mielikki_vitality, "&+GMielikki's blessing fades.&n");
   SPELL_ADD(CLASS_DRUID, 7);
   //SPELL_ADD(CLASS_RANGER, 8);
+
+  SPELL_CREATE_MSG("faluzures vitality", SPELL_FALUZURES_VITALITY, PULSE_SPELLCAST * 3,
+                TAR_SELF_ONLY | TAR_NOCOMBAT,
+                spell_faluzures_vitality, "&+yFa&+Lluz&+yure&+L's blessing fades.&n");
+  SPELL_ADD(CLASS_BLIGHTER, 7);
   
   SPELL_CREATE_MSG("bless", SPELL_BLESS, PULSE_SPELLCAST,
                 TAR_OBJ_INV | TAR_OBJ_EQUIP | TAR_CHAR_ROOM | TAR_NOCOMBAT,

@@ -2733,6 +2733,12 @@ struct god_list_data_struct god_list_data[] = {
 const char *get_god_name(P_char ch)
 {
   int i;
+
+  if( GET_CLASS( ch, CLASS_BLIGHTER) )
+  {
+    return "&+yFa&+Lluz&+yure&n";
+  }
+
   for (i = 0; god_list_data[i].race != RACE_NONE; i++)
     if (GET_RACE(ch) == god_list_data[i].race)
       break;

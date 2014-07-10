@@ -9261,9 +9261,15 @@ void spell_vitality(int level, P_char ch, char *arg, int type, P_char victim,
      GET_VNUM(victim) == IMAGE_REFLECTION_VNUM)
       return;
 
-if(affected_by_spell(victim, SPELL_MIELIKKI_VITALITY))
+  if(affected_by_spell(victim, SPELL_MIELIKKI_VITALITY))
   {
     send_to_char("&+GThe Goddess Mielikki is aiding your health, and prevents the vitality spell from functioning...\r\n", victim);
+    return;
+  }
+
+  if(affected_by_spell(victim, SPELL_FALUZURES_VITALITY))
+  {
+    send_to_char("&+LThe God &+yFa&+Lluz&+yure&+L is aiding your health, and prevents the vitality spell from functioning...\r\n", victim);
     return;
   }
 
@@ -9272,10 +9278,9 @@ if(affected_by_spell(victim, SPELL_MIELIKKI_VITALITY))
     send_to_char("&+rThe blessings of the vitality spell are denied by Eshabala!\r\n", victim);
     return;
   }
-      
-  if(!IS_PC(ch) &&
-     !IS_PC(victim))
-        duration = 30;
+
+  if(!IS_PC(ch) && !IS_PC(victim))
+    duration = 30;
   else
     duration = (int)(MAX(10, GET_LEVEL(ch) / 4));
 
@@ -9284,11 +9289,11 @@ if(affected_by_spell(victim, SPELL_MIELIKKI_VITALITY))
     send_to_char("&+BYou feel vitalized.\n", victim);
     act("$N looks vitalized.&n",
       TRUE, ch, 0, victim, TO_NOTVICT);
-      
+
     if(ch != victim)
       act("You vitalize $N.&n",
         TRUE, ch, 0, victim, TO_CHAR);
-    
+
     bzero(&af, sizeof(af));
     af.type = SPELL_VITALITY;
     af.duration = duration;
@@ -12282,7 +12287,7 @@ void spell_endurance(int level, P_char ch, char *arg, int type, P_char victim,
     send_to_char("You can't possibly regain movement any faster.\n", victim);
     return;
   }
-  
+
   if(affected_by_spell(ch, SPELL_MIELIKKI_VITALITY) &&
      !GET_CLASS(ch, CLASS_DRUID) &&
      !GET_SPEC(ch, CLASS_RANGER, SPEC_WOODSMAN))
@@ -12290,9 +12295,9 @@ void spell_endurance(int level, P_char ch, char *arg, int type, P_char victim,
     send_to_char("&+GThe Goddess Mielikki is aiding your health, and prevents the endurance spell from functioning...\r\n", victim);
     return;
   }
-  
+
   skl_lvl = (int)(MAX(3, ((level / 4) - 1)) * get_property("spell.endurance.modifiers", 1.000));
-  
+
   sprintf(Gbuf1, "You feel energy begin to surge through your limbs.\n");
 
   bzero(&af, sizeof(af));
@@ -21501,14 +21506,14 @@ void spell_mielikki_vitality(int level, P_char ch, char *arg, int type, P_char v
   struct affected_type af;
   bool message = false;
   int healpoints = (2 * level) + number(40, 90);
- 
+
   if(affected_by_spell(ch, SPELL_ESHABALAS_VITALITY))
   {
     send_to_char("&+GThe blessings of the Goddess Mielikki are denied!\r\n", victim);
     return;
   }
 
-if(affected_by_spell(ch, SPELL_VITALITY))
+  if(affected_by_spell(ch, SPELL_VITALITY))
   {
     send_to_char("&+GThe Goddess Mielikki cannot further bless your vitality...\r\n", victim);
     return;
@@ -21525,13 +21530,12 @@ if(affected_by_spell(ch, SPELL_VITALITY))
         af1->duration = 15;
         message = true;
       }
-    
+
     if(message)
       send_to_char("&+GThe Goddess graces you.\r\n", victim);
-      
     return;
   }
-  
+
   bzero(&af, sizeof(af));
   af.type = SPELL_MIELIKKI_VITALITY;
   af.duration = 15;
@@ -21554,7 +21558,7 @@ if(affected_by_spell(ch, SPELL_VITALITY))
     af.location = APPLY_HIT_REG;
     affect_to_char(victim, &af);
   }
-  
+
   /*  // They get endurance, no need for this.
   if((GET_CLASS(ch, CLASS_RANGER) &&
      !affected_by_spell(ch, SPELL_ENDURANCE)) ||
@@ -21562,8 +21566,8 @@ if(affected_by_spell(ch, SPELL_VITALITY))
   {
     af.modifier = number(25, 50);
     af.location = APPLY_MOVE_REG;
-    affect_to_char(victim, &af);    
-  }    
+    affect_to_char(victim, &af);
+  }
   */
 
   send_to_char("&+GYou feel the &+ywarm &+Gbreath of the Goddess Mielikki.\r\n", ch);
