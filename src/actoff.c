@@ -5703,12 +5703,6 @@ if((GET_RACE(victim) == RACE_OGRE) && ch_size < vict_size)
     percent_chance -= 10;
   }
 
-  if (number(1, 105) > GET_C_AGI(ch))
-  {
-   percent_chance *= .75;
-  }
-
-
   /*
    * if they are fighting something and try to bash something else
    */
@@ -5752,7 +5746,7 @@ if((GET_RACE(victim) == RACE_OGRE) && ch_size < vict_size)
 
   percent_chance =
     takedown_check(ch, victim, percent_chance, SKILL_BASH,
-                   APPLY_ALL ^ VICTIM_BACK_RANK);
+                   APPLY_ALL ^ AGI_CHECK ^ VICTIM_BACK_RANK);
 
   if(percent_chance == TAKEDOWN_CANCELLED)
   {
