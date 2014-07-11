@@ -438,6 +438,10 @@ void displayFragList(P_char ch, char *arg, int cmd)
     {
       sprintf(filename, "Fraglists/fraglist.druid");
     }
+    else if (strstr("blighter", arg))
+    {
+      sprintf(filename, "Fraglists/fraglist.blighter");
+    }
     else if (strstr("reaver", arg))
     {
       sprintf(filename, "Fraglists/fraglist.reaver");
