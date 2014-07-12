@@ -2113,6 +2113,11 @@ struct mcname {
 #define SPEC_TEMPLAR 2
 #define SPEC_THAUMATURGE 3
 
+//Summoner Specs
+#define SPEC_CONTROLLER 1
+#define SPEC_SUMMONER 2
+#define SPEC_NATURALIST 3
+
 #define MAX_SPEC 4
 
 struct quest_msg_data

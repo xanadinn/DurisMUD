@@ -374,7 +374,7 @@ int inn(int room, P_char ch, int cmd, char *arg)
         REMOVE_BIT(ch->specials.affected_by4, AFF4_TUPOR);
       }
       
-	if(GET_CLASS(ch, CLASS_CONJURER))
+	if(GET_CLASS(ch, CLASS_CONJURER) || GET_CLASS(ch, CLASS_SUMMONER))
        do_dismiss(ch, NULL, 0);
       
       GET_HOME(ch) = world[ch->in_room].number;

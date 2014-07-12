@@ -548,8 +548,7 @@ void do_spells(P_char ch, char *argument, int cmd)
         sprintf(buf2 + strlen(buf2), "&+LAP(&n&+C%d&+L)&n,", lvl);
       if ((lvl = skills[spell].m_class[flag2idx(CLASS_CLERIC) - 1].rlevel[0]))
         sprintf(buf2 + strlen(buf), "&+cCL(&n&+C%d&n&+y)&n,", lvl);
-      if ((lvl =
-           skills[spell].m_class[flag2idx(CLASS_CONJURER) - 1].rlevel[0]))
+      if ((lvl = skills[spell].m_class[flag2idx(CLASS_CONJURER) - 1].rlevel[0]))
         sprintf(buf2 + strlen(buf2), "&+YCO(&n&+C%d&+Y)&n,", lvl);
       if ((lvl = skills[spell].m_class[flag2idx(CLASS_DRUID) - 1].rlevel[0]))
         sprintf(buf2 + strlen(buf2), "&+gDR(&n&+C%d&n&+g)&n,", lvl);
@@ -578,6 +577,8 @@ void do_spells(P_char ch, char *argument, int cmd)
         sprintf(buf2 + strlen(buf2), "&+bRV(&n&+C%d&n&+b)&n", lvl);
       if ((lvl = skills[spell].m_class[flag2idx(CLASS_THEURGIST) - 1].rlevel[0]))
         sprintf(buf2 + strlen(buf2), "&+cTH(&n&+C%d&n&+b)&n", lvl);
+      if ((lvl = skills[spell].m_class[flag2idx(CLASS_SUMMONER) - 1].rlevel[0]))
+        sprintf(buf2 + strlen(buf2), "&+RSU(&n&+C%d&+R)&n,", lvl);
 
       char buf3[MAX_STRING_LENGTH];
       sprintf(buf3,
@@ -761,7 +762,7 @@ void do_skills(P_char ch, char *argument, int cmd)
   if (!*argument && IS_TRUSTED(ch))
   {
     send_to_char
-      ("      Name                        Ap As Ps Ba Cl Co Dr Me Mo Ne Pa Ra Sh So Th Wa Al Re Be Wl Il\n",
+      ("      Name                        Ap As Ps Ba Cl Co Dr Me Mo Ne Pa Ra Sh So Th Wa Al Re Be Wl Il Su\n",
        ch);
     for (skil = 0; skil <= MAX_AFFECT_TYPES; skil++)
     {
@@ -771,7 +772,7 @@ void do_skills(P_char ch, char *argument, int cmd)
         continue;
 
       sprintf(buf1,
-        "%-30s    %2d %2d %2d %2d %2d %2d %2d %2d %2d %2d %2d %2d %2d %2d %2d %2d %2d %2d %2d %2d %2d\n",
+        "%-30s    %2d %2d %2d %2d %2d %2d %2d %2d %2d %2d %2d %2d %2d %2d %2d %2d %2d %2d %2d %2d %2d %2d\n",
         skills[skl].name,
         skills[skl].m_class[flag2idx(CLASS_ANTIPALADIN) - 1].rlevel[0],
         skills[skl].m_class[flag2idx(CLASS_ASSASSIN) - 1].rlevel[0],
@@ -793,7 +794,8 @@ void do_skills(P_char ch, char *argument, int cmd)
         skills[skl].m_class[flag2idx(CLASS_REAVER) - 1].rlevel[0],
         skills[skl].m_class[flag2idx(CLASS_BERSERKER) - 1].rlevel[0],
         skills[skl].m_class[flag2idx(CLASS_WARLOCK) - 1].rlevel[0],
-        skills[skl].m_class[flag2idx(CLASS_ILLUSIONIST) - 1].rlevel[0]);
+        skills[skl].m_class[flag2idx(CLASS_ILLUSIONIST) - 1].rlevel[0],
+        skills[skl].m_class[flag2idx(CLASS_SUMMONER) - 1].rlevel[0]);
 
       send_to_char(buf1, ch);
     }

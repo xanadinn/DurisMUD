@@ -1332,7 +1332,7 @@ void spell_earthen_rain(int level, P_char ch, char *arg, int type,
   
   if(IS_ALIVE(ch))
   {
-    if(GET_SPEC(ch, CLASS_CONJURER, SPEC_ELEMENTALIST))
+    if(GET_SPEC(ch, CLASS_CONJURER, SPEC_EARTH))
       level = (int) (level * 1.25);
       
     spell_earthquake(level, ch, NULL, SPELL_TYPE_SPELL, 0, 0);

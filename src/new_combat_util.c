@@ -562,6 +562,7 @@ int getCharToHitValClassandLevel(const P_char ch)
   case CLASS_PSIONICIST:
   case CLASS_NECROMANCER:
   case CLASS_CONJURER:
+  case CLASS_SUMMONER:
   case CLASS_SORCERER:
     val = 4 + (lvl / 3);
     break;
@@ -993,7 +994,7 @@ int getNPCweaponSkillLevel(const P_char ch, const int wpn_skill)
     val += (lvl >> 1);
 
   if (((chcl == CLASS_SORCERER) || (chcl == CLASS_CONJURER) ||
-       (chcl == CLASS_PSIONICIST) || (chcl == CLASS_NECROMANCER)) &&
+     (chcl == CLASS_SUMMONER) ||  (chcl == CLASS_PSIONICIST) || (chcl == CLASS_NECROMANCER)) &&
       (wpn_skill == SKILL_STAFF))
     val += (lvl >> 2);
 

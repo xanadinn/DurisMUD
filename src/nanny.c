@@ -354,6 +354,11 @@ void load_obj_to_newbies(P_char ch)
                                           1114, 1115, 1131, 706, 735, 731,
                                           731, 203, 204, -1}));
 
+  CREATE_KIT(RACE_BARBARIAN, CLASS_SUMMONER, ((int[])
+                                          {
+                                          1114, 1115, 1131, 706, 735, 731,
+                                          731, 203, 204, -1}));
+
   CREATE_KIT(RACE_BARBARIAN, CLASS_MONK, ((int[])
                                       {
                                       1147, 1148, 1149, 1150, 1151, -1}));
@@ -444,6 +449,11 @@ void load_obj_to_newbies(P_char ch)
                                              1143, 203, 204, -1}));
 
   CREATE_KIT(RACE_GITHZERAI, CLASS_CONJURER, ((int[])
+                                          {
+                                          1114, 1115, 1131, 706, 735, 731,
+                                          731, 203, 204, -1}));
+
+  CREATE_KIT(RACE_GITHZERAI, CLASS_SUMMONER, ((int[])
                                           {
                                           1114, 1115, 1131, 706, 735, 731,
                                           731, 203, 204, -1}));
@@ -543,6 +553,11 @@ void load_obj_to_newbies(P_char ch)
                                           1114, 1115, 1131, 706, 735, 731,
                                           731, 203, 204, -1}));
 
+  CREATE_KIT(RACE_HUMAN, CLASS_SUMMONER, ((int[])
+                                          {
+                                          1114, 1115, 1131, 706, 735, 731,
+                                          731, 203, 204, -1}));
+
   CREATE_KIT(RACE_HUMAN, CLASS_MONK, ((int[])
                                       {
                                       1147, 1148, 1149, 1150, 1151, -1}));
@@ -634,6 +649,11 @@ void load_obj_to_newbies(P_char ch)
                                              1143, 203, 204, -1}));
 
   CREATE_KIT(RACE_DROW, CLASS_CONJURER, ((int[])
+                                          {
+                                          1114, 1115, 1131, 706, 735, 731,
+                                          731, 203, 204, -1}));
+
+  CREATE_KIT(RACE_DROW, CLASS_SUMMONER, ((int[])
                                           {
                                           1114, 1115, 1131, 706, 735, 731,
                                           731, 203, 204, -1}));
@@ -734,6 +754,11 @@ void load_obj_to_newbies(P_char ch)
                                           1114, 1115, 1131, 706, 735, 731,
                                           731, 203, 204, -1}));
 
+  CREATE_KIT(RACE_DUERGAR, CLASS_SUMMONER, ((int[])
+                                          {
+                                          1114, 1115, 1131, 706, 735, 731,
+                                          731, 203, 204, -1}));
+
   CREATE_KIT(RACE_DUERGAR, CLASS_MONK, ((int[])
                                       {
                                       1147, 1148, 1149, 1150, 1151, -1}));
@@ -829,6 +854,11 @@ void load_obj_to_newbies(P_char ch)
                                           1114, 1115, 1131, 706, 735, 731,
                                           731, 203, 204, -1}));
 
+  CREATE_KIT(RACE_GNOME, CLASS_SUMMONER, ((int[])
+                                          {
+                                          1114, 1115, 1131, 706, 735, 731,
+                                          731, 203, 204, -1}));
+
   CREATE_KIT(RACE_GNOME, CLASS_MONK, ((int[])
                                       {
                                       1147, 1148, 1149, 1150, 1151, -1}));
@@ -881,6 +911,11 @@ void load_obj_to_newbies(P_char ch)
                                            1106, 1107, 1108, 1109, -1}));
 
   CREATE_KIT(RACE_HALFELF, CLASS_CONJURER, ((int[])
+                                            {
+                                            1114, 1115, 1131, 706, 735, 731,
+                                            731, -1}));
+
+  CREATE_KIT(RACE_HALFELF, CLASS_SUMMONER, ((int[])
                                             {
                                             1114, 1115, 1131, 706, 735, 731,
                                             731, -1}));
@@ -995,6 +1030,11 @@ void load_obj_to_newbies(P_char ch)
                                           1114, 1115, 1131, 706, 735, 731,
                                           731, 203, 204, -1}));
 
+  CREATE_KIT(RACE_HALFLING, CLASS_SUMMONER, ((int[])
+                                          {
+                                          1114, 1115, 1131, 706, 735, 731,
+                                          731, 203, 204, -1}));
+
   CREATE_KIT(RACE_HALFLING, CLASS_MONK, ((int[])
                                       {
                                       1147, 1148, 1149, 1150, 1151, -1}));
@@ -1102,6 +1142,11 @@ void load_obj_to_newbies(P_char ch)
                                           1114, 1115, 1131, 706, 735, 731,
                                           731, 203, 204, -1}));
 
+  CREATE_KIT(RACE_CENTAUR, CLASS_SUMMONER, ((int[])
+                                          {
+                                          1114, 1115, 1131, 706, 735, 731,
+                                          731, 203, 204, -1}));
+
   CREATE_KIT(RACE_CENTAUR, CLASS_MONK, ((int[])
                                       {
                                       1147, 1148, 1149, 1150, 1151, -1}));
@@ -1147,6 +1192,9 @@ void load_obj_to_newbies(P_char ch)
   CREATE_KIT(RACE_HARPY, CLASS_CONJURER, ((int[])
                                           {
                                           706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_HARPY, CLASS_SUMMONER, ((int[])
+                                          {
+                                          706, 735, 731, 731, -1}));
   CREATE_KIT(RACE_HARPY, CLASS_ETHERMANCER, ((int[])
                                              {
                                              706, 735, 731, 731, -1}));
@@ -1182,6 +1230,11 @@ void load_obj_to_newbies(P_char ch)
                                               731, -1}));
   
   CREATE_KIT(RACE_PILLITHID, CLASS_CONJURER, ((int[])
+                                              {
+                                              1114, 1115, 1131, 706, 735, 731,
+                                              731, -1}));
+
+  CREATE_KIT(RACE_PILLITHID, CLASS_SUMMONER, ((int[])
                                               {
                                               1114, 1115, 1131, 706, 735, 731,
                                               731, -1}));
@@ -1267,6 +1320,11 @@ void load_obj_to_newbies(P_char ch)
                                              1143, 203, 204, -1}));
 
   CREATE_KIT(RACE_GITHYANKI, CLASS_CONJURER, ((int[])
+                                          {
+                                          1114, 1115, 1131, 706, 735, 731,
+                                          731, 203, 204, -1}));
+
+  CREATE_KIT(RACE_GITHYANKI, CLASS_SUMMONER, ((int[])
                                           {
                                           1114, 1115, 1131, 706, 735, 731,
                                           731, 203, 204, -1}));
@@ -1380,6 +1438,11 @@ void load_obj_to_newbies(P_char ch)
                                           1114, 1115, 1131, 706, 735, 731,
                                           731, 203, 204, -1}));
 
+  CREATE_KIT(RACE_MINOTAUR, CLASS_SUMMONER, ((int[])
+                                          {
+                                          1114, 1115, 1131, 706, 735, 731,
+                                          731, 203, 204, -1}));
+
   CREATE_KIT(RACE_MINOTAUR, CLASS_MONK, ((int[])
                                       {
                                       1147, 1148, 1149, 1150, 1151, -1}));
@@ -1477,6 +1540,11 @@ void load_obj_to_newbies(P_char ch)
                                           1114, 1115, 1131, 706, 735, 731,
                                           731, 203, 204, -1}));
 
+  CREATE_KIT(RACE_GREY, CLASS_SUMMONER, ((int[])
+                                          {
+                                          1114, 1115, 1131, 706, 735, 731,
+                                          731, 203, 204, -1}));
+
   CREATE_KIT(RACE_GREY, CLASS_MONK, ((int[])
                                       {
                                       1147, 1148, 1149, 1150, 1151, -1}));
@@ -1570,6 +1638,11 @@ void load_obj_to_newbies(P_char ch)
                                              1143, 203, 204, -1}));
 
   CREATE_KIT(RACE_MOUNTAIN, CLASS_CONJURER, ((int[])
+                                          {
+                                          1114, 1115, 1131, 706, 735, 731,
+                                          731, 203, 204, -1}));
+
+  CREATE_KIT(RACE_MOUNTAIN, CLASS_SUMMONER, ((int[])
                                           {
                                           1114, 1115, 1131, 706, 735, 731,
                                           731, 203, 204, -1}));
@@ -1693,6 +1766,11 @@ void load_obj_to_newbies(P_char ch)
                                           1114, 1115, 1131, 706, 735, 731,
                                           731, 203, 204, -1}));
 
+  CREATE_KIT(RACE_OGRE, CLASS_SUMMONER, ((int[])
+                                          {
+                                          1114, 1115, 1131, 706, 735, 731,
+                                          731, 203, 204, -1}));
+
   CREATE_KIT(RACE_OGRE, CLASS_MONK, ((int[])
                                       {
                                       1147, 1148, 1149, 1150, 1151, -1}));
@@ -1777,6 +1855,11 @@ void load_obj_to_newbies(P_char ch)
                                              1143, 203, 204, -1}));
 
   CREATE_KIT(RACE_ORC, CLASS_CONJURER, ((int[])
+                                          {
+                                          1114, 1115, 1131, 706, 735, 731,
+                                          731, 203, 204, -1}));
+
+  CREATE_KIT(RACE_ORC, CLASS_SUMMONER, ((int[])
                                           {
                                           1114, 1115, 1131, 706, 735, 731,
                                           731, 203, 204, -1}));
@@ -2082,6 +2165,11 @@ void load_obj_to_newbies(P_char ch)
                                           1114, 1115, 1131, 706, 735, 731,
                                           731, 203, 204, -1}));
 
+  CREATE_KIT(RACE_TROLL, CLASS_SUMMONER, ((int[])
+                                          {
+                                          1114, 1115, 1131, 706, 735, 731,
+                                          731, 203, 204, -1}));
+
   CREATE_KIT(RACE_TROLL, CLASS_MONK, ((int[])
                                       {
                                       1147, 1148, 1149, 1150, 1151, -1}));
@@ -2179,6 +2267,11 @@ void load_obj_to_newbies(P_char ch)
                                           1114, 1115, 1131, 706, 735, 731,
                                           731, 203, 204, -1}));
 
+  CREATE_KIT(RACE_GOBLIN, CLASS_SUMMONER, ((int[])
+                                          {
+                                          1114, 1115, 1131, 706, 735, 731,
+                                          731, 203, 204, -1}));
+
   CREATE_KIT(RACE_GOBLIN, CLASS_MONK, ((int[])
                                       {
                                       1147, 1148, 1149, 1150, 1151, -1}));
@@ -2242,6 +2335,11 @@ void load_obj_to_newbies(P_char ch)
                                          -1}));
 
   CREATE_KIT(RACE_DRIDER, CLASS_CONJURER, ((int[])
+                                         {
+                                         1114, 1115, 1131, 706, 735, 731, 731,
+                                         -1}));
+
+  CREATE_KIT(RACE_DRIDER, CLASS_SUMMONER, ((int[])
                                          {
                                          1114, 1115, 1131, 706, 735, 731, 731,
                                          -1}));
@@ -2313,6 +2411,11 @@ void load_obj_to_newbies(P_char ch)
                                              1143, 203, 204, -1}));
 
   CREATE_KIT(RACE_KOBOLD, CLASS_CONJURER, ((int[])
+                                          {
+                                          1114, 1115, 1131, 706, 735, 731,
+                                          731, 203, 204, -1}));
+
+  CREATE_KIT(RACE_KOBOLD, CLASS_SUMMONER, ((int[])
                                           {
                                           1114, 1115, 1131, 706, 735, 731,
                                           731, 203, 204, -1}));
@@ -2446,6 +2549,11 @@ void load_obj_to_newbies(P_char ch)
                                           1114, 1115, 1131, 706, 735, 731,
                                           731, 203, 204, -1}));
 
+  CREATE_KIT(RACE_FIRBOLG, CLASS_SUMMONER, ((int[])
+                                          {
+                                          1114, 1115, 1131, 706, 735, 731,
+                                          731, 203, 204, -1}));
+
   CREATE_KIT(RACE_FIRBOLG, CLASS_MONK, ((int[])
                                       {
                                       1147, 1148, 1149, 1150, 1151, -1}));
@@ -2510,6 +2618,11 @@ void load_obj_to_newbies(P_char ch)
                                        1127, -1}));
 
   CREATE_KIT(RACE_WOODELF, CLASS_CONJURER, ((int[])
+                                         {
+                                         1114, 1115, 1131, 706, 735, 731, 731,
+                                         -1}));
+
+  CREATE_KIT(RACE_WOODELF, CLASS_SUMMONER, ((int[])
                                          {
                                          1114, 1115, 1131, 706, 735, 731, 731,
                                          -1}));

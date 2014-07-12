@@ -5735,7 +5735,7 @@ void do_weather(P_char ch, char *argument, int cmd)
       GET_CLASS(ch, CLASS_SHAMAN) ||
       GET_CLASS(ch, CLASS_PALADIN) ||
       GET_CLASS(ch, CLASS_ANTIPALADIN) ||
-      GET_CLASS(ch, CLASS_NECROMANCER) ||
+      GET_CLASS(ch, CLASS_NECROMANCER) || GET_CLASS(ch, CLASS_SUMMONER) ||
       GET_CLASS(ch, CLASS_CONJURER) || GET_CLASS(ch, CLASS_SORCERER))
   {
     if (cond->free_energy > 40000)

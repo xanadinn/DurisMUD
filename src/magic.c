@@ -2019,9 +2019,9 @@ void spell_conjour_elemental(int level, P_char ch, char *arg, int type,
     sum = number(0, 3);
   }
 
-  if(IS_SPECIALIZED(ch) && GET_CLASS(ch, CLASS_CONJURER) && (IS_PC(ch) || IS_PC_PET(ch)))
+  if(IS_SPECIALIZED(ch) && GET_CLASS(ch, CLASS_SUMMONER) && (IS_PC(ch) || IS_PC_PET(ch)))
   {
-   send_to_char("Specialized &+Yconjurers&n use the &+cconjure&n command to manage their minions.\r\n", ch);
+   send_to_char("Specialized &+Rsummoners&n use the &+cconjure&n command to manage their minions.\r\n", ch);
    return;
   }
 
@@ -2709,14 +2709,13 @@ void spell_conjour_greater_elemental(int level, P_char ch, char *arg,
     return;
   }
 
-  if(IS_SPECIALIZED(ch) && GET_CLASS(ch, CLASS_CONJURER) && (IS_PC(ch) || IS_PC_PET(ch)))
+  if(IS_SPECIALIZED(ch) && GET_CLASS(ch, CLASS_SUMMONER) && (IS_PC(ch) || IS_PC_PET(ch)))
   {
-   send_to_char("Specialized &+Yconjurers&n use the &+cconjure&n command to manage their minions.\r\n", ch);
+   send_to_char("Specialized &+Rsummoners&n use the &+cconjure&n command to manage their minions.\r\n", ch);
    return;
   }
 
-  if(GET_CLASS(ch, CLASS_CONJURER) &&
-     IS_SPECIALIZED(ch))
+  if(GET_CLASS(ch, CLASS_CONJURER) && IS_SPECIALIZED(ch))
   {
     conjure_specialized(ch, level);
     return;
@@ -9459,6 +9458,8 @@ void spell_globe(int level, P_char ch, char *arg, int type, P_char victim,
     af.type = SPELL_GLOBE;
     if(GET_CLASS(ch, CLASS_CONJURER))
       af.duration = 15;
+    else if(GET_CLASS(ch, CLASS_SUMMONER))
+      af.duration = 12;
     else
       af.duration = 8;
     af.bitvector2 = AFF2_GLOBE;

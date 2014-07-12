@@ -907,7 +907,7 @@ for ((IN_ROOM) = world[(PLAYER)->in_room].people; (IN_ROOM) != NULL; (IN_ROOM) =
 #define PUNDEAD_RACE(ch) RACE_PUNDEAD(ch)
 
 #define IS_PURE_CASTER_CLASS(cls) ( (cls) &\
-  (CLASS_SORCERER | CLASS_CONJURER | CLASS_ILLUSIONIST |\
+  (CLASS_SORCERER | CLASS_CONJURER | CLASS_ILLUSIONIST | CLASS_SUMMONER | \
   CLASS_NECROMANCER | CLASS_CLERIC | CLASS_SHAMAN | CLASS_BARD |\
   CLASS_DRUID | CLASS_ETHERMANCER | CLASS_THEURGIST | CLASS_BLIGHTER))
 #define IS_PARTIAL_CASTER_CLASS(cls) ( (cls) &\
@@ -919,7 +919,7 @@ for ((IN_ROOM) = world[(PLAYER)->in_room].people; (IN_ROOM) != NULL; (IN_ROOM) =
   IS_PURE_CASTER_CLASS(cls) || IS_SEMI_CASTER_CLASS(cls) )
 #define IS_BOOK_CLASS(cls) ( (cls) &\
   (CLASS_SORCERER | CLASS_CONJURER | CLASS_NECROMANCER |\
-   CLASS_ILLUSIONIST | CLASS_BARD |\
+   CLASS_ILLUSIONIST | CLASS_BARD | CLASS_SUMMONER | \
    CLASS_REAVER | CLASS_THEURGIST ))
 #define IS_PRAYING_CLASS(cls) ( (cls) &\
   (CLASS_CLERIC | CLASS_PALADIN | CLASS_ANTIPALADIN | CLASS_AVENGER))
@@ -1242,6 +1242,7 @@ IS_GIANT(ch) || IS_PC_PET(ch) || IS_PC(ch) || IS_UNDEAD(ch) || IS_EFREET(ch)) &&
                                                   CLASS_PSIONICIST | \
                                                   CLASS_ILLUSIONIST | \
                                                   CLASS_CONJURER | \
+                                                  CLASS_SUMMONER | \
                                                   CLASS_BARD | \
                                                   CLASS_THEURGIST))
 

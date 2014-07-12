@@ -2040,6 +2040,13 @@ bool aggressive_to_class(P_char ch, P_char target)
     if (IS_AGGRO2FLAG(ch, AGGR2_CONJURER) && GET_CLASS1(target, CLASS_CONJURER))
       return TRUE;
 
+    // Summoners are almost identical to conjs. retrofitting..
+    if (IS_AGGRO2FLAG(ch, AGGR2_CONJURER) && GET_CLASS1(target, CLASS_SUMMONER))
+      return TRUE;
+
+    if (IS_AGGRO3FLAG(ch, AGGR3_SUMMONER) && GET_CLASS1(target, CLASS_SUMMONER))
+      return TRUE;
+
     if (IS_AGGRO2FLAG(ch, AGGR2_ROGUE) && GET_CLASS1(target, CLASS_ROGUE))
       return TRUE;
 

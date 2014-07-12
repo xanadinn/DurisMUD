@@ -1685,7 +1685,7 @@ bool mob_can_range_att(P_char ch, P_char victim)
 */
  }
 
- if (GET_CLASS(ch, CLASS_CONJURER))
+ if( GET_CLASS(ch, CLASS_CONJURER) || GET_CLASS(ch, CLASS_SUMMONER) )
  {
    if (!spl && npc_has_spell_slot(ch, SPELL_ICE_STORM))
      spl = SPELL_ICE_STORM;

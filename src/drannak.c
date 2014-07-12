@@ -518,17 +518,20 @@ bool minotaur_race_proc(P_char ch, P_char victim)
   switch(ch->player.m_class)
   {
     case CLASS_REAVER:
-      class_chance = 30;
     case CLASS_RANGER:
       class_chance = 30;
+      break;
     case CLASS_MONK:
       class_chance = 20;
+      break;
     case CLASS_SORCERER:
-      class_chance = 6;
     case CLASS_CONJURER:
+    case CLASS_SUMMONER:
       class_chance = 6;
+      break;
     case CLASS_WARRIOR:
       class_chance = 10;
+      break;
     default:
       class_chance = 15;
       break;
@@ -1277,7 +1280,7 @@ void do_conjure(P_char ch, char *argument, int cmd)
     return;
 
 
-  if (!GET_SPEC(ch, CLASS_CONJURER, SPEC_WATER) && !GET_SPEC(ch, CLASS_CONJURER, SPEC_AIR) && !GET_SPEC(ch, CLASS_CONJURER, SPEC_EARTH))
+  if (!GET_SPEC(ch, CLASS_SUMMONER, SPEC_CONTROLLER) && !GET_SPEC(ch, CLASS_SUMMONER, SPEC_SUMMONER) && !GET_SPEC(ch, CLASS_SUMMONER, SPEC_NATURALIST))
   {
     act("&+YConjuring advanced beings &nis a &+Mmagic &nbeyond your abilities&n.",
         FALSE, ch, 0, 0, TO_CHAR);
@@ -1399,7 +1402,7 @@ void do_conjure(P_char ch, char *argument, int cmd)
       return;
     }
     tobj = read_mobile(selected, VIRTUAL);
-    send_to_char("&+rYou open your &+Yconjurers &+Lt&+mo&+Mm&+We &+rwhich &+Rreveals&+r the following information...&n.\n", ch);
+    send_to_char("&+rYou open your &+RSummoners &+Lt&+mo&+Mm&+We &+rwhich &+Rreveals&+r the following information...&n.\n", ch);
     get_class_string(tobj, cinfo2);
     sprintf(cinfo, "You glean they are: \r\n&+YLevel &+W%d \r\n&+YClass:&n %s \r\n&+YBase Hitpoints:&n %d\r\n", GET_LEVEL(tobj), get_class_string(tobj, buf2), GET_MAX_HIT(tobj));
     send_to_char(cinfo, ch);
@@ -1608,17 +1611,17 @@ bool valid_conjure(P_char ch, P_char victim)
 
   if(GET_VNUM(victim) != 400003)
   {
-    if(GET_SPEC(ch, CLASS_CONJURER, SPEC_AIR) && !IS_HUMANOID(victim) || IS_UNDEADRACE(victim))
+    if(GET_SPEC(ch, CLASS_SUMMONER, SPEC_CONTROLLER) && !IS_HUMANOID(victim) || IS_UNDEADRACE(victim))
     {
       return FALSE;
     }
 
-    if(GET_SPEC(ch, CLASS_CONJURER, SPEC_WATER) && !IS_ELEMENTAL(victim))
+    if(GET_SPEC(ch, CLASS_SUMMONER, SPEC_SUMMONER) && !IS_ELEMENTAL(victim))
     {
       return FALSE;
     }
 
-    if(GET_SPEC(ch, CLASS_CONJURER, SPEC_EARTH) && !IS_ANIMAL(victim))
+    if(GET_SPEC(ch, CLASS_SUMMONER, SPEC_NATURALIST) && !IS_ANIMAL(victim))
     {
       return FALSE;
     }
@@ -1708,21 +1711,21 @@ void learn_conjure_recipe(P_char ch, P_char victim)
   if(IS_PC_PET(victim))
     return;
 
-  if(GET_SPEC(ch, CLASS_CONJURER, SPEC_AIR) && !IS_HUMANOID(victim))
+  if(GET_SPEC(ch, CLASS_SUMMONER, SPEC_CONTROLLER) && !IS_HUMANOID(victim))
   {
     send_to_char("You cannot learn to summon a being outside of your area of expertise.\r\n", ch);
     extract_char(victim);
     return;
   }
 
-  if(GET_SPEC(ch, CLASS_CONJURER, SPEC_WATER) && !IS_ELEMENTAL(victim))
+  if(GET_SPEC(ch, CLASS_SUMMONER, SPEC_SUMMONER) && !IS_ELEMENTAL(victim))
   {
     send_to_char("You cannot learn to summon a being outside of your area of expertise.\r\n", ch);
     extract_char(victim);
     return;
   }
 
-  if(GET_SPEC(ch, CLASS_CONJURER, SPEC_EARTH) && !IS_ANIMAL(victim))
+  if(GET_SPEC(ch, CLASS_SUMMONER, SPEC_NATURALIST) && !IS_ANIMAL(victim))
   {
     send_to_char("You cannot learn to summon a being outside of your area of expertise.\r\n", ch);
     extract_char(victim);

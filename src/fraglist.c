@@ -410,6 +410,10 @@ void displayFragList(P_char ch, char *arg, int cmd)
     {
       sprintf(filename, "Fraglists/fraglist.conjurer");
     }
+    else if (strstr("summoner", arg))
+    {
+      sprintf(filename, "Fraglists/fraglist.summoner");
+    }
     else if (strstr("rogue", arg))
     {
       sprintf(filename, "Fraglists/fraglist.rogue");

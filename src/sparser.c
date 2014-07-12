@@ -707,6 +707,7 @@ int spell_class(int spl)
       case CLASS_SORCERER:
       case CLASS_NECROMANCER:
       case CLASS_CONJURER:
+      case CLASS_SUMMONER:
       case CLASS_RANGER:
       case CLASS_WARLOCK:
       case CLASS_REAVER:

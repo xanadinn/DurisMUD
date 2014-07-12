@@ -2184,7 +2184,7 @@ void die(P_char ch, P_char killer)
     return;
   }
 
-  if(IS_PC(ch) && GET_CLASS(ch, CLASS_CONJURER))
+  if( IS_PC(ch) && ( GET_CLASS(ch, CLASS_CONJURER) || GET_CLASS(ch, CLASS_SUMMONER) ) )
   {
     do_dismiss(ch, NULL, 0);
   }
@@ -2900,7 +2900,7 @@ void kill_gain(P_char ch, P_char victim)
     }
     change_alignment(ch, victim);
 
-    if(!IS_PC(victim) && affected_by_spell(victim, SPELL_CONTAIN_BEING) && GET_CLASS(ch, CLASS_CONJURER) && IS_SPECIALIZED(ch) && IS_PC(ch))
+    if(!IS_PC(victim) && affected_by_spell(victim, SPELL_CONTAIN_BEING) && GET_CLASS(ch, CLASS_SUMMONER) && IS_SPECIALIZED(ch) && IS_PC(ch))
     {
       if(!valid_conjure(ch, victim)) 
       {
@@ -3007,7 +3007,7 @@ void kill_gain(P_char ch, P_char victim)
 
       change_alignment(gl->ch, victim);
 
-      if(!IS_PC(victim) && affected_by_spell(victim, SPELL_CONTAIN_BEING) && GET_CLASS(gl->ch, CLASS_CONJURER) && IS_SPECIALIZED(gl->ch) && IS_PC(gl->ch))
+      if(!IS_PC(victim) && affected_by_spell(victim, SPELL_CONTAIN_BEING) && GET_CLASS(gl->ch, CLASS_SUMMONER) && IS_SPECIALIZED(gl->ch) && IS_PC(gl->ch))
       {
         if(!valid_conjure(gl->ch, victim))
         {
@@ -6251,7 +6251,8 @@ int calculate_thac_zero(P_char ch, int skill)
   }
   else if( GET_CLASS(ch, CLASS_SORCERER) || GET_CLASS(ch, CLASS_CONJURER)
     || GET_CLASS(ch, CLASS_NECROMANCER) || GET_CLASS(ch, CLASS_THEURGIST)
-    || GET_CLASS(ch, CLASS_ILLUSIONIST) || GET_CLASS(ch, CLASS_MINDFLAYER) )
+    || GET_CLASS(ch, CLASS_ILLUSIONIST) || GET_CLASS(ch, CLASS_MINDFLAYER)
+    || GET_CLASS(ch, CLASS_SUMMONER) )
   {
     to_hit = get_property("to.hit.MageTypes", 4);
   }

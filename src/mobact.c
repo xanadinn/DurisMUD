@@ -537,7 +537,9 @@ int IS_MAGE(P_char ch)
     CLASS_REAVER |
     CLASS_ANTIPALADIN |
     CLASS_PSIONICIST) |
-    CLASS_THEURGIST);
+    CLASS_THEURGIST |
+    CLASS_SUMMONER
+);
 }
 
 int IS_THIEF(P_char ch)
@@ -6281,7 +6283,7 @@ bool MobMercenary(P_char ch)
             (CLASS_SORCERER | CLASS_PSIONICIST | CLASS_CLERIC |
              CLASS_CONJURER | CLASS_WARLOCK | CLASS_ILLUSIONIST |
              CLASS_BARD | CLASS_DRUID | CLASS_ETHERMANCER | CLASS_SHAMAN |
-             CLASS_NECROMANCER | CLASS_THEURGIST))
+             CLASS_NECROMANCER | CLASS_THEURGIST | CLASS_SUMMONER))
         {
           do_headlock(ch, 0, CMD_HEADLOCK);
         }
@@ -6752,7 +6754,7 @@ void MobCombat(P_char ch)
 
   if((GET_CLASS(ch, CLASS_SORCERER) || GET_CLASS(ch, CLASS_CONJURER) ||
        GET_CLASS(ch, CLASS_NECROMANCER) || GET_CLASS(ch, CLASS_BARD) ||
-       GET_CLASS(ch, CLASS_THEURGIST)) &&
+       GET_CLASS(ch, CLASS_THEURGIST) || GET_CLASS(ch, CLASS_SUMMONER)) &&
         (!IS_MULTICLASS_NPC(ch) || number(0, 2)))
     if(CastMageSpell(ch, 0, FALSE))
       return;
@@ -7605,7 +7607,7 @@ int handle_npc_assist(P_char ch)
 bool MobSpellUp(P_char ch)
 {
     bool is_multiclass = IS_MULTICLASS_NPC(ch); // about 15% are multiclass
-    if(GET_CLASS(ch, CLASS_SORCERER | CLASS_CONJURER | CLASS_NECROMANCER | CLASS_THEURGIST) && (is_multiclass ? number(0, 2) : 1))
+    if(GET_CLASS(ch, CLASS_SORCERER | CLASS_CONJURER | CLASS_NECROMANCER | CLASS_THEURGIST | CLASS_SUMMONER) && (is_multiclass ? number(0, 2) : 1))
     {
       if(CastMageSpell(ch, ch, FALSE))
         return TRUE;
@@ -7929,7 +7931,7 @@ PROFILE_START(mundane_mobcast);
         CLASS_CLERIC | CLASS_SHAMAN | CLASS_ETHERMANCER | CLASS_DRUID |
         CLASS_SORCERER | CLASS_CONJURER | CLASS_NECROMANCER |
 	CLASS_THEURGIST | CLASS_ILLUSIONIST | CLASS_WARLOCK |
-        CLASS_PSIONICIST | CLASS_MINDFLAYER |
+        CLASS_PSIONICIST | CLASS_MINDFLAYER | CLASS_SUMMONER |
         CLASS_PALADIN | CLASS_ANTIPALADIN |
         CLASS_RANGER | CLASS_REAVER |
         CLASS_ALCHEMIST | CLASS_BARD |
