@@ -665,7 +665,7 @@ void initialize_skills()
                 TAR_IGNORE | TAR_NOCOMBAT,
                 cast_transmute_mud_rock);
   //SPEC_SPELL_ADD(CLASS_CONJURER, 10, SPEC_EARTH);
-  SPELL_ADD( CLASS_BLIGHTER, 10 );
+  //SPELL_ADD( CLASS_BLIGHTER, 10 );
 
   SPELL_CREATE("transmute mud to water", SPELL_TRANS_MUD_WATER, PULSE_SPELLCAST * 4,
                 TAR_IGNORE | TAR_NOCOMBAT,
