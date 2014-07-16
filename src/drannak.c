@@ -770,7 +770,6 @@ void create_recipe(P_char ch, P_obj temp)
     return;
   }
 
-// STONE/SNEAK/HIDE/E AURAS
   // No recipes for high end equipment.
   if( IS_SET(obj->bitvector, (AFF_STONE_SKIN | AFF_BIOFEEDBACK | AFF_SNEAK | AFF_HIDE ))
     || IS_SET(obj->bitvector2, ( AFF2_EARTH_AURA | AFF2_WATER_AURA | AFF2_FIRE_AURA | AFF2_AIR_AURA | AFF2_FLURRY ))
