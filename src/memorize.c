@@ -1111,7 +1111,7 @@ void event_memorize(P_char ch, P_char victim, P_obj obj, void *data)
     time = *((int *) data);
 
   if( time && (!IS_AFFECTED(ch, AFF_MEDITATE)
-    || (!notch_skill(ch, SKILL_MEDITATE, (int) get_property("skill.notch.meditate", 100))
+    || (!notch_skill(ch, SKILL_MEDITATE, (int) get_property("skill.notch.meditate", 3))
     && GET_CHAR_SKILL(ch, SKILL_MEDITATE) < number(0, 100))))
   {
     add_event(event_memorize, time / 2, ch, 0, 0, 0, 0, 0);
@@ -2408,7 +2408,7 @@ void event_scribe(P_char ch, P_char victim, P_obj obj, void *data)
       send_to_char
         ("The spell used the rest of the empty pages in the book.\n", ch);
     }
-    notch_skill(ch, SKILL_SCRIBE, 5);
+    notch_skill(ch, SKILL_SCRIBE, 17);
   }
   else
   {

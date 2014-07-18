@@ -1655,14 +1655,14 @@ void command_interpreter(P_char ch, char *argument)
                 send_to_char("&+LYou remain well prepared.&n\r\n", ch);
               else
               {
-                notch_skill(ch, SKILL_AMBUSH, 100);
+                notch_skill(ch, SKILL_AMBUSH, 1);
                 affect_from_char(ch, SKILL_AMBUSH);
                 REMOVE_BIT(ch->specials.affected_by5, AFF5_SHADE_MOVEMENT);
                 REMOVE_BIT(ch->specials.affected_by, AFF_HIDE);
               }
             else
             {
-              notch_skill(ch, SKILL_AMBUSH, 50);
+              notch_skill(ch, SKILL_AMBUSH, 2);
               affect_from_char(ch, SKILL_AMBUSH);
               REMOVE_BIT(ch->specials.affected_by5, AFF5_SHADE_MOVEMENT);
               REMOVE_BIT(ch->specials.affected_by, AFF_HIDE);
@@ -1722,7 +1722,7 @@ void command_interpreter(P_char ch, char *argument)
            if ((cmd == CMD_FIRE) && GET_CHAR_SKILL(ch, SKILL_SHADOW_ARCHERY))
            {
              send_to_char("&+LYou fire silently from the shadows...&n\r\n", ch);
-             notch_skill(ch, SKILL_SHADOW_ARCHERY, 100);
+             notch_skill(ch, SKILL_SHADOW_ARCHERY, 1);
            }
           else
             REMOVE_BIT(ch->specials.affected_by, AFF_HIDE);
@@ -1759,7 +1759,7 @@ void command_interpreter(P_char ch, char *argument)
             else
             {
               send_to_char("You continue your meditation uninterrupted.\n", ch);
-             notch_skill(ch, SKILL_ADVANCED_MEDITATION, 50);
+             notch_skill(ch, SKILL_ADVANCED_MEDITATION, 2);
             }
           }
         }

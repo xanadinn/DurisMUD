@@ -159,9 +159,8 @@ void do_holy_smite(P_char ch, char *argument, int cmd)
 	  ch);
    return;
   }
-  if (!notch_skill(ch, SKILL_HOLY_SMITE,
-                   get_property("skill.notch.offensive", 15)) &&
-      number(1, 101) > skl_lvl)
+  if (!notch_skill(ch, SKILL_HOLY_SMITE, get_property("skill.notch.offensive", 7))
+    && number(1, 101) > skl_lvl)
   {
     act("You fruitlessly attempt to judge $N's sins.", FALSE, ch, 0, vict, TO_CHAR);
     act("$n's attempt to judge your sins causes you to laugh malevolently.", FALSE, ch,

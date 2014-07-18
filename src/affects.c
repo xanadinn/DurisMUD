@@ -224,9 +224,11 @@ int apply_ac(P_char ch, int eq_pos)
       if( GET_CHAR_SKILL(ch, SKILL_SHIELD_COMBAT) )
       {
         value += (int) ( GET_CHAR_SKILL(ch, SKILL_SHIELD_COMBAT) * (float) get_property("skill.shieldCombat.ACBonusMultiplier", 1.00) );
-        if (GET_CLASS(ch, CLASS_WARRIOR | CLASS_PALADIN | CLASS_ANTIPALADIN | CLASS_MERCENARY))
-	  value *= 2;
-                    notch_skill(ch, SKILL_SHIELD_COMBAT, 50);
+        if( GET_CLASS(ch, CLASS_WARRIOR | CLASS_PALADIN | CLASS_ANTIPALADIN | CLASS_MERCENARY) )
+        {
+      	  value *= 2;
+        }
+        notch_skill(ch, SKILL_SHIELD_COMBAT, 33.33);
       }
       break;
     case WEAR_BODY:
@@ -3450,7 +3452,7 @@ bool falling_char(P_char ch, const int kill_char, bool caller_is_event)
     if (dam <= 0)
     {
       send_to_char("You land deftly on your feet, nice jump!\n", ch);
-      notch_skill(ch, SKILL_SAFE_FALL, 30);
+      notch_skill(ch, SKILL_SAFE_FALL, 33.33);
       do_look(ch, 0, -2);
       act("$n drops in from above, landing neatly.", TRUE, ch, 0, 0, TO_ROOM);
       return FALSE;

@@ -116,7 +116,7 @@ void event_track_move(P_char ch, P_char vict, P_obj obj, void *data)
 
     add_event(event_track_move, 10 + number(-2, 10), ch, vict, 0, 0, 0, 0);
     act("$n intently searches for tracks.", TRUE, ch, 0, 0, TO_ROOM);
-    notch_skill(ch, SKILL_TRACK, 4);
+    notch_skill(ch, SKILL_TRACK, 20);
   }
 }
 
@@ -256,9 +256,9 @@ void do_track_not_in_use(P_char ch, char *arg, int cmd)
   {
     send_to_char("&+LYou are unable to find any tracks.&n\r\n", ch);
   }
-  
+
   notch_skill(ch, SKILL_TRACK, 10);
-  
+
   CharWait(ch, (int)(PULSE_VIOLENCE * (float)get_property("track.scan.lag", 1)));
 
   return;
@@ -366,7 +366,7 @@ void do_track(P_char ch, char *arg, int cmd) //do_track_not_in_use
   send_to_char("You attempt your skills at tracking.\n", ch);
   add_event(event_track_move, 5, ch, victim, 0, 0, 0, 0);
   CharWait(ch, PULSE_VIOLENCE);
-  notch_skill(ch, SKILL_TRACK, 4);
+  notch_skill(ch, SKILL_TRACK, 20);
 
   return;
 }
@@ -986,7 +986,7 @@ void show_tracks(P_char ch)
   }
   else
   {
-    //notch_skill(ch, SKILL_TRACK, 5);
+    //notch_skill(ch, SKILL_TRACK, 20);
   }
   return;
 }

@@ -564,7 +564,7 @@ void do_war_cry(P_char ch, char *arg, int cmd)
           update_pos(gl->ch);
           send_to_char("You feel like you could &+rfight&n forever.\r\n", gl->ch);
           act("&+L$n becomes alert and ready to &+rfight&n.", TRUE, gl->ch, 0, 0, TO_ROOM);
-          notch_skill( ch, SKILL_WAR_CRY, 15 );
+          notch_skill( ch, SKILL_WAR_CRY, 10 );
         }
       }
     }
@@ -591,7 +591,7 @@ void do_war_cry(P_char ch, char *arg, int cmd)
       update_pos(ch);
       send_to_char("You feel like you could &+rfight&n forever.\r\n", ch);
       act("&+L$n becomes alert and ready to &+rfight&n.", TRUE, ch, 0, 0, TO_ROOM);
-      notch_skill(ch, SKILL_WAR_CRY, 15);
+      notch_skill(ch, SKILL_WAR_CRY, 25);
     }
   }
 
@@ -896,14 +896,15 @@ void do_flurry_of_blows(P_char ch, char *arg)
     if (!CAN_SEE(ch, tch))
     {
       if (!notch_skill(ch, SKILL_BLINDFIGHTING,
-            get_property("skill.notch.blindFighting", 100)) && 
+            get_property("skill.notch.blindFighting", 1)) && 
           (number(1,101) > (IS_PC(ch) ? (1 + GET_CHAR_SKILL(ch, SKILL_BLINDFIGHTING)) : (MIN(100,GET_LEVEL(ch))))))
         continue;
     }
-    if (!notch_skill(ch, SKILL_FLURRY_OF_BLOWS,
-          get_property("skill.notch.offensive", 15)) && 
-        (number(1,101) > (IS_PC(ch) ? (1 + GET_CHAR_SKILL(ch, SKILL_FLURRY_OF_BLOWS)) : (MIN(100, GET_LEVEL(ch))))))
+    if (!notch_skill(ch, SKILL_FLURRY_OF_BLOWS, get_property("skill.notch.offensive", 7))
+      && (number(1,101) > (IS_PC(ch) ? (1 + GET_CHAR_SKILL(ch, SKILL_FLURRY_OF_BLOWS)) : (MIN(100, GET_LEVEL(ch))))))
+    {
       continue;
+    }
 
     /* Ok we got this far.. lets try and hit them! */
 
@@ -1001,7 +1002,7 @@ void do_hitall(P_char ch, char *arg, int cmd)
           (IS_PC(ch) ? GET_CHAR_SKILL(ch, SKILL_BLINDFIGHTING) : 90))
         continue;
       else
-        notch_skill(ch, SKILL_BLINDFIGHTING, 20);
+        notch_skill(ch, SKILL_BLINDFIGHTING, 5);
 
     if (IS_NPC(ch) && (mob->specials.fighting != ch))
       continue;
@@ -1053,7 +1054,7 @@ void do_hitall(P_char ch, char *arg, int cmd)
       act("...but in the end $e fails to impress anyone.", TRUE, ch, 0, 0, TO_ROOM);
     }
 
-    notch_skill(ch, SKILL_HITALL, get_property("skill.notch.offensive", 15));
+    notch_skill(ch, SKILL_HITALL, get_property("skill.notch.offensive", 7));
     if (GET_CLASS(ch, CLASS_BERSERKER))
     {
       if (affected_by_spell(ch, SKILL_BERSERK))
@@ -1172,7 +1173,7 @@ void do_trap(P_char ch, char *arg, int cmd)
     }
   }
 
-  notch_skill(ch, SKILL_TRAP, 5);
+  notch_skill(ch, SKILL_TRAP, 20);
 }
 
 #endif
@@ -1319,7 +1320,7 @@ void do_subterfuge(P_char ch, char *arg, int cmd)
     return;
   }
 
-  notch_skill(ch, SKILL_SUBTERFUGE, 30);
+  notch_skill(ch, SKILL_SUBTERFUGE, 3);
 
   if (CAN_SEE(npc, ch))
   {
@@ -1442,7 +1443,7 @@ void do_disarm(P_char ch, char *arg, int cmd)
        FALSE, ch, 0, victim, TO_VICT);
     act("You make a great effort, and send $N's weapon out of control..",
         FALSE, ch, 0, victim, TO_CHAR);
-    notch_skill(ch, SKILL_DISARM, 15);
+    notch_skill(ch, SKILL_DISARM, 10);
     obj_to_char(unequip_char(victim, pos), victim);
     set_short_affected_by(victim, SKILL_DISARM, 3 * PULSE_VIOLENCE);
   }
@@ -1470,7 +1471,7 @@ void do_disarm(P_char ch, char *arg, int cmd)
     act
       ("You make a grave error in judgement, and lose control of your weapon.",
        FALSE, ch, 0, 0, TO_CHAR);
-    notch_skill(ch, SKILL_DISARM, 50);
+    notch_skill(ch, SKILL_DISARM, 7);
   }
   else
   {
@@ -1490,13 +1491,13 @@ void event_meditation(P_char ch, P_char victim, P_obj obj, void *data)
   if (GET_CHAR_SKILL(ch, SKILL_ADVANCED_MEDITATION)/2 > number(0,100)) {
     if (IS_AFFECTED(ch, AFF_BLIND)) {
       spell_cure_blind(50, ch, 0, 0, ch, 0);
-      notch_skill(ch, SKILL_ADVANCED_MEDITATION, 50);
+      notch_skill(ch, SKILL_ADVANCED_MEDITATION, 2);
       return;
     }
     if (GET_CHAR_SKILL(ch, SKILL_ADVANCED_MEDITATION) > 50 && !number(0,2) &&
         IS_AFFECTED2(ch, AFF2_POISONED)) {
       poison_common_remove(ch);
-      notch_skill(ch, SKILL_ADVANCED_MEDITATION, 50);
+      notch_skill(ch, SKILL_ADVANCED_MEDITATION, 2);
       send_to_char("You were able to fight the poison in your body!\n", ch);
       return;
     }
@@ -1504,7 +1505,7 @@ void event_meditation(P_char ch, P_char victim, P_obj obj, void *data)
         (affected_by_spell(ch, SPELL_DISEASE) || affected_by_spell(ch, SPELL_PLAGUE)))
     {
       spell_cure_disease (GET_LEVEL(ch), ch, NULL, SPELL_TYPE_SPELL, ch, NULL); 
-      notch_skill(ch, SKILL_ADVANCED_MEDITATION, 50);
+      notch_skill(ch, SKILL_ADVANCED_MEDITATION, 2);
       return;
     }  
   }
@@ -1537,8 +1538,8 @@ void do_meditate(P_char ch, char *arg, int cmd)
   if (IS_AFFECTED(ch, AFF_MEDITATE))
     return;
 
-  notch_skill(ch, SKILL_MEDITATE,
-      (int) get_property("skill.notch.meditate", 100));
+  notch_skill(ch, SKILL_MEDITATE, (int) get_property("skill.notch.meditate", 1));
+
   if (GET_CHAR_SKILL(ch, SKILL_ADVANCED_MEDITATION)) {
     memset(&af, 0, sizeof(af));
     af.type = SKILL_MEDITATE;
@@ -2508,7 +2509,7 @@ void do_dirttoss(P_char ch, char *arg, int cmd)
   if (number(1, 100) < i)
     blind(ch, vict, 6 * PULSE_VIOLENCE);
 
-  notch_skill(ch, SKILL_DIRTTOSS, get_property("skill.notch.offensive", 15));
+  notch_skill(ch, SKILL_DIRTTOSS, get_property("skill.notch.offensive", 7));
   CharWait(ch, PULSE_VIOLENCE * 2);
 
   if (IS_NPC(vict) && CAN_SEE(vict, ch))
@@ -2623,7 +2624,7 @@ void do_lore(P_char ch, char *arg, int cmd)
 
   if (percent > skl_lvl)
   {
-    notch_skill(ch, SKILL_LORE, 30);
+    notch_skill(ch, SKILL_LORE, 3);
     if( obj )
       send_to_char("That's all you can recall about this item.\r\n", ch);
     else
@@ -3182,7 +3183,7 @@ void do_throat_crush(P_char ch, char *arg, int cmd)
 
   skl_lvl = MIN(i, 90);
 
-  if(notch_skill(ch, SKILL_THROAT_CRUSH, get_property("skill.notch.offensive", 25) ||
+  if(notch_skill(ch, SKILL_THROAT_CRUSH, get_property("skill.notch.offensive", 4) ||
         number(1, 100) > i))
   {
     send_to_char("You miss their throat!\r\n", ch);
@@ -3423,7 +3424,7 @@ void do_hamstring(P_char ch, char *arg, int cmd)
        affect_to_char(vict, &af);
        */
   }
-  notch_skill(ch, SKILL_HAMSTRING, get_property("skill.notch.offensive", 15));
+  notch_skill(ch, SKILL_HAMSTRING, get_property("skill.notch.offensive", 7));
   CharWait(ch, PULSE_VIOLENCE * 2);
 
   if (IS_NPC(vict) && CAN_SEE(vict, ch))
@@ -3962,7 +3963,7 @@ void do_craft(P_char ch, char *argument, int cmd)
 
     //reward here
     wizlog(56, "%s crafted %s" , GET_NAME(ch), tobj->short_description);
-    notch_skill(ch, SKILL_CRAFT, 1);
+    notch_skill(ch, SKILL_CRAFT, 50);
     P_obj reward = read_object(selected, VIRTUAL);
     SET_BIT(reward->extra2_flags, ITEM2_CRAFTED);
     SET_BIT(reward->extra_flags, ITEM_NOREPAIR);
@@ -4200,7 +4201,7 @@ bool throw_potion(P_char ch, P_obj scroll, P_char victim, P_obj obj)
   CharWait(ch, (int) (get_property("alchemist.throwp.lag.rounds", 0.75) * PULSE_VIOLENCE) );
   set_short_affected_by(ch, SKILL_THROW_POTIONS, (int) (lag * PULSE_VIOLENCE));
 
-  notch_skill(ch, SKILL_THROW_POTIONS, 15);
+  notch_skill(ch, SKILL_THROW_POTIONS, 7);
 
   if (victim)
   {
@@ -4381,7 +4382,7 @@ bool throw_potion(P_char ch, P_obj scroll, P_char victim, P_obj obj)
     }
     else
     {
-      notch_skill(ch, SKILL_REMIX, 100);
+      notch_skill(ch, SKILL_REMIX, 1);
       extract_obj(scroll, TRUE);
     }
 

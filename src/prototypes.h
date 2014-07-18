@@ -1078,7 +1078,7 @@ void do_remort(P_char, char *, int);
 void do_spec(P_char, char *, int);
 void do_skills(P_char, char *, int);
 void do_spells(P_char, char *, int);
-int notch_skill(P_char, int, int);
+int notch_skill(P_char, int, float);
 void SetGuildSpellLvl(void);
 void update_skills(P_char);
 

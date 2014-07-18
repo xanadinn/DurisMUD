@@ -604,7 +604,7 @@ bool soul_trap(P_char ch, P_char victim)
 
   if (GET_CHAR_SKILL(ch, SKILL_SOUL_TRAP))
   {
-    if (!notch_skill(ch, SKILL_SOUL_TRAP, get_property("skill.notch.soulTrap", 100)) &&
+    if (!notch_skill(ch, SKILL_SOUL_TRAP, get_property("skill.notch.soulTrap", 1)) &&
         number(1, 100) >= GET_CHAR_SKILL(ch, SKILL_SOUL_TRAP) / 3)
       return false;
     himself = true;
@@ -3231,7 +3231,7 @@ int try_mangle(P_char ch, P_char victim)
   int skl = (int)(GET_CHAR_SKILL(ch, SKILL_MANGLE) / 20);
 
   if(skl < 1 ||
-      notch_skill(ch, SKILL_MANGLE, get_property("skill.notch.defensive", 30)) ||
+      notch_skill(ch, SKILL_MANGLE, get_property("skill.notch.defensive", 17)) ||
       IS_IMMOBILE(ch) ||
       IS_TRUSTED(victim) ||
       !IS_HUMANOID(victim) ||
@@ -3347,8 +3347,7 @@ int try_riposte(P_char ch, P_char victim, P_obj wpn)
   }
 
   // Notching the skill means failing the riposte.
-  if(notch_skill
-      (ch, SKILL_RIPOSTE, get_property("skill.notch.defensive", 40)))
+  if(notch_skill(ch, SKILL_RIPOSTE, get_property("skill.notch.defensive", 17)))
     return false;
 
   // Skill range is 1 to 100.
@@ -3505,8 +3504,7 @@ int try_riposte(P_char ch, P_char victim, P_obj wpn)
   if(char_in_list(ch) && char_in_list(victim) &&
       (skl = GET_CHAR_SKILL(ch, SKILL_FOLLOWUP_RIPOSTE)) > 0)
   { 
-    notch_skill(ch, SKILL_FOLLOWUP_RIPOSTE,
-        get_property("skill.notch.defensive", 100));
+    notch_skill(ch, SKILL_FOLLOWUP_RIPOSTE, get_property("skill.notch.defensive", 17));
 
     if(number(0, 1) == 0)
     {
@@ -3996,10 +3994,9 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
     {
       int skill_lvl = GET_CHAR_SKILL(victim, SKILL_ARCANE_RIPOSTE);
 
-      if(!IS_STUNNED(victim) &&
-          (dam > 10 && 
-           notch_skill(victim, SKILL_ARCANE_RIPOSTE, get_property("skill.notch.arcane", 100))) ||
-          (number(1, 100) < skill_lvl / 4))
+      if(!IS_STUNNED(victim) && (dam > 10
+        && notch_skill(victim, SKILL_ARCANE_RIPOSTE, get_property("skill.notch.arcane", 10)))
+        || (number(1, 100) < skill_lvl / 4))
       {
         act("$N frowns in &+cconcentration&n as $E intercepts $n's spell and &+Churls it back at $m!&n",
             TRUE, ch, 0, victim, TO_NOTVICT);
@@ -4028,10 +4025,10 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
         !IS_STUNNED(victim) &&
         !IS_IMMOBILE(victim))
     {
-      if(dam > 15 &&
-          (notch_skill(victim, SKILL_ARCANE_BLOCK, get_property("skill.notch.arcane", 100)) ||
-           number(1, 250) <= (GET_LEVEL(victim) + GET_C_LUK(victim) / 10 + GET_CHAR_SKILL(victim, SKILL_ARCANE_BLOCK)) ||
-           ((IS_ELITE(victim) || IS_GREATER_RACE(victim)) && !number(0, 4))))
+      if(dam > 15
+        && (notch_skill(victim, SKILL_ARCANE_BLOCK, get_property("skill.notch.arcane", 10))
+        || number(1, 250) <= (GET_LEVEL(victim) + GET_C_LUK(victim) / 10 + GET_CHAR_SKILL(victim, SKILL_ARCANE_BLOCK))
+        || ((IS_ELITE(victim) || IS_GREATER_RACE(victim)) && !number(0, 4))))
       {
         act("$N raises hands performing an &+Marcane gesture&n and some of $n's &+mspell energy&n is dispersed.",
             TRUE, ch, 0, victim, TO_NOTVICT);
@@ -4048,9 +4045,8 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
         GET_CHAR_SKILL(victim, SKILL_DISPERSE_FLAMES) > number(0, 100) &&
         !IS_TRUSTED(victim))
     {
-      if ((dam > 10 && notch_skill(victim, SKILL_DISPERSE_FLAMES,
-              get_property("skill.notch.pyrokinetics", 100))) ||
-          (!number(0, 2) && number(1, 56) <= GET_LEVEL(victim)))
+      if( (dam > 10 && notch_skill(victim, SKILL_DISPERSE_FLAMES, get_property("skill.notch.pyrokinetics", 2))) ||
+        (!number(0, 2) && number(1, 56) <= GET_LEVEL(victim)) )
       {
         act("$N &+rsmiles slightly as the &+Yflames &+rdwindle and die before reaching $M.&n",
             TRUE, ch, 0, victim, TO_NOTVICT);
@@ -4067,9 +4063,8 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
         GET_CHAR_SKILL(victim, SKILL_FLAME_MASTERY) > number(0, 100) &&
         !IS_TRUSTED(victim))
     {
-      if ((dam > 10 && notch_skill(victim, SKILL_FLAME_MASTERY,
-              get_property("skill.notch.pyrokinetics", 100))) ||
-          (!number(0, 10) && number(1, 56) <= GET_LEVEL (ch)))
+      if ((dam > 10 && notch_skill(victim, SKILL_FLAME_MASTERY, get_property("skill.notch.pyrokinetics", 2)))
+        || (!number(0, 10) && number(1, 56) <= GET_LEVEL (ch)))
       {
         act("$N &+rsmiles slightly as $E stops the &+Yflames &+rsummoned by&n $n &+rand hurls them back at $m!&n",
             TRUE, ch, 0, victim, TO_NOTVICT);
@@ -4077,11 +4072,7 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
             TRUE, ch, 0, victim, TO_CHAR);
         act("&+rYou laugh as you send &+Yflames &+rand burning &+Wectoplasm &+rback towards&n $n.&n",
             TRUE, ch, 0, victim, TO_VICT);
-        result =
-          spell_damage(victim, ch,
-              GET_CHAR_SKILL(victim,
-                SKILL_FLAME_MASTERY) * dam / 80, type,
-              flags, messages);
+        result = spell_damage(victim, ch, GET_CHAR_SKILL(victim, SKILL_FLAME_MASTERY) * dam / 80, type, flags, messages);
         if (result == DAM_VICTDEAD)
         {
           return DAM_CHARDEAD;
@@ -6362,8 +6353,7 @@ int chance_to_hit(P_char ch, P_char victim, int skill, P_obj weapon)
     else
     {
       to_hit -= 40 * (120 - GET_CHAR_SKILL(ch, SKILL_BLINDFIGHTING)) / 100;
-      notch_skill(ch, SKILL_BLINDFIGHTING,
-          get_property("skill.notch.blindFighting", 100));
+      notch_skill(ch, SKILL_BLINDFIGHTING, get_property("skill.notch.blindFighting", 6.25));
     }
   }
 
@@ -6865,7 +6855,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
   if( mount )
   {
     if( GET_CHAR_SKILL(victim, SKILL_MOUNTED_COMBAT)
-      && (notch_skill(victim, SKILL_MOUNTED_COMBAT, get_property("skill.notch.defensive", 100))
+      && (notch_skill(victim, SKILL_MOUNTED_COMBAT, get_property("skill.notch.defensive", 17))
       || GET_CHAR_SKILL_P(victim, SKILL_MOUNTED_COMBAT) * 0.3 > number(0, 100)) )
     {
       return hit(ch, mount, weapon);
@@ -7249,7 +7239,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
       GET_POS(ch) == POS_STANDING &&
       GET_RACE(victim) != RACE_CONSTRUCT )
   {
-    if( notch_skill(ch, SKILL_VICIOUS_ATTACK, get_property("skill.notch.offensive.auto", 100))
+    if( notch_skill(ch, SKILL_VICIOUS_ATTACK, get_property("skill.notch.offensive.auto", 4))
       || 0.1 * GET_CHAR_SKILL(ch, SKILL_VICIOUS_ATTACK) > number(0, 100) )
     {
       act("$n slips beneath $N's guard dealing a vicious attack!!", TRUE, ch, 0, victim, TO_NOTVICT);
@@ -7410,7 +7400,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
 
   // PC 15% max per attack with 100 anatomy.
   if( vs_skill > 0
-    && (notch_skill(ch, SKILL_VICIOUS_STRIKE, get_property("skill.notch.offensive.vicious.strike", 5))
+    && (notch_skill(ch, SKILL_VICIOUS_STRIKE, get_property("skill.notch.offensive.vicious.strike", 17))
     || vs_skill > number(1, 1000)) )
   {
     if( IS_PC(ch) )
@@ -7436,7 +7426,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
     sprintf(room_msg, "A sense of &+RWi&+rLD H&+RAt&+rE &nsurrounds $n as $s%%s %s %%s.", attack_hit_text[msg].singular);
     messages.type = DAMMSG_HIT_EFFECT;
   }
-  else if (notch_skill(victim, SKILL_BOILING_BLOOD, get_property("skill.notch.defensive", 100))
+  else if (notch_skill(victim, SKILL_BOILING_BLOOD, get_property("skill.notch.defensive", 17))
     || GET_CHAR_SKILL(victim, SKILL_BOILING_BLOOD) / 10 > number(1, 100) )
   {
     sprintf(attacker_msg, "$N is so overcome with bloodlust, your %s barely grazes $M!", attack_hit_text[msg].singular);
@@ -7568,7 +7558,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
   }
 
   blade_skill = GET_CLASS(ch, CLASS_AVENGER) ? SKILL_HOLY_BLADE : SKILL_TAINTED_BLADE;
-  if( notch_skill(ch, blade_skill, get_property("skill.notch.offensive.auto", 100))
+  if( notch_skill(ch, blade_skill, get_property("skill.notch.offensive.auto", 4))
     ||(GET_CHAR_SKILL(ch, blade_skill) > number(1, 100) && !number(0, 40)) )
   {
     if( tainted_blade(ch, victim) )
@@ -8113,8 +8103,7 @@ int dodgeSucceed(P_char char_dodger, P_char attacker, P_obj wpn)
       !IS_BLIND(mount) &&
       !IS_STUNNED(char_dodger) &&
       !IS_BLIND(char_dodger) &&
-      (notch_skill(char_dodger, SKILL_SIDESTEP,
-                   get_property("skill.notch.defensive", 100)) ||
+      (notch_skill(char_dodger, SKILL_SIDESTEP, get_property("skill.notch.defensive", 17)) ||
        GET_CHAR_SKILL(char_dodger, SKILL_SIDESTEP) / 5 > number(0, 100)))
   {
     act("Your mount sidesteps $n's blow.", FALSE, attacker, 0, char_dodger,
@@ -8141,7 +8130,7 @@ int dodgeSucceed(P_char char_dodger, P_char attacker, P_obj wpn)
   //Notching dodge fails dodge check.
   /* -Changing dodge to an innate skill, with c_agility as basis for check - Drannak 12/12/2012
      if(notch_skill
-     (char_dodger, SKILL_DODGE, get_property("skill.notch.defensive", 100)))
+     (char_dodger, SKILL_DODGE, get_property("skill.notch.defensive", 17)))
      {
      return 0;
      }
@@ -8288,7 +8277,7 @@ int blockSucceed(P_char victim, P_char attacker, P_obj wpn)
   if (affected_by_spell(victim, SKILL_RAGE) && attacker != victim->specials.fighting)
     return false;
 
-  if(notch_skill(victim, SKILL_SHIELD_BLOCK, get_property("skill.notch.defensive", 100)))
+  if(notch_skill(victim, SKILL_SHIELD_BLOCK, get_property("skill.notch.defensive", 17)))
     return false;
 
   learned = GET_CHAR_SKILL(victim, SKILL_SHIELD_BLOCK) / 4;
@@ -8438,7 +8427,7 @@ int MonkRiposte(P_char victim, P_char attacker, P_obj wpn)
   }
 
   if(IS_PC(victim) &&
-      notch_skill(victim, SKILL_MARTIAL_ARTS, get_property("skill.notch.defensive", 100)))
+      notch_skill(victim, SKILL_MARTIAL_ARTS, get_property("skill.notch.defensive", 17)))
     return 0;
 
   if(IS_ELITE(victim))
@@ -8566,7 +8555,7 @@ int parrySucceed(P_char victim, P_char attacker, P_obj wpn)
     return false;
 
   // Notching the parry skill fails the parry check.
-  if(notch_skill(victim, SKILL_PARRY, get_property("skill.notch.defensive", 25)) &&
+  if(notch_skill(victim, SKILL_PARRY, get_property("skill.notch.defensive", 17)) &&
       !affected_by_spell(victim, SPELL_COMBAT_MIND))
     return false;
 
@@ -8952,10 +8941,9 @@ int calculate_attacks(P_char ch, int attacks[])
     if (ch->equipment[PRIMARY_WEAPON] && ch->equipment[SECONDARY_WEAPON] &&
         (ch->equipment[PRIMARY_WEAPON] != ch->equipment[SECONDARY_WEAPON]))
     {
-      if (notch_skill(ch, SKILL_DUAL_WIELD,
-            get_property("skill.notch.offensive.auto", 100))
-          || number(1, 100) < GET_CHAR_SKILL(ch, SKILL_DUAL_WIELD) ||
-          (GET_CLASS(ch, CLASS_RANGER || GET_SECONDARY_CLASS(ch, CLASS_RANGER)) && !number(0, 2)))
+      if( notch_skill(ch, SKILL_DUAL_WIELD, get_property("skill.notch.offensive.auto", 4))
+        || number(1, 100) < GET_CHAR_SKILL(ch, SKILL_DUAL_WIELD)
+        || (GET_CLASS(ch, CLASS_RANGER || GET_SECONDARY_CLASS(ch, CLASS_RANGER)) && !number(0, 2)) )
       {
         ADD_ATTACK(SECONDARY_WEAPON);
 
@@ -9096,21 +9084,23 @@ int calculate_attacks(P_char ch, int attacks[])
         ADD_ATTACK(PRIMARY_WEAPON);
     }
 
-    if (notch_skill(ch, SKILL_DOUBLE_ATTACK,
-          get_property("skill.notch.offensive.auto", 100))
-        || GET_CHAR_SKILL(ch, SKILL_DOUBLE_ATTACK) > number(0, 100))
+    if( notch_skill(ch, SKILL_DOUBLE_ATTACK, get_property("skill.notch.offensive.auto", 4) )
+      || GET_CHAR_SKILL(ch, SKILL_DOUBLE_ATTACK) > number(0, 100))
+    {
       ADD_ATTACK(PRIMARY_WEAPON);
+    }
 
-
-    if (notch_skill(ch, SKILL_TRIPLE_ATTACK,
-          get_property("skill.notch.offensive.auto", 100))
-        || GET_CHAR_SKILL(ch, SKILL_TRIPLE_ATTACK) > number(0, 100))
+    if (notch_skill(ch, SKILL_TRIPLE_ATTACK, get_property("skill.notch.offensive.auto", 4))
+      || GET_CHAR_SKILL(ch, SKILL_TRIPLE_ATTACK) > number(0, 100))
+    {
       ADD_ATTACK(PRIMARY_WEAPON);
+    }
 
-    if (notch_skill(ch, SKILL_QUADRUPLE_ATTACK,
-          get_property("skill.notch.offensive.auto", 100))
-        || GET_CHAR_SKILL(ch, SKILL_QUADRUPLE_ATTACK) > number(0, 100))
+    if( notch_skill(ch, SKILL_QUADRUPLE_ATTACK, get_property("skill.notch.offensive.auto", 4))
+      || GET_CHAR_SKILL(ch, SKILL_QUADRUPLE_ATTACK) > number(0, 100) )
+    {
       ADD_ATTACK(PRIMARY_WEAPON);
+    }
 
     if (HAS_FOUR_HANDS(ch))
     {
@@ -9507,7 +9497,7 @@ void perform_violence(void)
         !IS_STUNNED(opponent) &&
         !IS_BLIND(opponent))
     {
-      if(notch_skill(opponent, SKILL_BATTLE_SENSES, get_property("skill.notch.defensive", 80)))
+      if(notch_skill(opponent, SKILL_BATTLE_SENSES, get_property("skill.notch.defensive", 17)))
       { }
       else if((1 + (GET_CHAR_SKILL(opponent, SKILL_BATTLE_SENSES) / 10 )) >= number(1, 100))
       {
@@ -9523,14 +9513,9 @@ void perform_violence(void)
 
     if(!IS_SUNLIT(ch->in_room))
     {
-      if(GET_CHAR_SKILL(ch, SKILL_SHADOW_MOVEMENT) &&
-          !IS_BLIND(ch) &&
-          !IS_STUNNED(ch) &&
-          GET_POS(ch) == POS_STANDING &&
-          (notch_skill(ch, SKILL_SHADOW_MOVEMENT,
-                       get_property("skill.notch.offensive.auto", 100)) ||
-           (1 + GET_CHAR_SKILL(ch, SKILL_SHADOW_MOVEMENT) / 4 >
-            number(1, 100))))
+      if(GET_CHAR_SKILL(ch, SKILL_SHADOW_MOVEMENT) && !IS_BLIND(ch) && !IS_STUNNED(ch) && GET_POS(ch) == POS_STANDING
+        && (notch_skill(ch, SKILL_SHADOW_MOVEMENT, get_property("skill.notch.offensive.auto", 4))
+        || (1 + GET_CHAR_SKILL(ch, SKILL_SHADOW_MOVEMENT) / 4 > number(1, 100))))
       {
         act("$n &+wblinks out of existence ... then reappears &+ybehind&n $N!&n",
             FALSE, ch, 0, opponent, TO_NOTVICT);
@@ -9739,14 +9724,12 @@ int pv_common(P_char ch, P_char opponent, const P_obj wpn)
   room = ch->in_room;
 
   /* weapon skill notch, check for automatic defensive skills */
-  if(!((wpn_skill = required_weapon_skill(wpn)) &&
-        ((wpn_skill != SKILL_1H_FLAYING) || (wpn_skill != SKILL_2H_FLAYING)) &&
-        notch_skill(ch, wpn_skill, get_property("skill.notch.offensive.auto", 100))) &&
-      GET_STAT(opponent) == STAT_NORMAL &&
-      !IS_IMMOBILE(ch) &&
-      (has_innate(ch, INNATE_EYELESS) ||
-       CAN_SEE(opponent, ch) ||
-       GET_CHAR_SKILL(opponent, SKILL_BLINDFIGHTING) / 3 > number(0, 100)))
+  if( !((wpn_skill = required_weapon_skill(wpn))
+    && ((wpn_skill != SKILL_1H_FLAYING) || (wpn_skill != SKILL_2H_FLAYING))
+    && notch_skill(ch, wpn_skill, get_property("skill.notch.offensive.auto", 4)))
+    && GET_STAT(opponent) == STAT_NORMAL && !IS_IMMOBILE(ch)
+    && (has_innate(ch, INNATE_EYELESS) || CAN_SEE(opponent, ch)
+    || GET_CHAR_SKILL(opponent, SKILL_BLINDFIGHTING) / 3 > number(0, 100)))
   {
     if(affected_by_spell(ch, SKILL_SHADOW_MOVEMENT))
     {
@@ -9849,10 +9832,9 @@ int pv_common(P_char ch, P_char opponent, const P_obj wpn)
   {
     return success;
   }
-  else if(notch_skill(ch, SKILL_DOUBLE_STRIKE,
-        get_property("skill.notch.offensive.auto", 100)) ||
-      GET_CHAR_SKILL(ch, SKILL_DOUBLE_STRIKE) / 20 > number(0, 100) ||
-      (affected_by_spell(ch, SKILL_WHIRLWIND) && !number(0, 2)))
+  else if(notch_skill(ch, SKILL_DOUBLE_STRIKE, get_property("skill.notch.offensive.auto", 4))
+    || GET_CHAR_SKILL(ch, SKILL_DOUBLE_STRIKE) / 20 > number(0, 100)
+    || (affected_by_spell(ch, SKILL_WHIRLWIND) && !number(0, 2)))
   {
     double_strike(ch, opponent, wpn);
   }

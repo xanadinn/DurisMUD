@@ -665,7 +665,7 @@ void do_berserk(P_char ch, char *argument, int cmd)
     act("$n seems to have overcome $s battle madness.",
       TRUE, ch, 0, 0, TO_ROOM);
       
-    notch_skill(ch, SKILL_BERSERK, 25);
+    notch_skill(ch, SKILL_BERSERK, 4);
 
     if (GET_CLASS(ch, CLASS_BERSERKER))
     {
@@ -681,7 +681,7 @@ void do_berserk(P_char ch, char *argument, int cmd)
   if (GET_CHAR_SKILL(ch, SKILL_BERSERK) < number(1, 100))
   {
     send_to_char("You fail to evoke the dreaded battle rage.\r\n", ch);
-    notch_skill(ch, SKILL_BERSERK, 5);
+    notch_skill(ch, SKILL_BERSERK, 17);
   }
   else
   {
@@ -782,7 +782,7 @@ void do_rampage(P_char ch, char *argument, int cmd)
     af.duration = 3;
 
     affect_to_char(ch, &af);
-    notch_skill(ch, SKILL_RAMPAGE, 5);
+    notch_skill(ch, SKILL_RAMPAGE, 17);
     CharWait(ch, 8);
 
     return;
@@ -853,7 +853,7 @@ void do_infuriate(P_char ch, char *argument, int cmd)
   act
     ("$n is overwhelmed with &+RANGER&n, and starts to increase in size!\r\n",
      FALSE, ch, 0, 0, TO_ROOM);
-  notch_skill(ch, SKILL_INFURIATE, 5);
+  notch_skill(ch, SKILL_INFURIATE, 17);
   CharWait(ch, PULSE_VIOLENCE);
   }
   else
@@ -883,7 +883,7 @@ void do_infuriate(P_char ch, char *argument, int cmd)
     send_to_char("Your &+rblood boils&n and you feel your body grow to enormous proportions!\r\n", ch);
     act("$n is overwhelmed with &+RHATRED&n, and begins to grow to enormous proportions!\r\n",
     FALSE, ch, 0, 0, TO_ROOM);
-    notch_skill(ch, SKILL_INFURIATE, 5);
+    notch_skill(ch, SKILL_INFURIATE, 17);
     CharWait(ch, PULSE_VIOLENCE);
   }
 }
@@ -931,7 +931,7 @@ void do_rage(P_char ch, char *argument, int cmd)
     return;
   }
   
-  notch_skill(ch, SKILL_RAGE, (int) get_property("skill.notch.offensive", 1.));
+  notch_skill(ch, SKILL_RAGE, (int) get_property("skill.notch.offensive", 7));
         
   if(!(GET_SPEC(ch, CLASS_BERSERKER, SPEC_RAGELORD)))
     CharWait(ch, 1.5 * PULSE_VIOLENCE);
@@ -1916,7 +1916,7 @@ void do_sneak(P_char ch, char *argument, int cmd)
   CharWait(ch, PULSE_VIOLENCE);
 
 // Notching check moved to actmove.c Apr09 -Lucrot
-//  notch_skill(ch, SKILL_SNEAK, 20);
+//  notch_skill(ch, SKILL_SNEAK, 5);
 
   bzero(&af, sizeof(af));
   af.type = SKILL_SNEAK;
@@ -2043,12 +2043,11 @@ void do_hide(P_char ch, char *argument, int cmd)
         send_to_char("&+LYou blend into the shadows...&n\r\n", ch);
       }
     }
+    notch_skill(ch, SKILL_HIDE, 17);
     if (percent > skl_lvl + agi_app[STAT_INDEX(GET_C_AGI(ch))].hide)
     {
-      notch_skill(ch, SKILL_HIDE, 5);
       return;
     }
-    notch_skill(ch, SKILL_HIDE, 5);
     SET_BIT(ch->specials.affected_by, AFF_HIDE);
     struct affected_type af;
 
@@ -2161,7 +2160,7 @@ void listen(P_char ch, char *argument)
       else
         sprintf(buf, "You hear an odd rustling in the immediate area.\r\n");
       send_to_char(buf, ch);
-      notch_skill(ch, SKILL_LISTEN, 1);
+      notch_skill(ch, SKILL_LISTEN, 50);
     }
     else
       send_to_char(heard_nothing, ch);
@@ -2205,7 +2204,7 @@ void listen(P_char ch, char *argument)
                   ((dir == 5) ? "below" : (dir == 4) ? "above" : "the "),
                   ((dir == 5) ? "" : (dir == 4) ? "" : dirs[dir]));
         send_to_char(buf, ch);
-        notch_skill(ch, SKILL_LISTEN, 1);
+        notch_skill(ch, SKILL_LISTEN, 50);
       }
       else
         send_to_char(heard_nothing, ch);
@@ -5754,7 +5753,7 @@ void do_climb(P_char ch, char *argument, int cmd)
     af.type = SKILL_CLIMB;
     af.duration = 10;
     affect_to_char(ch, &af);
-    notch_skill(ch, SKILL_CLIMB, 5);
+    notch_skill(ch, SKILL_CLIMB, 17);
   }
 }
 
@@ -5816,7 +5815,7 @@ void do_blood_scent(P_char ch, char *argument, int cmd)
   if (GET_CHAR_SKILL(ch, SKILL_BLOOD_SCENT) < number(1, 100))
   {
     send_to_char("You sniff around but cant smell anything special.\r\n", ch);
-    notch_skill(ch, SKILL_BLOOD_SCENT, 12);
+    notch_skill(ch, SKILL_BLOOD_SCENT, 7.69);
     CharWait(ch, (2 * PULSE_VIOLENCE));
     return;
   }
@@ -5848,7 +5847,7 @@ void do_blood_scent(P_char ch, char *argument, int cmd)
     af.flags |= AFFTYPE_CUSTOM1;
     af.duration >>= 1;
     affect_to_char(ch, &af);
-    notch_skill(ch, SKILL_BLOOD_SCENT, 12);
+    notch_skill(ch, SKILL_BLOOD_SCENT, 7.69);
   }*/ 
 }
 

@@ -142,35 +142,35 @@ void update_skills(P_char ch)
   }
 }
 
-int notch_skill(P_char ch, int skill, int chance)
+int notch_skill(P_char ch, int skill, float chance)
 {
-  int intel, t, lvl, l, slvl, percent_chance;
+  int intel, t, lvl, l, slvl;
   char buf[MAX_STRING_LENGTH];
 
 #ifdef SKILLPOINTS
   return 0;
 #endif
 
-  if(!(ch) || !IS_ALIVE(ch))
+  if( !IS_ALIVE(ch) )
     return 0;
-  
-  if(IS_NPC(ch) || IS_TRUSTED(ch))
+
+  if( IS_NPC(ch) || IS_TRUSTED(ch) )
     return 0;
-  
-  if(IS_SET(world[ch->in_room].room_flags, GUILD_ROOM | SAFE_ZONE))
+
+  if( IS_SET(world[ch->in_room].room_flags, GUILD_ROOM | SAFE_ZONE) )
     return 0;
-  
-  if(IS_FIGHTING(ch))
+
+  if( IS_FIGHTING(ch) )
   {
-  // This prevents players from notching up skills using images and 
-  // summoned pets such as elementals. Jan08 -Lucrot
-    if(IS_PC_PET(ch->specials.fighting) ||
-       GET_LEVEL(ch->specials.fighting) < 2)
+    // This prevents players from notching up skills using images and
+    //   summoned pets such as elementals. Jan08 -Lucrot
+    if( IS_PC_PET(ch->specials.fighting)
+      || GET_LEVEL(ch->specials.fighting) < 2 )
     {
       return 0;
     }
   }
-  
+
   lvl = GET_LEVEL(ch);
 
   l = ch->only.pc->skills[skill].learned;
@@ -182,9 +182,9 @@ int notch_skill(P_char ch, int skill, int chance)
     return 0;
   }
 #if wipe2011
-  //  The following addition is for wipe 2011, where intelligence will help determine
-  //  chance to notch a skill, thus making it a partially important stat for rockhead melee
-  //  characters - Jexni 6/5/11  
+  // The following addition is for wipe 2011, where intelligence will help determine
+  //   chance to notch a skill, thus making it a partially important stat for rockhead melee
+  //   characters - Jexni 6/5/11
   intel = BOUNDED(0, 100 - GET_C_INT(ch), 50);
   chance = chance + (intel / 2);
 
@@ -213,39 +213,42 @@ int notch_skill(P_char ch, int skill, int chance)
   //     the mob misses anyhow.
   //  To that end, we'll add a check into fight.c instead. - Jexni 6/5/11
 
-  if (IS_HARDCORE(ch))
+  if( IS_HARDCORE(ch) )
   {
-    chance = (int)(get_property("skill.notch.hardcoreBonus", 0.6) * chance);
+    chance += (int)(get_property("skill.notch.hardcoreBonus", 0.6) * chance);
   }
 
-  if(affected_by_skill(ch, TAG_PHYS_SKILL_NOTCH))  // instead of simply not allowing notches, we just make it
-  {                                                // harder - Jexni 1/3/12
-    chance = chance << 2;
+  // Instead of simply not allowing notches, we just make it harder - Jexni 1/3/12
+  if(affected_by_skill(ch, TAG_PHYS_SKILL_NOTCH))
+  {
+    chance /= 4;
   }
   else if(affected_by_skill(ch, TAG_MENTAL_SKILL_NOTCH))
   {
-    chance = chance << 2;
+    chance /= 4;
   }
-  
-  chance = chance * (1. + ((float)l / t)); // the higher the skill, the tougher to notch and vice versa
+
+  // The higher the skill, the tougher to notch and vice versa
+  chance -= chance * (float)l / (float)t;
+
 #endif
-  
+
 #if !defined(CHAOS_MUD) || (CHAOS_MUD == 0)
-  if(number(0, chance))
+  if( number(1, 10000) > chance * 100 )
   {
     return 0;
   }
-  
+
   if(IS_SET(skills[skill].targets, TAR_PHYS))
   {
     if(!affect_timer(ch, get_property("timer.mins.physicalNotch", 5) * WAIT_MIN, TAG_PHYS_SKILL_NOTCH))
     {
-     // return 0;
+      debug( "notch_skill: failed affect_timer on '%s' TAG_PHYS_SKILL_NOTCH", J_NAME(ch) );
     }
   }
   else if(!affect_timer(ch, get_property("timer.mins.mentalNotch", 10) * WAIT_MIN, TAG_MENTAL_SKILL_NOTCH))
   {
-    // return 0;
+    debug( "notch_skill: failed affect_timer on '%s' TAG_MENTAL_SKILL_NOTCH", J_NAME(ch) );
   }
 #endif
 

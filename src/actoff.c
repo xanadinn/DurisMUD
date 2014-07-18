@@ -8,23 +8,23 @@
  * ***************************************************************************
  */
 
-#define DEFAULT     0
-#define AIR_ELEMENTAL   BIT_1
+#define DEFAULT               0
+#define AIR_ELEMENTAL     BIT_1
 #define FIRE_ELEMENTAL    BIT_2
 #define EARTH_ELEMENTAL   BIT_3
 #define WATER_ELEMENTAL   BIT_4
-#define GHOST       BIT_5
-#define AIR_AURA      BIT_6
+#define GHOST             BIT_5
+#define AIR_AURA          BIT_6
 #define VICTIM_BACK_RANK  BIT_7
 #define CHAR_BACK_RANK    BIT_8
-#define AGI_CHECK     BIT_9
-#define DRAGON        BIT_10
-#define NO_BASH       BIT_11
-#define FOOTING       BIT_12
-#define HARPY         BIT_13
-#define GRAPPLE       BIT_14
-#define EVADE         BIT_15
-#define ELEMENTALS    AIR_ELEMENTAL | FIRE_ELEMENTAL | EARTH_ELEMENTAL | WATER_ELEMENTAL
+#define AGI_CHECK         BIT_9
+#define DRAGON            BIT_10
+#define NO_BASH           BIT_11
+#define FOOTING           BIT_12
+#define HARPY             BIT_13
+#define GRAPPLE           BIT_14
+#define EVADE             BIT_15
+#define ELEMENTALS        AIR_ELEMENTAL | FIRE_ELEMENTAL | EARTH_ELEMENTAL | WATER_ELEMENTAL
 
 #define APPLY_ALL   65535U
 
@@ -425,10 +425,9 @@ int takedown_check(P_char ch, P_char victim, int chance, int skill, ulong applic
   /*
    *  EVADE
    */
-  if(GET_CHAR_SKILL(victim, SKILL_EVADE) &&
-    (notch_skill(victim, SKILL_EVADE,
-    get_property("skill.notch.offensive", 15)) ||
-    GET_CHAR_SKILL(victim, SKILL_EVADE) / 3 > number(0, 100)))
+  if(GET_CHAR_SKILL(victim, SKILL_EVADE)
+    && (notch_skill(victim, SKILL_EVADE, get_property("skill.notch.offensive", 7))
+    || GET_CHAR_SKILL(victim, SKILL_EVADE) / 3 > number(0, 100)))
   {
     show_failed_takedown_messages(ch, victim, skill, EVADE);
     CharWait(ch, (int) (PULSE_VIOLENCE * 0.5));
@@ -445,9 +444,8 @@ int takedown_check(P_char ch, P_char victim, int chance, int skill, ulong applic
 
   if(GET_CHAR_SKILL(victim, SKILL_GRAPPLE))
   {
-    if(notch_skill
-        (victim, SKILL_GRAPPLE, get_property("skill.notch.offensive", 15))
-        || GET_CHAR_SKILL(victim, SKILL_GRAPPLE)/6 > number(0, 100))
+    if(notch_skill(victim, SKILL_GRAPPLE, get_property("skill.notch.offensive", 7))
+      || GET_CHAR_SKILL(victim, SKILL_GRAPPLE)/6 > number(0, 100))
     {
       show_failed_takedown_messages(ch, victim, skill, GRAPPLE);
       return TAKEDOWN_PENALTY;
@@ -1019,9 +1017,8 @@ void lance_charge(P_char ch, char *argument)
 
   CharWait(ch, (int) (PULSE_VIOLENCE * get_property("skill.lance.charge.CharLag", 1.500)));
 
-  if(!notch_skill(ch, SKILL_LANCE_CHARGE,
-                   get_property("skill.notch.offensive", 15)) &&
-      percent_chance < number(1, 100))
+  if(!notch_skill(ch, SKILL_LANCE_CHARGE, get_property("skill.notch.offensive", 7)) &&
+    percent_chance < number(1, 100))
   {
     // failure code.
 
@@ -1781,9 +1778,8 @@ bool circle(P_char ch, P_char victim)
   set_short_affected_by(ch, SKILL_CIRCLE, PULSE_VIOLENCE * 4);
   CharWait(ch, PULSE_VIOLENCE / 2);
 
-  if(!notch_skill(ch, SKILL_CIRCLE,
-                   get_property("skill.notch.offensive", 15)) &&
-      GET_CHAR_SKILL(ch, SKILL_CIRCLE) < number(0, 100))
+  if(!notch_skill(ch, SKILL_CIRCLE, get_property("skill.notch.offensive", 7))
+    && GET_CHAR_SKILL(ch, SKILL_CIRCLE) < number(0, 100))
   {
     act("Damn! You weren't quite stealthy enough, and $N noticed your attempt to circle $M!",
         FALSE, ch, 0, victim, TO_CHAR);
@@ -1914,9 +1910,8 @@ void do_circle(P_char ch, char *argument, int cmd)
 
   CharWait(ch, (int) (1.2 * PULSE_VIOLENCE));
 
-  if(notch_skill(ch, SKILL_CIRCLE,
-        get_property("skill.notch.offensive", 15)) ||
-      percent_chance > number(0,100))
+  if(notch_skill(ch, SKILL_CIRCLE, get_property("skill.notch.offensive", 7))
+    || percent_chance > number(0,100))
   {
     dam = (dice(weapon->value[1], MAX(1, weapon->value[2])) + weapon->value[2]);
     dam *= GET_LEVEL(ch)/5;
@@ -2373,7 +2368,7 @@ void do_flee(P_char ch, char *argument, int cmd)
       int skl = GET_CHAR_SKILL(ch, SKILL_CONTROL_FLEE);
 
       if(skl && 
-        (notch_skill(ch, SKILL_CONTROL_FLEE, get_property("skill.notch.offensive", 15)) ||
+        (notch_skill(ch, SKILL_CONTROL_FLEE, get_property("skill.notch.offensive", 7)) ||
         skl > number(1, 130)))
           attempted_dir = dir_from_keyword(argument);
     }
@@ -2726,7 +2721,7 @@ void event_combination(P_char ch, P_char victim, P_obj obj, void *data)
   while (result == DAM_NONEDEAD && skill >= skill_req &&
          percent > number(0, 100) && stage < 7);
 
-  notch_skill(ch, SKILL_COMBINATION, get_property("skill.notch.offensive", 15));
+  notch_skill(ch, SKILL_COMBINATION, get_property("skill.notch.offensive", 7));
 
   CharWait(ch, 2 * PULSE_VIOLENCE);
 }
@@ -2890,8 +2885,8 @@ void event_barrage(P_char ch, P_char victim, P_obj obj, void *data)
   }
   while (skill >= skill_req &&
          percent > number(0, 100) && stage < 7);
-  notch_skill(ch, SKILL_BLADE_BARRAGE, get_property("skill.notch.offensive", 15));
-  
+  notch_skill(ch, SKILL_BLADE_BARRAGE, get_property("skill.notch.offensive", 7));
+
   CharWait(ch, 2 * PULSE_VIOLENCE);
 }
 
@@ -3094,9 +3089,8 @@ void rush(P_char ch, P_char victim)
 
   CharWait(ch, PULSE_VIOLENCE * 2);
     
-  if(notch_skill
-    (ch, SKILL_RUSH, get_property("skill.notch.offensive", 10)) ||
-    number(1, 100) > GET_CHAR_SKILL(ch, SKILL_RUSH))
+  if(notch_skill(ch, SKILL_RUSH, get_property("skill.notch.offensive", 7))
+    || number(1, 100) > GET_CHAR_SKILL(ch, SKILL_RUSH))
   {
     act
       ("$n rushes toward $N in a furious rage, but misses $s target completely.",
@@ -3473,10 +3467,8 @@ void kick(P_char ch, P_char victim)
 
     //debug("&+gKick&n (%s) chance (%d) at (%s).", GET_NAME(ch), percent_chance, GET_NAME(victim));
 
-    if(!notch_skill(ch, SKILL_KICK,
-        get_property("skill.notch.offensive", 15)) &&
-        (percent_chance <= number(1, 100) ||
-        IS_IMMATERIAL(victim)))
+    if(!notch_skill(ch, SKILL_KICK, get_property("skill.notch.offensive", 7))
+      && (percent_chance <= number(1, 100) || IS_IMMATERIAL(victim)))
     {
       kick_messages(ch, victim, FALSE, &messages);
       act(messages.attacker, FALSE, ch, 0, victim, TO_CHAR);
@@ -3832,13 +3824,12 @@ bool roundkick(P_char ch, P_char victim)
          GET_CHAR_SKILL(ch, SKILL_ROUNDKICK) -
          GET_C_AGI(victim);
 
-  if(!notch_skill(ch, SKILL_ROUNDKICK,
-      get_property("skill.notch.offensive", 15)) &&
-      percent_chance < number(0, 100))
+  if(!notch_skill(ch, SKILL_ROUNDKICK, get_property("skill.notch.offensive", 7))
+    && percent_chance < number(0, 100))
   {
     if(melee_damage(ch, victim, (int) (dam / 2), PHSDAM_TOUCH, 0) != DAM_NONEDEAD)
       return false;
-        
+
     if(!IS_ALIVE(ch) ||
       !IS_ALIVE(victim))
         return false;
@@ -4243,8 +4234,8 @@ void do_headbutt(P_char ch, char *argument, int cmd)
 
   int dam = 0;
   
-  if (!notch_skill(ch, SKILL_HEADBUTT, get_property("skill.notch.offensive", 15)) &&
-      tmp_num <= 2)
+  if (!notch_skill(ch, SKILL_HEADBUTT, get_property("skill.notch.offensive", 7))
+    && tmp_num <= 2)
   {
     // failed catastrophically!
     dam = number(5, 15);
@@ -4507,9 +4498,8 @@ void event_sneaky_strike(P_char ch, P_char victim, P_obj obj, void *data)
   {
     dam = (IS_PC(ch) ? dice(1, skill / 5) : dice(ch->points.damnodice, ch->points.damsizedice));
   }
-  /* notch_skill(ch, SKILL_SNEAKY_STRIKE,
-              get_property("skill.notch.offensive", 15)); */
-  notch_skill(ch, SKILL_SNEAKY_STRIKE, 20);
+  /* notch_skill(ch, SKILL_SNEAKY_STRIKE, get_property("skill.notch.offensive", 7)); */
+  notch_skill(ch, SKILL_SNEAKY_STRIKE, 5);
 
   dam += str_app[STAT_INDEX(GET_C_STR(ch))].todam + GET_C_DEX(ch) / 4;
   dam = (int) (dam * number(25, 30) *
@@ -4877,7 +4867,7 @@ bool single_stab(P_char ch, P_char victim, P_obj weapon)
   }
 
   if(GET_CHAR_SKILL(ch, SKILL_SPINAL_TAP)
-    && (notch_skill(ch, SKILL_SPINAL_TAP, get_property("skill.notch.offensive", 15))
+    && (notch_skill(ch, SKILL_SPINAL_TAP, get_property("skill.notch.offensive", 7))
     || (spinal_tap * GET_CHAR_SKILL(ch, SKILL_SPINAL_TAP)) > number(1, 100)))
   {
     debug("single_stab: (%s) stabbing (%s) dam (%d) weapon (%dd%d) skill (%d).", GET_NAME(ch), GET_NAME(victim), dam, weapon->value[1], weapon->value[2], skill );
@@ -4890,7 +4880,7 @@ bool single_stab(P_char ch, P_char victim, P_obj weapon)
   }
   //else if - can not spinal as well as critical stab. (drannak 1/7/14)
   else if(GET_CHAR_SKILL(ch, SKILL_CRITICAL_STAB)
-    && (notch_skill(ch, SKILL_CRITICAL_STAB, get_property("skill.notch.offensive", 25))
+    && (notch_skill(ch, SKILL_CRITICAL_STAB, get_property("skill.notch.offensive", 7))
     || (critical_stab * GET_CHAR_SKILL(ch, SKILL_CRITICAL_STAB)) > number(1, 100)))
   {
     dam = dam + (dam * critical_stab_mult);
@@ -5161,7 +5151,7 @@ bool backstab(P_char ch, P_char victim)
   if(first_w && IS_BACKSTABBER(first_w))
   {
     stabbed = TRUE;
-    if(notch_skill(ch, SKILL_BACKSTAB, get_property("skill.notch.offensive", 15))
+    if(notch_skill(ch, SKILL_BACKSTAB, get_property("skill.notch.offensive", 7))
       || percent_chance > number(0, 100)
       || GET_STAT(victim) <= STAT_SLEEPING )
     {
@@ -5202,7 +5192,7 @@ bool backstab(P_char ch, P_char victim)
       }
       else
       {
-        notch_skill(ch, SKILL_BACKSTAB, get_property("skill.notch.offensive", 15));
+        notch_skill(ch, SKILL_BACKSTAB, get_property("skill.notch.offensive", 7));
       }
       single_stab(ch, victim, second_w);
     }
@@ -5230,7 +5220,7 @@ int surprise(P_char ch, P_char victim)
 
   if(skl > number(1, 100))
   {
-    notch_skill(ch, SKILL_SURPRISE, 12);
+    notch_skill(ch, SKILL_SURPRISE, 7.69);
     send_to_char("&+GAmidst your opponents unpreparedness, you leap forth and deliver a surprise attack!&n\n", ch);
     hit(ch, victim, ch->equipment[PRIMARY_WEAPON]);
     if(IS_ALIVE(victim) && ch->equipment[WIELD2])
@@ -5335,9 +5325,8 @@ void attack(P_char ch, P_char victim)
         (number(0, 120) <= GET_LEVEL(victim) * 2))
       skl -= (110 - GET_CHAR_SKILL(ch, SKILL_SWITCH_OPPONENTS));
 
-    if(notch_skill(ch, SKILL_SWITCH_OPPONENTS,
-        get_property("skill.notch.switch", 10)) ||
-        skl >= number(1, 101))
+    if(notch_skill(ch, SKILL_SWITCH_OPPONENTS, get_property("skill.notch.switch", 10))
+      || skl >= number(1, 101))
     {
       stop_fighting(ch);
       act("$n turns to focus $s attack on $N!",
@@ -5641,7 +5630,7 @@ if((GET_RACE(victim) == RACE_OGRE) && ch_size < vict_size)
       else
       {
         shieldless = true;
-        notch_skill(ch, SKILL_SHIELDLESS_BASH, get_property("skill.notch.offensive", 12));
+        notch_skill(ch, SKILL_SHIELDLESS_BASH, get_property("skill.notch.offensive", 7));
         percent_chance =
           (int) (percent_chance *
           ((float) MAX(20, GET_CHAR_SKILL(ch, SKILL_SHIELDLESS_BASH))) / 100);
@@ -5661,13 +5650,10 @@ if((GET_RACE(victim) == RACE_OGRE) && ch_size < vict_size)
     skewer = (int) (skewer * get_property("skill.skewer.OffTarget.Penalty", 0.500));
   }
 
-  if(skewer > 0 &&
-    GET_POS(victim) != POS_STANDING &&
-    ch->equipment[WIELD] &&
-    good_for_skewering(ch->equipment[WIELD]) &&
-    (notch_skill(ch, SKILL_SKEWER,
-    get_property("skill.notch.offensive", 15)) ||
-    skewer / 3 > number(1, 100)))
+  if(skewer > 0 && GET_POS(victim) != POS_STANDING && ch->equipment[WIELD]
+    && good_for_skewering(ch->equipment[WIELD])
+    && (notch_skill(ch, SKILL_SKEWER, get_property("skill.notch.offensive", 7))
+    || skewer / 3 > number(1, 100)))
   {
     act("$n grins as $e skewers you with $s $q.", FALSE, ch,
         ch->equipment[WIELD], victim, TO_VICT);
@@ -5793,8 +5779,8 @@ if((GET_RACE(victim) == RACE_OGRE) && ch_size < vict_size)
   rolled = number(1, 100);
   debug("bash: (%s) bashing (%s) final percentage (%d).", GET_NAME(ch), GET_NAME(victim), percent_chance);
 
-  if(!notch_skill(ch, SKILL_BASH, get_property("skill.notch.offensive", 15)) &&
-     percent_chance < rolled)
+  if(!notch_skill(ch, SKILL_BASH, get_property("skill.notch.offensive", 7))
+    && percent_chance < rolled)
   {
     if (bigger_victim && number(1,2) == 1)
     {
@@ -5893,7 +5879,7 @@ if((GET_RACE(victim) == RACE_OGRE) && ch_size < vict_size)
     if(GET_CHAR_SKILL(ch, SKILL_SKEWER) > 0 && ch->equipment[WIELD] && good_for_skewering(ch->equipment[WIELD]))
     {
       percent_chance = GET_CHAR_SKILL(ch, SKILL_SKEWER) / 2;
-      if(notch_skill(ch, SKILL_SKEWER, get_property("skill.notch.offensive", 15))
+      if(notch_skill(ch, SKILL_SKEWER, get_property("skill.notch.offensive", 7))
         || percent_chance > number(0, 100))
       {
         if(!IS_ALIVE(victim))
@@ -6005,7 +5991,7 @@ void parlay(P_char ch, P_char victim)
     else 
     {
         send_to_char("&+rYou fail to spread the message of &+Wpeace&+r and &+Gharmony&+r.&n\n", ch);
-        notch_skill(ch, SKILL_PARLAY, 1);
+        notch_skill(ch, SKILL_PARLAY, 10);
         CharWait(ch, PULSE_VIOLENCE);
         return;
     }
@@ -6156,10 +6142,8 @@ void do_tackle(P_char ch, char *arg, int cmd)
      !IS_PC_PET(ch))
         percent_chance = 100;
   
-  if((notch_skill(ch, SKILL_TACKLE, get_property("skill.notch.offensive", 15)) ||
-      number(1, 100) < percent_chance ||
-      IS_TRUSTED(ch)) &&
-      GET_POS(vict) == POS_STANDING)
+  if((notch_skill(ch, SKILL_TACKLE, get_property("skill.notch.offensive", 7))
+    || number(1, 100) < percent_chance || IS_TRUSTED(ch)) && GET_POS(vict) == POS_STANDING)
   {
     if(!IS_TRUSTED(ch))
       set_short_affected_by(ch, SKILL_BASH, (int) (3.5 * PULSE_VIOLENCE));
@@ -6594,7 +6578,7 @@ void do_retreat(P_char ch, char *arg, int cmd)
       else
       {
         send_to_char("&+wYou perform a quick cantrip and attempt an expeditious retreat!&n\n",ch);
-        notch_skill(ch, SKILL_EXPEDITED_RETREAT, 20);
+        notch_skill(ch, SKILL_EXPEDITED_RETREAT, 5);
       }
     }
   }
@@ -6602,7 +6586,9 @@ void do_retreat(P_char ch, char *arg, int cmd)
   if(grapple_check_entrapment(ch))
     return;
 
-  notch_skill(ch, SKILL_RETREAT, 20);  // 5% chance to notch, instead of 2.5% - Jexni 09/17/08
+  // 5% chance to notch, instead of 2.5% - Jexni 09/17/08
+  // Changed notch_skill so that chance = % chance.
+  notch_skill(ch, SKILL_RETREAT, 5);
 
   if(number(1, 100) <= chance)
   {  // Success...
@@ -6747,9 +6733,8 @@ void rescue(P_char ch, P_char rescuee, bool rescue_all)
     if(!found)
     {
       found = TRUE;
-      if(notch_skill(ch, SKILL_RESCUE,
-                      get_property("skill.notch.rescue", 10)) ||
-          number(1, 100) > GET_CHAR_SKILL(ch, SKILL_RESCUE))
+      if(notch_skill(ch, SKILL_RESCUE, get_property("skill.notch.rescue", 10))
+        || number(1, 100) > GET_CHAR_SKILL(ch, SKILL_RESCUE))
       {
         act("$n futilely tries to rescue $N!", FALSE, ch, 0, rescuee,
             TO_NOTVICT);
@@ -6999,7 +6984,7 @@ void maul(P_char ch, P_char victim)
   }
   else if(percent_chance > percentroll)
   {
-    notch_skill(ch, SKILL_MAUL, get_property("skill.notch.offensive", 15));
+    notch_skill(ch, SKILL_MAUL, get_property("skill.notch.offensive", 7));
 
     act("$n &+yknocks&n $N &+ydown with a mighty blow!&n",
       FALSE, ch, 0, victim, TO_NOTVICT);
@@ -7221,8 +7206,8 @@ void shieldpunch(P_char ch, P_char victim)
     return;
   }
 
-  if(notch_skill(ch, SKILL_SHIELDPUNCH, get_property("skill.notch.offensive", 15)) ||
-      number(0, 100) < percent_chance)
+  if(notch_skill(ch, SKILL_SHIELDPUNCH, get_property("skill.notch.offensive", 7))
+    || number(0, 100) < percent_chance)
   {
     dambonus = (int) (MAX(20, GET_CHAR_SKILL(ch, SKILL_SHIELD_COMBAT) / 2));
     dmg = 6 * (number(1, dambonus) + (ch->equipment[WEAR_SHIELD]->weight));
@@ -7481,9 +7466,8 @@ void do_sweeping_thrust(P_char ch, char *argument, int cmd)
     return;
   }
   
-  if(notch_skill(ch, SKILL_SWEEPING_THRUST,
-    get_property("skill.notch.offensive", 15)) ||
-    number(1, 100) < percent_chance)
+  if(notch_skill(ch, SKILL_SWEEPING_THRUST, get_property("skill.notch.offensive", 7))
+    || number(1, 100) < percent_chance)
   {
     if(GET_LEVEL(ch) > 46)
     {
@@ -7633,8 +7617,7 @@ void do_rearkick(P_char ch, char *argument, int cmd)
   act("&+gYou tense up and prepare to rearkick&n $N &+gwith your hind legs!&n",
       FALSE, ch, 0, victim, TO_CHAR);
 
-  if(!notch_skill(ch, SKILL_KICK,
-                   get_property("skill.notch.offensive", 15)) &&
+  if(!notch_skill(ch, SKILL_KICK, get_property("skill.notch.offensive", 7)) &&
       percent_chance <= number(0, 100))
   {
     act("But fail miserably!", FALSE, ch, 0, victim, TO_CHAR);
@@ -8065,7 +8048,7 @@ void do_trample(P_char ch, char *argument, int cmd)
   
   act("You order your mount to trample $N.", FALSE, ch, 0, victim, TO_CHAR);
 
-  if(!notch_skill(ch, SKILL_MOUNTED_COMBAT, get_property("skill.notch.offensive", 15)) &&
+  if(!notch_skill(ch, SKILL_MOUNTED_COMBAT, get_property("skill.notch.offensive", 7)) &&
      (percent_chance + charisma) < number(1, 100))
   {
     if(50 + GET_C_DEX(ch) / 2 > number(0, 100) || is_knight)
@@ -8486,8 +8469,7 @@ void do_springleap(P_char ch, char *argument, int cmd)
     debug("Springleap (PVP): (%s) springing (%s) with (%d) percent chance.", GET_NAME(ch), GET_NAME(vict), percent_chance);
   }
 
-  if(!notch_skill(ch, SKILL_SPRINGLEAP,
-        get_property("skill.notch.offensive", 15)) &&
+  if(!notch_skill(ch, SKILL_SPRINGLEAP, get_property("skill.notch.offensive", 7)) &&
       percent_chance < number(1, 100))
   {
     send_to_char
@@ -8662,7 +8644,7 @@ void do_whirlwind(P_char ch, char *argument, int cmd)
     return;
   }
 
-  if(!notch_skill(ch, SKILL_WHIRLWIND, get_property("skill.notch.offensive", 15))
+  if(!notch_skill(ch, SKILL_WHIRLWIND, get_property("skill.notch.offensive", 7))
     && GET_CHAR_SKILL(ch, SKILL_WHIRLWIND) <= number(1, 100))
   {
     send_to_char( "You concentrate and charge at your foes with insane speed.. alas, your coordination fails!\n", ch);
@@ -8817,9 +8799,8 @@ void do_trip(P_char ch, char *argument, int cmd)
     return;
   }
 
-  if(!notch_skill(ch, SKILL_TRIP,
-                   get_property("skill.notch.offensive", 15)) &&
-      number(1, 100) > percent_chance)
+  if(!notch_skill(ch, SKILL_TRIP, get_property("skill.notch.offensive", 7))
+    && number(1, 100) > percent_chance)
   {
     send_to_char
       ("You manage, with complete incompetence, to throw yourself head-first into the ground!\n",
@@ -8959,9 +8940,8 @@ bool flank(P_char ch, P_char victim)
 
   CharWait(ch, PULSE_VIOLENCE * 1);
 
-  if(!notch_skill(ch, SKILL_FLANK,
-                   get_property("skill.notch.offensive", 15)) &&
-      GET_CHAR_SKILL(ch, SKILL_FLANK) < number(0, 100))
+  if(!notch_skill(ch, SKILL_FLANK, get_property("skill.notch.offensive", 15))
+    && GET_CHAR_SKILL(ch, SKILL_FLANK) < number(0, 100))
   {
     act("You fail to properly maneuver yourself to attack $N's flank.",
         FALSE, ch, 0, victim, TO_CHAR);
@@ -9203,9 +9183,8 @@ void battle_orders(P_char ch, P_char victim)
     percent_chance = (int) (percent_chance * 1.1);
   }
 
-  if(notch_skill(ch, SKILL_BATTLE_ORDERS,
-                  get_property("skill.notch.switch", 10)) ||
-    percent_chance > number(0, 100))
+  if(notch_skill(ch, SKILL_BATTLE_ORDERS, get_property("skill.notch.switch", 10))
+    || percent_chance > number(0, 100))
   {
     act("You shout out your orders.", FALSE, ch, 0, victim, TO_CHAR);
     act("Your skin crawls as $n directs his troops in a hollow voice.", FALSE,
@@ -9503,9 +9482,9 @@ void gaze(P_char ch, P_char victim)
     GET_NAME(ch), percent_chance, J_NAME(victim), standing, battling);
 // ---------------------------------------
   
-  if(notch_skill(ch, SKILL_GAZE, get_property("skill.notch.offensive", 15)) ||
-      percent_chance > number(0, 100))
-  {    
+  if(notch_skill(ch, SKILL_GAZE, get_property("skill.notch.offensive", 7))
+    || percent_chance > number(0, 100))
+  {
     anatomy_skill = GET_CHAR_SKILL(ch, SKILL_ANATOMY) - 25; // returns -25 to 70 int
 
     if(GET_HIT(victim) < (int)(((number(0,100) + anatomy_skill))/2))
@@ -9766,9 +9745,9 @@ void restrain(P_char ch, P_char victim)
     GET_NAME(ch), percent_chance, J_NAME(victim), standing, battling);
 // ---------------------------------------
   
-  if(notch_skill(ch, SKILL_RESTRAIN, get_property("skill.notch.offensive", 15)) ||
-      percent_chance > number(0, 100))
-  {    
+  if(notch_skill(ch, SKILL_RESTRAIN, get_property("skill.notch.offensive", 7))
+    || percent_chance > number(0, 100))
+  {
     anatomy_skill = GET_CHAR_SKILL(ch, SKILL_ANATOMY) - 25; // returns -25 to 70 int
 
     if(GET_HIT(victim) < (int)(((number(0,100) + anatomy_skill))/2))
@@ -9980,7 +9959,7 @@ void do_shriek(P_char ch, char *argument, int cmd)
 
   if(count > 0)
   {
-    notch_skill(ch, SKILL_SHRIEK, get_property("skill.notch.shriek", 15));
+    notch_skill(ch, SKILL_SHRIEK, get_property("skill.notch.shriek", 14));
   }
 }
 
@@ -10111,16 +10090,16 @@ void do_dreadnaught(P_char ch, char *, int)
     affect_to_char_with_messages(ch, &af,
                                  "&+yYou lower your &+Yguard&+y, and assume an offensive stance.",
                                  "$n &+ylowers his guard, and assumes an offensive stance.&n");
-								 
+
     set_short_affected_by(ch, TAG_DREADNAUGHT, 65);
-    notch_skill(ch, SKILL_DREADNAUGHT, 15);
+    notch_skill(ch, SKILL_DREADNAUGHT, 6.67);
     return;
   }
 
   act("&nYou attempt to assume a &+ydefensive &nposition, but fail horribly!&n", FALSE, ch, 0, 0, TO_CHAR);
   act("$n &+yattempts to assume a &+Ydefensive&+y position, but fails horribly!&n", FALSE, ch, 0, 0, TO_ROOM);
   set_short_affected_by(ch, TAG_DREADNAUGHT, 65);
-  notch_skill(ch, SKILL_DREADNAUGHT, 15);
+  notch_skill(ch, SKILL_DREADNAUGHT, 6.67);
 }
 
 void do_shadowstep(P_char ch, char *, int)
@@ -10168,9 +10147,8 @@ void do_shadowstep(P_char ch, char *, int)
     af.duration = 20;
     af.flags = AFFTYPE_SHORT | AFFTYPE_NODISPEL | AFFTYPE_NOSHOW ;
     affect_to_char(ch, &af);
-    
-								 
-    notch_skill(ch, SKILL_SHADOWSTEP, 15);
+
+    notch_skill(ch, SKILL_SHADOWSTEP, 6.67);
     if( IS_FIGHTING(ch) )
     {
       P_char victim, victim2;
@@ -10194,7 +10172,7 @@ void do_shadowstep(P_char ch, char *, int)
   act("&nYou attempt to step into the &+Lsha&+wdo&+Wws&n, but fail horribly!&n", FALSE, ch, 0, 0, TO_CHAR);
   act("$n makes an attempt to step into the &+Lsha&+wdo&+Wws&n, but fails horribly!&n", FALSE, ch, 0, 0, TO_ROOM);
   set_short_affected_by(ch, SKILL_SHADOWSTEP, dur);
-  notch_skill(ch, SKILL_SHADOWSTEP, 15);
+  notch_skill(ch, SKILL_SHADOWSTEP, 6.67);
 }
 
 void do_garrote(P_char ch, char *argument, int cmd)
@@ -10232,7 +10210,7 @@ void do_garrote(P_char ch, char *argument, int cmd)
   }
 
   int success = GET_CHAR_SKILL(ch, SKILL_GARROTE);
-  notch_skill(ch, SKILL_GARROTE, 15);
+  notch_skill(ch, SKILL_GARROTE, 6.67);
   if(number(1, 105) > success)
   {
     act("&+LYou try to slip behind &n$N&+L, but they notice the attempt and block your advance!",

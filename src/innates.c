@@ -3312,7 +3312,7 @@ void halfling_stealaction(P_char ch, char *arg, int cmd)
       act("You unequip $p and steal it.", FALSE, ch, obj, 0, TO_CHAR);
       obj_to_char(unequip_char(vict, loc), ch);
       percent -= GET_OBJ_WEIGHT(obj);
-      notch_skill(ch, SKILL_STEAL, 20);
+      notch_skill(ch, SKILL_STEAL, 5);
     } else {
       send_to_char("Uh huh.. You think your instincts got better of you!\n", ch);
       failed = TRUE;

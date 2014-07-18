@@ -3025,7 +3025,7 @@ void spell_earthen_maul(int level, P_char ch, char *arg, int type,
      if(number(0, 3) || (GET_CHAR_SKILL(victim, SKILL_SAFE_FALL) >= number(1, 101))) {
      act("$n almost dodges the &+yearth&n's maul, staying on $s feet!", TRUE, victim, 0, 0, TO_ROOM);
      act("You almost dodge the &+yearth&n's maul, staying on your feet!", TRUE, victim, 0, 0, TO_CHAR);
-     if(IS_PC(victim)) notch_skill(victim, SKILL_SAFE_FALL, 32);
+     if(IS_PC(victim)) notch_skill(victim, SKILL_SAFE_FALL, 3);
      } else {
      act("You are almost swallowed by the earth and injure yourself!",
      FALSE, ch, 0, victim, TO_VICT);
@@ -3726,7 +3726,7 @@ void spell_earthquake(int level, P_char ch, char *arg, int type,
                 0, 0, TO_ROOM);
             act("&+GYou do a &+Ydouble sommersault &+Gand land on your feet!", TRUE, tch,
                 0, 0, TO_CHAR);
-            notch_skill(tch, SKILL_SAFE_FALL, 32);
+            notch_skill(tch, SKILL_SAFE_FALL, 3);
           }
           else
           {
@@ -11819,7 +11819,7 @@ void spell_grow_spike(int level, P_char ch, char *arg, int type, P_char victim,
      if(number(0, 3) || (GET_CHAR_SKILL(victim, SKILL_SAFE_FALL) >= number(1, 101))) {
      act("$n almost dodges the &+yearth&n's maul, staying on $s feet!", TRUE, victim, 0, 0, TO_ROOM);
      act("You almost dodge the &+yearth&n's maul, staying on your feet!", TRUE, victim, 0, 0, TO_CHAR);
-     if(IS_PC(victim)) notch_skill(victim, SKILL_SAFE_FALL, 32);
+     if(IS_PC(victim)) notch_skill(victim, SKILL_SAFE_FALL, 3);
      } else {
      act("You are almost swallowed by the earth and injure yourself!",
      FALSE, ch, 0, victim, TO_VICT);

@@ -191,12 +191,12 @@ int mana_regen(P_char ch)
     if (GET_CHAR_SKILL(ch, SKILL_ADVANCED_MEDITATION) >= 90)
     {
       gain = (int) (gain * 2.5);
-              notch_skill(ch, SKILL_ADVANCED_MEDITATION, 50);
+              notch_skill(ch, SKILL_ADVANCED_MEDITATION, 2);
     }
     else
     {
       gain *= 2;
-             notch_skill(ch, SKILL_ADVANCED_MEDITATION, 50);
+             notch_skill(ch, SKILL_ADVANCED_MEDITATION, 2);
     }
   }
   */

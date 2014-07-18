@@ -1749,11 +1749,11 @@ void event_bardsong(P_char ch, P_char victim, P_obj obj, void *data)
     }
   }
 
-  notch_skill(ch, song, 50);
+  notch_skill(ch, song, 2);
   if((instrument = has_instrument(ch)))
   {
     if(bard_get_type(song) == instrument->value[0] + INSTRUMENT_OFFSET)
-      notch_skill(ch, instrument->value[0] + INSTRUMENT_OFFSET, 50);
+      notch_skill(ch, instrument->value[0] + INSTRUMENT_OFFSET, 2);
   }
   for (af = ch->affected; af; af = af2)
   {
@@ -2001,7 +2001,7 @@ void do_riff(P_char ch, char *arg, int cmd)
 
   if(number(1, 100) < GET_CHAR_SKILL(ch, SKILL_RIFF))
   {
-    notch_skill(ch, SKILL_RIFF, get_property("skill.notch.offensive", 15)); 
+    notch_skill(ch, SKILL_RIFF, get_property("skill.notch.offensive", 6.25)); 
   }
 
   if(number(1, 90) > GET_CHAR_SKILL(ch, SKILL_RIFF))

@@ -290,11 +290,11 @@ void event_smite_evil(P_char ch, P_char victim, P_obj obj, void *data)
   if( is_wielding_paladin_sword(ch) )
   {
     for (tch = world[ch->in_room].people; tch; tch = tch->next_in_room) {
-      if (!grouped(tch, ch) && GET_HIT(tch) < GET_MAX_HIT(tch)/10 &&
-          IS_ALIVE(tch) &&
-          GET_HIT(tch) < 15 && IS_EVIL(tch) && (GET_RACEWAR(tch) != 1) &&
-          (notch_skill(ch, SKILL_SMITE_EVIL, get_property("skill.notch.smiteEvil", 20)) || 
-          GET_CHAR_SKILL(ch, SKILL_SMITE_EVIL)/2 > number(0,100))) {
+      if (!grouped(tch, ch) && GET_HIT(tch) < GET_MAX_HIT(tch)/10 && IS_ALIVE(tch)
+        && GET_HIT(tch) < 15 && IS_EVIL(tch) && (GET_RACEWAR(tch) != 1)
+        && (notch_skill(ch, SKILL_SMITE_EVIL, get_property("skill.notch.smiteEvil", 10))
+        || GET_CHAR_SKILL(ch, SKILL_SMITE_EVIL)/2 > number(0,100)))
+      {
         act("A stern look appears on $n's face, and $e rushes to extinguish the evil being!", FALSE, ch, 0, tch, TO_NOTVICT);
         act("You exploit the evil creature's momentary weakness, and dive in for the killing blow!", FALSE, ch, 0, 0, TO_CHAR);
         act("$n looks at you sternly, and then dives in, $s blade rushing for your heart!", FALSE, ch, 0, tch, TO_VICT);

@@ -5222,7 +5222,7 @@ void do_salvage(P_char ch, char *argument, int cmd)
     act("&+LYou attempt to break down your $p&+L, but end up &+Rbreaking &+Lit in the process.", FALSE, ch, temp, 0, TO_CHAR);
     act("$n attempts to salvage their $p, but clumsily destroys it.", TRUE, ch, temp, 0, TO_ROOM);
     extract_obj(temp, !IS_TRUSTED(ch));
-    notch_skill(ch, SKILL_SALVAGE, 20);
+    notch_skill(ch, SKILL_SALVAGE, 5);
     return;
   }
   else
@@ -6113,7 +6113,7 @@ void do_salvage(P_char ch, char *argument, int cmd)
         break;
     }
 
-    notch_skill(ch, SKILL_SALVAGE, 25);
+    notch_skill(ch, SKILL_SALVAGE, 4);
     if (objchance <= 5)
     {
       reciperoll *= .4;
@@ -6382,7 +6382,7 @@ void do_apply_poison(P_char ch, char *argument, int cmd)
   act("$n applies a vile-looking substance to $s $q!", FALSE, ch, weapon, 0,
       TO_ROOM);
 
-  notch_skill(ch, SKILL_APPLY_POISON, 20);
+  notch_skill(ch, SKILL_APPLY_POISON, 10);
 
   if (poison->value[1] < 1)
   {                             /* The last bit */

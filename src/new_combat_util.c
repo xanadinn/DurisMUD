@@ -599,7 +599,7 @@ int getCharToHitValClassandLevel(const P_char ch)
         val += 2;
     }
     if (IS_PC(ch) && !number(0, 1))
-      notch_skill(ch, SKILL_MOUNTED_COMBAT, 4);
+      notch_skill(ch, SKILL_MOUNTED_COMBAT, 20);
   }                             // no mod for 1-25, +1 for 26-45, +2 for 46+
 
   return BOUNDED(10, val, 60);
@@ -1827,12 +1827,12 @@ int calcChDamagetoVict(P_char ch, P_char victim, P_obj weap,
     dam = ((dam * number(4, 9)) / 10);
 
   if (IS_PC(ch) && !number(0, 1))
-    notch_skill(ch, att_skill, 4);
+    notch_skill(ch, att_skill, 20);
 
   if (IS_PC(ch))
   {
     if (wpn_skl && !number(0, 1))
-      notch_skill(ch, wpn_skl, 2);
+      notch_skill(ch, wpn_skl, 33.33);
   }
 
   lvl = GET_LEVEL(ch);
@@ -1850,7 +1850,7 @@ int calcChDamagetoVict(P_char ch, P_char victim, P_obj weap,
         dam += 2;
     }
     if (IS_PC(ch) && !number(0, 1))
-      notch_skill(ch, SKILL_MOUNTED_COMBAT, 4);
+      notch_skill(ch, SKILL_MOUNTED_COMBAT, 20);
   }                             // no mod for 1-25, +1 for 26-45, +2 for 46+
 
   lvl = GET_LEVEL(ch);

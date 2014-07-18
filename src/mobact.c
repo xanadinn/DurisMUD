@@ -806,7 +806,7 @@ bool MobCastSpell(P_char ch, P_char victim, P_obj object, int spl, int lvl)
 
       if(skl && success > 0)
       {
-        notch_skill(kala, SKILL_DISRUPTIVE_BLOW, 5);
+        notch_skill(kala, SKILL_DISRUPTIVE_BLOW, 17);
         if(success > 75)
         {
           act("You lunge slamming your fist into $N's larynx.", FALSE, kala,

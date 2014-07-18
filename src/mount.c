@@ -222,7 +222,7 @@ void do_mount(P_char ch, char *argument, int cmd)
   act("You climb up and ride $N.", FALSE, ch, 0, mount, TO_CHAR);
   act("$n climbs on and rides $N.", TRUE, ch, 0, mount, TO_NOTVICT);
   act("$n climbs on and rides you.", FALSE, ch, 0, mount, TO_VICT);
-  notch_skill(ch, SKILL_MOUNT, 4);
+  notch_skill(ch, SKILL_MOUNT, 20);
 }
 
 /*

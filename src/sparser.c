@@ -877,18 +877,18 @@ void say_spell(P_char ch, int si)
         if(IS_MAGESPELL(si) &&
            IS_MAGE(tch))
         {
-          notch_skill(tch, SKILL_SPELL_KNOWLEDGE_MAGICAL, 100);
+          notch_skill(tch, SKILL_SPELL_KNOWLEDGE_MAGICAL, 1);
         }
         else if(IS_CLERICSPELL(si) &&
                 (IS_CLERIC(tch) ||
                  IS_HOLY(tch)))
         {
-          notch_skill(tch, SKILL_SPELL_KNOWLEDGE_CLERICAL, 100);
+          notch_skill(tch, SKILL_SPELL_KNOWLEDGE_CLERICAL, 1);
         }
         else if(IS_SHAMANSPELL(si) &&
                 GET_CLASS(tch, CLASS_SHAMAN))
         {
-          notch_skill(tch, SKILL_SPELL_KNOWLEDGE_SHAMAN, 100);
+          notch_skill(tch, SKILL_SPELL_KNOWLEDGE_SHAMAN, 1);
         }
 
       }
@@ -978,11 +978,11 @@ void SpellCastShow(P_char ch, int spl)
     act(Gbuf1, TRUE, ch, 0, tch, TO_VICT);
 
     if (idok == 1)
-      notch_skill(ch, SKILL_SPELL_KNOWLEDGE_MAGICAL, 100);
+      notch_skill(ch, SKILL_SPELL_KNOWLEDGE_MAGICAL, 1);
     else if (idok == 2)
-      notch_skill(ch, SKILL_SPELL_KNOWLEDGE_CLERICAL, 100);
+      notch_skill(ch, SKILL_SPELL_KNOWLEDGE_CLERICAL, 1);
     else if (idok == 3)
-      notch_skill(ch, SKILL_SPELL_KNOWLEDGE_SHAMAN, 100);
+      notch_skill(ch, SKILL_SPELL_KNOWLEDGE_SHAMAN, 1);
   }
 }
 
@@ -1132,7 +1132,7 @@ bool ground_casting_check(P_char ch, int spl)
       !IS_SET(skills[spl].targets, TAR_NOCOMBAT) &&
 
       (number(0,100) < (int) (GET_CHAR_SKILL(ch, SKILL_GROUND_CASTING) / 2 )) ||
-     //  notch_skill(ch, SKILL_GROUND_CASTING, get_property("skill.notch.groundCasting", 50) ) )
+     //  notch_skill(ch, SKILL_GROUND_CASTING, get_property("skill.notch.groundCasting", 60) ) )
       ( number(0,120) < (int) ( GET_CHAR_SKILL(ch, SKILL_CONCENTRATION / 2))))
          
       
@@ -1937,7 +1937,7 @@ void do_will(P_char ch, char *argument, int cmd)
     {
       dura >>= 1;
       if (!number(0, 1))
-        notch_skill(ch, SKILL_QUICK_CHANT, get_property("skill.notch.quickChant", 100));
+        notch_skill(ch, SKILL_QUICK_CHANT, get_property("skill.notch.quickChant", 2.5));
     }*/
     if (GET_CLASS(ch, CLASS_MINDFLAYER))
       dura = 1;
@@ -2014,7 +2014,7 @@ bool check_disruptive_blow(P_char ch)
 
     if (skl && success)
     {
-      notch_skill(ch, SKILL_DISRUPTIVE_BLOW, 5);
+      notch_skill(ch, SKILL_DISRUPTIVE_BLOW, 17);
 
       if (success > 75)
       {
@@ -2190,8 +2190,8 @@ void do_cast(P_char ch, char *argument, int cmd)
 
   if (weaved)
   {
-    if (notch_skill(ch, SKILL_SPELLWEAVE, get_property("skill.notch.spellWeave", 10)) || 
-        GET_CHAR_SKILL(ch, SKILL_SPELLWEAVE) > number(0, 100))
+    if (notch_skill(ch, SKILL_SPELLWEAVE, get_property("skill.notch.spellWeave", 50))
+      || GET_CHAR_SKILL(ch, SKILL_SPELLWEAVE) > number(0, 100))
     {
       SET_BIT(ch->specials.affected_by2, AFF2_CASTING);
       event_spellcast(ch, tar_char, 0, &tmp_spl);
@@ -2259,7 +2259,7 @@ void do_cast(P_char ch, char *argument, int cmd)
   else if ((GET_CLASS(ch, CLASS_DRUID) && !IS_MULTICLASS_PC(ch)) ||
            ((!is_tank || number(0, 1)) &&
             (IS_NPC(ch) || IS_SET(ch->specials.act2, PLR2_QUICKCHANT)) &&
-            (notch_skill(ch, SKILL_QUICK_CHANT, get_property("skill.notch.quickChant", 100)) ||
+            (notch_skill(ch, SKILL_QUICK_CHANT, get_property("skill.notch.quickChant", 2.5)) ||
              (GET_CHAR_SKILL(ch, SKILL_QUICK_CHANT) > number(1, 100)))))
   {
     dura >>= 1;
@@ -2418,8 +2418,8 @@ void event_spellcast(P_char ch, P_char victim, P_obj obj, void *data)
         skl = SKILL_SPELL_KNOWLEDGE_MAGICAL;
      
       //if (GET_CLASS(ch, CLASS_PSIONICIST | CLASS_DRUID | CLASS_ETHERMANCER) ||
-      if (GET_CLASS(ch, CLASS_PSIONICIST | CLASS_DRUID) ||
-	    number(1, 100) <= GET_CHAR_SKILL(ch, skl))
+      if( GET_CLASS(ch, CLASS_PSIONICIST | CLASS_DRUID) ||
+	      number(1, 100) <= GET_CHAR_SKILL(ch, skl) )
       {
         sprintf(buf, "Casting: %s ", skills[arg->spell].name);
         for (i = 0; i < (arg->timeleft / 4); i++)
@@ -2428,7 +2428,7 @@ void event_spellcast(P_char ch, P_char victim, P_obj obj, void *data)
         send_to_char(buf, ch);
       }
       else
-        notch_skill(ch, skl, 50);
+        notch_skill(ch, skl, 2);
     }
     i = MIN(arg->timeleft, 4);
     arg->timeleft -= i;

@@ -684,7 +684,7 @@ int ageCorpse(P_char ch, P_obj obj, char *s)
   if (GET_CHAR_SKILL(ch, SKILL_AGE_CORPSE) == 0)
     return FALSE;
 
-  notch_skill(ch, SKILL_AGE_CORPSE, 50);
+  notch_skill( ch, SKILL_AGE_CORPSE, 10 );
 
   /* Change this to something that finds out how long
    * the corpse has left
@@ -1997,14 +1997,14 @@ void ShowCharSpellBookSpells(P_char ch, P_obj obj)
   char     buf[MAX_STRING_LENGTH], buf3[MAX_STRING_LENGTH];
   int      i, j, k = 0, l, m = 0;
 
-  if (IS_NPC(ch))
+  if( IS_NPC(ch) )
   {
-    send_to_char("you're an npc, leave me aone.\n", ch);
+    send_to_char("you're an npc, leave me alone.\n", ch);
     return;
   }
 
   desc = find_spell_description(obj);
-  if (!desc)
+  if( !desc )
   {
     sprintf(buf, "$p appears to be unused and has %d pages left.",
             obj->value[2]);
@@ -2019,13 +2019,13 @@ void ShowCharSpellBookSpells(P_char ch, P_obj obj)
    return;
    }
  */
-  if (obj->value[1] && !GET_CLASS(ch, obj->value[1]))
-  {                             //obj->value[1] != GET_CLASS(ch)) {
+  if( obj->value[1] && !GET_CLASS(ch, obj->value[1]) )
+  {
     sprintf(buf, "The original writer of $p appears to have been a %s.",
             class_names_table[flag2idx(obj->value[1])].ansi);
     act(buf, TRUE, ch, obj, 0, TO_CHAR);
   }
-  if (obj->value[1])
+  if( obj->value[1] )
   {
     l = ch->player.m_class;
     ch->player.m_class = obj->value[1];
@@ -2034,47 +2034,51 @@ void ShowCharSpellBookSpells(P_char ch, P_obj obj)
 
     switch (GetClassType(ch))
     {
-    case CLASS_TYPE_CLERIC:
-      k = SKILL_SPELL_KNOWLEDGE_CLERICAL;
-      break;
-    default:
-      k = SKILL_SPELL_KNOWLEDGE_MAGICAL;
+      case CLASS_TYPE_CLERIC:
+        k = SKILL_SPELL_KNOWLEDGE_CLERICAL;
+        break;
+      default:
+        k = SKILL_SPELL_KNOWLEDGE_MAGICAL;
+        break;
     }
     ch->player.m_class = l;
   }
-  else if (GET_CHAR_SKILL(ch, SKILL_SPELL_KNOWLEDGE_MAGICAL) >
-           GET_CHAR_SKILL(ch, SKILL_SPELL_KNOWLEDGE_CLERICAL))
+  else if( GET_CHAR_SKILL(ch, SKILL_SPELL_KNOWLEDGE_MAGICAL) >
+           GET_CHAR_SKILL(ch, SKILL_SPELL_KNOWLEDGE_CLERICAL) )
     k = SKILL_SPELL_KNOWLEDGE_MAGICAL;
   else
     k = SKILL_SPELL_KNOWLEDGE_CLERICAL;
   buf[0] = 0;
   m = 0;
-  for (j = FIRST_SPELL; j <= LAST_SPELL; j++)
+  for( j = FIRST_SPELL; j <= LAST_SPELL; j++ )
   {
-    if (j < 0)
+    if( !SpellInThisSpellBook(desc, j) )
+    {
       continue;
-    if (!SpellInThisSpellBook(desc, j))
+    }
+    if( !((GET_CLASS(ch, obj->value[1])
+      && get_spell_circle(ch, j) <= get_max_circle(ch))
+      || (GET_CHAR_SKILL(ch, k) <= number(1, 100)
+      && (GET_CHAR_SKILL(ch, k) && number(1, 70) <= GET_LEVEL(ch)))) )
+    {
       continue;
-    if (!((GET_CLASS(ch, obj->value[1]) &&
-           //GET_CLASS(ch) == obj->value[1] &&
-           get_spell_circle(ch, j) <= get_max_circle(ch)) ||
-          (GET_CHAR_SKILL(ch, k) <= number(1, 100) &&
-           (GET_CHAR_SKILL(ch, k) && number(1, 70) <= GET_LEVEL(ch)))))
-      continue;
-    if (m)
+    }
+    if( m )
+    {
       strcat(buf, ", ");
+    }
     m++;
     strcat(buf, skills[j].name);
   }
 #if 0
-  if (m)
+  if( m )
     strcat(buf, ".");
 #endif
-  if (!buf[0])
+  if( !buf[0] )
   {
     send_to_char("It contains no spells you recognize outright ", ch);
   }
-  else if (m == 1)
+  else if( m == 1 )
   {
     sprintf(buf, "It has just one spell you recognize : %s ", buf);
     send_to_char(buf, ch);
@@ -2085,15 +2089,17 @@ void ShowCharSpellBookSpells(P_char ch, P_obj obj)
     send_to_char(buf3, ch);
   }
 
-  if (obj->value[2] <= obj->value[3])
+  if( obj->value[2] <= obj->value[3] )
+  {
     send_to_char("and has no free pages.\n", ch);
+  }
   else
   {
     sprintf(buf, "and has %d free pages.\n", obj->value[2] - obj->value[3]);
     send_to_char(buf, ch);
   }
-  if (k)
-    notch_skill(ch, k, 20);
+  if( k )
+    notch_skill( ch, k, 5 );
 }
 
 void do_look(P_char ch, char *argument, int cmd)
@@ -3134,7 +3140,7 @@ void do_examine(P_char ch, char *argument, int cmd)
   if (tmp_object && (GET_CHAR_SKILL(ch, SKILL_LEGEND_LORE) > number(0, 110)) &&
 		  (GET_ITEM_TYPE(tmp_object) != ITEM_CONTAINER && GET_ITEM_TYPE(tmp_object) != ITEM_CORPSE))
   {
-    notch_skill(ch, SKILL_LEGEND_LORE, 20);
+    notch_skill( ch, SKILL_LEGEND_LORE, 5 );
     spell_identify(GET_LEVEL(ch), ch, 0, 0, 0, tmp_object);
     CharWait(ch, (int) (PULSE_VIOLENCE * 1.5));
     return;
