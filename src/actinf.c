@@ -7404,7 +7404,7 @@ void do_where(P_char ch, char *argument, int cmd)
   }
 
   /* mobs */
-
+  buf[0] = '\0';
   for (i = character_list; i && !flag; i = i->next)
   {
     if ((isname(argument, GET_NAME(i)) ||
