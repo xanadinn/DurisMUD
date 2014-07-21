@@ -3763,7 +3763,8 @@ void chant_chi_purge(int level, P_char ch, char *arg, int type,
   if (GET_LEVEL(ch) > 55)
     disease = TRUE;
 
-  if (number(1, 100) > GET_CHAR_SKILL(ch, SKILL_CHI_PURGE))
+  if( number(1, 100) > GET_CHAR_SKILL(ch, SKILL_CHI_PURGE)
+    && !notch_skill(ch, SKILL_CHI_PURGE, 10) )
   {
     send_to_char("You forgot the words for the chant.\r\n", ch);
     notch_skill(ch, SKILL_CHI_PURGE, 15);
