@@ -3898,7 +3898,7 @@ void do_craft(P_char ch, char *argument, int cmd)
     int z = 0;
     if(has_affect(tobj))
       z = 1;
-    debug(" difference: %d\r\n", (int)difference);
+//    debug("do_craft: difference: %d.", (int)difference);
     if((i < fullcount) || (o < (int)difference) || ((z == 1) && (x < 1)))
     {
       send_to_char("You do not have the required &+ysalvaged &+Ymaterials &nin your inventory.\r\n", ch);
@@ -3962,7 +3962,7 @@ void do_craft(P_char ch, char *argument, int cmd)
     }
 
     //reward here
-    wizlog(56, "%s crafted %s" , GET_NAME(ch), tobj->short_description);
+    wizlog(56, "%s crafted '%s' (%d) ival %d.", GET_NAME(ch), tobj->short_description, GET_OBJ_VNUM(tobj), itemvalue(ch, tobj));
     notch_skill(ch, SKILL_CRAFT, 50);
     P_obj reward = read_object(selected, VIRTUAL);
     SET_BIT(reward->extra2_flags, ITEM2_CRAFTED);
