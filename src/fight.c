@@ -4237,7 +4237,8 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
       if (IS_AFFECTED3(victim, AFF3_COLDSHIELD))
         dam *= dam_factor[DF_ELSHIELDINC];
 
-      if (IS_AFFECTED(victim, AFF_BARKSKIN))
+      if( IS_AFFECTED(victim, AFF_BARKSKIN)
+        || IS_AFFECTED5(victim, AFF5_THORNSKIN) )
         dam *= dam_factor[DF_BARKFIRE];
 
       if (affected_by_spell(victim, SPELL_IRONWOOD))
