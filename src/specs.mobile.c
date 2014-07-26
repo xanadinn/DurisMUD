@@ -9901,25 +9901,27 @@ int rentacleric(P_char ch, P_char vict, int cmd, char *argument)
     int      price;
   } prices[] =
   {
-    /* Spell Num (defined)      Name shown        Price  */
+    /* Spell Num (defined)      Name shown                               Name           Price  */
     {
-    SPELL_CURE_CRITIC, "&+WCure critical wounds&n     ", "cure critical wounds", 250},
+    SPELL_CURE_CRITIC,   "&+WCure critical wounds&n     ",       "cure critical wounds", 250},
     {
-    SPELL_FULL_HEAL, "&+WFull heal&n              ", "full heal", 500},
+    SPELL_FULL_HEAL,     "&+WFull heal&n                ",       "full heal",            500},
     {
-    SPELL_ARMOR, "&+wBenevolent armor&n         ", "benevolent armor", 100},
+    SPELL_ARMOR,         "&+wBenevolent armor&n         ",       "benevolent armor",     100},
     {
-    SPELL_BLESS, "&+WBlessing &+Lof the &+RGods&n     ", "blessing of the gods", 100},
+    SPELL_BLESS,         "&+WBlessing &+Lof the &+RGods&n     ", "blessing of the gods", 100},
     {
-    SPELL_REMOVE_POISON, "&+GAntidote&n                 ", "antidote", 600},
+    SPELL_REMOVE_POISON, "&+GAntidote&n                 ",       "antidote",             600},
     {
-    SPELL_REMOVE_CURSE, "&+rCurse &+wremoval&n            ", "curse removal", 700},
+    SPELL_CURE_DISEASE,  "&+yDisease &+wremoval&n          ",    "disease removal",      650},
     {
-    SPELL_CURE_BLIND, "&+WCure of &+Lblindness&n        ", "cure of blindness", 500},
+    SPELL_REMOVE_CURSE,  "&+rCurse &+wremoval&n            ",    "curse removal",        700},
     {
-    SPELL_ACCEL_HEALING, "&+YAccelerated &+Whealing&n      ", "accelerated healing", 2500},
-   /* {
-    SPELL_RESURRECT, "&+WResurrection&n             ", "resurrection", 3000},*/
+    SPELL_CURE_BLIND,    "&+WCure of &+Lblindness&n        ",    "cure of blindness",    500},
+    {
+    SPELL_ACCEL_HEALING, "&+YAccelerated &+Whealing&n      ",    "accelerated healing", 2500},
+    {
+    SPELL_RESURRECT,     "&+WResurrection&n             ",       "resurrection",        5000},
     {
      -1, "\r\n", -1},
   };
@@ -9941,11 +9943,17 @@ int rentacleric(P_char ch, P_char vict, int cmd, char *argument)
           /* resur is special case. Just find any corpse and raise it :) */
           if (prices[i].number == SPELL_RESURRECT)
           {
+            // In case 'order follower buy resurrect' etc.
+            if( IS_NPC(vict) )
+            {
+              mobsay( ch, "I only raise PC corpses, maybe you should talk to Melmba" );
+              return TRUE;
+            }
             for (obj = world[ch->in_room].contents; obj; obj = next_obj)
             {
               next_obj = obj->next_content;
-              if ((obj->type == ITEM_CORPSE) &&
-                  IS_SET(obj->value[1], PC_CORPSE))
+              if( (obj->type == ITEM_CORPSE) && IS_SET(obj->value[1], PC_CORPSE)
+                && isname(GET_NAME(vict), obj->action_description) )
                 break;
             }
             if (!obj)
