@@ -763,9 +763,19 @@ void update_exp_table()
   fprintf(stderr, "Generating exp table.\n");
   for (i = 1; i <= MAXLVL; i++)
   {
-    sprintf(buf, "exp.required.%d", ((i + 4) / 5) * 5);
-    new_exp_table[i] = (int) get_property(buf, i * i * 1000);
-    global_exp_limit += new_exp_table[i]; 
+    // Changed this so we start at exp.required.1 and can set each value
+    //   up to exp.required.62.  If no value is set, take the previous.
+    // If you change this back, need to reset values in duris.properties.
+//    sprintf(buf, "exp.required.%d", ((i + 4) / 5) * 5);
+    sprintf(buf, "exp.required.%d", i);
+    new_exp_table[i] = get_property(buf, -1);
+    // If exp.required.i not found, set to i-1's value.
+    if( new_exp_table[i] == -1 )
+    {
+      // Default lvl 1 exp is 2k.  But lvl 1 exp property should be set.
+      new_exp_table[i] = (i==1) ? 2000 : new_exp_table[i-1];
+    }
+    global_exp_limit += new_exp_table[i];
   }
 }
 

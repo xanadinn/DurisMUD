@@ -7523,6 +7523,8 @@ void do_where(P_char ch, char *argument, int cmd)
     page_string(ch->desc, buf, 1);
 }
 
+// This is pretty outdated since all classes get same exp table now.
+//   Even more so, with exp being subtracted upon level.
 void do_levels(P_char ch, char *argument, int cmd)
 {
   int      i, which;
@@ -7640,11 +7642,14 @@ void do_levels(P_char ch, char *argument, int cmd)
   {
     sprintf(buf + strlen(buf), "[%2d %2s] %9d-%-9d\n",
       i, class_names_table[flag2idx(which)].ansi,
-      new_exp_table[i], new_exp_table[i + 1] - 1);
+      0, new_exp_table[i + 1] - 1);
+//  Exp is subtracted upon level -> start of each level is 0 exp.
+//      new_exp_table[i], new_exp_table[i + 1] - 1);
   }
-  // i == MAXLVLMORTAL.  Imms don't use exp.
+  // i == MAXLVLMORTAL.  Imms don't use exp, so this is final entry.
   sprintf(buf + strlen(buf), "[%2d %2s] %9d+\n",
-    i, class_names_table[flag2idx(which)].ansi, new_exp_table[i]);
+    i, class_names_table[flag2idx(which)].ansi, 0);
+//    i, class_names_table[flag2idx(which)].ansi, new_exp_table[i]);
 
   page_string(ch->desc, buf, 1);
 }
