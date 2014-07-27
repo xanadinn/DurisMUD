@@ -1291,13 +1291,10 @@ void do_conjure(P_char ch, char *argument, int cmd)
   int i = 0, room = ch->in_room; 
   int choice = 0;  
 
-  if(!ch)
+  if( !IS_ALIVE(ch) || IS_NPC(ch) )
     return;
 
-  if(IS_NPC(ch))
-    return;
-
-
+  // If not spec'd.
   if (!GET_SPEC(ch, CLASS_SUMMONER, SPEC_CONTROLLER) && !GET_SPEC(ch, CLASS_SUMMONER, SPEC_SUMMONER) && !GET_SPEC(ch, CLASS_SUMMONER, SPEC_NATURALIST))
   {
     act("&+YConjuring advanced beings &nis a &+Mmagic &nbeyond your abilities&n.",
