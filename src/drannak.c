@@ -2628,7 +2628,9 @@ void enhancematload( P_char ch, P_char killer )
     P_obj gift = read_object(reward, VIRTUAL);
     if( gift )
     {
-      debug( "enhancematload: '%s' (%d) rewarded to %s.", gift->short_description, GET_OBJ_VNUM(gift), J_NAME(killer) );
+      // Show reward to master if killer is a pet.
+      debug( "enhancematload: '%s' (%d) rewarded to %s.", gift->short_description, GET_OBJ_VNUM(gift),
+        IS_PC_PET(killer) ? J_NAME(killer) : J_NAME(get_linked_char(killer, LNK_PET)) );
       obj_to_char( gift, ch );
     }
   }
