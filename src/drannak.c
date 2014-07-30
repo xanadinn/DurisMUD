@@ -2537,6 +2537,7 @@ void thanksgiving_proc(P_char ch)
   char_to_room(mob, ch->in_room, 0);
 }
 
+// This function assumes ch exists and is a mob (Verified in fight.c before call).
 void enhancematload( P_char ch, P_char killer )
 {
   int reward;
@@ -2547,7 +2548,7 @@ void enhancematload( P_char ch, P_char killer )
   }
   if( number(1, 5000) < moblvl )
   {
-    debug( "enhancematload: mob: '%s' (%d) moblvl %d", J_NAME(ch), GET_VNUM(ch), moblvl );
+    debug( "enhancematload: mob: '%s' (%d) moblvl %d%s", J_NAME(ch), GET_VNUM(ch), moblvl, IS_ELITE(ch) ? " ELITE." : "." );
     if(number(1, 4000) < moblvl)
     {
       reward = number(1, 8);
