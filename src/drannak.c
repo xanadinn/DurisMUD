@@ -1272,7 +1272,7 @@ P_obj random_zone_item(P_char ch)
 
   if(reward)
   {
-    debug( "random_zone_item: %s reward was: %s", J_NAME(ch), reward->short_description );
+    debug( "random_zone_item: %s reward was: %s (%d)", J_NAME(ch), reward->short_description, GET_OBJ_VNUM(reward) );
 
     REMOVE_BIT(reward->extra_flags, ITEM_SECRET);
     REMOVE_BIT(reward->extra_flags, ITEM_INVISIBLE);
