@@ -1410,30 +1410,34 @@ void do_rename(P_char ch, char *arg, int cmd)
    char rest[MAX_INPUT_LENGTH];
    char type[MAX_STRING_LENGTH];
    char who_to_rename[MAX_STRING_LENGTH], new_name[MAX_STRING_LENGTH];
-   
-   bool has_wrong_arg = false;
+   bool has_wrong_arg = FALSE;
 
    arg = one_argument(arg, type);
    if( !type || !*type || !arg || !*arg ||
        !(is_abbrev(type, "char") || is_abbrev(type, "ship")) )
    {
-      has_wrong_arg = true;
+      has_wrong_arg = TRUE;
    }
 
-   if(!has_wrong_arg)
+   if( !has_wrong_arg )
    {
       // get name of char whos name/ship will be renamed
       arg = one_argument(arg, who_to_rename);
-      if( !who_to_rename || !*who_to_rename || !*arg || !arg ) has_wrong_arg = true;
+      if( !who_to_rename || !*who_to_rename || !*arg || !arg )
+      {
+        has_wrong_arg = TRUE;
+      }
    }
-   
    if( is_abbrev(type, "char") )
    {
-      if(!has_wrong_arg)
+      if( !has_wrong_arg )
       {
          // get new name, drop anything after the new name since names only accept one word.
          half_chop(arg, new_name, rest);
-         if( !new_name || !*new_name ) has_wrong_arg = true;
+         if( !new_name || !*new_name )
+        {
+          has_wrong_arg = TRUE;
+        }
       }
 
       if( has_wrong_arg )
@@ -1444,13 +1448,12 @@ void do_rename(P_char ch, char *arg, int cmd)
 
       strcpy(new_name, strip_ansi(new_name).c_str());
 
-      if( rename_character(ch, who_to_rename, new_name) == TRUE)
+      if( rename_character(ch, who_to_rename, new_name) == TRUE )
       {
          send_to_char("Name changed, old one deleted. Good job!\r\n", ch);
       }
    }
-   else
-   if( is_abbrev(type, "ship") )
+   else if( is_abbrev(type, "ship") )
    {
       if( has_wrong_arg )
       {
@@ -1459,7 +1462,7 @@ void do_rename(P_char ch, char *arg, int cmd)
       }
 
       // renaming the ship.
-      if( rename_ship(ch, who_to_rename, arg) == TRUE)
+      if( rename_ship(ch, who_to_rename, skip_spaces(arg)) == TRUE )
       {
          send_to_char("Ship name changed. Good job!\r\n", ch);
       }
