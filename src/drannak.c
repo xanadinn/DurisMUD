@@ -462,51 +462,58 @@ bool lightbringer_weapon_proc(P_char ch, P_char victim)
      */
 }
 
-bool mercenary_defensiveproc(P_char victim, P_char ch) //victim is the merc being hit
+// The 'merc' is the mercenary being hit on by the 'hitter'.
+bool intercept_defensiveproc(P_char merc, P_char hitter)
 {
-  int num, room = ch->in_room, save, pos;
+  int num, room, save, pos;
 
+  // If !( both are alive and hitter hitting merc )
+  if( !IS_ALIVE(hitter) || !IS_FIGHTING(hitter) || !(merc == hitter->specials.fighting)
+    || !IS_ALIVE(merc) || !(room = hitter->in_room) || !has_innate( merc, INNATE_INTERCEPT) )
+  {
+    return FALSE;
+  }
 
-  if (!IS_FIGHTING(ch) ||
-      !(victim = ch->specials.fighting) ||
-      !IS_ALIVE(victim) ||
-      !(room) ||
-      number(0, 15)) // 3%
-    return false;
+  // If hitter already affected by armlock..
+  if(affected_by_spell(hitter, TAG_INTERCEPT))
+  {
+    return FALSE;
+  }
 
-  if(affected_by_spell(ch, SKILL_ARMLOCK))
-    return false;
+  // If merc not in correct position to defend.
+  if(!MIN_POS(merc, POS_STANDING + STAT_NORMAL))
+  {
+    return FALSE;
+  }
 
-  if(!MIN_POS(victim, POS_STANDING + STAT_NORMAL))
-    return false;
+  int num1 = number(1, GET_C_LUK(merc));
+  int num2 = number(1, 800);
 
-  int num1 = number(1, GET_C_LUK(victim));
-  int num2 = number(1, 1000);
+  // Approx 1/8 chance for 100 luck, but really random.
+  debug("intercept_defensiveproc: merc: '%s', num1: %d, hitter: '%s', num2: %d", J_NAME(merc), num1, J_NAME(hitter), num2);
 
-  debug("mercproc: num1: %d num2: %d", num1, num2);
-  if(num1 < num2)
-    return false;
+  if( num1 < num2 )
+  {
+    return FALSE;
+  }
 
   struct affected_type af;
 
 
   act("&+LAs $n&+L attempts to attack you, you &+Cintercept&+L the attack with your &+yhands&+L and &+ytwist&n $n's arm!&n",
-      TRUE, ch, 0, victim, TO_VICT);
+      TRUE, hitter, 0, merc, TO_VICT);
   act("&+LAs $n&+L attempts to attack $n, $N &+Cintercepts&+L the attack with their &+yhands&+L and &+ytwist&n $n's arm!&n",
-      TRUE, ch, 0, victim, TO_NOTVICT);
+      TRUE, hitter, 0, merc, TO_NOTVICT);
   act("&+LAs you attempt to attack $N, they quickly reach out, &+Cintercepting&+L the attack with their &+yhands&+L and quickly &+ytwist&n your arm!&n",
-      TRUE, ch, 0, victim, TO_CHAR);
-
+      TRUE, hitter, 0, merc, TO_CHAR);
 
   memset(&af, 0, sizeof(af));
-  af.type = SKILL_ARMLOCK;
+  af.type = TAG_INTERCEPT;
   af.duration = 100;
   af.flags = AFFTYPE_SHORT;
-  affect_to_char(ch, &af);
+  affect_to_char(hitter, &af);
 
-  return true;
-
-
+  return TRUE;
 }
 
 bool minotaur_race_proc(P_char ch, P_char victim)

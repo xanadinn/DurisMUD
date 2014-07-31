@@ -5109,7 +5109,7 @@ void create_tags()
   TAG_CREATE("epic control", TAG_EPICS);
 
   TAG_CREATE("fragged victim", TAG_RECENTLY_FRAGGED);
-  TAG_CREATE("merc defensive proc", TAG_MERC_DEFENSE);
+  TAG_CREATE("intercept", TAG_INTERCEPT);
   TAG_CREATE("Addicted to Blood", TAG_ADDICTED_BLOOD);
 
   TAG_CREATE_WITH_MESSAGES("LAY HANDS", TAG_LAYONHANDS,

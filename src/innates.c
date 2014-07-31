@@ -411,7 +411,8 @@ const struct innate_data
   {"aura_of_spell_protection", do_aura_spell_protection},
   {"vision of the dead", 0},
   {"remort", do_remort},
-  {"elemental power", 0}
+  {"elemental power", 0},
+  {"intercept", 0}
 };
 
 string list_innates(int race, int cls, int spec)
@@ -1013,6 +1014,7 @@ void assign_innates()
 
   ADD_CLASS_INNATE(INNATE_BATTLEAID, CLASS_MERCENARY, 41, SPEC_BOUNTY);
   ADD_CLASS_INNATE(INNATE_PERCEPTION, CLASS_MERCENARY, 31, SPEC_BOUNTY);
+  ADD_CLASS_INNATE(INNATE_INTERCEPT, CLASS_MERCENARY, 31, SPEC_BOUNTY);
 
   ADD_CLASS_INNATE(INNATE_SNEAK, CLASS_ROGUE, 1, SPEC_THIEF);
   //ADD_CLASS_INNATE(INNATE_SNEAK, CLASS_ROGUE, 1, SPEC_THIEF);

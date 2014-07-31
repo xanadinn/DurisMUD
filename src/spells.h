@@ -1160,7 +1160,7 @@
 #define TAG_MINOTAUR_RAGE            2094
 #define TAG_CONJURED_PET             2095
 #define TAG_POTION_TIMER             2096
-#define TAG_MERC_DEFENSE             2097
+#define TAG_INTERCEPT                2097
 #define TAG_LAYONHANDS               2098
 #define PR_DEEPGNOME                 2099
 #define DAMAGE_FALLING               2100 /* From falling to the ground */

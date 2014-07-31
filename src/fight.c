@@ -7363,22 +7363,12 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
 
   }
 
-  if( victim &&  GET_CLASS(victim, CLASS_MERCENARY)
-    && !affected_by_spell(ch, TAG_MERC_DEFENSE)
-    && MIN_POS(victim, POS_STANDING + STAT_NORMAL)
-    && (number(1, GET_C_LUK(victim)) > number(1, 1600)) )
+
+  // Replaced with innate intercept: intercept_defensiveproc below.
+  if( has_innate( victim, INNATE_INTERCEPT ) && intercept_defensiveproc(victim, ch) )
   {
-    struct affected_type af;
-
-    act("&+LAs $n&+L attempts to attack you, you &+Cintercept&+L the attack with your &+yhands&+L and &+ytwist&n $n's arm!&n", TRUE, ch, 0, victim, TO_VICT);
-    act("&+LAs $n&+L attempts to attack $N, $N &+Cintercepts&+L the attack with their &+yhands&+L and &+ytwist&n $n's arm!&n", TRUE, ch, 0, victim, TO_NOTVICT);
-    act("&+LAs you attempt to attack $N, they quickly reach out, &+Cintercepting&+L the attack with their &+yhands&+L and quickly &+ytwist&n your arm!&n", TRUE, ch, 0, victim, TO_CHAR);
-
-    memset(&af, 0, sizeof(af));
-    af.type = TAG_MERC_DEFENSE;
-    af.duration = 100;
-    af.flags = AFFTYPE_SHORT;
-    affect_to_char_with_messages(ch, &af, "Your arm feels normal.", NULL);
+    // Not sure this is necesary, but if the attack is intercepted.. it shoiuld not complete, right?
+    return FALSE;
   }
 
   if( has_innate(ch, INNATE_MELEE_MASTER) )
@@ -9492,7 +9482,7 @@ void perform_violence(void)
     /*   (!GET_CLASS(ch, CLASS_PSIONICIST) &&
          IS_AFFECTED3(ch, AFF3_INERTIAL_BARRIER) ) ||*/
 
-    if(IS_AFFECTED3(opponent, AFF3_INERTIAL_BARRIER) || IS_ARMLOCK(ch) || affected_by_spell(ch, TAG_MERC_DEFENSE))
+    if(IS_AFFECTED3(opponent, AFF3_INERTIAL_BARRIER) || IS_ARMLOCK(ch) || affected_by_spell(ch, TAG_INTERCEPT))
     {
       real_attacks = number_attacks - (int) (number_attacks / 2);
     }
