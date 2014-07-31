@@ -578,34 +578,27 @@ void spell_chill_touch(int level, P_char ch, char *arg, int type,
     "$n touches $N who slumps to the ground as a dead lump, rather chilly, isn't it?",
       0
   };
-  
-  if(!(ch) ||
-     !(victim) ||
-     !IS_ALIVE(ch) ||
-     !IS_ALIVE(victim))
-        return;
+
+  if( !IS_ALIVE(ch) || !IS_ALIVE(victim) )
+  {
+    return;
+  }
 
   int dam = (dice(1, 6) + 5 * 4 + level) ;
 
-  bool failed_save = !NewSaves(victim, SAVING_SPELL, 0);
+  bool failed_save = !NewSaves(victim, SAVING_SPELL, level/7);
 
-  if (failed_save)
+  if( failed_save )
     dam <<= 1;
 
   // wizlog(56,"chill touch damage = %d", dam);
-  
-  if(spell_damage
-      (ch, victim, dam, SPLDAM_COLD, SPLDAM_ALLGLOBES, &messages) == DAM_NONEDEAD )
+  if(spell_damage(ch, victim, dam, SPLDAM_COLD, SPLDAM_ALLGLOBES, &messages) == DAM_NONEDEAD )
   {
-    if((victim) &&
-       (ch) &&
-       !affected_by_spell(victim, SPELL_CHILL_TOUCH) &&
-       failed_save &&
-       !IS_ELITE(victim) &&
-       !IS_GREATER_RACE(victim) &&
-       !IS_AFFECTED3(victim, AFF3_COLDSHIELD) &&
-       !IS_AFFECTED4(victim, AFF4_ICE_AURA))
-
+    if( (victim) && (ch) && failed_save
+      && !affected_by_spell(victim, SPELL_CHILL_TOUCH)
+      && !IS_ELITE(victim) && !IS_GREATER_RACE(victim)
+      && !IS_AFFECTED3(victim, AFF3_COLDSHIELD)
+      && !IS_AFFECTED4(victim, AFF4_ICE_AURA) )
     {
       act("&+BThe chilling cold causes $N&+B to stammer, apparently weakened.&n",
         FALSE, ch, 0, victim, TO_CHAR);
@@ -624,7 +617,7 @@ void spell_chill_touch(int level, P_char ch, char *arg, int type,
       af.location = APPLY_STR;
       af.modifier = -(number(1, dam));
       affect_to_char(victim, &af);
-      
+
       if (GET_CLASS(ch, CLASS_NECROMANCER) && IS_SPECIALIZED(ch))
       {
         af.location = APPLY_AGI;
@@ -943,11 +936,7 @@ void spell_enervation(int level, P_char ch, char *arg, int type,
 
   bool saved = FALSE;
 
-  if(!(ch) ||
-     !(victim) ||
-     !IS_ALIVE(ch) ||
-     !IS_ALIVE(victim) ||
-     victim == ch)
+  if( !IS_ALIVE(ch) || !IS_ALIVE(victim) || victim == ch)
   {
     return;
   }
@@ -958,46 +947,45 @@ void spell_enervation(int level, P_char ch, char *arg, int type,
     return;
   }
 
-  if(resists_spell(ch, victim))
+  // Shrug
+  if( resists_spell(ch, victim) )
   {
     return;
   }
 
-  dam = (int) ((level * 2.5) + number(-10, 10));
-  
-  if(IS_PC(ch) &&
-    !(GET_CLASS(ch, CLASS_NECROMANCER | CLASS_ANTIPALADIN)))
+  dam = (int) ((level * 2.75) + number(-10, 10));
+
+  if( IS_PC(ch) && !(GET_CLASS(ch, CLASS_NECROMANCER | CLASS_ANTIPALADIN)) )
   {
     send_to_char("&+rLacking the proper training in necromancy, you do not utilize the full potential of the spell!\r\n", ch);
     dam = (int)(dam*0.80);
   }
-  
+
   if(IS_AFFECTED4(victim, AFF4_DEFLECT))
   {
     if(GET_LEVEL(ch) >= 50)
     {
       dam <<= 1;
     }
-    
     spell_damage(ch, victim, dam, SPLDAM_NEGATIVE, 0, &messages);
     return;
   }
 
-  if(saves_spell(victim, SAVING_SPELL))
+  // Made it harder to save against.
+  if(NewSaves(victim, SAVING_SPELL, level/7))
   {
     saved = TRUE;
     dam >>= 1;
   }
-  
+
   if(GET_LEVEL(ch) >= 50)
   {
     dam <<= 1;
   }
-  
+
   vamp(ch, (int)(dam / 4), (int) (GET_MAX_HIT(ch) * (double)(BOUNDED(110, ((GET_C_POW(ch) * 10) / 9), 220) * .01)));
 
-  if(GET_VITALITY(victim) >= 10 &&
-     !IS_AFFECTED4(victim, AFF4_NEG_SHIELD))
+  if( GET_VITALITY(victim) >= 10 && !IS_AFFECTED4(victim, AFF4_NEG_SHIELD) )
   {
     GET_VITALITY(victim) = MAX(10, GET_VITALITY(victim) - 5);
     GET_VITALITY(ch) += 10;
@@ -1005,9 +993,8 @@ void spell_enervation(int level, P_char ch, char *arg, int type,
 
   StartRegen(ch, EVENT_MOVE_REGEN);
   StartRegen(victim, EVENT_MOVE_REGEN);
-      
-  result = spell_damage(ch, victim, dam, SPLDAM_NEGATIVE, SPLDAM_NOSHRUG,
-                 &messages);
+
+  result = spell_damage(ch, victim, dam, SPLDAM_NEGATIVE, SPLDAM_NOSHRUG, &messages);
 
   if (result == DAM_NONEDEAD && !saved)
   {
@@ -1029,8 +1016,8 @@ void spell_enervation(int level, P_char ch, char *arg, int type,
 
       if (affected_by_spell(victim, SPELL_ENERVATION))
       {
-        send_to_char("&+LThey're already affected by enervation - you only prolong and enhance the suffering!", ch);
-        send_to_char("&+LYour suffering is enhanced as another enervation spell hits you!", victim);
+        send_to_char("&+LThey're already affected by enervation - you only prolong and enhance the suffering!\n\r", ch);
+        send_to_char("&+LYour suffering is enhanced as another enervation spell hits you!\n\r", victim);
         affect_join(victim, &af, FALSE, FALSE);
         return;
       }
