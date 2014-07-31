@@ -1175,28 +1175,26 @@ void spell_single_scathing_wind(int level, P_char ch, char *arg, int type,
     "&+WFlesh falls off in layers as a scathing gust of wind sent by &n$n&+W terminates the life of $N&n.",
     0
   };
-  
-  if(!(ch) ||
-     !IS_ALIVE(ch) ||
-     !(victim) ||
-     !IS_ALIVE(victim))
+
+  if( !IS_ALIVE(ch) || !IS_ALIVE(victim))
   {
     return;
   }
-  
-  if(IS_ELEMENTALIST(ch))
+
+  if(has_innate(ch, INNATE_ELEMENTAL_POWER))
+  {
     mod += (int)(level / 10);
-  
+  }
   dam = dice(3 * level, 5);
-  
+
   if (IS_PC(ch) && IS_PC(victim))
     dam = dam * get_property("spell.area.damage.to.pc", 0.5);
-  
+
   dam = dam * get_property("spell.area.damage.factor.scathingwind", 1.000);
-  
+
   if(NewSaves(victim, SAVING_SPELL, mod))
     dam >>= 1;
-  
+
   spell_damage(ch, victim, dam, SPLDAM_FIRE, 0, &messages);
 }
 
@@ -1281,12 +1279,11 @@ void spell_single_earthen_rain(int level, P_char ch, char *arg, int type,
       return;
 
   // Spell does generic damage which is not receive the elementalist bonus.
-  if(GET_SPEC(ch, CLASS_SHAMAN, SPEC_ELEMENTALIST))
-    //dam = (int) (dam * get_property("damage.increase.elementalist", 1.150));
-    {
+  if( has_innate(ch, INNATE_ELEMENTAL_POWER) )
+  {
      dam = dam * 2.5;
-    }
- 
+  }
+
   if (IS_PC(ch) && IS_PC(victim))
     dam = dam * get_property("spell.area.damage.to.pc", 0.5);
   
@@ -1401,8 +1398,10 @@ void earthen_grasp(int level, P_char ch, P_char victim,
       af.duration = (attdiff <= 0) ? 10 : attdiff + 10;
     }
 
-    if(GET_SPEC(ch, CLASS_SHAMAN, SPEC_ELEMENTALIST))
+    if( has_innate( ch, INNATE_ELEMENTAL_POWER ) )
+    {
       level = (int) (level * get_property("damage.increase.elementalist", 1.150));
+    }
 
     if(!NewSaves(victim, SAVING_SPELL, 0))
       dam_result =

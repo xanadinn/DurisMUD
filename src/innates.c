@@ -410,7 +410,8 @@ const struct innate_data
   {"seadog", 0},
   {"aura_of_spell_protection", do_aura_spell_protection},
   {"vision of the dead", 0},
-  {"remort", do_remort}
+  {"remort", do_remort},
+  {"elemental power", 0}
 };
 
 string list_innates(int race, int cls, int spec)
@@ -936,6 +937,7 @@ void assign_innates()
   ADD_CLASS_INNATE(INNATE_SHAPECHANGE, CLASS_SHAMAN, 41, SPEC_ANIMALIST);
   ADD_CLASS_INNATE(INNATE_RESURRECTION, CLASS_SHAMAN, 56, SPEC_SPIRITUALIST);
   ADD_CLASS_INNATE(INNATE_IMPROVED_HEAL, CLASS_SHAMAN, 36, SPEC_SPIRITUALIST);
+  ADD_CLASS_INNATE(INNATE_ELEMENTAL_POWER, CLASS_SHAMAN, 35, SPEC_ELEMENTALIST);
 
   ADD_CLASS_INNATE(INNATE_CHARM_ANIMAL, CLASS_DRUID, 21, 0);
   ADD_CLASS_INNATE(INNATE_SHAPECHANGE, CLASS_DRUID, 11, 0);

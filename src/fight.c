@@ -3774,10 +3774,10 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
 
   // Lom: as I moved elementalist dam update here, so vamping(fire elemental from fire spell)
   //      will be correctly increased as he does more dmg
-  if(ELEMENTAL_DAM(type) &&
-      GET_SPEC(ch, CLASS_SHAMAN, SPEC_ELEMENTALIST) &&
-      GET_LEVEL(ch) >= 35)
+  if(ELEMENTAL_DAM(type) && has_innate(ch, INNATE_ELEMENTAL_POWER) && GET_LEVEL(ch) >= 35)
+  {
     dam *= dam_factor[DF_ELEMENTALIST];
+  }
 
   if(ELEMENTAL_DAM(type) &&
       affected_by_spell(victim, SPELL_ENERGY_CONTAINMENT))
@@ -8092,9 +8092,7 @@ int dodgeSucceed(P_char char_dodger, P_char attacker, P_obj wpn)
   P_char   mount;
   int percent = 0, learned = 0, minimum = 0;
 
-  if(!(char_dodger) ||
-      !(attacker) ||
-      IS_IMMOBILE(char_dodger))
+  if(!(char_dodger) || !(attacker) || IS_IMMOBILE(char_dodger))
   {
     return 0;
   }
@@ -8192,6 +8190,12 @@ int dodgeSucceed(P_char char_dodger, P_char attacker, P_obj wpn)
   if(GET_CLASS(char_dodger, CLASS_MONK))
   {
     percent = (int) (percent * 1.20);
+  }
+
+  // Improved Zealot dodge.
+  if(GET_SPEC(char_dodger, CLASS_CLERIC, SPEC_ZEALOT))
+  {
+    percent += 5;
   }
 
 
