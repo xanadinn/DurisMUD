@@ -18,7 +18,7 @@
 &+RQ: What if I find a bug?&n
 &+gA: You MUST report it via petition at ONCE.  If you do not get a response,
 &+g   post it on the forums or email one of the gods.  Most can be reached at
-&+g   <godname>@durismud.com&n  
+&+g   <godname>@durismud.com.  You can also use the 'bug' command.&n  
 
 &+RQ: Are there death traps on Duris?&n
 &+gA: No, there are no rooms that instantly kill you and then take all your 
@@ -27,7 +27,9 @@
 &+g   of.  There ARE rooms that are so deadly that you will die as soon as
 &+g   you walk in, to some VERY powerful/nasty mob, or a room that traps you,
 &+g   or causes you to fall to your death.  But in EVERY case, it is possible
-&+g   for someone to be able to rescue you or retrieve your corpse.&n
+&+g   for someone to be able to rescue you or retrieve your corpse.  However,
+&+g   there are ways to lose your corpse, such as dying behind an unpickable
+&+g   door with the key and not returning before the zone pops.&n
 
 &+RQ: How do I add areas to Duris?&n
 &+gA: The first step is to download Duris' zone editor and learn how to use it.
@@ -78,10 +80,9 @@
 &+g   is a normal part of life.  Get yourself a mount, bum a fly spell off a 
 &+g   mage, or take a cleric/druid/bard with you.&n
 
-&+RQ: Why are people shown as anonymous in the who list?&n
-&+gA: Well these folks do not want others knowing their class or level
-&+g   (especially rogues that have no friends).  Others feel it is more
-&+g   realistic from a roleplaying point of view.  
+&+RQ: Why can't I toggle anonymous and what does it do?&n
+&+gA: Anonymous was removed from the game, but used to hide your class and race
+&+g   from others on the who list.
 
 &+RQ: How do I know if I am close to levelling?&n
 &+gA: Type exp while not in battle, it will give you a general idea as to how
@@ -95,10 +96,9 @@
 &+g   you can scavenge and sell items you find on the ground.  When you get 
 &+g   higher in levels, the mobs you kill will have money and equipment.
 
-&+RQ: I just killed a nasty and the corpse sunk into the water before I could
-&+R   loot or my sword was dropped accidentally and it sank.  What can I do?
-&+gA: You can 'swim down' to retreive the lost item, but this does not work
-&+g   in all areas and there is the chance of your item being swept away.&n
+&+RQ: My sword was dropped accidentally and it sank.  What can I do?
+&+gA: Your sword has been lost to the Sea Kingdom.  To retrieve it, you must
+&+g   complete this zone.&n
 
 &+RQ: I have a spell that sounds really cool, how can I find out what it really
 &+R   does?
@@ -119,7 +119,8 @@
 &+RQ: I have an item, how do I find out what it does?
 &+gA: There are many shops in the Realms which sell scrolls of identification
 &+g   which you can use.  You can type "recite scroll  <item name>.  If you're
-&+g   buddies with a conjurer, get her to identify it for you.
+&+g   buddies with a conjurer, get her to identify it for you.  Or, you can
+&+g   enter your locker at a bank, and use the 'stat <item>' command.
 
 &+RQ: How can I find areas in which to adventure?
 &+gA: Type credits to see a semi-complete list of zones on the mud.  White 

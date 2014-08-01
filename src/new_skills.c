@@ -3540,7 +3540,10 @@ void do_lotus(P_char ch, char *argument, int cmd)
     return;
 
   if (!GET_SPEC(ch, CLASS_MONK, SPEC_CHIMONK))
+  {
+    send_to_char("You can not control your lotus chi!\n\r", ch);
     return;
+  }
 
   if( IS_FIGHTING(ch) || IS_DESTROYING(ch) )
   {
