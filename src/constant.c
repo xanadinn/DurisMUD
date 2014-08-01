@@ -116,7 +116,7 @@ const int allowed_secondary_classes[CLASS_COUNT + 1][5] = {
   {-1},                         		              /* Ber */
   {CLASS_SORCERER, CLASS_ROGUE, CLASS_PSIONICIST, -1}, /* Rea */
   {-1},                         		              /* Ilu */
-  {CLASS_CLERIC, -1},                             /* Bli */
+  {CLASS_CLERIC, CLASS_SHAMAN, -1},               /* Bli */
   {-1},                                  	        /* Dre */
   {CLASS_SORCERER, CLASS_SHAMAN, -1},             /* Eth */
   {-1},                                           /* Ave */
@@ -291,6 +291,7 @@ const mcname multiclass_names[] = {
   {CLASS_SHAMAN, CLASS_ETHERMANCER,      "&+yGeo&nmancer&n"},
   {CLASS_SHAMAN, CLASS_AVENGER,          "Vengeance&n"},
   {CLASS_SHAMAN, CLASS_THEURGIST,        "Holy Totem"},
+  {CLASS_SHAMAN, CLASS_BLIGHTER,         "&+LDes&+we&+Cc&+wr&+Lator&n"},
   {CLASS_SORCERER, CLASS_NECROMANCER,    "&+LDe&+rat&+Rh Ma&+rgu&+Ls&n"},
   {CLASS_SORCERER, CLASS_CONJURER,       "&+RArchmagi&n"},
   {CLASS_SORCERER, CLASS_ROGUE,          "Trapbreaker"},
