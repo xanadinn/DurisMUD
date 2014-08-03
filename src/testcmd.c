@@ -222,13 +222,31 @@ void do_test(P_char ch, char *arg, int cmd)
   {
     do_test_writemap(ch, arg, cmd);
     return;
-  }/*
-  else if( isname("esp", buff) )
+  }
+  else if( isname("arti", buff) )
   {
-    one_argument(arg, buff);
-    do_test_add_epic_skillpoint(ch, buff);
-    return;    
-  }*/
+    P_obj arti;
+    int   feed_min;
+
+    arg = one_argument( arg, buff );
+    if( (arti = get_obj_in_list(buff, ch->carrying)) != NULL )
+    {
+      one_argument( arg, buff );
+      if( (feed_min = atoi(buff)) > 0 )
+      {
+        artifact_feed_to_min( arti, feed_min );
+      }
+      else
+      {
+        send_to_char( "Please enter a valid (positive) minimum feed minutes for arti.\n\r", ch );
+      }
+    }
+    else
+    {
+      send_to_char( "Couldn't find object to test.\n\r", ch );
+    }
+    return;
+  }
   else if( isname("mem", buff) )
   {
     int spell = memorize_last_spell(ch);

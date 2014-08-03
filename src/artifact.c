@@ -2082,3 +2082,60 @@ void nuke_eq( P_char ch )
     extract_obj( item, FALSE );
   }
 }
+
+// Feeds artifact to min_minutes or none if already over min_minutes.
+void artifact_feed_to_min( P_obj arti, int min_minutes )
+{
+  P_char ch;
+  int feed_time, feed_seconds;
+
+  // Handle bad input..
+  if( !arti || min_minutes < 1 )
+  {
+    debug( "artifact_feed_to_min: Bad arti or timer: %s #%d to feed %d minutes.",
+      arti ? arti->short_description : "NULL", arti ? GET_OBJ_VNUM(arti) : -1, min_minutes );
+    statuslog( 56, "artifact_feed_to_min: Bad arti or timer: %s #%d to feed %d minutes.",
+      arti ? arti->short_description : "NULL", arti ? GET_OBJ_VNUM(arti) : -1, min_minutes );
+    return;
+  }
+  if( !IS_ARTIFACT( arti ) )
+  {
+    debug( "artifact_feed_to_min: Non-artifact: %s #%d to feed %d minutes.",
+      arti->short_description, GET_OBJ_VNUM(arti), min_minutes );
+    statuslog( 56, "artifact_feed_to_min: Non-artifact: %s #%d to feed %d minutes.",
+      arti->short_description, GET_OBJ_VNUM(arti), min_minutes );
+    return;
+  }
+
+  // If min_minutes is more than max feed time, then cap it.
+  if( min_minutes > ARTIFACT_BLOOD_DAYS * MINS_PER_REAL_DAY )
+  {
+    min_minutes = ARTIFACT_BLOOD_DAYS * MINS_PER_REAL_DAY;
+  }
+  // Set time to timer minutes: current - ARTIFACT_BLOOD_DAY days + min_minutes * 60 == min seconds.
+  feed_time = time(NULL) - ARTIFACT_BLOOD_DAYS * SECS_PER_REAL_DAY + 60 * min_minutes;
+  ch = OBJ_WORN(arti) ? arti->loc.wearing : NULL;
+
+  // If object should feed, seconds to feed.  Otherwise 0.
+  feed_seconds = ( arti->timer[3] < feed_time ) ? feed_time - arti->timer[3] : 0;
+  if( feed_seconds )
+  {
+    arti->timer[3] = feed_time;
+  }
+
+  statuslog(56, "Artifact: %s [%d] on %s fed [&+G%ld&+Lh &+G%ld&+Lm &+G%ld&+Ls&n]",
+    arti->short_description, GET_OBJ_VNUM(arti), ch ? J_NAME(ch) : "Nobody",
+    feed_seconds / 3600, (feed_seconds / 60) % 60, feed_seconds % 60 );
+  if( !ch )
+  {
+    return;
+  }
+  if( feed_seconds > ( 12 * 3600 ) )
+  {
+    send_to_char("&+RYou feel a deep sense of satisfaction from somewhere...\r\n", ch);
+  }
+  else
+  {
+    send_to_char("&+RYou feel a light sense of satisfaction from somewhere...\r\n", ch);
+  }
+}

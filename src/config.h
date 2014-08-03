@@ -91,6 +91,7 @@
 #define SECS_PER_REAL_MIN        60
 #define SECS_PER_REAL_HOUR     3600     /*  60 * SECS_PER_REAL_MIN  */
 #define SECS_PER_REAL_DAY     86400     /*  24 * SECS_PER_REAL_HOUR */
+#define MINS_PER_REAL_DAY      1440     /*  60 min/hr * 24 hrs/day */
 #define SECS_PER_REAL_YEAR 31536000     /* 365 * SECS_PER_REAL_DAY  */
 #define SHORT_AFFECT             70     /* 20 seconds */
 #define SHORT_PC_AFFECT          210     /* 20 seconds */

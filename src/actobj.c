@@ -735,8 +735,7 @@ void do_get(P_char ch, char *argument, int cmd)
                     }
                     else
                     {
-                      if (CAN_WEAR(o_obj, ITEM_WEAR_IOUN) ||
-                          IS_ARTIFACT(o_obj))
+                      if( CAN_WEAR(o_obj, ITEM_WEAR_IOUN) || IS_ARTIFACT(o_obj) )
                       {
                         logit(LOG_CORPSE, "%s%s: %s [%d] (ARTIFACT) from %s",
                               GET_NAME(ch),
@@ -756,7 +755,7 @@ void do_get(P_char ch, char *argument, int cmd)
                           int owner_pid = -1;
                           int timer = time(NULL);
                           sql_update_bind_data(vnum, &owner_pid, &timer);
-                          feed_artifact(ch, o_obj, SECS_PER_REAL_DAY * ARTIFACT_BLOOD_DAYS, FALSE );
+                          artifact_feed_to_min( o_obj, 2 * MINS_PER_REAL_DAY );
                         }
                       }
                       else
@@ -972,10 +971,9 @@ void do_get(P_char ch, char *argument, int cmd)
                   }
                   else
                   {
-                    if (CAN_WEAR(o_obj, ITEM_WEAR_IOUN) ||
-                        IS_ARTIFACT(o_obj))
+                    if( CAN_WEAR(o_obj, ITEM_WEAR_IOUN) || IS_ARTIFACT(o_obj))
                     {
-                      logit(LOG_CORPSE, "%s%s: %s [%d] (ARTIFACT) from %s",
+                      logit(LOG_CORPSE, "%s %s: %s [%d] (ARTIFACT) from %s",
                             GET_NAME(ch),
                             (hood == ch) ? "" : GET_NAME(hood), o_obj->name,
                             obj_index[o_obj->R_num].virtual_number,
@@ -990,7 +988,7 @@ void do_get(P_char ch, char *argument, int cmd)
                         int owner_pid = -1;
                         int timer = time(NULL);
                         sql_update_bind_data(vnum, &owner_pid, &timer);
-                        feed_artifact(ch, o_obj, SECS_PER_REAL_DAY * ARTIFACT_BLOOD_DAYS, FALSE );
+                        artifact_feed_to_min( o_obj, 2 * MINS_PER_REAL_DAY );
                       }
                     }
                     else
