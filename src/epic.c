@@ -537,11 +537,16 @@ void epic_feed_artifacts(P_char ch, int epics, int epic_type)
       break;
   }
 
+  // Changed slope from x to 2x for num_artis, making it 3x as hard for 2 artis, 5x as hard for 3, 7x for 4, and so on.
   if( num_artis > 0 )
-    feed_seconds = (int) (feed_seconds / num_artis);
+  {
+    feed_seconds = (int) (feed_seconds / (2 * num_artis - 1));
+  }
 
   if( affected_by_spell(ch, TAG_PLR_RECENT_FRAG) )
+  {
     feed_seconds = (feed_seconds * 3 ) / 2;
+  }
 
   for (int i = 0; i < MAX_WEAR; i++)
   {
