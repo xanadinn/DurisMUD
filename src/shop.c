@@ -438,17 +438,19 @@ get_selling_obj(P_char ch, char *name, P_char keeper, int shop_nr, int msg,
 
 void shopping_buy(char *arg, P_char ch, P_char keeper, int shop_nr)
 {
-  char     argm[MAX_INPUT_LENGTH];
-  P_obj    temp1, gem = NULL;
+  char     argm[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH], arg3[MAX_INPUT_LENGTH];
+  P_obj    temp1, gem = NULL, container;
   int      i = 0, sale;
   float    cost_factor;
   char     Gbuf1[MAX_STRING_LENGTH];
 
-  if (!(is_ok(keeper, ch, shop_nr)))
+  if( !(is_ok(keeper, ch, shop_nr)) )
+  {
     return;
+  }
 
-  one_argument(arg, argm);
-  if (!(*argm))
+  arg = one_argument(arg, argm);
+  if( !(*argm) )
   {
     sprintf(Gbuf1, "%s what do you want to buy??", GET_NAME(ch));
     do_tell(keeper, Gbuf1, 0);
@@ -458,81 +460,91 @@ void shopping_buy(char *arg, P_char ch, P_char keeper, int shop_nr)
   /*
    * Added if statement from epic code from buying by numbers MIAX
    */
-  if (!(temp1 = get_obj_in_list_vis(ch, argm, keeper->carrying)))
+  if( !(temp1 = get_obj_in_list_vis(ch, argm, keeper->carrying)) )
   {
-    if (atoi(argm))
+    if( atoi(argm) )
     {
-      for (temp1 = keeper->carrying; temp1; temp1 = temp1->next_content)
+      for( temp1 = keeper->carrying; temp1; temp1 = temp1->next_content )
       {
-        if(IS_ARTIFACT(temp1) ||
-           isname("encrust", temp1->name))
+        if( IS_ARTIFACT(temp1) || isname("encrust", temp1->name) )
         {
           wizlog(56, "(%s) shopkeeper just destroyed (%s).", GET_NAME(keeper), (temp1->short_description));
           extract_obj(temp1, TRUE);
           continue;
         }
-           
+
         if ((CAN_SEE_OBJ(ch, temp1)) && (temp1->cost > 0))
         {
           if (++i == atoi(argm))
+          {
             break;
+          }
         }
       }
     }
-    if (!temp1)
+    if ( !temp1 )
     {
       sprintf(Gbuf1, shop_index[shop_nr].no_such_item1, GET_NAME(ch));
       do_tell(keeper, Gbuf1, 0);
       return;
     }
   }
-  
-  if (temp1->cost <= 0)
+
+  if( temp1->cost <= 0 )
   {
     sprintf(Gbuf1, shop_index[shop_nr].no_such_item1, GET_NAME(ch));
     do_tell(keeper, Gbuf1, 0);
     extract_obj(temp1, TRUE);
     return;
   }
-  
+
   cost_factor = (float) cha_app[STAT_INDEX(MAX(100, GET_C_CHA(ch)))].modifier;
-  if (GET_RACE(ch) != GET_RACE(keeper))
+  if( GET_RACE(ch) != GET_RACE(keeper) )
     cost_factor = cost_factor * 2.;
 
-  cost_factor =
-    shop_index[shop_nr].sell_percent * (1.0 - (cost_factor / 100.));
-  if (cost_factor < shop_index[shop_nr].sell_percent)
+  cost_factor = shop_index[shop_nr].sell_percent * (1.0 - (cost_factor / 100.));
+  if( cost_factor < shop_index[shop_nr].sell_percent )
+  {
     cost_factor = shop_index[shop_nr].sell_percent + .01;
+  }
 
-  if (has_innate(ch, INNATE_BARTER)) {
-    if (GET_C_CHA(ch) > number(0, 125)) {
-      cost_factor -= .25; 
-    } else {
+  if( has_innate(ch, INNATE_BARTER) )
+  {
+    if (GET_C_CHA(ch) > number(0, 125))
+    {
+      cost_factor -= .25;
+    }
+    else
+    {
       cost_factor += .10;
     }
   }
 
   sale = (int) (temp1->cost * cost_factor);
-	
+
   // hook for epic bonus
   sale -= (int) (sale * get_epic_bonus(ch, EPIC_BONUS_SHOP));
 
   if (sale < 1)
+  {
     sale = 1;
+  }
 
-  if ((GET_MONEY(ch) < sale) && !IS_TRUSTED(ch))
+  if( (GET_MONEY(ch) < sale) && !IS_TRUSTED(ch) )
+  {
     gem = accept_gem_for_debt(ch, keeper, sale);
+  }
 
-  if ((IS_CARRYING_N(ch) + 1 > CAN_CARRY_N(ch)))
+  if( (IS_CARRYING_N(ch) + 1 > CAN_CARRY_N(ch)) )
   {
     sprintf(Gbuf1, "%s : You can't carry that many items.\r\n",
             FirstWord(temp1->name));
     send_to_char(Gbuf1, ch);
     return;
   }
-  if (!IS_TRUSTED(ch))
-  {                             
-    if (!transact(ch, gem, keeper, sale))
+  if( !IS_TRUSTED(ch) )
+  {
+    if( !transact(ch, gem, keeper, sale) )
     {
       sprintf(Gbuf1, shop_index[shop_nr].missing_cash2, GET_NAME(ch));
       mobsay(keeper, Gbuf1);
@@ -540,12 +552,13 @@ void shopping_buy(char *arg, P_char ch, P_char keeper, int shop_nr)
     }
   }
   act("$n buys $p.", FALSE, ch, temp1, 0, TO_ROOM);
-  sprintf(Gbuf1, shop_index[shop_nr].message_buy, GET_NAME(ch),
-          coin_stringv(sale));
+  sprintf( Gbuf1, shop_index[shop_nr].message_buy, GET_NAME(ch),
+          coin_stringv(sale) );
   do_tell(keeper, Gbuf1, 0);
  // SET_BIT(temp1->type, ITEM_TREASURE);
   sprintf(Gbuf1, "You now have %s.\r\n", temp1->short_description);
   send_to_char(Gbuf1, ch);
+
 /*
   if (!number(0, 3))
     shop_index[shop_nr].buy_percent += .03;
@@ -553,15 +566,54 @@ void shopping_buy(char *arg, P_char ch, P_char keeper, int shop_nr)
     shop_index[shop_nr].sell_percent += .03;
 */
   /* Test if producing shop !   */
-  if ((shop_producing(temp1, shop_nr)))
+  if( shop_producing(temp1, shop_nr) )
+  {
     temp1 = read_object(temp1->R_num, REAL);
+  }
   else
-   
+  {
     obj_from_char(temp1, TRUE);
-  SET_BIT(temp1->extra2_flags, ITEM2_STOREITEM); 
+  }
+  SET_BIT(temp1->extra2_flags, ITEM2_STOREITEM);
   obj_to_char(temp1, ch);
   deleteShopKeeper(shop_nr);
   writeShopKeeper(keeper);
+
+  // Format: buy <object> <container> <amount>
+  if( shop_producing(temp1, shop_nr) )
+  {
+    arg = one_argument(arg, arg2);
+    // Didn't specify a container.
+    if( !(*arg2) )
+    {
+      return;
+    }
+    if( !(container = get_obj_in_list(arg2, ch->carrying)) )
+    {
+      sprintf(Gbuf1, "You don't seem to have a '%s'.\r\n", arg2);
+      send_to_char(Gbuf1, ch);
+      return;
+    }
+    if( container->type != ITEM_CONTAINER )
+    {
+      sprintf(Gbuf1, "%s&n isn't a container.\r\n", container->short_description);
+      send_to_char(Gbuf1, ch);
+      return;
+    }
+    put( ch, temp1, container, TRUE );
+    arg = one_argument(arg, arg3);
+    if( atoi(arg3) > 1 )
+    {
+      if( atoi(arg3) > 50 )
+      {
+        send_to_char( "The limit for buying items is 50 at a time.\n\r", ch );
+        return;
+      }
+      sprintf( Gbuf1, "%s %s %d", argm, arg2, atoi(arg3) - 1 );
+      shop_keeper( keeper, ch, CMD_BUY, Gbuf1 );
+    }
+  }
+
   return;
 }
 
@@ -1270,7 +1322,7 @@ int shop_keeper(P_char keeper, P_char ch, int cmd, char *arg)
       return (TRUE);
     }
   }
-  if (cmd == CMD_BUY)
+  if( cmd == CMD_BUY )
     if ((ch->in_room == real_room(shop_index[shop_nr].in_room)) ||
         (shop_index[shop_nr].shop_is_roaming == 1))
     {
