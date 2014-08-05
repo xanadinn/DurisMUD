@@ -1093,7 +1093,7 @@ int parse_boon_args(P_char ch, BoonData *bdata, char *argument)
         }
       }
       // otherwise check for abbreviation
-      if( i == 0 )
+      if( i == LAST_RACE+1 )
       {
         for( i = 0; i <= LAST_RACE; i++ )
         {
