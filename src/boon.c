@@ -1093,13 +1093,15 @@ int parse_boon_args(P_char ch, BoonData *bdata, char *argument)
         }
       }
       // otherwise check for abbreviation
-      if (i == 0)
+      if( i == 0 )
       {
-	for (i = 0; i <= LAST_RACE; i++)
-	{
-	  if (is_abbrev(arg, race_names_table[i].normal))
-	    bdata->criteria2 = i;
-	}
+        for( i = 0; i <= LAST_RACE; i++ )
+        {
+          if( is_abbrev(arg, race_names_table[i].normal) )
+          {
+            bdata->criteria2 = i;
+          }
+        }
       }
     }
 
