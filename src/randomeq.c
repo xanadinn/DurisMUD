@@ -746,9 +746,6 @@ P_obj create_random_eq_new(P_char killer, P_char mob, int object_type,
     slot = BOUNDED(0, object_type, MAX_SLOT - 1);
   }
 
-PENIS:
-while( slot_data[slot].wear_bit != ITEM_WEAR_SHIELD ) slot = number( 0, 70 );
-
   if (slot_data[slot].wear_bit == ITEM_WIELD)
     obj = read_object(RANDOM_EQ_VNUM + 2, VIRTUAL);
   else
@@ -762,12 +759,12 @@ while( slot_data[slot].wear_bit != ITEM_WEAR_SHIELD ) slot = number( 0, 70 );
    /* make sure you understand this value before ya change it.  */
   howgood = (int) ((GET_LEVEL(killer) + GET_LEVEL(mob)) / 2.0);
   howgood = (int) (howgood * (get_property("random.drop.modifier.quality", 80.000) / 100.0));
-  
+
   // if(IS_PC(killer))
   // {
       // howgood = howgood + (killer->only.pc->frags / 200);  // the rewards for pvp increase...
   // }
-      
+
   if (material_type == -1)
     material = BOUNDED(1, number(MIN(GET_LEVEL(killer) / 3, howgood), howgood), MAXMATERIAL);
   else
@@ -786,10 +783,9 @@ while( slot_data[slot].wear_bit != ITEM_WEAR_SHIELD ) slot = number( 0, 70 );
     sprintf(buf_temp, "%s", mob->player.short_descr);
 
     /*      Set the items name!   */
-  
   if (!number(0, (int) (400 / (GET_LEVEL(killer) + GET_C_LUK(killer) + GET_LEVEL(mob)))) && \
        material_type == -1 && ansi_n && (IS_PC(killer) || mob_index[GET_RNUM(killer)].func.mob != shop_keeper))
-  {     
+  {
     sprintf(buf1, "random _noquest_ %s %s %s %s", strip_ansi(prefix_data[prefix].m_name).c_str(),
             strip_ansi(material_data[material].m_name).c_str(),
             strip_ansi(slot_data[slot].m_name).c_str(), strip_ansi(zone->name).c_str());
@@ -862,7 +858,7 @@ while( slot_data[slot].wear_bit != ITEM_WEAR_SHIELD ) slot = number( 0, 70 );
       while (!number(0, zone->difficulty + 2) && sufcount < 2)  // zone difficulty generally 1, harder zones might be 2
       {
         obj = setsuffix_obj_new(obj);
-        sufcount++; 
+        sufcount++;
       }
     }
   }
@@ -972,7 +968,7 @@ while( slot_data[slot].wear_bit != ITEM_WEAR_SHIELD ) slot = number( 0, 70 );
 
   convertObj(obj);
   material_restrictions(obj);
-  
+
   if(isname("unique", obj->name))
   {
     obj->craftsmanship = OBJCRAFT_HIGHEST;
@@ -1017,13 +1013,12 @@ while( slot_data[slot].wear_bit != ITEM_WEAR_SHIELD ) slot = number( 0, 70 );
     obj->value[2] = 0;
     obj->value[3] = 1;
   }
-  else if ( IS_SET(obj->wear_flags, ITEM_WIELD) && 
-            !isname("longbow", obj->name) )
+  else if ( IS_SET(obj->wear_flags, ITEM_WIELD) && !isname("longbow", obj->name) )
   {
 
     obj->value[0] = slot_data[slot].damage_type;
     obj->type = ITEM_WEAPON;
-   
+
     if (slot_data[slot].numb_material > 2)
       obj->extra_flags |= ITEM_TWOHANDS;
 
@@ -1031,7 +1026,7 @@ while( slot_data[slot].wear_bit != ITEM_WEAR_SHIELD ) slot = number( 0, 70 );
       (int) (1 +
              (material_data[material].m_stat * prefix_data[prefix].m_stat *
               slot_data[slot].m_ac + number(0, 20)) / 20);
-    
+
     obj->value[2] =
       (int) (BOUNDED (4, 
                      MIN((int)
@@ -1051,12 +1046,12 @@ while( slot_data[slot].wear_bit != ITEM_WEAR_SHIELD ) slot = number( 0, 70 );
       obj->affected[0].modifier = (sbyte) (obj->affected[0].modifier * 0.7);
       obj->affected[1].modifier = (sbyte) (obj->affected[1].modifier * 0.7);
     }
- 
+
     if (IS_BACKSTABBER(obj))
     {
       obj->value[1] = BOUNDED(1, (int) (obj->value[1] / 1.5), 3);
       obj->value[2] = BOUNDED(4, (int) (obj->value[2] * 1.6) + number(0,2) , obj->value[1] == 1 ? 12 : 8);
-    }    
+    }
 
     if(isname("lance", obj->name))
     {
@@ -1075,12 +1070,12 @@ while( slot_data[slot].wear_bit != ITEM_WEAR_SHIELD ) slot = number( 0, 70 );
         tries++;
       }
       while (spells_data[splnum].self_only && tries < 100);
-      
+
       if( tries < 100 )
       {
         obj->value[5] = spells_data[splnum].spell;
         obj->value[6] = number(15, MAX(20, GET_LEVEL(mob) - 10));
-        obj->value[7] = number(45, 60);        
+        obj->value[7] = number(45, 60);
       }
     }
 
@@ -1107,7 +1102,7 @@ while( slot_data[slot].wear_bit != ITEM_WEAR_SHIELD ) slot = number( 0, 70 );
     obj->affected[0].location = APPLY_DAMROLL;
     obj->affected[0].modifier = bonus + number(0, 2);
     obj->affected[1].location = APPLY_HITROLL;
-    obj->affected[1].modifier = bonus + number(0, 2);   
+    obj->affected[1].modifier = bonus + number(0, 2);
   }
   else
   {
@@ -1117,11 +1112,11 @@ while( slot_data[slot].wear_bit != ITEM_WEAR_SHIELD ) slot = number( 0, 70 );
              slot_data[slot].m_ac);
   }
 
-  /*  if object has 2 identical locations for mod0 and mod1, 
+  /*  if object has 2 identical locations for mod0 and mod1,
    *  we refigure a new mod location for mod1 and just pray mod2
    *  doesn't come out the same as mod0 and mod1 and makes some
    *  ridiculous +7dam belt :) - Jexni 11/01/08
-  */  
+  */
 // Getting some extremely high and low random values (e.g. +200 damage belts) Nov08 -Lucrot
   // sbyte quickmod;
   // if(obj->affected[0].location == obj->affected[1].location && obj->affected[0].location != APPLY_NONE)
@@ -1138,7 +1133,7 @@ while( slot_data[slot].wear_bit != ITEM_WEAR_SHIELD ) slot = number( 0, 70 );
       // quickmod = -quickmod;
     // obj->affected[1].modifier = quickmod;
   // }
-  
+
   return obj;
 
 }
