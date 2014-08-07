@@ -192,14 +192,16 @@ int quest_exp_reward(P_char ch, int type)
 P_obj quest_item_reward(P_char ch)
 {
   P_obj reward = read_object(real_object(getItemFromZone(real_zone(ch->only.pc->quest_zone_number))), REAL);
-  
+
   if(!reward)
+  {
     reward = create_random_eq_new(ch, ch, -1, -1);
-  
+  }
+
   if(reward)
   {
-    wizlog(56, "%s reward was: %s", GET_NAME(ch), reward->short_description);
-    
+    wizlog(56, "quest_item_reward: %s reward was: %s", GET_NAME(ch), reward->short_description);
+
     REMOVE_BIT(reward->extra_flags, ITEM_SECRET);
     REMOVE_BIT(reward->extra_flags, ITEM_INVISIBLE);
     SET_BIT(reward->extra_flags, ITEM_NOREPAIR);
@@ -211,14 +213,12 @@ P_obj quest_item_reward(P_char ch)
 void quest_full_reward(P_char ch, P_char quest_mob, int type)
 {
   char     Gbuf1[MAX_STRING_LENGTH];
-  
-  if(!(ch) ||
-     !IS_ALIVE(ch) ||
-     IS_NPC(ch))
+
+  if( !IS_ALIVE(ch) || IS_NPC(ch) )
   {
     return;
   }
-  
+
   P_obj reward = quest_item_reward(ch);
   if(reward)
   {
@@ -242,15 +242,15 @@ void quest_full_reward(P_char ch, P_char quest_mob, int type)
       mobsay(quest_mob, "Sorry, but it's hard to take a little pipsqueek like you seriously as a mercenary. Grow up a bit and you'll start earning your keep.");
     }
   }
-  
+
   quest_epic_reward(ch, type);
 
   int exp_gain = quest_exp_reward(ch, type);
-  gain_exp(ch, NULL, exp_gain, EXP_WORLD_QUEST); 
+  gain_exp(ch, NULL, exp_gain, EXP_WORLD_QUEST);
 
   sprintf(Gbuf1, "&+WYou gain some experience.&n");
   act(Gbuf1, FALSE, quest_mob, 0, ch, TO_VICT);
-  
+
   sql_world_quest_finished(ch, reward);
 
   resetQuest(ch);
@@ -281,23 +281,18 @@ void quest_ask(P_char ch, P_char quest_mob)
 void quest_kill(P_char ch, P_char quest_mob)
 {
 
-  if(!(ch) ||
-     !IS_ALIVE(ch) ||
-     !(quest_mob))
+  if( !IS_ALIVE(ch) || !(quest_mob) )
   {
     return;
   }
-  
-  if(ch->only.pc->quest_active != 1)
-    return;
-    
-  if(IS_PC(quest_mob))
-    return;
 
-  if((GET_VNUM(quest_mob) != ch->only.pc->quest_mob_vnum) ) 
+  if( ch->only.pc->quest_active != 1 || IS_PC(quest_mob)
+    || (GET_VNUM(quest_mob) != ch->only.pc->quest_mob_vnum) )
+  {
     return;
+  }
 
-  if(ch->only.pc->quest_accomplished == 1)
+  if( ch->only.pc->quest_accomplished == 1 )
   {
     send_to_char("This quest is already finished, go visit your quest master for your reward!\r\n", ch);
     return;
@@ -307,7 +302,7 @@ void quest_kill(P_char ch, P_char quest_mob)
 
   int exp_gain = quest_exp_reward(ch, FIND_AND_KILL);
 
-  if (ch->only.pc->quest_kill_original == 0)
+  if( ch->only.pc->quest_kill_original == 0 )
   {
     send_to_char("&-RMEMORY ERROR! quest_kill_original is zero, inform a god!&n\r\n", ch);
     wizlog(56, "MEMORY ERROR: quest_kill_original is zero!");
@@ -315,14 +310,14 @@ void quest_kill(P_char ch, P_char quest_mob)
   }
 
   gain_exp(ch, NULL, exp_gain / ch->only.pc->quest_kill_original, EXP_WORLD_QUEST);
-  if (number(1, ch->only.pc->quest_kill_original + 1) <= 2)
+  if( number(1, ch->only.pc->quest_kill_original + 1) <= 2 )
   {
     P_obj reward = quest_item_reward(ch);
     obj_to_char(reward, quest_mob);
   }
 
 
-  if(ch->only.pc->quest_kill_how_many - ch->only.pc->quest_kill_original == 0)
+  if( ch->only.pc->quest_kill_how_many - ch->only.pc->quest_kill_original == 0 )
   {
     send_to_char("&+WCongratulations&n&n&+W, you finished your quest!&n\r\n", ch);
     wizlog(56, "%s finished quest @%s (kill quest)", GET_NAME(ch), quest_mob->player.short_descr );
