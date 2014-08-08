@@ -899,7 +899,7 @@ int SpellCastTime(P_char ch, int spl)
   int      dura;
 
   dura = (int)skills[spl].beats;
-// if( IS_PC(ch) ) debug( "SpellCastTime: initial beats: %d", dura );
+// if( IS_PC(ch) ) debug( "SpellCastTime: initial beats: %d, PULSE_SPELLCAST: %d", dura, PULSE_SPELLCAST );
   dura = (dura * spell_pulse_data[GET_RACE(ch)]);
 // if( IS_PC(ch) ) debug( "SpellCastTime: beats with racial pulse: %d", dura );
   // Affects all racial modifiers.
@@ -917,8 +917,8 @@ int SpellCastTime(P_char ch, int spl)
   {
     dura = (dura * .8);
   }
-// if( IS_PC(ch) ) debug( "SpellCastTime: beats with flurry/haste: %d", dura );
 
+//  if( IS_PC(ch) ) debug( "SpellCastTime: beats final: %d", dura );
   return MAX(1, dura);
 }
 
@@ -1903,16 +1903,15 @@ void do_will(P_char ch, char *argument, int cmd)
     return;
   }
 
-  if (get_spell_from_room(&world[ch->in_room], SPELL_STARSHELL) &&
-      !IS_TRUSTED(ch) && number(0, 1))
+  if( get_spell_from_room(&world[ch->in_room], SPELL_STARSHELL)
+    && !IS_TRUSTED(ch) && number(0, 1) )
   {
-    send_to_char
-      ("&+YYou are blinded by the light and lose your concentration.&n\n", ch);
+    send_to_char("&+YYou are blinded by the light and lose your concentration.&n\n", ch);
     StopCasting(ch);
     return;
   }
 
-  if (IS_AFFECTED5(ch, AFF5_MEMORY_BLOCK) && number(0, 1))
+  if( IS_AFFECTED5(ch, AFF5_MEMORY_BLOCK) && number(0, 1) )
   {
     send_to_char("You seem to have forgotten how to cast!\n", ch);
     StopCasting(ch);
@@ -1921,7 +1920,7 @@ void do_will(P_char ch, char *argument, int cmd)
 
   if( IS_AGG_SPELL(spl) )
   {
-    if (check_mob_retaliate(ch, tar_char, spl))
+    if( check_mob_retaliate(ch, tar_char, spl) )
     {
       return;
     }
@@ -1930,7 +1929,7 @@ void do_will(P_char ch, char *argument, int cmd)
 
   LOOP_THRU_PEOPLE(kala, ch)
   {
-    if (kala->specials.fighting == ch)
+    if( kala->specials.fighting == ch )
     {
       is_tank = TRUE;
     }
@@ -1953,14 +1952,18 @@ void do_will(P_char ch, char *argument, int cmd)
         notch_skill(ch, SKILL_QUICK_CHANT, get_property("skill.notch.quickChant", 2.5));
     }*/
     if (GET_CLASS(ch, CLASS_MINDFLAYER))
+    {
       dura = 1;
+    }
   }
 
   tmp_spl.timeleft = dura;
   tmp_spl.spell = common_target_data.ttype;
   tmp_spl.object = common_target_data.t_obj;
   if (common_target_data.arg)
+  {
     tmp_spl.arg = str_dup(common_target_data.arg);
+  }
 
   if( get_spell_circle(ch, tmp_spl.spell) == get_max_circle(ch)
     && number(0,100) > GET_C_AGI(ch)/2 + 50 )
@@ -2345,8 +2348,12 @@ void do_cast(P_char ch, char *argument, int cmd)
 bool is_obj_in_list_vis(P_char ch, P_obj obj, P_obj list)
 {
   for (P_obj t_obj = list; t_obj ; t_obj = t_obj->next_content)
+  {
     if (t_obj == obj && CAN_SEE_OBJ(ch, t_obj))
+    {
       return TRUE;
+    }
+  }
 
   return FALSE;
 }
@@ -2403,40 +2410,47 @@ void event_spellcast(P_char ch, P_char victim, P_obj obj, void *data)
     return;
   }
 
-
-
   tar_obj = arg->object;
   tar_char = victim;
 
-  // we don't have char-obj links, so need to check
-  // whether item is still there
-  if (tar_obj) {
+  // We don't have char-obj links, so need to check whether item is still there..
+  if( tar_obj )
+  {
     bool ok = FALSE;
 
     if (IS_SET(skills[arg->spell].targets, TAR_OBJ_INV))
+    {
       ok = is_obj_in_list_vis(ch, tar_obj, ch->carrying);
+    }
     if (!ok && IS_SET(skills[arg->spell].targets, TAR_OBJ_EQUIP))
+    {
       for (int i = 0; i < MAX_WEAR; i++)
-        if (ch->equipment[i] == tar_obj) {
+      {
+        if (ch->equipment[i] == tar_obj)
+        {
           ok = TRUE;
           break;
         }
-    if (!ok && IS_SET(skills[arg->spell].targets, TAR_OBJ_ROOM))
+      }
+    }
+    if( !ok && IS_SET(skills[arg->spell].targets, TAR_OBJ_ROOM) )
+    {
       ok = is_obj_in_list_vis(ch, tar_obj, world[ch->in_room].contents);
-    if (!ok) {
+    }
+    if( !ok )
+    {
       StopCasting(ch);
       return;
     }
   }
 
-  // room links aren't perfect, so checking if victim really is in the same
-  // room
-  if (tar_char)
+  // Room links aren't perfect, so checking if victim really is in the same room
+  if( tar_char )
   {
-    if (IS_SET(skills[arg->spell].targets, TAR_CHAR_RANGE))
+    if( IS_SET(skills[arg->spell].targets, TAR_CHAR_RANGE) )
       ;
-    else if (IS_SET(skills[arg->spell].targets, TAR_CHAR_ROOM) &&
-        !is_char_in_room(tar_char, ch->in_room))
+    else if( IS_SET(skills[arg->spell].targets, TAR_CHAR_ROOM )
+      && !is_char_in_room(tar_char, ch->in_room) )
     {
       StopCasting(ch);
       return;
@@ -2445,32 +2459,42 @@ void event_spellcast(P_char ch, P_char victim, P_obj obj, void *data)
 
   if (arg->timeleft > 0)
   {
-
-    if(IS_AGG_SPELL(arg->spell))
+    if( IS_AGG_SPELL(arg->spell) )
     {
       appear(ch);
     }
-    if (IS_PC(ch)) // no point in sending messages to mobs  -Odorf
+    // No point in sending messages to mobs  -Odorf
+    // Should probably change this to ch->desc since God switch.
+    if( IS_PC(ch) )
     {
       if (GET_CHAR_SKILL(ch, SKILL_SPELL_KNOWLEDGE_SHAMAN))
+      {
         skl = SKILL_SPELL_KNOWLEDGE_SHAMAN;
+      }
       else if (GET_CHAR_SKILL(ch, SKILL_SPELL_KNOWLEDGE_CLERICAL))
+      {
         skl = SKILL_SPELL_KNOWLEDGE_CLERICAL;
+      }
       else
+      {
         skl = SKILL_SPELL_KNOWLEDGE_MAGICAL;
-     
+      }
       //if (GET_CLASS(ch, CLASS_PSIONICIST | CLASS_DRUID | CLASS_ETHERMANCER) ||
       if( GET_CLASS(ch, CLASS_PSIONICIST | CLASS_DRUID | CLASS_BLIGHTER) ||
 	      number(1, 100) <= GET_CHAR_SKILL(ch, skl) )
       {
         sprintf(buf, "Casting: %s ", skills[arg->spell].name);
         for (i = 0; i < (arg->timeleft / 4); i++)
+        {
           strcat(buf, "*");
+        }
         strcat(buf, "\n");
         send_to_char(buf, ch);
       }
       else
+      {
         notch_skill(ch, skl, 2);
+      }
     }
     i = MIN(arg->timeleft, 4);
     arg->timeleft -= i;
@@ -2480,23 +2504,30 @@ void event_spellcast(P_char ch, P_char victim, P_obj obj, void *data)
     return;
   }
 
-  if (arg->arg) {
+  if (arg->arg)
+  {
     strcpy(args, arg->arg);
     FREE(arg->arg);
     arg->arg = NULL;
-  } else
+  }
+  else
+  {
     args[0] = '\0';
+  }
 
   /*
      ok, we are in the home stretch, this event call has arg->timeleft of <= 0
      so now we *FINALLY*, actually cast the spell.  JAB
    */
 
-  if( !((weave_af = get_spell_from_char(ch, SKILL_SPELLWEAVE)) &&
-      weave_af->modifier == common_target_data.ttype) )
+  if( !((weave_af = get_spell_from_char(ch, SKILL_SPELLWEAVE))
+    && weave_af->modifier == common_target_data.ttype) )
+  {
     use_spell(ch, arg->spell);
+  }
 
-  if (weaving) {
+  if( weaving )
+  {
     struct affected_type af;
 
     REMOVE_BIT(ch->specials.affected_by2, AFF2_CASTING);
@@ -2519,22 +2550,21 @@ void event_spellcast(P_char ch, P_char victim, P_obj obj, void *data)
    * bitwise masking operations proceed into a boolean not. - SKB 12 Apr 1995
    */
 
-  if (!IS_SET(skills[arg->spell].targets, TAR_IGNORE) &&
-      !IS_SET(skills[arg->spell].targets, TAR_AREA) &&
-      !IS_SET(skills[arg->spell].targets,
-        (TAR_OBJ_INV | TAR_OBJ_ROOM | TAR_OBJ_WORLD | TAR_OBJ_EQUIP)))
-    if ((!tar_char && !IS_SET(skills[arg->spell].targets, TAR_CHAR_WORLD)) ||
-        (tar_char && !IS_SET(skills[arg->spell].targets, TAR_CHAR_WORLD) &&
-         !IS_SET(skills[arg->spell].targets, TAR_CHAR_RANGE) &&
-         (tar_char->in_room != ch->in_room)))
+  if (!IS_SET(skills[arg->spell].targets, TAR_IGNORE)
+    && !IS_SET(skills[arg->spell].targets, TAR_AREA)
+    && !IS_SET(skills[arg->spell].targets, (TAR_OBJ_INV | TAR_OBJ_ROOM | TAR_OBJ_WORLD | TAR_OBJ_EQUIP)) )
+  {
+    if( (!tar_char && !IS_SET(skills[arg->spell].targets, TAR_CHAR_WORLD))
+      || (tar_char && !IS_SET(skills[arg->spell].targets, TAR_CHAR_WORLD)
+      && !IS_SET(skills[arg->spell].targets, TAR_CHAR_RANGE)
+      && (tar_char->in_room != ch->in_room)) )
     {
       send_to_char("You don't have a valid target.\n", ch);
       StopCasting(ch);
       return;
     }
-  if (tar_obj &&
-      !IS_SET(skills[arg->spell].targets,
-        (TAR_OBJ_INV | TAR_OBJ_ROOM | TAR_OBJ_WORLD | TAR_OBJ_EQUIP)))
+  }
+  if( tar_obj && !IS_SET(skills[arg->spell].targets, (TAR_OBJ_INV | TAR_OBJ_ROOM | TAR_OBJ_WORLD | TAR_OBJ_EQUIP)) )
   {
     StopCasting(ch);
     return;
@@ -2548,12 +2578,11 @@ void event_spellcast(P_char ch, P_char victim, P_obj obj, void *data)
    * and handled by the time the mob "mem" case added. - SKB 24 Mar 1995
    */
   // We don't want IS_TRUSTED(ch) because that can be turned off with toggle fog.
-  if (GET_LEVEL(ch) > MAXLVLMORTAL && IS_PC(ch))
+  if( GET_LEVEL(ch) > MAXLVLMORTAL && IS_PC(ch) )
   {
-    sprintf(buf, "%s cast '%s' at %s in room %d", GET_NAME(ch),
-        skills[arg->spell].name,
-        tar_char ? GET_NAME(tar_char) : "(no target ch)",
-        world[ch->in_room].number);
+    sprintf(buf, "%s cast '%s' at %s in room %d", GET_NAME(ch), skills[arg->spell].name,
+      tar_char ? GET_NAME(tar_char) : tar_obj ? tar_obj->short_description : "(no target ch|obj)",
+      world[ch->in_room].number);
 
     logit(LOG_WIZ, buf);
     wizlog(GET_LEVEL(ch), buf);
@@ -2561,21 +2590,20 @@ void event_spellcast(P_char ch, P_char victim, P_obj obj, void *data)
   }
 
 #ifdef MISFIRE
-  if (IS_PC(ch) && tar_char &&
-      IS_SET(skills[arg->spell].targets, TAR_CHAR_ROOM))
+  if( IS_PC(ch) && tar_char && IS_SET(skills[arg->spell].targets, TAR_CHAR_ROOM) )
   {
     tar_char = misfire_check(ch, tar_char, 0);
   }
 #endif
 
-  if (affected_by_spell(ch, SKILL_BERSERK))
+  if( affected_by_spell(ch, SKILL_BERSERK) )
   {
-    if (number(0, 100) < (int)get_property("spell.berserk.casting.mistarget.perc", 80.000))
+    if( number(0, 100) < (int)get_property("spell.berserk.casting.mistarget.perc", 80.000) )
     {
       tar_char = get_random_char_in_room(ch->in_room, ch, DISALLOW_SELF);
       // If you're the only one in room when this excites, we crash because we
       // pass NULL to tar_char.
-      if (!tar_char)
+      if( !tar_char )
       {
         tar_char = ch;
       }
@@ -2598,13 +2626,12 @@ void event_spellcast(P_char ch, P_char victim, P_obj obj, void *data)
     }
   }
 
-  if(tar_char && (tar_char != ch) &&
-    IS_AGG_SPELL(arg->spell))
+  if( tar_char && (tar_char != ch) && IS_AGG_SPELL(arg->spell) )
   {
-   appear(ch);
+    appear(ch);
     tar_char = guard_check(ch, tar_char);
   }
-  
+
   /*
      if (tar_char && ch->desc && tar_char->desc && !IS_TRUSTED(ch) &&
      !strcmp(ch->desc->host, tar_char->desc->host) && (ch != tar_char))
@@ -2613,13 +2640,15 @@ void event_spellcast(P_char ch, P_char victim, P_obj obj, void *data)
      "mutliplaying.", GET_NAME(ch), skills[spl].name, 
      GET_NAME(tar_char), ch->desc->host);
    */
-  
+
   if( !USES_MANA(ch) )
   {
     send_to_char("&+WYou complete your spell...&n\n", ch);
   }
   else
+  {
     send_to_char("&+MYour mental manipulations become a reality...&n\n", ch);
+  }
 
   REMOVE_BIT(ch->specials.affected_by2, AFF2_CASTING);
   clear_links(ch, LNK_CAST_ROOM);
@@ -2638,64 +2667,72 @@ void event_spellcast(P_char ch, P_char victim, P_obj obj, void *data)
       say_spell(ch, arg->spell);
     }
   }
-  if (IS_AGG_SPELL(arg->spell) && tar_char &&
-      ch != tar_char && IS_AFFECTED(ch, AFF_INVISIBLE))
-    appear(ch);
-
-  if (tar_char)
+  if( IS_AGG_SPELL(arg->spell) && tar_char && ch != tar_char && IS_AFFECTED(ch, AFF_INVISIBLE) )
   {
-    if ((has_innate(ch, INNATE_WILDMAGIC) ||
-       IS_AFFECTED4(ch, AFF4_WILDMAGIC) ||
-       (IS_NPC(ch) && IS_SET(ch->specials.act, ACT_WILDMAGIC))) &&
-       !number(0, 5) && IS_AGG_SPELL(arg->spell) &&
-       !(IS_SET(skills[arg->spell].targets, TAR_IGNORE) ||
-       IS_SET(skills[arg->spell].targets, TAR_AREA)))
+    appear(ch);
+  }
+
+  if( tar_char )
+  {
+    if( (has_innate(ch, INNATE_WILDMAGIC) || IS_AFFECTED4(ch, AFF4_WILDMAGIC)
+      || (IS_NPC(ch) && IS_SET(ch->specials.act, ACT_WILDMAGIC)))
+      && !number(0, 5) && IS_AGG_SPELL(arg->spell)
+      && !(IS_SET(skills[arg->spell].targets, TAR_IGNORE)
+      || IS_SET(skills[arg->spell].targets, TAR_AREA)) )
     {
-       perform_chaos_check(ch, tar_char, arg);
-       if (!char_in_list(ch) || !char_in_list(tar_char))
+      perform_chaos_check(ch, tar_char, arg);
+      if( !char_in_list(ch) || !char_in_list(tar_char) )
+      {
          return;
+      }
     }
   }
 
   // divine blessing
-  if (IS_AGG_SPELL(arg->spell))
-    if (divine_blessing_check(ch, tar_char, arg->spell))
+  if( IS_AGG_SPELL(arg->spell) )
+  {
+    if( divine_blessing_check(ch, tar_char, arg->spell) )
+    {
       return;
+    }
+  }
 
   circle = 0;
 
   /* justice hook  */
   /* note the special checking for holyword spells...  */
-
-  if (IS_AGG_SPELL(arg->spell))
+  if( IS_AGG_SPELL(arg->spell) )
   {
-    if (IS_SET(skills[arg->spell].targets, TAR_IGNORE) ||
-        IS_SET(skills[arg->spell].targets, TAR_AREA))
+    if( IS_SET(skills[arg->spell].targets, TAR_IGNORE)
+      || IS_SET(skills[arg->spell].targets, TAR_AREA) )
     {
       P_char   t, t_next;
 
-      for (t = world[ch->in_room].people; t; t = t_next)
+      for( t = world[ch->in_room].people; t; t = t_next )
       {
         t_next = t->next_in_room;
-        if (should_area_hit(ch, t))
+        if( should_area_hit(ch, t) )
         {
-          if (((arg->spell == SPELL_HOLY_WORD) && !IS_EVIL(t)) ||
-              ((arg->spell == SPELL_UNHOLY_WORD) && !IS_GOOD(t)) ||
-	      ((arg->spell == SPELL_VOICE_OF_CREATION && !IS_EVIL(t))))
+          if( ((arg->spell == SPELL_HOLY_WORD) && !IS_EVIL(t))
+            || ((arg->spell == SPELL_UNHOLY_WORD) && !IS_GOOD(t))
+            || ((arg->spell == SPELL_VOICE_OF_CREATION && !IS_EVIL(t))) )
+          {
             continue;
+          }
           justice_witness(ch, t, CRIME_ATT_MURDER);
         }
       }
     }
-    else if (IS_SET(skills[arg->spell].targets, TAR_CHAR_RANGE))
+    else if( IS_SET(skills[arg->spell].targets, TAR_CHAR_RANGE) )
     {
-      if (tar_char && (tar_char != ch))
+      if( tar_char && (tar_char != ch) )
       {
-        if (IS_AFFECTED(ch, AFF_INVISIBLE))
+        if( IS_AFFECTED(ch, AFF_INVISIBLE) )
+        {
           appear(ch);
-
-        if (ch->in_room != tar_char->in_room && (IS_PC(ch) || IS_PC_PET(ch))
-            && IS_NPC(tar_char))
+        }
+        if( ch->in_room != tar_char->in_room && (IS_PC(ch) || IS_PC_PET(ch)) && IS_NPC(tar_char) )
+        {
           for (tmpch = world[tar_char->in_room].people; tmpch; tmpch = tmpch2)
           {
             tmpch2 = tmpch->next_in_room;
@@ -2706,6 +2743,7 @@ void event_spellcast(P_char ch, P_char victim, P_obj obj, void *data)
             if (!char_in_list(ch))
               return;
           }
+        }
       }
     }
     else
@@ -2714,13 +2752,14 @@ void event_spellcast(P_char ch, P_char victim, P_obj obj, void *data)
     }
   }
 
-  if (IS_AGG_SPELL(arg->spell) &&
-      (arg->spell != SPELL_SLEEP))
-    if (tar_char && (ch != tar_char) && (GET_STAT(tar_char) != STAT_DEAD))
+  if( IS_AGG_SPELL(arg->spell) && (arg->spell != SPELL_SLEEP) )
+  {
+    if( tar_char && (ch != tar_char) && (GET_STAT(tar_char) != STAT_DEAD) )
     {
-      if (affected_by_spell(tar_char, SPELL_SLEEP))
+      if( affected_by_spell(tar_char, SPELL_SLEEP) )
+      {
         affect_from_char(tar_char, SPELL_SLEEP);
-
+      }
       if (GET_STAT(tar_char) == STAT_SLEEPING)
       {
         send_to_char("Your rest is violently disturbed!\n", tar_char);
@@ -2731,17 +2770,17 @@ void event_spellcast(P_char ch, P_char victim, P_obj obj, void *data)
         SET_POS(tar_char, GET_POS(tar_char) + STAT_NORMAL);
       }
     }
-  ((*skills[arg->spell].spell_pointer)
-   ((int) GET_LEVEL(ch), ch, args, SPELL_TYPE_SPELL, tar_char, tar_obj));
+  }
+  ((*skills[arg->spell].spell_pointer) ((int) GET_LEVEL(ch), ch, args, SPELL_TYPE_SPELL, tar_char, tar_obj));
 
+  // Devotion double cast check..
   int dev_power;
-  if (IS_AGG_SPELL(arg->spell) && 
-      is_char_in_room(tar_char, room) &&
-      is_char_in_room(ch, room) && 
-      devotion_spell_check(arg->spell) &&
-     (dev_power = devotion_skill_check(ch)) > 0)
-    ((*skills[arg->spell].spell_pointer)
-     (dev_power, ch, args, SPELL_TYPE_SPELL, tar_char, tar_obj));
+  if( IS_AGG_SPELL(arg->spell) && is_char_in_room(tar_char, room)
+    && is_char_in_room(ch, room) && devotion_spell_check(arg->spell)
+    && (dev_power = devotion_skill_check(ch)) > 0 )
+  {
+    ((*skills[arg->spell].spell_pointer) (dev_power, ch, args, SPELL_TYPE_SPELL, tar_char, tar_obj));
+  }
 
   /*
   if ((GET_STAT(ch) != STAT_DEAD) && USES_FOCUS(ch))

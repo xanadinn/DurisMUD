@@ -859,9 +859,7 @@ void apply_affs(P_char ch, int mode)
   ch->points.move_reg = TmpAffs.move_reg;
   ch->points.mana_reg = TmpAffs.mana_reg;
 
-  // Trying this out instead of regular spell_pulse crap.
-  // Using racial pulse to set pulse eq to a smaller value for faster casters, and larger for slow casters.
-  TmpAffs.spell_pulse *= spell_pulse_data[GET_RACE(ch)];
+  // Using value defined in SPELL_PULSE macro.
 /*  switch((int)TmpAffs.spell_pulse)
   {
     case 5:
@@ -904,6 +902,8 @@ void apply_affs(P_char ch, int mode)
 
   switch((int)TmpAffs.combat_pulse)
   {
+    case 5:
+    case 4:
       TmpAffs.combat_pulse = 3;
       break;
     case 3:
