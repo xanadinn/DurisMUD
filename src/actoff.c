@@ -3738,7 +3738,7 @@ int chance_roundkick(P_char ch, P_char victim)
   percent_chance =
    (int) (percent_chance *
    ((double)
-   BOUNDED(20, 100 + (int) (1.5 * (GET_C_DEX(ch) - GET_C_AGI(victim))), 150)) / 100);
+   BOUNDED(20, 100 + (int) (1.5 * (GET_C_AGI(ch) - GET_C_AGI(victim))), 150)) / 100);
 
   if(GET_C_LUK(ch) / 10 > number(0, 10))
   {
@@ -10356,14 +10356,19 @@ void do_legsweep(P_char ch, char *arg, int cmd)
     percent_chance = 0;
   }
 
-  if( IS_PC(ch) )
-  {
-    debug("(%s) legsweeping (%s) with percentage of (%d).", GET_NAME(ch), GET_NAME(vict), (int)percent_chance);
-  }
-
   if( IS_NPC(ch) && IS_ELITE(ch) && !IS_PC_PET(ch))
   {
     percent_chance = 100;
+  }
+
+  if( percent_chance > 95 )
+  {
+    percent_chance = 95;
+  }
+
+  if( IS_PC(ch) || IS_PC(vict) )
+  {
+    debug("(%s) legsweeping (%s) with percentage of (%d).", J_NAME(ch), J_NAME(vict), (int)percent_chance);
   }
 
   if( (notch_skill(ch, SKILL_LEGSWEEP, get_property("skill.notch.offensive", 7))

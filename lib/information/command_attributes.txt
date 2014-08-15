@@ -26,6 +26,10 @@ bash
 GET_C_STR(ch
 GET_C_DEX(ch
 GET_C_AGI(vi
+GET_C_LUK(ch
+GET_C_LUK(vi
+GET_C_AGI(ch
+GET_C_AGI(vi
 GET_C_STR(ch
 ~
 battle orders
@@ -43,6 +47,8 @@ bodyslam
 GET_C_AGI(ch
 GET_C_AGI(vi
 GET_C_AGI(vi
+GET_C_LUK(ch
+GET_C_LUK(vi
 GET_C_STR(ch
 ~
 branch
@@ -54,9 +60,6 @@ GET_C_AGI(vi
 buck
 ~
 calm
-GET_C_CHA(ch
-GET_C_CHA(ch
-GET_C_CHA(ch
 ~
 capture
 GET_C_AGI(ch
@@ -202,10 +205,18 @@ GET_C_WIS(ch
 ~
 kick
 GET_C_STR(ch
+GET_C_LUK(ch
+GET_C_LUK(vi
+GET_C_AGI(ch
+GET_C_AGI(vi
 ~
 lance charge
 GET_C_LUK(ch
 GET_C_LUK(vi
+GET_C_LUK(ch
+GET_C_LUK(vi
+GET_C_AGI(ch
+GET_C_AGI(vi
 GET_C_LUK(ch
 ~
 lay hands
@@ -218,6 +229,14 @@ GET_C_STR(ch
 GET_C_DEX(ch
 GET_C_DEX(ch
 ~
+legsweep
+GET_C_LUK(ch
+GET_C_LUK(vi
+GET_C_LUK(ch
+GET_C_LUK(vi
+GET_C_AGI(ch
+GET_C_AGI(vi
+~
 listen
 GET_C_LUK(ch
 ~
@@ -226,6 +245,10 @@ GET_C_DEX(vi
 GET_C_DEX(ch
 ~
 maul
+GET_C_LUK(ch
+GET_C_LUK(vi
+GET_C_AGI(ch
+GET_C_AGI(vi
 ~
 mine
 GET_C_LUK(ch
@@ -290,6 +313,8 @@ GET_C_POW(vi
 ~
 rearkick
 GET_C_STR(ch
+GET_C_LUK(ch
+GET_C_LUK(vi
 ~
 retreat
 ~
@@ -300,10 +325,14 @@ GET_C_LUK(ch
 GET_C_LUK(vi
 ~
 roundkick
-GET_C_DEX(ch
+GET_C_AGI(ch
 GET_C_AGI(vi
 GET_C_LUK(ch
 GET_C_LUK(vi
+GET_C_LUK(ch
+GET_C_LUK(vi
+GET_C_AGI(ch
+GET_C_AGI(vi
 ~
 rush
 ~
@@ -369,6 +398,10 @@ song of sleep
 GET_C_CHA(ch
 ~
 springleap
+GET_C_LUK(ch
+GET_C_LUK(vi
+GET_C_AGI(ch
+GET_C_AGI(vi
 ~
 stampede
 GET_C_AGI(vi
@@ -389,6 +422,10 @@ GET_C_DEX(vi
 subterfuge
 ~
 sweeping thrust
+GET_C_LUK(ch
+GET_C_LUK(vi
+GET_C_AGI(ch
+GET_C_AGI(vi
 GET_C_DEX(ch
 GET_C_AGI(vi
 GET_C_AGI(ch
@@ -396,6 +433,10 @@ GET_C_AGI(ch
 tackle
 GET_C_LUK(ch
 GET_C_LUK(vi
+GET_C_LUK(ch
+GET_C_LUK(vi
+GET_C_AGI(ch
+GET_C_AGI(vi
 GET_C_AGI(ch
 GET_C_CON(ch
 ~
@@ -422,6 +463,10 @@ GET_C_AGI(ch
 ~
 trample
 GET_C_DEX(ch
+GET_C_LUK(ch
+GET_C_LUK(vi
+GET_C_AGI(ch
+GET_C_AGI(vi
 GET_C_CHA(ch
 GET_C_DEX(ch
 GET_C_AGI(ch
@@ -430,6 +475,10 @@ trap
 ~
 trip
 GET_C_AGI(ch
+GET_C_LUK(ch
+GET_C_LUK(vi
+GET_C_AGI(ch
+GET_C_AGI(vi
 GET_C_AGI(vi
 GET_C_AGI(ch
 ~

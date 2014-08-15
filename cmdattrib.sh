@@ -28,6 +28,19 @@ parsefile ( )
     elif [[ $FOUNDIT = 1 ]]; then
       # Hunt for the GET_C_...( crap.
       grep -o "GET_C_...(.." <<<"$LINE" >> command_attributes.txt
+      # The function takedown_check uses an AGI check unless called with !AGI_CHECK
+      TAKEDOWN=`grep -c "takedown_check(" <<<"$LINE"`
+      if [[ $TAKEDOWN = 1 ]]; then
+        echo "GET_C_LUK(ch" >> command_attributes.txt
+        echo "GET_C_LUK(vi" >> command_attributes.txt
+      fi
+      if [[ `grep -c "AGI_CHECK" <<<"$LINE"` = 1 ]]; then
+        ((TAKEDOWN--));
+      fi
+      if [[ $TAKEDOWN = 1 ]]; then
+        echo "GET_C_AGI(ch" >> command_attributes.txt
+        echo "GET_C_AGI(vi" >> command_attributes.txt
+      fi
       # Count the damn brackets and do the math
       COUNT1=`grep -o "{" <<<"$LINE" | wc -l`
       COUNT2=`grep -o "}" <<<"$LINE" | wc -l`
@@ -268,6 +281,10 @@ parsefile
 
 echo "leglock" >> command_attributes.txt
 FUNCTIONNAME="void event_leglock"
+parsefile
+
+echo "legsweep" >> command_attributes.txt
+FUNCTIONNAME="void do_legsweep"
 parsefile
 
 echo "listen" >> command_attributes.txt
