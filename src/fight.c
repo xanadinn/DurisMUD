@@ -5241,7 +5241,7 @@ void check_vamp(P_char ch, P_char victim, double fdam, uint flags)
   int dam = (int) fdam, can_mana, vamped = 0, wdam;
   struct group_list *group;
   P_char   tch;
-  double temp_dam, sac_gain, bt_gain, fcap, fhits;
+  double temp_dam, bt_gain, fcap, fhits, sac_gain;
 
   if( !IS_ALIVE(ch) || !IS_ALIVE(victim) || (dam < 1) )
   {
@@ -5494,12 +5494,13 @@ void check_vamp(P_char ch, P_char victim, double fdam, uint flags)
   if( (dam >= 2 && !IS_AFFECTED4(ch, AFF4_BATTLE_ECSTASY)
     && IS_AFFECTED4(victim, AFF4_HOLY_SACRIFICE)
     && (flags & RAWDAM_HOLYSAC) && !affected_by_spell(victim, SPELL_BMANTLE)
-    && !affected_by_spell(victim, SPELL_PLAGUE))
+    && !affected_by_spell(victim, SPELL_PLAGUE)) )
+/* Taking this out as it doesn't seem necessary.
     && ((GOOD_RACE(victim) && !GOOD_RACE(ch))
     || (EVIL_RACE(victim) && !EVIL_RACE(ch))))
+*/
   {
     sac_gain = dam * get_property("vamping.holySacrifice", 0.035);
-
     for (group = victim->group; group; group = group->next)
     {
       tch = group->ch;

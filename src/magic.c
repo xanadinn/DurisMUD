@@ -16471,6 +16471,10 @@ void spell_holy_sacrifice(int level, P_char ch, char *arg, int type,
     af.bitvector4 = /*(ch == victim)? */ AFF4_HOLY_SACRIFICE /*:0 */ ;
     affect_to_char(victim, &af);
   }
+  else
+  {
+    send_to_char( "&+YYou are already holy enough.&n\n\r", ch );
+  }
 }
 void spell_battle_ecstasy(int level, P_char ch, char *arg, int type,
                           P_char victim, P_obj obj)
