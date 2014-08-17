@@ -2530,7 +2530,7 @@ void event_dragonlord_check(P_char ch, P_char victim, P_obj obj, void *data)
   bool bHasOtherArti = false;
 
   if(GET_RACE(ch) != RACE_DRAGONKIN)
-  { 
+  {
     act("Your scales smoke and burn as they &+Rdisintegrate!&n",
       FALSE, ch, obj, 0, TO_CHAR);
     wizlog(57,"Dragonlord armor worn by %s begins to melt due race check conflict!", GET_NAME(ch));
@@ -2702,7 +2702,7 @@ int dragonlord_plate(P_obj obj, P_char ch, int cmd, char *arg)
     return TRUE;
   }
 
-  if( cmd == CMD_PERIODIC && OBJ_WORN(obj) && IS_ALIVE(ch) && (ch = obj->loc.wearing) )
+  if( cmd == CMD_PERIODIC && OBJ_WORN(obj) && (ch = obj->loc.wearing) && IS_ALIVE(obj->loc.wearing) )
   {
     curr_time = time(NULL);
     // Every 30 min.
