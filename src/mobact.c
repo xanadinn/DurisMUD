@@ -609,37 +609,42 @@ bool MobCastSpell(P_char ch, P_char victim, P_obj object, int spl, int lvl)
   int      circle = 0, duration = 0;
   char     buf[MAX_STRING_LENGTH];
 
-// PREVENTING MOBS FROM CASTING UNTIL AFTER SPELLS REIMPLEMENTED - Lohrr
-//return FALSE; Dear god man! As this got pushed live and everyone's killing !casting mobs! - Drannak
-
-  if(!(ch && (victim || object)))
+  if( !(ch && (victim || object)) && (spl < FIRST_SPELL || spl > LAST_SPELL || !IS_SET(skills[spl].targets, TAR_OFFAREA)) )
   {
     logit(LOG_EXIT, "MobCastSpell() bogus parms");
     raise(SIGSEGV);
   }
-  
-  if(!IS_NPC(ch))              /* NPCs only should call this function */
-    return (FALSE);
 
-  if(IS_CASTING(ch))           /* NPC should not try to cast another spell */
-    return (TRUE);              /* if already in the process of casting one. */
-
-  if((world[ch->in_room].room_flags & SINGLE_FILE) &&
-      !AdjacentInRoom(ch, victim))
-    return FALSE;
-
-  if(affected_by_spell_flagged(ch, SKILL_THROAT_CRUSH, AFFTYPE_CUSTOM1))
-    return FALSE;
-
-  if(ch->specials.z_cord > 0 && !IS_TRUSTED(ch))
+  if( !IS_NPC(ch) )              /* NPCs only should call this function */
   {
     return FALSE;
   }
-  if(IS_AFFECTED(ch, AFF_BOUND))
+
+  if( IS_CASTING(ch) )           /* NPC should not try to cast another spell */
+  {
+    return TRUE;                 /* if already in the process of casting one. */
+  }
+
+  if( (world[ch->in_room].room_flags & SINGLE_FILE)
+    && !AdjacentInRoom(ch, victim) )
   {
     return FALSE;
   }
-  if(affected_by_spell(ch, SKILL_BERSERK) && !IS_TRUSTED(ch))
+
+  if( affected_by_spell_flagged(ch, SKILL_THROAT_CRUSH, AFFTYPE_CUSTOM1) )
+  {
+    return FALSE;
+  }
+
+  if( ch->specials.z_cord > 0 && !IS_TRUSTED(ch) )
+  {
+    return FALSE;
+  }
+  if( IS_AFFECTED(ch, AFF_BOUND) )
+  {
+    return FALSE;
+  }
+  if( affected_by_spell(ch, SKILL_BERSERK) && !IS_TRUSTED(ch) )
   {
     return FALSE;
   }
@@ -663,10 +668,9 @@ bool MobCastSpell(P_char ch, P_char victim, P_obj object, int spl, int lvl)
  * a precautionary measure. - SKB 21 Mar 1995
  */
 
-  if(!GET_CLASS(ch, CLASS_PSIONICIST) && !GET_CLASS(ch, CLASS_MINDFLAYER) &&
-      (lvl < 60))
+  if( !GET_CLASS(ch, CLASS_PSIONICIST) && !GET_CLASS(ch, CLASS_MINDFLAYER) && (lvl < 60) )
   {
-    if(ch->specials.undead_spell_slots[circle] <= 0)
+    if( ch->specials.undead_spell_slots[circle] <= 0 )
     {
       send_to_char("Sorry, out of spells in this circle.\r\n", ch);
       return (FALSE);
@@ -679,31 +683,31 @@ bool MobCastSpell(P_char ch, P_char victim, P_obj object, int spl, int lvl)
  * permissible in present location. - SKB 30 Mar 1995
  */
 
-  if(!GET_CLASS(ch, CLASS_PSIONICIST) &&
-     !GET_CLASS(ch, CLASS_MINDFLAYER))
+  if( !GET_CLASS(ch, CLASS_PSIONICIST) && !GET_CLASS(ch, CLASS_MINDFLAYER))
   {
     if(IS_SET(world[ch->in_room].room_flags, ROOM_SILENT))
-      return (FALSE);
+    {
+      return FALSE;
+    }
 
     send_to_char("&+cYou start chanting...\r\n&N", ch);
 
-    if(IS_SET(world[ch->in_room].room_flags, NO_MAGIC))
+    if( IS_SET(world[ch->in_room].room_flags, NO_MAGIC) )
     {
       send_to_char("&+WThe magic gathers, then fades away.\r\n", ch);
-      return (FALSE);
+      return FALSE;
     }
   }
-  
+
   duration = SpellCastTime(ch, spl);
   CharWait(ch, duration);
   duration = MAX(1, duration);
-  
-  if(!GET_CLASS(ch, CLASS_PSIONICIST) &&
-     !GET_CLASS(ch, CLASS_MINDFLAYER))
+
+  if( !GET_CLASS(ch, CLASS_PSIONICIST) && !GET_CLASS(ch, CLASS_MINDFLAYER) )
   {
     SpellCastShow(ch, spl);
   }
-  
+
 /*
  * The following if-block transplanted from sparser.c, do_cast() with some
  * modification.  Induces all eligible targets in room into combat against
@@ -712,11 +716,12 @@ bool MobCastSpell(P_char ch, P_char victim, P_obj object, int spl, int lvl)
  * - SKB 24 Mar 1995
  */
 
-  if(IS_AGG_SPELL(spl))
+  if( IS_AGG_SPELL(spl) )
   {
     appear(ch);
 
-    if(IS_SET(skills[spl].targets, TAR_IGNORE))
+    if( IS_SET(skills[spl].targets, TAR_IGNORE)
+      || IS_SET(skills[spl].targets, TAR_AREA) )
     {
       for (tch = world[ch->in_room].people; tch; tch = tch2)
       {
@@ -797,11 +802,13 @@ bool MobCastSpell(P_char ch, P_char victim, P_obj object, int spl, int lvl)
 
   bzero(&castdata, sizeof(struct spellcast_datatype));
 
+/*  castdata->timeleft = duration; */
   if(lvl < 60)
+  {
     castdata.timeleft = ((number(1, 101) > (20 + 3 * GET_LEVEL(ch) / 2))
                           ? duration : (duration >> 1));
-/*  castdata->timeleft = duration; */
-  if(lvl >= 60)
+  }
+  else
   {
     castdata.timeleft = -1;
   }
