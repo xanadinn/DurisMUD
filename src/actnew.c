@@ -3542,14 +3542,14 @@ void do_vote(P_char ch, char *argument, int cmd)
   int      votes, i;
   char     vote_str[4096];
   char     voted[4096];
-  int      vote_serial = 8, voting_enabled = 1;
+  int      vote_serial = 9, voting_enabled = 1;
   int      max_vote = 0;
   FILE    *f = NULL;
   char    *vote_options[] = {
     "nothing",
-    "RE-WORK undead side as a 'remort' race for good and evil",
-    "LEAVE undead in the game as a 3rd side of racewar and balance",
-    "REMOVE I already voted for this once dammit!",
+    "Follow through on the Miniwipe",
+    "Completely abandon the group-cap idea.",
+    "Wait until Sept 12th to test 5-man group caps.",
     ""
   };
 
@@ -3578,8 +3578,7 @@ void do_vote(P_char ch, char *argument, int cmd)
   }
   if (!is_number(argument))
   {
-    send_to_char
-      ("\r\nWhat changes do YOU want to see with the undead races? Vote # to cast your vote:\r\n",
+    send_to_char("\r\nHow do you feel about the miniwipe/group caps?\r\n",
        ch);
     send_to_char("------", ch);
     send_to_char(vote_opts, ch);
@@ -3597,25 +3596,24 @@ void do_vote(P_char ch, char *argument, int cmd)
   if ((strlen(argument) != 1) || (votes < 1) || (votes > max_vote))
   {
     send_to_char("Hey, you left hanging chads!  Try again!\r\n", ch);
-    send_to_char
-      ("The proper format is: vote x  'Replace x with the number of your choice.\r\n",
-       ch);
+    send_to_char("The proper format is: vote x  'Replace x with the number of your choice.\r\n", ch);
     return;
   }
 
   sprintf(voted, "You voted for: %s.\r\n", vote_options[votes]);
-  f = fopen("lib/etc/vote.undead", "a");
-  if (!f)
+  f = fopen("lib/etc/vote.miniwipe", "a");
+  if( !f )
   {
-    send_to_char
-      ("There was a problem recording your vote, notify a Forger.\r\n", ch);
+    send_to_char("There was a problem recording your vote, notify a Forger.\r\n", ch);
     return;
   }
   fprintf(f, "%s\n", vote_options[votes]);
   ch->only.pc->vote = vote_serial;
 
-  if (f)
+  if( f )
+  {
     fclose(f);
+  }
 
   send_to_char(voted, ch);
 
