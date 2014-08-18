@@ -1196,14 +1196,16 @@ int dagger_ra(P_obj obj, P_char ch, int cmd, char *arg)
     return TRUE;
   }
 
-  if( !IS_ALIVE(ch) || !OBJ_WORN_BY(obj, ch) )
+  if( !OBJ_WORN(obj) || (ch && ch != obj->loc.wearing) )
   {
     return FALSE;
   }
 
-  if (cmd == CMD_PERIODIC)
+
+  if( cmd == CMD_PERIODIC )
   {
     curr_time = time(NULL);
+    ch = obj->loc.wearing;
 
     if( !CHAR_IN_NO_MAGIC_ROOM(ch) )
     {
@@ -1214,8 +1216,8 @@ int dagger_ra(P_obj obj, P_char ch, int cmd, char *arg)
 
         if( GET_HIT(ch) < GET_MAX_HIT(ch) )
         {
-          act("$n&+L's $q &+rvi&+Rbra&+rtes &+Lsoftly.&n", TRUE, ch, obj, vict, TO_ROOM);
-          act("&+LYour $q &+rvi&+Rbra&+rtes &+Lsoftly.&n", TRUE, ch, obj, vict, TO_CHAR);
+          act("$n&+L's $q &+rvi&+Rbra&+rtes &+Lsoftly.&n", TRUE, ch, obj, NULL, TO_ROOM);
+          act("&+LYour $q &+rvi&+Rbra&+rtes &+Lsoftly.&n", TRUE, ch, obj, NULL, TO_CHAR);
           spell_cure_critic(40, ch, 0, SPELL_TYPE_SPELL, ch, 0);
           spell_invigorate(40, ch, 0, SPELL_TYPE_SPELL, ch, 0);
           return TRUE;
@@ -1255,15 +1257,15 @@ int dagger_ra(P_obj obj, P_char ch, int cmd, char *arg)
 
         obj->timer[1] = curr_time;
       }
+      return TRUE;
     }
-    return TRUE;
+    return FALSE;
   }
 
   // 1/50 chance.
   if( cmd == CMD_MELEE_HIT && !number(0, 49) && CheckMultiProcTiming(ch))
   {
-    P_char vict = (P_char) arg;
-
+    vict = (P_char) arg;
     if( !IS_ALIVE(vict) )
     {
       return FALSE;
