@@ -4807,13 +4807,15 @@ void do_score(P_char ch, char *argument, int cmd)
     send_to_char("Stance: &+WNo stance at all&n\n", ch);
 #endif
                              
-  if (GET_LEVEL(ch) > 19)
+  if( GET_LEVEL(ch) > 19 )
   {
 
-    if (IS_PC(ch) && ch->only.pc->epics < 0)
+    if( IS_PC(ch) && ch->only.pc->epics < 0 )
+    {
       ch->only.pc->epics = 0;
+    }
 
-    if (IS_PC(ch))
+    if( IS_PC(ch) )
     {
       struct affected_type *afp;
 
@@ -4855,38 +4857,50 @@ void do_score(P_char ch, char *argument, int cmd)
     }
   }
   */
-     if (afp = get_epic_task(ch)) {
-        if (afp->modifier == SPILL_BLOOD)
+      if( afp = get_epic_task(ch) )
+      {
+        if( afp->modifier == SPILL_BLOOD )
+        {
           sprintf(buf, "&n&+YEpic points:&n &+W%ld&n Current task: &+rspill enemy blood&n\n",
               ch->only.pc->epics);
-        else if (afp->modifier >= 0)
+        }
+        else if( afp->modifier >= 0 )
+        {
           sprintf(buf, "&nEpic points: &+W%ld&n Current task: find runestone of %s\n",
               ch->only.pc->epics, zone_table[real_zone0(afp->modifier)].name);
-	else if (afp->modifier <= MAX_NEXUS_STONES && afp->modifier < 0)
-	{
-	  nexus = get_nexus_stone(-(afp->modifier));
-          if (nexus)
-	  {
-	  sprintf(buf, "&nEpic points: &+W%ld&n Current task: &+Gturn %s.&n\n",
+        }
+        else if( afp->modifier <= MAX_NEXUS_STONES && afp->modifier < 0 )
+        {
+          nexus = get_nexus_stone(-(afp->modifier));
+          if( nexus )
+          {
+            sprintf(buf, "&nEpic points: &+W%ld&n Current task: &+Gturn %s.&n\n",
               ch->only.pc->epics, nexus->short_description);
-	  }
-	  else
-	  {
-	  sprintf(buf, "&nEpic points: &+W%ld&n Current task: &+RERROR - can't find nexus, report to imms&n\n",
+          }
+          else
+          {
+            sprintf(buf, "&nEpic points: &+W%ld&n Current task: &+RERROR - can't find nexus, report to imms&n\n",
               ch->only.pc->epics);
           }
-	}
-	else
-	{
-	  sprintf(buf, "&nEpic points: &+W%ld&n Current task: &+RERROR - report to imms&n\n",
+        }
+        else
+        {
+          sprintf(buf, "&nEpic points: &+W%ld&n Current task: &+RERROR - report to imms&n\n",
               ch->only.pc->epics);
-	}
-      } else {
+        }
+      }
+      else
+      {
         sprintf(buf, "&nEpic points: &+W%ld&n\n",
              ch->only.pc->epics);
       }
       send_to_char(buf, ch);
     }
+  }
+  else
+  {
+    sprintf(buf, "&nEpic points: &+W%ld&n\n", ch->only.pc->epics);
+    send_to_char(buf, ch);
   }
 
   EpicBonusData ebdata;
