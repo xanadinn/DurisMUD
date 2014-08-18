@@ -3444,16 +3444,13 @@ void reset_zone(int zone, int force_item_repop)
                   extract_obj(obj, TRUE);
                   break;
                 }
-                if( timer )
+                if( IS_ARTIFACT(obj) && timer )
                 {
                   obj->timer[3] = timer;
-                }
-                else
-                {
-                  obj->timer[3] = time(NULL);
                   obj_to_room( obj, real_room(room) );
                   break;
                 }
+                obj->timer[3] = time(NULL);
             		obj_to_obj(obj, obj_to);
                 last_cmd = 1;
                 break;
@@ -3523,10 +3520,7 @@ void reset_zone(int zone, int force_item_repop)
                   obj_to_room( obj, real_room(room) );
                   break;
                 }
-                else
-                {
-                  obj->timer[3] = time(NULL);
-                }
+                obj->timer[3] = time(NULL);
                 obj_to_char(obj, mob);
                 last_cmd = 1;
             		break;
@@ -3601,10 +3595,7 @@ void reset_zone(int zone, int force_item_repop)
                 obj_to_room( obj, real_room(room) );
                 break;
               }
-              else
-              {
-                obj->timer[3] = time(NULL);
-              }
+              obj->timer[3] = time(NULL);
               if (mob && (ZCMD.arg3 > 0) && (ZCMD.arg3 <= CUR_MAX_WEAR))
               {
                 // Drannak trying out item stat randomization 3/28/14
