@@ -549,7 +549,7 @@ int vecna_staffoaken(P_obj obj, P_char ch, int cmd, char *arg)
   P_obj obj_lose, obj_next;
   int dam, pos;
 
-  if (cmd == CMD_SET_PERIODIC)
+  if( cmd == CMD_SET_PERIODIC )
   {
     return TRUE;
   }
@@ -588,7 +588,7 @@ int vecna_staffoaken(P_obj obj, P_char ch, int cmd, char *arg)
     }
 
     // Or remaining 50% of time, 70% chance to check wanting to be outside if inside.
-    if( cmd == CMD_PERIODIC && !IS_TRUSTED(ch) && number(0, 100) <= 70 && world[ch->in_room].sector_type == SECT_INSIDE
+    if( !IS_TRUSTED(ch) && number(0, 100) <= 70 && world[ch->in_room].sector_type == SECT_INSIDE
       || IS_SET(world[ch->in_room].room_flags, INDOORS) )
     {
       dam = dice(25, 5) + 75;
@@ -634,7 +634,7 @@ int vecna_staffoaken(P_obj obj, P_char ch, int cmd, char *arg)
   } // End periodics
 
   // Say procs
-  if( cmd == CMD_SAY && arg )
+  if( cmd == CMD_SAY && arg && OBJ_WORN_POS(obj, WIELD) && ch == obj->loc.wearing )
   {
     if( isname(arg, "barkskin") )
     {
