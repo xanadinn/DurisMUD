@@ -241,6 +241,12 @@ menuChoice objLimitChoiceArr[] =
 { { "limit override for all objs of type", 0, 0, 0, mctObjectLimit, mclNone, mcdDefault, 0, 
     objLimitChoiceOverrideExtraArr }, { 0 } };
 
+#ifdef GODMODE
+const menuChoice objItemValueArr[] =
+{ { "item value: ", 0, 0, 0, mctItemValue, mclNone, mcdDefault, 0, 0},
+  { 0 } };
+#endif
+
 const menuChoice objVnumArr[] =
 { { "vnum", 0, 0, 0, mctVnum, mclNone, mcdDoNotDisplay, 0, 0 }, { 0 } };
 
@@ -258,6 +264,9 @@ const menuChoiceGroup objNoAffGroupArr[] =
   MENU_BLANK_LINE,
   { objLimitChoiceArr, 'L', 0 },
   { objVnumArr, 'V', 0 },
+#ifdef GODMODE
+  { objItemValueArr, 'W', 0 },
+#endif
   { 0, 0, 0 } };
 
 const menuChoiceGroup objGroupArr[] =
@@ -276,6 +285,9 @@ const menuChoiceGroup objGroupArr[] =
   MENU_BLANK_LINE,
   { objLimitChoiceArr, 'L', 0 },
   { objVnumArr, 'V', 0 },
+#ifdef GODMODE
+  { objItemValueArr, 'W', 0 },
+#endif
   { 0, 0, 0 } };
 
 menu g_objNoAffMenu =

@@ -60,39 +60,39 @@
 #define MENU_COMMON  "  &+YCR&+L. &+wExit, save changes\n" \
                      " &+YEsc&+L. &+wExit, discard changes\n"
 
-typedef enum 
-{ 
-  mctDirect = 200, 
+typedef enum
+{
+  mctDirect = 200,
   mctDirectNoKey = 201,
 
-  mctChar = 1, 
-  mctByte = 2, 
-  mctUByte = 3, 
-  mctShort = 4, 
-  mctUShort = 5, 
-  mctInt = 6, 
+  mctChar = 1,
+  mctByte = 2,
+  mctUByte = 3,
+  mctShort = 4,
+  mctUShort = 5,
+  mctInt = 6,
   mctIntNoZero = 7,    // when editing, 0 not allowed
-  mctUInt = 8, 
+  mctUInt = 8,
   mctUIntNoZero = 9,
-  mctString = 10, 
-  mctFloat = 11, 
-  mctDouble = 12, 
-  mctBoolYesNo = 13, 
+  mctString = 10,
+  mctFloat = 11,
+  mctDouble = 12,
+  mctBoolYesNo = 13,
 
-  mctPointerYesNo = 30, 
-  mctPointerYesNoSansExists = 31, 
+  mctPointerYesNo = 30,
+  mctPointerYesNoSansExists = 31,
 
   mctVnum = 40,
   mctKeywords = 41,
-  mctPercentage = 42, 
-  mctDescription = 43, 
+  mctPercentage = 42,
+  mctDescription = 43,
   mctDescriptionNoStartBlankLines = 44,
   mctQuestDisappearanceDescription = 45,  // adds 'disappears: yes/no'
-  mctMoney = 46, 
+  mctMoney = 46,
   mctDieString = 47,  // XdY+Z
 
   mctRoomFlag = 60,
-  mctExits = 61, 
+  mctExits = 61,
   mctRoomEdescs = 62,
 
   mctObjExtra = 80,
@@ -107,12 +107,12 @@ typedef enum
   mctObjTrapFlag = 89,
   mctObjEdescs = 90,
   mctObjectLimit = 91, 
-  mctObjectLimitOverride = 92, 
-  mctObjIDKeywords = 93, 
-  mctObjIDShort = 94, 
+  mctObjectLimitOverride = 92,
+  mctObjIDKeywords = 93,
+  mctObjIDShort = 94,
   mctObjIDLong = 95,
 
-  mctSpecies = 100, 
+  mctSpecies = 100,
   mctMobClass = 101,
   mctMobAction = 102,
   mctMobAggro = 103,
@@ -122,7 +122,7 @@ typedef enum
   mctMobAffect2 = 107,
   mctMobAffect3 = 108,
   mctMobAffect4 = 109,
-  mctMobLimit = 110, 
+  mctMobLimit = 110,
   mctMobLimitOverride = 111,
 
   mctNumbShopSold = 120,
@@ -141,9 +141,12 @@ typedef enum
   mctLowLifespan = 141,
   mctHighLifespan = 142,
 
-  mctVarYesNo = 160, 
-  mctVarUInt = 161, 
-  mctVarString = 162
+  mctVarYesNo = 160,
+  mctVarUInt = 161,
+  mctVarString = 162,
+
+  mctItemValue = 300,
+
 } menuChoiceDataType;
 
 typedef enum 

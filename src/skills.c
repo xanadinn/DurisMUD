@@ -9,50 +9,57 @@
 #include <string.h>
 #include "defines.h"
 #include "utils.h"
+#include "spells.h"
 #ifndef _DE_
 #include "structs.h"
 #include "paladins.h"
 #include "reavers.h"
 #include "rogues.h"
 #include "avengers.h"
+#include "blispells.h"
 #include "epic.h"
+#include "necromancy.h"
 
 int      numSkills;
+void update_racial_skills(P_char ch);
+#else
+#include "misc/misc.h"
+int currentSkill = 0;
 #endif
 
-void update_racial_skills(P_char ch);
 
 #if defined(_DE_) || defined(_PFILE_)
 struct skill_data
 {
   char    *name;
+  // 0-56 for a skill, and 0-12 for a spell.
+  int minLevel[CLASS_COUNT+1];
 #if defined (_PFILE_)
   struct ClassSkillInfo m_class[CLASS_COUNT];     /* info for each class */
 #endif
 };
 typedef struct skill_data Skill;
-extern int flag2idx(int);
+int flag2idx(int);
 #else
 #include "prototypes.h"
 extern int SortedSkills[];
 #endif
-
-#include "spells.h"
-#include "blispells.h"
-#include "necromancy.h"
 
 Skill skills[MAX_AFFECT_TYPES+1];
 //void initialize_skills_new();
 
 #if defined(_DE_) || defined(_PFILE_)
 #   define SPELL_CREATE_MSG(Name, Index, Beats, Targets, Spell_pointer, Wear_off) \
-  skills[Index].name = (Name)
+  skills[Index].name = (Name); \
+  currentSkill = Index;
 
 #   define SPELL_CREATE(Name, Index, Beats, Targets, Spell_pointer) \
-  skills[Index].name = (Name)
+  skills[Index].name = (Name); \
+  currentSkill = Index;
 
 #   define SKILL_CREATE(Name, Index, Type) \
-  skills[Index].name = (Name)
+  skills[Index].name = (Name); \
+  currentSkill = Index;
 
 #   define SKILL_CREATE_WITH_MESSAGES(Name, Index, Type, wearoff_char, wearoff_room) \
   SKILL_CREATE(Name, Index, Type)
@@ -60,11 +67,15 @@ Skill skills[MAX_AFFECT_TYPES+1];
 #   define SPELL_CREATE2(Name, Index, Beats, Targets, Spell_pointer, Wear_off, wear_off_room) \
 	SPELL_CREATE_MSG(Name, Index, Beats, Targets, Spell_pointer, Wear_off)
 
-#   define SPEC_SPELL_ADD(Class, Level, Spec)
+#   define SPEC_SPELL_ADD(Class, Level, Spec) \
+  skills[currentSkill].minLevel[flag2idx(Class)-1] = (Level)
+#   define SPELL_ADD(Class, Level) \
+  skills[currentSkill].minLevel[flag2idx(Class)-1] = (Level)
 
-#   define SPELL_ADD(Class, Level)
-#   define TAG_CREATE(Name, Index)
-#   define TAG_CREATE_WITH_MESSAGES(Name, Index, wear_off, wear_off_room)
+#   define TAG_CREATE(Name, Index) \
+  skills[Index].name = (Name)
+#   define TAG_CREATE_WITH_MESSAGES(Name, Index, wear_off, wear_off_room) \
+  skills[Index].name = (Name)
 #   define POISON_CREATE(Name, Index, Spell_pointer) \
   skills[Index].name = (Name)
 #if defined (_PFILE_)
@@ -77,8 +88,10 @@ Skill skills[MAX_AFFECT_TYPES+1];
     skills[numSkills].m_class[flag2idx(Class)-1].rlevel[i] = Level;\
     skills[numSkills].m_class[flag2idx(Class)-1].maxlearn[i] = MaxLearn; }
 #else
-#   define SPEC_SKILL_ADD(Class, Level,  MaxLearn,  Spec)
-#   define SKILL_ADD(Class, Level, MaxLearn)
+#   define SPEC_SKILL_ADD(Class, Level,  MaxLearn,  Spec) \
+    skills[currentSkill].minLevel[flag2idx(Class)-1] = (Level);
+#   define SKILL_ADD(Class, Level, MaxLearn) \
+    skills[currentSkill].minLevel[flag2idx(Class)-1] = (Level);
 #endif
 
 #else
@@ -5057,8 +5070,9 @@ SPELL_ADD(CLASS_NONE, 1);
   SPELL_CREATE("ghastly touch", SPELL_GHASTLY_TOUCH, PULSE_SPELLCAST * 2 / 3,
                 TAR_CHAR_ROOM | TAR_FIGHT_VICT | TAR_AGGRO,
                 spell_ghastly_touch);
-
+#ifndef _DE_
   create_epic_skills();
+#endif
   create_poisons();
   create_tags();
 }
@@ -5499,7 +5513,7 @@ void initialize_skills_new()
 #endif
 
 
-
+#ifndef _DE_
 void assign_racial_skills(P_char ch)
 {
   struct affected_type af;
@@ -5707,3 +5721,18 @@ void reset_racial_skills(P_char ch)
   update_racial_skills( ch );
 }
 
+#else
+// Defined in utility.c on mud.
+int flag2idx(int flag)
+{
+  int      i = 0;
+
+  while (flag > 0)
+  {
+    i++;
+    flag >>= 1;
+  }
+
+  return i;
+}
+#endif

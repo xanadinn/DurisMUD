@@ -38,6 +38,7 @@
 #include "../misc/menu.h"
 #include "../keys.h"
 #include "../types.h"
+#include "../obj/object.h"
 
 extern flagDef g_roomManaList[], g_roomSectList[], g_objSizeList[], g_shopShopkeeperRaceList[],
                g_roomExitDirectionList[], g_npc_class_bits[], g_race_names[], g_objCraftsmanshipList[],
@@ -254,6 +255,12 @@ int getMenuDataTypeStrn(char *valstrn, const menuChoiceDataType dataType, const 
 
       sprintf(valstrn, "%u", val);
       break;
+
+#ifdef GODMODE
+    case mctItemValue :
+      sprintf(valstrn, "%d", itemvalue( (objectType *)((char *)entityPtr + offset) ));
+      break;
+#endif
 
     case mctObjectLimitOverride :
       val = getNumbEntities(ENTITY_OBJECT, (uint)offset, true);

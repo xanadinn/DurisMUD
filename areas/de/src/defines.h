@@ -85,8 +85,8 @@ typedef unsigned int uint;
    get ambitious, find out which ones aren't used and kill them.  JAB */
 
 /* object 'type' */
-#define MAX_SKILLS       1000
-#define MAX_AFFECT_TYPES MAX_SKILLS+501
+#define MAX_SKILLS       2000
+#define MAX_AFFECT_TYPES MAX_SKILLS+200
 #define MAX_SPEC         4
 
 #define ITEM_LOWEST      1
@@ -725,11 +725,11 @@ typedef unsigned int uint;
 #define AFF4_SENSE_HOLINESS     BIT_25
 #define AFF4_PROT_LIVING        BIT_26
 #define AFF4_DETECT_ILLUSION    BIT_27
-#define AFF4_UNUSED28           BIT_28
+#define AFF4_ICE_AURA           BIT_28
 #define AFF4_REV_POLARITY       BIT_29
 #define AFF4_NEG_SHIELD         BIT_30
 #define AFF4_TUPOR              BIT_31
-#define AFF4_UNUSED32           BIT_32
+#define AFF4_WILDMAGIC          BIT_32
 
 /* if you add a new affect, make sure it makes sense to have it on items
  * or zone mobs loading with it. otherwise do not define affect - use
@@ -983,6 +983,87 @@ typedef unsigned int uint;
 #define CLASS_TYPE_THIEF     21
 #define CLASS_TYPE_WARRIOR   22
 #define CLASS_TYPE_CLERIC    23
+
+/* Specs for classes.. not really used in DE? */
+#define SPEC_LOREMASTER 1
+#define SPEC_BATTLESEINGER 2
+#define SPEC_STORMSINGER 3
+#define SPEC_WAYOFDRAGON 1
+#define SPEC_WAYOFSNAKE 2
+#define SPEC_CHIMONK 3
+#define SPEC_DEATHLORD 1
+#define SPEC_SHADOWLORD 2
+#define SPEC_ICE_REAVER 1
+#define SPEC_FLAME_REAVER 2
+#define SPEC_SHOCK_REAVER 3
+#define SPEC_EARTH_REAVER 4
+#define SPEC_AIR 1
+#define SPEC_WATER 2
+#define SPEC_FIRE 3
+#define SPEC_EARTH 4
+#define SPEC_BATTLE_FORGER 1
+#define SPEC_BLACKSMITH 2
+#define SPEC_BRIGAND 1
+#define SPEC_BOUNTY 2
+#define SPEC_ASSMASTER 1
+// #define SPEC_SHARPSHOOTER 2 No way pal, we'll jew this for something else!
+#define SPEC_MAULER 1
+#define SPEC_RAGELORD 2
+#define SPEC_DIABOLIS 1
+#define SPEC_NECROLYTE 2
+#define SPEC_REAPER 3
+#define SPEC_SWORDSMAN 1
+#define SPEC_GUARDIAN  2
+#define SPEC_SWASHBUCKLER 3
+#define SPEC_DARKKNIGHT 1
+#define SPEC_DEMONIC 2
+#define SPEC_VIOLATOR 3
+#define SPEC_SPAWN 4
+#define SPEC_CRUSADER 1
+#define SPEC_CAVALIER 2
+#define SPEC_WILDMAGE 1
+#define SPEC_WIZARD 2
+#define SPEC_SHADOW 3
+#define SPEC_TRICKSTER 1
+#define SPEC_CUTPURSE 2
+#define SPEC_ROGUE 3
+#define SPEC_ELEMENTALIST 1
+#define SPEC_SPIRITUALIST 2
+#define SPEC_ANIMALIST 3
+#define SPEC_BLADEMASTER 1
+#define SPEC_WOODSMAN    2
+#define SPEC_MARSHALL    3
+#define SPEC_ZEALOT  1
+#define SPEC_HEALER  2
+#define SPEC_HOLYMAN 3
+#define SPEC_WOODLAND 1
+#define SPEC_STORM 2
+#define SPEC_WINDTALKER 1
+#define SPEC_FROST_MAGUS 2
+#define SPEC_COSMOMANCER 3
+#define SPEC_DISHARMONIST 1
+#define SPEC_SCOUNDREL 2
+#define SPEC_MINSTREL 3
+#define SPEC_PYROKINETIC 1
+#define SPEC_ENSLAVER 2
+#define SPEC_PSYCHEPORTER 3
+#define SPEC_DECEIVER 1
+#define SPEC_DARK_DREAMER 2
+#define SPEC_STORMBRINGER 1
+#define SPEC_SCOURGE      2
+#define SPEC_RUINER       3
+#define SPEC_LIGHTBRINGER 1
+#define SPEC_INQUISITOR  2
+#define SPEC_ASSASSIN 1
+#define SPEC_THIEF    2
+#define SPEC_OLD_SWASHBUCKLER  3 // Switched to warrior.
+#define SPEC_SHARPSHOOTER 4
+#define SPEC_MEDIUM 1
+#define SPEC_TEMPLAR 2
+#define SPEC_THAUMATURGE 3
+#define SPEC_CONTROLLER 1
+#define SPEC_MENTALIST  2
+#define SPEC_NATURALIST 3
 
 /* animals fall into three categorizations */
 #define ANIMAL_TYPE_BIRD     0

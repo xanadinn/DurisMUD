@@ -112,5 +112,7 @@ typedef struct _objectType
   bool defaultObj;
 } objectType;
 
+int itemvalue( objectType *obj );
+
 #define _OBJECT_H_
 #endif
