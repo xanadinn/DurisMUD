@@ -2509,29 +2509,23 @@ void spell_enrage(int level, P_char ch, char *arg, int type, P_char victim,
                   P_obj obj)
 {
 
-  if (!ch || !victim)
-    return;
-#if 0
-  if (ch == victim)
+  if( !IS_ALIVE(ch) || !IS_ALIVE(victim) )
   {
-    send_to_char("You cannot do this to yourself!\r\n", ch);
     return;
   }
-#endif
 
   appear(ch);
 
   int attdiff = ((GET_C_POW(ch) - GET_C_POW(victim)) / 2);
-  attdiff = BOUNDED(1, attdiff, 100);
+  attdiff = BOUNDED(2, attdiff, 100);
 
-  if ((ch != victim) &&
-      NewSaves(victim, SAVING_SPELL, number(0, attdiff)))
+  if( (ch != victim) && NewSaves(victim, SAVING_SPELL, attdiff/5) )
   {                             /* made save */
     send_to_char("You feel a brief bit of anger, but it passes.\r\n", victim);
     return;
   }
 
-  berserk(victim, number(1, attdiff));  /* flag to start regardless of skill */
+  berserk(victim, WAIT_SEC * number(attdiff/2, attdiff));  /* flag to start regardless of skill */
   return;
 }
 
