@@ -347,7 +347,7 @@
 /* weapon stuff */
 
 #define WEAPON_LOWEST       0
-#define WEAPON_NONE	    0
+#define WEAPON_NONE         0
 #define WEAPON_AXE          1  // axes - slashing
 #define WEAPON_DAGGER       2  // daggers, knives - piercing, slashing (with -)
 #define WEAPON_FLAIL        3  // flails - whip
@@ -359,15 +359,14 @@
 #define WEAPON_SHORTSWORD   9  // short swords - slashing/piercing
 #define WEAPON_CLUB        10  // clubs - bludgeon
 #define WEAPON_SPIKED_CLUB 11  // should be removed
-#define WEAPON_STAFF       12  // staff - like club but longer, maybe 2-handed -
-                               //   bludgeon
+#define WEAPON_STAFF       12  // staff - like club but longer, maybe 2-handed - bludgeon
 #define WEAPON_2HANDSWORD  13  // should be removed
 #define WEAPON_WHIP        14  // whips - whip
 #define WEAPON_SPEAR       15  // long piercing weapons - pierce
 #define WEAPON_LANCE       16  // lance - special handling probably
-#define WEAPON_SICKLE      17  // sickle - slash/pierce?
+#define WEAPON_SICKLE      17  // sickle - slash
 #define WEAPON_TRIDENT     18  // forks/rakes - slash
-#define WEAPON_HORN        19  // should be removed
+#define WEAPON_HORN        19  // pierce like dagger, should be removed
 #define WEAPON_NUMCHUCKS   20  // numchucks - bludgeon
 #define WEAPON_HIGHEST     20
 #define NUMB_WEAPONS      (WEAPON_HIGHEST - WEAPON_LOWEST)

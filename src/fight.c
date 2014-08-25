@@ -6693,6 +6693,14 @@ int required_weapon_skill(P_obj wpn)
       break;
     case WEAPON_DAGGER:
     case WEAPON_HORN:
+      if(IS_SET(wpn->extra_flags, ITEM_TWOHANDS) )
+      {
+        char Gbuf[MAX_STRING_LENGTH];
+        sprintf( Gbuf, "Weapon '%s' [%d] has 2h flag set and is a %s (%d).",
+          wpn->short_description, GET_OBJ_VNUM(wpn), (wpn->value[0] == WEAPON_DAGGER) ? "Dagger" : "Horn", wpn->value[0] );
+        debug( Gbuf );
+        logit( LOG_OBJ, Gbuf );
+      }
       return IS_SET(wpn->extra_flags, ITEM_TWOHANDS) ? 0 : SKILL_1H_PIERCING;
       break;
     case WEAPON_HAMMER:
@@ -6701,6 +6709,7 @@ int required_weapon_skill(P_obj wpn)
     case WEAPON_MACE:
     case WEAPON_SPIKED_MACE:
     case WEAPON_STAFF:
+    case WEAPON_LANCE:
       return IS_SET(wpn->extra_flags, ITEM_TWOHANDS) ? SKILL_2H_BLUDGEON : SKILL_1H_BLUDGEON;
       break;
     case WEAPON_WHIP:
