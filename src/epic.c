@@ -343,7 +343,6 @@ void gain_epic(P_char ch, int type, int data, int amount)
   struct affected_type af, *afp;
   int notch = get_property("epic.skillPointStep", 100);
   int errand_notch = get_property("epic.errandStep", 200);
-  int old;
 
   if( !IS_ALIVE(ch) )
   {
@@ -384,12 +383,11 @@ void gain_epic(P_char ch, int type, int data, int amount)
   // add guild prestige
   check_assoc_prestige_epics(ch, amount, type);
 
-  old = ch->only.pc->epics;
+//  int old = ch->only.pc->epics; - Disabled epic skill points.
   sprintf(buffer, "You have gained %d epic point%s.\n", amount, amount == 1 ? "" : "s");
   send_to_char(buffer, ch);
   ch->only.pc->epics += amount;
   log_epic_gain(GET_PID(ch), type, data, amount);
-
   char type_str[10];
 
   switch(type)
@@ -441,17 +439,27 @@ void gain_epic(P_char ch, int type, int data, int amount)
   // feed artifacts
   epic_feed_artifacts(ch, amount, type);
 
-  int skill_notches = MAX(0, (int) ((old+amount)/notch) - (old/notch));
+  // Handle the total number of epics ch has gained.
+  if( afp = get_spell_from_char(ch, TAG_EPICS_GAINED) )
+  {
+    afp->modifier += amount;
+  }
+  else
+  {
+    afp = apply_achievement(ch, TAG_EPICS_GAINED);
+    afp->modifier = amount;
+  }
 
+/* Lets do away with skill points---we don't need them at all with the new system.
+  int skill_notches = MAX(0, (int) ((old+amount)/notch) - (old/notch));
   //if(skill_notches)
-  /* Lets do away with skill points---we don't need them at all with the new system.
-  if (add_epiccount(ch, amount))
+  if( add_epiccount(ch, amount) )
   {
     send_to_char("&+WYou have gained an epic skill point!&n\n", ch);
     epic_gain_skillpoints(ch, skill_notches);
   }
-  */
-  if((old / errand_notch < (old + amount) / errand_notch) && !has_epic_task(ch))
+*/
+  if( (afp->modifier - amount) / errand_notch < afp->modifier / errand_notch && !has_epic_task(ch))
   {
     epic_choose_new_epic_task(ch);
   }

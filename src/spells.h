@@ -1175,6 +1175,7 @@
 #define AIP_FREESLOOP                2106
 #define TAG_RESTED                   2107
 #define TAG_WELLRESTED               2108
+#define TAG_EPICS_GAINED             2109
 
 #define SAVING_PARA   0
 #define SAVING_ROD    1

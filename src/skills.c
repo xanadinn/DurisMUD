@@ -5232,6 +5232,7 @@ void create_tags()
   TAG_CREATE("summon spawn/ally", TAG_SPAWN);
   TAG_CREATE("rested bonus", TAG_RESTED);
   TAG_CREATE("well-rested bonus", TAG_WELLRESTED);
+  TAG_CREATE("total epics gained", TAG_EPICS_GAINED);
 }
 
 #ifdef SKILLPOINTS
