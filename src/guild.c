@@ -975,11 +975,9 @@ void do_practice(P_char ch, char *arg, int cmd)
   meming_cl = meming_class(ch);
 
 
+  // List skills available to be taught
   if( !*arg && teacher )
-  {                             /*
-                                 * list skills available to be
-                                 * taught
-                                 */
+  {
 
     sprintf(obuf, "&+BSkill                    Cost of Teachings\n&n");
     for (skl = FIRST_SKILL; skl <= LAST_SKILL; skl++)
@@ -989,34 +987,33 @@ void do_practice(P_char ch, char *arg, int cmd)
                              ((GET_LEVEL(FindTeacher(ch)) >= 51) &&
                               (GET_LEVEL(ch) >= 51)) */ ))
       {
-        if( GET_LVL_FOR_SKILL(ch, skl) <= GET_LEVEL(ch) &&
-            GET_LVL_FOR_SKILL(teacher, skl) <= GET_LEVEL(teacher) )
-          sprintf(buf, "%-25s %s\n", skills[skl].name,
-                  coin_stringv(SkillRaiseCost(ch, skl)));
+        if( GET_LVL_FOR_SKILL(ch, skl) <= GET_LEVEL(ch)
+          && GET_LVL_FOR_SKILL(teacher, skl) <= GET_LEVEL(teacher) )
+        {
+          sprintf(buf, "%-25s %s\n", skills[skl].name, coin_stringv(SkillRaiseCost(ch, skl)));
+        }
         else
+        {
           sprintf(buf, "%-25s (cannot practice)\n", skills[skl].name);
-
+        }
         strcat(buf1, buf);
       }
     }
     strcat(obuf, buf1);
 
-    if (meming_cl)
+    if( meming_cl )
     {
       *buf1 = '\0';
       strcat(obuf, "\n&+BSpell                    Cost to Scribe\n&n");
       for (spl = FIRST_SPELL; spl <= LAST_SPELL; spl++)
       {
-        if( GET_LVL_FOR_SKILL(ch, spl) <= GET_LEVEL(ch) &&
-            GET_LVL_FOR_SKILL(teacher, spl) <= GET_LEVEL(teacher)
-            && IS_SPELL(spl))
+        if( IS_SPELL(spl) && GET_LVL_FOR_SKILL(ch, spl) <= GET_LEVEL(ch)
+          && GET_LVL_FOR_SKILL(teacher, spl) <= GET_LEVEL(teacher) )
         {
           circle = get_spell_circle(ch, spl);
-          if (circle <= get_max_circle(ch) && circle < MAX_CIRCLE + 1 &&
-              circle > 0)
+          if( circle <= get_max_circle(ch) && circle < MAX_CIRCLE + 1 && circle > 0 && knows_spell(teacher, spl) )
           {
-            sprintf(buf, "%-25s %s\n", skills[spl].name,
-                    coin_stringv(SpellCopyCost(ch, spl)));
+            sprintf(buf, "%-25s %s\n", skills[spl].name, coin_stringv(SpellCopyCost(ch, spl)));
             strcat(buf1, buf);
           }
         }
@@ -1039,9 +1036,13 @@ void do_practice(P_char ch, char *arg, int cmd)
     if (!str_cmp(arg, "all"))
     {
       if( meming_cl )
+      {
         prac_all_spells(ch);
+      }
       else
+      {
         send_to_char( "Try practicing a specific skill.\n", ch );
+      }
       return;
     }
     skl = search_block(arg, (const char **) spells, FALSE);
@@ -1055,22 +1056,28 @@ void do_practice(P_char ch, char *arg, int cmd)
     }
     if (IS_SPELL(skl) && get_max_circle(ch) < get_spell_circle(ch, skl))
     {
-      sprintf(buf,
-              "Well, sure, I know that one, but my conscience prevents me from teaching it to someone so unskilled as yourself.");
+      sprintf(buf, "Well, sure, I know that one, but my conscience prevents me from teaching it to someone so unskilled as yourself.");
       if( teacher )
+      {
         mobsay(teacher, buf);
+      }
       else
+      {
         send_to_char("That's too high of a circle for you.\n", ch);
+      }
       return;
     }
 
     if( !SKILL_DATA_ALL(ch, skl).rlevel[ch->player.spec] || SKILL_DATA_ALL(ch, skl).rlevel[ch->player.spec] > GET_LEVEL(ch) )
     {
       if( teacher )
-        mobsay(teacher,
-             "Hmm, I don't think you'd understand a damn thing if I *did* try to teach you.");
+      {
+        mobsay(teacher, "Hmm, I don't think you'd understand a damn thing if I *did* try to teach you.");
+      }
       else
+      {
         send_to_char("You wouldn't understand.\n", ch);
+      }
       return;
     }
 
@@ -1080,14 +1087,12 @@ void do_practice(P_char ch, char *arg, int cmd)
 
       if (GET_LEVEL(teacher) < 51)
       {
-        strcpy(buf,
-               "Yes, I've heard of such a skill, but have never learned it myself..");
+        strcpy(buf, "Yes, I've heard of such a skill, but have never learned it myself..");
         ret = TRUE;
       }
       else if (GET_LEVEL(ch) < 51)
       {
-        strcpy(buf,
-               "Sorry, but you're not quite learned enough for that one yet.");
+        strcpy(buf, "Sorry, but you're not quite learned enough for that one yet.");
         ret = TRUE;
       }
 
@@ -1098,62 +1103,50 @@ void do_practice(P_char ch, char *arg, int cmd)
       }
     }
 
-    if (IS_SPELL(skl) && !meming_class(ch))
-      if (ch->only.pc->skills[i].learned)
-      {
-        send_to_char
-          ("You need not prac spells! Your deity grants it to you, if you are deemed worthy of it.\n",
-           ch);
-        return;
-      }
-
-    if ((cost = (!IS_SPELL(skl) ? SkillRaiseCost(ch, skl) : 0
-                 /*SpellCopyCost(ch, skl) */ )) > GET_MONEY(ch))
+    if( IS_SPELL(skl) && !meming_class(ch) && ch->only.pc->skills[i].learned )
     {
-      sprintf(buf,
-              "Sorry, boss, but I'm afraid you cannot afford the training.");
+      send_to_char("You need not prac spells! Your deity grants it to you, if you are deemed worthy of it.\n", ch);
+      return;
+    }
+
+    if( (cost = (!IS_SPELL(skl) ? SkillRaiseCost(ch, skl) : 0
+                 /*SpellCopyCost(ch, skl) */ )) > GET_MONEY(ch) )
+    {
+      sprintf(buf, "Sorry, boss, but I'm afraid you cannot afford the training.");
       mobsay(teacher, buf);
       return;
     }
-    if (!IS_SPELL(skl) && GET_LEVEL(ch) * 2 <
-        (ch->only.pc->skills[i].learned))
+    if( !IS_SPELL(skl) && GET_LEVEL(ch) * 2 < (ch->only.pc->skills[i].learned) )
     {
-      sprintf(buf,
-              "You have not fully grasped your previous lessons. Come back when you have practiced more.");
+      sprintf(buf, "You have not fully grasped your previous lessons. Come back when you have practiced more.");
       mobsay(teacher, buf);
       return;
     }
 
-    if (!IS_SPELL(skl) &&
-        (ch->only.pc->skills[i].learned >= 2 * GET_LEVEL(ch) ||
-         ch->only.pc->skills[i].learned >= 
-           ch->only.pc->skills[i].taught * get_property("skill.practice.relativeCap", 0.75)))
+    if( !IS_SPELL(skl) && (ch->only.pc->skills[i].learned >= 2 * GET_LEVEL(ch)
+      || ch->only.pc->skills[i].learned >=
+      ch->only.pc->skills[i].taught * get_property("skill.practice.relativeCap", 0.75)) )
     {
-      sprintf(buf,
-              "You will have to go learn more on your own, I can teach you no more right now.");
+      sprintf(buf, "You will have to go learn more on your own, I can teach you no more right now.");
       mobsay(teacher, buf);
       return;
     }
 
-    if (!IS_SPELL(skl) && (ch->only.pc->skills[i].learned == ch->only.pc->skills[i].taught))
+    if( !IS_SPELL(skl) && (ch->only.pc->skills[i].learned == ch->only.pc->skills[i].taught) )
     {
-      sprintf(buf,
-              "I'm sorry but I can teach you no more.");
+      sprintf(buf, "I'm sorry but I can teach you no more.");
       mobsay(teacher, buf);
       return;
     }
-    if (!IS_SPELL(skl) &&
-        (ch->only.pc->skills[i].learned >= GET_LEVEL(teacher) * 2))
+    if( !IS_SPELL(skl) && (ch->only.pc->skills[i].learned >= GET_LEVEL(teacher) * 2) )
     {
       switch (number(1, 4))
       {
       case 1:
-        sprintf(buf,
-                "You are awesome already! Perhaps you would be so kind as to teach me?");
+        sprintf(buf, "You are awesome already! Perhaps you would be so kind as to teach me?");
         break;
       case 2:
-        sprintf(buf,
-                "You trying to make a fool of me? I can teach you nothing more!");
+        sprintf(buf, "You trying to make a fool of me? I can teach you nothing more!");
         break;
       case 3:
         sprintf(buf, "I fear I am not good enough to teach you more.");
@@ -1169,26 +1162,29 @@ void do_practice(P_char ch, char *arg, int cmd)
       return;
     }
 
-    if (IS_SPELL(skl))
-      if (SpellInSpellBook
-          (ch, skl,
-           SBOOK_MODE_IN_INV + SBOOK_MODE_AT_HAND + SBOOK_MODE_NO_SCROLL +
-           SBOOK_MODE_ON_BELT))
+    if( IS_SPELL(skl) )
+    {
+      if( SpellInSpellBook(ch, skl, SBOOK_MODE_IN_INV + SBOOK_MODE_AT_HAND + SBOOK_MODE_NO_SCROLL + SBOOK_MODE_ON_BELT) )
       {
         send_to_char("You know that spell already!\n", ch);
         return;
       }
       else if (!ScriberSillyChecks(ch, skl))
+      {
         return;
+      }
+    }
 
 /*** Can practice skill now ***/
-    if (!meming_cl || !IS_SPELL(skl)) 
+    if( !meming_cl || !IS_SPELL(skl) )
     {
       SUB_MONEY(ch, SkillRaiseCost(ch, skl), 0);
 /*      ch->only.pc->skills[i].taught += 3; */
       ch->only.pc->skills[i].learned += 1;
       if (ch->only.pc->skills[i].learned > 100)
+      {
         ch->only.pc->skills[i].learned = 100;
+      }
 /*      if (ch->only.pc->skills[i].taught > 100)
         ch->only.pc->skills[i].taught = 100;
 */
@@ -1196,18 +1192,15 @@ void do_practice(P_char ch, char *arg, int cmd)
       send_to_char(buf, ch);
     }
     else
-
     {
-      sprintf(buf, "You start to scribe the spell '%s'..\n",
-              skills[skl].name);
+      sprintf(buf, "You start to scribe the spell '%s'..\n", skills[skl].name);
       send_to_char(buf, ch);
       sprintf(buf, " %s %s", GET_NAME(ch), skills[skl].name);
-      do_teach(NULL, buf, ch->in_room);
+      do_teach(teacher, buf, cmd);
     }
 /*
  * end of single practicing
  */
-
   }
 }
 

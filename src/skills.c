@@ -2468,42 +2468,30 @@ SPELL_ADD(CLASS_SUMMONER, 11);
   SPELL_CREATE("istr", SPELL_PERM_INCREASE_STR, PULSE_SPELLCAST,
                 TAR_CHAR_ROOM | TAR_NOCOMBAT,
                 spell_perm_increase_str);
- SPELL_ADD(CLASS_NONE, 1);
-
   SPELL_CREATE("iagi", SPELL_PERM_INCREASE_AGI, PULSE_SPELLCAST,
                 TAR_CHAR_ROOM | TAR_NOCOMBAT,
                 spell_perm_increase_agi);
-SPELL_ADD(CLASS_NONE, 1);
   SPELL_CREATE("idex", SPELL_PERM_INCREASE_DEX, PULSE_SPELLCAST,
                 TAR_CHAR_ROOM | TAR_NOCOMBAT,
                 spell_perm_increase_dex);
-SPELL_ADD(CLASS_NONE, 1);
   SPELL_CREATE("icon", SPELL_PERM_INCREASE_CON, PULSE_SPELLCAST,
                 TAR_CHAR_ROOM | TAR_NOCOMBAT,
                 spell_perm_increase_con);
-SPELL_ADD(CLASS_NONE, 1);
   SPELL_CREATE("iluck", SPELL_PERM_INCREASE_LUCK, PULSE_SPELLCAST,
                 TAR_CHAR_ROOM | TAR_NOCOMBAT,
                 spell_perm_increase_luck);
-SPELL_ADD(CLASS_NONE, 1);
   SPELL_CREATE("ipow", SPELL_PERM_INCREASE_POW, PULSE_SPELLCAST,
                 TAR_CHAR_ROOM | TAR_NOCOMBAT,
                 spell_perm_increase_pow);
-SPELL_ADD(CLASS_NONE, 1);
   SPELL_CREATE("iint", SPELL_PERM_INCREASE_INT, PULSE_SPELLCAST,
                 TAR_CHAR_ROOM | TAR_NOCOMBAT,
                 spell_perm_increase_int);
-SPELL_ADD(CLASS_NONE, 1);
   SPELL_CREATE("iwis", SPELL_PERM_INCREASE_WIS, PULSE_SPELLCAST,
                 TAR_CHAR_ROOM | TAR_NOCOMBAT,
                 spell_perm_increase_wis);
-SPELL_ADD(CLASS_NONE, 1);
   SPELL_CREATE("icha", SPELL_PERM_INCREASE_CHA, PULSE_SPELLCAST,
                 TAR_CHAR_ROOM | TAR_NOCOMBAT,
                 spell_perm_increase_cha);
-SPELL_ADD(CLASS_NONE, 1);
-
-
 
   SPELL_CREATE("identify", SPELL_IDENTIFY, PULSE_SPELLCAST * 5,
                 TAR_CHAR_ROOM | TAR_OBJ_INV | TAR_OBJ_EQUIP | TAR_OBJ_ROOM | TAR_NOCOMBAT, spell_identify);

@@ -2242,7 +2242,7 @@ void do_teach(P_char ch, char *arg, int cmd)
     return;
   }
   if( !(o3 = FindSpellBookWithSpell(ch, tmp, SBOOK_MODE_IN_INV + SBOOK_MODE_ON_BELT))
-    && !IS_TRUSTED(ch) )
+    && !IS_TRUSTED(ch) && !IS_NPC(ch) )
   {
     send_to_char("You don't have such spell in your _own_ spellbooks!\n", ch);
     return;
