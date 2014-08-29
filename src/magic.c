@@ -13860,32 +13860,37 @@ void spell_ghastly_touch(int level, P_char ch, char *arg, int type, P_char victi
     "$N &+Lquietly collapses and &+rdies!", 0
   };
 
-  if(!IS_ALIVE(ch) ||
-    !IS_ALIVE(victim))
-      return;
+  if( !IS_ALIVE(ch) || !IS_ALIVE(victim) )
+  {
+    return;
+  }
 
-  if(IS_UNDEADRACE(victim))
+  if( IS_UNDEADRACE(victim) )
   {
     act("&+LYour ghast balks at attacking another &+rundead &+Land disperses quickly.&n", FALSE, ch, 0, victim, TO_CHAR);
     return;
   }
 
-  if(GET_LEVEL(victim) < (level / 5) &&
-    spell_damage(ch, victim, 10000, SPLDAM_NEGATIVE, SPLDAM_NODEFLECT, &messages) == DAM_NONEDEAD)
-      return;
+  if( GET_LEVEL(victim) < (level / 5) )
+  {
+    spell_damage(ch, victim, 10000, SPLDAM_NEGATIVE, SPLDAM_NODEFLECT, &messages);
+    return;
+  }
 
-  int dam;
-  dam = (int) number(level * 5, level * 7);
-  
-  if (IS_PC(ch) && IS_PC(victim))
+  int dam = (int) number(level * 5, level * 7);
+
+  if( IS_PC(ch) && IS_PC(victim) )
+  {
     dam = dam * get_property("spell.area.damage.to.pc", 0.5);
-  
+  }
   dam = dam * get_property("spell.area.damage.factor.summonGhasts", 1.000);
 
-  if(spell_damage (ch, victim, dam, SPLDAM_NEGATIVE, SPLDAM_NODEFLECT, &messages) == DAM_NONEDEAD)
+  if( spell_damage (ch, victim, dam, SPLDAM_NEGATIVE, SPLDAM_NODEFLECT, &messages) == DAM_NONEDEAD )
   {
-    if(level < (GET_LEVEL(victim) / 2))  
+    if( GET_LEVEL(victim) < level / 2 )
+    {
       spell_minor_paralysis((int) (level / 2), ch, NULL, 0, victim, NULL);
+    }
   }
 }
 
