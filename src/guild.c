@@ -11,6 +11,7 @@
 #include <stdio.h>
 #include "comm.h"
 #include "db.h"
+#include "epic_skills.h"
 #include "guild.h"
 #include "interp.h"
 #include "prototypes.h"
@@ -41,6 +42,7 @@ extern const char *specdata[][MAX_SPEC];
 extern bool racial_innates[][LAST_RACE];
 extern Skill skills[];
 extern char *spells[];
+extern epic_teacher_skill epic_teachers[];
 
 extern void reset_racial_skills(P_char ch);
 int GET_LVL_FOR_SKILL(P_char ch, int skill);
@@ -143,7 +145,7 @@ void update_skills(P_char ch)
 
 int notch_skill(P_char ch, int skill, float chance)
 {
-  int intel, t, lvl, l, slvl;
+  int intel, t, lvl, l, slvl, i;
   char buf[MAX_STRING_LENGTH];
 
 //#ifdef SKILLPOINTS
@@ -254,7 +256,19 @@ int notch_skill(P_char ch, int skill, float chance)
 
   sprintf(buf, "&+cYou feel your skill in %s improving.\n", skills[skill].name);
   send_to_char(buf, ch);
-  ch->only.pc->skills[skill].learned++;
+  // If skill is maxxed, check it vs. the epic skill list to see if an epic skill has opened up.
+  l = ++(ch->only.pc->skills[skill].learned);
+
+  for( i = 0; epic_teachers[i].vnum; i++ )
+  {
+    // If they've just opened up the new skill.
+    if( epic_teachers[i].pre_requisite == skill
+      && epic_teachers[i].pre_req_lvl == l )
+    {
+      sprintf( buf, "&+WYou can now learn the epic skill '%s'.&n\n\r", skills[epic_teachers[i].skill].name );
+      send_to_char( buf, ch );
+    }
+  }
 
   return 1;
 }
