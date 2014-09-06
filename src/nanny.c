@@ -4741,9 +4741,6 @@ void select_race(P_desc d, char *arg)
   case 'S':
     strcpy(Gbuf, "MINOTAUR");
     break;
-  case '1':
-    GET_RACE(d->character) = RACE_KOBOLD;
-    break;
   case 'p':
     GET_RACE(d->character) = RACE_FIRBOLG;
     break;
@@ -4757,13 +4754,13 @@ void select_race(P_desc d, char *arg)
   case 'W':
     strcpy(Gbuf, "WOOD ELF");
     break;
+*/
   case '1':
     GET_RACE(d->character) = RACE_KOBOLD;
     break;
   case '!':
     strcpy(Gbuf, "KOBOLD");
     break;
-*/
   case '2':
     GET_RACE(d->character) = RACE_DRIDER;
     break;
