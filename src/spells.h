@@ -1176,6 +1176,7 @@
 #define TAG_RESTED                   2107
 #define TAG_WELLRESTED               2108
 #define TAG_EPICS_GAINED             2109
+#define ACH_CARGOCOUNT               2110
 
 #define SAVING_PARA   0
 #define SAVING_ROD    1

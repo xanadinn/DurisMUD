@@ -20,6 +20,7 @@
 #include "spells.h"
 #include "structs.h"
 #include "utility.h"
+#include "../achievements.h"
 
 extern char buf[MAX_STRING_LENGTH];
 extern char arg1[MAX_STRING_LENGTH];
@@ -452,100 +453,133 @@ int summon_ship (P_char ch, P_ship ship, bool time_only)
 
 int sell_cargo_slot(P_char ch, P_ship ship, int slot, int rroom)
 {
-    int type = ship->slot[slot].index;
-    if( type >= NUM_PORTS )
-        return 0;
+  int type = ship->slot[slot].index;
+  int crates = ship->slot[slot].val0;
+  int cost = crates * cargo_buy_price(rroom, type);
+  int profit = 100;
+  struct affected_type *paf;
 
-    /*if (type == rroom)
-    {
-        send_to_char_f(ch, "We don't buy %s&n here.\r\n", cargo_type_name(type));
-        return 0;
-    }
-    else
-    {*/
-        int crates = ship->slot[slot].val0;
-        int cost = crates * cargo_buy_price(rroom, type);
-        int profit = 100;
+  if( type >= NUM_PORTS )
+  {
+    return 0;
+  }
 
-	if(has_eq_diplomat(ship))
+ /* Random snippet.. Supposed to stop from selling cargo at the port you buy it in I guess.
+  if (type == rroom)
+  {
+    send_to_char_f(ch, "We don't buy %s&n here.\r\n", cargo_type_name(type));
+    return 0;
+  }
+  */
+
+	if( has_eq_diplomat(ship) )
 	{
 	  cost *= 0.9;
 	}
-       if(has_innate(ch, INNATE_SEADOG))
-       {
-        send_to_char("Your &+csea&+Cfaring&n heritage has earned you a &+Ybonus&n in your sale...&n\r\n", ch);
-        cost *= 1.10;
-       }
-        if (ship->slot[slot].val1 != 0)
-            profit = (int)(( ((float)cost / (float)ship->slot[slot].val1) - 1.00 ) * float(profit));
-        ship->slot[slot].clear();
+  if( has_innate(ch, INNATE_SEADOG) )
+  {
+    send_to_char("Your &+csea&+Cfaring&n heritage has earned you a &+Ybonus&n in your sale...&n\r\n", ch);
+    cost *= 1.10;
+  }
+  if( ship->slot[slot].val1 != 0 )
+  {
+    profit = (int)(( ((float)cost / (float)ship->slot[slot].val1) - 1.00 ) * float(profit));
+  }
+  ship->slot[slot].clear();
 
-        if (IS_WARSHIP(ship))
-        {
-          send_to_char("Because your cargo is obviosly stolen, local merchants bargain the price down.\r\n", ch);
-          cost = cost * 0.6;
-        }
-        
-        sprintf(buf, "CARGO: %s sold &+W%d&n %s&n at %s&n [%d] for %s&n (%d percent profit)", GET_NAME(ch), crates, cargo_type_name(type), ports[rroom].loc_name, ports[rroom].loc_room, coin_stringv(cost), profit);
-        statuslog(56, buf);
-        logit(LOG_SHIP, strip_ansi(buf).c_str());
-        
-        send_to_char_f(ch, "You sell &+W%d&n crates of %s&n for %s&n, for a %d%% profit.\r\n", crates, cargo_type_name(type), coin_stringv(cost), profit);
-        /*if(affected_by_spell(ch, SPELL_STONE_SKIN))
-         send_to_char("You are stoned!\r\n", ch); Hell yeah - Drannak */
+  if( IS_WARSHIP(ship) )
+  {
+    send_to_char("Because your cargo is obviosly stolen, local merchants bargain the price down.\r\n", ch);
+    cost = cost * 0.6;
+  }
 
-        // economy affect
-        adjust_ship_market(SOLD_CARGO, rroom, type, crates);
-      
-        return cost;
-    //}
+  sprintf(buf, "CARGO: %s sold &+W%d&n %s&n at %s&n [%d] for %s&n (%d percent profit)", GET_NAME(ch), crates, cargo_type_name(type), ports[rroom].loc_name, ports[rroom].loc_room, coin_stringv(cost), profit);
+  statuslog(56, buf);
+  logit(LOG_SHIP, strip_ansi(buf).c_str());
+
+  send_to_char_f(ch, "You sell &+W%d&n crates of %s&n for %s&n, for a %d%% profit.\r\n", crates, cargo_type_name(type), coin_stringv(cost), profit);
+
+ /* Hell yeah - Drannak
+  * .. So fucking random. - Lohrr
+  if( affected_by_spell(ch, SPELL_STONE_SKIN) )
+  {
+    send_to_char("You are stoned!\r\n", ch);
+  }
+  */
+  // economy affect
+  adjust_ship_market(SOLD_CARGO, rroom, type, crates);
+
+  // Movement towards the Trader boon.
+  if( !(paf = get_spell_from_char(ch, ACH_CARGOCOUNT)) )
+  {
+    paf = apply_achievement(ch, ACH_CARGOCOUNT);
+    paf->modifier = 0;
+  }
+  if( paf->modifier < 10000 && paf->modifier + crates >= 10000 )
+  {
+    send_to_char( "&+rCon&+Rgra&+Wtula&+Rtio&+rns! You have completed the &+RTrader&+r achievement!&n\r\n", ch );
+  }
+  paf->modifier += crates;
+
+  return cost;
 }
 
 int sell_cargo(P_char ch, P_ship ship, int slot)
 {
-    if (ship->location != ch->in_room) 
+  int rroom, i;
+  int total_cost = 0;
+  bool none_to_sell = TRUE;
+
+  if( ship->location != ch->in_room )
+  {
+    send_to_char("You ship is not here to unload cargo!\r\n", ch);
+    return TRUE;
+  }
+
+  for( rroom = 0; rroom < NUM_PORTS; ++rroom )
+  {
+    if( ports[rroom].loc_room == world[ch->in_room].number )
     {
-        send_to_char("You ship is not here to unload cargo!\r\n", ch);
-        return TRUE;
+      break;
+    }
+  }
+  if( rroom >= NUM_PORTS )
+  {
+    send_to_char("We don't buy cargo here!\r\n", ch);
+    return 0;
+  }
+
+  if( slot == -1 )
+  {
+    for( i = 0; i < MAXSLOTS; i++ )
+    {
+      if( ship->slot[i].type == SLOT_CARGO )
+      {
+        none_to_sell = FALSE;
+        break;
+      }
     }
 
-    int rroom = 0;
-    for (; rroom < NUM_PORTS; ++rroom) 
-        if (ports[rroom].loc_room == world[ch->in_room].number)
-            break;
-    if (rroom >= NUM_PORTS) 
+    if( none_to_sell )
     {
-        send_to_char("We don't buy cargo here!\r\n", ch);
-        return 0;
-    }
-
-    int total_cost = 0;
-    if (slot == -1)
-    {
-        int none_to_sell = true;
-        for (int i = 0; i < MAXSLOTS; i++)
-            if (ship->slot[i].type == SLOT_CARGO)
-            { none_to_sell = false; break; }
-
-        if (none_to_sell)
-        {
-            send_to_char("You don't have anything we're interested in.\r\n", ch);
-        }
-        else
-        {
-            for (int i = 0; i < MAXSLOTS; i++)
-            {
-                if (ship->slot[i].type == SLOT_CARGO)
-                {
-                    total_cost += sell_cargo_slot(ch, ship, i, rroom);
-                }
-            }
-        }
+      send_to_char("You don't have anything we're interested in.\r\n", ch);
     }
     else
     {
-        total_cost = sell_cargo_slot(ch, ship, slot, rroom);
+      // i is set to the first cargo slot.
+      for( ; i < MAXSLOTS; i++ )
+      {
+        if( ship->slot[i].type == SLOT_CARGO )
+        {
+          total_cost += sell_cargo_slot(ch, ship, i, rroom);
+        }
+      }
     }
+  }
+  else
+  {
+    total_cost = sell_cargo_slot(ch, ship, slot, rroom);
+  }
 
     if (total_cost > 0)
     {
@@ -1514,6 +1548,9 @@ int buy_contra(P_char ch, P_ship ship, char* arg)
 
 int buy_weapon(P_char ch, P_ship ship, char* arg1, char* arg2)
 {
+  struct affected_type *paf = get_spell_from_char(ch, ACH_CARGOCOUNT);
+  bool quickbuild = (paf->modifier >= 10000) ? TRUE : FALSE;
+
     if (!is_number(arg1) || !arg2 || !*arg2) 
     {
         send_to_char ("Valid syntax is 'buy weapon <number> <fore/rear/port/starboard>'\r\n", ch);
@@ -1627,6 +1664,11 @@ int buy_weapon(P_char ch, P_ship ship, char* arg1, char* arg2)
     SUB_MONEY(ch, cost, 0);
     set_weapon(ship, slot, w, arc);
     int buildtime = weapon_data[w].weight * 75;
+    // Achievement - Trader
+    if( quickbuild )
+    {
+      buildtime /= 2;
+    }
   //int pvp = false;
 	//pvp = ocean_pvp_state();
   //if (pvp) buildtime *= 4;
@@ -1640,6 +1682,9 @@ int buy_weapon(P_char ch, P_ship ship, char* arg1, char* arg2)
 
 int buy_equipment(P_char ch, P_ship ship, char* arg1)
 {
+  struct affected_type *paf = get_spell_from_char(ch, ACH_CARGOCOUNT);
+  bool quickbuild = (paf->modifier >= 10000) ? TRUE : FALSE;
+
     if (!is_number(arg1)) 
     {
         send_to_char ("Valid syntax is 'buy equipment <number>'\r\n", ch);
@@ -1717,6 +1762,11 @@ int buy_equipment(P_char ch, P_ship ship, char* arg1)
     int pvp = false;
     pvp = ocean_pvp_state();
         if (pvp) buildtime *= 4;
+    // Achievement - Trader
+    if( quickbuild )
+    {
+      buildtime /= 2;
+    }
     send_to_char_f(ch, "Thank you for your purchase, it will take %d hours to install the part.\r\n", (int) (buildtime / 75));
     if (!IS_TRUSTED(ch) && BUILDTIME)
         ship->timer[T_MAINTENANCE] += buildtime;
@@ -1728,202 +1778,235 @@ int buy_equipment(P_char ch, P_ship ship, char* arg1)
 
 int buy_hull(P_char ch, P_ship ship, int owned, char* arg1, char* arg2)
 {
-    int cost, buildtime;
+  int cost, buildtime;
+  struct affected_type *paf = get_spell_from_char(ch, ACH_CARGOCOUNT);
+  bool quickbuild = (paf->modifier >= 10000) ? TRUE : FALSE;
 
-    if (owned)
+  if( owned )
+  {
+    if( !is_number(arg1) )
     {
-        if (!is_number(arg1)) 
-        {
-            send_to_char("To upgrade or downgrade a hull type the follow: 'buy hull <number>.'\r\n", ch);
-            return TRUE;
-        }
+      send_to_char("To upgrade or downgrade a hull type the follow: 'buy hull <number>.'\r\n", ch);
+      return TRUE;
     }
-    else
+  }
+  else
+  {
+    if( !is_number(arg1) || !arg2 || !*arg2 )
     {
-        if (!is_number(arg1) || !arg2 || !*arg2) 
-        {
-            send_to_char("To buy a hull type the follow: 'buy hull <number> <name>.'\r\n", ch);
-            return TRUE;
-        }
+      send_to_char("To buy a hull type the follow: 'buy hull <number> <name>.'\r\n", ch);
+      return TRUE;
     }
+  }
 
-    int i = atoi(arg1) - 1;
-    if ((i < 0) || (i >= MAXSHIPCLASS))
-    {
-        send_to_char ("Not a valid hull selection.\r\n", ch);
-        return TRUE;
-    }
-
-    if (SHIPTYPE_MIN_LEVEL(i) > GET_LEVEL(ch)) 
-    {
-        send_to_char ("You are too low for such a big ship! Get more experience!\r\n", ch);
-        return TRUE;
-    }
-
-    if (SHIPTYPE_COST(i) == 0 && !IS_TRUSTED(ch)) 
-    {
-        send_to_char ("You can not buy this hull.\r\n", ch);
-        return TRUE;
-    }
-
-    /* Okay, we have a valid selection for ship hull */
-    if (owned) 
-    {
-        int oldclass = ship->m_class;
-        if (i == oldclass)
-        {
-            send_to_char ("You own this hull already!\r\n", ch);
-            return TRUE;
-        }
-
-        if (SHIP_CONTRA(ship) + SHIP_CARGO(ship) > 0)
-        {
-            send_to_char ("You can not reconstruct ship full of cargo!\r\n", ch);
-            return TRUE;
-        }
-        if (!check_undocking_conditions (ship, i, ch))
-            return TRUE;
-
-        /*for( int k = 0; k < MAXSLOTS; k++ )
-        {
-            if (ship->slot[k].type != SLOT_EMPTY)
-            {
-                send_to_char ("You can not change a hull with non-empty slots!\r\n", ch);
-                return TRUE;
-            }
-        }*/
-
-        cost = SHIPTYPE_COST(i) - (int) (SHIPTYPE_COST(oldclass) * .90);
-        if (cost >= 0)
-        {
-            if (GET_MONEY(ch) < cost || GET_EPIC_POINTS(ch) < SHIPTYPE_EPIC_COST(i)) 
-            {
-                if (SHIPTYPE_EPIC_COST(i) > 0)
-                    send_to_char_f(ch, "That upgrade costs %s and %d epic points!\r\n", coin_stringv(cost), SHIPTYPE_EPIC_COST(i));
-                else
-                    send_to_char_f(ch, "That upgrade costs %s!\r\n", coin_stringv(cost));
-                return TRUE;
-            }
-            SUB_MONEY(ch, cost, 0);/* OKay, they have the plat, deduct it and build the ship */
-            if (SHIPTYPE_EPIC_COST(i) > 0)
-               ch->only.pc->epics -= SHIPTYPE_EPIC_COST(i);
-        }
-        else
-        {
-            if (GET_EPIC_POINTS(ch) < SHIPTYPE_EPIC_COST(i))
-            {
-                send_to_char_f(ch, "That upgrade costs %d epic points!\r\n", SHIPTYPE_EPIC_COST(i));
-                return TRUE;
-            }
-            cost *= -1;
-            send_to_char_f(ch, "You receive %s&n for remaining materials.\r\n", coin_stringv(cost));
-            ADD_MONEY(ch, cost);
-            if (SHIPTYPE_EPIC_COST(i) > 0)
-                ch->only.pc->epics -= SHIPTYPE_EPIC_COST(i);
-        }
-
-        ship->m_class = i;
-        reset_ship(ship, false);
-
-        if (ship->m_class > oldclass)
-            buildtime = 75 * (ship->m_class / 2 - oldclass / 3);
-        else
-            buildtime = 75 * (oldclass / 2 - ship->m_class / 3);
-    int pvp = false;
-    pvp = ocean_pvp_state();
-        if (pvp) buildtime *= 5;
-
-
-        send_to_char_f(ch, "Thanks for your business, it will take %d hours to complete this upgrade.\r\n", buildtime / 75);
-    }
-    else
-    {
-        if ((int)strlen(strip_ansi(arg2).c_str()) <= 0)
-        {
-            send_to_char ("No name selected. Valid syntax is 'buy <number> <name>'\r\n", ch); 
-            return TRUE;
-        }
-        if (!is_valid_ansi_with_msg(ch, arg2, FALSE))
-        {
-            send_to_char ("Invalid ANSI name'\r\n", ch); 
-            return TRUE;
-        }
-        if( sub_string_set(strip_ansi(arg2).c_str(), rude_ass) )
-        {
-            send_to_char("Name must not contain rude terms.\r\n", ch);
-            return TRUE;
-        }
-
-        if ((int) strlen(strip_ansi(arg2).c_str()) > 20) 
-        {
-            send_to_char("Name must be less than 20 characters (not including ansi))\r\n", ch);
-            return TRUE;
-        }
-        if (!check_ship_name(0, ch, arg2))
-            return TRUE;
-
-        if( affected_by_spell( ch, AIP_FREESLOOP ) )
-        {
-          if( (GET_MONEY(ch) >= SHIPTYPE_COST(i) - 100000) && GET_EPIC_POINTS(ch) >= SHIPTYPE_EPIC_COST(i) )
-          {
-            send_to_char( "You show your &+ysmall &+bS&+Ba&+bi&+Bl&+bo&+Br&+b'&+Bs&n &+yTattoo&n for a discount.&n\n\r", ch );
-            ADD_MONEY(ch, 100000);
-            // Remove the flag for free sloop.
-            affect_from_char( ch, AIP_FREESLOOP );
-          }
-        }
-
-        if (GET_MONEY(ch) < SHIPTYPE_COST(i) || GET_EPIC_POINTS(ch) < SHIPTYPE_EPIC_COST(i)) 
-        {
-            if (SHIPTYPE_EPIC_COST(i) > 0)
-                send_to_char_f(ch, "That ship costs %s and %d epic points!\r\n", coin_stringv(SHIPTYPE_COST(i)), SHIPTYPE_EPIC_COST(i));
-            else
-                send_to_char_f(ch, "That ship costs %s!\r\n", coin_stringv(SHIPTYPE_COST(i)));
-            return TRUE;
-        }
-
-        // Now, create the ship object
-        ship = new_ship(i);
-        if (ship == NULL) 
-        {
-            logit(LOG_FILE, "error in new_ship(): %d\n", shiperror);
-            send_to_char_f(ch, "Error creating new ship (%d), please notify a god.\r\n", shiperror);
-            return TRUE;
-        }
-
-        buildtime = 75 * SHIPTYPE_ID(i) / 4;
-        ship->ownername = str_dup(GET_NAME(ch));
-        ship->anchor = world[ch->in_room].number;
-        name_ship(arg2, ship);
-        if (!load_ship(ship, ch->in_room)) 
-        {
-            logit(LOG_FILE, "error in load_ship(): %d\n", shiperror);
-            send_to_char_f(ch, "Error loading ship (%d), please notify a god.\r\n", shiperror);
-            return TRUE;
-        }
-        write_ships_index();
-
-        // everything went successfully, substracting the cost        
-        SUB_MONEY(ch, SHIPTYPE_COST(i), 0);
-        if (SHIPTYPE_EPIC_COST(i) > 0)
-        {
-            epic_gain_skillpoints(ch, -SHIPTYPE_EPIC_COST(i));
-        }
-
-        send_to_char( "Your ship, '", ch );
-        send_to_char( strip_ansi(arg2).c_str(), ch );
-        send_to_char( "', will be ", ch );
-        send_to_char( arg2, ch );
-        send_to_char( " with paint.\n", ch );
-
-        send_to_char_f(ch, "Thanks for your business, this hull will take %d hours to build.\r\n", SHIPTYPE_ID(i) / 4);
-    }
-
-    if (!IS_TRUSTED(ch) && BUILDTIME)
-      ship->timer[T_MAINTENANCE] += buildtime;
-    update_ship_status(ship);
-    write_ship(ship);
+  int i = atoi(arg1) - 1;
+  if( (i < 0) || (i >= MAXSHIPCLASS) )
+  {
+    send_to_char ("Not a valid hull selection.\r\n", ch);
     return TRUE;
+  }
+
+  if( SHIPTYPE_MIN_LEVEL(i) > GET_LEVEL(ch) )
+  {
+    send_to_char ("You are too low for such a big ship! Get more experience!\r\n", ch);
+    return TRUE;
+  }
+
+  if( SHIPTYPE_COST(i) == 0 && !IS_TRUSTED(ch) )
+  {
+    send_to_char ("You can not buy this hull.\r\n", ch);
+    return TRUE;
+  }
+
+  /* Okay, we have a valid selection for ship hull */
+  if( owned )
+  {
+    int oldclass = ship->m_class;
+    if( i == oldclass )
+    {
+      send_to_char ("You own this hull already!\r\n", ch);
+      return TRUE;
+    }
+    if( SHIP_CONTRA(ship) + SHIP_CARGO(ship) > 0 )
+    {
+      send_to_char ("You can not reconstruct ship full of cargo!\r\n", ch);
+      return TRUE;
+    }
+    if( !check_undocking_conditions (ship, i, ch) )
+    {
+      return TRUE;
+    }
+   /* There are checks for hull change being valid now.
+    for( int k = 0; k < MAXSLOTS; k++ )
+    {
+      if( ship->slot[k].type != SLOT_EMPTY )
+      {
+        send_to_char("You can not change a hull with non-empty slots!\r\n", ch);
+        return TRUE;
+      }
+    }
+    */
+
+    cost = SHIPTYPE_COST(i) - (int) (SHIPTYPE_COST(oldclass) * .90);
+    if( cost >= 0 )
+    {
+      if( GET_MONEY(ch) < cost || GET_EPIC_POINTS(ch) < SHIPTYPE_EPIC_COST(i) )
+      {
+        if( SHIPTYPE_EPIC_COST(i) > 0 )
+        {
+          send_to_char_f(ch, "That upgrade costs %s and %d epic points!\r\n", coin_stringv(cost), SHIPTYPE_EPIC_COST(i));
+        }
+        else
+        {
+          send_to_char_f(ch, "That upgrade costs %s!\r\n", coin_stringv(cost));
+        }
+        return TRUE;
+      }
+      SUB_MONEY(ch, cost, 0);/* OKay, they have the plat, deduct it and build the ship */
+      if(SHIPTYPE_EPIC_COST(i) > 0 )
+      {
+        ch->only.pc->epics -= SHIPTYPE_EPIC_COST(i);
+      }
+    }
+    else
+    {
+      if( GET_EPIC_POINTS(ch) < SHIPTYPE_EPIC_COST(i) )
+      {
+        send_to_char_f(ch, "That upgrade costs %d epic points!\r\n", SHIPTYPE_EPIC_COST(i));
+        return TRUE;
+      }
+      cost *= -1;
+      send_to_char_f(ch, "You receive %s&n for remaining materials.\r\n", coin_stringv(cost));
+      ADD_MONEY(ch, cost);
+      if( SHIPTYPE_EPIC_COST(i) > 0 )
+      {
+        ch->only.pc->epics -= SHIPTYPE_EPIC_COST(i);
+      }
+    }
+
+    ship->m_class = i;
+    reset_ship(ship, false);
+
+    if( ship->m_class > oldclass )
+    {
+      buildtime = 75 * (ship->m_class / 2 - oldclass / 3);
+    }
+    else
+    {
+      buildtime = 75 * (oldclass / 2 - ship->m_class / 3);
+    }
+
+    if( ocean_pvp_state() )
+    {
+      buildtime *= 5;
+    }
+
+    // Achievement - Trader
+    if( quickbuild )
+    {
+      buildtime /= 2;
+    }
+    send_to_char_f(ch, "Thanks for your business, it will take %d hours to complete this upgrade.\r\n", buildtime / 75);
+  }
+  else
+  {
+    if( (int)strlen(strip_ansi(arg2).c_str()) <= 0 )
+    {
+      send_to_char ("No name selected. Valid syntax is 'buy <number> <name>'\r\n", ch); 
+      return TRUE;
+    }
+    if( !is_valid_ansi_with_msg(ch, arg2, FALSE) )
+    {
+      send_to_char ("Invalid ANSI name'\r\n", ch); 
+      return TRUE;
+    }
+    if( sub_string_set(strip_ansi(arg2).c_str(), rude_ass) )
+    {
+      send_to_char("Name must not contain rude terms.\r\n", ch);
+      return TRUE;
+    }
+    if( (int) strlen(strip_ansi(arg2).c_str()) > 20 )
+    {
+      send_to_char("Name must be less than 20 characters (not including ansi))\r\n", ch);
+      return TRUE;
+    }
+    if( !check_ship_name(0, ch, arg2) )
+    {
+      return TRUE;
+    }
+    if( affected_by_spell( ch, AIP_FREESLOOP ) )
+    {
+      if( (GET_MONEY(ch) >= SHIPTYPE_COST(i) - 100000) && GET_EPIC_POINTS(ch) >= SHIPTYPE_EPIC_COST(i) )
+      {
+        send_to_char( "You show your &+ysmall &+bS&+Ba&+bi&+Bl&+bo&+Br&+b'&+Bs&n &+yTattoo&n for a discount.&n\n\r", ch );
+        ADD_MONEY(ch, 100000);
+        // Remove the flag for free sloop.
+        affect_from_char( ch, AIP_FREESLOOP );
+      }
+    }
+
+    if( GET_MONEY(ch) < SHIPTYPE_COST(i) || GET_EPIC_POINTS(ch) < SHIPTYPE_EPIC_COST(i) )
+    {
+      if( SHIPTYPE_EPIC_COST(i) > 0 )
+      {
+        send_to_char_f(ch, "That ship costs %s and %d epic points!\r\n", coin_stringv(SHIPTYPE_COST(i)), SHIPTYPE_EPIC_COST(i));
+      }
+      else
+      {
+        send_to_char_f(ch, "That ship costs %s!\r\n", coin_stringv(SHIPTYPE_COST(i)));
+      }
+      return TRUE;
+    }
+
+    // Now, create the ship object
+    ship = new_ship(i);
+    if( ship == NULL )
+    {
+      logit(LOG_FILE, "error in new_ship(): %d\n", shiperror);
+      send_to_char_f(ch, "Error creating new ship (%d), please notify a god.\r\n", shiperror);
+      return TRUE;
+    }
+
+    buildtime = 75 * SHIPTYPE_ID(i) / 4;
+    ship->ownername = str_dup(GET_NAME(ch));
+    ship->anchor = world[ch->in_room].number;
+    name_ship(arg2, ship);
+    // Achievement - Trader
+    if( quickbuild )
+    {
+      buildtime /= 2;
+    }
+    if( !load_ship(ship, ch->in_room) )
+    {
+      logit(LOG_FILE, "error in load_ship(): %d\n", shiperror);
+      send_to_char_f(ch, "Error loading ship (%d), please notify a god.\r\n", shiperror);
+      return TRUE;
+    }
+    write_ships_index();
+
+    // everything went successfully, substracting the cost
+    SUB_MONEY(ch, SHIPTYPE_COST(i), 0);
+    if (SHIPTYPE_EPIC_COST(i) > 0)
+    {
+      epic_gain_skillpoints(ch, -SHIPTYPE_EPIC_COST(i));
+    }
+
+    send_to_char( "Your ship, '", ch );
+    send_to_char( strip_ansi(arg2).c_str(), ch );
+    send_to_char( "', will be ", ch );
+    send_to_char( arg2, ch );
+    send_to_char( " with paint.\n", ch );
+
+    send_to_char_f(ch, "Thanks for your business, this hull will take %d hours to build.\r\n", buildtime/75);
+  }
+
+  if( !IS_TRUSTED(ch) && BUILDTIME )
+  {
+    ship->timer[T_MAINTENANCE] += buildtime;
+  }
+  update_ship_status(ship);
+  write_ship(ship);
+  return TRUE;
 }
 
 int swap_slots(P_char ch, P_ship ship, char* arg1, char* arg2)

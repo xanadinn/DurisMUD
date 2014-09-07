@@ -21,6 +21,10 @@ int get_frags(P_char ch)
 void do_achievements(P_char ch, char *arg, int cmd)
 {
   char buf[MAX_STRING_LENGTH], buf2[MAX_STRING_LENGTH], buf3[MAX_STRING_LENGTH];
+  struct affected_type *paf = get_spell_from_char(ch, ACH_LEVELACHIEVEMENT);
+  int lvlachi = paf ? paf->modifier : 0;
+  paf = get_spell_from_char(ch, ACH_CARGOCOUNT);
+  int cargo = paf ? paf->modifier : 0;
 
   sprintf(buf, "\r\n&+L=-=-=-=-=-=-=-=-=-=--= &+rDuris Mud &+yAch&+Yieveme&+ynts &+Lfor &+r%s &+L=-=-=-=-=-=-=-=-=-=-=-&n\r\n\r\n", GET_NAME(ch));
 
@@ -74,7 +78,7 @@ void do_achievements(P_char ch, char *arg, int cmd)
   strcat(buf, buf3);
 
   //-----Achievement: The Journey Begins
-  if(affected_by_spell(ch, ACH_LEVELACHIEVEMENT))
+  if( lvlachi >= 5 )
     sprintf(buf3, "  &+L%-34s&+L%-45s&+L%s\r\n",
         "&+gThe Jou&+Grney Beg&+gins&n", "&+BGain level 5", "&+B&+ya rugged a&+Yd&+yv&+Ye&+yn&+Yt&+yu&+Yr&+ye&+Yr&+ys &+Lsatchel");
   else
@@ -84,12 +88,12 @@ void do_achievements(P_char ch, char *arg, int cmd)
   //-----The Journey Begins
 
   //-----Achievement: The Sailor's Tattoo
-  if(affected_by_spell(ch, ACH_LEVELACHIEVEMENT))
+  if( lvlachi >= 30 )
     sprintf(buf3, "  &+L%-34s&+L%-45s&+L%s\r\n",
         "&+bThe Sai&+Blor's Tat&+btoo&n", "&+BGain level 30", "&+ya small &+bS&+Ba&+bi&+Bl&+bo&+Br&+b'&+Bs&n &+yTattoo&n");
   else
     sprintf(buf3, "  &+L%-34s&+L%-45s&+L%s\r\n",
-        "&+gThe Jou&+Grney Beg&+gins&n", "&+wGain level 30", "&+wan Unknown Item");
+        "&+bThe Sai&+Blor's Tat&+btoo&n", "&+wGain level 30", "&+wan Unknown Item");
   strcat(buf, buf3);
   //-----The Sailor's Tattoo
 
@@ -102,6 +106,16 @@ void do_achievements(P_char ch, char *arg, int cmd)
         "&+gDr&+Gag&+Lon &+gS&+Glaye&+gr&n", "&+wKill 1000 Dragons", "&+w10% damage increase vs Dragons", get_progress(ch, AIP_DRAGONSLAYER, 1000));
   strcat(buf, buf3);
   //-----DRagonslayer
+
+  //-----Achievement: Trader
+  if( cargo > 10000 )
+    sprintf(buf3, "  &+L%-43s&+L%-45s  &+L%s\r\n",
+        "&+yT&+Yr&+ya&+Yd&+ye&+Yr&n", "&+ySell 10000 crates of cargo&n", "&+YShip construction halved&n");
+  else
+    sprintf(buf3, "  &+L%-43s&+L%-45s  &+L%s &+W%d%%\r\n",
+        "&+yT&+Yr&+ya&+Yd&+ye&+Yr&n", "&+ySell 10000 crates of cargo&n", "&+YShip construction halved&n", cargo/100);
+  strcat(buf, buf3);
+  //-----Trader
 
   //-----Achievement: You Strahd Me
   if(affected_by_spell(ch, ACH_YOUSTRAHDME))
