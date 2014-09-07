@@ -1834,7 +1834,7 @@ void do_dismiss(P_char ch, char *argument, int cmd)
       x = k->next;
 
       // Dismiss mirror images
-      if(IS_NPC(k->follower) && k->follower->only.npc->R_num == 90 )
+      if(IS_NPC(k->follower) && GET_VNUM(k->follower) == 250 )
       {
         act("$n makes a &+Mmagical &+mgesture&n, sending $N back to the &+Lnether plane&n.", TRUE, ch, 0,
             k->follower, TO_ROOM);
