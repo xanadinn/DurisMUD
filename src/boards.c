@@ -175,53 +175,58 @@ void initialize_boards(void)
 int board(P_obj obj, P_char ch, int cmd, char *argument)
 {
   int      board_type;
-  static int loaded = 0;
+  static bool loaded = FALSE;
 
   /* check for periodic event calls  */
-  if (cmd == CMD_SET_PERIODIC)
+  if( cmd == CMD_SET_PERIODIC )
+  {
     return FALSE;
+  }
 
-  if (!loaded)
+  if( !loaded )
   {
     initialize_boards();
-    loaded = 1;
+    loaded = TRUE;
   }
 
-  if (!ch->desc)
-    return 0;
+  if( !ch || !ch->desc )
+  {
+    return FALSE;
+  }
 
-  if (cmd != CMD_WRITE && cmd != CMD_LOOK && cmd != CMD_EXAMINE &&
-      cmd != CMD_READ && cmd != CMD_REMOVE)
-    return 0;
+  if( cmd != CMD_WRITE && cmd != CMD_LOOK && cmd != CMD_EXAMINE
+    && cmd != CMD_READ && cmd != CMD_REMOVE )
+  {
+    return FALSE;
+  }
 
-  if ((board_type = find_board(ch)) == -1)
+  if( (board_type = find_board(ch)) == -1 )
   {
     logit(LOG_BOARD, "  degenerate board!  (what the hell...)");
-    return 0;
+    return FALSE;
   }
 #if 0
-  if (!(obj_index[obj->R_num].virtual_number > 11100) && !IS_TRUSTED(ch) &&
-      (cmd != CMD_LOOK) && (cmd != CMD_EXAMINE) && (cmd != CMD_REMOVE))
+  if( !(obj_index[obj->R_num].virtual_number > 11100) && !IS_TRUSTED(ch)
+    && (cmd != CMD_LOOK) && (cmd != CMD_EXAMINE) && (cmd != CMD_REMOVE) )
   {
-    send_to_char
-      ("The crustified board system has been replaced by our web-based message system hosted at\r\n"
+    send_to_char("The crustified board system has been replaced by our web-based message system hosted at\r\n"
        "http://www.duris.org/.  Enjoy.\r\n", ch);
-    return 1;
+    return TRUE;
   }
 #endif
-  if (cmd == CMD_WRITE)
+  if( cmd == CMD_WRITE )
   {
     Board_write_message(board_type, ch, argument);
     return 1;
   }
-  else if (cmd == CMD_LOOK || cmd == CMD_EXAMINE)
+  else if( cmd == CMD_LOOK || cmd == CMD_EXAMINE )
     return (Board_show_board(board_type, ch, argument));
-  else if (cmd == CMD_READ)
+  else if( cmd == CMD_READ )
     return (Board_display_msg(board_type, ch, argument));
-  else if (cmd == CMD_REMOVE)
+  else if( cmd == CMD_REMOVE )
     return (Board_remove_msg(board_type, ch, argument));
   else
-    return 0;
+    return FALSE;
 }
 
 
