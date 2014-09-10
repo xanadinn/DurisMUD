@@ -4103,9 +4103,11 @@ SPELL_ADD(CLASS_SUMMONER, 11);
                TAR_MENTAL);
   SKILL_ADD(CLASS_SHAMAN, 1, 100);
 
+/* This is an innate not a skill. wth?
   SKILL_CREATE("summon mount", SKILL_SUMMON_MOUNT, TAR_MENTAL);
   SKILL_ADD(CLASS_PALADIN, 8, 100);
   SKILL_ADD(CLASS_ANTIPALADIN, 8, 100);
+*/
 
   SKILL_CREATE("1h bludgeon", SKILL_1H_BLUDGEON, TAR_PHYS);
   SKILL_ADD(CLASS_PSIONICIST, 1, 70);
@@ -5093,6 +5095,7 @@ void create_tags()
   //PVE
   TAG_CREATE("ach - level achievement", ACH_LEVELACHIEVEMENT); //static, gain 1.0 levels
   TAG_CREATE("aip - free sloop", AIP_FREESLOOP);
+  TAG_CREATE("ach - cargo count", ACH_CARGOCOUNT);
   TAG_CREATE("aip - arachnophobia", AIP_ARACHNOPHOBIA);
   TAG_CREATE("ach - arachnophobia", ACH_ARACHNOPHOBIA);
   TAG_CREATE("aip - Trollin", AIP_TROLLIN);

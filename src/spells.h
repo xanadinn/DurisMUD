@@ -740,7 +740,7 @@
 #define SKILL_RANGE_WEAPONS          1042
 #define SKILL_CIRCLE                 1043
 #define SKILL_RIPOSTE                1044
-#define SKILL_SUMMON_MOUNT           1045
+#define SKILL_UNUSED                 1045 // Used to be summon mount, but it's an innate ffs.
 #define SKILL_BANDAGE                1046
 #define SKILL_SCRIBE                 1047
 #define SKILL_QUICK_CHANT            1048
