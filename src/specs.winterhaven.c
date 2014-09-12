@@ -1993,7 +1993,7 @@ int helmet_vampires(P_obj obj, P_char ch, int cmd, char *arg)
 {
   P_char vict = NULL, target, necropet;
   P_obj corpse;
-  int room, dam, rand;
+  int room, dam;
   int curr_time;
   int necropets[] = {55027, 55028, 50029, 0};
 
@@ -2145,8 +2145,8 @@ int helmet_vampires(P_obj obj, P_char ch, int cmd, char *arg)
 
           act("You are stunned!&n", TRUE, ch, obj, vict, TO_VICT);
           act("$n grins with satisfaction.&n", TRUE, ch, obj, vict, TO_VICT);
-
-          rand = number(1, 1000);
+/* Umm.. no.  No vampiric trance on a non-arti and no insta-kills.
+          int rand = number(1, 1000);
           if(rand > 975)
           {
             spell_vampire(50, ch, 0, SPELL_TYPE_SPELL, ch, 0);
@@ -2159,7 +2159,7 @@ int helmet_vampires(P_obj obj, P_char ch, int cmd, char *arg)
             act("&+LDarkness consumes you and you slip into oblivion.&n", TRUE, ch, obj, vict, TO_VICT);
             die(vict, ch);
           }
-
+*/
           obj->timer[0] = curr_time;
           return TRUE;
         }
