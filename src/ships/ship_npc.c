@@ -786,7 +786,7 @@ P_ship try_load_pirate_ship(P_ship target)
 
     P_ship ship = try_load_npc_ship(target, type, level, 0);
     // Be nice to diplomats: no mindblast cannons.
-    if( has_eq_diplomat(target) )
+    if( ship && has_eq_diplomat(target) )
     {
       // Check each slot for a Mindblast Cannon.
       for( slot = 0; slot < MAXSLOTS; slot++ )
