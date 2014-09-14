@@ -2863,6 +2863,7 @@ void kill_gain(P_char ch, P_char victim)
   struct group_list *gl;
   int group_size = 0;
   int highest_level = 0;
+  struct affected_type *afp;
 
   if( IS_PC(victim) )
   {
@@ -2900,6 +2901,16 @@ void kill_gain(P_char ch, P_char victim)
       {
         send_to_char("&+cAs your body absorbs the &+Cexperience&+c, you seem to feel a bit more epic!\r\n", ch);
         ch->only.pc->epics += 1;
+        // Handle the total number of epics ch has gained.
+        if( afp = get_spell_from_char(ch, TAG_EPICS_GAINED) )
+        {
+          afp->modifier++;
+        }
+        else
+        {
+          afp = apply_achievement(ch, TAG_EPICS_GAINED);
+          afp->modifier = 1;
+        }
       }
     }
     change_alignment(ch, victim);
@@ -3008,6 +3019,16 @@ void kill_gain(P_char ch, P_char victim)
           send_to_char("&+cAs your body absorbs the &+Cexperience&+c, you seem to feel a bit more epic!\r\n", gl->ch);
           P_char recipient = gl->ch;
           (gl->ch)->only.pc->epics += 1;
+          // Handle the total number of epics ch has gained.
+          if( afp = get_spell_from_char(ch, TAG_EPICS_GAINED) )
+          {
+            afp->modifier++;
+          }
+          else
+          {
+            afp = apply_achievement(ch, TAG_EPICS_GAINED);
+            afp->modifier = 1;
+          }
         } 
       }
 

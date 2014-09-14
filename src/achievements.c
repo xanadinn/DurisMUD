@@ -175,7 +175,7 @@ void update_achievements(P_char ch, P_char victim, int cmd, int ach)
 {
   char     argument[MAX_STRING_LENGTH];
   struct affected_type af;
-  struct affected_type *paf;
+  struct affected_type *paf, *afp;
   int required = 1;
   P_obj gift;
 
@@ -378,6 +378,16 @@ void update_achievements(P_char ch, P_char victim, int cmd, int ach)
       send_to_char("&+rCon&+Rgra&+Wtula&+Rtio&+rns! You have completed the &+RYou Strahd Me At Hello&+r achievement!&n\r\n", ch);
       send_to_char("&+yPlease see &+chelp you strahd me &+yfor reward details!&n\r\n", ch);
       ch->only.pc->epics += 1000;
+      // Handle the total number of epics ch has gained.
+      if( afp = get_spell_from_char(ch, TAG_EPICS_GAINED) )
+      {
+        afp->modifier += 1000;
+      }
+      else
+      {
+        afp = apply_achievement(ch, TAG_EPICS_GAINED);
+        afp->modifier = 1000;
+      }
     }
     /* end You Strahd Me2 */
   }

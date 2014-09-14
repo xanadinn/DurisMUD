@@ -3389,7 +3389,7 @@ void do_quaff(P_char ch, char *argument, int cmd)
     }
   }
 
-  struct affected_type af;
+  struct affected_type af, *afp;
   memset(&af, 0, sizeof(af));
   af.type = TAG_POTION_TIMER;
   af.duration = 6;
@@ -3409,6 +3409,17 @@ void do_quaff(P_char ch, char *argument, int cmd)
   if(GET_OBJ_VNUM(temp) == 400234)
   {
    ch->only.pc->epics += 75;
+    // Handle the total number of epics ch has gained.
+    if( afp = get_spell_from_char(ch, TAG_EPICS_GAINED) )
+    {
+      afp->modifier += 75;
+    }
+    else
+    {
+      afp = apply_achievement(ch, TAG_EPICS_GAINED);
+      afp->modifier = 75;
+    }
+
    send_to_char("&+CYou suddenly feel.. epic!\r\n", ch);
   }
 
