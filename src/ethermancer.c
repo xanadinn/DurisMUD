@@ -2314,70 +2314,84 @@ void spell_static_discharge(int level, P_char ch, char *arg, int type, P_char vi
 
 }
 
-void spell_single_razor_wind(int level, P_char ch, char *arg, int type, P_char victim,
-                P_obj obj)
+// victim and ch have to be backwards for the event search to work right.. *sigh*
+void event_razor_wind(P_char victim, P_char ch, P_obj obj, void *data)
 {
+  int temp, dam, duration;
+
   struct damage_messages messages = {
-    "&+WYour direct the biting winds towards&n $N&+W!",
-    "&+WSharp, biting winds cut into your flesh!",
-    "&n$N&+W grimaces in pain, as the biting winds cut into $S flesh!",
-    "&+WThe sharp winds were too much for &n$N&+W, as $e convulses and falls limp, quite dead.",
-    "&+WYou find no shelter from the painful winds, as you feel the lifeforce being sapped from your body...&n",
-    "$N &+Whowls in pain, as the painful wind tosses him around, leaving only a lifeless corpse!&n", 0
+    "&+CThe &+Wwi&+wnd&+Wst&+wor&+Wm &+csends &+Ldebris &+cflying into $N&+c at high speed causing $M to &+Rb&+rle&+Red&+c.&n",
+    "&+CThe &+Wwi&+wnd&+Wst&+wor&+Wm &+csends &+Ldebris &+cflying into you at high speed causing you to &+Rb&+rle&+Red&+c.&n",
+    "&+CThe &+Wwi&+wnd&+Wst&+wor&+Wm &+csends &+Ldebris &+cflying into $N&+c at high speed causing $M to &+Rb&+rle&+Red&+c.&n",
+    "&+cThe &+Rvi&+rol&+Ren&+rt &+Ww&+wi&+Wn&+wd&+Ws&+wt&+Wo&+wr&+Wm &+cproves to be too much for $N as the winds tear $M to &+Rpi&+rec&+Res&+c.&n",
+    "&+RB&+rle&+Red&+rin&+Rg &+cprofusely, you succumb to the awesome power of the &+Ww&+wi&+Wn&+wd&+C.&n",
+    "&+cThe &+Rvi&+rol&+Ren&+rt &+Ww&+wi&+Wn&+wd&+Ws&+wt&+Wo&+wr&+Wm &+cproves to be too much for $N as the winds tear $M to &+Rpi&+rec&+Res&+c.&n",
+      0
   };
 
-  if(!IS_ALIVE(ch) ||
-    !IS_ALIVE(victim))
-      return;
+  duration = *((int *) data);
+  // 40-60 damage.
+  dam = 200 + number( -40, 40);
 
-
-  int dam;
-  dam = (int) number(level, level * 3);
-
-  spell_damage (ch, victim, dam, SPLDAM_GENERIC, SPLDAM_NODEFLECT, &messages);
-}
-
-void event_razor_wind(P_char ch, P_char victim, P_obj obj, void *data)
-{
-  int room;
-  int percent = (GET_LEVEL(ch) / 3);
-  room = *((int*)data);
-  if(room != ch->in_room)
+  if( !NewSaves(victim, SAVING_SPELL, 3) )
   {
-    send_to_char("&+WThe winds seem to cease, and the weather takes on a much more calm demeanor.&n\n", ch);;
-    act("&+WThe winds seem to abate...&n", TRUE, ch, 0, 0, TO_ROOM);
-    return;
+    dam = (int)(dam *  1.2);
   }
-  
-  act("$n &+wdirects the painful, biting winds at $s foes!&n",FALSE, ch, 0, 0, TO_ROOM);
-  act("&+wYou direct the howling winds towards your foes!&n",FALSE, ch, 0, 0, TO_CHAR);  
-  
-  cast_as_damage_area(ch, spell_single_razor_wind, GET_LEVEL(ch), NULL, 90, 10);
 
-  if(percent > number(1, 100))
+  if( spell_damage(ch, victim, (int) dam, SPLDAM_COLD, 0, &messages) == DAM_NONEDEAD
+    && --duration > 0 )
   {
-    act("$n &+Wcontinues to evoke the blistering winds!&n",FALSE, ch, 0, 0, TO_ROOM);
-    add_event(event_razor_wind, PULSE_VIOLENCE * 2, ch, 0, 0, 0, &room, sizeof(room));
+    // This has to be backwards for the event search to work right.. *sigh*
+    add_event(event_razor_wind, (PULSE_SPELLCAST * 3) / 2, victim, ch, NULL, 0, &duration, sizeof(int));
+  }
+  else if( IS_ALIVE(victim) && duration <= 0 )
+  {
+    send_to_char( "&+CThe &+Wwi&+wnd&+Wst&+wor&+Wm &+ccalms, the &+Ldebris &+cfalls, and the room becomes quiet.&n", victim );
   }
 }
 
 void spell_razor_wind(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
-  int room;
-  room = ch->in_room;
-  send_to_room("&+WThe winds in the area begin to pick up, slowly becoming more intense...\n",
-     ch->in_room);
-  zone_spellmessage(ch->in_room,
-    "&+LThe air &+cchills &+Land the odor of &+rdeath &+Land &+ydecay &+Lassault your senses.\n",
-    "&+LThe air to the %s &+cchills &+Land the odor of &+rdeath &+Land &+ydecay &+Lassault your senses.\n");
+  int duration = 3;
+  P_nevent e1 = NULL;
+  bool found = FALSE;
 
-  add_event(event_razor_wind, PULSE_VIOLENCE * 2, ch, 0, 0, 0, &room, sizeof(room));
+  if( !IS_ALIVE(ch) || !IS_ALIVE(victim) )
+  {
+    return;
+  }
 
-  CharWait(ch,(int) 1 * PULSE_VIOLENCE);
+  // Look for an event already going on.
+  for( e1 = victim->nevents; e1; e1 = e1->next )
+  {
+    if( e1->func == event_razor_wind )
+    {
+      found = TRUE;
+      break;
+    }
+  }
+
+  // If there's an event already going on, suck it's data and kill it!
+  if( found )
+  {
+    duration = *((int *) e1->data) + 2;
+    disarm_char_events(victim, event_razor_wind);
+    act("&+cThe &+Ww&+wi&+Wn&+wd&+Ws&+wt&+Wo&+wr&+Wm &+csurrounding $N &+Cintensifies&+c!", TRUE, ch, 0, victim, TO_CHAR);
+    act("&+cThe &+Ww&+wi&+Wn&+wd&+Ws&+wt&+Wo&+wr&+Wm &+csurrounding you &+Cintensifies&+c!", TRUE, ch, 0, victim, TO_VICT);
+    act("&+cThe &+Ww&+wi&+Wn&+wd&+Ws&+wt&+Wo&+wr&+Wm &+csurrounding $N &+Cintensifies&+c!", TRUE, ch, 0, victim, TO_NOTVICT);
+  }
+  else
+  {
+    act("&+cYou summon forth &+Rv&+ri&+Ro&+rl&+Re&+rn&+Rt &+Ww&+wi&+Wn&+wd&+Ws &+cto batter $N&+c!", TRUE, ch, 0, victim, TO_CHAR);
+    act("&+c$n summons forth &+Rv&+ri&+Ro&+rl&+Re&+rn&+Rt &+Ww&+wi&+Wn&+wd&+Ws &+cto batter you!&n", TRUE, ch, 0, victim, TO_VICT);
+    act("&+cGales of &+Wvi&+wol&+Wen&+wt &+Ww&+wi&+Wn&+wd &+csurrounds $N&+c causing flying &+Ldebris &+cto shred and errode $S skin!", TRUE, ch, 0, victim, TO_NOTVICT);
+  }
+
+  // This has to be backwards for the event search to work right.. *sigh*
+  add_event(event_razor_wind, PULSE_SPELLCAST * 2, victim, ch, NULL, 0, &duration, sizeof(duration));
 }
 
-void spell_conjure_void_elemental(int level, P_char ch, char *arg, int type,
-                       P_char victim, P_obj tar_obj)
+void spell_conjure_void_elemental(int level, P_char ch, char *arg, int type, P_char victim, P_obj tar_obj)
 {
   P_char   mob;
   int      sum, mlvl, lvl;
@@ -2481,8 +2495,7 @@ void spell_conjure_void_elemental(int level, P_char ch, char *arg, int type,
   }
 }
 
-void spell_conjure_ice_elemental(int level, P_char ch, char *arg, int type,
-                       P_char victim, P_obj tar_obj)
+void spell_conjure_ice_elemental(int level, P_char ch, char *arg, int type, P_char victim, P_obj tar_obj)
 {
   P_char   mob;
   int      sum, mlvl, lvl;
@@ -2586,8 +2599,7 @@ void spell_conjure_ice_elemental(int level, P_char ch, char *arg, int type,
   }
 }
 
-void spell_iceflow_armor(int level, P_char ch, char *arg, int type,
-                      P_char victim, P_obj obj)
+void spell_iceflow_armor(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   struct affected_type af;
   int      absorb = (level / 4) + number(1, 4);
@@ -2621,8 +2633,7 @@ void spell_iceflow_armor(int level, P_char ch, char *arg, int type,
   affect_to_char(victim, &af);
 }
 
-void spell_negative_feedback_barrier(int level, P_char ch, char *arg, int type,
-                      P_char victim, P_obj obj)
+void spell_negative_feedback_barrier(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   struct affected_type af;
   int      absorb = (level / 4) + number(1, 4);
