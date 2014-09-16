@@ -14865,12 +14865,13 @@ void spell_dispel_magic(int level, P_char ch, char *arg, int type,
   P_event  e1 = NULL, e2;
   P_char   orig;
 
-  if(!(ch) ||
-     !IS_ALIVE(ch))
-        return;
+  if( !IS_ALIVE(ch) )
+  {
+    return;
+  }
 
   /* victim target... */
-  if(victim)
+  if( victim )
   {
     /*
      * no save when cast or on consenting target
@@ -14888,6 +14889,10 @@ void spell_dispel_magic(int level, P_char ch, char *arg, int type,
     }
 
     mod = GET_LEVEL(ch) - GET_LEVEL(victim);
+    if( IS_NPC(ch) && IS_PC(victim) && mod > 0 )
+    {
+      mod /= 3;
+    }
 
     act("$n tries to dispel your magic!", FALSE, ch, 0, victim, TO_VICT);
     act("You try to dispel $N's magic.", FALSE, ch, 0, victim, TO_CHAR);
@@ -14909,10 +14914,12 @@ void spell_dispel_magic(int level, P_char ch, char *arg, int type,
           (af->type != SPELL_CHANNEL) &&
           !(af->flags & AFFTYPE_NODISPEL) && (af->type > 0))
       {
-        if(nosave || !NewSaves(victim, SAVING_SPELL, (IS_ELITE(ch) ? mod + 5 : mod)))
+        if( nosave || !NewSaves(victim, SAVING_SPELL, (IS_ELITE(ch) ? mod + 5 : mod)) )
         {
-          if(!nosave && resists_spell(ch, victim))
+          if( !nosave && resists_spell(ch, victim) )
+          {
             return;
+          }
 
           success = 1;
           wear_off_message(victim, af);
