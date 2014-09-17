@@ -99,6 +99,7 @@
 #define WAIT_SEC                  4     /* pulses in a second */
 #define WAIT_MIN                  60*WAIT_SEC     /* pulses in a minute */
 #define PULSES_IN_TICK          300
+#define WAIT_PVPDELAY             60*WAIT_SEC /* 60 seconds for pvp delay before rent/etc */
 
 /* limiting factors, some are arbitrary, some are not, change only after thourough checking! */
 

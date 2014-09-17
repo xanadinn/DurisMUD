@@ -652,22 +652,17 @@ void do_berserk(P_char ch, char *argument, int cmd)
       send_to_char("You are too deep in battle madness!\r\n", ch);
       return;
     }
-    else if(IS_PC(ch) &&
-            affected_by_spell(ch, TAG_PVPDELAY) &&
-            GET_HIT(ch) < (GET_MAX_HIT(ch) * 0.30))
+    else if( IS_PC(ch) && affected_by_spell(ch, TAG_PVPDELAY) && GET_HIT(ch) < (GET_MAX_HIT(ch) * 0.30) )
     {
-      send_to_char
-        ("Your &+rwounds&n are severe, you taste &+Rblood&n and &+ysweat&n, thus coming out of your &+Rbloodlust&n is impossible!\r\n", ch);
+      send_to_char("Your &+rwounds&n are severe, you taste &+Rblood&n and &+ysweat&n, thus coming out of your &+Rbloodlust&n is impossible!\r\n", ch);
       return;
     }
-      
+
     affect_from_char(ch, SKILL_BERSERK);
-      
-    send_to_char
-      ("Your blood cools, and you no longer see targets everywhere.\r\n", ch);
-    act("$n seems to have overcome $s battle madness.",
-      TRUE, ch, 0, 0, TO_ROOM);
-      
+
+    send_to_char("Your blood cools, and you no longer see targets everywhere.\r\n", ch);
+    act("$n seems to have overcome $s battle madness.", TRUE, ch, 0, 0, TO_ROOM);
+
     notch_skill(ch, SKILL_BERSERK, 4);
 
     if (GET_CLASS(ch, CLASS_BERSERKER))
@@ -2375,19 +2370,13 @@ void do_steal(P_char ch, char *argument, int cmd)
     return;
   }
 
-  
   if (affected_by_spell(ch, TAG_PVPDELAY))
   {
-    send_to_char
-      ("There is too much adrenaline pumping through your body right now.\r\n",
-       ch);
+    send_to_char("There is too much adrenaline pumping through your body right now.\r\n", ch);
     return;
   }
-  
 
-
-  if (CHAR_IN_SAFE_ZONE(ch) &&
-      !IS_TRUSTED(ch))
+  if( CHAR_IN_SAFE_ZONE(ch) && !IS_TRUSTED(ch) )
   {
     send_to_char
       ("Your conscience prevents you from stealing in such a peaceful place.\r\n",
@@ -2764,8 +2753,11 @@ void do_steal(P_char ch, char *argument, int cmd)
   // player stealing is a PvP action.. though not nearly as serious as actual fighting.
   //  set the time to make it look like it was PvP action, but 20 seconds ago.  This
   //  will let them rent/locker in 40 seconds, and steal (again) in 10 seconds
-  if (IS_PC(ch) && IS_PC(victim) && !affected_by_spell(ch, TAG_PVPDELAY))
-    set_short_affected_by(ch, TAG_PVPDELAY, 10 * WAIT_SEC);
+  if( IS_PC(ch) && IS_PC(victim) )
+  {
+    affect_from_char(ch, TAG_PVPDELAY);
+    set_short_affected_by(ch, TAG_PVPDELAY, 40 * WAIT_SEC);
+  }
 
   /* successful heist is less likely to be detected */
   if ((percent < 0) || MIN(100, percent) < number(failed ? 10 : -60, 100))

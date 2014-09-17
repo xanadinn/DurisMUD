@@ -1140,22 +1140,28 @@ bool check_innate_time(P_char ch, int innate, int duration)
   int timer;
   int default_duration;
 
-  for (afp = ch->affected; afp; afp = afp->next)
-    if (afp->type == TAG_INNATE_TIMER &&
-        afp->location == innate)
+  for( afp = ch->affected; afp; afp = afp->next )
+  {
+    if( afp->type == TAG_INNATE_TIMER && afp->location == innate )
+    {
       break;
-
-  if (afp)
+    }
+  }
+  if( afp )
+  {
     if (afp->modifier == 1)
     {
       return FALSE;
     }
-    else {
+    else
+    {
       afp->modifier--;
       return TRUE;
     }
+  }
 
-  if ( IS_PC(ch) && !affected_by_spell(ch, TAG_PVPDELAY)) {
+  if ( IS_PC(ch) && !affected_by_spell(ch, TAG_PVPDELAY))
+  {
   //  to be replaced with check to see if innate.pvp.timer exists
   }
 
@@ -1906,9 +1912,7 @@ void do_shift_astral(P_char ch, char *arg, int cmd)
 
   if (affected_by_spell(ch, TAG_PVPDELAY))
   {
-    send_to_char
-      ("There is too much adrenaline pumping through your body right now.\n",
-       ch);
+    send_to_char("There is too much adrenaline pumping through your body right now.\n", ch);
     return;
   }
 
@@ -1934,9 +1938,7 @@ void do_shift_ethereal(P_char ch, char *arg, int cmd)
 
   if (affected_by_spell(ch, TAG_PVPDELAY))
   {
-    send_to_char
-      ("There is too much adrenaline pumping through your body right now.\n",
-       ch);
+    send_to_char("There is too much adrenaline pumping through your body right now.\n", ch);
     return;
   }
 
@@ -2246,9 +2248,7 @@ void do_plane_shift(P_char ch, char *arg, int cmd)
 
   if (affected_by_spell(ch, TAG_PVPDELAY))
   {
-    send_to_char
-      ("There is too much adrenaline pumping through your body to do that.\n",
-       ch);
+    send_to_char("There is too much adrenaline pumping through your body to do that.\n", ch);
     return;
   }
 
@@ -2449,9 +2449,7 @@ void do_dimension_door(P_char ch, char *arg, int cmd)
 
   if (affected_by_spell(ch, TAG_PVPDELAY))
   {
-    send_to_char
-      ("There is too much adrenaline pumping through your body right now.\n",
-       ch);
+    send_to_char("There is too much adrenaline pumping through your body right now.\n", ch);
     return;
   }
 

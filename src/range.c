@@ -713,10 +713,10 @@ void do_fire(P_char ch, char *argument, int cmd)
       {
         if (IS_PC(ch) && IS_PC(victim))
         {
-          if (!affected_by_spell(ch, TAG_PVPDELAY))
-             set_short_affected_by(ch, TAG_PVPDELAY, 20 * WAIT_SEC);
-          if (!affected_by_spell(victim, TAG_PVPDELAY))
-             set_short_affected_by(victim, TAG_PVPDELAY, 20 * WAIT_SEC);
+          affect_from_char( ch, TAG_PVPDELAY );
+          set_short_affected_by(ch, TAG_PVPDELAY, WAIT_PVPDELAY);
+          affect_from_char( victim, TAG_PVPDELAY );
+          set_short_affected_by(victim, TAG_PVPDELAY, WAIT_PVPDELAY);
         }
         if (!affected_by_spell(ch, TAG_FIRING))
           set_short_affected_by(ch, TAG_FIRING, 5 * WAIT_SEC);
@@ -1211,24 +1211,23 @@ void do_throw(P_char ch, char *argument, int cmd)
  strcpy(buf2, dirs[rev_dir[far_room]]);
  strcpy(buf3, dirs2[rev_dir[far_room]]);
 
- for (i = 1; i <= nb_attack; i++)
- {
-   if (to_hit >= number(1, 100))
-   {
-     if (IS_PC(ch) && IS_PC(vict))
-		 {
-		   if (!affected_by_spell(ch, TAG_PVPDELAY))
-			   set_short_affected_by(ch, TAG_PVPDELAY, 20 * WAIT_SEC);
-     
-       if (!affected_by_spell(vict, TAG_PVPDELAY))
-				 set_short_affected_by(vict, TAG_PVPDELAY, 20 * WAIT_SEC);
-		 }
-     
-     sprintf(messages.attacker, "You hit $N with $p!");
-     sprintf(messages.death_attacker,
+  for (i = 1; i <= nb_attack; i++)
+  {
+    if (to_hit >= number(1, 100))
+    {
+      if (IS_PC(ch) && IS_PC(vict))
+		  {
+        affect_from_char( ch, TAG_PVPDELAY );
+        set_short_affected_by(ch, TAG_PVPDELAY, WAIT_PVPDELAY);
+        affect_from_char( vict, TAG_PVPDELAY );
+        set_short_affected_by(vict, TAG_PVPDELAY, WAIT_PVPDELAY);
+		  }
+
+      sprintf(messages.attacker, "You hit $N with $p!");
+      sprintf(messages.death_attacker,
              "Your skilfully thrown $p cuts right through $N's artery. $E tries to stop the &+rblood&n fountain but alas!");
-     if (ch->in_room != vict->in_room)
-     {
+      if (ch->in_room != vict->in_room)
+      {
        sprintf(messages.victim, "$p thrown from %s hits you!", buf3);
        sprintf(messages.death_victim,
                "$p thrown from %s cuts right through your artery. You try to stop the &+rblood&n fountain but alas!",

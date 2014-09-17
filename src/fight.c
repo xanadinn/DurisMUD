@@ -5991,7 +5991,7 @@ int raw_damage(P_char ch, P_char victim, double dam, uint flags,
         killer = ch;
       }
 
-      if(!affected_by_spell(victim, TAG_PVPDELAY) && IS_PC(victim))
+      if( !affected_by_spell(victim, TAG_PVPDELAY) && IS_PC(victim) )
       {
         char bufpc[MAX_STRING_LENGTH], buffer[MAX_STRING_LENGTH];
 
@@ -9399,17 +9399,12 @@ void perform_violence(void)
       }
     }
 
-    if(IS_PC(ch) &&
-        IS_PC(opponent))
+    if( IS_PC(ch) && IS_PC(opponent) )
     {
-      if (!affected_by_spell(ch, TAG_PVPDELAY))
-      {
-        set_short_affected_by(ch, TAG_PVPDELAY, 20 * WAIT_SEC);
-      }
-      if (!affected_by_spell(opponent, TAG_PVPDELAY))
-      {
-        set_short_affected_by(opponent, TAG_PVPDELAY, 20 * WAIT_SEC);
-      }
+      affect_from_char( ch, TAG_PVPDELAY );
+      set_short_affected_by(ch, TAG_PVPDELAY, WAIT_PVPDELAY );
+      affect_from_char( opponent, TAG_PVPDELAY );
+      set_short_affected_by(opponent, TAG_PVPDELAY, WAIT_PVPDELAY);
     }
 
     if(!FightingCheck(ch, opponent, "perform_violence"))
@@ -9418,11 +9413,9 @@ void perform_violence(void)
     }
 
     /* misfire */
-    if(IS_PC(ch))
+    if( IS_PC(ch) )
     {
-      opponent =
-        misfire_check(ch, opponent,
-            DISALLOW_SELF | DISALLOW_BACKRANK);
+      opponent = misfire_check(ch, opponent, DISALLOW_SELF | DISALLOW_BACKRANK);
     }
 
     if(HOLD_CANT_ATTACK(ch))
