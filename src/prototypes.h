@@ -1658,6 +1658,7 @@ void stop_memorizing(P_char);
 int forget_spells(P_char, int);
 void do_stance(P_char, char *, int);
 int memorize_last_spell(P_char ch);
+void bad_spell_check( P_char ch);
 
 /* memory.c */
 

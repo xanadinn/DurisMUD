@@ -201,34 +201,46 @@ int max_spells_in_circle(P_char ch, int circ)
   return max_spells_in_circle(ch, circ, get_max_circle(ch));
 }
 
-
+// This works for PCs and NPCs?  Does now.
 int get_spell_circle(P_char ch, int spl)
 {
-  int      i, ch_circle = (GET_LEVEL(ch) - 1) / 5 + 1;
+  int i, ch_circle = (GET_LEVEL(ch) - 1) / 5 + 1;
   int lowest, class_idx;
 
   lowest = MAX_CIRCLE + 1;
 
-  if (IS_AFFECTED4(ch, AFF4_MULTI_CLASS))
+  // We check all classes for NPCs.
+  if( IS_NPC(ch) )
   {
-    for (i = 0; i < CLASS_COUNT; i++)
+    // We skip CLASS_NONE = 0.
+    for( i = 0; i < CLASS_COUNT; i++ )
     {
-      if (ch->player.m_class & (1 << i))
+      // If the NPC has the class, check the circle.
+      if( ch->player.m_class & (1 << i) )
       {
-        if (skills[spl].m_class[i].rlevel[0] && (skills[spl].m_class[i].rlevel[0] <= lowest))
+        if( (skills[spl].m_class[i].rlevel[0] > 0) && (skills[spl].m_class[i].rlevel[0] < lowest) )
+        {
           lowest = skills[spl].m_class[i].rlevel[0];
+        }
       }
     }
   }
   else
   {
-    if( SKILL_DATA(ch, spl).rlevel[ch->player.spec] )
-      return SKILL_DATA(ch, spl).rlevel[ch->player.spec];
-    
+    // If the player has the spell as a spec spell (or reg if not spec'd).
+    if( (SKILL_DATA(ch, spl).rlevel[ch->player.spec] > 0) )
+    {
+      lowest = SKILL_DATA(ch, spl).rlevel[ch->player.spec];
+    }
+
+    // If the player has it as a secondary class spell.
     if( ch->player.secondary_class )
     {
-      if( SKILL_DATA2(ch, spl).rlevel[0] )
+      // If the secondary class has the spell and its circle is less than the current lowest.
+      if( (SKILL_DATA2(ch, spl).rlevel[0] > 0) && SKILL_DATA2(ch, spl).rlevel[0] + 1 < lowest )
+      {
         return SKILL_DATA2(ch, spl).rlevel[0] + 1;
+      }
     }
   }
 
@@ -1287,9 +1299,13 @@ void do_memorize(P_char ch, char *argument, int cmd)
     || is_wearing_necroplasm(ch)) || (IS_ANGEL(ch)) )
   {
     if( IS_ANGEL(ch) )
+    {
       send_to_char("Try using Assimilate in this form.\n", ch);
+    }
     else
+    {
       send_to_char("You aren't trained in magic.\n", ch);
+    }
     return;
   }
 
@@ -1310,6 +1326,8 @@ void do_memorize(P_char ch, char *argument, int cmd)
   {
     mode = MEM_SPELL;
   }
+  // Remove any invalid crap spells. Happens with multiclassing/deleveling/etc.
+  bad_spell_check(ch);
 
   memset(&memorized, 0, sizeof(memorized));
   memset(&per_spell, 0, sizeof(per_spell));
@@ -2625,6 +2643,31 @@ int get_song_level( int cls, int spec, int sng )
     else
     {
       return MAXLVLMORTAL+1;
+    }
+  }
+}
+
+// This function goes through and removes any spells that the char has in
+//   their mem list that they don't have (via spec or multi or whatever).
+// Note: This does not check number of spells in circle in list vs max.
+void bad_spell_check( P_char ch )
+{
+  struct affected_type *paf, *paf_next;
+  int circle;
+
+  for( paf = ch->affected; paf; paf = paf_next )
+  {
+    paf_next = paf->next;
+
+    if( paf->type == TAG_MEMORIZE )
+    {
+      circle = get_spell_circle(ch, paf->modifier);
+      // If the spell is not valid for the char anymore (for whatever reason).
+      if( circle > MAX_CIRCLE )
+      {
+        debug( "Found bad spell '%s' %d in mem list of char '%s'.", skills[paf->modifier].name, paf->modifier, J_NAME(ch) );
+        affect_remove(ch, paf);
+      }
     }
   }
 }
