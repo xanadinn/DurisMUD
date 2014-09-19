@@ -4035,7 +4035,7 @@ void do_recline(P_char ch, char *argument, int cmd)
 {
   if(IS_RIDING(ch))
   {
-    send_to_char("How exactly are you going to recline while riding?", ch);
+    send_to_char("How exactly are you going to recline while riding?\n\r", ch);
     return;
   }
   switch (GET_STAT(ch))
