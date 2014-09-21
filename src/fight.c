@@ -5551,8 +5551,7 @@ void check_vamp(P_char ch, P_char victim, double fdam, uint flags)
  * mob procs on death, spell_damage and melee_damage can quite
  * often return -1, on deflects and shields
  */
-int raw_damage(P_char ch, P_char victim, double dam, uint flags,
-    struct damage_messages *messages)
+int raw_damage(P_char ch, P_char victim, double dam, uint flags, struct damage_messages *messages)
 {
   struct affected_type *af, *next_af;
   struct group_list *gl;
@@ -5682,6 +5681,15 @@ int raw_damage(P_char ch, P_char victim, double dam, uint flags,
         && (!GET_CLASS(victim, CLASS_CLERIC) && !GET_CLASS(victim, CLASS_PALADIN)) )
       {
         dam *= dam_factor[DF_SANC];
+      }
+
+      if( ((IS_EVIL(ch) && !IS_EVIL(victim)) || (IS_GOOD(ch) && !IS_GOOD(victim))) && !(flags & PHSDAM_NOREDUCE)
+        && (af = get_spell_from_char(victim, SPELL_VIRTUE)) )
+      {
+debug( "Old dam: %f.", dam ); //PENIS
+        // Reduces up to 7% at lvl 56.  Not bad for 6th circle spell.
+        dam *= 1 - af->modifier/800.0;
+debug( "New dam: %f.", dam ); //PENIS
       }
 
       if( get_spell_from_room(&world[ch->in_room], SPELL_CONSECRATE_LAND) && !(flags & PHSDAM_NOREDUCE))

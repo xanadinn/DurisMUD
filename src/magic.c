@@ -4644,8 +4644,7 @@ void spell_armor(int level, P_char ch, char *arg, int type, P_char victim, P_obj
 
 // end spell_armor
 
-void spell_virtue(int level, P_char ch, char *arg, int type, P_char victim,
-                 P_obj obj)
+void spell_virtue(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   struct affected_type af;
 
@@ -4653,7 +4652,8 @@ void spell_virtue(int level, P_char ch, char *arg, int type, P_char victim,
   {
     bzero(&af, sizeof(af));
     af.type = SPELL_VIRTUE;
-    af.duration =  25;
+    af.modifier = level;
+    af.duration = level/2;
     affect_to_char(victim, &af);
     send_to_char("&+WYou feel overwhelmed to honor the gods!\n", victim);
   }
@@ -4662,12 +4662,13 @@ void spell_virtue(int level, P_char ch, char *arg, int type, P_char victim,
     struct affected_type *af1;
 
     for (af1 = victim->affected; af1; af1 = af1->next)
+    {
       if(af1->type == SPELL_VIRTUE)
       {
-        af1->duration = 25;
+        af1->duration = level/2;
       }
+    }
   }
-
 }
 
 
@@ -16242,8 +16243,7 @@ void spell_innate_darkness(int level, P_char ch, P_char victim, P_obj obj)
   spell_darkness(level, ch, 0, 0, 0, 0);
 }
 
-void spell_infravision(int level, P_char ch, char *arg, int type,
-                       P_char victim, P_obj obj)
+void spell_infravision(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   struct affected_type af;
 
@@ -16257,7 +16257,7 @@ void spell_infravision(int level, P_char ch, char *arg, int type,
 
     bzero(&af, sizeof(af));
     af.type = SPELL_INFRAVISION;
-    af.duration =  10;
+    af.duration =  level;
     af.bitvector = AFF_INFRAVISION;
     affect_to_char(victim, &af);
   }
@@ -16266,12 +16266,13 @@ void spell_infravision(int level, P_char ch, char *arg, int type,
     struct affected_type *af1;
 
     for (af1 = victim->affected; af1; af1 = af1->next)
+    {
       if(af1->type == SPELL_INFRAVISION)
       {
-        af1->duration = 10;
+        af1->duration = level;
       }
+    }
   }
-
 }
 
 void spell_mass_embalm(int level, P_char ch, char *arg, int type,
