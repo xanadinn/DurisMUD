@@ -4889,13 +4889,15 @@ void roll_basic_abilities(P_char ch, int flag)
   ch->base_stats.Karma = ch->curr_stats.Karma = MIN(dice(5, 8) + 53, 95);
   ch->base_stats.Luck = ch->curr_stats.Luck = MIN(dice(5, 8) + 53, 95);
 }
-void NewbySkillSet(P_char ch)
+
+// fullReset -> Do we reset epic skills/tradeskills?
+void NewbySkillSet(P_char ch, bool fullReset)
 {
-  int      i;
+  int i;
 
-  for (i = FIRST_SKILL; i <= LAST_SKILL; i++)
+  // Walk through skills..
+  for( i = FIRST_SKILL; i <= LAST_SKILL; i++ )
   {
-
 //#ifdef SKILLPOINTS
 //    if(SKILL_DATA_ALL(ch, i).rlevel[0] &&
 //        SKILL_DATA_ALL(ch, i).rlevel[0] <= GET_LEVEL(ch) )
@@ -4903,8 +4905,13 @@ void NewbySkillSet(P_char ch)
 //      ch->only.pc->skills[i].learned = 10;
 //      ch->only.pc->skills[i].taught = 10;
 //#else
-    if(SKILL_DATA_ALL(ch, i).rlevel[0] &&
-        SKILL_DATA_ALL(ch, i).rlevel[0] <= GET_LEVEL(ch) && !IS_SPELL(i))
+    if( !fullReset && (IS_EPIC_SKILL(i) || IS_TRADESKILL(i)) )
+    {
+      continue;
+    }
+    // if they have the skill..
+    if(SKILL_DATA_ALL(ch, i).rlevel[0] > 0
+      && SKILL_DATA_ALL(ch, i).rlevel[0] <= GET_LEVEL(ch) && !IS_SPELL(i))
     {
       ch->only.pc->skills[i].learned = number(5, 20);
       ch->only.pc->skills[i].taught = SKILL_DATA_ALL(ch, i).maxlearn[0] - 10;
@@ -4919,7 +4926,6 @@ void NewbySkillSet(P_char ch)
     {
       ch->only.pc->skills[i].learned = 0;
     }
-        //MULTICLASS
   }
 }
 
@@ -4957,10 +4963,25 @@ void do_start(P_char ch, int nomsg)
 
   init_defaultlanguages(ch);
 
-  /* problem, need to clear the skills array */
-  for( i = 0; i < MAX_SKILLS; i++ )
+  if( nomsg == CMD_MULTICLASS )
   {
-    ch->only.pc->skills[i].learned = 0;
+    /* Clear the skills array */
+    for( i = 0; i < MAX_SKILLS; i++ )
+    {
+      // We don't reset epic skills nor tradeskills when multiclassing.
+      if( !IS_EPIC_SKILL(i) && !IS_TRADESKILL(i) )
+      {
+        ch->only.pc->skills[i].learned = 0;
+      }
+    }
+  }
+  else
+  {
+    /* Clear the skills array */
+    for( i = 0; i < MAX_SKILLS; i++ )
+    {
+      ch->only.pc->skills[i].learned = 0;
+    }
   }
 
   ZONE_TROPHY(ch) = NULL;
@@ -4977,7 +4998,7 @@ void do_start(P_char ch, int nomsg)
     ch->specials.guild_status = 0;
   }
 
-  NewbySkillSet(ch);
+  NewbySkillSet(ch, (nomsg != CMD_MULTICLASS) ? TRUE : FALSE);
 
   setCharPhysTypeInfo(ch);
 
@@ -5544,7 +5565,7 @@ void do_reinitphys(P_char ch, char *arg, int cmd)
       {
         vict = p->character;
         if(!IS_TRUSTED(vict))
-          NewbySkillSet(vict);
+          NewbySkillSet(vict, TRUE);
         send_to_char
           ("&+LA haze of powdery dust falls from the heavens, clogging your breathing, choking your lungs, blurring your vision. As it begins to subside, you realize all your wordly knowledge is somehow.... different.\n",
            vict);
@@ -5555,7 +5576,7 @@ void do_reinitphys(P_char ch, char *arg, int cmd)
     send_to_char("No-one by that name in the world.\n", ch);
   else if(!IS_TRUSTED(vict))
   {
-    NewbySkillSet(vict);
+    NewbySkillSet(vict, TRUE);
     sprintf(buf, "Resetting of $N's skills completed.");
     act(buf, FALSE, ch, 0, vict, TO_CHAR);
   }
@@ -5904,7 +5925,7 @@ void do_demote(P_char ch, char *argument, int cmd)
   {
     victim->only.pc->skills[i].learned = 0;
   }
-  NewbySkillSet(victim);
+  NewbySkillSet(victim, TRUE);
 
   /* Restore other attributes */
 

@@ -528,7 +528,7 @@ void GetMIA(char *, char *);
 char *where_obj(P_obj, int);
 int gr_idiotproof(P_char, P_char, char *, int);
 struct obj_data *clone_obj(P_obj);
-void NewbySkillSet(P_char);
+void NewbySkillSet(P_char, bool);
 void clone_container_obj(P_obj, P_obj);
 void stat_game(P_char);
 void do_reload_help(P_char, char *, int);

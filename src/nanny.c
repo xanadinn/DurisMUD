@@ -5947,7 +5947,7 @@ void init_char(P_char ch)
       ch->only.pc->skills[i].learned = 100;
     }
   }
-  NewbySkillSet(ch);
+  NewbySkillSet(ch, TRUE);
 
   set_char_height_weight(ch); /* height and weight */
   set_char_size(ch);

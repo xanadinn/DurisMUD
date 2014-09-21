@@ -5948,11 +5948,14 @@ void ascend_theurgist(P_char ch)
 
   for (i = 0; i < MAX_SKILLS; i++)
   {
-    ch->only.pc->skills[i].learned = 0;
+    if( !IS_TRADESKILL(i) && !IS_EPIC_SKILL(i) )
+    {
+      ch->only.pc->skills[i].learned = 0;
+    }
   }
-  NewbySkillSet(ch);
-       ch->points.max_mana = 0;
-            do_start(ch, 1);
+  NewbySkillSet(ch, FALSE);
+  ch->points.max_mana = 0;
+  do_start(ch, 1);
 
   int k = 0;
   P_obj temp_obj;
@@ -6194,11 +6197,14 @@ void do_descend(P_char ch, char *arg, int cmd)
 
   for (i = 0; i < MAX_SKILLS; i++)
   {
-    ch->only.pc->skills[i].learned = 0;
+    if( !IS_TRADESKILL(i) && !IS_EPIC_SKILL(i) )
+    {
+      ch->only.pc->skills[i].learned = 0;
+    }
   }
   ch->points.max_mana = 0;
   ch->points.max_vitality = 0;
-  NewbySkillSet(ch);
+  NewbySkillSet(ch, FALSE);
   do_start(ch, 0);
   do_save_silent(ch, 1);
 }
@@ -6375,11 +6381,14 @@ void do_old_descend(P_char ch, char *arg, int cmd)
     //DEMOTE CODE
     for (i = 0; i < MAX_SKILLS; i++)
     {
-      ch->only.pc->skills[i].learned = 0;
+      if( !IS_TRADESKILL(i) && !IS_EPIC_SKILL(i) )
+      {
+        ch->only.pc->skills[i].learned = 0;
+      }
     }
-      NewbySkillSet(ch);
-           ch->points.max_mana = 0;
-                do_start(ch, 1);
+    NewbySkillSet(ch, FALSE);
+    ch->points.max_mana = 0;
+    do_start(ch, 1);
 
       int k = 0;
       P_obj temp_obj;
