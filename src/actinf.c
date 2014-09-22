@@ -1175,8 +1175,18 @@ void create_in_room_status(P_char ch, P_char i, char buffer[])
   if (IS_AFFECTED4(ch, AFF4_SENSE_HOLINESS) && IS_HOLY(i))
     strcat(buffer, "(&+Wholy&n)");
 
-  if( (IS_AFFECTED4(ch, AFF4_DETECT_ILLUSION) || has_innate( ch, INNATE_DET_SUBVERSION)) && is_illusion_char(i))
+  if( IS_AFFECTED4(ch, AFF4_DETECT_ILLUSION) && is_illusion_char(i) )
     strcat(buffer, "(&+mIllusion&n)");
+
+  if( (IS_DISGUISE(i) || is_illusion_char(i)) && has_innate(ch, INNATE_DET_SUBVERSION) )
+  {
+    if( is_illusion_char(i) )
+      strcat(buffer, "(&+mIllusion&n)");
+    else if (IS_DISGUISE_SHAPE(i))
+      strcat(buffer, "(&+mShapechanged&n)");
+    else
+      strcat(buffer, "(&+mdisguised&n)");
+  }
 
   if (IS_AFFECTED5(ch, AFF5_BLOOD_SCENT) && GET_HIT(i) < 0.4 * GET_MAX_HIT(i))
       strcat(buffer, " (&+Rbleeding&n) ");
@@ -1437,11 +1447,11 @@ void show_char_to_char(P_char i, P_char ch, int mode)
         if (IS_PC(i) && IS_SET(i->specials.act, PLR_AFK) && IS_TRUSTED(ch))
           strcat(buffer, " (&+RAFK&N)");
 
-        if (IS_TRUSTED(ch) && IS_DISGUISE(i))
+        if (IS_TRUSTED(ch) && (IS_DISGUISE(i) || is_illusion_char(i)) )
         {
-          if (IS_DISGUISE_ILLUSION(i))
+          if( is_illusion_char(i) )
             strcat(buffer, "(&+mIllusion&n)");
-          else if (IS_DISGUISE_SHAPE(i))
+          else if( IS_DISGUISE_SHAPE(i) )
             strcat(buffer, "(&+mShapechanged&n)");
           else
             strcat(buffer, "(&+mdisguised&n)");
