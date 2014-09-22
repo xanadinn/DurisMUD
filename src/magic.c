@@ -15078,8 +15078,7 @@ bool isCarved(P_obj corpse)
 
 }
 
-void spell_resurrect(int level, P_char ch, char *arg, int type, P_char victim,
-                     P_obj obj)
+void spell_resurrect(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   bool     loss_flag = FALSE;
   int      chance, l, found, clevel, ss_roll;
@@ -15088,27 +15087,32 @@ void spell_resurrect(int level, P_char ch, char *arg, int type, P_char victim,
   struct affected_type *af, *next_af;
   P_char   t_ch;
 
-  if(!(ch) ||
-     !IS_ALIVE(ch) ||
-     !(obj))
-        return;
-  
-  if(obj->type != ITEM_CORPSE)
+  if( !IS_ALIVE(ch) || !obj )
+  {
+    return;
+  }
+
+  if( obj->type != ITEM_CORPSE )
   {
     send_to_char("You can only resurrect corpses!\n", ch);
     return;
   }
-  
-  if(!(GET_CLASS(ch, CLASS_CLERIC)) ||
-     level < 56)
-        CharWait(ch, 100);
+
+  if( !GET_CLASS(ch, CLASS_CLERIC) || level < 56 )
+  {
+    CharWait(ch, 25*WAIT_SEC);
+  }
   else
-    CharWait(ch, 10);
+  {
+    CharWait(ch, 10*WAIT_SEC);
+  }
 
-  if(IS_NPC(ch) && IS_PC_PET(ch))
-   return;
+  if( IS_NPC(ch) && IS_PC_PET(ch) )
+  {
+    return;
+  }
 
-  if(IS_SET(obj->value[1], NPC_CORPSE))
+  if( IS_SET(obj->value[1], NPC_CORPSE) )
   {
     if(!obj->value[3] || !IS_TRUSTED(ch))
     {
@@ -15116,7 +15120,7 @@ void spell_resurrect(int level, P_char ch, char *arg, int type, P_char victim,
       return;
     }
     t_ch = read_mobile(obj->value[3], VIRTUAL);
-    if(!t_ch)
+    if( !t_ch )
     {
       logit(LOG_DEBUG, "spell_resurrect(): mob %d not loadable",
             obj->value[3]);
@@ -15128,34 +15132,31 @@ void spell_resurrect(int level, P_char ch, char *arg, int type, P_char victim,
      * in -Neb
      */
     GET_BIRTHPLACE(t_ch) = world[ch->in_room].number;
-    if(!IS_SET(t_ch->specials.act, ACT_MEMORY))
+    if( !IS_SET(t_ch->specials.act, ACT_MEMORY) )
+    {
       clearMemory(t_ch);
+    }
   }
   else
   {
-
-    /*
-     * res a player
-     */
-
+    // Res a player
     found = 0;
 
     for (t_ch = character_list; t_ch; t_ch = t_ch->next)
     {
-      if(t_ch && IS_PC(t_ch) &&
-          !str_cmp(t_ch->player.name, obj->action_description))
+      if( t_ch && IS_PC(t_ch) && !str_cmp(t_ch->player.name, obj->action_description) )
       {
-        if(t_ch == ch)
+        if( t_ch == ch )
         {
           send_to_char("You can't resurrect your own corpse!\n", ch);
           return;
         }
-        if((obj->value[2] < 0) && !IS_TRUSTED(ch))
+        if( (obj->value[2] < 0) && !IS_TRUSTED(ch) )
         {
           send_to_char("This corpse is not resurrectable.\n", ch);
           return;
         }
-        if(!is_linked_to(ch, t_ch, LNK_CONSENT) && !(IS_TRUSTED(ch) || IS_NPC(ch)))
+        if( !is_linked_to(ch, t_ch, LNK_CONSENT) && !(IS_TRUSTED(ch) || IS_NPC(ch)) )
         {
           /* In AD&D, when a person dies, its not just a matter of losing
              xp, but a complete end to the char.  Things work differently
@@ -15169,16 +15170,18 @@ void spell_resurrect(int level, P_char ch, char *arg, int type, P_char victim,
         break;
       }
     }
-    if(!found)
+    if( !found )
     {
       send_to_char("You can't find a soul to reunite with this corpse!\n", ch);
       return;
     }
 
-    if(GET_PID(t_ch) != obj->value[3])
+    if( GET_PID(t_ch) != obj->value[3] )
     {
-      if(IS_TRUSTED(ch))
+      if( IS_TRUSTED(ch) )
+      {
         send_to_char("Different IDs, but you are godly..  enjoy.\n", ch);
+      }
       else
       {
         send_to_char("Similar, but not the same!  You fail.\n", ch);
@@ -15186,10 +15189,12 @@ void spell_resurrect(int level, P_char ch, char *arg, int type, P_char victim,
       }
     }
 
-    if(isCarved(obj))
+    if( isCarved(obj) )
     {
-      if(IS_TRUSTED(ch))
+      if( IS_TRUSTED(ch) )
+      {
         send_to_char("You regenerate the carved body parts.\n", ch);
+      }
       else
       {
         send_to_char("The soul you found rejects this mutilated corpse.\n",  ch);
@@ -15216,19 +15221,14 @@ void spell_resurrect(int level, P_char ch, char *arg, int type, P_char victim,
     chance = 90 - (4 * (56 - GET_LEVEL(ch)));   /* 90% success at 56, 50% at 46 */
     ss_roll = number(1, 100);
 
-    if(!IS_TRUSTED(ch))
+    if( !IS_TRUSTED(ch) )
     {
-      /*
-         if((ss_save + (100 - ss_save) / 2) < ss_roll) {
-       */
-      if(ss_roll > chance)
+      // if((ss_save + (100 - ss_save) / 2) < ss_roll) {
+      if( ss_roll > chance )
       {
-        /*
-         * complete failure, corpse is unressable.
-         */
-        logit(LOG_DEATH,
-              "%s ressed %s:  Failed roll: %3d Chance: %3d Level: %2d",
-              GET_NAME(ch), GET_NAME(t_ch), ss_roll, chance, level);
+        // Complete failure, corpse is unressable.
+        logit(LOG_DEATH, "%s ressed %s:  Failed roll: %3d Chance: %3d Level: %2d",
+          GET_NAME(ch), GET_NAME(t_ch), ss_roll, chance, level);
 
 #if 0
         act("The $q seems to shiver, and a fitful glow briefly surrounds it.",
@@ -15310,44 +15310,49 @@ void spell_resurrect(int level, P_char ch, char *arg, int type, P_char victim,
 #endif
       }
     }
-    
-    if(IS_PC(t_ch) &&
-       IS_RIDING(t_ch))
-          stop_riding(t_ch);
-      
+
+    if( IS_PC(t_ch) && IS_RIDING(t_ch) )
+    {
+      stop_riding(t_ch);
+    }
+
     act("$n &+rhowls &+win pain as $s body crumbles to &+Ldust&+w.&n",
       FALSE, t_ch, 0, 0, TO_ROOM);
     act("&+wYou &+rhowl &+win pain as your soul leaves your body to return to your &+Lcorpse&+w.&n",
-       FALSE, t_ch, 0, 0, TO_CHAR);
+      FALSE, t_ch, 0, 0, TO_CHAR);
 
     t_ch->only.pc->pc_timer[PC_TIMER_HEAVEN] = 0;
 
-    if(t_ch->specials.fighting)
+    if( t_ch->specials.fighting )
+    {
       stop_fighting(t_ch);
+    }
     if( IS_DESTROYING(t_ch) )
+    {
       stop_destroying(t_ch);
+    }
     StopAllAttackers(t_ch);
-    
-    for (af = t_ch->affected; af; af = next_af)
+
+    for( af = t_ch->affected; af; af = next_af )
     {
       next_af = af->next;
-      if(!(af->flags & AFFTYPE_NODISPEL))
+      if( !(af->flags & AFFTYPE_NODISPEL) )
+      {
         affect_remove(t_ch, af);
+      }
     }
 
-    if(GET_MONEY(t_ch) > 0)
+    if( GET_MONEY(t_ch) > 0 )
     {
       /*
        * make a 'pile of coins' object to hold victim's cash
        */
 
-      money =
-        create_money(GET_COPPER(t_ch), GET_SILVER(t_ch), GET_GOLD(t_ch),
-                     GET_PLATINUM(t_ch));
+      money = create_money(GET_COPPER(t_ch), GET_SILVER(t_ch), GET_GOLD(t_ch), GET_PLATINUM(t_ch));
       SUB_MONEY(t_ch, GET_MONEY(t_ch), 0);
       obj_to_room(money, t_ch->in_room);
     }
-    for (t_obj = t_ch->carrying; t_obj != NULL; t_obj = next_obj)
+    for( t_obj = t_ch->carrying; t_obj != NULL; t_obj = next_obj )
     {
       next_obj = t_obj->next_content;
       if(IS_SET(obj->extra_flags, ITEM_TRANSIENT))
@@ -15365,19 +15370,22 @@ void spell_resurrect(int level, P_char ch, char *arg, int type, P_char victim,
     /*
      * clear equipment_list
      */
-    for (l = 0; l < MAX_WEAR; l++)
-      if(t_ch->equipment[l])
+    for( l = 0; l < MAX_WEAR; l++ )
+    {
+      if( t_ch->equipment[l] )
       {
-
         t_obj = unequip_char(t_ch, l);
-        if(IS_SET(t_obj->extra_flags, ITEM_TRANSIENT))
+        if( IS_SET(t_obj->extra_flags, ITEM_TRANSIENT) )
         {
           extract_obj(t_obj, TRUE);
           t_obj = NULL;
         }
         else
+        {
           obj_to_room(t_obj, t_ch->in_room);
+        }
       }
+    {
     char_from_room(t_ch);
   }
   char_to_room(t_ch, ch->in_room, -2);
@@ -15385,11 +15393,11 @@ void spell_resurrect(int level, P_char ch, char *arg, int type, P_char victim,
   /*
    * move objects in corpse to victim's inventory
    */
-  for (obj_in_corpse = obj->contains; obj_in_corpse; obj_in_corpse = next_obj)
+  for( obj_in_corpse = obj->contains; obj_in_corpse; obj_in_corpse = next_obj )
   {
     next_obj = obj_in_corpse->next_content;
     obj_from_obj(obj_in_corpse);
-    if(obj_in_corpse->type == ITEM_MONEY)
+    if( obj_in_corpse->type == ITEM_MONEY )
     {
       GET_COPPER(t_ch) += obj_in_corpse->value[0];
       GET_SILVER(t_ch) += obj_in_corpse->value[1];
@@ -15399,10 +15407,12 @@ void spell_resurrect(int level, P_char ch, char *arg, int type, P_char victim,
       obj_in_corpse = NULL;
     }
     else
+    {
       obj_to_char(obj_in_corpse, t_ch);
+    }
   }
-  
-  if(IS_EVIL(ch))
+
+  if( IS_EVIL(ch) )
   {
     act("&+wAn aura of intense &+Lbitter darkness &+wsurrounds&n $n &+wfor a moment.&n",
       TRUE, t_ch, 0, 0, TO_ROOM);
@@ -15414,51 +15424,50 @@ void spell_resurrect(int level, P_char ch, char *arg, int type, P_char victim,
   }
   act("$n &+wcomes to &+Wlife &+wagain! Taking a &+Cdeep breath&+W, $n opens $s eyes!&n",
     TRUE, t_ch, 0, 0, TO_ROOM);
-  act("&+wYou are &+cextremely tired &+wafter resurrecting $N.",
-    TRUE, ch, 0, t_ch, TO_CHAR);
-  if(loss_flag)
+  act("&+wYou are &+cextremely tired &+wafter resurrecting $N.", TRUE, ch, 0, t_ch, TO_CHAR);
+
+  if( loss_flag )
   {
     act("You feel drained!", TRUE, t_ch, 0, 0, TO_CHAR);
   }
-  act("&+wYou are &+cextremely tired &+wafter being resurrected!&n",
-    TRUE, t_ch, 0, 0, TO_CHAR);
+  act("&+wYou are &+cextremely tired &+wafter being resurrected!&n", TRUE, t_ch, 0, 0, TO_CHAR);
 
 // play_sound(SOUND_RESSURECTION, NULL, t_ch->in_room, TO_ROOM);
 
   GET_VITALITY(ch) = MIN(0, GET_VITALITY(ch));
   StartRegen(ch, EVENT_MOVE_REGEN);
-  
+
   /*
    * restore lost exp from death
    */
   clevel = obj->value[2];
 
 
-  if(IS_PC(t_ch) && !IS_TRUSTED(t_ch))
+  if( IS_PC(t_ch) && !IS_TRUSTED(t_ch) )
   {
     resu_exp = obj->value[4];
-    if (resu_exp == 0)
+    if( resu_exp == 0 )
     {
       //send_to_char("&-RERROR! Player corpse with zero exp, please notify a god!&n\r\n", ch);
       wizlog(56, "MEMORY ERROR: Player corpse with zero exp!");
     }
-    
-    if(!IS_TRUSTED(ch)) 
-    { 
-      if(GET_LEVEL(t_ch) >= 56)
+
+    if( !IS_TRUSTED(ch) )
+    {
+      if( GET_LEVEL(t_ch) >= 56 )
       {
          resu_exp = (long)(resu_exp * 0.050);
       }
-      else if(EVIL_RACE(t_ch))
+      else if( EVIL_RACE(t_ch) )
       {
          resu_exp = (long)(resu_exp * (get_property("gain.exp.mod.res.evil", 0.750)));
-      }          
+      }
       else
       {
          resu_exp = (long)(resu_exp * get_property("gain.exp.mod.res.normal", 0.750));
       }
-    }     
-    
+    }
+
     logit(LOG_EXP,
           "Resu debug: %s (%d) by %s (%d): old exp: %d, new exp: %d, +exp: %d",
           GET_NAME(t_ch), GET_LEVEL(t_ch), GET_NAME(ch), GET_LEVEL(ch),
@@ -15466,10 +15475,10 @@ void spell_resurrect(int level, P_char ch, char *arg, int type, P_char victim,
     debug("&+RResurrect&n: %s (%d) by %s (%d): old exp: %d, new exp: %d, +exp: %d",
           GET_NAME(t_ch), GET_LEVEL(t_ch), GET_NAME(ch), GET_LEVEL(ch),
           GET_EXP(t_ch), GET_EXP(t_ch) + resu_exp, resu_exp);
-    
+
     gain_exp(t_ch, NULL, resu_exp, EXP_RESURRECT);
   }
-  
+
   GET_HIT(t_ch) = GET_MAX_HIT(t_ch);
   GET_MANA(t_ch) = MAX(0, GET_MAX_MANA(t_ch) >> 2);
   GET_VITALITY(t_ch) = MIN(0, GET_MAX_VITALITY(t_ch));
@@ -15483,23 +15492,24 @@ void spell_resurrect(int level, P_char ch, char *arg, int type, P_char victim,
     GET_COND(t_ch, THIRST) = 0;
   }
 
-  SET_POS(ch, POS_STANDING + STAT_NORMAL); 
+  SET_POS(ch, POS_STANDING + STAT_NORMAL);
 
   StartRegen(t_ch, EVENT_MOVE_REGEN);
   StartRegen(t_ch, EVENT_MANA_REGEN);
 
-  if(t_ch &&
-     affected_by_spell(t_ch, SPELL_POISON))
-        affect_from_char(t_ch, SPELL_POISON);
-      
-  if(t_ch &&
-     IS_AFFECTED2(t_ch, AFF2_POISONED))
-        REMOVE_BIT(t_ch->specials.affected_by2, AFF2_POISONED);
+  if( t_ch && affected_by_spell(t_ch, SPELL_POISON) )
+  {
+    affect_from_char(t_ch, SPELL_POISON);
+  }
+  if( t_ch && IS_AFFECTED2(t_ch, AFF2_POISONED) )
+  {
+    REMOVE_BIT(t_ch->specials.affected_by2, AFF2_POISONED);
+  }
 
   /*
    * Added by DTS 7/30/95
    */
-  if(IS_PC(t_ch) && !writeCharacter(t_ch, 1, t_ch->in_room))
+  if( IS_PC(t_ch) && !writeCharacter(t_ch, 1, t_ch->in_room) )
   {
     logit(LOG_DEBUG, "Problem saving player %s in spell_resurrect()",
           GET_NAME(t_ch));

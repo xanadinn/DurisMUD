@@ -2370,13 +2370,11 @@ void die(P_char ch, P_char killer)
     add_event(retarget_event, PULSE_VIOLENCE - 1, killer, NULL, NULL, 0, NULL, 0);
   }
   /* count xp loss for victim and apply */
-  if(IS_PC(ch) &&
-      !CHAR_IN_ARENA(ch) &&
-      (GET_LEVEL(ch) > 1) &&
-      !IS_TRUSTED(ch)) // &&
-    //    (GET_RACEWAR(ch) != 1)) Goods lose exp again.
+  if( IS_PC(ch) && !CHAR_IN_ARENA(ch) && (GET_LEVEL(ch) > 1) && !IS_TRUSTED(ch) )
+    // && (GET_RACEWAR(ch) != 1)) Goods lose exp again.
   {
     loss = gain_exp(ch, NULL, 0, EXP_DEATH);
+    debug( "&+RDeath&n: %s lost %d experience from death.", J_NAME(ch), loss );
   }
 
 /*
