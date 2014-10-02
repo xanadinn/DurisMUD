@@ -705,9 +705,7 @@ void event_frost_bolt(P_char ch, P_char victim, P_obj obj, void *data)
     add_event(event_frost_bolt, PULSE_VIOLENCE, ch, victim, NULL, 0, fdata, sizeof(struct frost_data));
 }
 
-
-void spell_frost_bolt(int level, P_char ch, char *arg, int type,
-                      P_char victim, P_obj tar_obj)
+void spell_frost_bolt(int level, P_char ch, char *arg, int type, P_char victim, P_obj tar_obj)
 {
   P_obj    obj;
   struct frost_data fdata;
@@ -750,13 +748,11 @@ void spell_frost_bolt(int level, P_char ch, char *arg, int type,
       af.location = APPLY_STR;
       affect_join(victim, &af, TRUE, FALSE);
     }
-    add_event(event_frost_bolt, PULSE_VIOLENCE, ch, victim, NULL, 0, &fdata,
-              sizeof(fdata));
+    add_event(event_frost_bolt, PULSE_VIOLENCE, ch, victim, NULL, 0, &fdata, sizeof(fdata));
   }
 }
 
-void spell_ethereal_form(int level, P_char ch, char *arg, int type,
-                         P_char victim, P_obj tar_obj)
+void spell_ethereal_form(int level, P_char ch, char *arg, int type, P_char victim, P_obj tar_obj)
 {
   struct affected_type af;
   int duration = (int)(8 + GET_LEVEL(ch) / 10 + GET_CHAR_SKILL(ch, SKILL_DEVOTION) / 10);
@@ -906,7 +902,7 @@ void spell_conjure_air(int level, P_char ch, char *arg, int type,
     {
       duration += number(1,10);
       add_event(event_pet_death, (duration+1) * 60 * 4, mob, NULL, NULL, 0, NULL, 0);
-    }    
+    }
 
   }
 }
@@ -1206,8 +1202,7 @@ void spell_induce_tupor(int level, P_char ch, char *arg, int type,
 
   if(!get_scheduled(victim, event_tupor_wake))
   {
-    add_event(event_tupor_wake, (PULSE_VIOLENCE * 5),
-      ch, victim, NULL, 0, NULL, 0);
+    add_event(event_tupor_wake, (PULSE_VIOLENCE * 5), ch, victim, NULL, 0, NULL, 0);
   }
 
 }
@@ -1252,8 +1247,7 @@ void spell_tempest_terrain(int level, P_char ch, char *arg, int type,
      FALSE, ch, 0, 0, TO_NOTVICT);
 
 
-  add_event(event_tempest_terrain, 2*PULSE_VIOLENCE, 0, NULL, NULL, 0,
-            &ch->in_room, sizeof(ch->in_room));
+  add_event(event_tempest_terrain, 2*PULSE_VIOLENCE, 0, NULL, NULL, 0, &ch->in_room, sizeof(ch->in_room));
 
 }
 
@@ -1269,8 +1263,7 @@ void event_tempest_terrain(P_char ch, P_char victim, P_obj obj, void *data)
 
   world[tdata.room].sector_type = SECT_AIR_PLANE;
   
-  add_event(event_tempest_terrain_bye, 20*PULSE_VIOLENCE, 0, NULL, NULL, 0, &tdata,
-            sizeof(tdata));
+  add_event(event_tempest_terrain_bye, 20*PULSE_VIOLENCE, 0, NULL, NULL, 0, &tdata, sizeof(tdata));
 }
 
 void event_tempest_terrain_bye(P_char ch, P_char victim, P_obj obj, void *data)
@@ -2247,8 +2240,7 @@ void event_static_discharge(P_char ch, P_char victim, P_obj obj, void *data)
       TRUE, ch, 0, victim, TO_ROOM);
     act("&+WThe &+cli&+Cgh&+ctn&+Cin&+cg &+Wsurrounding you &+Yglo&+yws b&+Yrie&+yfly.",
       TRUE, ch, 0, 0, TO_CHAR);
-    add_event(event_static_discharge, PULSE_VIOLENCE, ch, victim,
-      NULL, 0, sdata, sizeof(struct static_discharge_data));
+    add_event(event_static_discharge, PULSE_VIOLENCE, ch, victim, NULL, 0, sdata, sizeof(struct static_discharge_data));
   }
 }
 
@@ -2338,8 +2330,8 @@ void event_razor_wind(P_char victim, P_char ch, P_obj obj, void *data)
   };
 
   duration = *((int *) data);
-  // 40-60 damage.
-  dam = 200 + number( -40, 40);
+  // 35-55 damage.
+  dam = 180 + number( -40, 40);
 
   if( !NewSaves(victim, SAVING_SPELL, 3) )
   {
@@ -2350,7 +2342,7 @@ void event_razor_wind(P_char victim, P_char ch, P_obj obj, void *data)
     && --duration > 0 )
   {
     // This has to be backwards for the event search to work right.. *sigh*
-    add_event(event_razor_wind, (PULSE_SPELLCAST * 3) / 2, victim, ch, NULL, 0, &duration, sizeof(int));
+    add_event(event_razor_wind, PULSE_SPELLCAST * 2, victim, ch, NULL, 0, &duration, sizeof(int));
   }
   else if( IS_ALIVE(victim) && duration <= 0 )
   {
@@ -2498,8 +2490,7 @@ void spell_conjure_void_elemental(int level, P_char ch, char *arg, int type, P_c
     {
       duration += number(1,10);
       add_event(event_pet_death, (duration+1) * 60 * 4, mob, NULL, NULL, 0, NULL, 0);
-    }    
-
+    }
   }
 }
 
@@ -2602,8 +2593,7 @@ void spell_conjure_ice_elemental(int level, P_char ch, char *arg, int type, P_ch
     {
       duration += number(1,10);
       add_event(event_pet_death, (duration+1) * 60 * 4, mob, NULL, NULL, 0, NULL, 0);
-    }    
-
+    }
   }
 }
 
@@ -2808,7 +2798,7 @@ void event_antimatter_collision(P_char victim, P_char ch, P_obj obj, void *data)
     && --duration > 0 )
   {
     // This has to be backwards for the event search to work right.. *sigh*
-    add_event(event_antimatter_collision, (PULSE_SPELLCAST * 3) / 2, victim, ch, NULL, 0, &duration, sizeof(int));
+    add_event(event_antimatter_collision, PULSE_SPELLCAST * 2, victim, ch, NULL, 0, &duration, sizeof(int));
   }
 }
 
@@ -2872,8 +2862,8 @@ void event_arctic_blast(P_char victim, P_char ch, P_obj obj, void *data)
   };
 
   duration = *((int *) data);
-  // 40-60 damage.
-  dam = 200 + number( -40, 40);
+  // 35-55 damage.
+  dam = 180 + number( -40, 40);
 
   if( !NewSaves(victim, SAVING_SPELL, 3) )
   {
@@ -2884,7 +2874,7 @@ void event_arctic_blast(P_char victim, P_char ch, P_obj obj, void *data)
     && --duration > 0 )
   {
     // This has to be backwards for the event search to work right.. *sigh*
-    add_event(event_arctic_blast, (PULSE_SPELLCAST * 3) / 2, victim, ch, NULL, 0, &duration, sizeof(int));
+    add_event(event_arctic_blast, PULSE_SPELLCAST * 2, victim, ch, NULL, 0, &duration, sizeof(int));
   }
   else if( IS_ALIVE(victim) && duration <= 0 )
   {
