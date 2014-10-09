@@ -17948,7 +17948,7 @@ void event_magma_burst(P_char ch, P_char vict, P_obj obj, void *data)
   int      level, dam;
   struct affected_type *af;
   struct damage_messages messages = {
-    0,
+    "&+RThe fire burns hot as it consumes $N&+R's flesh!",
     "&+RThe fire burns hot as it consumes your flesh!",
     0,
     "$N screams in agony as &+Rthe flames&n consume $M completely.",
