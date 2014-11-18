@@ -673,13 +673,6 @@ void appear(P_char ch)
           !IS_SET(ch->specials.affected_by3, AFF3_ECTOPLASMIC_FORM)))
       return;
 
-    if(((affected_by_spell(ch, SPELL_MIND_BLANK) &&
-            !number(0, 2))) &&
-        (IS_SET(ch->specials.affected_by, AFF_INVISIBLE) ||
-         IS_SET(ch->specials.affected_by3, AFF3_ECTOPLASMIC_FORM) ||
-         affected_by_spell(ch, SKILL_PERMINVIS)))
-      return;
-
     if (affected_by_spell(ch, SPELL_INVISIBLE))
       affect_from_char(ch, SPELL_INVISIBLE);
 

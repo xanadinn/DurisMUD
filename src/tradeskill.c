@@ -1539,6 +1539,9 @@ void event_mine_check( P_char ch, P_char victim, P_obj, void *data )
     return;
   }
 
+  // No more invis mining.
+  appear(ch);
+
   if( IS_DISGUISE(ch) )
   {
     send_to_char("Mining will ruin your disguise!\r\n", ch);
