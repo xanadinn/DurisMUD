@@ -4722,7 +4722,7 @@ bool single_stab(P_char ch, P_char victim, P_obj weapon)
 {
   int room = ch->in_room, skill, dice_mult, dam = 0;
   float dice_mod, level_mult, final_mult, damroll_mult, strdex_mod, spinal_tap, critical_stab, critical_stab_mult;
-  bool spinal = FALSE;
+  bool spinal = FALSE, quarter = FALSE;
   struct damage_messages messages = {
     "$N makes a strange sound as you place $p in $S back.",
     "Out of nowhere, $n stabs you in the back.",
@@ -4774,7 +4774,8 @@ bool single_stab(P_char ch, P_char victim, P_obj weapon)
     if(chance < opportunity || affected_by_spell(victim, SKILL_BACKSTAB) )
     {
       send_to_char("&+LSince your victim is &+raware&+L of your presence, you are unable to take full advantage of them...\r\n", ch);
-      dam *= affected_by_spell(victim, SKILL_BACKSTAB) ? .25 : .6;
+      quarter = affected_by_spell(victim, SKILL_BACKSTAB);
+      dam *= quarter ? .25 : .6;
     }
   }
 
@@ -4901,7 +4902,7 @@ bool single_stab(P_char ch, P_char victim, P_obj weapon)
        FALSE, ch, 0, victim, TO_VICT);
     act("With a swift tug $n wrenches the weapon free, ramming it into $N's spine!",
        FALSE, ch, 0, victim, TO_NOTVICTROOM);
-    if(melee_damage(ch, victim, number(-12, 12) + GET_LEVEL(ch), PHSDAM_NOREDUCE | PHSDAM_NOPOSITION, &messages)
+    if(melee_damage(ch, victim, (number(-12, 12) + GET_LEVEL(ch)) / (quarter ? 4 : 1), PHSDAM_NOREDUCE | PHSDAM_NOPOSITION, &messages)
       || !char_in_list(ch))
     {
       return TRUE;
@@ -5183,8 +5184,8 @@ bool backstab(P_char ch, P_char victim)
     }
   }
 
-  // Victim's timer resets each stab.. don't bother clearing it as it will auto-clear in 2.5sec anyway.
-  if( victim && IS_ALIVE(victim) ) // PENIS: && IS_PC(victim) )
+  // Victim's timer resets each stab.. don't bother clearing it as it will auto-clear in a few sec anyway.
+  if( victim && IS_ALIVE(victim) && IS_PC(victim) )
   {
     set_short_affected_by(victim, SKILL_BACKSTAB, 3*WAIT_SEC );
 /* Making this a short duration instead of PULSE_VIOLENCE ticks (like 20 min).
