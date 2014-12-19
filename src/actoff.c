@@ -3562,11 +3562,11 @@ void kick(P_char ch, P_char victim)
       }
       else
       {
-        act("Your mighty kick sends $N crashing into the wall!", FALSE, ch, 0,
+        act("Your mighty kick sends $N crashing onto the ground!", FALSE, ch, 0,
             victim, TO_CHAR);
-        act("$n's mighty kick sends you crashing into the wall!", FALSE, ch, 0,
+        act("$n's mighty kick sends you crashing onto the ground!", FALSE, ch, 0,
             victim, TO_VICT);
-        act("$n's mighty kick sends $N crashing into the wall!", FALSE, ch, 0,
+        act("$n's mighty kick sends $N crashing onto the ground!", FALSE, ch, 0,
             victim, TO_NOTVICT);
         SET_POS(victim, POS_PRONE + GET_STAT(victim));
         
@@ -7656,11 +7656,11 @@ void do_rearkick(P_char ch, char *argument, int cmd)
     }
     else
     {
-      act("&+rYour mighty rearkick sends&n $N &+rcrashing into the wall!&n",
+      act("&+rYour mighty rearkick sends&n $N &+rcrashing onto the ground!&n",
         FALSE, ch, 0, victim, TO_CHAR);
-      act("$n's &+rmighty kick sends you crashing into the wall!&n",
+      act("$n's &+rmighty kick sends you crashing onto the ground!&n",
         FALSE, ch, 0, victim, TO_VICT);
-      act("$n's &+rmighty kick sends&n $N &+rcrashing into the wall!&n",
+      act("$n's &+rmighty kick sends&n $N &+rcrashing onto the ground!&n",
         FALSE, ch, 0, victim, TO_NOTVICT);
       CharWait(victim, (int) (PULSE_VIOLENCE *
         get_property("kick.wallkick.victimlag", 1.5)));
