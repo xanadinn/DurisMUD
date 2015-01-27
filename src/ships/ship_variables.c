@@ -120,7 +120,7 @@ const WeaponData weapon_data[MAXWEAPON] = {
 const EquipmentData equipment_data[MAXEQUIPMENT] = {
 // Name                                     Cost      Frags Weight  Flags
  { "&+yBronze&+L Plated Ram",               0,        0,    0,      EQFLAGS01, },
- { "Zentharium Levistone",                  5000000,  1600, 0,      EQFLAGS02, },
+ { "Zentharium Levistone",                  5000000,  1000, 0,      EQFLAGS02, },
  { "&+WA &+bDi&+Bploma&+bt's &+WFlag&n",    0,        0,    0,      EQFLAGS03, }
 };
 
