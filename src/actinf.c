@@ -5155,56 +5155,111 @@ void do_score(P_char ch, char *argument, int cmd)
   }
   buf[0] = 0;
 
-  if (IS_AFFECTED3(ch, AFF3_INERTIAL_BARRIER))
+  if( IS_AFFECTED3(ch, AFF3_INERTIAL_BARRIER) )
+  {
     strcat(buf, " &+WIner&+Ltia&+Wl-Ba&+Lrri&+Wer&n");
-  if (IS_AFFECTED3(ch, AFF3_NON_DETECTION))
+  }
+  if( IS_AFFECTED3(ch, AFF3_NON_DETECTION) )
+  {
     strcat(buf, " &+LNon-Detection&n");
-  if (IS_AFFECTED2(ch, AFF2_ULTRAVISION))
+  }
+  if( IS_AFFECTED2(ch, AFF2_ULTRAVISION) )
+  {
     strcat(buf, " &+MUltravision&n");
-  if (IS_AFFECTED(ch, AFF_FARSEE))
+  }
+  if( IS_AFFECTED(ch, AFF_FARSEE) )
+  {
     strcat(buf, " &+YFarsee&n");
-  if (IS_AFFECTED(ch, AFF_FLY))
+  }
+  if( IS_AFFECTED(ch, AFF_FLY) )
+  {
     strcat(buf, " &+WFly&n");
-  if (IS_AFFECTED(ch, AFF_ARMOR))
+  }
+  if(IS_AFFECTED(ch, AFF_ARMOR) )
+  {
     strcat(buf, " &+WArmor&n");
-  if (IS_AFFECTED(ch, AFF_AWARE))
+  }
+  if( IS_AFFECTED(ch, AFF_AWARE) )
+  {
     strcat(buf, " &+BA&+Ww&+Ba&+Wr&+Be&n");
-  if (IS_AFFECTED(ch, AFF_HASTE))
+  }
+  if(IS_AFFECTED(ch, AFF_HASTE) )
+  {
     strcat(buf, " &+RH&+ra&+Rs&+rt&+Re&n");
-  if (IS_AFFECTED3(ch, AFF3_BLUR))
+  }
+  if( IS_AFFECTED3(ch, AFF3_BLUR) )
+  {
     strcat(buf, " &+CBlur&n");
-  if (IS_AFFECTED2(ch, AFF2_MINOR_INVIS) ||
-      IS_AFFECTED(ch, AFF_INVISIBLE))
+  }
+  if( IS_AFFECTED2(ch, AFF2_MINOR_INVIS) || IS_AFFECTED(ch, AFF_INVISIBLE) )
+  {
     strcat(buf, " &+cInv&+Cisi&+cbil&+City&n");
-  if (IS_AFFECTED3(ch, AFF3_ECTOPLASMIC_FORM))
+  }
+  if( IS_AFFECTED3(ch, AFF3_ECTOPLASMIC_FORM) )
+  {
     strcat(buf, " &+LEct&+mopla&+Lsmic f&+morm&n");
-  if (IS_AFFECTED(ch, AFF_LEVITATE))
+  }
+  if( IS_AFFECTED(ch, AFF_LEVITATE) )
+  {
     strcat(buf, " &+WLevitation&n");
-  if (IS_AFFECTED(ch, AFF_WATERBREATH))
+  }
+  if( IS_AFFECTED(ch, AFF_WATERBREATH) )
+  {
     strcat(buf, " &+bWater&+Bbreathing&n");
-  if (IS_AFFECTED3(ch, AFF3_SWIMMING))
+  }
+  if( IS_AFFECTED3(ch, AFF3_SWIMMING) )
+  {
     strcat(buf, " Treading Water");
-  if (IS_AFFECTED3(ch, AFF3_ENLARGE))
+  }
+  if( IS_AFFECTED3(ch, AFF3_ENLARGE) )
+  {
     strcat(buf, " &+REnlarged Size&n");
-  if (IS_AFFECTED3(ch, AFF3_REDUCE))
+  }
+  if( IS_AFFECTED3(ch, AFF3_REDUCE) )
+  {
     strcat(buf, " &+yReduced Size&n");
-  if (in_command_aura(ch))
+  }
+  if( in_command_aura(ch) )
+  {
     strcat(buf, " &+WCommand Aura&n");
-  if (IS_AFFECTED5(ch, AFF5_LISTEN))
+  }
+  if( IS_AFFECTED5(ch, AFF5_LISTEN) )
+  {
       strcat(buf, " &+wListen&n");
-  if (affected_by_spell(ch, SPELL_CORPSEFORM))
+  }
+  if( affected_by_spell(ch, SPELL_CORPSEFORM) )
+  {
      strcat(buf, " &+LCorpseform&n");
-  if (affected_by_spell(ch, SPELL_MIRAGE))
+  }
+  if( affected_by_spell(ch, SPELL_MIRAGE) )
+  {
      strcat(buf, " &+GM&+gi&+Gr&+ga&+Gg&+ge&n");
-  if (IS_AFFECTED5(ch, AFF5_TITAN_FORM))
+  }
+  if( IS_AFFECTED5(ch, AFF5_TITAN_FORM) )
+  {
      strcat(buf, " &+REno&+yrmou&+Rs Si&+yze&n");
-  if (IS_AFFECTED(ch, AFF_SNEAK))
+  }
+  if( IS_AFFECTED(ch, AFF_SNEAK) )
+  {
      strcat(buf, " &+WSneaking&n");
-  if (IS_AFFECTED4(ch, AFF4_EPIC_INCREASE))
+  }
+  if( IS_AFFECTED4(ch, AFF4_EPIC_INCREASE) )
+  {
     strcat(buf, " &+WBlessing of the Gods&n");
-  if (IS_AFFECTED3(ch, AFF3_TOWER_IRON_WILL))
+  }
+  if( IS_AFFECTED3(ch, AFF3_TOWER_IRON_WILL) )
+  {
     strcat(buf, " &+WTow&+Ler o&+Wf Ir&+Lon W&+Will&n");
-   
+  }
+  if( IS_AFFECTED4(ch, AFF4_NOFEAR) )
+  {
+      strcat(buf, " &+WFearless&n");
+  }
+  if( IS_AFFECTED3(ch, AFF3_PASS_WITHOUT_TRACE) )
+  {
+      strcat(buf, " &+gLight&+yfooted&n");
+  }
+
   if (*buf)
   {
     send_to_char("Enchantments:   ", ch);
