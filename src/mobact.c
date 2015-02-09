@@ -2863,12 +2863,21 @@ bool CastShamanSpell(P_char ch, P_char victim, int helping)
    */
   int sect, dam = 0, lvl = 0, spl = 0;
 
+  // Return TRUE on dead ch to stop it's actions (hopefully preventing a crash).
+  if( !IS_ALIVE(ch) )
+  {
+    return TRUE;
+  }
+
   lvl = GET_LEVEL(ch);
 
-  if(helping && !victim)
-    return FALSE;               /* no one to help */
+  // No one to help
+  if( helping && !IS_ALIVE(victim) )
+  {
+    return FALSE;
+  }
 
-  if(helping)
+  if( helping )
   {
     dam = GET_MAX_HIT(victim) - GET_HIT(victim);
     target = victim;
@@ -2880,334 +2889,325 @@ bool CastShamanSpell(P_char ch, P_char victim, int helping)
   }
 
   /* make sure I'm even able to cast in this room! */
-// Cast in this room to remove afflictions, unless it is silent
-  if(!IS_SET(world[ch->in_room].room_flags, (NO_MAGIC | ROOM_SILENT)))
+  // Cast in this room to remove afflictions, unless it is silent
+  if( !IS_SET(world[ch->in_room].room_flags, (NO_MAGIC | ROOM_SILENT)) )
   {
-    if(!spl &&
-       npc_has_spell_slot(ch, SPELL_RESTORATION) &&
-       DO_SHAM_RESTORATION(target) &&
-       !number(0, 2))
+    if( npc_has_spell_slot(ch, SPELL_RESTORATION)
+      && DO_SHAM_RESTORATION(target) && !number(0, 2) )
     {
       spl = SPELL_RESTORATION;
     }
-    
-    if(!spl && 
-      npc_has_spell_slot(ch, SPELL_PURIFY_SPIRIT) &&
-      (IS_AFFECTED2(target, AFF2_POISONED) ||
-      affected_by_spell(target, SPELL_DISEASE) ||
-      affected_by_spell(target, SPELL_PLAGUE) ||
-      affected_by_spell(target, SPELL_MALISON) ||
-      affected_by_spell(target, SPELL_CURSE) ||
-      get_scheduled(target, event_torment_spirits) ||
-      IS_AFFECTED(target, AFF_BLIND)))
+    else if( !spl && npc_has_spell_slot(ch, SPELL_PURIFY_SPIRIT)
+      && (IS_AFFECTED2(target, AFF2_POISONED)
+      || affected_by_spell(target, SPELL_DISEASE)
+      || affected_by_spell(target, SPELL_PLAGUE)
+      || affected_by_spell(target, SPELL_MALISON)
+      || affected_by_spell(target, SPELL_CURSE)
+      || get_scheduled(target, event_torment_spirits)
+      || IS_AFFECTED(target, AFF_BLIND)))
     {
       spl = SPELL_PURIFY_SPIRIT;
     }
-    if(spl)
+    if( spl )
+    {
       return (MobCastSpell(ch, target, 0, spl, lvl));
+    }
   }
-  
-// If the shaman was able to remove the affliction, time to check if other conditions 
-// should cause the shaman to flee.
-  if(MobShouldFlee(ch))
+
+  // If the shaman was able to remove the affliction, time to check if other conditions
+  //   should cause the shaman to flee.
+  if( MobShouldFlee(ch))
   {
     do_flee(ch, 0, 0);
-    return false;
+    return FALSE;
   }
-  
-  /* sort of weird here, but the idea is to not always cast healing
-     spells when not fighting and wounded */
 
-  if((!IS_FIGHTING(ch) ||
-     (number(0, 9) == 8)) &&
-     GET_LEVEL(target) > 10 &&
-     GET_RACE(target) != RACE_ANIMAL)
+  // Sort of weird here, but the idea is to not always cast healing
+  //   spells when not fighting and wounded.
+  if( !spl && (!IS_FIGHTING(ch) || (number(0, 9) == 8))
+    && GET_LEVEL(target) > 10 && GET_RACE(target) != RACE_ANIMAL )
   {
-    if(!spl &&
-       npc_has_spell_slot(ch, SPELL_RESTORATION) &&
-       DO_SHAM_RESTORATION(target))
+    if( npc_has_spell_slot(ch, SPELL_RESTORATION) && DO_SHAM_RESTORATION(target) )
     {
       spl = SPELL_RESTORATION;
     }
-  
-    if(!spl &&
-       npc_has_spell_slot(ch, SPELL_GREATER_MENDING) &&
-       dam > 75)
+    else if( npc_has_spell_slot(ch, SPELL_GREATER_MENDING) && dam > 75 )
     {
       spl = SPELL_GREATER_MENDING;
     }
     /* wellness is an option if no PCs/charmed PC pets are around */
     /* alas, wellness is currently in the same circle as greater mending.. but
-       it can't hurt to check, eh */
-    
-    if(!spl &&
-       npc_has_spell_slot(ch, SPELL_MENDING) &&
-      (dam > 40))
-          spl = SPELL_MENDING;
-    
-    if(!spl &&
-       npc_has_spell_slot(ch, SPELL_LESSER_MENDING) &&
-      (dam > 20))
-        spl = SPELL_LESSER_MENDING;
+       it can't hurt to check, eh.  <-- skipped and code deleted? */
+    else if( npc_has_spell_slot(ch, SPELL_MENDING) && (dam > 40) )
+    {
+      spl = SPELL_MENDING;
+    }
+    else if( npc_has_spell_slot(ch, SPELL_LESSER_MENDING) && (dam > 20) )
+    {
+      spl = SPELL_LESSER_MENDING;
+    }
   }
-  
-  if(!IS_FIGHTING(ch) && !spl)
+
+  if( !IS_FIGHTING(ch) && !spl )
   {
-    if(!IS_AFFECTED3(target, AFF3_GR_SPIRIT_WARD) &&
-       !IS_AFFECTED3(target, AFF3_SPIRIT_WARD) &&
-       npc_has_spell_slot(ch, SPELL_GREATER_SPIRIT_WARD))
+    if( !IS_AFFECTED3(target, AFF3_GR_SPIRIT_WARD) && !IS_AFFECTED3(target, AFF3_SPIRIT_WARD)
+        && npc_has_spell_slot(ch, SPELL_GREATER_SPIRIT_WARD) )
     {
       spl = SPELL_GREATER_SPIRIT_WARD;
     }
-    else
+    else if( !IS_AFFECTED3(target, AFF3_SPIRIT_WARD) && !IS_AFFECTED3(target, AFF3_GR_SPIRIT_WARD)
+      && npc_has_spell_slot(ch, SPELL_SPIRIT_WARD) )
     {
-      if(!IS_AFFECTED3(target, AFF3_SPIRIT_WARD) &&
-         !IS_AFFECTED3(target, AFF3_GR_SPIRIT_WARD) &&
-         npc_has_spell_slot(ch, SPELL_SPIRIT_WARD))
-      {
-        spl = SPELL_SPIRIT_WARD;
-      }
+      spl = SPELL_SPIRIT_WARD;
     }
-
-
-    if(!spl && !affected_by_spell(target, SPELL_SPIRIT_ARMOR) &&
-        npc_has_spell_slot(ch, SPELL_SPIRIT_ARMOR))
+    else if( !affected_by_spell(target, SPELL_SPIRIT_ARMOR) && npc_has_spell_slot(ch, SPELL_SPIRIT_ARMOR) )
+    {
       spl = SPELL_SPIRIT_ARMOR;
-
-    if(!spl && !IS_AFFECTED(target, AFF_PROT_FIRE) &&
-        npc_has_spell_slot(ch, SPELL_FIRE_WARD))
+    }
+    else if( !IS_AFFECTED(target, AFF_PROT_FIRE) && npc_has_spell_slot(ch, SPELL_FIRE_WARD) )
+    {
       spl = SPELL_FIRE_WARD;
-
-    if(!spl && !IS_AFFECTED2(target, AFF2_PROT_COLD) &&
-        npc_has_spell_slot(ch, SPELL_COLD_WARD))
+    }
+    else if( !IS_AFFECTED2(target, AFF2_PROT_COLD) && npc_has_spell_slot(ch, SPELL_COLD_WARD) )
+    {
       spl = SPELL_COLD_WARD;
-
-    if(!spl && !affected_by_spell(ch, SPELL_ELEM_AFFINITY) &&
-        target == ch &&
-        npc_has_spell_slot(ch, SPELL_ELEM_AFFINITY))
+    }
+    else if( !affected_by_spell(ch, SPELL_ELEM_AFFINITY) && target == ch
+      && npc_has_spell_slot(ch, SPELL_ELEM_AFFINITY) )
+    {
       spl = SPELL_ELEM_AFFINITY;
-
-    if(!spl && !affected_by_spell(target, SPELL_GREATER_SPIRIT_SIGHT) &&
-        !IS_AFFECTED(target, AFF_DETECT_INVISIBLE) &&
-        npc_has_spell_slot(ch, SPELL_GREATER_SPIRIT_SIGHT) &&
-        !IS_FIGHTING(ch))
+    }
+    else if( !affected_by_spell(target, SPELL_GREATER_SPIRIT_SIGHT)
+      && !IS_AFFECTED(target, AFF_DETECT_INVISIBLE)
+      && npc_has_spell_slot(ch, SPELL_GREATER_SPIRIT_SIGHT) )
+    {
       spl = SPELL_GREATER_SPIRIT_SIGHT;
-    
+    }
     // Let us cast greater ravenflight first.
-    if(!spl &&
-       !IS_FIGHTING(ch) &&
-       npc_has_spell_slot(ch, SPELL_GREATER_RAVENFLIGHT) &&
-       !IS_AFFECTED(target, AFF_FLY))
+    else if( npc_has_spell_slot(ch, SPELL_GREATER_RAVENFLIGHT) && !IS_AFFECTED(target, AFF_FLY) )
     {
       spl = SPELL_GREATER_RAVENFLIGHT;
     }
-    
-    if(!spl &&
-       !IS_FIGHTING(ch) &&
-       npc_has_spell_slot(ch, SPELL_RAVENFLIGHT) &&
-       !IS_AFFECTED(target, AFF_FLY))
+    else if( npc_has_spell_slot(ch, SPELL_RAVENFLIGHT) && !IS_AFFECTED(target, AFF_FLY) )
     {
       spl = SPELL_RAVENFLIGHT;
     }
-
-    if(!spl && !helping && npc_has_spell_slot(ch, SPELL_ELEPHANTSTRENGTH) &&
-        !affected_by_spell(target, SPELL_ELEPHANTSTRENGTH) &&
-        !affected_by_spell(target, SPELL_BEARSTRENGTH) &&
-        !affected_by_spell(target, SPELL_MOUSESTRENGTH))
+    else if( !helping && npc_has_spell_slot(ch, SPELL_ELEPHANTSTRENGTH)
+      && !affected_by_spell(target, SPELL_ELEPHANTSTRENGTH)
+      && !affected_by_spell(target, SPELL_BEARSTRENGTH)
+      && !affected_by_spell(target, SPELL_MOUSESTRENGTH) )
+    {
       spl = SPELL_ELEPHANTSTRENGTH;
-
-    if(!spl && !helping && npc_has_spell_slot(ch, SPELL_LIONRAGE) &&
-        !affected_by_spell(target, SPELL_LIONRAGE) &&
-        !affected_by_spell(target, SPELL_SHREWTAMENESS))
+    }
+    else if( !helping && npc_has_spell_slot(ch, SPELL_LIONRAGE)
+      && !affected_by_spell(target, SPELL_LIONRAGE)
+      && !affected_by_spell(target, SPELL_SHREWTAMENESS) )
+    {
       spl = SPELL_LIONRAGE;
-
-    if(!spl && !helping && npc_has_spell_slot(ch, SPELL_BEARSTRENGTH) &&
-        !affected_by_spell(target, SPELL_BEARSTRENGTH) &&
-        !affected_by_spell(target, SPELL_ELEPHANTSTRENGTH) &&
-        !affected_by_spell(target, SPELL_MOUSESTRENGTH))
+    }
+    else if( !helping && npc_has_spell_slot(ch, SPELL_BEARSTRENGTH)
+      && !affected_by_spell(target, SPELL_BEARSTRENGTH)
+      && !affected_by_spell(target, SPELL_ELEPHANTSTRENGTH)
+      && !affected_by_spell(target, SPELL_MOUSESTRENGTH) )
+    {
       spl = SPELL_BEARSTRENGTH;
-
-    if(!spl &&
-       npc_has_spell_slot(ch, SPELL_HAWKVISION) &&
-       !affected_by_spell(target, SPELL_HAWKVISION) &&
-       !affected_by_spell(target, SPELL_MOLEVISION) &&
-       !IS_AFFECTED4(ch, AFF4_HAWKVISION))
+    }
+    else if( npc_has_spell_slot(ch, SPELL_HAWKVISION)
+      && !affected_by_spell(target, SPELL_HAWKVISION)
+      && !affected_by_spell(target, SPELL_MOLEVISION)
+      && !IS_AFFECTED4(ch, AFF4_HAWKVISION) )
+    {
       spl = SPELL_HAWKVISION;
-
-    if(!spl && !IS_FIGHTING(ch) && npc_has_spell_slot(ch, SPELL_PANTHERSPEED)
-        && !affected_by_spell(target, SPELL_PANTHERSPEED) &&
-        !affected_by_spell(target, SPELL_WOLFSPEED) &&
-        !affected_by_spell(target, SPELL_SNAILSPEED))
+    }
+    else if( npc_has_spell_slot(ch, SPELL_PANTHERSPEED)
+      && !affected_by_spell(target, SPELL_PANTHERSPEED)
+      && !affected_by_spell(target, SPELL_WOLFSPEED)
+      && !affected_by_spell(target, SPELL_SNAILSPEED) )
+    {
       spl = SPELL_PANTHERSPEED;
-
+    }
     /* summon us some beasts */
-
-    if(!spl &&
-       !IS_FIGHTING(ch) &&
-       !GET_MASTER(ch) &&
-       (!IS_AFFECTED(ch, AFF_HIDE) ||
-       IS_SET(ch->specials.act, ACT_SENTINEL)) &&
-       !helping)
+    else if( !GET_MASTER(ch) && (!IS_AFFECTED(ch, AFF_HIDE)
+      || IS_SET(ch->specials.act, ACT_SENTINEL)) && !helping )
     {
       sect = world[ch->in_room].sector_type;
 
-      if(((sect == SECT_FIELD) ||
-          (sect == SECT_FOREST) ||
-          (sect == SECT_HILLS) ||
-          (sect == SECT_MOUNTAIN) ||
-          (sect == SECT_UNDRWLD_CITY) ||
-          (sect == SECT_UNDRWLD_INSIDE) ||
-          (sect == SECT_UNDRWLD_WILD)) &&
-          can_summon_beast(ch, lvl) &&
-          GET_VNUM(ch) != WH_HIGH_PRIEST_VNUM)
+      if( ((sect == SECT_FIELD) || (sect == SECT_FOREST)
+        || (sect == SECT_HILLS) || (sect == SECT_MOUNTAIN)
+        || (sect == SECT_UNDRWLD_CITY) || (sect == SECT_UNDRWLD_INSIDE)
+        || (sect == SECT_UNDRWLD_WILD)) && can_summon_beast(ch, lvl)
+        && GET_VNUM(ch) != WH_HIGH_PRIEST_VNUM )
       {
-        if(npc_has_spell_slot(ch, SPELL_GREATER_SUMMON_BEAST))
+        if( npc_has_spell_slot(ch, SPELL_GREATER_SUMMON_BEAST) )
+        {
           spl = SPELL_GREATER_SUMMON_BEAST;
+        }
         else if(npc_has_spell_slot(ch, SPELL_SUMMON_BEAST))
+        {
           spl = SPELL_SUMMON_BEAST;
+        }
       }
     }
-
-    if(!spl && !helping && !IS_FIGHTING(ch))
+    if( !spl && !helping )
     {
       P_char   tch;
       int      numb = 0, lucky, curr = 0;
 
-      for (tch = world[ch->in_room].people; tch; tch = tch->next_in_room)
-        if((ch != tch) && char_deserves_helping(ch, tch, TRUE))
+      for( tch = world[ch->in_room].people; tch; tch = tch->next_in_room )
+      {
+        if( (ch != tch) && char_deserves_helping(ch, tch, TRUE) )
+        {
           numb++;
+        }
+      }
 
-      if(numb)
+      if( numb )
       {
         if(numb == 1)
-          lucky = 1;
-        else
-          lucky = number(1, numb);
-
-        for (tch = world[ch->in_room].people; tch; tch = tch->next_in_room)
         {
-          if((ch != tch) && char_deserves_helping(ch, tch, TRUE))
-          {
-            curr++;
-            if(curr == lucky)
-              return (CastShamanSpell(ch, tch, TRUE));
-          }
+          lucky = 1;
+        }
+        else
+        {
+          lucky = number(1, numb);
         }
 
-        send_to_char("error in random number crap\r\n", ch);
+        for( tch = world[ch->in_room].people; tch; tch = tch->next_in_room )
+        {
+          if( (ch != tch) && char_deserves_helping(ch, tch, TRUE) )
+          {
+            curr++;
+            if( curr == lucky )
+            {
+              return (CastShamanSpell(ch, tch, TRUE));
+            }
+          }
+        }
+        debug("'%s' %d: Error in random number crap\r\n", J_NAME(ch), GET_VNUM(ch) );
       }
     }
   }
 
-  if(spl && ch)
+  if( spl )
   {
-    if(target && helping)
+    if( IS_ALIVE(target) && helping )
+    {
       return (MobCastSpell(ch, target, 0, spl, lvl));
+    }
     else
+    {
       return (MobCastSpell(ch, ch, 0, spl, lvl));
+    }
   }
 
-  if(helping)
+  // Switch to the offensive!
+  if( helping )
+  {
     return FALSE;
-
-  if(victim == ch)
-    return (FALSE);
-
-  if(!victim)
-    target = ch->specials.fighting;
+  }
+  if( victim == ch )
+  {
+    return FALSE;
+  }
+  if( !victim )
+  {
+    // Yes, we want victim set too, because we jump back and forth between offensive/defensive.
+    target = victim = ch->specials.fighting;
+  }
   else
+  {
     target = victim;
+  }
+  if( !IS_ALIVE(target) )
+  {
+    return FALSE;
+  }
 
-  if(!ch || !target)
-    return (FALSE);
-    
   // Just in case the mob is multiclass, let us hit the target
   // with a dispel magic. Jan08 -Lucrot
-  if(!spl &&
-     npc_has_spell_slot(ch, SPELL_DISPEL_MAGIC) &&
-     (number(0, 9) == 9) &&
-     no_chars_in_room_deserve_helping(ch) &&
-     (affected_by_spell(victim, SPELL_VITALITY) ||
-     IS_AFFECTED4(ch, AFF4_BATTLE_ECSTASY) ||
-     IS_AFFECTED4(victim, AFF4_SANCTUARY)) &&
-     (GET_LEVEL(ch) + 5) >= GET_LEVEL(target))
+  if( npc_has_spell_slot(ch, SPELL_DISPEL_MAGIC) && !(number(0, 9))
+    && no_chars_in_room_deserve_helping(ch)
+    && (affected_by_spell(victim, SPELL_VITALITY)
+    || IS_AFFECTED4(ch, AFF4_BATTLE_ECSTASY)
+    || IS_AFFECTED4(victim, AFF4_SANCTUARY))
+    && (GET_LEVEL(ch) + 5) >= GET_LEVEL(target) )
   {
     spl = SPELL_DISPEL_MAGIC;
   }
-
-  if(((NumAttackers(ch) > 1) ||
-       has_help(target) ||
-       no_chars_in_room_deserve_helping(ch)) &&
-      !IS_SET(world[ch->in_room].room_flags, SINGLE_FILE))
+  else if( ((NumAttackers(ch) > 1) || has_help(target)
+    || no_chars_in_room_deserve_helping(ch))
+    && !IS_SET(world[ch->in_room].room_flags, SINGLE_FILE) )
   {
-    
     // let's assume these spells are never blockable by globe, shall we?
-    
-    if(!spl && npc_has_spell_slot(ch, SPELL_ELEM_FURY) && OUTSIDE(ch) &&
-       !number(0, 2))
+    if( npc_has_spell_slot(ch, SPELL_ELEM_FURY) && OUTSIDE(ch) && !number(0, 2) )
+    {
       spl = SPELL_ELEM_FURY;
-      
-    if(!spl && npc_has_spell_slot(ch, SPELL_GREATER_EARTHEN_GRASP) &&
-       !number(0, 1))
+    }
+    else if( npc_has_spell_slot(ch, SPELL_GREATER_EARTHEN_GRASP) && !number(0, 1) )
+    {
       spl = SPELL_GREATER_EARTHEN_GRASP;
-      
-    if(!spl && npc_has_spell_slot(ch, SPELL_SCATHING_WIND) &&
-       !number(0, 1))
+    }
+    else if( npc_has_spell_slot(ch, SPELL_SCATHING_WIND) && !number(0, 1) )
+    {
       spl = SPELL_SCATHING_WIND;
-      
-    if(!spl && npc_has_spell_slot(ch, SPELL_EARTHEN_RAIN) && OUTSIDE(ch) &&
-       !number(0, 1))
+    }
+    else if( npc_has_spell_slot(ch, SPELL_EARTHEN_RAIN) && OUTSIDE(ch) && !number(0, 1) )
+    {
       spl = SPELL_EARTHEN_RAIN;
-
-    if(!spl && npc_has_spell_slot(ch, SPELL_ELEM_FURY))
+    }
+    else if( npc_has_spell_slot(ch, SPELL_ELEM_FURY) )
+    {
       spl = SPELL_ELEM_FURY;
-
-   /* why not?  it'll be fun */
-
-    if(!spl && (number(0, 15) == 6) &&
-       npc_has_spell_slot(ch, SPELL_GREATER_PYTHONSTING))
+    }
+    // Why not?  it'll be fun
+    else if( !(number(0, 15)) && npc_has_spell_slot(ch, SPELL_GREATER_PYTHONSTING) )
+    {
       spl = SPELL_GREATER_PYTHONSTING;
-
+    }
   }
-  if(spl && ch)
+  if( spl )
+  {
     return (MobCastSpell(ch, target, 0, spl, lvl));
+  }
 
   /* 5% chance of casting something that disables the attacker a tad */
-
-  if(!spl && (number(0, 19) == 3))
+  if( !(number(0, 19)) )
   {
-
-    /* randomly pick something, fall through if can't cast for whatever
-       reason */
-
-    switch (number(0, 4))
+    // Randomly pick something, fall through to next if mob doesn't have slot available.
+    switch( number(0, 4) )
     {
     case 0:
-      if(npc_has_spell_slot(ch, SPELL_SHREWTAMENESS) &&
-          !affected_by_spell(target, SPELL_SHREWTAMENESS))
+      if( npc_has_spell_slot(ch, SPELL_SHREWTAMENESS)
+        && !affected_by_spell(target, SPELL_SHREWTAMENESS) )
+      {
         spl = SPELL_SHREWTAMENESS;
-
+      }
     case 1:
-      if(!spl && npc_has_spell_slot(ch, SPELL_MOLEVISION) &&
-          !affected_by_spell(target, SPELL_MOLEVISION))
+      if( !spl && npc_has_spell_slot(ch, SPELL_MOLEVISION)
+        && !affected_by_spell(target, SPELL_MOLEVISION) )
+      {
         spl = SPELL_MOLEVISION;
-
+      }
     case 2:
-      if(!spl && npc_has_spell_slot(ch, SPELL_MALISON) &&
-          !affected_by_spell(target, SPELL_MALISON))
+      if( !spl && npc_has_spell_slot(ch, SPELL_MALISON)
+        && !affected_by_spell(target, SPELL_MALISON) )
+      {
         spl = SPELL_MALISON;
-
+      }
     case 3:
-      if(!spl && npc_has_spell_slot(ch, SPELL_PYTHONSTING) &&
-          !affected_by_spell(target, SPELL_POISON) &&
-          !IS_AFFECTED2(target, AFF2_POISONED))
+      if( !spl && npc_has_spell_slot(ch, SPELL_PYTHONSTING)
+        && !affected_by_spell(target, SPELL_POISON)
+        && !IS_AFFECTED2(target, AFF2_POISONED) )
+      {
         spl = SPELL_PYTHONSTING;
-        
+      }
     case 4:
-      if(!spl && npc_has_spell_slot(ch, SPELL_MOUSESTRENGTH) &&
-          !affected_by_spell(target, SPELL_MOUSESTRENGTH))
+      if( !spl && npc_has_spell_slot(ch, SPELL_MOUSESTRENGTH)
+        && !affected_by_spell(target, SPELL_MOUSESTRENGTH) )
+      {
         spl = SPELL_MOUSESTRENGTH;
-
+      }
+      break; // Stop here 'cause call of the wild is broken.
     case 5:
     case 6:
       if(!spl && npc_has_spell_slot(ch, SPELL_CALL_OF_THE_WILD) &&
@@ -3218,152 +3218,133 @@ bool CastShamanSpell(P_char ch, P_char victim, int helping)
       break;
     }
   }
-  if(!spl &&
-     !number(0, 2) &&
-     npc_has_spell_slot(ch, SPELL_FIREBRAND) &&
-     !ENJOYS_FIRE_DAM(target) &&
-     !IS_AFFECTED(target, AFF_PROT_FIRE))
+
+  if( spl )
+  {}
+  else if( !number(0, 2) && npc_has_spell_slot(ch, SPELL_FIREBRAND)
+    && !ENJOYS_FIRE_DAM(target) && !IS_AFFECTED(target, AFF_PROT_FIRE) )
   {
     spl = SPELL_FIREBRAND;
   }
-
-  if(!spl &&
-     npc_has_spell_slot(ch, SPELL_CASCADING_ELEMENTAL_BEAM))
+  else if( npc_has_spell_slot(ch, SPELL_CASCADING_ELEMENTAL_BEAM)
+    && (IS_COLD_VULN(target) || COLDSHIELDED(target) || FIRESHIELDED(target)
+    || LIGHTNINGSHIELDED(target) || number(0, 1)) )
   {
-    if(IS_COLD_VULN(target) ||
-       COLDSHIELDED(target) ||
-       FIRESHIELDED(target) ||
-       affected_by_spell(target, SPELL_LIGHTNINGSHIELD))
-    {    
       spl = SPELL_CASCADING_ELEMENTAL_BEAM;
-    }
-    else if(!number(0, 1))
-    {    
-      spl = SPELL_CASCADING_ELEMENTAL_BEAM;
-    }
   }
-  
-  if(!spl &&
-     npc_has_spell_slot(ch, SPELL_GASEOUS_CLOUD))
+  else if( npc_has_spell_slot(ch, SPELL_GASEOUS_CLOUD)
+    && (affected_by_spell(target, SPELL_LIGHTNINGSHIELD) || number(0, 1)) )
   {
-    if(affected_by_spell(target, SPELL_LIGHTNINGSHIELD))
-    {
-      spl = SPELL_GASEOUS_CLOUD;
-    }
-    else if(!number(0, 1))
-    {
-      spl = SPELL_GASEOUS_CLOUD;
-    }
+    spl = SPELL_GASEOUS_CLOUD;
   }
-  
-// Molten spray does good damage versus undead.
-  if(!spl &&
-     npc_has_spell_slot(ch, SPELL_MOLTEN_SPRAY) &&
-     IS_UNDEADRACE(target) &&
-     !affected_by_spell(target, SPELL_FIRE_AURA))
-        spl = SPELL_MOLTEN_SPRAY;
-  
-  if(!spl &&
-     npc_has_spell_slot(ch, SPELL_ARIEKS_SHATTERING_ICEBALL))
+  // Molten spray does good damage versus undead (unless fire aura is up).
+  else if( npc_has_spell_slot(ch, SPELL_MOLTEN_SPRAY)
+    && IS_UNDEADRACE(target) && !IS_AFFECTED2(target, AFF2_FIRE_AURA) )
   {
-    if(IS_COLD_VULN(target))
-    {
-      spl = SPELL_ARIEKS_SHATTERING_ICEBALL;
-    }
-    else if(!number(0, 1))
-    {
-      spl = SPELL_ARIEKS_SHATTERING_ICEBALL;
-    }
-  }
-
-// Corrosive blast damage is reduced if affected by a previous corrosive blast.
-  if(!spl &&
-     npc_has_spell_slot(ch, SPELL_CORROSIVE_BLAST) &&
-     !affected_by_spell(target, SPELL_CORROSIVE_BLAST))
-        spl = SPELL_CORROSIVE_BLAST;
-
-  if(!spl && npc_has_spell_slot(ch, SPELL_GREATER_SOUL_DISTURB) &&
-      spell_can_affect_char(target, SPELL_GREATER_SOUL_DISTURB))
-    spl = SPELL_GREATER_SOUL_DISTURB;
-
-  if(!spl && npc_has_spell_slot(ch, SPELL_SPIRIT_ANGUISH) &&
-      spell_can_affect_char(target, SPELL_SPIRIT_ANGUISH))
-    spl = SPELL_SPIRIT_ANGUISH;
-
-  if(!spl && npc_has_spell_slot(ch, SPELL_MOLTEN_SPRAY) &&
-      spell_can_affect_char(target, SPELL_MOLTEN_SPRAY))
     spl = SPELL_MOLTEN_SPRAY;
-
-  if(!spl && npc_has_spell_slot(ch, SPELL_SCORCHING_TOUCH) &&
-      spell_can_affect_char(target, SPELL_SCORCHING_TOUCH))
+  }
+  else if( npc_has_spell_slot(ch, SPELL_ARIEKS_SHATTERING_ICEBALL)
+    && (IS_COLD_VULN(target) || number(0, 1)) )
+  {
+    spl = SPELL_ARIEKS_SHATTERING_ICEBALL;
+  }
+  // Corrosive blast damage is reduced if affected by a previous corrosive blast.
+  else if( npc_has_spell_slot(ch, SPELL_CORROSIVE_BLAST)
+    && !affected_by_spell(target, SPELL_CORROSIVE_BLAST) )
+  {
+    spl = SPELL_CORROSIVE_BLAST;
+  }
+  else if( npc_has_spell_slot(ch, SPELL_GREATER_SOUL_DISTURB)
+    && spell_can_affect_char(target, SPELL_GREATER_SOUL_DISTURB) )
+  {
+    spl = SPELL_GREATER_SOUL_DISTURB;
+  }
+  else if( npc_has_spell_slot(ch, SPELL_SPIRIT_ANGUISH)
+    && spell_can_affect_char(target, SPELL_SPIRIT_ANGUISH) )
+  {
+    spl = SPELL_SPIRIT_ANGUISH;
+  }
+  else if( npc_has_spell_slot(ch, SPELL_MOLTEN_SPRAY)
+    && spell_can_affect_char(target, SPELL_MOLTEN_SPRAY) )
+  {
+    spl = SPELL_MOLTEN_SPRAY;
+  }
+  else if( npc_has_spell_slot(ch, SPELL_SCORCHING_TOUCH)
+    && spell_can_affect_char(target, SPELL_SCORCHING_TOUCH) )
+  {
     spl = SPELL_SCORCHING_TOUCH;
-
-  if(!spl && npc_has_spell_slot(ch, SPELL_SCALDING_BLAST) &&
-      spell_can_affect_char(target, SPELL_SCALDING_BLAST))
+  }
+  else if( npc_has_spell_slot(ch, SPELL_SCALDING_BLAST)
+    && spell_can_affect_char(target, SPELL_SCALDING_BLAST) )
+  {
     spl = SPELL_SCALDING_BLAST;
-
-  if(!spl && npc_has_spell_slot(ch, SPELL_FLAMEBURST) &&
-      spell_can_affect_char(target, SPELL_FLAMEBURST))
+  }
+  else if( npc_has_spell_slot(ch, SPELL_FLAMEBURST)
+    && spell_can_affect_char(target, SPELL_FLAMEBURST))
+  {
     spl = SPELL_FLAMEBURST;
+  }
 
   /* heal up, the offense that's left sucks anyway */
-
   /* don't heal up all the time though..  the mob may still be doing
      good barehanded damage */
-
-  if(number(0, 9) == 9)
+  if( !spl && !number(0, 9) )
   {
-    if(!spl &&
-       npc_has_spell_slot(ch, SPELL_RESTORATION) &&
-       DO_SHAM_RESTORATION(target))
+    // Ok, we only heal self at this point ffs (not the person we're fighting).
+    target = ch;
+    dam = GET_MAX_HIT(ch) - GET_HIT(ch);
+
+    if( npc_has_spell_slot(ch, SPELL_RESTORATION) && DO_SHAM_RESTORATION(target) )
     {
       spl = SPELL_RESTORATION;
     }
-
-    if(!spl &&
-       npc_has_spell_slot(ch, SPELL_GREATER_MENDING) &&
-       dam > 75)
+    else if( npc_has_spell_slot(ch, SPELL_GREATER_MENDING) && dam > 75 )
     {
       spl = SPELL_GREATER_MENDING;
     }
-    
-    if(!spl &&
-      npc_has_spell_slot(ch, SPELL_GREATER_MENDING) &&
-      dam > 75)
+    else if( npc_has_spell_slot(ch, SPELL_WELLNESS) && (dam > 50) )
     {
-      spl = SPELL_GREATER_MENDING;
-    }
-    if(!spl && npc_has_spell_slot(ch, SPELL_WELLNESS) && (dam > 50))
-    {
-      int      cast_it = TRUE;
+      bool cast_it = TRUE;
 
-      for (tempch = world[ch->in_room].people; tempch;
-           tempch = tempch->next_in_room)
+      // For each person in the room,
+      for( tempch = world[ch->in_room].people; tempch; tempch = tempch->next_in_room )
       {
-        if(IS_PC(tempch) || (tempch->following && IS_PC(tempch->following)))
+        // If they are a PC or a PC pet.
+        if( IS_PC(tempch) || IS_PC_PET(tempch) )
         {
           cast_it = FALSE;
           break;
         }
       }
 
-      if(cast_it)
+      if( cast_it )
+      {
         spl = SPELL_WELLNESS;
+      }
     }
-    if(!spl && npc_has_spell_slot(ch, SPELL_MENDING) && (dam > 40))
+    // We have to start the 'else if' chain over because of the loop check for wellness spell.
+    if( spl )
+    {}
+    else if( npc_has_spell_slot(ch, SPELL_MENDING) && (dam > 40) )
+    {
       spl = SPELL_MENDING;
-
-    if(!spl && npc_has_spell_slot(ch, SPELL_LESSER_MENDING) && (dam > 20))
+    }
+    else if( npc_has_spell_slot(ch, SPELL_LESSER_MENDING) && (dam > 20) )
+    {
       spl = SPELL_LESSER_MENDING;
+    }
   }
-  
-  if(!spl && npc_has_spell_slot(ch, SPELL_ICE_MISSILE) &&
-     spell_can_affect_char(target, SPELL_ICE_MISSILE))
-    spl = SPELL_ICE_MISSILE;
 
-  if(spl && ch && target)
+  if( !spl && npc_has_spell_slot(ch, SPELL_ICE_MISSILE)
+    && spell_can_affect_char(victim, SPELL_ICE_MISSILE) )
   {
-    if(IS_AGG_SPELL(spl))
+    spl = SPELL_ICE_MISSILE;
+    target = victim;
+  }
+
+  if( spl && IS_ALIVE(target) )
+  {
+    if( IS_AGG_SPELL(spl) )
     {
       nuke_target = pick_target(ch, PT_NUKETARGET | PT_WEAKEST);
 
@@ -3374,13 +3355,6 @@ bool CastShamanSpell(P_char ch, P_char victim, int helping)
       return (MobCastSpell(ch, target, 0, spl, lvl));
     }
   }
-
-  if(!spl)
-    target = ch;
-
-
-  if(spl && ch && target)
-    return (MobCastSpell(ch, target, 0, spl, lvl));
 
 /*
    if(!spl && (ch == victim))
@@ -3398,7 +3372,7 @@ bool CastShamanSpell(P_char ch, P_char victim, int helping)
      return (MobCastSpell(ch, target, 0, spl, lvl));
  */
 
-  return (FALSE);
+  return FALSE;
 }
 
 bool CastEtherSpell(P_char ch, P_char victim, int helping)
