@@ -364,7 +364,7 @@ void gain_epic(P_char ch, int type, int data, int amount)
   // These don't get hacked by being tasked: randommob (only 1 epic to start with), strahdme (super acheivement),
   //   bottle (epic bottles), PvP, or ship PvP.
   if( type != EPIC_RANDOMMOB && type != EPIC_STRAHDME && type != EPIC_BOTTLE && type != EPIC_PVP && type != EPIC_SHIP_PVP
-    && has_epic_task(ch) )
+    && type != EPIC_BOON && has_epic_task(ch) )
   {
     send_to_char("You have not completed the task given to you by the Gods, \n" \
                  "so you are not able to progress at usual pace.\n", ch);
