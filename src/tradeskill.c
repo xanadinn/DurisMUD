@@ -355,361 +355,328 @@ P_obj check_foundry(P_char ch)
 
 void do_forge(P_char ch, char *argument, int cmd)
 {
-  char     buf1[MAX_STRING_LENGTH];
+  int      skillLevel, objVnum, recipeNumber, commandType, iVal, invVnum;
+  int      numHighQuality, numLowQuality, lowQualityMaterialVnum, highQualityMaterialVnum;
+  int      invLowMats, invHighMats, invEssences;
+  char     buf[256];
+  char     recipe[256];
+  char     Gbuf1[MAX_STRING_LENGTH];
   char     first[MAX_INPUT_LENGTH];
   char     second[MAX_INPUT_LENGTH];
-  char     rest[MAX_INPUT_LENGTH];
-  char tempdesc [MAX_INPUT_LENGTH];
-  char short_desc[MAX_STRING_LENGTH];
-  char keywords[MAX_INPUT_LENGTH];
-  int i = 0;  
-  int choice = 0;  
-  P_obj hammer, foundry;
+  char     keywords[MAX_STRING_LENGTH];
+  char     short_desc[MAX_STRING_LENGTH];
+  char    *rest;
+  bool     hasAffect, hasFlux;
+  FILE    *recipeBookFile;
+  P_obj    obj, lowQualityMaterial, highQualityMaterial, inventory, invNextObj;
 
- if (!GET_CHAR_SKILL(ch, SKILL_FORGE))
+  if( !(skillLevel = GET_CHAR_SKILL(ch, SKILL_FORGE)) )
   {
-    act("You do not know how to &+Lforge&n.",
-        FALSE, ch, 0, 0, TO_CHAR);
+    act("You do not know how to &+Lforge&n.", FALSE, ch, 0, 0, TO_CHAR);
     return;
   }
 
 
-/***DISPLAYRECIPES STUFF***/
- 
-  char     buf[256], *buff, buf2[256], rbuf[MAX_STRING_LENGTH];
-  char     Gbuf1[MAX_STRING_LENGTH], selectedrecipe[MAX_STRING_LENGTH];
-  char buffer[256];
-  FILE    *f;
-  FILE    *recipelist;
-  int line, recfind;
-  unsigned long	linenum = 0;
-  int recnum;
-  long choice2;
-  long selected = 0;
-  P_obj tobj;
- 
-	
-  //Create buffers for name
+  // Directory to ch's recipe book.
   strcpy(buf, GET_NAME(ch));
-  buff = buf;
-  for (; *buff; buff++)
-  *buff = LOWER(*buff);
+  // Only need to lower the first initial (the rest are always lowercase).
+  *buf = LOWER(*buf);
   //buf[0] snags first character of name
   sprintf(Gbuf1, "Players/Tradeskills/%c/%s.crafting", buf[0], buf);
-  recipelist = fopen(Gbuf1, "r");
-    if (!recipelist)
+  // If we can't open the recipe book file.
+  if( !(recipeBookFile = fopen(Gbuf1, "r")) )
   {
     send_to_char("You dont know any recipes yet.\r\n", ch);
     return;
   }
-       half_chop(argument, first, rest);
-       half_chop(rest, second, rest);
-       choice2 = atoi(second);
+  rest = one_argument(argument, first);
+  one_argument(rest, second);
+  objVnum = atoi(second);
 
- 
- if (!*argument)
+  // If we don't have a first argument.
+  if( !*first )
   {
-  send_to_char("&+wForge Syntax:\n&n", ch);
-  send_to_char("&+w(forge info <number> - list required materials to forge the item.)\n&n", ch);
-  send_to_char("&+w(forge stat <number> - display properties of the item.)\n&n", ch);
-  send_to_char("&+w(forge make <number> - create the item.)\n&n", ch);
-  send_to_char("&+yYou know the following recipes:\n&n", ch);
-  send_to_char("----------------------------------------------------------------------------\n", ch);
-  send_to_char("&+BRecipe Number		              &+MItem&n\n\r", ch);
-      while((fscanf(recipelist, "%i", &recnum)) != EOF )
-	{  
-       /* debug
-       char bufbug[MAX_STRING_LENGTH];
-       */
-       if(recnum == choice2)
-       selected = choice2;
-       /* debug
-       sprintf(bufbug, "choice is: %d\r\n", selected);
-       send_to_char(bufbug, ch);
-       if(recnum == choice2)
-	send_to_char("The one below here is selected.\r\n", ch);
-	*/
-	tobj = read_object(recnum, VIRTUAL);
- 	sprintf(rbuf, "%d\n", recnum);
-    sprintf(buffer, "   &+W%-22d&n%s&n\n", recnum, tobj->short_description);
-	//stores the actual vnum written in file into rbuf 
-	page_string(ch->desc, buffer, 1);
-    send_to_char("----------------------------------------------------------------------------\n", ch);
-      extract_obj(tobj, FALSE);
-   	}
-     fclose(recipelist);
-  /***ENDDISPLAYRECIPES***/
-
-  return;
+    commandType = 0;
+  }
+  else if( is_abbrev(first, "info") )
+  {
+    commandType = 1;
+  }
+  else if( is_abbrev(first, "stat") )
+  {
+    commandType = 2;
+  }
+  else if( is_abbrev(first, "make") )
+  {
+    commandType = 3;
+  }
+  // The first argument is invalid.
+  else
+  {
+    commandType = 0;
   }
 
-  while((fscanf(recipelist, "%i", &recnum)) != EOF )
-	{  
-       /* debug
-       char bufbug[MAX_STRING_LENGTH];
-       */
-       if(recnum == choice2)
-       selected = choice2;
-       /* debug
-       sprintf(bufbug, "choice is: %d\r\n", selected);
-       send_to_char(bufbug, ch);
-       if(recnum == choice2)
-	send_to_char("The one below here is selected.\r\n", ch);
-	*/
-	//tobj = read_object(recnum, VIRTUAL);
- 	sprintf(rbuf, "%d\n", recnum);
-	}
-  fclose(recipelist);
- 
-
-  if (is_abbrev(first, "stat"))
+  if( commandType == 0 )
   {
-    if(choice2 == 0)
-     {
-      send_to_char("What &+Wrecipe&n would you like &+ystatistics&n about?\n", ch);
-      return;
-     }
-    if(selected == 0)
-     {
-      send_to_char("You dont appear to have that &+Wrecipe&n in your list.&n\n", ch);
-      return;
-     }
-    tobj = read_object(selected, VIRTUAL);
-    send_to_char("&+yYou open your &+Ltome &+yof &+Ycra&+yftsm&+Lanship &+yand examine the &+Litem&n.\n", ch);
-    spell_identify(GET_LEVEL(ch), ch, 0, 0, 0, tobj);
-     extract_obj(tobj, FALSE);
+    send_to_char("&+wForge Syntax:\n&n", ch);
+    send_to_char("&+w(forge info <number> - list required materials to forge the item.)\n&n", ch);
+    send_to_char("&+w(forge stat <number> - display properties of the item.)\n&n", ch);
+    send_to_char("&+w(forge make <number> - create the item.)\n&n", ch);
+    send_to_char("&+yYou know the following recipes:\n&n", ch);
+    send_to_char("----------------------------------------------------------------------------\n", ch);
+    send_to_char("&+BRecipe Number		              &+MItem&n\n\r", ch);
+
+    while( (fscanf(recipeBookFile, "%i", &objVnum)) != EOF )
+    {
+      if( !(obj = read_object( objVnum, VIRTUAL )) )
+      {
+        logit( LOG_DEBUG, "'%s' has bad recipe vnum %d.", ch ? J_NAME(ch) : "NULL", objVnum );
+      }
+      sprintf(recipe, "   &+W%-22d&n%s&n\n", objVnum, obj->short_description);
+      page_string(ch->desc, recipe, 1);
+      send_to_char("----------------------------------------------------------------------------\n", ch);
+      extract_obj(obj, FALSE);
+    }
+    fclose(recipeBookFile);
     return;
   }
-  else if(is_abbrev(first, "info"))
+
+  // If the second argument doesn't exist or isn't a positive integer.
+  if( objVnum <= 0 )
   {
-    if(choice2 == 0)
-     {
-      send_to_char("What &+Wrecipe&n would you like &+yinformation&n about?\n", ch);
-      return;
-     }
-    if(selected == 0)
-     {
-      send_to_char("You dont appear to have that &+Wrecipe&n in your list.&n\n", ch);
-      return;
-     }
-   tobj = read_object(selected, VIRTUAL);
-
-   float tobjvalue = itemvalue(ch, tobj);
-
-   tobjvalue += 4; //add minimum crafting requirement of value 4.
-
-   int startmat = get_matstart(tobj);
-
-   tobjvalue = (float)tobjvalue / (float)5;
-
-   int fullcount = tobjvalue;
-
-    float difference = tobjvalue - fullcount;
-    difference = (int)(((float)difference * (float)10.0) / 2);
-
-    P_obj material;
-    P_obj material2;
-    material = read_object(startmat + 4, VIRTUAL);
-    material2 = read_object(startmat + ((int)difference - 1), VIRTUAL);
-    char matbuf[MAX_STRING_LENGTH];
-   //display startmat + difference;
-   if(fullcount != 0)
-   {
-    if(difference == 0)
+    if( commandType == 1 )
     {
-    send_to_char("&+yYou open your &+Ltome &+yof &+Ycra&+yftsm&+Lanship &+yand examine the &+Litem&n.\n", ch);
-     sprintf(matbuf, "To forge this item, you will need %d of %s.\r\n&n", fullcount, material->short_description);
-	page_string(ch->desc, matbuf, 1);
+      send_to_char("What &+Wrecipe&n would you like &+yinformation&n about?\n", ch);
+    }
+    else if( commandType == 2 )
+    {
+      send_to_char("What &+Wrecipe&n would you like &+ystatistics&n about?\n", ch);
     }
     else
     {
-    send_to_char("&+yYou open your &+Ltome &+yof &+Ycra&+yftsm&+Lanship &+yand examine the &+Litem&n.\n", ch);
-    sprintf(matbuf, "To forge this item, you will need %d of %s and %d of %s.\r\n&n", fullcount, material->short_description, (int)difference, material2->short_description);
-    page_string(ch->desc, matbuf, 1);
+      send_to_char("What &+Witem &nare you attempting to forge?\n", ch);
+    }
+    fclose(recipeBookFile);
+    return;
+  }
+
+  // Find objVnum in the recipe book.
+  while( (fscanf(recipeBookFile, "%i", &recipeNumber)) != EOF )
+  {
+    if( recipeNumber == objVnum )
+    {
+       break;
+    }
+	}
+  fclose(recipeBookFile);
+
+  // If we couldn't find the vnum in the recipe book (commandType is irrelevant).
+  if( recipeNumber != objVnum )
+  {
+    send_to_char("You dont appear to have that &+Wrecipe&n in your list.&n\n", ch);
+    return;
+  }
+
+  // Attempt to load the object we're inspecting/making.
+  if( !(obj = read_object( objVnum, VIRTUAL )) )
+  {
+    sprintf( Gbuf1, "Your recipe # %d seems to be &+rcorrupted&n. Please tell a &+WGod.\n\r", objVnum );
+    logit( LOG_DEBUG, "do_forge: '%s' has bad recipe vnum (%d) - couldn't load object.",
+      ch ? J_NAME(ch) : "NULL", objVnum );
+    return;
+  }
+
+
+  // 1 -> "info"
+  if( commandType == 1 )
+  {
+    // Display required materials to make obj - formula below:
+    iVal = itemvalue(ch, obj);
+    numHighQuality = (iVal + 4) / 5;
+    numLowQuality = (iVal + 4) - numHighQuality * 5;
+    lowQualityMaterialVnum = get_matstart(obj);
+    highQualityMaterialVnum = lowQualityMaterialVnum + 4;
+    lowQualityMaterial = read_object( lowQualityMaterialVnum, VIRTUAL );
+    highQualityMaterial = read_object( highQualityMaterialVnum, VIRTUAL );
+
+    if( lowQualityMaterial == NULL || highQualityMaterial == NULL )
+    {
+      send_to_char( "You couldn't figure out what materials to use.\n\r", ch );
+      if( lowQualityMaterial != NULL )
+      {
+        extract_obj( lowQualityMaterial, FALSE );
+      }
+      if( highQualityMaterial != NULL )
+      {
+        extract_obj( highQualityMaterial, FALSE );
+      }
+      extract_obj( obj, FALSE );
+      return;
     }
 
-   }
-   else
-    {
     send_to_char("&+yYou open your &+Ltome &+yof &+Ycra&+yftsm&+Lanship &+yand examine the &+Litem&n.\n", ch);
-    sprintf(matbuf, "To forge this item, you will need %d of %s.\r\n&n", (int)difference, material2->short_description);
-    page_string(ch->desc, matbuf, 1);
-     }
-    if(has_affect(tobj))
-    send_to_char("...as well as &+W1 &nof &+ma &+Mm&+Ya&+Mg&+Yi&+Mc&+Ya&+Ml &+messence&n due to the &+mmagical &nproperties this item possesses.\r\n", ch);
-    extract_obj(tobj, FALSE);
-    extract_obj(material2, FALSE);
-    extract_obj(material, FALSE);
-   return;
-  }
-  else if (is_abbrev(first, "make"))
-  {
-    if(choice2 == 0)
-     {
-      send_to_char("What &+Witem &nare you attempting to forge?\n", ch);
-      return;
-     }
-    if(selected == 0)
-     {
-      send_to_char("You dont appear to have that &+Wrecipe&n in your list.&n\n", ch);
-      return;
-     }
-/*
-    foundry = check_foundry(ch);
-
-    if (!foundry) 
-     { // No furnace/foundry/forge in room
-	act("&+LYou need to be by your foundry to forge...&n", FALSE, ch, 0, 0, TO_CHAR);
-	return;
-     }
-*/
-
-   tobj = read_object(selected, VIRTUAL);
-
-   float tobjvalue = itemvalue(ch, tobj);
-
-   tobjvalue += 4;
-
-   int startmat = get_matstart(tobj);
-
-   tobjvalue = (float)tobjvalue / (float)5;
-
-   int fullcount = tobjvalue;
-
-    float difference = tobjvalue - fullcount;
-    difference = (int)(((float)difference * (float)10.0) / 2);
-
-    P_obj material;
-    P_obj material2;
-    material = read_object(startmat + 4, VIRTUAL);
-    material2 = read_object(startmat + ((int)difference - 1), VIRTUAL);
-    char matbuf[MAX_STRING_LENGTH];
-
-  int affcount = has_affect(tobj);
-  int expgain = itemvalue(ch, tobj);
-
-
-  P_obj t_obj, nextobj;
-  int i = 0; //highest mat value
-  int o = 0; //lowest mat value
-  int x = 0; //magical essence
-  int y = 0; //flux
-  for (t_obj = ch->carrying; t_obj; t_obj = nextobj)
-  {
-    nextobj = t_obj->next_content;
-
-    if(GET_OBJ_VNUM(t_obj) == GET_OBJ_VNUM(material))
-      i++;
-
-    if(GET_OBJ_VNUM(t_obj) == GET_OBJ_VNUM(material2))
-     o++;
-
-    if(GET_OBJ_VNUM(t_obj) == 400223)
-    y++;
-
-    if(GET_OBJ_VNUM(t_obj) == 400211)
-    x++;
-  }
-   int z = 0;
-   if(has_affect(tobj))
-    z = 1;
-
-  if((i < fullcount) || (o < (int)difference) || ((z == 1) && (x < 1)))
-  {
-    send_to_char("You do not have the required &+ysalvaged &+Ymaterials &nin your inventory.\r\n", ch);
-    extract_obj(tobj, FALSE);
-    extract_obj(material2, FALSE);
-    extract_obj(material, FALSE);
-    return;
-  }
-  if(y < 1)
-  {
-    send_to_char("You must have a &+Lblacksmithing &nflux to complete the smithing process!\r\n", ch);
-    extract_obj(tobj, FALSE);
-    extract_obj(material2, FALSE);
-    extract_obj(material, FALSE);
-    return;
-  }
-
- //drannak - make the item
-   int obj1 = startmat + 4;
-   int obj2 = (startmat + ((int)difference -1));
-   y = 0;
-   i = 0;
-   z = 0;
-   y = 0;
-   o = 0;
-
-   for (t_obj = ch->carrying; t_obj; t_obj = nextobj)
-     {
-    nextobj = t_obj->next_content;
-
-	if((GET_OBJ_VNUM(t_obj) == obj1) && (i < fullcount) )
-         {
-	   obj_from_char(t_obj, TRUE);
-	   extract_obj(t_obj, TRUE);
-          i++;
-         }
-       if((GET_OBJ_VNUM(t_obj) == obj2) && (o < difference))
-         {
-	   obj_from_char(t_obj, TRUE);
-	   extract_obj(t_obj, TRUE);
-          o++;
-         }
-       if((GET_OBJ_VNUM(t_obj) == 400211) && (z < affcount))
-         {
-	   obj_from_char(t_obj, TRUE);
-	   extract_obj(t_obj, TRUE);
-          z++;
-         }
-       if((GET_OBJ_VNUM(t_obj) == 400223) && (y < 1))
-         {
-	   obj_from_char(t_obj, TRUE);
-	   extract_obj(t_obj, TRUE);
-          y++;
-         }
+    if( numLowQuality == 0 )
+    {
+      sprintf( recipe, "To forge this item, you will need %d of %s.\r\n&n",
+        numHighQuality, highQualityMaterial->short_description );
+    }
+    else
+    {
+      // numHighQuality will always be >= 1 with the code the way it is on 2/11/2015.
+      if( numHighQuality == 0 )
+      {
+        sprintf( recipe, "To forge this item, you will need %d of %s.\r\n&n",
+          numLowQuality, lowQualityMaterial->short_description );
       }
-
- //reward here
-  wizlog(56, "%s crafted %s" , GET_NAME(ch), tobj->short_description);
-  notch_skill(ch, SKILL_FORGE, 50);
-  P_obj reward = read_object(selected, VIRTUAL);
-  SET_BIT(reward->extra2_flags, ITEM2_CRAFTED);
-  SET_BIT(reward->extra_flags, ITEM_NOREPAIR);
-  REMOVE_BIT(reward->extra_flags, ITEM_SECRET);
-
-  randomizeitem(ch, reward);
-
-  sprintf(keywords, "%s %s tradeskill", reward->name, GET_NAME(ch));
-
-  sprintf(tempdesc, "%s", reward->short_description);
-  sprintf(short_desc, "%s &+ymade by&n &+r%s&n", tempdesc, GET_NAME(ch));
-  set_keywords(reward, keywords);
-  set_short_description(reward, short_desc);
-
-
-
-  obj_to_char(reward, ch);
-  act
-    ("&+W$n &+Lgently takes their &+ymaterials&+L, their &nflux&+L, and places them into the &+rf&+Ro&+Yr&+Rg&+re&+L.\r\n"
-     "&+W$n &+Lremoves the &+yitems &+Lfrom the &+rheat &+Land starts to &nhammer &+Laway at the mixture..\r\n"
-     "&+L...after shedding plenty of &+Wsweat&+L, &+W$n &+Lsteps back, admiring their new $p.&N",
-     TRUE, ch, tobj, 0, TO_ROOM);
-  act
-    ("You &+Lgently take your &+ymaterials&+L, the &nflux&+L, and place them into the &+rf&+Ro&+Yr&+Rg&+re&+L.\r\n"
-     "You &+Lremove the &+yitems &+Lfrom the &+rheat &+Land start to &nhammer &+Laway at the mixture..\r\n"
-     "&+L...after shedding plenty of &+Wsweat&+L, you &+Lstep back, admiring your new $p.&N",
-     FALSE, ch, tobj, 0, TO_CHAR);
-    gain_exp(ch, NULL, (itemvalue(ch, tobj) * 1000), EXP_BOON);
-    extract_obj(tobj, FALSE);
-    extract_obj(material2, FALSE);
-    extract_obj(material, FALSE);
-    gain_exp(ch, NULL, (expgain * 10000), EXP_QUEST);
-
+      else
+      {
+        sprintf( recipe, "To forge this item, you will need %d of %s and %d of %s.\r\n&n",
+          numHighQuality, highQualityMaterial->short_description,
+          numLowQuality, lowQualityMaterial->short_description );
+      }
+    }
+    page_string(ch->desc, recipe, 1);
+    extract_obj( obj, FALSE );
+    extract_obj( highQualityMaterial, FALSE );
+    extract_obj( lowQualityMaterial, FALSE );
+    return;
   }
+  // 2 -> "stat"
+  else if( commandType == 2 )
+  {
+    // Display info on obj:
+    send_to_char( "&+yYou open your &+Ltome &+yof &+Ycra&+yftsm&+Lanship &+yand examine the &+Litem&n.\n", ch );
+    spell_identify(GET_LEVEL(ch), ch, 0, 0, 0, obj);
+    extract_obj( obj, FALSE );
+    return;
+  }
+  // 3 -> "make"
+  else if( commandType == 3 )
+  {
+    // Attempt to make obj:
+    iVal = itemvalue(ch, obj);
+    numHighQuality = (iVal + 4) / 5;
+    numLowQuality = (iVal + 4) - numHighQuality * 5;
+    lowQualityMaterialVnum = get_matstart(obj);
+    highQualityMaterialVnum = lowQualityMaterialVnum + 4;
+    hasAffect = has_affect( obj );
 
+    /* Foundry code here (not requiring one atm I guess):
+    if( !check_foundry(ch) )
+    {
+      act("&+LYou need to be by your foundry to forge...&n", FALSE, ch, 0, 0, TO_CHAR);
+      extract_obj( obj, FALSE );
+      return;
+    }
+    */
 
-/*
+    hasFlux = FALSE;
+    invLowMats = invHighMats = invEssences = 0;
+    // Count up the materials ch has on hand.
+    for( inventory = ch->carrying; inventory; inventory = inventory->next_content )
+    {
+      invVnum = GET_OBJ_VNUM( inventory );
+
+      if( invVnum == lowQualityMaterialVnum )
+      {
+        invLowMats++;
+      }
+      else if( invVnum == highQualityMaterialVnum )
+      {
+        invHighMats++;
+      }
+      else if( invVnum == FORGING_ESSENCE_VNUM )
+      {
+        invEssences++;
+      }
+      else if( invVnum == FORGING_FLUX_VNUM )
+      {
+        hasFlux = TRUE;
+      }
+    }
+
+    // Check to make sure ch has enough materials.
+    if( hasFlux == FALSE )
+    {
+      send_to_char("You must have a &+Lblacksmithing &nflux to complete the smithing process!\r\n", ch);
+      extract_obj( obj, FALSE );
+      return;
+    }
+    if( (hasAffect && invEssences < 1) || (invLowMats < numLowQuality) || (invHighMats < numHighQuality) )
+    {
+      send_to_char("You do not have the required &+ysalvaged &+Ymaterials &nin your inventory.\r\n", ch);
+      extract_obj( obj, FALSE );
+      return;
+    }
+
+    // Ok, ch has the materials needed to create obj in inventory.. Now take them away, muahahah!
+    for( inventory = ch->carrying; inventory; inventory = invNextObj )
+    {
+      invNextObj = inventory->next_content;
+      invVnum = GET_OBJ_VNUM( inventory );
+
+      if( (invVnum == lowQualityMaterialVnum) && (numLowQuality > 0) )
+      {
+        obj_from_char( inventory, TRUE );
+        extract_obj( inventory, TRUE );
+        numLowQuality--;
+      }
+      else if( (invVnum == highQualityMaterialVnum) && (numHighQuality > 0) )
+      {
+        obj_from_char( inventory, TRUE );
+        extract_obj( inventory, TRUE );
+        numHighQuality--;
+      }
+      else if( hasAffect && (invVnum == FORGING_ESSENCE_VNUM) )
+      {
+        obj_from_char( inventory, TRUE );
+        extract_obj( inventory, TRUE );
+        hasAffect = FALSE;
+      }
+      else if( hasFlux && (invVnum == FORGING_FLUX_VNUM) )
+      {
+        obj_from_char( inventory, TRUE );
+        extract_obj( inventory, TRUE );
+        hasFlux = FALSE;
+      }
+    }
+
+    wizlog(56, "%s forged '%s' (%d) ival %d.", GET_NAME(ch), obj->short_description, objVnum, iVal );
+    notch_skill(ch, SKILL_FORGE, 50);
+    SET_BIT(obj->extra2_flags, ITEM2_CRAFTED);
+    SET_BIT(obj->extra_flags, ITEM_NOREPAIR);
+    REMOVE_BIT(obj->extra_flags, ITEM_SECRET);
+    randomizeitem(ch, obj);
+
+    sprintf( keywords, "%s %s tradeskill", obj->name, GET_NAME(ch));
+    sprintf( short_desc, "%s &+ymade by&n &+r%s&n", obj->short_description, GET_NAME(ch));
+    set_keywords( obj, keywords );
+    set_short_description( obj, short_desc );
+
+    obj_to_char( obj, ch );
+
+    act("&+W$n &+Lgently takes their &+ymaterials&+L, their &nflux&+L, and places them into the &+rf&+Ro&+Yr&+Rg&+re&+L.\r\n"
+      "&+W$n &+Lremoves the &+yitems &+Lfrom the &+rheat &+Land starts to &nhammer &+Laway at the mixture..\r\n"
+      "&+L...after shedding plenty of &+Wsweat&+L, &+W$n &+Lsteps back, admiring their new $p.&N",
+      TRUE, ch, obj, 0, TO_ROOM);
+    act("You &+Lgently take your &+ymaterials&+L, the &nflux&+L, and place them into the &+rf&+Ro&+Yr&+Rg&+re&+L.\r\n"
+      "You &+Lremove the &+yitems &+Lfrom the &+rheat &+Land start to &nhammer &+Laway at the mixture..\r\n"
+      "&+L...after shedding plenty of &+Wsweat&+L, you &+Lstep back, admiring your new $p.&N",
+      FALSE, ch, obj, 0, TO_CHAR);
+
+    gain_exp(ch, NULL, (iVal * 1000), EXP_BOON);
+    gain_exp(ch, NULL, (iVal * 10000), EXP_QUEST);
+  }
+  else
+  {
+    send_to_char( "&+RBad command type&n: Please report this to an Immortal.\n\r", ch );
+    logit( LOG_DEBUG, "do_forge: bad command arguments '%s' by '%s'.", argument, ch ? J_NAME(ch) : "NULL" );
+    extract_obj( obj, FALSE );
+    return;
+  }
+}
+
+/* OLD FORGE CODE:
   if (GET_CHAR_SKILL(ch, SKILL_FORGE) == 0){
     send_to_char("&+LYou dont know how to forge.\r\n", ch);
     return;
@@ -855,8 +822,7 @@ void do_forge(P_char ch, char *argument, int cmd)
     }
     return;
   }
- */
-}
+*/
 
 bool mine_friendly(int to_room) {
   if (world[to_room].sector_type == SECT_HILLS)
