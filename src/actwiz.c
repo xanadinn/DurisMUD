@@ -2442,7 +2442,7 @@ void do_stat(P_char ch, char *argument, int cmd)
     }
     if(is_number(arg2))
     {
-      if((i = real_mobile0(atoi(arg2))) == 0)
+      if((i = real_mobile(atoi(arg2))) == -1)
       {
         send_to_char("Illegal mob number.\n", ch);
         return;
