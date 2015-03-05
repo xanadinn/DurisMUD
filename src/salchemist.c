@@ -237,7 +237,8 @@ struct material material_parameters[NUMB_MATERIALS] = {
   {-4, 0},                      //"RUBBER",
   {0, 2, NO_WEAPON},            //"FEATHER",
   {0, 2, NO_WEAPON},            //"WAX",
-  {-8, 4}                       //"PEARL",
+  {-8, 4},                      //"PEARL",
+  {2, 1, LONGSWORD}             //"TIN"
 };
 
 

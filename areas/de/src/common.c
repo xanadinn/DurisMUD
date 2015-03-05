@@ -739,5 +739,6 @@ struct material_data materials[NUMB_MATERIALS] = {
   {"&+Lrubber&n"},
   {"&+Wfeather&n"},
   {"&+Wwax&n"},
-  {"&+Wpearl&n"}
+  {"&+Wpearl&n"},
+  {"&+Ctin&n"}
 };

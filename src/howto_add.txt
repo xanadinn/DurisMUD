@@ -1,6 +1,6 @@
 This is a help file for coders.  It's designed to help you learn how to
   add stuff to the mud without breaking anything.  Please note that a
-  good rule to follow is that nothing is up to date, but is can be a good
+  good rule to follow is that nothing is up to date, but this can be a good
   starting place.
 
 Howto Add a Spell:
@@ -18,6 +18,15 @@ Howto Add a Spell:
   Sixth, commit/push your new spell.
 
 Howto Add an Epic Type:
-  First, add the type in epic.h (EPIC_... <number> where number is next in line)
+  First, add the type in epic.h (EPIC_... <number> where number is next in line).
   Second, use the type where the gain_epic function is called.
   Third, edit gain_epic function in epic.c to realize the new type (in switch statement).
+
+Howto Add a Material Type:
+  First, add the type in objmisc.h (and increment MAT_HIGHEST).
+  Second, add the name of the material in common.c (in item_material[] and materials[]).
+  Third, update material_parameters in salchemist.c (hardiness, magic_power, preferred_weapon, adjective).
+  Now, go to mud/areas/de/src:
+    Fourth, add the name of the material in common.c (in materials[]).
+    Fifth, add MAT_<new material> in objmisc.h (and increment MAT_HIGHEST).
+    Sixth, add MAT_<new material> in obj/material.h (and increment MAT_HIGHEST).

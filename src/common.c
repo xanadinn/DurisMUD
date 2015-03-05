@@ -1363,6 +1363,7 @@ const char *item_material[] = {
   "FEATHER",
   "WAX",
   "PEARL",
+  "TIN",
   "\n"
 };
 
@@ -1534,7 +1535,9 @@ struct material_data materials[NUMB_MATERIALS] = {
   {"&+Wwax&n",
    {9, 9, 0, 0, 0, 3, 0, 0, 0, 0}},
   {"&+Wpearl&n",
-   {3, 5, 0, 0, 0, 2, 0, 0, 0, 0}}
+   {3, 5, 0, 0, 0, 2, 0, 0, 0, 0}},
+  {"&+Ctin&n",
+   {0, 0, 2, 0, 0, 2, 0, 0, 0, 0}}
 };
 
 

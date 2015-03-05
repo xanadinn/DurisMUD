@@ -60,6 +60,9 @@
 #define MAT_FEATHER   50
 #define MAT_WAX       51
 #define MAT_PEARL     52
+#define MAT_TIN       53
+
+#define MAT_HIGHEST   53
 
 #define CRAFTING_TOOLS_VNUM 400224
 #define CRAFTING_ESSENCE_VNUM 400211
@@ -71,7 +74,7 @@
                         mat == MAT_COPPER || mat == MAT_BRASS || \
                         mat == MAT_ADAMANTIUM || mat == MAT_GOLD || \
                         mat == MAT_SILVER || mat == MAT_PLATINUM || \
-                        mat == MAT_MITHRIL || mat == MAT_ELECTRUM )
+                        mat == MAT_MITHRIL || mat == MAT_ELECTRUM || mat == MAT_TIN )
 #define IS_STONE(mat) ( mat == MAT_GRANITE || mat == MAT_GEM || \
                         mat == MAT_EMERALD || mat == MAT_SAPPHIRE || \
                         mat == MAT_OBSIDIAN || mat == MAT_MARBLE || \
@@ -94,7 +97,6 @@
                         mat == MAT_IVORY || mat == MAT_PEARL || \
                         mat == MAT_CHITINOUS || mat == MAT_BONE )
 
-#define MAT_HIGHEST     52
 #define NUMB_MATERIALS (MAT_HIGHEST + 1)
 
 #define OBJCRAFT_LOWEST  0

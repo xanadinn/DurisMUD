@@ -82,7 +82,8 @@
 #define MAT_FEATHER   50
 #define MAT_WAX       51
 #define MAT_PEARL     52
-#define MAT_HIGHEST   52
+#define MAT_TIN       53
+#define MAT_HIGHEST   53
 
 #define _MATERIAL_H_
 #endif

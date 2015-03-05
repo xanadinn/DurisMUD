@@ -85,6 +85,7 @@ void     set_short_description(P_obj t_obj, const char *newShort);
 void     set_long_description(P_obj t_obj, const char *newDescription);
 int      get_ival_from_proc( obj_proc_type );
 int      get_mincircle( int spell );
+int      calc_ore_cost( P_char ch, P_obj ore );
 
 struct mine_range_data {
   char *name;
@@ -868,13 +869,55 @@ int remove_mine_content(P_obj mine)
   return (mine->value[0]--);
 }
 
-int random_ore(int mine_quality)
+// Takes a mine quality (regular mine, not gems) and returns a vnum for an ore.
+//   This is just for raw ore, the char's luck check (increases value) is in event_mine_check.
+//   Mine quality ranges from 0 to 3 (I hope someone edits here if it changes).
+// Iron: 4/400 large, 15/400 medium, 7/400 small -> 26/400 total -> 6.5% chance.
+// Adamantium: 1/400 large, 8/400 medium, 29/400 small -> 38/400 total -> 9.5% chance.
+// Other 6 metals: 4/400 large, 20/400 medium, 32/400 small -> 56/400 total -> 14% chance.
+// Note: This makes adamantium a little more likely than iron, but that's ok; it makes people happy.
+//   You're most likely to find a small intermediate (non-iron, non-adamantium) ore, then small adamantium,
+//   medium intermediate, medium iron, medium adamantium, small iron, large non-adamantium, lastly large adamantium.
+int random_ore( int mine_quality )
 {
+  // Start with a random percentage.
+  int quality = number( 1, 100);
+  // metal_type ranges from 0 to 7 (iron, steel, copper, silver, gold, platinum, mithril, adamantium)
+  //   For mine_quality 0 -> 1-11 : 0, 12-25: 1, ... 82-95: 6, 96-100: 7
+  //   For mine_quality 1 -> 1-08 : 0, 09-22: 1, ... 79-92: 6, 93-100: 7
+  //   For mine_quality 2 -> 1-05 : 0, 06-19: 1, ... 76-89: 6, 90-100: 7
+  //   For mine_quality 3 -> 1-02 : 0, 03-16: 1, ... 73-86: 6, 87-100: 7
+  // It's important that there's a 14% chance to get adamantium with mine_quality 3, so we can get a large
+  //   adamantium ore per the ore_size = ... % 14 must be 13 for a large ore.
+  int ore_type = (quality+3*mine_quality+2) / 14;
+  // ore_quality ranges from 0 to 2 (small, medium, large)
+  //   For each metal type, we have a domain of 0-13 to map to 0-2.
+  // Below => (quality+3*mine_quality+2)%14 : ore_size -> 0-7: 0, 8-12: 1, 13: 2
+  //   This correlates to 8/14 chance for small, 5/14 for med, 1/14 for large.
+  //   Except adamantium only has a domain of 0-4 for mine_quality 0 so it will be small (5% chance) regardless.
+  //     And adamantium only has a domain of 0-7 for mine_quality 1 so it will be small 8% regardless.
+  //     And adamantium only has a domain of 0-10 for mine_quality 2 so it will be small 8% or medium 3%.
+  //     And adamantium has a domain of 0-13 for mine_quality 3 so it will be 8% small, 5% medium, 1% large.
+  //   Except iron has a domain of 3-13 for mine_quality 0 so it will be 5/11 small, 5/11 medium, 1/11 large.
+  //     And iron has a domain of 6-13 for mine_quality 1 so it will be 2/8 small, 5/8 medium, 1/8 large.
+  //     And iron has a domain of 9-13 for mine_quality 2 so it will be 4/5 medium, 1/5 large.
+  //     And iron has a domain of 12-13 for mine_quality 3 so it will be 1/2 medium, 1/2 large.
+  //     Note: The iron-size probabilities are assuming that the metal is iron (they are numerator% chance overall).
+  int ore_size = (((quality+3*mine_quality+2) % 14) - 3) / 5;
+
+  // Range needs to be from 400260 to 400283 : 0 * 3 + 0 + 400260 to 7 * 3 + 2 + 400260.
+  return (ore_type * 3) + ore_size + LOWEST_ORE_VNUM;
+
+/* Old code from when vnums were not in order.
+ * The "LARGE_ADAMANTIUM_ORE" constants and such are not updated.
+ * The above is so much nicer to read, and has decent comments and no if's.
+
+  // So, quality 0: 1 - 99, 1: 2 - 109, 2: 3 - 119, 3: 4 - 129
   int x = number(1 + mine_quality, 99 + mine_quality * 10);
 
-  if(x >= 99 + mine_quality * 9)
+  if(x >= 99 + mine_quality * 9) // 0: 99, 1: 108, 2: 117, 3: 126
     return LARGE_ADAMANTIUM_ORE;
-  if(x >= 98 + mine_quality * 9)
+  if(x >= 98 + mine_quality * 9) // 0: 98, 1: 107, 2: 116, 3: 125
     return MEDIUM_ADAMANTIUM_ORE;
   if(x >= 97 + mine_quality * 9)
     return SMALL_ADAMANTIUM_ORE;
@@ -920,6 +963,7 @@ int random_ore(int mine_quality)
     return MEDIUM_IRON_ORE;
 
   return SMALL_IRON_ORE;
+*/
 }
 
 P_obj get_ore_from_mine(P_char ch, int mine_quality)
@@ -1540,21 +1584,8 @@ void event_mine_check( P_char ch, P_char victim, P_obj, void *data )
         send_to_char( "Your efforts were thwarted by an unseen force.  Tell a God.\n\r", ch );
         return;
       }
-      //Dynamic pricing - Drannak 3/21/2013
-      // 100 p starting point
-      newcost = 100000;
-      newcost *= (float)GET_LEVEL(ch) / 56.0;
-      newcost *= (GET_CHAR_SKILL(ch, SKILL_MINE)) / 100.0;
-
-      // Anything less than gold gets a little bit of a reduction in price.
-      if(GET_OBJ_VNUM(ore) < SMALL_GOLD_ORE)
-      {
-        newcost *= .6;
-      }
-
-      // The greatest rarity gets a 233/230 modifier (And adamantium 501-3/230)..
-      // The lowest gets a 194/230 modifier.
-      newcost *= (float)GET_OBJ_VNUM(ore) / 230.0;
+      // Moved to a function to make it more readable.
+      newcost = calc_ore_cost( ch, ore );
     }
     else if( mdata->mine_type == GEMMINE_VNUM )
     {
@@ -5173,4 +5204,77 @@ int get_ival_from_proc( obj_proc_type proc )
     return 200;
   }
   return 100;
+}
+
+// Calculates the base cost of ore (metal and size variables & level and skill of ch).
+int calc_ore_cost( P_char ch, P_obj ore )
+{
+  // Cost in copper.
+  float newcost;
+  int vnum = GET_OBJ_VNUM(ore);
+
+  // Type of metal: 0=iron, 1=steel, 2=copper, 3=silver, 4=gold, 5=platinum, 6=mithril, 7=adamantium.
+  switch( (vnum-LOWEST_ORE_VNUM) / 3 )
+  {
+    case 0: // Iron
+      newcost = 20000.0;
+      break;
+    case 1: // Tin
+      newcost = 35000.0;
+      break;
+    case 2: // Copper
+      newcost = 50000.0;
+      break;
+    case 3: // Silver
+      newcost = 60000.0;
+      break;
+    case 4: // Gold
+      newcost = 80000.0;
+      break;
+    case 5: // Platinum
+      newcost = 100000.0;
+      break;
+    case 6: // Mithril
+      newcost = 135000.0;
+      break;
+    case 7: // Adamantium
+      newcost = 175000.0;
+      break;
+    default:
+      // Base for unknown is 1 copper.
+      newcost = 1.0;
+      break;
+  }
+
+  // Size of metal: 0=small, 1=medium, 2=large
+  switch( (vnum-LOWEST_ORE_VNUM) % 3 )
+  {
+    case 0:
+      // 75% cost for small.
+      newcost *= .75;
+      break;
+    case 1:
+      // 100% cost for meduim.
+      newcost *= 1.0;
+      break;
+    case 2:
+      // 150% cost for large.
+      newcost *= 1.50;
+      break;
+    default:
+      // Leave if unknown size.
+      break;
+  }
+
+  // Add a little randomness for shape +/- 3%.
+  newcost = newcost * number(970, 1030) / 1000.0;
+
+  // Level/skill multipliers
+  newcost *= (float)GET_LEVEL(ch) / 56.0;
+  newcost *= (GET_CHAR_SKILL(ch, SKILL_MINE)) / 100.0;
+
+  debug( "New ore: '%s' (lvl: %d, skill: %d) value: %d,%d.", ore->short_description, GET_LEVEL(ch),
+    GET_CHAR_SKILL(ch, SKILL_MINE), (int)newcost/1000, (int)newcost%1000 );
+
+  return (int)newcost;
 }

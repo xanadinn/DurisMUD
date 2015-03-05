@@ -8,6 +8,9 @@
 #define PARCHMENT_VNUM 251
 #define MAX_NEEDED_ORE 5
 
+#define LOWEST_ORE_VNUM 400260
+
+// The below reg ore vnums are outdated; the new vnums are in order starting with above.
 #define SMALL_IRON_ORE 194
 #define MEDIUM_IRON_ORE 196
 #define LARGE_IRON_ORE 197
