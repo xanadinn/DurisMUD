@@ -705,18 +705,64 @@ void appear(P_char ch)
 
 }
 
-void setHeavenTime(P_char victim)
+// This function figures a time for victim to sit around in heaven (and sets it).
+// Right now it has a base of level+20 sec + 3 minutes for every PvP death within the hour.
+void setHeavenTime( P_char victim )
 {
-  int      time_in_heaven;
+  int time_in_heaven, counter, i;
+  int kill_ids[20];
+  MYSQL_RES *res;
+  MYSQL_ROW row;
+
+  // Victim must be a real PC, but doesn't have to be alive.
+  if( !victim || IS_NPC(victim) )
+  {
+    return;
+  }
 
   /* level / 10 minutes in heaven, rounded up */
-  if(victim)
+  //time_in_heaven = ((GET_LEVEL(victim) - 1) / 10 + 1) * 60;
+  // New value: level+20 seconds in heaven.
+  time_in_heaven = GET_LEVEL(victim)+20;
+
+  // Query the DB for the latest 20 deaths of victim in pvp
+  qry( "SELECT event_id FROM pkill_info WHERE pid=%d AND pk_type='VICTIM' ORDER BY id DESC LIMIT 20", GET_PID(victim) );
+  res = mysql_store_result(DB);
+  if( res )
   {
-    //time_in_heaven = ((GET_LEVEL(victim) - 1) / 10 + 1) * 60;
-    // New value: level+20 seconds in heaven.
-    time_in_heaven = GET_LEVEL(victim)+20;
-    victim->only.pc->pc_timer[PC_TIMER_HEAVEN] = time(NULL) + time_in_heaven;
+    counter = 0;
+    i = -1;
+    // Walk through and record each pkill id battle number.
+    while( (row = mysql_fetch_row(res)) != NULL )
+    {
+      kill_ids[++i] = atoi(row[0]);
+    }
+
+    mysql_free_result(res);
+
+    while( i >= 0 )
+    {
+      // If this death was within the last 60 min, increase the counter.
+      // Note: qry should always return true (successful attempt; no errors),
+      //   and res should have 0 or 1 rows, depending on whether the event was within the 60 minutes.
+      if( qry( "SELECT * from pkill_event WHERE id=%d AND TIMESTAMPDIFF( MINUTE, stamp, NOW() ) < 60", kill_ids[i--]) )
+      {
+        res = mysql_store_result(DB);
+        if( mysql_num_rows(res) > 0 )
+        {
+          counter++;
+        }
+        mysql_free_result(res);
+      }
+    }
+
+    // 3 extra minutes in heaven for each subsequent death.
+    time_in_heaven += counter * 180;
   }
+
+  victim->only.pc->pc_timer[PC_TIMER_HEAVEN] = time(NULL) + time_in_heaven;
+  debug( "%s time in heaven: until %s = %d seconds, recent deaths = %d.", J_NAME(victim),
+    asctime(localtime(&(victim->only.pc->pc_timer[PC_TIMER_HEAVEN]))), time_in_heaven, counter );
 }
 
 void AddFrags(P_char ch, P_char victim)
@@ -2322,6 +2368,7 @@ void die(P_char ch, P_char killer)
       && killer->group && killer->group == GET_MASTER(killer)->group ))
       && (killer != ch) )
     {
+      // It's important that this is before sql_save_pkill, 'cause we don't want to count this death as recent.
       setHeavenTime(ch);
       if( IS_PC_PET( killer ) )
       {

@@ -480,13 +480,17 @@ void sql_save_pkill(P_char ch, P_char victim)
   P_char   tch;
   unsigned long pkill_event;
 
-  /* If pet is the killer, we blame the owner */
-  if (IS_NPC(victim))
-    return;
-  if (IS_NPC(ch))
+  // NPCs can't be pkilled.
+  if( IS_NPC(victim) )
   {
-    if (ch->following && IS_PC(ch->following) &&
-        ch->in_room == ch->following->in_room && grouped(ch, ch->following))
+    return;
+  }
+
+  /* If pet is the killer, we blame the owner, if he's around */
+  if( IS_NPC(ch) )
+  {
+    if( ch->following && IS_PC(ch->following)
+      && ch->in_room == ch->following->in_room && grouped(ch, ch->following) )
     {
       ch = ch->following;
     }
@@ -498,7 +502,7 @@ void sql_save_pkill(P_char ch, P_char victim)
 
   /* Log a new pkill event, and get the handler for further logs */
   pkill_event = new_pkill_event(ch);
-  if (!pkill_event)
+  if( !pkill_event )
     return;
 
   struct group_list *gl;

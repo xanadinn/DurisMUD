@@ -1459,16 +1459,15 @@ int mortal_heaven(int room, P_char ch, int cmd, char *arg)
 
     if (tch->only.pc->pc_timer[PC_TIMER_HEAVEN] <= time(NULL))
     {
-      send_to_char
-        ("Your soul is torn from the afterlife, eternal rest denied...\n\r",
-         ch);
+      send_to_char("Your soul is torn from the afterlife, eternal rest denied...\n\r", ch);
       act("$n is torn from the afterlife.", FALSE, ch, 0, 0, TO_ROOM);
       writeCharacter(tch, RENT_DEATH, NOWHERE);
       extract_char(tch);
-      if (!tch->desc)
+      if( !tch->desc )
+      {
         free_char(tch);
+      }
     }
-
   }
 
   return TRUE;
