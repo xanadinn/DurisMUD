@@ -2793,37 +2793,25 @@ void barb_proc_dwarven_ancestor(int level, P_char ch, P_char victim)
   return;
 }
 
-int barb(P_obj obj, P_char ch, int cmd, char *arg)
+// This is the proc for the famous name-chaning mystical warhammer.
+int barb( P_obj obj, P_char ch, int cmd, char *arg )
 {
-  int      dam = cmd / 1000, curr_time, result, counter;
-  int      damage, type, flags;
-  bool     msg_found;
+
   P_char   vict;
-  P_char   mob, next_mob;
-  P_char   tmp_ch;
   char     buf1[MAX_STRING_LENGTH];
-  char     buf2[MAX_STRING_LENGTH];
-  char     buf3[MAX_STRING_LENGTH];
-  static struct _BarbProcArtiData BarbProcData;
-
-  static char storeAttacker[MAX_STRING_LENGTH];
-  static char storeVictim[MAX_STRING_LENGTH];
-  static char storeRoom[MAX_STRING_LENGTH];
-  static char storeDeath_attacker[MAX_STRING_LENGTH];
-  static char storeDeath_victim[MAX_STRING_LENGTH];
-  static char storeDeath_room[MAX_STRING_LENGTH];
+  time_t   curr_time;
+  int      damage, type, flags, result;
   struct proc_data *data;
+  struct affected_type *af1;
 
-  struct damage_messages messages = {
-    "A &+WMASSIVE &=LBlightning bolt strikes $N from the sky!",
-    "A &+WMASSIVE &=LBlightning bolt from the heavens strikes you!",
-    "A &+WMASSIVE &=LBlightning bolt strikes $N from the sky!",
-    "Your &+WMASSIVE &=LBlightning bolt shatters $N to pieces.",
-    "Your last vision is that of little kites circling your head, all being struck by lightning.",
-    "$N is utterly shattered from the force of a &=LBlightning bolt from the sky.",
-      0
-  };
+  static int curr_race = RACE_NONE;
+  // Whom ever did this is a very bad man; how do we know to reset when they rent/die/etc?
+  //   We must use some code in extract_obj (or free_obj is better) and call this function with the flag.
+  static struct _BarbProcArtiData BarbProcData =
+    // hammer, wielder, damage, flags, attacktype, messages(char* x 6, type, obj), messages_set
+    { NULL, NULL, 0, 0, 0, {NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL}, FALSE };
 
+  // Deflect a spell with bad messages.
   struct damage_messages messages_deflect = {
     "&+bA wave of &+Bmagical &+Cenergy&+b released from your weapon strikes down at $N!",
     "&+bYou are hit with a wave of &+Bmagical &+Cenergy!",
@@ -2834,69 +2822,104 @@ int barb(P_obj obj, P_char ch, int cmd, char *arg)
     0
   };
 
-  /*
-     check for periodic event calls
-   */
-  if (cmd == CMD_SET_PERIODIC)
+  // Set periodic 'cause we hum.
+  if( cmd == CMD_SET_PERIODIC )
   {
     return TRUE;
   }
 
-  if( !ch && cmd == CMD_PERIODIC )
+  // We hum if on ground or if on char.
+  if( cmd == CMD_PERIODIC )
   {
     hummer(obj);
     return TRUE;
   }
 
+  // Hammer being removed from game; we need to reset variables.
+  if( cmd == CMD_BARB_REMOVE )
+  {
+    // hammer, wielder, damage, flags, attacktype, messages(char* x 6, type, obj), messages_set
+    BarbProcData.hammer = NULL;
+    BarbProcData.wielder = NULL;
+    BarbProcData.damage = 0;
+    BarbProcData.flags = 0;
+    BarbProcData.attacktype = 0;
+    if( BarbProcData.messages_set )
+    {
+      str_free( BarbProcData.messages.attacker );
+      BarbProcData.messages.attacker = NULL;
+      str_free( BarbProcData.messages.victim );
+      BarbProcData.messages.victim = NULL;
+      str_free( BarbProcData.messages.room );
+      BarbProcData.messages.room = NULL;
+      str_free( BarbProcData.messages.death_attacker );
+      BarbProcData.messages.death_attacker = NULL;
+      str_free( BarbProcData.messages.death_victim );
+      BarbProcData.messages.death_victim = NULL;
+      str_free( BarbProcData.messages.death_room );
+      BarbProcData.messages.death_room = NULL;
+      BarbProcData.messages_set = FALSE;
+    }
+    return TRUE;
+  }
+
+  // If hammer isn't wielded or ch isn't the one wielding it.
   if( !OBJ_WORN_POS(obj, WIELD) || obj->loc.wearing != ch )
   {
     return FALSE;
   }
 
-  // Make it 8d6 rawr.
-  if( GET_RACE(ch) == RACE_OGRE )
+  if( curr_race != GET_RACE(ch) )
   {
-    SET_BIT(obj->extra_flags, ITEM_TWOHANDS);
-    obj->value[1] = 8;
-    obj->value[2] = 6;
-  }
-  else
-  {
-    REMOVE_BIT(obj->extra_flags, ITEM_TWOHANDS);
-    obj->value[1] = 6;
-    obj->value[2] = 5;
-  }
+    curr_race = GET_RACE(ch);
 
-  if( GET_RACE(ch) == RACE_OGRE )
-  {
-    /*act("$q begins to twist and writhe in $n's hands, his corruption seeping into it!", FALSE, ch, obj, vict, TO_ROOM);
-      act("$q begins to twist and writhe in your hands, your will corrupting it!", FALSE, ch, obj, vict, TO_CHAR);
-      */
-    sprintf(buf1, "&+bthe mighty warhammer of the ogre chiefs");
-    obj->short_description = NULL;
-    obj->str_mask |= STRUNG_DESC2;
-    obj->short_description = str_dup(buf1);
-  }
-  else if( GET_RACE(ch) == RACE_BARBARIAN )
-  {
-    sprintf(buf3, "&+ythe mystical warhammer of the barbarian kings");
-    obj->short_description = NULL;
-    obj->str_mask |= STRUNG_DESC2;
-    obj->short_description = str_dup(buf3);
-  }
-  else if( GET_RACE(ch) == RACE_MOUNTAIN || GET_RACE(ch) == RACE_DUERGAR )
-  {
-    sprintf(buf3, "&+Lthe warhammer of the &+yancient dwarven &+Rb&+ra&+Ltt&+Rl&+re&+Lr&+ra&+Rge&+Lr&+rs");
-    obj->short_description = NULL;
-    obj->str_mask |= STRUNG_DESC2;
-    obj->short_description = str_dup(buf3);
-  }
-  else if( GET_CLASS(ch, CLASS_BERSERKER) )
-  {
-    sprintf(buf2, "&+rthe great warhammer of the &+RRa&+rGe&+Rlo&+rRd");
-    obj->short_description = NULL;
-    obj->str_mask |= STRUNG_DESC2;
-    obj->short_description = str_dup(buf2);
+    // Make it 8d6 for ogres and 2h. rawr.
+    if( GET_RACE(ch) == RACE_OGRE )
+    {
+      // These will only occur once now instead of a zillion times.
+      act("$q begins to twist and writhe in $n's hands, his corruption seeping into it!", FALSE, ch, obj, NULL, TO_ROOM);
+      act("$q begins to twist and writhe in your hands, your will corrupting it!", FALSE, ch, obj, NULL, TO_CHAR);
+
+      SET_BIT(obj->extra_flags, ITEM_TWOHANDS);
+      obj->value[1] = 8;
+      obj->value[2] = 6;
+    }
+    else
+    {
+      REMOVE_BIT(obj->extra_flags, ITEM_TWOHANDS);
+      obj->value[1] = 6;
+      obj->value[2] = 5;
+    }
+
+    if( GET_RACE(ch) == RACE_OGRE )
+    {
+      obj->short_description = NULL;
+      // PENIS: Need to test this; does it solve a mem leak or cause a crash?
+      if( IS_SET( obj->str_mask, STRUNG_DESC2) )
+      {
+        str_free( obj->short_description );
+      }
+      obj->str_mask |= STRUNG_DESC2;
+      obj->short_description = str_dup( "&+bthe mighty warhammer of the ogre chiefs" );
+    }
+    else if( GET_RACE(ch) == RACE_BARBARIAN )
+    {
+      obj->short_description = NULL;
+      obj->str_mask |= STRUNG_DESC2;
+      obj->short_description = str_dup( "&+ythe mystical warhammer of the barbarian kings" );
+    }
+    else if( GET_RACE(ch) == RACE_MOUNTAIN || GET_RACE(ch) == RACE_DUERGAR )
+    {
+      obj->short_description = NULL;
+      obj->str_mask |= STRUNG_DESC2;
+      obj->short_description = str_dup( "&+Lthe warhammer of the &+yancient dwarven &+Rb&+ra&+Ltt&+Rl&+re&+Lr&+ra&+Rge&+Lr&+rs" );
+    }
+    else if( GET_CLASS(ch, CLASS_BERSERKER) )
+    {
+      obj->short_description = NULL;
+      obj->str_mask |= STRUNG_DESC2;
+      obj->short_description = str_dup( "&+rthe great warhammer of the &+RRa&+rGe&+Rlo&+rRd" );
+    }
   }
 
   if( arg && (cmd == CMD_SAY) )
@@ -2943,7 +2966,6 @@ int barb(P_obj obj, P_char ch, int cmd, char *arg)
         }
         else
         {
-          struct affected_type *af1;
           for( af1 = ch->affected; af1; af1 = af1->next )
           {
             if(af1->type == SKILL_DISPLACEMENT)
@@ -2971,7 +2993,7 @@ int barb(P_obj obj, P_char ch, int cmd, char *arg)
   }
 
   // 1/6 chance.
-  if( (cmd == CMD_GOTNUKED) && (GET_RACE(ch) == RACE_MOUNTAIN || GET_RACE(ch) == RACE_DUERGAR) && (!number(0, 5)))
+  if( (cmd == CMD_GOTNUKED) && (GET_RACE(ch) == RACE_MOUNTAIN || GET_RACE(ch) == RACE_DUERGAR) && (!number(0, 5)) )
   {
     hammer_berserk_check(ch);
     if( !(data = (struct proc_data *) arg) )
@@ -2994,6 +3016,7 @@ int barb(P_obj obj, P_char ch, int cmd, char *arg)
         if( BarbProcData.hammer != obj )
         {
           wizlog(MINLVLIMMORTAL, "Possibly more than one instance of barbarian warhammer present in game!");
+          logit(LOG_DEBUG, "Possibly more than one instance of barbarian warhammer present in game!");
           BarbProcData.hammer = obj;
         }
       }
@@ -3017,17 +3040,27 @@ int barb(P_obj obj, P_char ch, int cmd, char *arg)
       act("&+c...and releases a previously stored &+Bmagical energy&+c straight back at $N!", FALSE, ch, obj, vict, TO_NOTVICT);
       act("&+c...and releases a previously stored &+Bmagical energy&+c straight back at $N!", FALSE, ch, obj, vict, TO_CHAR);
 
-      if( BarbProcData.messages_set )
-      {
-        msg_found = TRUE;
-      }
-      else
-      {
-        msg_found = FALSE;
-      }
-
       result = spell_damage(ch, vict, BarbProcData.damage, BarbProcData.attacktype, BarbProcData.flags | SPLDAM_NOSHRUG | SPLDAM_NODEFLECT,
                      BarbProcData.messages_set ? &BarbProcData.messages : &messages_deflect);
+
+      // If old meesages are set, release them after they've been used.
+      if( BarbProcData.messages_set )
+      {
+        str_free( BarbProcData.messages.attacker );
+        BarbProcData.messages.attacker = NULL;
+        str_free( BarbProcData.messages.victim );
+        BarbProcData.messages.victim = NULL;
+        str_free( BarbProcData.messages.room );
+        BarbProcData.messages.room = NULL;
+        str_free( BarbProcData.messages.death_attacker );
+        BarbProcData.messages.death_attacker = NULL;
+        str_free( BarbProcData.messages.death_victim );
+        BarbProcData.messages.death_victim = NULL;
+        str_free( BarbProcData.messages.death_room );
+        BarbProcData.messages.death_room = NULL;
+
+        BarbProcData.messages_set = FALSE;
+      }
 
 /*      wizlog(MINLVLIMMORTAL,"setting new values, old dam = %d, new dam = %d", BarbProcData.damage, damage);*/
       if( result == DAM_NONEDEAD )
@@ -3040,36 +3073,24 @@ int barb(P_obj obj, P_char ch, int cmd, char *arg)
     BarbProcData.attacktype = type;
     BarbProcData.flags = flags;
 
+    // If spell being cast has good messages, set them for use next time.
     if( data->messages && data->messages->attacker && data->messages->victim
       && data->messages->room && data->messages->death_attacker
       && data->messages->death_victim && data->messages->death_room )
     {
-/*      wizlog(MINLVLIMMORTAL,"new spell has some messages, storing them now");*/
-      strcpy(storeAttacker, (const char *) data->messages->attacker);
-      strcpy(storeVictim, (const char *) data->messages->victim);
-      strcpy(storeRoom, (const char *) data->messages->room);
-      strcpy(storeDeath_attacker, (const char *) data->messages->death_attacker);
-      strcpy(storeDeath_victim, (const char *) data->messages->death_victim);
-      strcpy(storeDeath_room, (const char *) data->messages->death_room);
-
-      BarbProcData.messages.attacker = storeAttacker;
-      BarbProcData.messages.victim = storeVictim;
-      BarbProcData.messages.room = storeRoom;
-      BarbProcData.messages.death_attacker = storeDeath_attacker;
-      BarbProcData.messages.death_victim = storeDeath_victim;
-      BarbProcData.messages.death_room = storeDeath_room;
+      BarbProcData.messages.attacker = str_dup( data->messages->attacker );
+      BarbProcData.messages.victim = str_dup( data->messages->victim );
+      BarbProcData.messages.room = str_dup( data->messages->room );
+      BarbProcData.messages.death_attacker = str_dup( data->messages->death_attacker );
+      BarbProcData.messages.death_victim = str_dup( data->messages->death_victim );
+      BarbProcData.messages.death_room = str_dup( data->messages->death_room );
 
       BarbProcData.messages_set = TRUE;
-    }
-    else
-    {
-/*      wizlog(MINLVLIMMORTAL,"new spell has no messages, clearing old ones (setting messages_set to FALSE)");*/
-      BarbProcData.messages_set = FALSE;
     }
     return TRUE;
   }
 
-  if( !dam )
+  if( cmd != CMD_MELEE_HIT )
   {
     return FALSE;
   }
@@ -3183,8 +3204,7 @@ int barb(P_obj obj, P_char ch, int cmd, char *arg)
             // do_action(ch, 0, CMD_ROAR);
             // return DAM_CHARDEAD;
           // }
-        // }  
-        
+        // }
         // update_pos(vict);
 
         // if(!ancestor_was_here ||

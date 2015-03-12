@@ -856,10 +856,9 @@ extern unsigned int game_locked;
 #define CMD_DEFOREST       829 // Blighter command
 #define CMD_BEEP           830 // Make <arg>'s computer beep
 
-/* cmds below are not real commands, they are
-                used in item special procedures to identify
-                when wearer gets hit in melee or nuked  and when
-                an item is poofing on ground */
+/* The CMD_s below are not real commands, they are used in item special procedures to identify
+ * when wearer gets hit in melee or nuked and when an item is poofing on ground.
+ */
 
 #define CMD_MELEE_HIT   1000
 #define CMD_SET_PERIODIC -10
@@ -870,7 +869,7 @@ extern unsigned int game_locked;
 #define CMD_DECAY       -200
 #define CMD_FOUND       -201
 #define CMD_DISPEL      -202
-
+#define CMD_BARB_REMOVE -300  // CMD for barb hammer (vnum #17) to reset it's static vars (sigh).
 
 #define CMD_MOB_COMBAT  0
 #define CMD_MOB_MUNDANE 0

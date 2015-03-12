@@ -521,15 +521,17 @@ int dice(int num, int size)
  * Create a duplicate of a string
  */
 
-char    *str_dup(const char *source)
+char *str_dup( const char *source )
 {
   char    *nnew;
 
-  if (source == NULL)
-    return (NULL);
+  if( source == NULL )
+  {
+    return NULL;
+  }
 
   CREATE(nnew, char, strlen(source) + 1, MEM_TAG_STRING);
-  return (strcpy(nnew, source));
+  return strcpy(nnew, source);
 }
 
 /*
