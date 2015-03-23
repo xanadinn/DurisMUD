@@ -16,6 +16,7 @@
 #include "prototypes.h"
 #include "structs.h"
 #include "utils.h"
+#include "sql.h"
 
 extern int abs(int);
 
@@ -132,6 +133,15 @@ void event_write_statistic(P_char ch, P_char victim, P_obj obj, void *data)
 
   fprintf(f, "%s %d %d %d %d %d %d %d %d %d %d %d\r\n", mdate, goodies, evils, illithids, undeads, gods, inhalls, goodies_lvl, evils_lvl, undeads_lvl, illithids_lvl, unique_ips);
   fclose(f);
+
+#ifndef __NO_MYSQL__
+    qry("INSERT INTO statistics (" \
+        "date, goods_count, evils_count, illithids_count, undeads_count, gods_count, in_guildhall_count, sum_goods_levels, sum_evils_levels, sum_undeads_levels, sum_illithids_levels, unique_ips_count) " \
+        "VALUES (unix_timestamp(), %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d)",
+         goodies, evils, illithids, undeads, gods, inhalls, goodies_lvl, evils_lvl, undeads_lvl, illithids_lvl, unique_ips
+    );
+#endif
+
 
   add_event(event_write_statistic, PULSES_IN_TICK, NULL, NULL, NULL, 0, NULL, 0);
   //AddEvent(EVENT_SPECIAL, 500, TRUE, write_statistic, NULL);

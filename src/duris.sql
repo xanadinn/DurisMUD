@@ -747,6 +747,33 @@ CREATE TABLE `shop_trophy` (
 SET character_set_client = @saved_cs_client;
 
 --
+-- Table structure for table `statistics`
+--
+
+DROP TABLE IF EXISTS `statistics`;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8;
+CREATE TABLE `statistics` (
+  `id` int(11) NOT NULL auto_increment,
+  `date` int(11) NOT NULL default '0',
+
+  `goods_count` int(11) NOT NULL default '0',
+  `evils_count` int(11) NOT NULL default '0',
+  `illithids_count` int(11) NOT NULL default '0',
+  `undeads_count` int(11) NOT NULL default '0',
+  `gods_count` int(11) NOT NULL default '0',
+  `in_guildhall_count` int(11) NOT NULL default '0',
+  `sum_goods_levels` int(11) NOT NULL default '0',
+  `sum_evils_levels` int(11) NOT NULL default '0',
+  `sum_illithids_levels` int(11) NOT NULL default '0',
+  `sum_undeads_levels` int(11) NOT NULL default '0',
+  `unique_ips_count` int(11) NOT NULL default '0',
+
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+SET character_set_client = @saved_cs_client;
+
+--
 -- Table structure for table `timers`
 --
 
