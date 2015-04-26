@@ -5351,6 +5351,8 @@ void do_restore(P_char ch, char *argument, int cmd)
           send_to_char(file_to_string("lib/creation/skullsword"), victim);
         if(isname("Jexni", ch->player.name))
           send_to_char(file_to_string("lib/creation/hypnotoad"), victim);
+        if(isname("Gellz", ch->player.name))
+          send_to_char(file_to_string("lib/creation/cookie"), victim);
 
       }
     send_to_char("Restoration of all players completed.\n", ch);

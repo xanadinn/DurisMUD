@@ -1161,47 +1161,53 @@ void do_smelt(P_char ch, char *arg, int cmd)
 
       if(first_obj->R_num == second_obj->R_num) { // 2 identical items
         switch(obj_index[first_obj->R_num].virtual_number) {
-        case 194: //small iron
-          new_obj = read_object(196, VIRTUAL); //medium iron
+        case 400260: //small iron
+          new_obj = read_object(400261, VIRTUAL); //medium iron
           break;
-        case 196: //medium iron
-          new_obj = read_object(197, VIRTUAL); //large iron
+        case 400261: //medium iron
+          new_obj = read_object(400262, VIRTUAL); //large iron
           break;
-        case 198: //small steel
-          new_obj = read_object(199, VIRTUAL); //medium steel
+        case 400263: //small TIN
+          new_obj = read_object(400264, VIRTUAL); //medium steel
           break;
-        case 199: //medium iron
-          new_obj = read_object(200, VIRTUAL); //large steel
+        case 400264: //medium TIN
+          new_obj = read_object(400265, VIRTUAL); //large steel
           break;
-        case 201: //small copper
-          new_obj = read_object(202, VIRTUAL); //medium copper
+        case 400266: //small copper
+          new_obj = read_object(400267, VIRTUAL); //medium copper
           break;
-        case 202: //medium copper
-          new_obj = read_object(219, VIRTUAL); //large copper
+        case 400267: //medium copper
+          new_obj = read_object(400268, VIRTUAL); //large copper
           break;
-        case 220: //small silver
-          new_obj = read_object(221, VIRTUAL); //medium silver
+        case 400269: //small silver
+          new_obj = read_object(400270, VIRTUAL); //medium silver
           break;
-        case 221: //medium silver
-          new_obj = read_object(222, VIRTUAL); //large silver
+        case 400270: //medium silver
+          new_obj = read_object(400271, VIRTUAL); //large silver
           break;
-        case 223: //small gold
-          new_obj = read_object(224, VIRTUAL); //medium gold
+        case 400272: //small gold
+          new_obj = read_object(400273, VIRTUAL); //medium gold
           break;
-        case 224: //medium gold
-          new_obj = read_object(225, VIRTUAL); //large gold
+        case 400273: //medium gold
+          new_obj = read_object(400274, VIRTUAL); //large gold
           break;
-        case 226: //small platinum
-          new_obj = read_object(229, VIRTUAL); //medium platinum
+        case 400275: //small platinum
+          new_obj = read_object(400276, VIRTUAL); //medium platinum
           break;
-        case 229: //medium platinum
-          new_obj = read_object(230, VIRTUAL); //large platinum
+        case 400276: //medium platinum
+          new_obj = read_object(400277, VIRTUAL); //large platinum
           break;
-        case 231: //small mithril
-          new_obj = read_object(232, VIRTUAL); //medium mithril
+        case 400278: //small mithril
+          new_obj = read_object(400279, VIRTUAL); //medium mithril
           break;
-        case 232: //medium mithril
-          new_obj = read_object(233, VIRTUAL); //large mithril
+        case 400279: //medium mithril
+          new_obj = read_object(400280, VIRTUAL); //large mithril
+          break;
+        case 400281: //small adamantium
+          new_obj = read_object(400282, VIRTUAL); //medium adamantium
+          break;
+        case 400282: //medium adamantium
+          new_obj = read_object(400283, VIRTUAL); //large adamantium
           break;
         }
       }
