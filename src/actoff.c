@@ -5078,12 +5078,12 @@ bool backstab(P_char ch, P_char victim)
      percent_chance = (int) (percent_chance * 1.1);
   }
 
-  if( IS_AFFECTED(victim, AFF_AWARE) && AWAKE(victim) )
+  if( IS_AFFECTED(victim, AFF_AWARE) && AWAKE(victim) && !IS_DWARF(ch) )
   {
     percent_chance = (int) (percent_chance * get_property("backstab.AwareModifier", 0.850));
   }
 
-  if( !IS_IMMOBILE(victim) && IS_AFFECTED(victim, AFF_SKILL_AWARE) )
+  if( !IS_IMMOBILE(victim) && IS_AFFECTED(victim, AFF_SKILL_AWARE) && !IS_DWARF(ch) )
   {
     for(af_ptr = victim->affected; af_ptr; af_ptr = af_ptr->next)
     {
@@ -5157,6 +5157,8 @@ bool backstab(P_char ch, P_char victim)
     guardian_spirits_messages(ch, victim);
     percent_chance = MAX(0, percent_chance - GET_LEVEL(victim));
   }
+
+  debug( "backstab: (%s) stabbing (%s) final percentage %d", J_NAME(ch), J_NAME(victim), percent_chance );
 
   if( first_w && IS_BACKSTABBER(first_w) )
   {
