@@ -407,15 +407,20 @@ int needcard(char whoscard, P_char ch)
          break;
       case 2:
          if (dealer_hand[1].Value == 0)
-            {get_card(2,1);}
+            {get_card(2,1);
+	    dealercards=1;}
          else if (dealer_hand[2].Value == 0)
-            {get_card(2,2);}
+            {get_card(2,2);
+	    dealercards=2;}
          else if (dealer_hand[3].Value == 0)
-            {get_card(2,3);}
+            {get_card(2,3);
+	    dealercards=3;}
          else if (dealer_hand[4].Value == 0)
-            {get_card(2,4);}
+            {get_card(2,4);
+	    dealercards=4;}
          else if (dealer_hand[5].Value == 0)
-            {get_card(2,5);}
+            {get_card(2,5);
+	    dealercards=5;}
          else
             {send_to_char("Dealer has 5 cards already..", ch);
 	     dealercards=5;}
