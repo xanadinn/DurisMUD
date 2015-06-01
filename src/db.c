@@ -2682,7 +2682,14 @@ void event_object_proc(P_char ch, P_char victim, P_obj obj, void *data)
   if (obj_index[obj->R_num].func.obj)
     (*obj_index[obj->R_num].func.obj) (obj, 0, CMD_PERIODIC, 0);
 
-  add_event(event_object_proc, PULSE_MOBILE + number(-4, 4), 0, 0, obj, 0, 0, 0);
+  if( obj_index[obj->R_num].number == 55434 )
+  {
+    add_event(event_object_proc, WAIT_SEC, 0, 0, obj, 0, 0, 0);
+  }
+  else
+  {
+    add_event(event_object_proc, PULSE_MOBILE + number(-4, 4), 0, 0, obj, 0, 0, 0);
+  }
 }
 
 /* read an object from OBJ_FILE */

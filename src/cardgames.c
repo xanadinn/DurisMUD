@@ -5,8 +5,11 @@
  *****************************************************************************/
 
 #include "cardgames.h"
+#include "comm.h"
+#include "db.h"
 #include "interp.h"
 #include "utils.h"
+#include "vnum.obj.h"
 #include <stdio.h>
 #include <string.h>
 
@@ -52,13 +55,50 @@ char *Hand::Display()
   while( temp )
   {
     strcat( buf, temp->Display() );
-    strcat( buf, "  " );
+    if( temp->nextCard )
+    {
+      strcat( buf, "  " );
+    }
     temp = temp->nextCard;
   }
 
   return buf;
 }
 
+int Hand::BlackjackValue()
+{
+  P_Card temp = cards;
+  int aces = 0, curr, sum = 0;
+  while( temp )
+  {
+    curr = (temp->getNumber()-1)%13+1;
+    // If ace...
+    if( curr == 1 )
+    {
+      aces++;
+    }
+    // If number card...
+    else if( curr < 11 )
+    {
+      sum += curr;
+    }
+    // If face card...
+    else
+    {
+      sum += 10;
+    }
+    temp = temp->nextCard;
+  }
+  // This creative bit is to see if an Ace counts as 11.
+  //   Note: Only one ace will count as 11 otherwise bust.
+  if( sum + aces < 12 && aces > 0 )
+  {
+    sum += 10;
+  }
+  sum += aces;
+
+  return sum;
+}
 // Deck functions!
 
 // Create the deck
@@ -279,3 +319,478 @@ int cards_object( P_obj obj, P_char ch, int cmd, char *argument )
   return FALSE;
 }
 
+// *****************************************************************************
+// *****************************************************************************
+//                              GELLZ BLACKJACK
+// *****************************************************************************
+// Values on table object: [0] == Game status, [1] == theDeck, [2] == dealerHand
+//   [3] == playerHand (possible more players?)
+int blackjack_table(P_obj obj, P_char ch, int cmd, char *argument)
+{
+  P_Deck theDeck;
+  P_Hand playerHand, dealerHand;
+  char buf[MAX_STRING_LENGTH];
+  char arg[MAX_INPUT_LENGTH];
+  char arg2[MAX_INPUT_LENGTH];
+  P_obj coins;
+  int betamt, bettype;
+  static bool lock_game = FALSE;
+
+  if( cmd == CMD_SET_PERIODIC )
+  {
+    // Initialize the table here.
+    if( obj )
+    {
+      obj->value[0] = BJ_PREBID;
+      obj->timer[0] = obj->timer[1] = obj->timer[2] = obj->timer[3] = obj->timer[4] = obj->timer[5] = 0;
+    }
+    // This is kinda dubious 'cause we add our own CMD_PERIODIC event later on in the function.
+    return FALSE;
+  }
+
+  if( !obj )
+  {
+    debug( "blackjack_table: No f'n table?!?" );
+    return FALSE;
+  }
+
+  theDeck = (P_Deck) obj->timer[1];
+  dealerHand = (P_Hand) obj->timer[2];
+  playerHand = (P_Hand) obj->timer[3];
+
+  // Aaah.. the suspense! ;)
+  if( cmd == CMD_PERIODIC && obj->value[0] == BJ_DEALERSTURN )
+  {
+    ch = playerHand->getOwner();
+
+    if( dealerHand->BlackjackValue() < 17 && dealerHand->numCards() < 5 )
+    {
+// This won't work yet, 'cause we have to save a pointer to ch somewhere and reference it
+//   since ch is NULL when CMD_PERIODIC fires.
+      act( "\n&+yThe &+CDealer&+y takes a new card...&n", FALSE, ch, obj, ch, TO_CHAR );
+      dealerHand->ReceiveCard(theDeck->DealACard());
+      sprintf(buf, "&+yDealer shows: %s.\n\r&+yDealer Total: &+Y%d&+y.&n\n\r", dealerHand->Display(), dealerHand->BlackjackValue() );
+      send_to_char( buf, ch );
+    }
+    // End game
+    else
+    {
+      if( dealerHand->BlackjackValue() < 22 )
+      {
+        act( "\n&+yThe &+CDealer&+y decides to &+Wstay&+y with his current hand!&n\n\n", FALSE, ch, obj, ch, TO_CHAR);
+        if( playerHand->BlackjackValue() > dealerHand->BlackjackValue() )
+        {
+          sprintf( buf, "&+RY&+CO&+BU &+GW&+YI&+MN&+C!&+R!&+y! with %d versus the dealers %d.\n",
+            playerHand->BlackjackValue(), dealerHand->BlackjackValue() );
+          send_to_char(buf, ch);
+          coins = obj->contains;
+          coins->value[0] *= 2;
+          coins->value[1] *= 2;
+          coins->value[2] *= 2;
+          coins->value[3] *= 2;
+          obj->contains = NULL;
+          obj_to_char(coins, ch);
+        }
+        else if( playerHand->BlackjackValue() == dealerHand->BlackjackValue() )
+        {
+          act("&+yA &+YPUSH!&+y No winner no loser! You pull your &+Wbet&+y from the table.", FALSE, ch, obj, ch, TO_CHAR);
+          coins = obj->contains;
+          obj_from_obj(coins);
+          obj_to_char(coins, ch);
+        }
+        // Can assume player total < dealer total.
+        else
+        {
+          sprintf(buf, "&+RYou LOSE!!&+C Dealers %d &+rbeats your %d.\n", 
+            dealerHand->BlackjackValue(), playerHand->BlackjackValue() );
+          send_to_char(buf, ch);
+          coins = obj->contains;
+          obj->contains = NULL;
+          extract_obj(coins, TRUE);
+        }
+      }
+      else
+      {
+        send_to_char("&+CDealer&+R BUST&+y, so &+RY&+CO&+BU &+GW&+YI&+MN&+C!&+R!&+y&n\n", ch);
+        coins = obj->contains;
+        coins->value[0] *= 2;
+        coins->value[1] *= 2;
+        coins->value[2] *= 2;
+        coins->value[3] *= 2;
+        obj->contains = NULL;
+        obj_to_char(coins, ch);
+      }
+      // Reset the table:
+      delete theDeck;
+      delete dealerHand;
+      delete playerHand;
+      obj->value[0] = BJ_PREBID;
+      obj->timer[0] = obj->timer[1] = obj->timer[2] = obj->timer[3] = obj->timer[4] = obj->timer[5] = 0;
+    }
+    return TRUE;
+  }
+
+  if( cmd == CMD_SAY && IS_ALIVE(ch) && IS_TRUSTED(ch) )
+  {
+    one_argument(argument, arg);
+    if( !strcmp( arg, "lock" ) )
+    {
+      lock_game = TRUE;
+      send_to_char( "&+RBlackjack game locked.\n\r", ch );
+      return TRUE;
+    }
+    if( !strcmp( arg, "unlock" ) )
+    {
+      lock_game = FALSE;
+      send_to_char( "&+RBlackjack game unlocked.\n\r", ch );
+      return TRUE;
+    }
+  }
+
+  if( lock_game )
+  {
+    return FALSE;
+  }
+
+  // BETTING START
+  if( cmd == CMD_OFFER )
+  {
+    if( obj->value[0] != BJ_PREBID )
+    {
+      act ("&+yA &+Wgame&+y already appears to be in progress. Please &+Wfold&+y or complete that one first...", FALSE, ch, obj, obj, TO_CHAR);
+      return TRUE;
+    }
+
+    argument = one_argument(argument, arg);
+    one_argument(argument, arg2);
+    // We only need to check the second argument, since if it exists, the first does also.
+    if( !arg2 )
+    {
+      act( STR_CARDS_ARG_FAIL, FALSE, ch, NULL, NULL, TO_CHAR );
+      return TRUE;
+    }
+    betamt = atoi(arg);
+    bettype = coin_type(arg2);
+
+    // Both args entered, but bad args (no mithril/adamantium coins).
+    if( betamt <= 0 || bettype < 0 || bettype > 3 )
+    {
+      act( STR_CARDS_TYPE_FAIL, FALSE, ch, obj, obj, TO_CHAR );
+      betamt = 0;
+      bettype = 0;
+      return TRUE;
+    }
+
+    if( bettype == 0 )
+    {
+      if( betamt > GET_COPPER(ch) )
+      {
+        act(STR_CARDS_CASH_FAIL, FALSE, ch, obj, obj, TO_CHAR);
+      }
+      // 1000 Copper per Platinum.
+      else if( betamt > 1000 * get_property("blackjack.MaxBetInPlatinum", 100) )
+      {
+        act(STR_CARDS_BIGBID_FAIL, FALSE, ch, obj, obj, TO_CHAR);
+      }
+      else
+      {
+        act(STR_CARDS_CASH_OK, FALSE, ch, obj, obj, TO_CHAR);
+        obj->value[0] = BJ_POSTBID;
+      }
+    }
+    else if( bettype == 1 )
+    {
+      if( betamt > GET_SILVER(ch) )
+      {
+        act( STR_CARDS_CASH_FAIL, FALSE, ch, obj, obj, TO_CHAR);
+      }
+      // 100 Silver per Platinum.
+      else if( betamt > 100 * get_property("blackjack.MaxBetInPlatinum", 100) )
+      {
+        act(STR_CARDS_BIGBID_FAIL, FALSE, ch, obj, obj, TO_CHAR);
+      }
+      else
+      {
+        act( STR_CARDS_CASH_OK, FALSE, ch, obj, obj, TO_CHAR);
+        obj->value[0] = BJ_POSTBID;
+      }
+    }
+    else if( bettype == 2 )
+    {
+      if( betamt > GET_GOLD(ch) )
+      {
+        act( STR_CARDS_CASH_FAIL, FALSE, ch, obj, obj, TO_CHAR);
+      }
+      // 10 Gold per Platinum.
+      else if( betamt > 10 * get_property("blackjack.MaxBetInPlatinum", 100) )
+      {
+        act(STR_CARDS_BIGBID_FAIL, FALSE, ch, obj, obj, TO_CHAR);
+      }
+      else
+      {
+        act (STR_CARDS_CASH_OK, FALSE, ch, obj, obj, TO_CHAR);
+        obj->value[0] = BJ_POSTBID;
+      }
+    }
+    else if( bettype == 3 )
+    {
+      if( betamt > GET_PLATINUM(ch) )
+      {
+        act( STR_CARDS_CASH_FAIL, FALSE, ch, obj, obj, TO_CHAR);
+      }
+      else if( betamt > get_property("blackjack.MaxBetInPlatinum", 100) )
+      {
+        act(STR_CARDS_BIGBID_FAIL, FALSE, ch, obj, obj, TO_CHAR);
+      }
+	    else
+      {
+        act( STR_CARDS_CASH_OK, FALSE, ch, obj, obj, TO_CHAR);
+        obj->value[0] = BJ_POSTBID;
+      }
+    }
+
+    // Remove cash from player and put it on the table!
+    send_to_char_f(ch, "\n&+yYou toss &n%d ", betamt);
+    if( bettype==0 )
+    {
+      GET_COPPER(ch)-=betamt;
+      send_to_char_f(ch, STR_COPP);
+    }
+    else if( bettype==1 )
+    {
+      GET_SILVER(ch)-=betamt;
+      send_to_char_f(ch, STR_SILV);
+    }
+    else if( bettype==2 )
+    {
+      GET_GOLD(ch)-=betamt;
+      send_to_char_f(ch, STR_GOLD);
+    }
+    else if( bettype==3 )
+    {
+      GET_PLATINUM(ch)-=betamt;
+      send_to_char_f(ch, STR_PLAT);
+    }
+    else
+    {
+      debug( "blackjack_table: BROKEN COIN TYPE %d not between 0 and 3.", bettype );
+      send_to_char_f(ch, "&=BRWTFs&n");
+    }
+    send_to_char_f(ch, "&+y on the table.&n\n");
+    coins = read_object( VOBJ_COINS, VIRTUAL );
+    coins->value[bettype] = betamt;
+    // Put the coins in the table!
+    obj->contains = coins;
+    return TRUE;
+  } // End cmd == CMD_OFFER
+
+  // If they said something..
+  if( cmd == CMD_SAY && *argument )
+  {
+    one_argument(argument, arg); //get one argument from list
+
+    // Start Keyword for 'deal' - deal initial cards
+    if( !strcmp(arg, "deal") )
+    {
+      // Silenced players get a warning?
+      if( !say(ch, argument) )
+      {
+        act (STR_CARDS_FAILED, FALSE, ch, obj, obj, TO_CHAR);
+      }
+      // If we're not post-bid, we're not ready to deal.
+      if( obj->value[0] != BJ_POSTBID )
+      {
+        // If they haven't bid yet.
+        if( obj->value[0] == BJ_PREBID )
+        {
+          act( STR_CARDS_BID_FAIL, FALSE, ch, obj, ch, TO_CHAR);
+        }
+        // Otherwise a game is already in progress.
+        else
+        {
+          act( STR_CARDS_GAME_ON, FALSE, ch, obj, ch, TO_CHAR);
+        }
+        return TRUE;
+      }
+      // Can deal and play game
+      else
+      {
+        theDeck = new Deck;
+        obj->timer[1] = (long) theDeck;
+        dealerHand = new Hand;
+        obj->timer[2] = (long) dealerHand;
+        playerHand = new Hand(ch);
+        obj->timer[3] = (long) playerHand;
+        act( STR_CARDS_SHUFFLE, FALSE, ch, obj, ch, TO_CHAR);
+        // Shuffle the deck 7 times...
+        theDeck->Shuffle( 7 );
+        act( STR_CARDS_DEAL, FALSE, ch, obj, ch, TO_CHAR);
+
+        // The dealer's hidden card isn't dealt until the end.
+        dealerHand->ReceiveCard(theDeck->DealACard());
+        playerHand->ReceiveCard(theDeck->DealACard());
+        playerHand->ReceiveCard(theDeck->DealACard());
+
+        sprintf(buf, "&+yDealer shows: %s.\n\r&+yDealer Total: &+Y%d&+y.&n\n\r", dealerHand->Display(), dealerHand->BlackjackValue() );
+        send_to_char( buf, ch );
+        sprintf(buf, "&+yPlayer shows: %s.\n\r&+yPlayer Total: &+Y%d&+y.&n\n\r", playerHand->Display(), playerHand->BlackjackValue() );
+        send_to_char( buf, ch );
+
+        sprintf(buf, "&+yThe &+bm&+Ba&+Cg&+Wi&+Cc&+Ba&+bl &+bf&+Bl&+Cam&+Be&+bs&+y flicker over the &+wdeck&+y once more, and you realise that you can choose to either &+Whit&+y, &+Wstay&+y or &+Wfold&+y simply by telling the cards what you wish to do.&n\n");
+        act( buf, FALSE, ch, obj, ch, TO_CHAR);
+
+        obj->value[0] = BJ_POSTDEAL;
+        return TRUE;
+      }
+    } // End say keyword 'deal'
+    // Start Keyword for 'stay' - sitting
+    else if (!strcmp(arg, "stay"))
+    {
+      if( obj->value[0] != BJ_POSTDEAL && obj->value[0] != BJ_POSTHIT )
+      {
+        act( STR_CARDS_GAME_0, FALSE, ch, obj, ch, TO_CHAR);
+        return TRUE;
+      }
+      if( !say(ch,arg) )
+      {
+        act (STR_CARDS_FAILED, FALSE, ch, obj, obj, TO_CHAR);
+      }
+      // Show player's hand.
+      sprintf(buf, "&+yPlayer shows: %s.\n\r&+yPlayer Total: &+Y%d&+y.&n\n\r", playerHand->Display(), playerHand->BlackjackValue() );
+      send_to_char( buf, ch );
+
+      // Dealer's turn to draw.
+      send_to_char("&+yThe &+bm&+Ba&+Cg&+Wi&+Cc&+Ba&+bl &+bf&+Bl&+Cam&+Be&+bs&+y fly over the &+wdeck&+y as the &+CDealer&+y begins his &+Yturn!&n.\n", ch);
+      act( "\n&+yThe &+CDealer&+y turns over the other card...&n", FALSE, ch, obj, ch, TO_CHAR );
+      dealerHand->ReceiveCard(theDeck->DealACard());
+      sprintf(buf, "&+yDealer shows: %s.\n\r&+yDealer Total: &+Y%d&+y.&n\n\r", dealerHand->Display(), dealerHand->BlackjackValue() );
+      send_to_char( buf, ch );
+
+      obj->value[0] = BJ_DEALERSTURN;
+      add_event(event_object_proc, WAIT_SEC, 0, 0, obj, 0, 0, 0);
+      return TRUE;
+    }                         // End say keyword for 'stay'
+    // Start Keyword for 'fold' - player folds
+    else if( !strcmp(arg, "fold") )
+    {
+      if( !say(ch,arg) )
+      {
+        act (STR_CARDS_FAILED, FALSE, ch, obj, obj, TO_CHAR);
+      }
+      // If we're not in a position to fold (haven't bid yet/dealt)
+      if( obj->value[0] != BJ_POSTDEAL && obj->value[0] != BJ_POSTHIT )
+      {
+        act( STR_CARDS_GAME_0, FALSE, ch, obj, ch, TO_CHAR); // Was game in progress.
+        return TRUE;
+      }
+      else
+      {
+        act( STR_CARDS_FOLD, FALSE, ch, obj, ch, TO_CHAR);
+      }
+      // Clear the bet.
+      coins = obj->contains;
+      if( coins )
+      {
+        extract_obj(coins, TRUE);
+      }
+      // Reset the table:
+      delete theDeck;
+      delete dealerHand;
+      delete playerHand;
+      obj->value[0] = BJ_PREBID;
+      obj->timer[0] = obj->timer[1] = obj->timer[2] = obj->timer[3] = obj->timer[4] = obj->timer[5] = 0;
+      return TRUE;
+    } // End say keyword for 'fold'
+    // Start Keyword for 'hit' - add another card to player's hand.
+    else if( !strcmp(arg, "hit") )
+    {
+      if( !say(ch,arg) )
+      {
+        act (STR_CARDS_FAILED, FALSE, ch, obj, obj, TO_CHAR);
+      }
+      // If we're not in a position to hit
+      if( obj->value[0] != BJ_POSTDEAL && obj->value[0] != BJ_POSTHIT )
+      {
+        act( STR_CARDS_GAME_0, FALSE, ch, obj, ch, TO_CHAR);
+        return TRUE;
+      }
+
+      act("&+yA card leaves the &+wdeck&+y and &+Yreveals&+y itself.&n", FALSE, ch, obj, ch, TO_CHAR);
+      playerHand->ReceiveCard(theDeck->DealACard());
+
+      sprintf(buf, "&+yDealer shows: %s.\n\r&+yDealer Total: &+Y%d&+y.&n\n\r", dealerHand->Display(), dealerHand->BlackjackValue() );
+      send_to_char( buf, ch );
+      sprintf(buf, "&+yPlayer shows: %s.\n\r&+yPlayer Total: &+Y%d&+y.&n\n\r", playerHand->Display(), playerHand->BlackjackValue() );
+      send_to_char( buf, ch );
+      obj->value[0] = BJ_POSTHIT;
+
+      if( playerHand->BlackjackValue() > 21 )
+      {
+        sprintf(buf, "&+yYou &+RBUSTED&+y with a total of %d. Sorry, maybe try again later?.\n", playerHand->BlackjackValue() );
+        send_to_char(buf, ch);
+        act( STR_CARDS_BUST, FALSE, ch, obj, ch, TO_CHAR);
+
+        // Clear the bet.
+        coins = obj->contains;
+        obj->contains = NULL;
+        if( coins )
+        {
+          extract_obj(coins, TRUE);
+        }
+        // Reset the table:
+        delete theDeck;
+        delete dealerHand;
+        delete playerHand;
+        obj->value[0] = BJ_PREBID;
+        obj->timer[0] = obj->timer[1] = obj->timer[2] = obj->timer[3] = obj->timer[4] = obj->timer[5] = 0;
+        return TRUE;
+      }
+      return TRUE;
+    } // End say keyword 'hit'
+    // Keyword showgame -> displays current state of game.
+    else if( !strcmp(arg, "showgame") )
+    {
+      if( !say(ch,arg) )
+      {
+        act( STR_CARDS_FAILED, FALSE, ch, obj, obj, TO_CHAR);
+      }
+
+      if( IS_TRUSTED(ch) )
+      {
+        sprintf(buf, "Game Status is: %d. \n", obj->value[0]);
+        send_to_char(buf, ch);
+      }
+      if( obj->value[0] ==  BJ_PREBID )
+      {
+        send_to_char( "&+yThe &+Ygame&+y has yet to begin.  Make an &+Woffer&+y.&n\n\r", ch );
+        return TRUE;
+      }
+      if( obj->value[0] ==  BJ_POSTBID )
+      {
+        send_to_char( "&+yThe &+Ybets&+y have been made. Time to &+Wdeal&+y.&n\n\r", ch );
+        return TRUE;
+      }
+      if( obj->value[0] ==  BJ_POSTDEAL || obj->value[0] == BJ_POSTHIT )
+      {
+        send_to_char( "&+yThe &+Ygame&+y is on!&n\n\r", ch );
+        sprintf(buf, "&+yDealer shows: %s.\n\r&+yDealer Total: &+Y%d&+y.&n\n\r", dealerHand->Display(), dealerHand->BlackjackValue() );
+        send_to_char( buf, ch );
+        sprintf(buf, "&+yPlayer shows: %s.\n\r&+yPlayer Total: &+Y%d&+y.&n\n\r", playerHand->Display(), playerHand->BlackjackValue() );
+        send_to_char( buf, ch );
+        return TRUE;
+      }
+      if( obj->value[0] ==  BJ_DEALERSTURN )
+      {
+        send_to_char( "&+yThe &+Ydealer&+y is thinking...&n\n\r", ch );
+        sprintf(buf, "&+yDealer shows: %s.\n\r&+yDealer Total: &+Y%d&+y.&n\n\r", dealerHand->Display(), dealerHand->BlackjackValue() );
+        send_to_char( buf, ch );
+        sprintf(buf, "&+yPlayer shows: %s.\n\r&+yPlayer Total: &+Y%d&+y.&n\n\r", playerHand->Display(), playerHand->BlackjackValue() );
+        send_to_char( buf, ch );
+        return TRUE;
+      }
+      return TRUE;
+    } // End keyword 'showhand'
+  } // End cmd == CMD_SAY
+    return FALSE;
+} // End GELLZ Blackjack Table
+// GELLZ Blackjack End

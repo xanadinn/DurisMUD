@@ -3370,7 +3370,7 @@ P_obj create_money(int copper, int silver, int gold, int platinum)
 {
   P_obj    obj;
 
-  obj = read_object(3, VIRTUAL);
+  obj = read_object(VOBJ_COINS, VIRTUAL);
   if (!obj)
   {
     logit(LOG_EXIT, "create_money: cannot load coin pile object");

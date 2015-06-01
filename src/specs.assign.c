@@ -40,10 +40,12 @@ extern P_room world;
 //Added gellz Procs
 int gellz_test_obj_procs(P_obj obj, P_char ch, int cmd, char *argument);
 int magic_deck(P_obj obj, P_char ch, int cmd, char *argument);
+int blackjack_table(P_obj obj, P_char ch, int cmd, char *argument);
 
 int unmulti_altar(P_obj obj, P_char ch, int cmd, char *arg);
 int harpy_gate(P_obj obj, P_char ch, int cmd, char *arg);
 int block_dir(P_char ch, P_char pl, int cmd, char *arg);
+
 
 int ship_shop_proc(int room, P_char ch, int cmd, char *arg);
 void assign_ship_crew_funcs();
@@ -2656,6 +2658,10 @@ void assign_rooms(void)
   
   // NPC Ship Crews
   assign_ship_crew_funcs();
+
+  // Cardgames
+  obj_index[real_object0(55434)].func.obj = blackjack_table;
+
 }
 
 /*

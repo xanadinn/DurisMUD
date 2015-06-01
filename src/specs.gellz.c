@@ -177,7 +177,12 @@ int magic_deck(P_obj obj, P_char ch, int cmd, char *argument)
     {
       if( dealer_total < 22 )
       {
-        act ("\n&+yThe &+CDealer&+y decides to &+Wstay&+y with his current hand!&n\n\n", FALSE, ch, obj, ch, TO_CHAR);
+        act( "\n&+yThe &+CDealer&+y decides to &+Wstay&+y with his current hand!&n\n\n", FALSE, ch, obj, ch, TO_CHAR);
+      }
+      else
+      {
+        send_to_char("&+CDealer&+R BUST&+y, so &+RY&+CO&+BU &+GW&+YI&+MN&+C!&+R!&+y&n\n", ch);
+        do_win(ch, bettype, betamt, 1);
       }
     }
   }
@@ -304,6 +309,34 @@ int magic_deck(P_obj obj, P_char ch, int cmd, char *argument)
         strbettype = STR_PLAT;
       }
     }
+    // Remove cash from player and put it on the table!
+    send_to_char_f(ch, "\n&+yYou toss &n%d ", betamt);
+    if( bettype==0 )
+    {
+      GET_COPPER(ch)-=betamt;
+      send_to_char_f(ch, STR_COPP);
+    }
+    else if( bettype==1 )
+    {
+      GET_SILVER(ch)-=betamt;
+      send_to_char_f(ch, STR_SILV);
+    }
+    else if( bettype==2 )
+    {
+      GET_GOLD(ch)-=betamt;
+      send_to_char_f(ch, STR_GOLD);
+    }
+    else if( bettype==3 )
+    {
+      GET_PLATINUM(ch)-=betamt;
+      send_to_char_f(ch, STR_PLAT);
+    }
+    else
+    {
+      debug( "magic_deck: BROKEN COIN TYPE %d not between 0 and 3.", bettype );
+      send_to_char_f(ch, "&=BRWTFs&n");
+    }
+    send_to_char_f(ch, "&+y on the table.&n\n");
     return TRUE;
   } // End cmd == CMD_OFFER
 
@@ -477,8 +510,8 @@ int magic_deck(P_obj obj, P_char ch, int cmd, char *argument)
         game_on = BJ_PREBID;
         player_total = dealer_total = dealercards = bettype = betamt = 0;
         act( STR_CARDS_BUST, FALSE, ch, obj, ch, TO_CHAR);
-        return TRUE;
       }
+      return TRUE;
     } // End say keyword 'hit'
     // Keyword showgame -> displays current state of game.
     else if( !strcmp(arg, "showgame") )
@@ -621,21 +654,6 @@ int do_win(P_char ch, int bettype, int betamt, int winloose)
       (bettype==0)?"copper":(bettype==1)?"silver":(bettype==2)?"gold":(bettype==3)?"platinum":"unknown");
    } else if (winloose==2)
    {
-     // TASKS FOR LOOSING
-     send_to_char_f(ch, "\n&+yYour account is &+Rdebited &+W%d ", betamt);
-     if (bettype==0) 
-       {GET_COPPER(ch)-=betamt;
-       send_to_char_f(ch, STR_COPP);}
-     if (bettype==1) 
-       {GET_SILVER(ch)-=betamt;
-       send_to_char_f(ch, STR_SILV);}
-     if (bettype==2) 
-       {GET_GOLD(ch)-=betamt;
-       send_to_char_f(ch, STR_GOLD);}
-     if (bettype==3) 
-       {GET_PLATINUM(ch)-=betamt;
-       send_to_char_f(ch, STR_PLAT);}
-     send_to_char_f(ch, "&+y.&n\n");
      logit(LOG_CARDGAMES, "%s lost %d %s at blackjack.", J_NAME(ch), betamt,
       (bettype==0)?"copper":(bettype==1)?"silver":(bettype==2)?"gold":(bettype==3)?"platinum":"unknown");
    // END TASKS FOR LOOSING 
@@ -671,86 +689,77 @@ int get_card(char whoscard, int whatcard)
       {dealer_total=dealer_total+deck[tmpRandomCard].Value;}
 }//end get card
 
+// Gellz Setup Deck
 void setup_deck(void)
-{// Gellz Setup Deck
+{
   int tmpcounter = 0;
-  for (int tmpsuit=1; tmpsuit<5; tmpsuit++)
-  { //Start For tmpsuit
-    for (int tmpcard = 1; tmpcard<14; tmpcard++)
-      { tmpcounter=tmpcounter+1;
+  // Start For tmpsuit
+  for( int tmpsuit=1; tmpsuit < 5; tmpsuit++ )
+  {
+    for( int tmpcard = 1; tmpcard<14; tmpcard++ )
+    {
       switch(tmpsuit)
-        {
-          case 1:
-            deck [tmpcounter].Suit=STR_HEARTS;
-            break;
-          case 2:
-            deck [tmpcounter].Suit=STR_DIAMONDS;
-            break;
-          case 3:
-            deck [tmpcounter].Suit=STR_CLUBS;
-            break;
-          case 4:
-            deck [tmpcounter].Suit=STR_SPADES;
-            break;
-        }//End Switch/Case
-        deck [tmpcounter].Number=tmpcounter;
-        switch(tmpcard)
-	   {
-	   case 1:
-	        deck [tmpcounter].Value=tmpcard;
-        	deck [tmpcounter].Display=STR_CARD_1;
-		break;
-	   case 2:
-	        deck [tmpcounter].Value=tmpcard;
-        	deck [tmpcounter].Display=STR_CARD_2;
-		break;
-	   case 3:
-	        deck [tmpcounter].Value=tmpcard;
-        	deck [tmpcounter].Display=STR_CARD_3;
-		break;
-	   case 4:
-	        deck [tmpcounter].Value=tmpcard;
+      {
+        case 1:
+          deck[tmpcounter].Suit=STR_HEARTS;
+          break;
+        case 2:
+          deck[tmpcounter].Suit=STR_DIAMONDS;
+          break;
+        case 3:
+          deck[tmpcounter].Suit=STR_CLUBS;
+          break;
+        case 4:
+          deck[tmpcounter].Suit=STR_SPADES;
+          break;
+      }
+      switch( tmpcard )
+      {
+        case 1:
+        	deck[tmpcounter].Display=STR_CARD_1;
+          break;
+        case 2:
+        	deck[tmpcounter].Display=STR_CARD_2;
+          break;
+        case 3:
+        	deck[tmpcounter].Display=STR_CARD_3;
+          break;
+        case 4:
         	deck [tmpcounter].Display=STR_CARD_4;
-		break;
-	   case 5:
-	        deck [tmpcounter].Value=tmpcard;
+		      break;
+	      case 5:
         	deck [tmpcounter].Display=STR_CARD_5;
-		break;
-	   case 6:
-	        deck [tmpcounter].Value=tmpcard;
+		      break;
+	      case 6:
         	deck [tmpcounter].Display=STR_CARD_6;
-		break;
-	   case 7:
-	        deck [tmpcounter].Value=tmpcard;
+		      break;
+	      case 7:
         	deck [tmpcounter].Display=STR_CARD_7;
-		break;
-	   case 8:
-	        deck [tmpcounter].Value=tmpcard;
+		      break;
+	      case 8:
         	deck [tmpcounter].Display=STR_CARD_8;
-		break;
-	   case 9:
-	        deck [tmpcounter].Value=tmpcard;
+		      break;
+	      case 9:
         	deck [tmpcounter].Display=STR_CARD_9;
-		break;
-	   case 10:
-	        deck [tmpcounter].Value=10;
+		      break;
+	      case 10:
         	deck [tmpcounter].Display=STR_CARD_10;
-		break;
-	   case 11:
-	        deck [tmpcounter].Value=10;
+		      break;
+	      case 11:
         	deck [tmpcounter].Display=STR_CARD_J;
-		break;
-	   case 12:
-	        deck [tmpcounter].Value=10;
+		      break;
+	      case 12:
         	deck [tmpcounter].Display=STR_CARD_Q;
-		break;
-	   case 13:
-	        deck [tmpcounter].Value=10;
+		      break;
+	      case 13:
         	deck [tmpcounter].Display=STR_CARD_K;
-		break;
-	} //close Switch tmpCard
-       	deck [tmpcounter].StillIn = 1;
-      }//End FOr tmpcard
+		      break;
+	    } //close Switch tmpCard
+      deck[tmpcounter].Number=tmpcounter;
+	    deck[tmpcounter].Value=(tmpcard>10) ? 10 : tmpcard;
+      deck[tmpcounter].StillIn = TRUE;
+      tmpcounter++;
+    }//End FOR tmpcard
   }//End FOR tmpsuit
   player_total=0;
   dealer_total=0;

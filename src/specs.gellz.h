@@ -24,7 +24,7 @@
 #define STR_HEARTS   "&+Y|  &+RHearts&n  &+Y|&n"
 #define STR_SPADES   "&+Y|  &+LSpades&n  &+Y|&n"
 #define STR_CLUBS    "&+Y|  &+wClubs&n   &+Y|&n"
-#define STR_CARD_1   "&+Y| &+C 1&n  &+Y|&n";
+#define STR_CARD_1   "&+Y| &+CAce&n &+Y|&n";
 #define STR_CARD_2   "&+Y| &+C 2&n  &+Y|&n";
 #define STR_CARD_3   "&+Y| &+C 3&n  &+Y|&n";
 #define STR_CARD_4   "&+Y| &+C 4&n  &+Y|&n";
@@ -59,7 +59,7 @@ struct cards
    const char* Suit;
    int  Number;
    int  Value;
-   int  StillIn;
+   bool StillIn;
    const char* Display;
 } deck [52];
 
