@@ -43,7 +43,6 @@
 
 #include "room.h"
 #include "../misc/menu.h"
-#include "../flagdef.h"
 
 extern menu g_roomMiscMenu;
 

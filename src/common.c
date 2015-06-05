@@ -1,4 +1,3 @@
-
 /*
  * ***************************************************************************
  * *  File: common.c                                         Part of Duris *
@@ -1144,7 +1143,7 @@ const struct class_names class_names_table[] = {
   {"Avenger", "&+WAvenger&n", "Ave", '2'},
   {"Theurgist", "&+cTh&+Ceur&+Wgist&n", "The", '1'},
   {"Summoner", "&+RSummoner&n", "Sum", '3'},
-  {0}
+  { NULL, NULL, NULL, '\0' }
 };
 
 flagDef  action2_bits[] = {

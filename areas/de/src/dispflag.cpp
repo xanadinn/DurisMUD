@@ -43,7 +43,6 @@
 #include "dispflag.h"
 #include "misc/menu.h"
 #include "types.h"
-#include "flagdef.h"
 
 //
 // displayFlagMenu : displays a menu of flags onscreen, with corresponding

@@ -26,6 +26,7 @@
 #endif
 
 #include <sys/types.h>
+#include <limits.h>
 
 #ifdef _LINUX_SOURCE
 #include <linux/time.h>
@@ -36,7 +37,7 @@
 #if defined(_SUN4_SOURCE) || defined(__CYGWIN32__) ||\
     (defined(_POSIX_SOURCE) && !defined(_SVID_SOURCE)) ||\
     defined(_FREEBSD)
-typedef unsigned long int uint;
+typedef unsigned long int ulong;
 #endif
 #if defined(_SUN4_SOURCE) ||\
     (defined(_POSIX_SOURCE) && !defined(_SVID_SOURCE))
@@ -127,8 +128,9 @@ typedef unsigned int uint;
 #define ITEM_STORAGE    35      /* like a container, but saves itself */
 #define ITEM_SCABBARD   36      /* weapon scabbard */
 #define ITEM_SHIELD     37      /* dedicated type for shields */
-#define ITEM_TROOP      38      /* troop item type */
-#define ITEM_LAST       38
+#define ITEM_BANDAGE    38
+#define ITEM_SPAWNER    39
+#define ITEM_LAST       39
 
  /* obj->material - moved to objmisc.h */
 
@@ -149,7 +151,7 @@ typedef unsigned int uint;
 #define ITEM_WEAR_ARMS      BIT_9
 #define ITEM_WEAR_SHIELD    BIT_10
 #define ITEM_WEAR_ABOUT     BIT_11
-#define ITEM_WEAR_WAISTE    BIT_12
+#define ITEM_WEAR_WAIST    BIT_12
 #define ITEM_WEAR_WRIST     BIT_13
 #define ITEM_WIELD          BIT_14
 #define ITEM_HOLD           BIT_15
@@ -218,13 +220,16 @@ typedef unsigned int uint;
 #define ITEM2_NOPROC       BIT_9
 #define ITEM2_NOTIMER      BIT_10
 #define ITEM2_NOLOOT       BIT_11
-#define ITEm2_CRUMBLELOOT  BIT_12
+#define ITEM2_CRUMBLELOOT  BIT_12
+#define ITEM2_STOREITEM    BIT_13  /* Item Bought From a Shop */
+#define ITEM2_SOULBIND     BIT_14  /* Item is Soulbound */
+#define ITEM2_CRAFTED      BIT_15
 /* Bitvector for 'anti_flags' */
 /*
 #define ITEM_ALLOW_ALL         BIT_1
 #define ITEM_ALLOW_WARRIOR     BIT_2
 #define ITEM_ALLOW_RANGER      BIT_3
-#define ITEM_ALLOW_PALADIN     BIT_4
+#define ITEM_ALLOW_PALADIN     BIT_4
 #define ITEM_ALLOW_ANTIPALADIN BIT_5
 #define ITEM_ALLOW_CLERIC      BIT_6
 #define ITEM_ALLOW_MONK        BIT_7
@@ -275,7 +280,7 @@ typedef unsigned int uint;
 #define ITEM_ALLOW2_BERSERKER    BIT_21
 #define ITEM_ALLOW2_REAVER       BIT_22
 #define ITEM_ALLOW2_ALCHEMIST    BIT_23
-#define ITEM_ALLOW2_BLIGHTER     BIT_24
+#define ITEM_ALLOW2_UNUSED       BIT_24
 #define ITEM_ALLOW2_DREADLORD    BIT_25
 #define ITEM_ALLOW2_ETHERMANCER    BIT_26
 */
@@ -351,43 +356,44 @@ typedef unsigned int uint;
 #define STRUNG_EDESC  BIT_5     /* M: (n/a)        O: extra_description  */
 
 #define NUMB_OBJ_VALS    8
+#define NUMB_CHAR_VALS   8
 
 /* The following defs are for room_data  */
 
 /* Bitvector For 'room_flags' */
 
-#define DARK        BIT_1       /* Need a light to look around here    */
-#define LOCKER      BIT_2       /* locker - flag set on storage lockers */
-#define NO_MOB      BIT_3       /* Mobiles are not permitted into here */
-#define INDOORS     BIT_4       /* Room is considered to be 'indoors'  */
-#define ROOM_SILENT BIT_5
-#define UNDERWATER  BIT_6
-#define NORECALL    BIT_7
-#define NO_MAGIC    BIT_8       /* Casting magic is not permitted.        */
-#define TUNNEL      BIT_9
-#define PRIVATE     BIT_10      /* No more than two ppl can move in here  */
-#define ARENA       BIT_11
-#define SAFE_ZONE   BIT_12      /* No steal, attacks permitted in room    */
-#define NO_PRECIP   BIT_13
-#define SINGLE_FILE BIT_14
-#define JAIL        BIT_15
-#define NO_TELEPORT BIT_16
-#define PRIV_ZONE   BIT_17      /* Currently unused     */
-#define HEAL        BIT_18      /* You regain stats twice as fast here    */
-#define NO_HEAL     BIT_19      /* Cannot regain hp/mv/ma within room     */
-#define ROOM_IS_INN BIT_20      /* Players can rent here                  */
-#define DOCKABLE    BIT_21      /* SHIP can dock in this room             */
-#define MAGIC_DARK  BIT_22
-#define MAGIC_LIGHT BIT_23
-#define NO_SUMMON   BIT_24      /* Cannot summon or be summoned to or from */
-#define GUILD_ROOM  BIT_25      /* for player guild rooms */
-#define TWILIGHT    BIT_26
-#define NO_PSI      BIT_27      /* can psis cast in here? */
-#define NO_GATE     BIT_28      /* disallow gate/planeshift? */
-#define ROOM_HOUSE  BIT_29      /* (R) Room is a house  */
-#define ROOM_ATRIUM BIT_30      /* (R) The door to a house      */
-#define BLOCKS_SIGHT BIT_31     /* can't scan/farsee through it, for fog, etc */
-#define BFS_MARK    BIT_32      /* used internally for find_the_path code */
+#define DARK          BIT_1       /* Need a light to look around here    */
+#define LOCKER        BIT_2       /* locker - flag set on storage lockers */
+#define NO_MOB        BIT_3       /* Mobiles are not permitted into here */
+#define INDOORS       BIT_4       /* Room is considered to be 'indoors'  */
+#define ROOM_SILENT   BIT_5
+#define UNDERWATER    BIT_6
+#define NO_RECALL     BIT_7
+#define NO_MAGIC      BIT_8       /* Casting magic is not permitted.        */
+#define TUNNEL        BIT_9
+#define PRIVATE       BIT_10      /* No more than two ppl can move in here  */
+#define ARENA         BIT_11
+#define SAFE_ZONE     BIT_12      /* No steal, attacks permitted in room    */
+#define NO_PRECIP     BIT_13
+#define SINGLE_FILE   BIT_14
+#define JAIL          BIT_15
+#define NO_TELEPORT   BIT_16
+#define PRIV_ZONE     BIT_17      /* Currently unused     */
+#define HEAL          BIT_18      /* You regain stats twice as fast here    */
+#define NO_HEAL       BIT_19      /* Cannot regain hp/mv/ma within room     */
+#define ROOM_IS_INN   BIT_20      /* Players can rent here                  */
+#define DOCKABLE      BIT_21      /* SHIP can dock in this room             */
+#define MAGIC_DARK    BIT_22
+#define MAGIC_LIGHT   BIT_23
+#define NO_SUMMON     BIT_24      /* Cannot summon or be summoned to or from */
+#define GUILD_ROOM    BIT_25      /* for player guild rooms */
+#define TWILIGHT      BIT_26
+#define NO_PSI        BIT_27      /* can psis cast in here? */
+#define NO_GATE       BIT_28      /* disallow gate/planeshift? */
+#define ROOM_UNUSED   BIT_29     /* This is the HOUSE bit whatever that was? */
+#define ROOM_ATRIUM   BIT_30      /* (R) The door to a house      */
+#define BLOCKS_SIGHT  BIT_31     /* can't scan/farsee through it, for fog, etc */
+#define BFS_MARK      BIT_32      /* used internally for find_the_path code */
 
 /* For 'dir_option' */
 
@@ -402,7 +408,7 @@ typedef unsigned int uint;
 #define NORTHEAST      8
 #define SOUTHEAST      9
 
-#define NUMB_EXITS     10
+#define NUM_EXITS     10
 
 #define EX_ISDOOR      BIT_1
 #define EX_CLOSED      BIT_2
@@ -458,8 +464,10 @@ typedef unsigned int uint;
 #define SECT_NEG_PLANE        35
 #define SECT_PLANE_OF_AVERNUS 36
 #define SECT_ROAD             37
+#define SECT_SNOWY_FOREST     38
+#define SECT_LAVA             39
 
-#define NUM_SECT_TYPES        38
+#define NUM_SECT_TYPES        40
 
 /* What the land contains in resources */
 #define RESOURCE_NONE           BIT_1
@@ -495,7 +503,7 @@ typedef unsigned int uint;
 
 /* The following defs and structures are related to char_data   */
 
-/* For 'equipment' */
+	/* For 'equipment' */
 
 #define WEAR_LIGHT              0       /* should not be used any longer! */
 #define WEAR_FINGER_R           1
@@ -510,7 +518,7 @@ typedef unsigned int uint;
 #define WEAR_ARMS              10
 #define WEAR_SHIELD            11
 #define WEAR_ABOUT             12
-#define WEAR_WAISTE            13
+#define WEAR_WAIST             13
 #define WEAR_WRIST_R           14
 #define WEAR_WRIST_L           15
 #define PRIMARY_WEAPON         16
@@ -585,6 +593,25 @@ typedef unsigned int uint;
 #define TONGUE_GOD             28
 #define TONGUE_LASTHEARD       28
 
+/* predifined attributes */
+
+struct attr_names_struct {
+  const char *abrv;
+  const char *name;
+};
+
+#define STR	1
+#define DEX	2
+#define AGI	3
+#define CON	4
+#define POW	5
+#define INT	6
+#define WIS	7
+#define CHA	8
+#define KARMA	9
+#define LUCK	10
+#define MAX_ATTRIBUTES LUCK
+
 /* Predifined  conditions */
 #define DRUNK        0
 #define FULL         1
@@ -604,7 +631,7 @@ typedef unsigned int uint;
 #define AFF_MINOR_GLOBE       BIT_7
 #define AFF_STONE_SKIN        BIT_8
 #define AFF_UD_VISION         BIT_9
-#define AFF_SHADOW            BIT_10
+#define AFF_ARMOR             BIT_10
 #define AFF_WRAITHFORM        BIT_11
 #define AFF_WATERBREATH       BIT_12
 #define AFF_KNOCKED_OUT       BIT_13
@@ -685,36 +712,36 @@ typedef unsigned int uint;
 #define AFF3_COVER              BIT_18
 #define AFF3_FOUR_ARMS          BIT_19
 #define AFF3_INERTIAL_BARRIER   BIT_20
-#define AFF3_INTELLECT_FORT     BIT_21
+#define AFF3_LIGHTNINGSHIELD    BIT_21
 #define AFF3_COLDSHIELD         BIT_22
-#define AFF3_CANIBALIZE         BIT_23
+#define AFF3_CANNIBALIZE        BIT_23
 #define AFF3_SWIMMING           BIT_24
 #define AFF3_TOWER_IRON_WILL    BIT_25
 #define AFF3_UNDERWATER         BIT_26
-#define AFF3_BLUR                     BIT_27
-#define AFF3_UNUSED28           BIT_28
+#define AFF3_BLUR               BIT_27
+#define AFF3_ENHANCE_HEALING    BIT_28
 #define AFF3_ELEMENTAL_FORM     BIT_29
 #define AFF3_PASS_WITHOUT_TRACE BIT_30
 #define AFF3_PALADIN_AURA       BIT_31
-#define AFF3_FAMINE                 BIT_32
+#define AFF3_FAMINE             BIT_32
 
-#define AFF4_LOOTER             BIT_1 /* Just looted someone, prevent rent */
-#define AFF4_CARRY_DISEASE      BIT_2
-#define AFF4_SACKING            BIT_3 /* sacking a guildhall */
-#define AFF4_SENSE_FOLLOWER     BIT_4
-#define AFF4_STORNOGS_SPHERES   BIT_5
+#define AFF4_LOOTER                   BIT_1 /* Just looted someone, prevent rent */
+#define AFF4_CARRY_PLAGUE             BIT_2
+#define AFF4_SACKING                  BIT_3 /* sacking a guildhall */
+#define AFF4_SENSE_FOLLOWER           BIT_4
+#define AFF4_STORNOGS_SPHERES         BIT_5
 #define AFF4_STORNOGS_GREATER_SPHERES BIT_6
-#define AFF4_VAMPIRE_FORM       BIT_7
-#define AFF4_NO_UNMORPH         BIT_8 /* can't return .. */
-#define AFF4_HOLY_SACRIFICE     BIT_9
+#define AFF4_VAMPIRE_FORM             BIT_7
+#define AFF4_NO_UNMORPH               BIT_8 /* can't return .. */
+#define AFF4_HOLY_SACRIFICE           BIT_9
 #define AFF4_BATTLE_ECSTASY     BIT_10
 #define AFF4_DAZZLER            BIT_11
 #define AFF4_PHANTASMAL_FORM    BIT_12
 #define AFF4_NOFEAR             BIT_13
 #define AFF4_REGENERATION       BIT_14
-#define AFF4_UNUSED15           BIT_15
-#define AFF4_UNUSED16           BIT_16
-#define AFF4_UNUSED17           BIT_17
+#define AFF4_DEAF               BIT_15
+#define AFF4_BATTLETIDE         BIT_16
+#define AFF4_EPIC_INCREASE      BIT_17
 #define AFF4_MAGE_FLAME         BIT_18 /* magic torch floating above char */
 #define AFF4_GLOBE_OF_DARKNESS  BIT_19 /* like mage flame but reverse! */
 #define AFF4_DEFLECT            BIT_20
@@ -742,26 +769,29 @@ typedef unsigned int uint;
 #define AFF5_VINES              BIT_4
 #define AFF5_ETHEREAL_ALLIANCE  BIT_5
 #define AFF5_BLOOD_SCENT        BIT_6
-#define AFF5_FADE               BIT_7
+#define AFF5_FLESH_ARMOR        BIT_7
 #define AFF5_WET                BIT_8
-#define AFF5_UNUSED9            BIT_9
+#define AFF5_HOLY_DHARMA        BIT_9
 #define AFF5_ENH_HIDE           BIT_10
 #define AFF5_LISTEN             BIT_11
-#define AFF5_UNUSED10           BIT_12
-#define AFF5_SHADOW_SHIELD      BIT_13 /* illusionist shield */
-#define AFF5_IMPRISON             BIT_14
-#define AFF5_TITAN_FORM         BIT_15
-#define AFF5_DELIRIUM           BIT_16
-#define AFF5_SHADE_MOVEMENT     BIT_17
-#define AFF5_DEAF               BIT_18
-#define AFF5_MAGICAL_GLOW       BIT_19
-#define AFF5_REFRESHING_GLOW    BIT_20
-#define AFF5_MINE               BIT_21
-#define AFF5_STANCE_OFFENSIVE   BIT_22
-#define AFF5_STANCE_DEFENSIVE   BIT_23
-#define AFF5_OBSCURING_MIST     BIT_24
-#define AFF5_NOT_OFFENSIVE      BIT_25
-#define AFF5_MINER              BIT_26
+#define AFF5_PROT_UNDEAD        BIT_12
+#define AFF5_IMPRISON           BIT_13
+#define AFF5_TITAN_FORM         BIT_14
+#define AFF5_DELIRIUM           BIT_15
+#define AFF5_SHADE_MOVEMENT     BIT_16
+#define AFF5_NOBLIND            BIT_17
+#define AFF5_MAGICAL_GLOW       BIT_18
+#define AFF5_REFRESHING_GLOW    BIT_19
+#define AFF5_MINE               BIT_20
+#define AFF5_STANCE_OFFENSIVE   BIT_21
+#define AFF5_STANCE_DEFENSIVE   BIT_22
+#define AFF5_OBSCURING_MIST     BIT_23
+#define AFF5_NOT_OFFENSIVE      BIT_24
+#define AFF5_DECAYING_FLESH     BIT_25
+#define AFF5_DREADNAUGHT        BIT_26
+#define AFF5_FOREST_SIGHT       BIT_27
+#define AFF5_THORNSKIN          BIT_28
+
 
 /* modifiers to char's abilities */
 
@@ -789,7 +819,7 @@ typedef unsigned int uint;
 #define APPLY_DAMROLL          19
 #define APPLY_SAVING_PARA      20
 #define APPLY_SAVING_ROD       21
-#define APPLY_SAVING_PETRI     22
+#define APPLY_SAVING_FEAR      22
 #define APPLY_SAVING_BREATH    23
 #define APPLY_SAVING_SPELL     24
 #define APPLY_FIRE_PROT        25
@@ -871,9 +901,9 @@ typedef unsigned int uint;
 #define RACE_KUOTOA          34 /* mob race code: KT */
 #define RACE_WOODELF         35 /* mob race code: WE */
 #define RACE_FIRBOLG         36 /* mob race code: FB */
-#define RACE_AGATHINON       37 /* mob race code: AG */
+#define RACE_PLAYER_MAX RACE_FIRBOLG
+#define RACE_AGATHINON       37 /* mob race code: EH */
 #define RACE_ELADRIN         38 /* mob race code: EL */
-#define RACE_PLAYER_MAX RACE_ELADRIN
 #define RACE_GARGOYLE        39 /* mob race code: MG */
 #define RACE_F_ELEMENTAL     40 /* mob race code: EF */
 #define RACE_A_ELEMENTAL     41 /* mob race code: EA */
@@ -897,7 +927,7 @@ typedef unsigned int uint;
 #define RACE_ARACHNID        59 /* mob race code: AS */
 #define RACE_AQUATIC_ANIMAL  60 /* mob race code: F  */
 #define RACE_FLYING_ANIMAL   61 /* mob race code: B  */
-#define RACE_QUADRAPED       62 /* mob race code: AE */
+#define RACE_QUADRUPED       62 /* mob race code: AE */
 #define RACE_PRIMATE         63 /* mob race code: AA */
 #define RACE_HUMANOID        64 /* mob race code: H  */
 #define RACE_ANIMAL          65 /* mob race code: A  */
@@ -920,22 +950,22 @@ typedef unsigned int uint;
 #define RACE_WRAITH          82 /* mob race code: WR */
 #define RACE_SHADOW          83 /* mob race code: SW */
 #define RACE_PWORM           84 /* mob race code: PW */
-#define RACE_V_ELEMENTAL     85 /* mob race code: EV */
+#define RACE_V_ELEMENTAL     85 /* mob race code: VE */
 #define RACE_I_ELEMENTAL     86 /* mob race code: IE */
 #define RACE_PHOENIX         87 /* mob race code: PX */
 #define RACE_ARCHON          88 /* mob race code: AR */
 #define RACE_ASURA           89 /* mob race code: AU */
 #define RACE_TITAN           90 /* mob race code: TT */
 #define RACE_AVATAR          91 /* mob race code: AV */
-#define RACE_BRALANI         92 /* mob race code: BR */
-#define RACE_GHAELE          93 /* mob race code: GH */
+#define RACE_GHAELE          92 /* mob race code: GH */
+#define RACE_BRALANI         93 /* mob race code: BR */
 #define RACE_WHINER          94 /* mob race code: WH */
 #define RACE_INCUBUS         95 /* mob race code: IN */
 #define RACE_SUCCUBUS        96 /* mob race code: SU */
 #define RACE_FIREGIANT       97 /* mob race code: FG */
 #define RACE_FROSTGIANT      98 /* mob race code: IG */
 #define RACE_DEVA            99 /* mob race code: DV */
-#define LAST_RACE            99 /* 99 races on duris! */
+#define LAST_RACE            99 /* 99 races on duris today, 99 races..*/
 
 #define DEFINED_RACES        99 /* actual number of races defined */
 #define MAX_HATRED	     5
@@ -984,87 +1014,6 @@ typedef unsigned int uint;
 #define CLASS_TYPE_WARRIOR   22
 #define CLASS_TYPE_CLERIC    23
 
-/* Specs for classes.. not really used in DE? */
-#define SPEC_LOREMASTER 1
-#define SPEC_BATTLESEINGER 2
-#define SPEC_STORMSINGER 3
-#define SPEC_WAYOFDRAGON 1
-#define SPEC_WAYOFSNAKE 2
-#define SPEC_CHIMONK 3
-#define SPEC_DEATHLORD 1
-#define SPEC_SHADOWLORD 2
-#define SPEC_ICE_REAVER 1
-#define SPEC_FLAME_REAVER 2
-#define SPEC_SHOCK_REAVER 3
-#define SPEC_EARTH_REAVER 4
-#define SPEC_AIR 1
-#define SPEC_WATER 2
-#define SPEC_FIRE 3
-#define SPEC_EARTH 4
-#define SPEC_BATTLE_FORGER 1
-#define SPEC_BLACKSMITH 2
-#define SPEC_BRIGAND 1
-#define SPEC_BOUNTY 2
-#define SPEC_ASSMASTER 1
-// #define SPEC_SHARPSHOOTER 2 No way pal, we'll jew this for something else!
-#define SPEC_MAULER 1
-#define SPEC_RAGELORD 2
-#define SPEC_DIABOLIS 1
-#define SPEC_NECROLYTE 2
-#define SPEC_REAPER 3
-#define SPEC_SWORDSMAN 1
-#define SPEC_GUARDIAN  2
-#define SPEC_SWASHBUCKLER 3
-#define SPEC_DARKKNIGHT 1
-#define SPEC_DEMONIC 2
-#define SPEC_VIOLATOR 3
-#define SPEC_SPAWN 4
-#define SPEC_CRUSADER 1
-#define SPEC_CAVALIER 2
-#define SPEC_WILDMAGE 1
-#define SPEC_WIZARD 2
-#define SPEC_SHADOW 3
-#define SPEC_TRICKSTER 1
-#define SPEC_CUTPURSE 2
-#define SPEC_ROGUE 3
-#define SPEC_ELEMENTALIST 1
-#define SPEC_SPIRITUALIST 2
-#define SPEC_ANIMALIST 3
-#define SPEC_BLADEMASTER 1
-#define SPEC_WOODSMAN    2
-#define SPEC_MARSHALL    3
-#define SPEC_ZEALOT  1
-#define SPEC_HEALER  2
-#define SPEC_HOLYMAN 3
-#define SPEC_WOODLAND 1
-#define SPEC_STORM 2
-#define SPEC_WINDTALKER 1
-#define SPEC_FROST_MAGUS 2
-#define SPEC_COSMOMANCER 3
-#define SPEC_DISHARMONIST 1
-#define SPEC_SCOUNDREL 2
-#define SPEC_MINSTREL 3
-#define SPEC_PYROKINETIC 1
-#define SPEC_ENSLAVER 2
-#define SPEC_PSYCHEPORTER 3
-#define SPEC_DECEIVER 1
-#define SPEC_DARK_DREAMER 2
-#define SPEC_STORMBRINGER 1
-#define SPEC_SCOURGE      2
-#define SPEC_RUINER       3
-#define SPEC_LIGHTBRINGER 1
-#define SPEC_INQUISITOR  2
-#define SPEC_ASSASSIN 1
-#define SPEC_THIEF    2
-#define SPEC_OLD_SWASHBUCKLER  3 // Switched to warrior.
-#define SPEC_SHARPSHOOTER 4
-#define SPEC_MEDIUM 1
-#define SPEC_TEMPLAR 2
-#define SPEC_THAUMATURGE 3
-#define SPEC_CONTROLLER 1
-#define SPEC_MENTALIST  2
-#define SPEC_NATURALIST 3
-
 /* animals fall into three categorizations */
 #define ANIMAL_TYPE_BIRD     0
 #define ANIMAL_TYPE_REPTILE  1
@@ -1074,7 +1023,7 @@ typedef unsigned int uint;
 /* hometowns SAM 7-94 */
 #define HOME_CHOICE             -1      /* player has choice among several towns */
 #define HOME_NONE                0
-#define HOME_WINTERHAVEN         1      /* human, half-elf */
+#define HOME_THARN               1      /* all goodies */
 #define HOME_IXARKON             2       /* barbarian */
 #define HOME_ARACHDRATHOS        3       /* drow elf */
 #define HOME_SYLVANDAWN          4       /* grey-elf, half-elf */
@@ -1094,9 +1043,12 @@ typedef unsigned int uint;
 #define HOME_KHHIYTIK           18      /* thrikreen */
 #define HOME_GITHFORT           19      /* githyanki */
 #define HOME_GOBLIN             20      /* goblin */
-#define HOME_HARPY              21
+#define HOME_HARPY              21      /* harpy */
 #define HOME_NEWBIE             22
-#define LAST_HOME               22      /* number of last hometown */
+#define HOME_PLANE_OF_LIFE	    23
+#define HOME_OROGS				24      /* orog */
+
+#define LAST_HOME               24      /* number of last hometown */
 
 /* initial alignments SAM 7-94 */
 #define ALIGN_EVIL              -1
@@ -1176,6 +1128,8 @@ typedef unsigned int uint;
 #define ACT_SPEC_TEACHER       BIT_32   /* Mob aggroes on outcasts */
 
 #define ACT2_COMBAT_NEARBY     BIT_1
+#define ACT2_NO_LURE           BIT_2    // Will not hunt via MobHuntCheck
+#define ACT2_REMEMBERS_GROUP   BIT_3    // experimental setting - will remember whole group
 #define ACT2_BACK_RANK         BIT_22   // must be same as PLR2_BACK_RANK
 #define ACT2_WAIT              BIT_29   // must be same as PLR2_WAIT
 
@@ -1263,6 +1217,8 @@ typedef unsigned int uint;
 #define AGGR3_ETHERMANCER    BIT_14
 #define AGGR3_DREADLORD      BIT_15
 #define AGGR3_AVENGER        BIT_16
+#define AGGR3_BLIGHTER       BIT_17
+#define AGGR3_SUMMONER       BIT_18
 
 #define SECS_BETWEEN_AFF_REFRESH  60    /* RL seconds between each refresh */
 
@@ -1284,6 +1240,25 @@ typedef unsigned int uint;
 #define HUNT_ROOM               129 /* just run to that room */
 #define HUNT_JUSTICE_HELP       130 /* call for help from that room */
 
+#define ZONE_NORMAL             1 /* zone not being raided or anything */
+#define ZONE_REPAIR             2
+#define ZONE_RAID               3
+#define ZONE_SACK               4
+#define ZONE_DESTROYED          5
+
+#define KVARK_IMPROVED_FIGHTS 0
+
+typedef struct _flagDef {
+  const char *flagShort;//[FLAG_SHORT_LEN];
+  const char *flagLong;//[FLAG_LONG_LEN];
+  char editable;  // editable w/o special switch?  (in first element of
+        // table, specifies number of flags in table)
+  int defVal;     // default value (IS_NPC for mobs - 1, DEATH for rooms - 0,
+                  // for example - hardly any flags will have def vals of 1)
+                  // for 'enumerated' flagDef tables, specifies which value
+                  // entry has - that's also why it's an int rather than a
+} flagDef;
+
 struct race_names {
   const char *normal;
   const char *no_spaces;
@@ -1300,6 +1275,23 @@ struct class_names {
 
 struct material_data {
   const char *name;
+  const char dam_res[20];
 };
+
+#define _NEW_LOW_NECRO_ 0
+#define PLAYERLESS_ZONE_SPEED_MODIFIER 3
+#define WH_HIGH_PRIEST_VNUM 55184
+#define IMAGE_REFLECTION_VNUM 250
+#define DRAGONLORD_PLATE_VNUM 25723
+#define REVENANT_CROWN_VNUM 22070
+#define SNEAK(ch) (IS_AFFECTED(ch, AFF_SNEAK) || UD_SNEAK(ch) || OUTDOOR_SNEAK(ch))
+#define LEVITATE(ch, dir) (IS_AFFECTED(ch, AFF_LEVITATE) && ((dir == UP) || (dir == DOWN)))
+
+// world_quest_.c
+#define FIND_AND_SOMETHING   0
+#define FIND_AND_KILL   1
+#define FIND_AND_ASK   2
+
+#define RANDOM_ZONES 1 // Set to 1 to enable
 
 #endif /* _DURIS_DEFINES_H_ */

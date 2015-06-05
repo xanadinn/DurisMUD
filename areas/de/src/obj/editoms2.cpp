@@ -41,8 +41,6 @@
 #include "../types.h"
 #include "../misc/menu.h"
 
-#include "../flagdef.h"
-
 #include "../graphcon.h"
 
 extern menu g_objMisc2Menu;

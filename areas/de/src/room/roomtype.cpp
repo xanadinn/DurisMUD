@@ -37,7 +37,6 @@
 
 #include "../fh.h"
 #include "../types.h"
-#include "../flagdef.h"
 
 #include "room.h"
 

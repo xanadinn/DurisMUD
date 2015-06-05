@@ -1244,7 +1244,7 @@ int itemvalue( objectType *obj )
     //saving throw values (good) are negative
     if( (obj->objApply[i].applyWhere == APPLY_SAVING_PARA)
 	    || (obj->objApply[i].applyWhere == APPLY_SAVING_ROD)
-	    || (obj->objApply[i].applyWhere == APPLY_SAVING_PETRI)
+	    || (obj->objApply[i].applyWhere == APPLY_SAVING_FEAR)
 	    || (obj->objApply[i].applyWhere == APPLY_SAVING_BREATH)
 	    || (obj->objApply[i].applyWhere == APPLY_SAVING_SPELL) )
     {

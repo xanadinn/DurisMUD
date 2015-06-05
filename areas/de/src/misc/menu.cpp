@@ -108,27 +108,23 @@ char checkMenuKey(const usint ch, const bool flagMenu)
 
 
 //
-// getMenuDataTypeStrn : given dataType, entityPtr, and offset, write human readable version of data
-//                       into valstrn
+// getMenuDataTypeStrn : given dataType, entityPtr, and offset, write human readable version of data into valstrn
 //
-//                       valstrn must be at least 129 characters - intMaxLen is used where strings could
-//                       conceivably be larger (mob class, keyword lists, ...)
-//
-
-int getMenuDataTypeStrn(char *valstrn, const menuChoiceDataType dataType, const size_t offset, 
-                        const void *entityPtr, const size_t intMaxLen)
+// valstrn must be at least 129 characters
+//   intMaxLen is used where strings could conceivably be larger (mob class, keyword lists, ...)
+long getMenuDataTypeStrn(char *valstrn, const menuChoiceDataType dataType, const size_t offset,
+  const void *entityPtr, const size_t intMaxLen)
 {
   char tempstrn[1024];
   extraDesc *edesc;  // used by obj ID edescs
-  int val = 0;
   long lval = 0;
 
   switch (dataType)
   {
-    case mctChar : 
-      val = *((char *)entityPtr + offset);
+    case mctChar :
+      lval = *((char *)entityPtr + offset);
 
-      sprintf(valstrn, "%c", val);
+      sprintf(valstrn, "%c", (char)lval);
       break;
 
     case mctByte :
@@ -144,15 +140,15 @@ int getMenuDataTypeStrn(char *valstrn, const menuChoiceDataType dataType, const 
       break;
 
     case mctShort :
-      val = *(sint *)((char *)entityPtr + offset);
+      lval = *(sint *)((char *)entityPtr + offset);
 
-      sprintf(valstrn, "%hd", val);
+      sprintf(valstrn, "%hd", (sint)lval);
       break;
 
     case mctUShort :
-      val = *(usint *)((char *)entityPtr + offset);
+      lval = *(usint *)((char *)entityPtr + offset);
 
-      sprintf(valstrn, "%hu", val);
+      sprintf(valstrn, "%hu", (usint)lval);
       break;
 
     case mctInt :
@@ -252,9 +248,9 @@ int getMenuDataTypeStrn(char *valstrn, const menuChoiceDataType dataType, const 
    // for object/mob limit, offset is used to store vnum
 
     case mctObjectLimit :
-      val = getNumbEntities(ENTITY_OBJECT, (uint)offset, false);
+      lval = getNumbEntities(ENTITY_OBJECT, (uint)offset, false);
 
-      sprintf(valstrn, "%u", val);
+      sprintf(valstrn, "%ld", lval);
       break;
 
 #ifdef GODMODE
@@ -264,21 +260,21 @@ int getMenuDataTypeStrn(char *valstrn, const menuChoiceDataType dataType, const 
 #endif
 
     case mctObjectLimitOverride :
-      val = getNumbEntities(ENTITY_OBJECT, (uint)offset, true);
+      lval = getNumbEntities(ENTITY_OBJECT, (uint)offset, true);
 
-      sprintf(valstrn, "%u", val);
+      sprintf(valstrn, "%ld", lval);
       break;
 
     case mctMobLimit :
-      val = getNumbEntities(ENTITY_MOB, (uint)offset, false);
+      lval = getNumbEntities(ENTITY_MOB, (uint)offset, false);
 
-      sprintf(valstrn, "%u", val);
+      sprintf(valstrn, "%ld", lval);
       break;
 
     case mctMobLimitOverride :
-      val = getNumbEntities(ENTITY_MOB, (uint)offset, true);
+      lval = getNumbEntities(ENTITY_MOB, (uint)offset, true);
 
-      sprintf(valstrn, "%u", val);
+      sprintf(valstrn, "%ld", lval);
       break;
 
     case mctSpecies :
@@ -294,13 +290,13 @@ int getMenuDataTypeStrn(char *valstrn, const menuChoiceDataType dataType, const 
       break;
 
     case mctNumbShopSold :
-      val = getNumbShopSold((uint *)((char *)entityPtr + offset));
-      sprintf(valstrn, "%u", val);
+      lval = getNumbShopSold((uint *)((char *)entityPtr + offset));
+      sprintf(valstrn, "%ld", lval);
       break;
 
     case mctNumbShopBought :
-      val = getNumbShopBought((uint *)((char *)entityPtr + offset));
-      sprintf(valstrn, "%u", val);
+      lval = getNumbShopBought((uint *)((char *)entityPtr + offset));
+      sprintf(valstrn, "%ld", lval);
       break;
 
     case mctBoolYesNo :
@@ -312,8 +308,8 @@ int getMenuDataTypeStrn(char *valstrn, const menuChoiceDataType dataType, const 
       break;
 
     case mctVarUInt :
-      val = ((uint(*)(void))(offset))();
-      sprintf(valstrn, "%u", val);
+      lval = ((uint(*)(void))(offset))();
+      sprintf(valstrn, "%u", (uint)lval);
       break;
 
     case mctVarString :
@@ -369,19 +365,14 @@ int getMenuDataTypeStrn(char *valstrn, const menuChoiceDataType dataType, const 
 
       break;
   }
-
-  return val;
+  return lval;
 }
 
 
+// getMenuListTypeStrn : given listType, value, and entityPtr, write verbal equivalent of enumerated value
+//   verbosevalstrn should be at least 192
 //
-// getMenuListTypeStrn : given listType, value, and entityPtr, write verbal equivalent of
-//                       enumerated value
-//
-//                       verbosevalstrn should be at least 192
-//
-
-void getMenuListTypeStrn(char *verbosevalstrn, const menuChoiceListType listType, const int val, 
+void getMenuListTypeStrn(char *verbosevalstrn, const menuChoiceListType listType, const int val,
                          const void *entityPtr, const size_t intMaxLen)
 {
   const objectType *obj = (const objectType*)entityPtr;  // used for obj values below
@@ -619,11 +610,10 @@ void displayMenuInline(const menu *menuDisp, const void *entityPtr)
   const uint intScreenWidth = getScreenWidth();
   char currentLineStrn[4096];
 
-
   while (group->choiceArr)
   {
-   // chKey == 0 means blank line
 
+    // chKey == 0 means blank line
     if (group->chKey == 0)
     {
       currentLineStrn[0] = '\0';
@@ -636,18 +626,15 @@ void displayMenuInline(const menu *menuDisp, const void *entityPtr)
 
       getKeyStrn(group->chKey, group->chKey2, currentLineStrn);
 
-     // if choice has type direct, there are no other choices and only the first choice's group name is 
-     // displayed
-
+      // If choice has type direct, there are no other choices and only the first choice's group name is displayed
       if (choice->dataType == mctDirect)
       {
         strcat(currentLineStrn, choice->choiceGroupName);
       }
       else
       {
-       // run through each choice in the group, and for choices with multiple values, run through them
-       // too
 
+        // Run through each choice in the group, and for choices with multiple values, run through them too
         while (choice->choiceGroupName)
         {
           const menuChoice *activeChoice = choice;
@@ -656,8 +643,7 @@ void displayMenuInline(const menu *menuDisp, const void *entityPtr)
           uint numbChoices = 0;
           uint intNumbExtraDisplayed = 0;
 
-         // for first choice, always put 'Edit ' and value name on the first line
-
+          // for first choice, always put 'Edit ' and value name on the first line
           if (choice == group->choiceArr)
           {
             sprintf(currentLineStrn + strlen(currentLineStrn), "Edit %s", choice->choiceGroupName);
@@ -668,10 +654,9 @@ void displayMenuInline(const menu *menuDisp, const void *entityPtr)
             strcpy(addStrn, choice->choiceGroupName);
           }
 
-       // basic technique : run through each choice, as each item name and any current value are generated,
-       // determine if name+value will fit on current line, if not, display the current line and bump 
-       // the new data to the next line
-
+          // basic technique : run through each choice, as each item name and any current value are generated,
+          // determine if name+value will fit on current line, if not, display the current line and bump
+          // the new data to the next line
           while (activeChoice && activeChoice->choiceGroupName)
           {
             const menuChoiceDataType dataType = activeChoice->dataType;
@@ -679,8 +664,7 @@ void displayMenuInline(const menu *menuDisp, const void *entityPtr)
             const menuChoiceDisplayType displayType = activeChoice->displayType;
             const size_t offset = activeChoice->offset;
 
-           // display current value of choice, but only if allowed by menu itself and by user
-
+            // display current value of choice, but only if allowed by menu itself and by user
             if ((displayType != mcdDoNotDisplay) && blnDispVerbose)
             {
               char valstrn[512];
@@ -688,8 +672,7 @@ void displayMenuInline(const menu *menuDisp, const void *entityPtr)
 
               const int val = getMenuDataTypeStrn(valstrn, dataType, offset, entityPtr, 511);
 
-             // if first value, add left paren, otherwise add slash
-
+              // if first value, add left paren, otherwise add slash
               if (activeChoice == choice)
               {
                 strcat(addStrn, " &+c(");
@@ -710,8 +693,7 @@ void displayMenuInline(const menu *menuDisp, const void *entityPtr)
               if ((listType != mclNone) && (displayType != mcdNoListInline))
               {
                 getMenuListTypeStrn(verbosevalstrn, listType, val, entityPtr, 511);
-
-                sprintf(addStrn + strlen(addStrn), "%s&+c [%s]", verbosevalstrn, valstrn);
+                sprintf(addStrn + strlen(addStrn), "%s &+c[%s]", verbosevalstrn, valstrn);
               }
               else
               {

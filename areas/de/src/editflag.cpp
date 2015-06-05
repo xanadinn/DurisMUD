@@ -46,10 +46,6 @@
 
 #include "graphcon.h"
 
-#include "flagdef.h"
-
-
-
 extern usint g_templateKeys[], g_setTemplateKeys[];
 extern bool g_madeChanges;
 extern "C" const char *specdata[][MAX_SPEC];

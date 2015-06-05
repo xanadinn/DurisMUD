@@ -2,7 +2,9 @@
 
 #ifndef _OBJMISC_H_
 
+#ifndef _DE_
 #include "structs.h"
+#endif
 
  /* obj->material */
 
@@ -486,8 +488,10 @@
 #define SHIELDSIZE_HUGE     5  // huge shields (might not need this)
 #define SHIELDSIZE_HIGHEST  5
 
+#ifndef _DE_
 int obj_zone_id(P_obj o);
 int obj_room_id(P_obj o);
+#endif
 
 #define _OBJMISC_H_
 #endif

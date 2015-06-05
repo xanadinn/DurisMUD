@@ -6,28 +6,10 @@
 #ifndef _SOJ_SPELLS_H_
 #define _SOJ_SPELLS_H_
 
-#define GET_SPELLTYPE(spell_id) (skills[(spell_id)].type)
-
-#define SPELLTYPE_FIRE                1
-#define SPELLTYPE_COLD                2
-#define SPELLTYPE_ELECTRIC            3
-#define SPELLTYPE_ACID                4
-#define SPELLTYPE_BLOW                5
-#define SPELLTYPE_GENERIC             6         /* Defined for use in        */
-#define SPELLTYPE_HEALING             7         /* classifying spell types.  */
-#define SPELLTYPE_PROTECTION          8         /* SKB - 3 Mar 1995          */
-#define SPELLTYPE_ENCHANTMENT         9
-#define SPELLTYPE_DIVINATION         10
-#define SPELLTYPE_TELEPORTATION      11
-#define SPELLTYPE_SUMMONING          12
-#define SPELLTYPE_ANIMAL             13
-#define SPELLTYPE_ELEMENTAL          14
-#define SPELLTYPE_SPIRIT             15
-#define SPELLTYPE_PSIONIC            16
-#define NUMB_SPELLTYPES		     16
-
 #define TYPE_UNDEFINED               -1
 #define SPELL_RESERVED_DBC            0 /* SKILL NUMBER ZERO */
+
+#define FIRST_SPELL                   1
 #define SPELL_ARMOR                   1
 #define SPELL_TELEPORT                2
 #define SPELL_BLESS                   3
@@ -217,6 +199,9 @@
 #define SPELL_SOULSHIELD             188
 #define SPELL_INVIS_MAJOR            189
 #define SPELL_MASS_HEAL              190
+
+/* shaman spells */
+
 #define SPELL_ICE_MISSILE            191
 #define SPELL_SPIRIT_ARMOR           192
 #define SPELL_WOLFSPEED              193
@@ -397,6 +382,8 @@
 #define SPELL_RESTORE_ITEM           368
 #define SPELL_NATURES_TOUCH          369
 #define SPELL_STICKS_TO_SNAKES       370
+
+/* SPEC SPELLS - KVARK */
 #define SPELL_GROUP_HEAL             371
 #define SPELL_LESSER_SANCTUARY       372
 #define SPELL_AURA_OF_REBIRTH         373
@@ -413,6 +400,8 @@
 #define SPELL_ANIMAL_FRIENDSHIP      384
 #define SPELL_ANIMAL_VISION          385
 #define SPELL_CDOOM	 	     386
+
+/* REAVER SPELLS - Ilienze */
 #define SPELL_BALADORS_PROTECTION    387
 #define SPELL_LLIENDILS_STORMSHOCK   388
 #define SPELL_FERRIX_PRECISION       389
@@ -420,12 +409,17 @@
 #define SPELL_ESHABALAS_VITALITY	   391
 #define SPELL_KANCHELSIS_FURY        392
 #define SPELL_THRYMS_ICERAZOR        393
+/* END REAVER SPELLS  */
+
 #define SPELL_MAGMA_BURST	     394
 #define SPELL_BATTLETIDE	     395
 #define SPELL_AIR_FORM			 396
 #define SPELL_WATER_TO_LIFE		 397
 #define SPELL_LIVING_STONE		398
 #define SPELL_EARTHEN_TOMB		399
+
+/* ILLUSIONIST SPELLS */
+
 #define SPELL_PHANTOM_ARMOR		400
 #define SPELL_SHADOW_MONSTER		401
 #define SPELL_INSECTS			402
@@ -449,20 +443,26 @@
 #define SPELL_NONEXISTENCE	  	420
 #define SPELL_TITAN			421
 #define SPELL_DRAGON			422
+
 #define SPELL_CONJURE_WATER		423
 #define SPELL_DREAD_WAVE		424
 #define SPELL_GREATER_LIVING_STONE		425
+
 #define SPELL_ETHEREAL_GROUNDS		426
 #define SPELL_SPAWN	427
+
+// For Shabo Proc
 #define SPELL_ACIDIMMOLATE              428
 #define SPELL_FLICKER			429
 #define SPELL_GREATER_FLICKER		430
+
 #define SPELL_SOLAR_FLARE	431
 #define SPELL_CHAOTIC_RIPPLE 432
 #define SPELL_BLINK 433
 #define SPELL_MORDENKAINENS_LUCUBRATION 434
 #define SPELL_RACE_CHANGE 435
 #define SPELL_BEASTFORM 436
+
 #define SPELL_GREATER_HEAL_UNDEAD 437
 #define SPELL_HEALING_SALVE  438
 #define SPELL_PLAGUE  439
@@ -470,6 +470,8 @@
 #define SPELL_PEACE   441
 #define SPELL_SHADOW_PROJECTION  442
 #define SPELL_DEATH_BLESSING 443
+
+// Druid Specs
 #define SPELL_GROW  444
 #define SPELL_VINES 445
 #define SPELL_AWAKEN_FOREST 446
@@ -478,6 +480,8 @@
 #define SPELL_HURRICANE 	     449
 #define SPELL_STORMSHIELD      450
 #define SPELL_BLOODTOSTONE     451
+
+// Ethermancer Spells
 #define SPELL_VAPOR_ARMOR      452
 #define SPELL_WINDWALK         453
 #define SPELL_WIND_BLADE       454
@@ -501,18 +505,23 @@
 #define SPELL_FAERIE_SIGHT     473
 #define SPELL_INDOMITABILITY   474
 #define SPELL_TEMPEST_TERRAIN  475
+
+// Frost Magus Ethermancer Spec
 #define SPELL_TEMPEST           465
 #define SPELL_WIND_RAGE         476
 #define SPELL_ETHEREAL_ALLIANCE 477
 #define SPELL_GREATER_ETHEREAL  478
 #define SPELL_DREAD_BLADE        479
+
 #define SPELL_ELEM_FURY            480
 #define SPELL_ELEM_AFFINITY        481
 #define SPELL_SPIRIT_WALK          482
 #define SPELL_ESSENCE_OF_WOLF      483
 #define SPELL_GREATER_SUMMON_BEAST 484
+
 #define SPELL_CREATE_GOLEM      485
 #define SPELL_RAISE_SHADOW      486
+
 #define SPELL_SHATTER		487
 #define SPELL_GROUP_TELEPORT    488
 #define SPELL_CONTROL_FLAMES    489
@@ -523,6 +532,7 @@
 #define SPELL_NITROGEN          494
 #define SPELL_BANISH            495
 #define SPELL_BLOOD_ALLIANCE    496
+
 #define SPELL_CALL_WOODLAND     497
 #define SPELL_BINDING_WIND      498
 #define SPELL_WIND_TUNNEL       499
@@ -547,25 +557,34 @@
 #define SPELL_DEPRESSED_EARTH   518
 #define SPELL_TRANS_LAVA_ROCK   519
 #define SPELL_COMET             520
+
+// Flame Reaver Spell
 #define SPELL_CEGILUNE_BLADE      521
 #define SPELL_RIGHTEOUS_AURA      522
 #define SPELL_BLEAK_FOEMAN        523
 #define SPELL_STORMCALLERS_FURY   524
 #define SPELL_CHILLING_IMPLOSION  525
 #define SPELL_LIGHTNINGSHIELD     526
-#define SPELL_DOOM_BLADE          527
-#define SPELL_COSMIC_VACUUM       528
-#define SPELL_SUPERNOVA	          529
-#define SPELL_PLANETARY_ALIGNMENT 530
-#define SPELL_ETHEREAL_DISCHARGE  531
-#define SPELL_OBSCURING_MIST      532
-#define SPELL_SUPPRESSION         533
-#define SPELL_SHADOW_MERGE        534
-#define SPELL_SHADOW_SPAWN        535
-#define SPELL_SHDW_GATE_ARDGRAL   536
-#define SPELL_THOUGHT_BEACON      537
-#define SPELL_DIVINE_BLESSING     538
-#define SPELL_NATURES_CALLING     539
+
+#define SPELL_DOOM_BLADE        527
+
+#define SPELL_COSMIC_VACUUM		  528
+#define SPELL_SUPERNOVA			    529
+#define SPELL_PLANETARY_ALIGNMENT	530
+#define SPELL_ETHEREAL_DISCHARGE	531
+
+// SPEC Spells Illusionist - Deceiver
+#define SPELL_OBSCURING_MIST    532
+#define SPELL_SUPPRESSION        533
+// SPEC Spells Illusionist - Dark Dreamer
+#define SPELL_SHADOW_MERGE      534
+#define SPELL_SHADOW_SPAWN      535
+#define SPELL_SHDW_GATE_ARDGRAL 536
+#define SPELL_THOUGHT_BEACON    537
+#define SPELL_DIVINE_BLESSING   538
+#define SPELL_NATURES_CALLING   539
+
+
 #define SPELL_PERM_INCREASE_STR   540
 #define SPELL_PERM_INCREASE_AGI   541
 #define SPELL_PERM_INCREASE_DEX   542
@@ -575,6 +594,7 @@
 #define SPELL_PERM_INCREASE_INT   546
 #define SPELL_PERM_INCREASE_WIS   547
 #define SPELL_PERM_INCREASE_CHA   548
+
 #define SPELL_MISSILE_BARRAGE       549
 #define SPELL_POLAR_VORTEX          550
 #define SPELL_ETHEREAL_TRAVEL       551
@@ -651,6 +671,7 @@
 #define SPELL_BATTLEMAGE	           622
 #define SPELL_CORPSE_PORTAL	         623
 #define SPELL_CONTAIN_BEING		       624
+/* Blighter spells */
 #define SPELL_THORNSKIN              625
 #define SPELL_FLAME_SPHERE           626
 #define SPELL_DESECRATE_LAND         627
@@ -671,12 +692,11 @@
 #define SPELL_SAP_NATURE             642
 #define SPELL_BLOODSTONE             643
 #define SPELL_RETURN_SOUL            644
+#define SPELL_AMATTER_COLLISION      645
+#define SPELL_ARCTIC_BLAST           646
+#define LAST_SPELL SPELL_ARCTIC_BLAST
 
-#define LAST_SPELL                   646 /* last number +2 */
-
-
-#define FIRST_SKILL                 1000  /* should be a decent split point */
-
+#define FIRST_SKILL                  1000  /* should be a decent split point */
 #define SKILL_SNEAK                  1000
 #define SKILL_HIDE                   1001
 #define SKILL_STEAL                  1002
@@ -722,7 +742,7 @@
 #define SKILL_RANGE_WEAPONS          1042
 #define SKILL_CIRCLE                 1043
 #define SKILL_RIPOSTE                1044
-#define SKILL_SUMMON_MOUNT           1045
+#define SKILL_UNUSED                 1045 // Used to be summon mount, but it's an innate ffs.
 #define SKILL_BANDAGE                1046
 #define SKILL_SCRIBE                 1047
 #define SKILL_QUICK_CHANT            1048
@@ -863,6 +883,7 @@
 #define SKILL_SHADOW_MOVEMENT        1183
 #define SKILL_SHRIEK		             1184
 #define SKILL_LEGEND_LORE            1185
+//#define SONG_DRIFTING                1186
 #define SKILL_DISPERSE_FLAMES        1187
 #define SKILL_FLAME_MASTERY          1188
 #define SKILL_SOUL_TRAP              1189
@@ -982,12 +1003,15 @@
 
 #define LAST_SKILL                   SKILL_NATURES_RUIN
 
-#define TOTAL_SKILLS                 ((LAST_SKILL - FIRST_SKILL) + 1)
-
-/* everything below does now make part of players skill data */
+//#ifdef SKILLPOINTS
+//#define WHITE_SKILL                  -1
+//#define BLUE_SKILL                   -2
+//#define LAST_SKILL                   SKILL_NATURESSENSES
+//#endif
 
 #define FIRST_SECONDARY_SKILL        1501
 
+/* paladin auras */
 #define FIRST_AURA                   (FIRST_SECONDARY_SKILL+1)
 #define AURA_PROTECTION              (FIRST_AURA)
 #define AURA_PRECISION               (FIRST_AURA+1)
@@ -998,6 +1022,7 @@
 #define AURA_SPELL_PROTECTION        (FIRST_AURA+6)
 #define LAST_AURA                    (FIRST_AURA+6)
 
+/* Instrument stuff */
 #define FIRST_INSTRUMENT             (LAST_AURA+1)
 #define INSTRUMENT_FLUTE             (FIRST_INSTRUMENT)
 #define INSTRUMENT_LYRE              (FIRST_INSTRUMENT+1)
@@ -1030,6 +1055,9 @@
 #define SONG_SNATCHING               (FIRST_SONG+18)
 #define SONG_DISSONANCE              (FIRST_SONG+19)
 #define SONG_DRIFTING                (FIRST_SONG+20)
+// Currently 19 instead of 21 (first+20 more), because SNATCHING and MINDSHIELD ?!?
+//   These two songs are not included in the songs[] array in bard.c, nor do they seem implemented.
+#define NUM_SONGS                    19
 #define LAST_SONG                    (SONG_DRIFTING)
 
 #define FIRST_POISON                 (LAST_SONG+1)
@@ -1042,7 +1070,7 @@
 #define SKILL_CAMP                   (LAST_POISON+1)
 #define SKILL_PERMINVIS              (LAST_POISON+2)
 
-/* everything below does now make part of players skill data */
+/* everything below does not make part of players skill data */
 #define FIRST_TAG                    2001
 #define TAG_OBJ_DECAY                2001
 #define TAG_ALTERED_EXTRA2           2002
@@ -1117,7 +1145,7 @@
 #define ACH_UNSTOPPABLE              2071
 #define ACH_LETSGETDIRTY             2072
 #define ACH_SERIALKILLER             2073
-#define ACH_JOURNEYBEGINS	           2074
+#define ACH_LEVELACHIEVEMENT         2074
 #define AIP_ARACHNOPHOBIA            2075
 #define ACH_ARACHNOPHOBIA            2076
 #define ACH_TROLLIN                  2077
@@ -1149,10 +1177,18 @@
 #define TAG_ADDICTED_BLOOD           2103
 #define TAG_BLOODLUST                2104
 #define TAG_EPICS                    2105
+#define AIP_FREESLOOP                2106
+#define TAG_RESTED                   2107
+#define TAG_WELLRESTED               2108
+#define TAG_EPICS_GAINED             2109
+#define ACH_CARGOCOUNT               2110
+#define ACH_DEATHSDOOR               2111
+#define TAG_DEATHSDOOR               2112
+#define TAG_FOLLOWING                2113
 
 #define SAVING_PARA   0
 #define SAVING_ROD    1
-#define SAVING_PETRI  2
+#define SAVING_FEAR  2
 #define SAVING_BREATH 3
 #define SAVING_SPELL  4
 
@@ -1173,6 +1209,20 @@
 #define TAR_AREA          BIT_15
 #define TAR_OFFAREA       BIT_16
 #define TAR_INSTACAST     BIT_17
+#define TAR_AGGRO         BIT_18
+#define TAR_NOCOMBAT      BIT_19
+#define TAR_ANIMAL        BIT_20
+#define TAR_SPIRIT        BIT_21
+#define TAR_ELEMENTAL     BIT_22
+#define TAR_MENTAL        BIT_23
+#define TAR_PHYS          BIT_24
+#define TAR_SKILL         BIT_25
+#define TAR_EPIC          BIT_26
+#define TAR_SPELL         BIT_27
+#define TAR_POISON        BIT_28
+#define TAR_WALL          BIT_29 
+/* TAR_WALL checks arguments for directional keywords, and returns pointer 
+   to a target object if ch can see a wall in that direction */
 
 /* Possible Targets:
 

@@ -43,7 +43,6 @@
 
 #include "types.h"
 #include "boolean.h"
-#include "flagdef.h"
 #include "misc/strnnode.h"
 #include "command/command.h"
 #include "command/var.h"
@@ -56,7 +55,8 @@
 #include "zone/writezon.h"
 #include "display.h"
 
-#define ITEM_WEAR_WAIST  ITEM_WEAR_WAISTE  // "waiste"?  COME ON NOW
+// WTH is this even here?
+//#define ITEM_WEAR_WAIST  ITEM_WEAR_WAISTE  // "waiste"?  COME ON NOW
 
 // alias.cpp
 
@@ -861,7 +861,7 @@ void deleteMasterKeywordList(masterKeywordListNode *node);
 
 // menu.cpp
 
-int getMenuDataTypeStrn(char *valstrn, const menuChoiceDataType dataType, const size_t offset, 
+long getMenuDataTypeStrn(char *valstrn, const menuChoiceDataType dataType, const size_t offset, 
                         const void *entityPtr, const size_t intMaxLen);
 void getMenuListTypeStrn(char *verbosevalstrn, const menuChoiceListType listType, const int val, 
                          const void *entityPtr, const size_t intMaxLen);

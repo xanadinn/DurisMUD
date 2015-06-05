@@ -37,7 +37,6 @@
 
 #include "../fh.h"
 #include "../types.h"
-#include "../flagdef.h"
 #include "flags.h"
 
 extern "C" flagDef room_bits[], extra_bits[], extra2_bits[], wear_bits[],

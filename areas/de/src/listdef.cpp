@@ -33,8 +33,6 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "flagdef.h"
-
 #include "room/room.h"
 #include "obj/objsize.h"
 #include "obj/traps.h"
@@ -182,7 +180,8 @@ flagDef g_objTypeList[] =
   { "ITEM_STORAGE", "Storage", 1, ITEM_STORAGE },
   { "ITEM_SCABBARD", "Scabbard", 1, ITEM_SCABBARD },
   { "ITEM_SHIELD", "Shield", 1, ITEM_SHIELD },
-  { "ITEM_TROOP", "Troops", 1, ITEM_TROOP },
+  { "ITEM_BANDAGE", "Bandage", 1, ITEM_BANDAGE },
+  { "ITEM_SPAWNER", "Spawner", 1, ITEM_SPAWNER },
   { 0 }
 };
 

@@ -1260,22 +1260,22 @@ typedef struct _flagDef {
 } flagDef;
 
 struct race_names {
-  char *normal;
-  char *no_spaces;
-  char *ansi;
-  char *code;
+  const char *normal;
+  const char *no_spaces;
+  const char *ansi;
+  const char *code;
 };
 
 struct class_names {
-  char *normal;
-  char *ansi;
-  char *code;
-  char letter;
+  const char *normal;
+  const char *ansi;
+  const char *code;
+  const char letter;
 };
 
 struct material_data {
-  char *name;
-  char dam_res[20];
+  const char *name;
+  const char dam_res[20];
 };
 
 #define _NEW_LOW_NECRO_ 0

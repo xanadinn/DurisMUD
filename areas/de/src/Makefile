@@ -1,19 +1,18 @@
-# Makefile for the DE for Imms.  This includes the 'God' info incluing
-#  item values and hunting for OP equipment.  Also, it compiles with
-#  gdb enabled so crashes can be explored.
+# Makefile for the DE for players.  This doesn't include the "God" commands/info
+#  including itemvalues and hunting for OP equipment for zone.
 
 MALLOC_DEBUG = n
 SHELL = /bin/sh
 
-CC	= gcc
+CC	= g++
 DEBUG	= -ggdb3
 
 ifdef USE_SHARED
 LDFLAGS += -rdynamic
 endif
 OPTS    = -O2
-CCFLAGS = -D__UNIX__ -Wno-deprecated -D_DE_ -DGODMODE=1
-CFLAGS = -D__UNIX__ -D_DE_ -DGODMODE=1
+CCFLAGS = -D__UNIX__ -Wno-deprecated -D_DE_
+CFLAGS = -D__UNIX__ -D_DE_
 INCLUDES = -I./
 LIBS    = -lncurses -lstdc++
 
@@ -212,42 +211,47 @@ SRCS	= $(OBJS:.o=.cpp) $(OPT_OBJS:.o=.cpp) $(SH_LIBS:.o=.cpp) $(MALLOC_OBJS:.o=.
 
 all: $(PROGS)
 
-de : $(DMS_OBJS) $(OPT_OBJS) $(MALLOC_OBJS) $(C_OBJS)
-	$(CC) $(LDFLAGS) -o de $(DMS_OBJS) $(OPT_OBJS) $(C_OBJS) $(MALLOC_OBJS) $(LIBS) $(DEBUG)
+de : $(DMS_OBJS) $(OPT_OBJS) $(MALLOC_OBJS) message $(C_OBJS)
+	$(CC) $(LDFLAGS) -o de $(DMS_OBJS) $(OPT_OBJS) $(C_OBJS) $(MALLOC_OBJS) $(LIBS)
 
 $(DMS_OBJS): %.o: %.cpp
-	$(CC) $(CCFLAGS) $(DEBUG) $(INCLUDES) -c $< -o $@
+	$(CC) $(CCFLAGS) $(INCLUDES) -c $< -o $@
 
 $(OPT_OBJS): %.o: %.cpp
-	$(CC) $(CCFLAGS) $(DEBUG) $(INCLUDES) $(OPTS) -c $< -o $@
+	$(CC) $(CCFLAGS) $(INCLUDES) $(OPTS) -c $< -o $@
 
 $(C_OBJS): %.o: %.c
-	$(CC) $(CFLAGS) $(DEBUG) $(INCLUDES) $(OPTS) -c $< -o $@
+	$(CC) $(CFLAGS) $(INCLUDES) $(OPTS) -c $< -o $@
 
 ifeq ($(MALLOC_DEBUG),y)
 
 $(MALLOC_OBJS): %.o: %.cpp
-	$(CC) $(CFLAGS) $(DEBUG) $(INCLUDES) -DDEBUG -c $< -o $@
+	$(CC) $(CFLAGS) $(INCLUDES) -DDEBUG -c $< -o $@
 else
 
 $(MALLOC_OBJS): %.o: %.cpp
-	$(CC) $(CFLAGS) $(DEBUG) $(OPTS) $(INCLUDES) -c $< -o $@
+	$(CC) $(CFLAGS) $(OPTS) $(INCLUDES) -c $< -o $@
 endif
 
 
 
 $(SH_LIBS:.o=.so): %.so: %.cpp
-	$(CC) $(CFLAGS) $(DEBUG) -fpic -c $< -o $*.o
+	$(CC) $(CFLAGS) -fpic -c $< -o $*.o
 	ld -shared -o $@ /usr/lib/crtbeginS.o $*.o /usr/lib/crtendS.o
 
 #depend:
 #	makedepend -m -w110 -- $(CFLAGS) -- $(SRCS)
 
 depend .depend:
-	$(CC) $(CFLAGS) $(DEBUG) $(INCLUDES) -MM $(SRCS) > .depend
+	$(CC) $(CFLAGS) $(INCLUDES) -MM $(SRCS) > .depend
 
 clean:
 	rm $(OBJS) $(OPT_OBJS) $(C_OBJS) de .depend
+
+message:
+	@if [ ! -f skills.o ]; then \
+	  /bin/echo -e "\e[1mCompiling skills.o may take a few seconds...\e[0m"; \
+	fi
 
 include .depend
 

@@ -32,8 +32,6 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "flagdef.h"
-
 #include "room/room.h"
 #include "obj/object.h"
 #include "obj/shields.h"

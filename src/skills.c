@@ -8,9 +8,9 @@
 */
 #include <string.h>
 #include "defines.h"
-#include "utils.h"
 #include "spells.h"
 #ifndef _DE_
+#include "utils.h"
 #include "structs.h"
 #include "paladins.h"
 #include "reavers.h"
@@ -29,9 +29,11 @@ int currentSkill = 0;
 
 
 #if defined(_DE_) || defined(_PFILE_)
+extern "C" void initialize_skills(void);
+
 struct skill_data
 {
-  char    *name;
+  const char *name;
   // 0-56 for a skill, and 0-12 for a spell.
   int minLevel[CLASS_COUNT+1];
 #if defined (_PFILE_)

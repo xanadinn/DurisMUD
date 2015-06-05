@@ -5,7 +5,7 @@
 MALLOC_DEBUG = n
 SHELL = /bin/sh
 
-CC	= gcc
+CC	= g++
 DEBUG	= -ggdb3
 
 ifdef USE_SHARED
@@ -212,7 +212,7 @@ SRCS	= $(OBJS:.o=.cpp) $(OPT_OBJS:.o=.cpp) $(SH_LIBS:.o=.cpp) $(MALLOC_OBJS:.o=.
 
 all: $(PROGS)
 
-de : $(DMS_OBJS) $(OPT_OBJS) $(MALLOC_OBJS) $(C_OBJS)
+de : $(DMS_OBJS) $(OPT_OBJS) $(MALLOC_OBJS) message $(C_OBJS)
 	$(CC) $(LDFLAGS) -o de $(DMS_OBJS) $(OPT_OBJS) $(C_OBJS) $(MALLOC_OBJS) $(LIBS) $(DEBUG)
 
 $(DMS_OBJS): %.o: %.cpp
@@ -248,6 +248,11 @@ depend .depend:
 
 clean:
 	rm $(OBJS) $(OPT_OBJS) $(C_OBJS) de .depend
+
+message:
+	@if [ ! -f skills.o ]; then \
+	  /bin/echo -e "\e[1mCompiling common.o and skills.o may take a few seconds...\e[0m"; \
+	fi
 
 include .depend
 
