@@ -618,13 +618,17 @@ void stop_all_followers(P_char ch)
 // We want ch's followers to die.
 void die_follower(P_char ch)
 {
-  while( ch->followers )
+  /*while( ch->followers )
   {
     if( ch->followers->follower && IS_ALIVE(ch->followers->follower) )
     {
       die( ch->followers->follower, ch->followers->follower);
     }
-  }
+  }*/
+  if( ch->following )
+    stop_follower(ch);
+
+  stop_all_followers(ch);
 }
 
 #if 0
