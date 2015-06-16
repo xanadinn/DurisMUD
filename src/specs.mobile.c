@@ -14665,19 +14665,16 @@ int witch_doctor(P_char ch, P_char customer, int cmd, char *arg)
 
   return FALSE;
 }
-
+#define INVASION_ROOM_VNUM   29116
+#define INVASION_LEADER_VNUM 28975
+// When Timoro dies, a bunch of dwarven invaders led by mob vnum (above), come down
+//   from room vnum (above) to avenge the death.
 int timoro_die(P_char ch, P_char pl, int cmd, char *arg)
 {
   P_char   i;
-  char     command[] = "down";
+  char   dir[] = "down";
 
-  /*
-   * check for periodic event calls
-   */
-  if (cmd == CMD_SET_PERIODIC)
-    return FALSE;
-
-  if (cmd != -1)
+  if( cmd != CMD_DEATH )
     return FALSE;
 
   act("\nA banging sound can be heard as if someone is pounding the walls.\n"
@@ -14685,15 +14682,15 @@ int timoro_die(P_char ch, P_char pl, int cmd, char *arg)
       "A large band of dwarves pour out of the hole, faces grim.\n", TRUE, ch,
       0, 0, TO_ROOM);
 
-  for (i = character_list; i; i = i->next)
+  for( i = world[real_room(INVASION_ROOM_VNUM)].people; i; i = i->next_in_room )
   {
-    if ((IS_NPC(i)) && (GET_VNUM(i) == 28975))
+    if( (IS_NPC(i)) && (GET_VNUM(i) == INVASION_LEADER_VNUM) )
     {
-      command_interpreter(i, command);
+      command_interpreter(i, dir);
       break;
     }
   }
-  return (FALSE);
+  return FALSE;
 }
 
 void reload_io_assistant(P_char, P_char, P_obj, void *data)
