@@ -17,6 +17,7 @@
 #include "map.h"
 #include "ships.h"
 
+extern int top_of_world;
 
 char buf[MAX_STRING_LENGTH];
 
@@ -349,29 +350,41 @@ void act_to_outside_ships(P_ship ship, P_ship target, int rng, const char *msg, 
   }
 }
 
+// Returns the ship that ch is on, or NULL if ch is not on a ship.
 P_ship get_ship_from_char(P_char ch)
 {
-  int      j;
-  
-  if(!(ch))
+  int         j, roomVnum;
+  ShipVisitor svs;
+  bool        fn;
+
+  // Dead chars can still be on a ship (but we need them in a room to be on the ship).
+  if( ch == NULL || ch->in_room < 0 || ch->in_room > top_of_world )
   {
     return NULL;
   }
 
-  ShipVisitor svs;
-  for (bool fn = shipObjHash.get_first(svs); fn; fn = shipObjHash.get_next(svs))
+  // Just to speed up derefrencing.
+  roomVnum = world[ch->in_room].number;
+
+  // For each ship that exists.
+  for( fn = shipObjHash.get_first(svs); fn; fn = shipObjHash.get_next(svs) )
   {
-    if (!SHIP_LOADED(svs))
+    // Skip ships that are not loaded (an empty ship memory location).
+    if ( !SHIP_LOADED(svs) )
       continue;
 
-    for (j = 0; j < svs->room_count; j++)
+    // For each room on the ship.
+    for( j = 0; j < svs->room_count; j++ )
     {
-      if (world[ch->in_room].number == svs->room[j].roomnum)
+      // If the char is in that room, return that ship..
+      if( roomVnum == svs->room[j].roomnum )
       {
         return svs;
       }
     }
   }
+
+  // Couldn't find a ship that the ch is on, so return NULL.
   return NULL;
 }
 
@@ -1499,30 +1512,34 @@ bool ocean_pvp_state()
     for (bool fn = shipObjHash.get_first(svs); fn; fn = shipObjHash.get_next(svs))
     {
         P_ship ship = svs;
-        if (SHIP_DOCKED(ship)) 
-            continue;
 
-        if (SHIP_CLASS(ship) == SH_SLOOP || SHIP_CLASS(ship) == SH_YACHT)
-            continue;
+        // Docked ships and NPC ships don't trigger a PvP state.
+        if( SHIP_DOCKED(ship) || ship->race == NPCSHIP )
+          continue;
+
+        // Tiny ships don't trigger PvP?  Hrm...
+        if( SHIP_CLASS(ship) == SH_SLOOP || SHIP_CLASS(ship) == SH_YACHT )
+          continue;
 
         int contact_count = getcontacts(ship, false);
-        if (contact_count == 0) continue;
+        if( contact_count == 0 )
+          continue;
 
         for (int i = 0; i < contact_count; i++)
         {
-            if (contacts[i].ship == ship)
-                continue;
-            if (SHIP_DOCKED(contacts[i].ship))
-                continue;
+            if( contacts[i].ship == ship )
+              continue;
+            if( SHIP_DOCKED(contacts[i].ship) || contacts[i].ship->race == NPCSHIP)
+              continue;
 
-            if ((contacts[i].ship->race == GOODIESHIP && ship->race == EVILSHIP) ||
-                (contacts[i].ship->race == EVILSHIP && ship->race == GOODIESHIP))
+            // If they're two non-NPC ships (handled above) that have different races.
+            if( contacts[i].ship->race != ship->race )
             {
-                return true;
+                return TRUE;
             }
         }
     }
-    return false;
+    return FALSE;
 }
 
 

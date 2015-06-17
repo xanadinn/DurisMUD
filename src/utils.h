@@ -1081,6 +1081,7 @@ IS_GIANT(ch) || IS_PC_PET(ch) || IS_PC(ch) || IS_UNDEAD(ch) || IS_EFREET(ch)) &&
 #define RACE_GOOD(ch) (GET_RACEWAR(ch) == RACEWAR_GOOD)
 #define RACE_EVIL(ch) (GET_RACEWAR(ch) == RACEWAR_EVIL)
 #define RACE_PUNDEAD(ch) (GET_RACEWAR(ch) == RACEWAR_UNDEAD)
+#define RACE_NEUTRAL(ch) (GET_RACEWAR(ch) == RACEWAR_NEUTRAL)
 
 #define OLD_RACE_NEUTRAL(race) ( (race == RACE_THRIKREEN) \
                               || (race == RACE_MINOTAUR) )

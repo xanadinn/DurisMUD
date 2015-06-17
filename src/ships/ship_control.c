@@ -104,13 +104,20 @@ int order_undock(P_char ch, P_ship ship)
     send_to_char("Your crew begins undocking procedures.\r\n", ch);
     if (!IS_NPC_SHIP(ship))
     {
-        if (RACE_PUNDEAD(ch))
-            ship->race = UNDEADSHIP;
-        else if (RACE_GOOD(ch))
-            ship->race = GOODIESHIP;
-        else
-            ship->race = EVILSHIP;
+      if( RACE_GOOD(ch) )
+        ship->race = GOODIESHIP;
+      else if( RACE_EVIL(ch) )
+        ship->race = EVILSHIP;
+      else if( RACE_PUNDEAD(ch) )
+        ship->race = UNDEADSHIP;
+      else if( RACE_NEUTRAL(ch) )
+        ship->race = SQUIDSHIP;
+      else
+        ship->race = UNKNOWNSHIP;
     }
+    else
+      ship->race = NPCSHIP;
+
     if (IS_TRUSTED(ch))
         ship->timer[T_UNDOCK] = 2;
     else
@@ -1158,6 +1165,12 @@ int look_contacts(P_char ch, P_ship ship)
                 race_indicator = "&+Y";
             else if (contacts[i].ship->race == EVILSHIP)
                 race_indicator = "&+R";
+            else if (contacts[i].ship->race == UNDEADSHIP)
+                race_indicator = "&+L";
+            else if (contacts[i].ship->race == SQUIDSHIP)
+                race_indicator = "&+M";
+            else if (contacts[i].ship->race == UNKNOWNSHIP)
+                race_indicator = "&+C";
         }
         const char* target_indicator1 =  (contacts[i].ship->target == ship) ? "&+W" : "";
         const char* target_indicator2 =  (contacts[i].ship == ship->target) ? "&+G" : "";

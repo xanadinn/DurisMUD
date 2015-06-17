@@ -3008,13 +3008,6 @@ void event_weather_change(P_char ch, P_char victim, P_obj obj, void *data);
 //void weather_change(void);
 int in_weather_sector(int);
 
-/* whod.c */
-
-void close_whod(void);
-void do_whod(P_char, char *, int);
-void init_whod(int);
-void whod_loop(void);
-
 /* specs.*.c, dont want placed in other proto file */
 
 bool is_char_pet (P_char, P_char);

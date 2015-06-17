@@ -131,15 +131,20 @@ void scan_target(P_ship ship, P_ship target, P_char ch)
 
         send_to_char_f(ch, 
                 "%s %s\r\n",
-                SHIP_SINKING(target) ?  "&+RSINKING&N" : 
-                SHIP_IMMOBILE(target) ? "&+RIMMOBILE&N" : 
+                SHIP_SINKING(target) ?  "&+RSINKING&N" :
+                SHIP_IMMOBILE(target) ? "&+RIMMOBILE&N" :
                 SHIP_DOCKED(target) ?  "&+yDOCKED&N" : "",
-                contacts[i].range < SCAN_RANGE ? 
-                  (!SHIP_DOCKED(target) ? 
-                    ((target->race == EVILSHIP) ? "&+RThis ship has an Evil flag&N" : 
-                      (target->race == UNDEADSHIP) ? "&+LThis ship has a tattered black flag&N" :
-                        (target->race == GOODIESHIP) ? "&+WThis ship has a goodie flag&N" :
-                          "This ship does not have a flag raised") : "") : "");
+                contacts[i].range < SCAN_RANGE ?
+                  (!SHIP_DOCKED(target) ?
+                    ((target->race == EVILSHIP) ? "&+RThis ship has an Evil flag.&N" : 
+                      (target->race == UNDEADSHIP) ? "&+LThis ship has a tattered black flag.&N" :
+                        (target->race == GOODIESHIP) ? "&+YThis ship has a goodie flag.&N" :
+                          (target->race == SQUIDSHIP) ? "&+MThis ship has a very strange flag.&N" :
+                            // If you want to do NPC flags: ship->npc_ai->type (assuming it has npc_ai)
+                            //   = NPC_AI_PIRATE / NPC_AI_HUNTER / NPC_AI_ESCORT as of 6/16/2015
+                            (target->race == NPCSHIP) ? "&nThis ship has a very plain flag.&N" :
+                              (target->race == UNKNOWNSHIP) ? "&+CThis ship has a foreign flag.&N" :
+                                "This ship does not have a flag raised.") : "") : "");
 
         send_to_char_f(ch, "Weapons:\r\n=======================\r\n");
 

@@ -6144,7 +6144,7 @@ void do_who(P_char ch, char *argument, int cmd)
   int      i, j, k, nr_args_now = 0, who_list_size = 0, who_gods_size = 0;
   long     timer = 0;
   snoop_by_data *snoop_by_ptr;
-  int      align = 0, min_level = 70, max_level = -1, sort = FALSE, zone = FALSE, lfg = FALSE;
+  int      align = RACEWAR_NONE, min_level = 70, max_level = -1, sort = FALSE, zone = FALSE, lfg = FALSE;
   struct affected_type *pafepics;
 
   if( !IS_ALIVE(ch) || IS_NPC(ch) )
@@ -6164,23 +6164,23 @@ void do_who(P_char ch, char *argument, int cmd)
     argument = one_argument(argument, arg);
     if (!*arg)
       ;
-    else if (is_abbrev(arg, "good") && IS_TRUSTED(ch))
-      align = 1;
-    else if (is_abbrev(arg, "evil") && IS_TRUSTED(ch))
-      align = 2;
-    else if (is_abbrev(arg, "undead") && IS_TRUSTED(ch))
-      align = 3;
-    else if (is_abbrev(arg, "illithid") && IS_TRUSTED(ch))
-      align = 4;
-    else if (is_abbrev(arg, "zone") && IS_TRUSTED(ch))
+    else if( is_abbrev(arg, "good") && IS_TRUSTED(ch) )
+      align = RACEWAR_GOOD;
+    else if( is_abbrev(arg, "evil") && IS_TRUSTED(ch) )
+      align = RACEWAR_EVIL;
+    else if( is_abbrev(arg, "undead") && IS_TRUSTED(ch) )
+      align = RACEWAR_UNDEAD;
+    else if( (is_abbrev(arg, "illithid") || is_abbrev(arg, "neutral")) && IS_TRUSTED(ch) )
+      align = RACEWAR_NEUTRAL;
+    else if( is_abbrev(arg, "zone") && IS_TRUSTED(ch) )
       zone = TRUE;
-    else if (is_abbrev(arg, "god"))
+    else if( is_abbrev(arg, "god") )
       align = -1;
-    else if (is_abbrev(arg, "sort"))
+    else if( is_abbrev(arg, "sort") )
       sort = TRUE;
-    else if (is_abbrev(arg, "lfg"))
+    else if( is_abbrev(arg, "lfg") )
       lfg = TRUE;
-    else if (!strcmp(arg, "?"))
+    else if( !strcmp(arg, "?") )
     {
       send_to_char("Usage:\n", ch);
       send_to_char("&+Wwho [<level> | <minlevel> <maxlevel>] "
@@ -6222,13 +6222,9 @@ void do_who(P_char ch, char *argument, int cmd)
     if (GET_LEVEL(tch) < min_level || GET_LEVEL(tch) > max_level)
       continue;
 
-    if (align)
+    if( align != RACEWAR_NONE )
     {
-      if ((IS_TRUSTED(tch) && align == -1) ||
-          (GOOD_RACE(tch) && align == 1) ||
-          (EVIL_RACE(tch) && align == 2) ||
-          (RACE_PUNDEAD(tch) && align == 3) ||
-          (IS_ILLITHID(tch) && align == 4))
+      if( (IS_TRUSTED(tch) && align == -1) || GET_RACEWAR(ch) == align )
       {
         if (IS_TRUSTED(tch))
           who_gods[who_gods_size++] = tch;

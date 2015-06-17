@@ -81,10 +81,12 @@
 #define ATTACKBYNPC         BIT_12
 #define FLYING              BIT_13
 
-#define EVILSHIP          0
+#define UNKNOWNSHIP       0
 #define GOODIESHIP        1
-#define UNDEADSHIP        2
-#define NPCSHIP           3
+#define EVILSHIP          2
+#define UNDEADSHIP        3
+#define SQUIDSHIP         4
+#define NPCSHIP           5
 
 // Weapons
 #define W_SMALL_BAL         0

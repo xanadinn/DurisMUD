@@ -84,29 +84,32 @@ void     add_quest_data(char *map);
 /* map specific defines */
 #define CONTAINS_GOOD_SHIP    1
 #define CONTAINS_EVIL_SHIP    2
-#define CONTAINS_SHIP         3
-#define CONTAINS_GOOD_PC      4
-#define CONTAINS_EVIL_PC      5
-#define CONTAINS_PC           6
-#define CONTAINS_DRAGON       7
-#define CONTAINS_MOB          8
-#define CONTAINS_CORPSE       9
-#define CONTAINS_PORTAL      10
-#define CONTAINS_BLOOD       11
-#define CONTAINS_OLD_BLOOD   12
-#define CONTAINS_TRACK       13
-#define CONTAINS_MINE        14
-#define CONTAINS_FERRY       15
-#define CONTAINS_MAGIC_DARK  16
-#define CONTAINS_MAGIC_LIGHT 17
-#define CONTAINS_BUILDING    18
-#define CONTAINS_GROUP       19
-#define CONTAINS_WITCH       20
-#define CONTAINS_GUILDHALL   21
-#define CONTAINS_CARGO       22
-#define CONTAINS_CTF_FLAG    23
-#define CONTAINS_GEMMINE     24
-#define CONTAINS_CH          25
+#define CONTAINS_UNDEAD_SHIP  3
+#define CONTAINS_NEUTRAL_SHIP 4
+#define CONTAINS_UNKNOWN_SHIP 5
+#define CONTAINS_SHIP         6
+#define CONTAINS_GOOD_PC      7
+#define CONTAINS_EVIL_PC      8
+#define CONTAINS_PC           9
+#define CONTAINS_DRAGON      10
+#define CONTAINS_MOB         11
+#define CONTAINS_CORPSE      12
+#define CONTAINS_PORTAL      13
+#define CONTAINS_BLOOD       14
+#define CONTAINS_OLD_BLOOD   15
+#define CONTAINS_TRACK       16
+#define CONTAINS_MINE        17
+#define CONTAINS_FERRY       18
+#define CONTAINS_MAGIC_DARK  19
+#define CONTAINS_MAGIC_LIGHT 20
+#define CONTAINS_BUILDING    21
+#define CONTAINS_GROUP       22
+#define CONTAINS_WITCH       23
+#define CONTAINS_GUILDHALL   24
+#define CONTAINS_CARGO       25
+#define CONTAINS_CTF_FLAG    26
+#define CONTAINS_GEMMINE     27
+#define CONTAINS_CH          28
 
 #define HIDDEN_BY_FOREST(from_room,to_room) ( world[to_room].sector_type == SECT_FOREST && world[from_room].sector_type != SECT_FOREST )
 
@@ -371,6 +374,22 @@ int whats_in_maproom(P_char ch, int room, int distance, int show_regardless)
             {
               val = MIN(val, CONTAINS_EVIL_SHIP);
             }
+            else if( temp->race == UNDEADSHIP )
+            {
+              val = MIN(val, CONTAINS_UNDEAD_SHIP);
+            }
+            else if( temp->race == SQUIDSHIP )
+            {
+              val = MIN(val, CONTAINS_NEUTRAL_SHIP);
+            }
+            else if( temp->race == UNKNOWNSHIP )
+            {
+              val = MIN(val, CONTAINS_UNKNOWN_SHIP);
+            }
+            else
+            {
+              val = MIN(val, CONTAINS_SHIP);
+            }
           }
         }
       }
@@ -581,6 +600,7 @@ void display_map_room(P_char ch, int from_room, int n, int show_map_regardless)
   bool     hadbg = false, map_tile;
   char     buf[MAX_STRING_LENGTH];
   float    horizontal_factor, vertical_factor;
+  P_ship   ship;
 
   // If ch doesn't exist/is dead/doesn't have a descriptor to send info to.
   if( !IS_ALIVE(ch) || !ch->desc )
@@ -657,35 +677,28 @@ void display_map_room(P_char ch, int from_room, int n, int show_map_regardless)
       {
         strcat(buf, " ");
       }
-      /* you */
-      else if( x == 0 && y == 0 && ch->in_room == from_room )
+      // We want an @ iff we're on land, and a [< | ^ | > | v] if on an undocked ship.
+      // All we need to check here is on undocked ship since @ is done via CONTAINS_CH below.
+      else if( x == 0 && y == 0 && (ship = get_ship_from_char(ch)) && !SHIP_DOCKED(ship)
+        && ship->location == from_room )
       {
-        P_ship ship;
-        // If we're on an undocked ship..
-        if( (ship = get_ship_from_char(ch)) && !SHIP_DOCKED(ship) && ship->location == from_room )
+        float heading = ship->heading;
+        // Use an arrow in the direction of the ship.
+        if( heading > 315 || heading <= 45 )
         {
-          float heading = ship->heading;
-          // Use an arrow in the direction of the ship.
-          if( heading > 315 || heading <= 45 )
-          {
-            strcat(buf, "&+W^&n");
-          }
-          else if( heading > 45 && heading <= 135 )
-          {
-            strcat(buf, "&+W>&n");
-          }
-          else if( heading > 135 && heading <= 225 )
-          {
-            strcat(buf, "&+Wv&n");
-          }
-          else
-          {
-            strcat(buf, "&+W<&n");
-          }
+          strcat(buf, "&+W^&n");
+        }
+        else if( heading > 45 && heading <= 135 )
+        {
+          strcat(buf, "&+W>&n");
+        }
+        else if( heading > 135 && heading <= 225 )
+        {
+          strcat(buf, "&+Wv&n");
         }
         else
         {
-          strcat(buf, "&+W@&n");
+          strcat(buf, "&+W<&n");
         }
       }
       else if (whats_in == CONTAINS_CH)
@@ -707,6 +720,18 @@ void display_map_room(P_char ch, int from_room, int n, int show_map_regardless)
       else if (whats_in == CONTAINS_EVIL_SHIP)
       {
         strcat(buf, "&+RS&n");
+      }
+      else if (whats_in == CONTAINS_UNDEAD_SHIP)
+      {
+        strcat(buf, "&+LS&n");
+      }
+      else if (whats_in == CONTAINS_NEUTRAL_SHIP)
+      {
+        strcat(buf, "&+MS&n");
+      }
+      else if (whats_in == CONTAINS_UNKNOWN_SHIP)
+      {
+        strcat(buf, "&+CS&n");
       }
       else if (whats_in == CONTAINS_SHIP)
       {

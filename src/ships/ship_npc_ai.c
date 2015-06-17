@@ -544,7 +544,7 @@ bool NPCShipAI::is_valid_target(P_ship tar)
     //    return true;
    // if (ship == cyrics_revenge) // Revenge attacks everything
     //    return true;
-    return (tar->race == GOODIESHIP || tar->race == EVILSHIP);
+    return (tar->race == GOODIESHIP || tar->race == EVILSHIP || tar->race == UNDEADSHIP || tar->race == SQUIDSHIP);
 }
 
 
