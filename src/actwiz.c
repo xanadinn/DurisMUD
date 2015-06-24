@@ -171,6 +171,7 @@ bool is_quested_item( P_obj obj );
 void do_setship( P_char ch, char *arg );
 void which_race( P_char ch, char *argument );
 void stat_race(P_char ch, char *arg);
+void event_mob_mundane(P_char, P_char, P_obj, void *);
 
 /*
  * Macros
@@ -2023,8 +2024,7 @@ void do_stat(P_char ch, char *argument, int cmd)
       t_obj = read_object(i, REAL);
       if(!t_obj)
       {
-        logit(LOG_DEBUG, "do_stat(): obj %d [%d] not loadable", i,
-              obj_index[i].virtual_number);
+        logit(LOG_DEBUG, "do_stat(): obj %d [%d] not loadable", i, obj_index[i].virtual_number);
         return;
       }
       // If there's more than one in the game, pull t_obj.
@@ -2138,12 +2138,9 @@ void do_stat(P_char ch, char *argument, int cmd)
       *buf2 = '\0';
       for (x = 0; x < CLASS_COUNT; x++)
         if(j->anti_flags & (((unsigned long) 1) << x))
-          sprintf(buf2 + strlen(buf2), "%s ",
-                  class_names_table[x + 1].normal);
+          sprintf(buf2 + strlen(buf2), "%s ", class_names_table[x + 1].normal);
       sprintf(o_buf + strlen(o_buf), "&+Y%s : &N%s\n",
-              IS_SET(j->extra_flags,
-                     ITEM_ALLOWED_CLASSES) ? "Allowed classes" :
-              "Denied classes", buf2);
+        IS_SET(j->extra_flags, ITEM_ALLOWED_CLASSES) ? "Allowed classes" : "Denied classes", buf2);
     }
 
     if(j->anti2_flags)
@@ -2151,12 +2148,9 @@ void do_stat(P_char ch, char *argument, int cmd)
       *buf2 = '\0';
       for (x = 0; x < RACE_PLAYER_MAX; x++)
         if(j->anti2_flags & (((unsigned long) 1) << x))
-          sprintf(buf2 + strlen(buf2), "%s ",
-                  race_names_table[x + 1].no_spaces);
+          sprintf(buf2 + strlen(buf2), "%s ", race_names_table[x + 1].no_spaces);
       sprintf(o_buf + strlen(o_buf), "&+Y%s  : &N%s\n",
-              IS_SET(j->extra_flags,
-                     ITEM_ALLOWED_RACES) ? "Allowed races" : "Denied races",
-              buf2);
+        IS_SET(j->extra_flags, ITEM_ALLOWED_RACES) ? "Allowed races" : "Denied races", buf2);
     }
 
     sprintf(o_buf + strlen(o_buf),
@@ -2365,8 +2359,7 @@ void do_stat(P_char ch, char *argument, int cmd)
 
     sprintf(buf, "\n&+YSpecial procedure:&N ");
     if(j->R_num >= 0)
-      strcat(buf, (obj_index[j->R_num].func.obj ?
-            get_function_name((void*)obj_index[j->R_num].func.obj) : "No"));
+      strcat(buf, (obj_index[j->R_num].func.obj ? get_function_name((void*)obj_index[j->R_num].func.obj) : "No"));
     else
       strcat(buf, "No");
     strcat(buf, "\n");
@@ -2382,12 +2375,13 @@ void do_stat(P_char ch, char *argument, int cmd)
     */
 
     for (i = 0; i < MAX_OBJ_AFFECT; i++)
+    {
       if(j->affected[i].location != APPLY_NONE)
       {
         sprinttype(j->affected[i].location, apply_types, buf2);
-        sprintf(o_buf + strlen(o_buf), "   &+YAffects: &+c%s&+y By &N%d\n",
-                buf2, j->affected[i].modifier);
+        sprintf(o_buf + strlen(o_buf), "   &+YAffects: &+c%s&+y By &N%d\n", buf2, j->affected[i].modifier);
       }
+    }
     if(j->affects)
     {
       struct obj_affect *o_af;
@@ -2397,14 +2391,13 @@ void do_stat(P_char ch, char *argument, int cmd)
       {
         if(o_af->extra2)
         {
-          sprintf(o_buf + strlen(o_buf),
-                  "   &n%s &+Yfor&n %d &+Ygranting:&n ",
-                  skills[o_af->type].name, (int) o_af->data);
+          sprintf(o_buf + strlen(o_buf), "   &n%s &+Yfor&n %d &+Ygranting:&n ",
+            skills[o_af->type].name, (int) o_af->data);
           sprintbitde(o_af->extra2, extra2_bits, o_buf + strlen(o_buf));
         }
         else
           sprintf(o_buf + strlen(o_buf), "   &n%s &+Yfor&n %d&n",
-                  skills[o_af->type].name, (int) o_af->data);
+            skills[o_af->type].name, (int) o_af->data);
         strcat(o_buf, "\n");
       }
     }
@@ -2414,16 +2407,18 @@ void do_stat(P_char ch, char *argument, int cmd)
       strcat(o_buf, "&+YEvents:\n&+Y-------\n");
 
       for (e1 = j->events; e1; e1 = e1->next)
-        sprintf(o_buf + strlen(o_buf),
-                "%6d&+Y seconds,&n %s%s&+Y.\n",
-                event_time(e1, T_SECS),
-                event_names[(int) e1->type],
-                (e1->one_shot) ? "" : "&+Y(&N&+RR&+Y)");
+        sprintf(o_buf + strlen(o_buf), "%6d&+Y seconds,&n %s%s&+Y.\n",
+          event_time(e1, T_SECS), event_names[(int) e1->type], (e1->one_shot) ? "" : "&+Y(&N&+RR&+Y)");
+
       LOOP_EVENTS_OBJ( ne, j->nevents )
       {
-        sprintf(o_buf + strlen(o_buf),
-                "%6d&+Y seconds,&n %s&+Y.\n",
-                ne_event_time(ne)/WAIT_SEC, get_function_name((void*)ne->func));
+        sprintf(o_buf + strlen(o_buf), "%6d&+Y seconds,&n %s&+Y.\n",
+          ne_event_time(ne)/WAIT_SEC, get_function_name((void*)ne->func));
+        if( ne->func == event_mob_mundane )
+        {
+          sprintf( o_buf + strlen(o_buf), "  &+YOffending mob: &n%s&N %d&+Y.\n",
+            (ne->ch) ? J_NAME(ne->ch) : "NULL", IS_ALIVE(ne->ch) ? GET_ID(ne->ch) : -1 );
+        }
       }
       strcat(o_buf, "\n");
     }

@@ -40,7 +40,6 @@
 
 extern P_desc descriptor_list;
 extern P_event current_event;
-extern P_nevent ne_schedule[];
 extern const char *equipment_types[];
 extern const char *town_name_list[];
 extern const int min_stats_for_class[][8];

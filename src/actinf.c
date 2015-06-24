@@ -3612,7 +3612,6 @@ const int world_values[] = {
   -1
 };
 
-extern P_nevent ne_schedule[];
 extern const char *get_function_name(void *);
 
 void do_world(P_char ch, char *argument, int cmd)

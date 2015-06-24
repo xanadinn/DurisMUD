@@ -1849,8 +1849,8 @@ struct nevent_data {
   unsigned int timer;             // How much time in the row.
   unsigned int element;           // Which row of ne_schedule array
   struct char_link_data *cld;
-  P_nevent next_char;
-  P_nevent next_obj;
+  P_nevent next_char_nev;
+  P_nevent next_obj_nev;
   P_nevent prev_sched;
   P_nevent next_sched;
 };

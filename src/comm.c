@@ -76,7 +76,6 @@ long     sentbytes = 0;
 long     recivedbytes = 0;
 
 extern void ne_events();
-extern P_nevent ne_schedule[];
 
 long unsigned int ip2ul(const char *ip);
 void load_alliances();

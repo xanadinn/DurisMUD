@@ -103,9 +103,9 @@
 		if ((var)->type == (etype))
 
 #define LOOP_EVENTS_CH( var, e_list )  \
-  for( (var) = (e_list); (var); (var) = (var)->next_char )
+  for( (var) = (e_list); (var); (var) = (var)->next_char_nev )
 
 #define LOOP_EVENTS_OBJ( var, e_list )  \
-  for( (var) = (e_list); (var); (var) = (var)->next_obj )
+  for( (var) = (e_list); (var); (var) = (var)->next_obj_nev )
 
 #endif  /* _SOJ_EVENTS_H_ */

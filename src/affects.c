@@ -3705,7 +3705,7 @@ void event_falling_obj(P_char ch, P_char victim, P_obj obj, void *data)
 
  Note that since this is event driven, if object is grabbed it will xfer
  energy to the grabber, which will be in the form of increased speed (if
-                                                                      grabber is also falling) and/or damage.  Same holds true if object hits
+ grabber is also falling) and/or damage.  Same holds true if object hits
  a character (I'm not going to include falling objects hitting other objects).
 */
 //---------------------------------------------------------------------------------

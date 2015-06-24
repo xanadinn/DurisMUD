@@ -40,11 +40,12 @@ bool debug_event_list = FALSE;
 P_nevent current_nevent = NULL;
 long ne_event_counter = 0;
 
-struct event_type_data
+struct nevent_funcs_name_data
 {
   void    *func;
   char    *func_name;
 } function_names[MAX_FUNCTIONS];
+
 
 /*
  * this code was majorly redone by Tharkun, look for original events description
@@ -120,42 +121,35 @@ void clear_nevent( P_nevent e )
     // If e is the first in the list, move to next.
     if( obj->nevents == e )
     {
-      obj->nevents = obj->nevents->next_obj;
+      obj->nevents = obj->nevents->next_obj_nev;
     }
     // Otherwise, look for event and pull it.
     else
     {
       LOOP_EVENTS_OBJ( e1, obj->nevents )
       {
-        if( e1->next_obj == e )
+        if( e1->next_obj_nev == e )
         {
-          e1->next_obj = e->next_obj;
+          e1->next_obj_nev = e->next_obj_nev;
           break;
         }
-        else if( e1->obj != obj && e1->obj != NULL )
+        else if( e1->obj != obj )
         {
           debug( "clear_nevent: event '%s': event->obj '%s' != obj '%s' in obj's event list.",
-            (e1->func != NULL) ? get_function_name((void *)e1->func) : "NULL",
-            OBJ_SHORT(e1->obj), OBJ_SHORT(obj) );
+            (e->func != NULL) ? get_function_name((void *)e->func) : "NULL",
+            (e1->obj == NULL ) ? "NULL" : OBJ_SHORT(e1->obj), OBJ_SHORT(obj) );
         }
       }
-      if( !e1 || e1->next_obj != e->next_obj )
+      if( !e1 )
       {
-        if( !e1 )
-        {
-          debug( "clear_nevent: obj '%s' does not have event '%s' in its event list head(%s).", OBJ_SHORT(obj),
-            (e->func != NULL) ? get_function_name((void *)e->func) : "NoFunc",
-            (obj->nevents != NULL) ? ((obj->nevents->func != NULL) ? get_function_name((void *)obj->nevents->func) : "NoFunc") : "NULL" );
-        }
-        else
-        {
-          debug( "clear_nevent: obj '%s' failed to pull event '%s' from its list.", OBJ_SHORT(obj),
-            (e->func != NULL) ? get_function_name((void *)e1->func) : "NoFunc" );
-        }
+        debug( "clear_nevent: obj '%s' does not have event '%s' in its event list head(%s).", OBJ_SHORT(obj),
+          (e->func != NULL) ? get_function_name((void *)e->func) : "NoFunc",
+          (obj->nevents != NULL) ? ((obj->nevents->func != NULL) ? get_function_name((void *)obj->nevents->func) : "NoFunc") : "NULL" );
       }
     }
+    e->obj = NULL;
+    e->next_obj_nev = NULL;
   }
-  e->obj = NULL;
 
   // If event has a ch,
   if( (ch = e->ch) != NULL )
@@ -163,7 +157,7 @@ void clear_nevent( P_nevent e )
     // If event is first on ch's list of events, just move list to 2nd.
     if( ch->nevents == e )
     {
-      ch->nevents = ch->nevents->next_char;
+      ch->nevents = ch->nevents->next_char_nev;
     }
     else
     {
@@ -171,9 +165,9 @@ void clear_nevent( P_nevent e )
       LOOP_EVENTS_CH( e1, ch->nevents )
       {
         // If we find the previous, sent previous->next to e->next.
-        if( e1->next_char == e )
+        if( e1->next_char_nev == e )
         {
-          e1->next_char = e1->next_char->next_char;
+          e1->next_char_nev = e1->next_char_nev->next_char_nev;
           break;
         }
         // Otherwise, do some debugging.
@@ -184,14 +178,15 @@ void clear_nevent( P_nevent e )
         }
       }
       // If we reached the end of the list, or our assignment failed (can that even happen?)
-      if( !e1 || e1->next_char != e->next_char )
+      if( !e1 || e1->next_char_nev != e->next_char_nev )
       {
-        debug( "clear_nevent: '%s' %d event not in char's event list.",
+        debug( "clear_nevent: event '%s' not in char '%s' %d event list.",
+          (e->func != NULL) ? get_function_name((void *)e->func) : "NoFunc",
           J_NAME(ch), IS_ALIVE(ch) ? GET_ID(ch) : -1 );
       }
     }
     e->ch = NULL;
-    e->next_char = NULL;
+    e->next_char_nev = NULL;
   }
 
   // If e is the last element, back the last element up one.
@@ -208,7 +203,7 @@ void clear_nevent( P_nevent e )
     if( e1->next_sched )
       e1->next_sched->prev_sched = NULL;
     e1->next_sched = NULL;
-    // e1->prev_sched already NULL
+    // e1->prev_sched already NULL, since it was head of list.
   }
   else
   {
@@ -220,8 +215,9 @@ void clear_nevent( P_nevent e )
     // If not in list!?
     if( !e1 )
     {
-      debug( "Event e not in ne_schedule[e->element] list." );
       // Should let us try to survive or just bail out here and raise(SIGSEGV)?
+      debug( "Event e '%s' not in ne_schedule[e->element] list.",
+        (e->func != NULL) ? get_function_name((void *)e->func) : "NoFunc" );
     }
     // Remove from list.
     else
@@ -261,6 +257,27 @@ bool check_ch_nevents( P_char ch )
   return TRUE;
 }
 
+// Returns true iff all the events in obj->nevents belong to obj.
+bool check_obj_nevents( P_obj obj )
+{
+  P_nevent e;
+
+  if( obj == NULL )
+  {
+    return TRUE;
+  }
+
+  LOOP_EVENTS_OBJ( e, obj->nevents )
+  {
+    if( e->obj != obj )
+    {
+      return FALSE;
+    }
+  }
+  return TRUE;
+}
+
+// Make this event not do anything when it executes and make it execute asap.
 void disarm_single_event(P_nevent e)
 {
   if( e->cld && e->ch )
@@ -292,9 +309,18 @@ void disarm_char_nevents(P_char ch, event_func_type func)
       e1->cld = NULL;
       e1->func = NULL;
       e1->timer = 1;
-      e1->ch = NULL;
     }
-    ch->nevents = NULL;
+    // Now clear the 'next_char_nev' list.
+    while( ch->nevents )
+    {
+      // Save the next event.
+      e1 = ch->nevents->next_char_nev;
+      // Erase the next_char_nev & ch.
+      ch->nevents->next_char_nev = NULL;
+      ch->nevents->ch = NULL;
+      // Move to the next event.
+      ch->nevents = e1;
+    }
   }
   else
   {
@@ -328,7 +354,17 @@ void disarm_obj_nevents(P_obj obj, event_func_type func)
     {
       e1->func = NULL;
       e1->timer = 1;
-      e1->obj = NULL;
+    }
+    // Now clear the 'next_obj_nev' list.
+    while( obj->nevents )
+    {
+      // Save the next event.
+      e1 = obj->nevents->next_obj_nev;
+      // Erase the next_obj_nev & obj.
+      obj->nevents->next_obj_nev = NULL;
+      obj->nevents->obj = NULL;
+      // Move to the next event.
+      obj->nevents = e1;
     }
   }
   else
@@ -339,7 +375,6 @@ void disarm_obj_nevents(P_obj obj, event_func_type func)
       {
         e1->func = NULL;
         e1->timer = 1;
-        e1->obj = NULL;
       }
     }
   }
@@ -375,10 +410,18 @@ void add_event(event_func func, int delay, P_char ch, P_char victim, P_obj obj, 
 
 // No reason an event can't have an object and a ch/victim. - Lohrr
 // Ok, here's the reason... we have an object-events list and a char-events list.
-// Must remove from both if obj & ch.
-//  if (obj && (ch || victim))
+// Well, now we have two lists: obj->nevents->next_obj_nev ... and ch->nevents->next_char_nev.
+  if( obj && ch )
+  {
+    // Logging them anyway, just to test..
+    debug( "add_event: func: '%s' has ch: %s %d and obj: %s %d.",
+      (func == NULL) ? "NULL" : get_function_name((void*)func),
+      ch ? J_NAME(ch) : "NULL", ch ? GET_ID(ch) : -1,
+      obj ? OBJ_SHORT(obj) : "NULL", obj ? GET_OBJ_VNUM(obj) : -1 );
 //    return;
+  }
 
+  // Should it be possible for an object to have a victim w/out a ch?
   if( victim && !ch )
   {
     debug( "add_event: victim '%s' & !ch, func: %s, obj: %s %d.", J_NAME(victim),
@@ -395,7 +438,7 @@ void add_event(event_func func, int delay, P_char ch, P_char victim, P_obj obj, 
   event = (P_nevent)mm_get(ne_dead_event_pool);
 
   event->prev_sched = event->next_sched = NULL;
-  event->next_char = event->next_obj = NULL;
+  event->next_char_nev = event->next_obj_nev = NULL;
   event->ch = ch;
   event->victim = victim;
   event->obj = obj;
@@ -426,21 +469,21 @@ void add_event(event_func func, int delay, P_char ch, P_char victim, P_obj obj, 
       // Loop through ch's events and find the last one.
       LOOP_EVENTS_CH( e, ch->nevents )
       {
-        if( e->next_char == NULL )
+        if( e->next_char_nev == NULL )
           break;
       }
       // Put last->next to event.
-      e->next_char = event;
+      e->next_char_nev = event;
     }
     else
       ch->nevents = event;
     // Event at end of ch->nevents, so terminate list.
-    event->next_char = NULL;
+    event->next_char_nev = NULL;
   }
 
   if( obj )
   {
-    event->next_obj = obj->nevents;
+    event->next_obj_nev = obj->nevents;
     obj->nevents = event;
   }
 
@@ -493,7 +536,7 @@ void nevent_from_char( P_nevent old_nevent )
   // Pull from list
   if( ch->nevents == old_nevent )
   {
-    ch->nevents = ch->nevents->next_char;
+    ch->nevents = ch->nevents->next_char_nev;
     if( ch->nevents && ch != ch->nevents->ch && ch->nevents->ch != NULL )
     {
       debug( "nevent_from_char: ch '%s' %d not ch in ch->nevents, func %s.",
@@ -511,22 +554,22 @@ void nevent_from_char( P_nevent old_nevent )
     }
     LOOP_EVENTS_CH( e, ch->nevents )
     {
-      if( e->next_char && e->next_char->ch && e->next_char->ch != ch )
+      if( e->next_char_nev && e->next_char_nev->ch && e->next_char_nev->ch != ch )
       {
-        debug( "nevent_from_char: ch '%s' %d is not ch in sub-event e->next_char, func %s.",
-          IS_ALIVE(ch) ? J_NAME(ch) : GET_NAME(ch), GET_ID(ch), get_function_name((void *)e->next_char->func) );
-        e->next_char = NULL;
+        debug( "nevent_from_char: ch '%s' %d is not ch in sub-event e->next_char_nev, func %s.",
+          IS_ALIVE(ch) ? J_NAME(ch) : GET_NAME(ch), GET_ID(ch), get_function_name((void *)e->next_char_nev->func) );
+        e->next_char_nev = NULL;
         break;
       }
-      if( e->next_char == old_nevent )
+      if( e->next_char_nev == old_nevent )
       {
-        e->next_char = old_nevent->next_char;
-        old_nevent->next_char = NULL;
-        if( e->next_char && ch != e->next_char->ch && e->next_char->ch != NULL )
+        e->next_char_nev = old_nevent->next_char_nev;
+        old_nevent->next_char_nev = NULL;
+        if( e->next_char_nev && ch != e->next_char_nev->ch && e->next_char_nev->ch != NULL )
         {
           debug( "nevent_from_char: ch '%s' %d not ch in ch->nevents, func %s.",
-            IS_ALIVE(ch) ? J_NAME(ch) : GET_NAME(ch), GET_ID(ch), get_function_name((void *)e->next_char->func) );
-          e->next_char = NULL;
+            IS_ALIVE(ch) ? J_NAME(ch) : GET_NAME(ch), GET_ID(ch), get_function_name((void *)e->next_char_nev->func) );
+          e->next_char_nev = NULL;
         }
         break;
       }
@@ -623,7 +666,7 @@ P_nevent get_next_scheduled_char(P_nevent e, event_func func)
     return NULL;
   }
   // Start with the next event in ch's list and look for func.
-  LOOP_EVENTS_CH( e, e->next_char )
+  LOOP_EVENTS_CH( e, e->next_char_nev )
   {
     if( e->func == func )
     {
@@ -639,7 +682,7 @@ P_nevent get_next_scheduled_obj(P_nevent e, event_func func)
   {
     return NULL;
   }
-  LOOP_EVENTS_OBJ( e, e->next_obj )
+  LOOP_EVENTS_OBJ( e, e->next_obj_nev )
   {
     if (e->func == func)
     {
@@ -813,12 +856,12 @@ void check_nevents()
         // Make sure all of ch's events belong to ch.
         LOOP_EVENTS_CH( e2, ch->nevents )
         {
-          if( e2->next_char && e2->next_char->ch && e2->next_char->ch != ch )
+          if( e2->next_char_nev && e2->next_char_nev->ch && e2->next_char_nev->ch != ch )
           {
-            debug( "check_nevents: ch '%s' %d is not ch in sub-event e->next_char, func %s.",
-              IS_ALIVE(ch) ? J_NAME(ch) : GET_NAME(ch), GET_ID(ch), get_function_name((void *)e2->next_char->func) );
+            debug( "check_nevents: ch '%s' %d is not ch in sub-event e->next_char_nev, func %s.",
+              IS_ALIVE(ch) ? J_NAME(ch) : GET_NAME(ch), GET_ID(ch), get_function_name((void *)e2->next_char_nev->func) );
             shown = TRUE;
-            e2->next_char = NULL;
+            e2->next_char_nev = NULL;
             break;
           }
         }
