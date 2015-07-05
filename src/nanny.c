@@ -2989,7 +2989,7 @@ void perform_eq_wipe(P_char ch)
     delete_ship(ship);
   }
   else
-    debug( "%s has no ship.", ch->player.name );
+    debug( "%s had no ship.", ch->player.name );
 /*
   ch->only.pc->frags = 0;
   ch->only.pc->epics = 0;
@@ -3785,7 +3785,6 @@ if(d->character->base_stats.Wis < 80)
     }
     ch->player.time.played += EQ_WIPE;
   }
-else ch->player.time.played -= EQ_WIPE; // PENIS
 #endif
 
   // This is to remove the racial epic skills set with TAG_RACIAL_SKILLS
