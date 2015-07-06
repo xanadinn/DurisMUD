@@ -3040,12 +3040,6 @@ void extract_char(P_char ch)
 #endif
     }
   }
-  // LD chars.
-  else if( IS_PC(ch) )
-  {
-    free_char(ch);
-    ch = NULL;
-  }
   else if( IS_NPC(ch) )
   {
     if (GET_RNUM(ch) > -1)            /* if mobile */
