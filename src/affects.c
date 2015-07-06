@@ -3700,195 +3700,169 @@ void event_falling_obj(P_char ch, P_char victim, P_obj obj, void *data)
  a character (I'm not going to include falling objects hitting other objects).
 */
 //---------------------------------------------------------------------------------
-bool falling_obj(P_obj obj, int start_speed, bool caller_is_event)
+bool falling_obj(P_obj obj, int speed, bool caller_is_event)
 {
-  P_nevent ev;
-  int      dam = 0, speed = 0, i, new_room, had_zcord = FALSE;
+  static bool          already_falling = FALSE;
+  P_nevent             ev;
+  room_direction_data *exit;
+  int                  dam, new_room;
+  bool                 sect_check;
 
-  if (!obj)
+  if( !obj )
   {
     logit(LOG_EXIT, "falling_obj: NULL obj.");
     raise(SIGSEGV);
   }
 
-  if (!OBJ_ROOM(obj))
+  if( !OBJ_ROOM(obj) )
   {
-    logit(LOG_EXIT, "falling_obj: (%d) %s in NOWHERE.", obj_index[obj->R_num].virtual_number, obj->name);
-    raise(SIGSEGV);
+    logit(LOG_DEBUG, "falling_obj: obj '%s' %d is NOT in a room.", GET_OBJ_VNUM(obj), OBJ_SHORT(obj) );
+    // Somebody snagged it while it was falling
+    // May have to do the damage here, but more likely in get()
+    return FALSE;
   }
 
-  /* Not for underwater use */
-  if (obj->z_cord < 0)
+  /* Not for underwater use, or noshow objects. */
+  if( obj->z_cord < 0 || already_falling || IS_NOSHOW(obj) )
     return FALSE;
 
   if (IS_SET(obj->extra_flags, ITEM_LEVITATES))
     return FALSE;
 
-  /* Don't continue if a breakable wall is acting as a floor - Jexni 12/07/10 */
-  if (world[obj->loc.room].dir_option[DOWN])
-    if(IS_SET(world[obj->loc.room].dir_option[DOWN]->exit_info, EX_BREAKABLE))
-      return FALSE;
-
-  if (!caller_is_event)
+  // Make sure that, if it's not suppoesd to be already falling, that it isn't.
+  if( !caller_is_event )
   {
-    /* if not already falling */
+    // If not already falling (making sure)
     LOOP_EVENTS_OBJ(ev, obj->nevents)
     {
-      if(ev->func == event_falling_obj)
+      if( ev->func == event_falling_obj )
       {
         return FALSE;
       }
     }
-
-    /* obj has just been dropped/moved into space, initiate the plunge */
-
-    if((!world[obj->loc.room].dir_option[DOWN] ||
-      (world[obj->loc.room].dir_option[DOWN]->to_room == NOWHERE)) &&
-      (obj->z_cord == 0))
+    speed = 1;
+    // Passes falling criteria for the room it's in to start falling.
+    if(  ( world[obj->loc.room].sector_type == SECT_NO_GROUND )
+      || ( world[obj->loc.room].sector_type == SECT_UNDRWLD_NOGROUND )
+      || ( world[obj->loc.room].chance_fall >= number(1, 100) ) )
     {
-      act("$p quivers in space for a second, then settles to the ground.",
-        TRUE, 0, obj, 0, TO_ROOM);
-      logit(LOG_DEBUG, "Room (%d) obj vnum (%d) is NO_GROUND but has no valid 'down' exit",
-        world[obj->loc.room].number, obj_index[obj->R_num].virtual_number);
-      world[obj->loc.room].sector_type = SECT_INSIDE;
-      return FALSE;
+      sect_check = TRUE;
     }
-    else if(world[obj->loc.room].dir_option[DOWN])
+    else
     {
-      if( (world[obj->loc.room].sector_type == SECT_NO_GROUND)
-        || (world[obj->loc.room].sector_type == SECT_UNDRWLD_NOGROUND)
-        || (world[obj->loc.room].chance_fall >= number(1, 100)) )
-      {
-         act("$p drops from sight.", TRUE, 0, obj, 0, TO_ROOM);
-         if (!obj->z_cord)
-           new_room = world[obj->loc.room].dir_option[DOWN]->to_room;
-         speed = 31;
-         add_event(event_falling_obj, 4, NULL, NULL, obj, 0, &speed, sizeof(speed));
-         /*
-          1 second and speed
-          31 mph after that -- Jexfix
-          */
-         if (!obj->z_cord)
-         {
-           obj_from_room(obj);
-           obj_to_room(obj, new_room);
-         }
-         else
-         {
-           obj->z_cord--;
-           had_zcord = TRUE;
-         }
-       }
+      sect_check = FALSE;
     }
-    return TRUE;
   }
-
-  /*
-   get here, it's a normal event call
-   */
-
-  if (!OBJ_ROOM(obj))
-  {
-    /*
-     somebody snagged it while it was falling
-     */
-
-    /*
-     may have to do the damage here, but more likely in get()
-     */
-
-    return FALSE;
-  }
-  speed = (int) start_speed;
-  i = obj->loc.room;
-
-  if (world[i].dir_option[DOWN])
-  {
-    /* Don't continue if a breakable wall is acting as a floor - Jexni 12/07/10 */
-    if(IS_SET(world[i].dir_option[DOWN]->exit_info, EX_BREAKABLE))
-      return FALSE;
-
-    new_room = world[i].dir_option[DOWN]->to_room;
-
-    if (speed < 45)
-      act("$p drops from sight.", TRUE, 0, obj, 0, TO_ROOM);
-    else
-      act("Something drops from sight.", TRUE, 0, obj, 0, TO_ROOM);
-
-    obj_from_room(obj);
-    obj_to_room(obj, new_room);
-
-    /*
-     change falling speed
-     */
-    if (speed == 31)
-      speed = 43;               /*
-       second room
-       */
-    else
-      speed += 8;               /*
-       additional rooms
-       */
-
-    if (speed > 250)
-      speed = 250;
-  }
+  // It's already falling
   else
-    new_room = i;               /*
-     this happens when object is moved out
-     without hitting bottom - or, when it's
-     falling due to zcoord > 0
-     */
-
-  /* if currently flying high, set to fly not so high */
-
-  if (obj->z_cord)
   {
-    had_zcord = TRUE;
+    sect_check = TRUE;
+  }
+
+  /* Don't continue if a breakable wall is acting as a floor - Jexni 12/07/10 */
+  // We want to 'hit the floor' here, so use all !fall conditions:
+  //   no height to fall, and no exit to fall through, it doesn't lead anywhere, or it's blocked.
+  // Nowhere to fall: not in air (z_cord) and not without somewhere to fall and it can go through the exit.
+  // And don't forget to check if it actually starts falling.
+  if( obj->z_cord == 0 && ( !(exit = world[obj->loc.room].dir_option[DOWN]) || exit->to_room == NOWHERE
+    || IS_SET(exit->exit_info, EX_CLOSED | EX_LOCKED | EX_BLOCKED | EX_WALLED | EX_BREAKABLE) || !sect_check ) )
+  {
+    // Hit the ground!
+    // Debugging:
+    if( exit && exit->to_room == NOWHERE )
+    {
+      logit(LOG_DEBUG, "Room (%d) has falling object vnum (%d) but has no valid 'down' exit.",
+        world[obj->loc.room].number, obj_index[obj->R_num].virtual_number);
+      FREE( exit );
+      world[obj->loc.room].dir_option[DOWN] = exit = NULL;
+    }
+    // At this point, we know that, if exit exists, it doesn't lead to NOWHERE.
+    if(  ( world[obj->loc.room].sector_type == SECT_NO_GROUND )
+      || ( world[obj->loc.room].sector_type == SECT_UNDRWLD_NOGROUND ) && !exit )
+    {
+      logit(LOG_DEBUG, "Room (%d) has sector type NOGROUND but has no valid 'down' exit.",
+        world[obj->loc.room].number, obj_index[obj->R_num].virtual_number);
+      world[obj->loc.room].sector_type == SECT_INSIDE;
+    }
+    // If we didn't pass the room-sector criteria to start falling.
+    if( !sect_check )
+    {
+      return FALSE;
+    }
+    // If we've just started falling.
+    if( speed <= 31 )
+    {
+      act("$p quivers in space for a second, then settles to the ground.", TRUE, 0, obj, 0, TO_ROOM);
+      return FALSE;
+    }
+    else
+    {
+      // We seem to have run out of falling room!
+      // Speed is at least 31 so dam at least 2d9.
+      dam = dice(speed - 29, 9);
+
+      if( dam/10 < 1 )
+      {
+        act("$p wafts to the ground.", TRUE, 0, obj, 0, TO_ROOM);
+        return FALSE;
+      }
+      else
+      {
+        act("$p crashes into the ground from above!", TRUE, 0, obj, 0, TO_ROOM);
+        obj->condition -= dam/10;
+        // Add object damage/destroy, also hit people, here
+        return FALSE;
+      }
+    }
+  }
+
+  // At this point, we know obj->z_cord > 0 or there's a valid exit down.
+  if( speed < 45 )
+    act("$p drops from sight.", TRUE, 0, obj, 0, TO_ROOM);
+  else
+    act("Something drops from sight.", TRUE, 0, obj, 0, TO_ROOM);
+
+  if( obj->z_cord > 0 )
+  {
     obj->z_cord--;
   }
-
-  if ((!obj->z_cord && had_zcord) ||
-      ((!had_zcord && !obj->z_cord) &&
-       (!world[new_room].dir_option[DOWN] ||
-        (world[new_room].dir_option[DOWN]->to_room == NOWHERE))))
-  {
-
-    /*
-     we seem to have run out of falling room!
-     */
-
-    dam = dice((speed - number(27, 30)), 9);
-
-    if (dam <= 0)
-    {
-      act("$p wafts to the ground.", TRUE, 0, obj, 0, TO_ROOM);
-      return FALSE;
-    }
-    else
-    {
-      act("$p crashes into the ground from above!", TRUE, 0, obj, 0, TO_ROOM);
-
-      /*
-       add object damage/destroy, also hit people, here
-       */
-
-      return FALSE;
-    }
-  }
-  /*
-   just passing through
-   */
-  if (speed < 45)
-  {
-    act("$p falls in from above.", TRUE, 0, obj, 0, TO_ROOM);
-  }
   else
   {
-    act("Something plummets in from above.", TRUE, 0, obj, 0, TO_ROOM);
+    new_room = exit->to_room;
+    obj_from_room(obj);
+    already_falling = TRUE;
+    obj_to_room(obj, new_room);
+    already_falling = FALSE;
   }
 
-  add_event(event_falling_obj, (speed == 31) ? 4 : (speed == 43) ? 2 : 1, NULL, NULL, obj, 0, &speed, sizeof(speed));
+  // 1 second and speed, 31 mph after that -- Jexfix
+  if( speed < 31 )
+  {
+    speed = 31;
+    dam = 4;
+  }
+  // Second room
+  else if( speed == 31 )
+  {
+    speed = 43;
+    dam = 2;
+  }
+  // Additional rooms
+  else
+  {
+    speed += 8;
+    // Terminal velocity.
+    if( speed > 250 )
+      speed = 250;
+    dam = 1;
+  }
+
+  if( speed < 45 )
+    act("$p falls in from above.", TRUE, 0, obj, 0, TO_ROOM);
+  else
+    act("Something falls in from above.", TRUE, 0, obj, 0, TO_ROOM);
+
+  add_event(event_falling_obj, dam, NULL, NULL, obj, 0, &speed, sizeof(speed));
   //AddEvent(EVENT_FALLING_OBJ, (speed == 31) ? 4 : (speed == 43) ? 2 : 1, TRUE, obj, speed);
   return TRUE;
 }
