@@ -12016,15 +12016,13 @@ void spell_vampiric_touch(int level, P_char ch, char *arg, int type,
       TO_CHAR);
 }
 
-void spell_sanctuary(int level, P_char ch, char *arg, int type, P_char victim,
-                     P_obj obj)
+void spell_sanctuary(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   struct affected_type af;
 
-  if(IS_AFFECTED4(victim, AFF4_SANCTUARY))
+  if(IS_AFFECTED4(ch, AFF4_SANCTUARY))
   {
-    act("You are already blessed with sanctuary!", FALSE, ch, 0, victim,
-        TO_CHAR);
+    act("You are already blessed with sanctuary!", FALSE, ch, 0, ch, TO_CHAR);
     return;
   }
 
@@ -12035,20 +12033,17 @@ void spell_sanctuary(int level, P_char ch, char *arg, int type, P_char victim,
   af.bitvector4 = AFF4_SANCTUARY;
   affect_to_char(ch, &af);
 
-  act("&+W$n's&+W is encased in a solid white aura!", FALSE, ch, 0, 0,
-      TO_ROOM);
+  act("&+W$n's&+W is encased in a solid white aura!", FALSE, ch, 0, 0, TO_ROOM);
   act("&+WYou are encased in a solid white aura!", FALSE, ch, 0, 0, TO_CHAR);
 }
 
-void spell_hellfire(int level, P_char ch, char *arg, int type, P_char victim,
-                    P_obj obj)
+void spell_hellfire(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   struct affected_type af;
 
-  if(IS_AFFECTED4(victim, AFF4_HELLFIRE))
+  if(IS_AFFECTED4(ch, AFF4_HELLFIRE))
   {
-    act("You are already burning with hatred!", FALSE, ch, 0, victim,
-        TO_CHAR);
+    act("You are already burning with hatred!", FALSE, ch, 0, ch, TO_CHAR);
     return;
   }
 
