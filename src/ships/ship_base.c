@@ -1,14 +1,14 @@
-/************************************************************
-read_ships.c
-
-New Ship system blah blah blah bug foo about it :P
-Updated with warships. Nov08 -Lucrot 
-*************************************************************/
+/**************************************************************
+ *ship_base.c                                                 *
+ *                                                            *
+ *New Ship system blah blah blah bug foo about it :P          *
+ *Updated with warships. Nov08 -Lucrot                        *
+ **************************************************************/
 
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
-    
+
 #include "ships.h"
 #include "comm.h"
 #include "db.h"
@@ -39,7 +39,7 @@ char arg1[MAX_STRING_LENGTH];
 char arg2[MAX_STRING_LENGTH];
 char arg3[MAX_STRING_LENGTH];
 char tmp_str[MAX_STRING_LENGTH];
-int    shiperror;
+int shiperror, davy_jones_locker_rnum, ship_transit_rnum;
 struct ShipFragData shipfrags[20];
 
 //--------------------------------------------------------------------
@@ -50,7 +50,9 @@ void initialize_ships()
   obj_index[real_object0(60000)].func.obj = ship_panel_proc;
   obj_index[real_object0(60001)].func.obj = ship_obj_proc;
   obj_index[real_object0(1223)].func.obj = ship_cargo_info_stick;
-  
+  davy_jones_locker_rnum = real_room0(VROOM_DAVY_JONES);
+  ship_transit_rnum = real_room0(VROOM_SHIP_TRANSIT);
+
   if (!read_ships())
   {
       logit(LOG_FILE, "Error reading ships from file!\r\n");
@@ -1845,6 +1847,7 @@ void crash_land(P_ship ship)
 
 void finish_sinking(P_ship ship)
 {
+
     // The zone ship does not sink completely.
     //if( ship == zone_ship )
     //  return;
@@ -1872,11 +1875,14 @@ void finish_sinking(P_ship ship)
     if (!IS_NPC_SHIP(ship))
     {
         int insurance = 0;
+        bool SunkByNPC = SHIP_SUNK_BY_NPC(ship);
+
         if (ship->m_class != SH_SLOOP) // no insurance for sloops
         {
-            if (SHIP_SUNK_BY_NPC(ship))
+            if( SunkByNPC )
             {
-                insurance = (int)(SHIPTYPE_COST(ship->m_class) * 0.90); // if sunk by NPC, you loose same amount as for switching hulls
+                // if sunk by NPC, you loose same amount as for switching hulls
+                insurance = (int)(SHIPTYPE_COST(ship->m_class) * 0.90);
             }
             else if (IS_MERCHANT(ship))
             {
@@ -1890,8 +1896,8 @@ void finish_sinking(P_ship ship)
         if (P_char owner = get_char2(str_dup(SHIP_OWNER(ship))))
         {
             GET_BALANCE_PLATINUM(owner) += insurance / 1000;
-            wizlog(56, "Ship insurance to account: %d", insurance / 1000);
-            logit(LOG_SHIP, "%s's insurance deposit to account: %d", ship->ownername, insurance / 1000);
+            wizlog(56, "Ship insurance to account of %s: %d", ship->ownername, insurance / 1000);
+            logit(LOG_SHIP, "Ship insurance deposit to account of %s: %d", ship->ownername, insurance / 1000);
         }
         else
         {
@@ -1904,19 +1910,17 @@ void finish_sinking(P_ship ship)
         ship->m_class = SH_SLOOP; // all ships become sloops after sinking
         reset_ship(ship);
 
-        if (old_class == SH_SLOOP)
+        if( old_class == SH_SLOOP || !SunkByNPC )
            ship->mainsail = 0;  // have to pay at least something...
 
         ship->speed = 0;
         ship->setspeed = 0;
-    
-        // Holding room in Sea Kingdom
 
+        // Holding room in Old Ship zone.
         obj_from_room(ship->shipobj);
-        obj_to_room(ship->shipobj, DAVY_JONES_LOCKER);
-    
-        ship->location = DAVY_JONES_LOCKER;
-        dock_ship(ship, DAVY_JONES_LOCKER);
+        obj_to_room(ship->shipobj, davy_jones_locker_rnum);
+        ship->location = davy_jones_locker_rnum;
+        dock_ship(ship, davy_jones_locker_rnum);
 
         reset_crew_stamina(ship);
         update_ship_status(ship);
@@ -1941,6 +1945,7 @@ void summon_ship_event(P_char ch, P_char victim, P_obj obj, void *data)
       if (isname(buf, ship->ownername) && ship->timer[T_BSTATION] == 0 && !SHIP_SINKING(ship))
       {
         ship->location = to_room;
+        obj_from_room(ship->shipobj);
         obj_to_room(ship->shipobj, to_room);
         send_to_room_f(to_room, "&+y%s arrives at port.\r\n&N", ship->name);
         dock_ship(ship, to_room);

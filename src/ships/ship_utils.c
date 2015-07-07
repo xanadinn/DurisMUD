@@ -513,7 +513,7 @@ int get_maxspeed_without_cargo(P_ship ship)
     int equipment_weight_mod = MIN(SHIP_FREE_EQUIPMENT(ship), equipment_weight);
 
     float weight_mod = 1.0 - ( (float) (equipment_weight - equipment_weight_mod) / (float) SHIP_MAX_WEIGHT(ship) );
-    
+
     int ceil = SHIPTYPE_SPEED(ship->m_class) + ship->crew.get_maxspeed_mod();
     float maxspeed = ceil;
     maxspeed = maxspeed * (1.0 + ship->crew.sail_mod_applied);
@@ -685,7 +685,7 @@ int getcontacts(P_ship ship, bool limit_range)
   int      i, j, counter;
   P_obj    obj;
   P_ship temp;
-  
+
   if(!ship)
     return 0;
 
@@ -699,8 +699,7 @@ int getcontacts(P_ship ship, bool limit_range)
     {
       if (world[tactical_map[j][i].rroom].contents)
       {
-        for (obj = world[tactical_map[j][i].rroom].contents; obj;
-             obj = obj->next_content)
+        for( obj = world[tactical_map[j][i].rroom].contents; obj; obj = obj->next_content )
         {
           if(!(obj))
           {
@@ -1505,41 +1504,55 @@ int eq_diplomat_weight(const ShipData *ship)
 	return (SHIP_HULL_WEIGHT(ship) + 1) / 24;
 }
 
+bool has_no_weapons(const ShipData *ship)
+{
+  int i;
+  for( i = 0; i < MAXSLOTS; i++ )
+  {
+    if( ship->slot[i].type == SLOT_WEAPON )
+      return FALSE;
+  }
+  return TRUE;
+}
 
 bool ocean_pvp_state()
 {
-    ShipVisitor svs;
-    for (bool fn = shipObjHash.get_first(svs); fn; fn = shipObjHash.get_next(svs))
+  ShipVisitor svs;
+  for (bool fn = shipObjHash.get_first(svs); fn; fn = shipObjHash.get_next(svs))
+  {
+    P_ship ship = svs;
+
+    // Docked ships and NPC ships don't trigger a PvP state.
+    if( SHIP_DOCKED(ship) || ship->race == NPCSHIP )
+      continue;
+
+    // Tiny ships don't trigger PvP?  Hrm... Let's make that weaponless small ships.
+    if( SHIP_CLASS(ship) == SH_SLOOP || (SHIP_CLASS(ship) == SH_YACHT && has_no_weapons(ship)) )
     {
-        P_ship ship = svs;
-
-        // Docked ships and NPC ships don't trigger a PvP state.
-        if( SHIP_DOCKED(ship) || ship->race == NPCSHIP )
-          continue;
-
-        // Tiny ships don't trigger PvP?  Hrm...
-        if( SHIP_CLASS(ship) == SH_SLOOP || SHIP_CLASS(ship) == SH_YACHT )
-          continue;
-
-        int contact_count = getcontacts(ship, false);
-        if( contact_count == 0 )
-          continue;
-
-        for (int i = 0; i < contact_count; i++)
-        {
-            if( contacts[i].ship == ship )
-              continue;
-            if( SHIP_DOCKED(contacts[i].ship) || contacts[i].ship->race == NPCSHIP)
-              continue;
-
-            // If they're two non-NPC ships (handled above) that have different races.
-            if( contacts[i].ship->race != ship->race )
-            {
-                return TRUE;
-            }
-        }
+      continue;
     }
-    return FALSE;
+
+    int contact_count = getcontacts(ship, false);
+    if( contact_count == 0 )
+    {
+      continue;
+    }
+
+    for (int i = 0; i < contact_count; i++)
+    {
+      if( contacts[i].ship == ship )
+        continue;
+      if( SHIP_DOCKED(contacts[i].ship) || contacts[i].ship->race == NPCSHIP)
+        continue;
+
+      // If they're two non-NPC ships (handled above) that have different races.
+      if( contacts[i].ship->race != ship->race )
+      {
+        return TRUE;
+      }
+    }
+  }
+  return FALSE;
 }
 
 

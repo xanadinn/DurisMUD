@@ -5,13 +5,14 @@
 #include "structs.h"
 
 
-#define PANEL_OBJ         50000
-#define SHIP_ZONE_START   50001
-#define SHIP_ZONE_END     50999
-#define BUILDTIME             1
-#define CARGO_CRATE_VNUM  40226
-#define DAVY_JONES_LOCKER 31725
-#define ALL_SHIPS_VNUM    60001
+#define PANEL_OBJ           50000
+#define SHIP_ZONE_START     50001
+#define SHIP_ZONE_END       50999
+#define BUILDTIME               1
+#define CARGO_CRATE_VNUM    40226
+#define VROOM_DAVY_JONES    50000
+#define VROOM_SHIP_TRANSIT  50001
+#define ALL_SHIPS_VNUM      60001
 
 // Ship status
 #define DOCK              0
@@ -47,7 +48,7 @@
 #define SIDE_PORT              1
 #define SIDE_REAR              2
 #define SIDE_STAR              3
-                            
+
 // Ship Types
 #define SH_SLOOP               0
 #define SH_YACHT               1
@@ -809,7 +810,7 @@ extern int shiperror;
 
 class ShipObjHash
 {
-public:
+  public:
     ShipObjHash();
     int size() { return sz; }
 
@@ -820,9 +821,9 @@ public:
     bool erase(P_ship ship, unsigned t_index);
     struct visitor
     {
-    public:
-        operator P_ship ()  { return curr; } 
-        P_ship operator -> ()  { return curr; } 
+      public:
+        operator P_ship ()  { return curr; }
+        P_ship operator -> ()  { return curr; }
         P_ship get_value() { return curr; }
 
         unsigned t_index;
@@ -832,7 +833,7 @@ public:
     bool get_next(visitor& vs);
     bool erase(visitor& vs);
 
-private:
+  private:
     P_ship table[SHIP_OBJ_TABLE_SIZE];
     int sz;
 };

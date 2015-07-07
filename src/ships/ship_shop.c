@@ -28,6 +28,8 @@ extern char arg2[MAX_STRING_LENGTH];
 extern char arg3[MAX_STRING_LENGTH];
 extern P_char character_list;
 extern const char *rude_ass[];
+extern const int davy_jones_locker_rnum;
+extern const int ship_transit_rnum;
 
 int list_cargo(P_char ch, P_ship ship, int owned)
 {
@@ -368,87 +370,131 @@ int list_hulls (P_char ch, P_ship ship, int owned)
     return TRUE;
 }
 
-int summon_ship (P_char ch, P_ship ship, bool time_only)
+int summon_ship( P_char ch, P_ship ship, bool time_only )
 {
-
-    if (ship->location == ch->in_room) {
-        send_to_char("Your ship is already docked here!\r\n", ch);
-        return TRUE;
-    }
-    if (IS_SET(ship->flags, SINKING)) {
-        send_to_char("We can't summon your ship.  Sorry.\r\n", ch);
-        return TRUE;
-    }
-    if (ship->timer[T_BSTATION] > 0 && !IS_TRUSTED(ch)) 
+  if (ship->location == ch->in_room)
+  {
+    send_to_char("Your ship is already docked here!\r\n", ch);
+    return TRUE;
+  }
+  if (IS_SET(ship->flags, SINKING))
+  {
+    send_to_char("We can't summon your ship.  Sorry.\r\n", ch);
+    return TRUE;
+  }
+  if (ship->timer[T_BSTATION] > 0 && !IS_TRUSTED(ch))
+  {
+    send_to_char ("Your crew is not responding to our summons!\r\n", ch);
+    return TRUE;
+  }
+  if (!is_Raidable(ch, 0, 0))
+  {
+    send_to_char("\r\n&+RGET RAIDABLE!\r\n", ch);
+    return TRUE;
+  }
+  if( IS_SET(ship->flags, SUMMONED) )
+  {
+    if( time_only )
     {
-        send_to_char ("Your crew is not responding to our summons!\r\n", ch);
-        return TRUE;
-    }
-    if (!is_Raidable(ch, 0, 0))
-    {
-        send_to_char("\r\n&+RGET RAIDABLE!\r\n", ch);
-        return TRUE;
-    }
-    if (IS_SET(ship->flags, SUMMONED)) {
-
-        send_to_char ("There is already an order out on your ship.\r\n", ch);
-        return TRUE;
-    }
-
-    if (!time_only)
-    {
-        int summon_cost = SHIPTYPE_HULL_WEIGHT(ship->m_class) * 50;
-        if (GET_MONEY(ch) < summon_cost) 
+      P_nevent ev;
+      LOOP_EVENTS_OBJ( ev, ship->shipobj->nevents )
+      {
+        if( ev->func == summon_ship_event )
         {
-            send_to_char_f(ch, "It will cost %s to summon your ship!\r\n", coin_stringv(summon_cost));
-            return TRUE;
+          if( ev->obj == ship->shipobj )
+          {
+            break;
+          }
         }
-    
-        if (ship->location == DAVY_JONES_LOCKER) {
-            send_to_char("You start to call your ship back from &+LDavy Jones Locker...\r\n", ch);
-        }
-    
-        SUB_MONEY(ch, summon_cost, 0);
-    }
-
-    int summontime, pvp = false;
-    if( IS_TRUSTED(ch) )
-        summontime = 0;
-    else if (SHIP_CLASS(ship) == SH_SLOOP || SHIP_CLASS(ship) == SH_YACHT)
-    {
-        summontime = (280 * 50) / MAX(get_maxspeed_without_cargo(ship), 1);
+      }
+      if( ev && ev->obj == ship->shipobj )
+      {
+        int time = ne_event_time(ev) / (SECS_PER_MUD_HOUR * WAIT_SEC);
+        send_to_char_f(ch, "Your ship should arrive in %d hour%s.\n", time, (time == 1) ? "" : "s" );
+      }
+      else
+      {
+        send_to_char("&+YCould not find summon ship event.  You might want to tell an Immortal.\n\r", ch );
+      }
     }
     else
     {
-        summontime = (280 * 70) / MAX((get_maxspeed_without_cargo(ship) - 20), 1);
-        pvp = ocean_pvp_state();
-        if (pvp) summontime *= 4;
-    }
-    summontime = MIN(summontime, 200 * 70);
-
-    if (pvp)
-        send_to_char_f(ch, "Due to dangerous conditions, it will take about %d hours for your ship to get here.\r\n", summontime / 280);
-    else if (time_only)
-        send_to_char_f(ch, "It will take %d hours for your ship to get here.\r\n", summontime / 280);
-    else
-        send_to_char_f(ch, "Thanks for your business, it will take %d hours for your ship to get here.\r\n", summontime / 280);
-
-    if (!time_only)
-    {
-        if(!IS_TRUSTED(ch))
-        {
-            clear_cargo(ship);
-            write_ship(ship);
-        }
-        SET_BIT(ship->flags, SUMMONED);
-        everyone_get_out_ship(ship);
-        send_to_room_f(ship->location, "&+y%s is called away elsewhere.&N\r\n", ship->name);
-        obj_from_room(ship->shipobj);
-
-        sprintf(buf, "%s %d", GET_NAME(ch), ch->in_room);
-        add_event(summon_ship_event, summontime, NULL, NULL, NULL, 0, buf, strlen(buf)+1);
+      send_to_char ("There is already an order out on your ship.\r\n", ch);
     }
     return TRUE;
+  }
+
+  if (!time_only)
+  {
+    int summon_cost = SHIPTYPE_HULL_WEIGHT(ship->m_class) * 50;
+    if (GET_MONEY(ch) < summon_cost)
+    {
+      send_to_char_f(ch, "It will cost %s to summon your ship!\r\n", coin_stringv(summon_cost));
+      return TRUE;
+    }
+    if (ship->location == davy_jones_locker_rnum)
+    {
+      send_to_char("You start to call your ship back from &+LDavy Jones Locker...\r\n", ch);
+    }
+    SUB_MONEY(ch, summon_cost, 0);
+  }
+
+  int summontime;
+  bool pvp;
+  pvp = ocean_pvp_state();
+
+  if( IS_TRUSTED(ch) )
+      summontime = 0;
+  else if (SHIP_CLASS(ship) == SH_SLOOP || SHIP_CLASS(ship) == SH_YACHT)
+  {
+    // 1/2 to 25 mud hrs.
+    summontime = (SECS_PER_MUD_HOUR * WAIT_SEC * 50) / MAX(get_maxspeed_without_cargo(ship), 2);
+
+    // If the ship was sunk, double summon time (1 to 50 mud hrs).
+    if( ship->location == davy_jones_locker_rnum )
+      summontime *= 2;
+
+    // If ocean in pvp state, double summon time (1 to 100 mud hrs).
+    if( pvp )
+      summontime *= 2;
+  }
+  else
+  {
+    // Base of 70 mud hrs, divided by the speed of the ship (min 2).  So, between 1 and 35 mud hrs to start.
+    summontime = (SECS_PER_MUD_HOUR * WAIT_SEC * 70) / MAX((get_maxspeed_without_cargo(ship) - 20), 2);
+    if( pvp )
+      summontime *= 4;
+  }
+  // Max at 70 mud hrs.
+  summontime = MIN(summontime, SECS_PER_MUD_HOUR * WAIT_SEC * 70);
+
+  if (pvp)
+    send_to_char_f(ch, "Due to dangerous conditions, it will take about %d hours for your ship to get here.\r\n",
+      summontime / (SECS_PER_MUD_HOUR * WAIT_SEC));
+  else if (time_only)
+    send_to_char_f(ch, "It would take %d hours for your ship to get here.\r\n",
+      summontime / (SECS_PER_MUD_HOUR * WAIT_SEC));
+  else
+    send_to_char_f(ch, "Thanks for your business, it will take %d hours for your ship to get here.\r\n",
+      summontime / (SECS_PER_MUD_HOUR * WAIT_SEC));
+
+  if (!time_only)
+  {
+    if(!IS_TRUSTED(ch))
+    {
+      clear_cargo(ship);
+      write_ship(ship);
+    }
+    SET_BIT(ship->flags, SUMMONED);
+    everyone_get_out_ship(ship);
+    send_to_room_f(ship->location, "&+y%s is called away elsewhere.&N\r\n", ship->name);
+    obj_from_room(ship->shipobj);
+    obj_to_room(ship->shipobj, ship_transit_rnum );
+
+    sprintf(buf, "%s %d", GET_NAME(ch), ch->in_room);
+    add_event(summon_ship_event, summontime, NULL, NULL, ship->shipobj, 0, buf, strlen(buf)+1);
+  }
+  return TRUE;
 }
 
 int sell_cargo_slot(P_char ch, P_ship ship, int slot, int rroom)
@@ -1604,12 +1650,12 @@ int buy_weapon(P_char ch, P_ship ship, char* arg1, char* arg2)
   struct affected_type *paf = get_spell_from_char(ch, AIP_CARGOCOUNT);
   bool quickbuild = (paf && paf->modifier >= 10000) ? TRUE : FALSE;
 
-    if (!is_number(arg1) || !arg2 || !*arg2) 
+    if (!is_number(arg1) || !arg2 || !*arg2)
     {
         send_to_char ("Valid syntax is 'buy weapon <number> <fore/rear/port/starboard>'\r\n", ch);
         return TRUE;
     }
-    
+
     int w = atoi(arg1) - 1;
     if ((w < 0) || (w >= MAXWEAPON)) 
     {
@@ -1722,7 +1768,7 @@ int buy_weapon(P_char ch, P_ship ship, char* arg1, char* arg2)
     {
       buildtime /= 2;
     }
-  //int pvp = false;
+  //bool pvp = false;
 	//pvp = ocean_pvp_state();
   //if (pvp) buildtime *= 4;
     send_to_char_f(ch, "Thank you for your purchase, it will take %d hours to install the part.\r\n", (int) (buildtime / 75));
@@ -1812,9 +1858,10 @@ int buy_equipment(P_char ch, P_ship ship, char* arg1)
     if (e == E_LEVISTONE) weight = eq_levistone_weight(ship);
 */
     int buildtime = equipment_data[e].weight * 75;
-    int pvp = false;
+    bool pvp = false;
     pvp = ocean_pvp_state();
-        if (pvp) buildtime *= 4;
+    if( pvp )
+      buildtime *= 4;
     // Achievement - Trader
     if( quickbuild )
     {
@@ -2172,17 +2219,17 @@ int ship_shop_proc(int room, P_char ch, int cmd, char *arg)
         send_to_char("Valid syntax is '&+glist <&+Gh&+gull/&+Gw&+geapon/&+Ge&+gquipment/cargo>'\r\n", ch);
         return TRUE;
     }
-    if (cmd == CMD_SUMMON) 
+    if (cmd == CMD_SUMMON)
     {
-        if (!owned) 
+        if (!owned)
         {
             send_to_char("You do not own a ship!\r\n", ch);
             return TRUE;
         }
         if (isname(arg1, "ship"))
-            return summon_ship(ch, ship, false);
+            return summon_ship(ch, ship, FALSE);
         if (isname(arg1, "time"))
-            return summon_ship(ch, ship, true);
+            return summon_ship(ch, ship, TRUE);
     }
 
     if (cmd == CMD_SELL) 
@@ -2329,7 +2376,7 @@ int ship_shop_proc(int room, P_char ch, int cmd, char *arg)
                 return TRUE;
             }
             return buy_contra(ch, ship, arg2);
-        } 
+        }
         else if (isname(arg1, "weapon") || isname(arg1, "w")) 
         {
             if (!owned) 
@@ -2421,13 +2468,13 @@ int crew_shop_proc(int room, P_char ch, int cmd, char *arg)
 
     if (!ship)
     {
-        send_to_char("You own no ship, no one here wants to talk to you.\r\n", ch);
+        send_to_char("You own no ship; no one here wants to talk to you.\r\n", ch);
         return TRUE;
     }
 
     if (cmd == CMD_LIST)
     {
-        send_to_char("&+YYou ask around and find these people looking for employer:&N\r\n", ch);
+        send_to_char("&+YYou ask around and find these people looking for employment:&N\r\n", ch);
         int n = 0;
 
         send_to_char("\r\n", ch);

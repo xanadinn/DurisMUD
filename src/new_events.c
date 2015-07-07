@@ -510,9 +510,7 @@ void add_event(event_func func, int delay, P_char ch, P_char victim, P_obj obj, 
   return;
 }
 
-/*
- * return the time left in the e1 event
- */
+// Returns the time left (in pulses) in the e1 event
 int ne_event_time(P_nevent e1)
 {
   int time_left;
