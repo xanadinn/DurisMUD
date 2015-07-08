@@ -356,9 +356,7 @@ int can_raise_draco(P_char ch, int level, bool bGreater)
   return TRUE;
 }
 
-
-void raise_undead(int level, P_char ch, P_char victim, P_obj obj,
-                  int which_type)
+void raise_undead(int level, P_char ch, P_char victim, P_obj obj, int which_type)
 {
   P_char   undead;
   P_obj    obj_in_corpse, next_obj;
@@ -404,9 +402,7 @@ void raise_undead(int level, P_char ch, P_char victim, P_obj obj,
     return;
   }
 
-  if( (IS_AFFECTED4(ch, AFF4_VAMPIRE_FORM)
-    && !is_wearing_necroplasm(ch)
-    && !IS_NPC(ch))
+  if( (IS_AFFECTED4(ch, AFF4_VAMPIRE_FORM) && !is_wearing_necroplasm(ch) && !IS_NPC(ch))
     || affected_by_spell(ch, SPELL_CORPSEFORM) )
   {
     send_to_char("You cannot control undead in that form!\n\r", ch);
@@ -597,8 +593,11 @@ void raise_undead(int level, P_char ch, P_char victim, P_obj obj,
 
   MonkSetSpecialDie(undead);
   undead->points.base_hitroll = undead->points.hitroll = (int) (0.7 * GET_LEVEL(undead));
-  undead->points.base_damroll = undead->points.damroll = (int) (0.7 * GET_LEVEL(undead));
+  // 24 - 32 at 50.
+  undead->points.base_damroll = undead->points.damroll = (int) (0.55 * GET_LEVEL(undead)) + number(-6, 2);
   undead->points.damnodice = (undead->points.damnodice / 2 + 2);
+  // 5 at 56.
+  undead->points.damsizedice = (level - 1) / 11;
 
   StartRegen(undead, EVENT_MANA_REGEN);
   balance_affects(undead);
@@ -869,7 +868,7 @@ void spawn_raise_undead(P_char ch, P_char vict, P_obj corpse)
        }
 
       if (GET_CLASS(ch, CLASS_THEURGIST))
-	spell_call_titan(56, ch, NULL, SPELL_TYPE_SPELL, NULL, corpse);
+        spell_call_titan(56, ch, NULL, SPELL_TYPE_SPELL, NULL, corpse);
       else
         spell_create_dracolich(56, ch, NULL, SPELL_TYPE_SPELL, NULL, corpse);
     }
@@ -1392,6 +1391,14 @@ void spell_create_dracolich(int level, P_char ch, char *arg, int type, P_char vi
       mob->points.damnodice = 15;
       mob->points.base_hitroll = mob->points.hitroll = (GET_LEVEL(ch));
     }
+  }
+  else
+  {
+    // 5d6 at level 56.
+    mob->points.damnodice = (level - 6) / 10;
+    mob->points.damsizedice = (level + 10) / 11;
+    // 32 - 40 at level 56.
+    mob->points.base_damroll = mob->points.damroll = level / 2 + number( 4, 12 );
   }
 
   char_to_room(mob, ch->in_room, 0);
@@ -2005,14 +2012,14 @@ void spell_create_greater_dracolich(int level, P_char ch, char *arg, int type, P
     send_to_char("A mysterious force blocks your spell!\r\n", ch);
     return;
   }
-  if( obj->value[CORPSE_LEVEL] < 51 )
-  {
-    send_to_char("This spell requires the corpse of a more powerful being!\r\n", ch);
-    return;
-  }
   if( obj->type != ITEM_CORPSE )
   {
     act("You can't animate $p!", FALSE, ch, obj, 0, TO_CHAR);
+    return;
+  }
+  if( obj->value[CORPSE_LEVEL] < 51 )
+  {
+    send_to_char("This spell requires the corpse of a more powerful being!\r\n", ch);
     return;
   }
   /*
@@ -2093,12 +2100,20 @@ void spell_create_greater_dracolich(int level, P_char ch, char *arg, int type, P
     }
     if( GET_LEVEL(ch) >= 54 )
     {
-      if(mob->points.damnodice < 15)
+      if(mob->points.damnodice < 10)
       {
-        mob->points.damnodice = 15;
+        mob->points.damnodice = 10;
       }
       mob->points.base_hitroll = mob->points.hitroll = (GET_LEVEL(ch));
     }
+  }
+  else
+  {
+    // 6d7 at level 56.
+    mob->points.damnodice = (level + 9)/10;
+    mob->points.damsizedice = (level + 4)/10 + 1;
+    // 40 - 48 at 56.
+    mob->points.base_damroll = mob->points.damroll = (3 * level) / 4 + number( -2, 6 );
   }
 
   if( GET_C_STR(mob) < 95 || GET_C_DEX(mob) < 95 )

@@ -3702,10 +3702,8 @@ bool damage(P_char ch, P_char victim, double dam, int attacktype)
     if (attacktype == SPELL_NEG_ENERGY_BARRIER)
       flags |= SPLDAM_GRSPIRIT;
 
-    if ((attacktype >= SPELL_FIRE_BREATH &&
-          attacktype <= SPELL_LIGHTNING_BREATH) ||
-        attacktype == SPELL_SHADOW_BREATH_1 ||
-        attacktype == SPELL_SHADOW_BREATH_2)
+    if( (attacktype >= SPELL_FIRE_BREATH && attacktype <= SPELL_LIGHTNING_BREATH)
+      || attacktype == SPELL_SHADOW_BREATH_1 || attacktype == SPELL_SHADOW_BREATH_2 )
       flags |= SPLDAM_BREATH;
 
     return spell_damage(ch, victim, dam, type, flags, &tmsg);
@@ -3716,7 +3714,8 @@ bool damage(P_char ch, P_char victim, double dam, int attacktype)
   }
   else
   {
-    if( !IS_FIGHTING(ch) && !IS_DESTROYING(ch) && (ch->in_room == victim->in_room) ){
+    if( !IS_FIGHTING(ch) && !IS_DESTROYING(ch) && (ch->in_room == victim->in_room) )
+    {
       set_fighting(ch, victim);
       attack_back(ch, victim, attacktype > FIRST_SKILL);
     }
@@ -5156,15 +5155,13 @@ int melee_damage(P_char ch, P_char victim, double dam, int flags, struct damage_
   }
 
   // Combat mind bypasses displacement.
-  if(affected_by_spell(victim, SPELL_DISPLACEMENT) &&
-      (!number(0, 5)) && !(flags & PHSDAM_NOREDUCE) &&
-      !affected_by_spell(ch, SPELL_COMBAT_MIND))
+  if(affected_by_spell(victim, SPELL_DISPLACEMENT) && (!number(0, 5)) && !(flags & PHSDAM_NOREDUCE)
+    && !affected_by_spell(ch, SPELL_COMBAT_MIND))
   {
     dam = 0;
     act("&+WThe aura of displacement around&n $n&+W absorbs most of the assault!&n",
         FALSE, victim, 0, 0, TO_ROOM);
-    act("$e THOUGHT $s was going to hit you...&n",
-        FALSE, victim, 0, 0, TO_CHAR);
+    act("$e THOUGHT $s was going to hit you...&n", FALSE, victim, 0, 0, TO_CHAR);
   }
 
   if (affected_by_spell(victim, SPELL_STONE_SKIN) && !(flags & PHSDAM_NOREDUCE))
@@ -5281,7 +5278,7 @@ int melee_damage(P_char ch, P_char victim, double dam, int flags, struct damage_
   }
   else if(shld_result == DAM_NONEDEAD && !(flags & PHSDAM_NOENGAGE))
   {
-    attack_back(ch, victim, TRUE);
+    return attack_back(ch, victim, TRUE);
   }
 
   return shld_result;
@@ -6004,8 +6001,7 @@ int raw_damage(P_char ch, P_char victim, double dam, uint flags, struct damage_m
 
     /* make mirror images disappear */
     if( victim && IS_NPC(victim) && !(flags & RAWDAM_NOKILL)
-      && GET_VNUM(victim) == 250
-      && (GET_HIT(victim) < 15 || damage_dealt > 240) )
+      && GET_VNUM(victim) == 250 && (GET_HIT(victim) < 15 || damage_dealt > 240) )
     {
       act("Upon being struck, $n disappears into thin air.", TRUE, victim, 0, 0, TO_ROOM);
       extract_char(victim);
@@ -6854,8 +6850,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
     return FALSE;
   }
 
-  if( ch->in_room != victim->in_room
-    || ch->specials.z_cord != victim->specials.z_cord )
+  if( ch->in_room != victim->in_room || ch->specials.z_cord != victim->specials.z_cord )
   {
     send_to_char("Who?\r\n", ch);
     return FALSE;
@@ -6937,8 +6932,6 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
 
   diceroll = number(1, 100);
 
-
-
 /* Making this linear.  might should be less than linear. - Lohrr
   int rollmod = 6; //statupdate2013 - drannak
   if (GET_C_INT(ch) < 90)
@@ -6956,7 +6949,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
 */
   // At 100 int : 5% crit, at 200 int : 25% crit
   int critroll = CRITRATE(ch);
-  if(critroll > number(1, 100)) 
+  if(critroll >= number(1, 100))
   {
     sic = -1;
   }
@@ -7001,8 +6994,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
 
   // Quickstep stops crits if victim can respond
   bool bIsQuickStepMiss = FALSE;
-  if( sic == -1 && !IS_AFFECTED2(victim, AFF2_STUNNED)
-    && !IS_IMMOBILE(victim)
+  if( sic == -1 && !IS_AFFECTED2(victim, AFF2_STUNNED) && !IS_IMMOBILE(victim)
     && (notch_skill(victim, SKILL_QUICK_STEP, get_property("skill.notch.criticalAttack", 10))
     || GET_CHAR_SKILL(victim, SKILL_QUICK_STEP) > number(1, 100)) )
   {
@@ -7395,7 +7387,6 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
 
   }
 
-
   // Replaced with innate intercept: intercept_defensiveproc below.
   if( has_innate( victim, INNATE_INTERCEPT ) && intercept_defensiveproc(victim, ch) )
   {
@@ -7539,8 +7530,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
   }
 
   tmp = melee_death_messages_table[2 * msg + 1].attacker ? number(0, 1) : 0;
-  messages.death_attacker =
-    melee_death_messages_table[2 * msg + tmp].attacker;
+  messages.death_attacker = melee_death_messages_table[2 * msg + tmp].attacker;
   messages.death_victim = melee_death_messages_table[2 * msg + tmp].victim;
   messages.death_room = melee_death_messages_table[2 * msg + tmp].room;
 
@@ -9282,9 +9272,7 @@ int calculate_attacks(P_char ch, int attacks[])
     ADD_ATTACK(PRIMARY_WEAPON);
 
   if (GET_CLASS(ch, CLASS_DREADLORD | CLASS_AVENGER) &&
-      GET_CHAR_SKILL(ch,
-        required_weapon_skill(ch->equipment[PRIMARY_WEAPON])) >
-      69)
+      GET_CHAR_SKILL(ch, required_weapon_skill(ch->equipment[PRIMARY_WEAPON])) > 69)
     ADD_ATTACK(PRIMARY_WEAPON);
 
   if (affected_by_spell(ch, SPELL_HOLY_SWORD))
@@ -9431,9 +9419,7 @@ void perform_violence(void)
 
     if (pulse % PULSE_VIOLENCE == 0 && opponent)
     {
-      if(IS_SET(ch->specials.act2, PLR2_MELEE_EXP) &&
-          !IS_CASTING(ch) &&
-          !IS_IMMOBILE(ch))
+      if(IS_SET(ch->specials.act2, PLR2_MELEE_EXP) && !IS_CASTING(ch) && !IS_IMMOBILE(ch))
       {
         gain_exp(ch, opponent, 0, EXP_MELEE);
         REMOVE_BIT(ch->specials.act2, PLR2_MELEE_EXP);
@@ -9492,8 +9478,7 @@ void perform_violence(void)
     {
       act("You remain paralyzed and can't do a thing to defend yourself.",
           FALSE, ch, 0, 0, TO_CHAR);
-      act
-        ("$n strains to respond to $N's attack, but the paralysis is too overpowering.",
+      act("$n strains to respond to $N's attack, but the paralysis is too overpowering.",
          FALSE, ch, 0, opponent, TO_ROOM);
       continue;
     }
@@ -9535,11 +9520,8 @@ void perform_violence(void)
       real_attacks = number_attacks;
     }
 
-    if(!affected_by_spell(opponent, SKILL_BATTLE_SENSES) &&
-        GET_CHAR_SKILL(opponent, SKILL_BATTLE_SENSES) &&
-        GET_POS(opponent) == POS_STANDING &&
-        !IS_STUNNED(opponent) &&
-        !IS_BLIND(opponent))
+    if(!affected_by_spell(opponent, SKILL_BATTLE_SENSES) && GET_CHAR_SKILL(opponent, SKILL_BATTLE_SENSES)
+      && GET_POS(opponent) == POS_STANDING && !IS_STUNNED(opponent) && !IS_BLIND(opponent))
     {
       if(notch_skill(opponent, SKILL_BATTLE_SENSES, get_property("skill.notch.defensive", 17)))
       { }
@@ -9577,9 +9559,7 @@ void perform_violence(void)
       frightening_presence(ch, opponent);
     }
 
-    if(IS_PC(opponent) &&
-        ch == GET_OPPONENT(opponent) &&
-        IS_NPC(ch))
+    if(IS_PC(opponent) && ch == GET_OPPONENT(opponent) && IS_NPC(ch))
     {
       SET_BIT(opponent->specials.act2, PLR2_MELEE_EXP);
     }
@@ -9595,37 +9575,27 @@ void perform_violence(void)
 
     for (i = 0; i < real_attacks; i++)
     {
-      if(!ch->specials.fighting ||
-          !is_char_in_room(ch, room) ||
-          !is_char_in_room(opponent, room))
+      if(!ch->specials.fighting || !is_char_in_room(ch, room) || !is_char_in_room(opponent, room))
       {
         break;
       }
-      if(pv_common(ch, opponent,
-            ch->equipment[attacks[i * number_attacks / real_attacks]]))
+      if(pv_common(ch, opponent, ch->equipment[attacks[i * number_attacks / real_attacks]]))
       {
         num_hits++;
       }
     }
 
-    if(!is_char_in_room(opponent, room) ||
-        !is_char_in_room(ch, room))
+    if(!is_char_in_room(opponent, room) || !is_char_in_room(ch, room))
     {
       continue;
     }
 
-    if(is_char_in_room(ch, room) &&
-        IS_NPC(ch) &&
-        AWAKE(ch) &&
-        CAN_ACT(ch))
+    if(is_char_in_room(ch, room) && IS_NPC(ch) && AWAKE(ch) && CAN_ACT(ch))
     {
       MobCombat(ch);
     }
 
-    if(IS_PC(ch) &&
-        num_hits &&
-        IS_NPC(opponent) &&
-        !IS_SET(ch->specials.act2, PLR2_MELEE_EXP))
+    if(IS_PC(ch) && num_hits && IS_NPC(opponent) && !IS_SET(ch->specials.act2, PLR2_MELEE_EXP))
     {
       SET_BIT(ch->specials.act2, PLR2_MELEE_EXP);
     }
@@ -9810,15 +9780,12 @@ int pv_common(P_char ch, P_char opponent, const P_obj wpn)
   }
 
   /* defensive hit hook for mob procs - Torgal */
-  if(IS_ALIVE(opponent) &&
-      IS_NPC(opponent) &&
-      mob_index[GET_RNUM(opponent)].func.mob &&
-      !affected_by_spell(opponent, TAG_CONJURED_PET))
+  if(IS_ALIVE(opponent) && IS_NPC(opponent) && mob_index[GET_RNUM(opponent)].func.mob
+    && !affected_by_spell(opponent, TAG_CONJURED_PET))
   {
     data.victim = ch;
 
-    if ((*mob_index[GET_RNUM(opponent)].func.mob) (opponent, ch, CMD_GOTHIT,
-          (char *) &data))
+    if((*mob_index[GET_RNUM(opponent)].func.mob) (opponent, ch, CMD_GOTHIT, (char *) &data))
     {
       return FALSE;
     }
@@ -9827,26 +9794,18 @@ int pv_common(P_char ch, P_char opponent, const P_obj wpn)
   if(hit(ch, opponent, wpn))
     success = TRUE;
 
-  if(success && 
-      IS_ALIVE(opponent) &&
-      GET_POS(opponent) == POS_STANDING &&
-      GET_CHAR_SKILL(opponent, SKILL_ARMLOCK))
+  if(success && IS_ALIVE(opponent) && GET_POS(opponent) == POS_STANDING && GET_CHAR_SKILL(opponent, SKILL_ARMLOCK))
     armlock_check(ch, opponent);
 
-  if(GET_SPEC(ch, CLASS_CLERIC, SPEC_ZEALOT) &&
-      success &&
-      IS_ALIVE(ch))
+  if(GET_SPEC(ch, CLASS_CLERIC, SPEC_ZEALOT) && success && IS_ALIVE(ch))
   {
     int devotion = GET_CHAR_SKILL(ch, SKILL_DEVOTION);
     int chance1 = 0, bonus1 = 0;
 
-    if(IS_NPC(ch) &&
-        IS_ELITE(ch) &&
-        !IS_PC_PET(ch))
+    if(IS_NPC(ch) && IS_ELITE(ch) && !IS_PC_PET(ch))
       devotion = GET_LEVEL(ch) * 2;
 
-    if(devotion &&
-        devotion > 0)
+    if(devotion && devotion > 0)
     {
       if(devotion >= 100)
         bonus1 += 3;
