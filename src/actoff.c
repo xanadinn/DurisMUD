@@ -9872,63 +9872,63 @@ void restrain(P_char ch, P_char victim)
 }
 
 
-// Shriek skill/2 + 1d20 area damage usable once every 5 minutes.
+// Shriek:  skill level/2 + 1d20 area damage = 51 - 70 damage @100 skill, usable once every 5 minutes.
 void do_shriek(P_char ch, char *argument, int cmd)
 {
 
-  int      damage = 0;
-  int      skl_lvl = 0;
-  int      count = 0;
-  int      terrain_type = 0;
+  int      skl_lvl, basedamage, actualdam, savemod, count, res;
   P_char   person = 0;
   P_char   next_person = 0;
 
-  if(!(ch))
+  if( !IS_ALIVE(ch) )
   {
     logit(LOG_EXIT, "assert: bogus params (do_shriek)");
     raise(SIGSEGV);
     return;
   }
 
-  // if this is not a disharmonist
-  if(!IS_TRUSTED(ch))
+  // Get the level of skill the player or mob is at
+  skl_lvl = GET_CHAR_SKILL(ch, SKILL_SHRIEK);
+
+  // If this is not a disharmonist
+  if( skl_lvl == 0 )
   {
-    if(!GET_CHAR_SKILL(ch, SKILL_SHRIEK))
+    if( !IS_TRUSTED(ch) )
     {
-      send_to_char
-        ("That's right, let it out.. it's not good to store anger.\r\n", ch);
+      send_to_char("That's right, let it out.. it's not good to store anger.\r\n", ch);
       return;
+    }
+    else
+    {
+      skl_lvl = 100;
     }
   }
 
-  if(is_in_safe(ch))
+  if( is_in_safe(ch) )
   {
-    send_to_char
-      ("You can find the anger to shriek in such a peaceful place.\r\n", ch);
+    send_to_char("You can find the anger to shriek in such a peaceful place.\r\n", ch);
     return;
   }
 
-  // make sure this is the right terrain
-  terrain_type = world[ch->in_room].sector_type;
-  if(terrain_type == SECT_UNDERWATER || terrain_type == SECT_UNDERWATER_GR)
+  // Make sure this is the right terrain
+  if( IS_SECT(ch->in_room, SECT_UNDERWATER) || IS_SECT(ch->in_room, SECT_UNDERWATER_GR) )
   {
     send_to_char("It comes out more like a gurgle.\r\n", ch);
     return;
   }
 
-  // check to see if the player has shrieked recently
-  if(affected_by_spell(ch, SKILL_SHRIEK))
+  // Check to see if the player has shrieked recently
+  if( affected_by_spell(ch, SKILL_SHRIEK) )
   {
     send_to_char("Your vocal chords just won't respond!\r\n", ch);
     return;
   }
 
-  // denote that this char is effected by shriek to start the timer
-  set_short_affected_by(ch, SKILL_SHRIEK,
-                        (int) (WAIT_SEC * SECS_PER_REAL_MIN * 5));
+  // Denote that this char is effected by shriek to start the timer
+  set_short_affected_by(ch, SKILL_SHRIEK, (int) (WAIT_SEC * SECS_PER_REAL_MIN * 5));
 
   appear(ch);
-  
+
   struct damage_messages messages = {
     "$N clutches $S ears as your &+RSHRIEK&n ruptures $S cochleas.",
     "You clutch your ears as the terrible &+RSHRIEK&n shatters your cochleas.",
@@ -9938,51 +9938,55 @@ void do_shriek(P_char ch, char *argument, int cmd)
     "Blood pours down $N's ears as $E collapses into a lifeless heap.",
   };
 
-  // get the level of skill the player or mob is at
-  skl_lvl = GET_CHAR_SKILL(ch, SKILL_SHRIEK);
+  // skl_lvl / 2 * 4 == 2 * skl_lvl; we multiply by 4 'cause of old damage reduction.
+  basedamage = 2 * skl_lvl;
+  // 92 - 100 pow has no bonus, < 92 pow means easier to save, > 100 pow means harder to save.
+  savemod = STAT_INDEX( GET_C_POW(ch) ) - 15;
 
-  damage = (skl_lvl / 2) + dice(1, 20);
+  // Let the char know (s)he shrieked
+  send_to_char("You expel your welled-up rage in a mind-aching &+RSHRIEK!&n\r\n", ch);
+  act("$n expels $s welled-up rage in a mind-aching &+RSHRIEK!&n", FALSE, ch, 0, 0, TO_ROOM);
 
-  damage = damage * 4;
-
-  // let the char know (s)he shrieked
-  send_to_char
-    ("You expel your welled-up rage in a mind-aching &+RSHRIEK!&n\r\n", ch);
-  act("$n expels $s welled-up rage in a mind-aching &+RSHRIEK!&n", FALSE, ch,
-      0, 0, TO_ROOM);
-
-  // for each person in the room
-  for (person = world[ch->in_room].people; person; person = next_person)
+  // For each person in the room
+  count = 0;
+  for( person = world[ch->in_room].people; person; person = next_person )
   {
-
-    // figure out who the next person to test will be
+    // Figure out who the next person to test will be
     next_person = person->next_in_room;
 
-    // qualify against area attack rules
+    // Qualify against area attack rules
     if(!should_area_hit(ch, person))
       continue;
 
-    // count the number of affected people
+    // Count the number of affected people
     ++count;
 
-    if(!IS_FIGHTING(person))
+    // If they save, halve base damage (only).  This guarentees final damage > 0.
+    if( NewSaves(person, SAVING_SPELL, savemod) )
     {
-      if(IS_NPC(person))
-        MobStartFight(person, ch);
-      else
-        set_fighting(person, ch);
+      actualdam = basedamage / 2;
+    }
+    else
+    {
+      actualdam = basedamage;
     }
 
-    if( !IS_FIGHTING(ch) && !IS_DESTROYING(ch) )
-      set_fighting(ch, person);
-
-    // apply the damage to the person
-    spell_damage(ch, person, damage, SPLDAM_SOUND, SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, &messages);
+    // Apply the actualdamage to the person + 1d20 randomness.
+    // Note: spell_damage will engage victims (if they live), but not cause bashes/backstabs/etc so ch won't die.
+    //       Should this change, we might want to look at GET_POS(ch) vs POS_STANDING to see if they got knocked down.
+    res = spell_damage(ch, person, actualdam + 4 * number(1, 20), SPLDAM_SOUND, SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, &messages);
+    // If, somehow, the shrieker dies mid-shriek, stop shrieking and return.
+    if( res == DAM_CHARDEAD || res == DAM_BOTHDEAD )
+    {
+      return;
+    }
   }
 
-  if(count > 0)
+  // We only notch if they actually shriek at a target.
+  if( count > 0 )
   {
-    notch_skill(ch, SKILL_SHRIEK, get_property("skill.notch.shriek", 14));
+    // Skill notch + 1/2% chance per target. (It takes 200 - 2 * base notch chance targets to get 100% notch chance).
+    notch_skill(ch, SKILL_SHRIEK, get_property("skill.notch.shriek", 14) + count / 2);
   }
 }
 

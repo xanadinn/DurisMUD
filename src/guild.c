@@ -155,7 +155,7 @@ int notch_skill(P_char ch, int skill, float chance)
   if( !IS_ALIVE(ch) )
     return 0;
 
-  if( IS_NPC(ch) || IS_TRUSTED(ch) )
+  if( IS_NPC(ch) )
     return 0;
 
   if( IS_SET(world[ch->in_room].room_flags, GUILD_ROOM | SAFE_ZONE) )
