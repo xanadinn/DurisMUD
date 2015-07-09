@@ -1740,13 +1740,18 @@ int can_call_woodland_beings(P_char ch, int level)
     case SECT_HILLS:
     case SECT_MOUNTAIN:
     case SECT_SWAMP:
+    case SECT_UNDRWLD_WILD:
+    case SECT_UNDRWLD_MOUNTAIN:
+    case SECT_UNDRWLD_SLIME:
       allowed = 2;
       break;
     case SECT_FOREST:
+    case SECT_SNOWY_FOREST:
+    case SECT_UNDRWLD_MUSHROOM:
       allowed = 3;
       break;
     default:
-      return false;
+      return FALSE;
   }
 
   if(GET_LEVEL(ch) >= 51)
@@ -1755,8 +1760,7 @@ int can_call_woodland_beings(P_char ch, int level)
   return pets < allowed;
 }
 
-void spell_call_woodland_beings(int level, P_char ch, char *arg, int type,
-                                                                      P_char victim, P_obj obj)
+void spell_call_woodland_beings(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   P_char        mob;
   int   sum, mlvl, lvl;

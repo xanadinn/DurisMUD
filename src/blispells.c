@@ -644,14 +644,20 @@ void spell_shambler(int level, P_char ch, char *arg, int type, P_char victim, P_
     case SECT_CITY:
     case SECT_DESERT:
     case SECT_ROAD:
+    case SECT_UNDRWLD_CITY:
       count = dice( 1, 2);
       break;
     case SECT_FIELD:
     case SECT_HILLS:
+    case SECT_UNDRWLD_WILD:
+    case SECT_UNDRWLD_MOUNTAIN:
     case SECT_MOUNTAIN:
       count = dice( 1, 3 ) + 1;
       break;
+    case SECT_UNDRWLD_SLIME:
     case SECT_SWAMP:
+    case SECT_UNDRWLD_MUSHROOM:
+    case SECT_SNOWY_FOREST:
     case SECT_FOREST:
       count = dice( 1, 4 ) + 2;
       break;
