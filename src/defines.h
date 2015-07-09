@@ -190,7 +190,7 @@ typedef unsigned int uint;
 #define ITEM_NORESET       BIT_15
 #define ITEM_NOLOCATE      BIT_16       /* Item cannot be located       */
 #define ITEM_NOIDENTIFY    BIT_17       /* Item cannot be identified    */
-#define ITEM_NOSUMMON      BIT_18       /* if in inventory cannot be summoned */
+#define ITEM_NOSUMMON      BIT_18       /* if worn cannot be summoned */
 #define ITEM_LIT           BIT_19       /* Item has a light spell cast on it */
 #define ITEM_TRANSIENT     BIT_20       /* Item which dissolves when dropped */
 #define ITEM_NOSLEEP       BIT_21       /* If in inventory, cannot be slept */

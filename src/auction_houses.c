@@ -458,10 +458,10 @@ bool auction_offer(P_char ch, char *args)
 bool auction_list(P_char ch, char *args)
 {
   char list_arg[MAX_STRING_LENGTH];
-	
-  half_chop(args, list_arg, args);
-
   char where_str[MAX_STRING_LENGTH];
+  int i, count;
+
+  half_chop(args, list_arg, args);
   *where_str = '\0';
 
   if( isname(list_arg, "all a") || strlen(list_arg) < 1 )
@@ -488,15 +488,25 @@ bool auction_list(P_char ch, char *args)
   }
   else if( isname(list_arg, "sort s") )
   {
-    send_to_char("&+WAuctions for items:\r\n", ch);
-
     vector<string> list_args;
-		
+
+    if( !*args )
+    {
+      count = sprintf( buff, "&+WValid keywords: &+Y%s", sorter->getKeyword(0).c_str() );
+      for( i = 1;i < sorter->getSize();i++ )
+      {
+        count += sprintf(buff + count, ", %s", sorter->getKeyword(i).c_str());
+      }
+      sprintf( buff + count, ".\n\r" );
+      send_to_char( buff, ch );
+      return TRUE;
+    }
+
     while( strlen(args) > 0 )
     {
       half_chop(args, list_arg, args);
       list_args.push_back(string(list_arg));
-			
+
       if( !sorter->isKeyword(list_arg) )
       {
         sprintf(buff, "&+W'&+Y%s&+W' is an invalid keyword!\r\n", list_arg);
@@ -504,7 +514,7 @@ bool auction_list(P_char ch, char *args)
         return TRUE;
       }
 
-      sprintf(buff, "&+y%s\r\n", sorter->getDescString(list_arg).c_str() );
+      sprintf(buff, "&+WAuctions for items &+y%s&+W:&n\n", sorter->getDescString(list_arg).c_str() );
       send_to_char(buff, ch);
 
       mysql_real_escape_string(DB, buff, list_arg, strlen(list_arg));
@@ -524,18 +534,14 @@ bool auction_list(P_char ch, char *args)
     send_to_char("&+WAuction list syntax:\r\nauction list - show all auctions\n\r"
                  "auction list sort <keyword list> - show only auctions for items"
                  " with the specified attributes (like lockers)\n\r"
-                 "auction list player <playername> - show all auctions by a player\n\r"
-                 "\n\rValid keywords: horns, nose, tail, horse, back, badge, quiver, ear,"
-                 " face, eyes, wield, wrist, waist, about, shield, arms, hands, feet,"
-                 " legs, head, body, neck, finger, warrior, ranger, psionicist, paladin,"
-                 " antipaladin, cleric, monk, druid, shaman, sorcerer, necromancer,"
-                 " conjurer, assassin, mercenary, bard, thief, alchemist, berserker,"
-                 " reaver, illusionist, dreadlord, ethermancer, totems, instruments,"
-                 " potions, spellbooks, scrolls, containers, hitpoints, mana, moves,"
-                 " hitroll, damroll, save_para, save_rod, save_fear, save_breath,"
-                 " save_spell, str, dex, int, wis, con, agi, pow, cha, luck, karma,"
-                 " str_max, dex_max, int_max, wis_max, con_max, agi_max, pow_max, cha_max,"
-                 " luck_max, karma_max\r\n", ch);
+                 "auction list player <playername> - show all auctions by a player\n\r", ch );
+    count = sprintf( buff, "&+WValid keywords: &+Y%s", sorter->getKeyword(0).c_str() );
+    for( i = 1;i < sorter->getSize();i++ )
+    {
+      count += sprintf(buff + count, ", %s", sorter->getKeyword(i).c_str());
+    }
+    sprintf( buff + count, ".\n\r" );
+    send_to_char( buff, ch );
     return TRUE;
   }
 
@@ -546,10 +552,13 @@ bool auction_list(P_char ch, char *args)
 
   if( mysql_num_rows(res) < 1 )
   {
-    send_to_char("&+yNo auctions to list!\r\n", ch);
+    if( !*list_arg )
+      send_to_char("&+yNo auctions to list!\r\n", ch);
+    else
+      send_to_char("&+yNo auctions found!\r\n", ch);
   }
 
-  MYSQL_ROW row;				
+  MYSQL_ROW row;
   while( row = mysql_fetch_row(res) )
   {
     char *auction_id = row[0];
@@ -570,7 +579,7 @@ bool auction_list(P_char ch, char *args)
     char buf[128];
     sprintf(buf, "&+W%dp", (int) (cur_price/1000));
     string cur_price_str(buf);
-    
+
     sprintf(buf, "&+W%dp", (int) (buy_price/1000));
     string buy_price_str(buf);
 
@@ -587,7 +596,7 @@ bool auction_list(P_char ch, char *args)
           auction_id, mine_flag, obj_vnum, quantity, pad_ansi(obj_short, 45).c_str(), 
           format_time(secs_remaining).c_str(), pad_ansi(cur_price_str.c_str(), 6).c_str(), 
           pad_ansi(buy_price_str.c_str(), 6).c_str() );
-      else	
+      else
         sprintf(buff, "&+W%s)&+W%s&n %d %s &n[%s&n] &+WBid: &n%s&+W Buy: &n%s\r\n",
           auction_id, mine_flag, quantity, pad_ansi(obj_short, 45).c_str(), 
           format_time(secs_remaining).c_str(), pad_ansi(cur_price_str.c_str(), 6).c_str(), 
@@ -1176,7 +1185,8 @@ string format_time(long seconds) {
 	return string(tmp);
 }
 
-EqSort::EqSort() {
+EqSort::EqSort()
+{
 	flags.push_back(new EqSlotFlag("horns", "worn on horns", ITEM_WEAR_HORN));
 	flags.push_back(new EqSlotFlag("nose", "worn on nose", ITEM_WEAR_NOSE));
 	flags.push_back(new EqSlotFlag("tail", "worn on tail", ITEM_WEAR_TAIL));
@@ -1231,7 +1241,7 @@ EqSort::EqSort() {
 	flags.push_back(new EqTypeFlag("spellbooks", "used as spellbooks", ITEM_SPELLBOOK));
 	flags.push_back(new EqTypeFlag("scrolls", "used as scrolls", ITEM_SCROLL));
 	flags.push_back(new EqTypeFlag("containers", "that are containers", ITEM_CONTAINER));
-	
+
 	flags.push_back(new EqApplyFlag("hitpoints", "that affect hitpoints", APPLY_HIT));
 	flags.push_back(new EqApplyFlag("mana", "that affect mana", APPLY_MANA));
 	flags.push_back(new EqApplyFlag("moves", "that affect moves", APPLY_MOVE));
@@ -1262,42 +1272,276 @@ EqSort::EqSort() {
 	flags.push_back(new EqApplyFlag("cha_max", "that affect maximum charisma (cha_max)", APPLY_CHA_MAX));
 	flags.push_back(new EqApplyFlag("luck_max", "that affect maximum luck (luck_max)", APPLY_LUCK_MAX));
 	flags.push_back(new EqApplyFlag("karma_max", "that affect maximum karma (karma_max)", APPLY_KARMA_MAX));
+
+	flags.push_back(new EqExtraFlag("glow", "that glow", ITEM_GLOW));
+	flags.push_back(new EqExtraFlag("noshow", "that don't show", ITEM_NOSHOW));
+	flags.push_back(new EqExtraFlag("buried", "that are buried", ITEM_BURIED));
+	flags.push_back(new EqExtraFlag("nosell", "that can't be sold", ITEM_NOSELL));
+	flags.push_back(new EqExtraFlag("throw2", "that can be thrown from offhand", ITEM_CAN_THROW2));
+	flags.push_back(new EqExtraFlag("invisible", "that are invisible", ITEM_INVISIBLE));
+	flags.push_back(new EqExtraFlag("norepair", "that can't be repaired", ITEM_NOREPAIR));
+	flags.push_back(new EqExtraFlag("cursed", "that are cursed", ITEM_NODROP));
+	flags.push_back(new EqExtraFlag("boomerang", "that return after throwing", ITEM_RETURNING));
+	flags.push_back(new EqExtraFlag("allowed_races", "that reverse the races can-use list", ITEM_ALLOWED_RACES));
+	flags.push_back(new EqExtraFlag("allowed_classes", "that reverse the classes can-use list", ITEM_ALLOWED_CLASSES));
+	flags.push_back(new EqExtraFlag("proclib", "that use the old proc format", ITEM_PROCLIB));
+	flags.push_back(new EqExtraFlag("hidden", "that are hidden", ITEM_SECRET));
+	flags.push_back(new EqExtraFlag("float", "that float on water", ITEM_FLOAT));
+	flags.push_back(new EqExtraFlag("noreset", "who knows what it did, now unused", ITEM_NORESET));
+	flags.push_back(new EqExtraFlag("nolocate", "that block the locate object spell", ITEM_NOLOCATE));
+	flags.push_back(new EqExtraFlag("noidentify", "that block the identify spell", ITEM_NOIDENTIFY));
+	flags.push_back(new EqExtraFlag("nosummon", "that block the summon spell", ITEM_NOSUMMON));
+	flags.push_back(new EqExtraFlag("lit", "that illuminate the room when worn", ITEM_LIT));
+	flags.push_back(new EqExtraFlag("transient", "that dissolve when dropped", ITEM_TRANSIENT));
+	flags.push_back(new EqExtraFlag("nosleep", "that block the sleep spell", ITEM_NOSLEEP));
+	flags.push_back(new EqExtraFlag("nocharm", "that block charming spells", ITEM_NOCHARM));
+	flags.push_back(new EqExtraFlag("twohands", "that require two hands for use", ITEM_TWOHANDS));
+	flags.push_back(new EqExtraFlag("norent", "that disappear when renting", ITEM_NORENT));
+	flags.push_back(new EqExtraFlag("throw1", "that can be thrown from primary hand", ITEM_CAN_THROW1));
+	flags.push_back(new EqExtraFlag("humming", "that hum", ITEM_HUM));
+	flags.push_back(new EqExtraFlag("levitates", "that don't fall when dropped", ITEM_LEVITATES));
+	flags.push_back(new EqExtraFlag("ignore", "that skip tauto-weight/cost", ITEM_IGNORE));
+	flags.push_back(new EqExtraFlag("artifact", "that are artifacts and should not be auctionable", ITEM_ARTIFACT));
+	flags.push_back(new EqExtraFlag("wholebody", "that cover the whole body", ITEM_WHOLE_BODY));
+	flags.push_back(new EqExtraFlag("wholehead", "that cover the whole head", ITEM_WHOLE_HEAD));
+	flags.push_back(new EqExtraFlag("encrusted", "that have a gem encrusted on them", ITEM_ENCRUSTED));
+
+	flags.push_back(new EqExtra2Flag("silver", "that hit monsters vunerable to silver", ITEM2_SILVER));
+  flags.push_back(new EqExtra2Flag("bless", "that are blessed", ITEM2_BLESS));
+  flags.push_back(new EqExtra2Flag("slay_good", "that hit good alignment hard", ITEM2_SLAY_GOOD));
+  flags.push_back(new EqExtra2Flag("slay_evil", "that hit evil alignment hard", ITEM2_SLAY_EVIL));
+  flags.push_back(new EqExtra2Flag("slay_undead", "that hit undead hard", ITEM2_SLAY_UNDEAD));
+  flags.push_back(new EqExtra2Flag("slay_living", "that hit the living hard", ITEM2_SLAY_LIVING));
+  flags.push_back(new EqExtra2Flag("magic", "that are magical", ITEM2_MAGIC));
+  flags.push_back(new EqExtra2Flag("linkable", "that can be hitched", ITEM2_LINKABLE));
+  flags.push_back(new EqExtra2Flag("noproc", "that are random items", ITEM2_NOPROC));
+  flags.push_back(new EqExtra2Flag("notimer", "that are random items", ITEM2_NOTIMER));
+  flags.push_back(new EqExtra2Flag("noloot", "that can not be taken from a corpse", ITEM2_NOLOOT));
+  flags.push_back(new EqExtra2Flag("crumbleloot", "that crumble when taken", ITEM2_CRUMBLELOOT));
+  flags.push_back(new EqExtra2Flag("storeitem", "that were bought in a store", ITEM2_STOREITEM));
+  flags.push_back(new EqExtra2Flag("soulbound", "that were soulbound", ITEM2_SOULBIND));
+  flags.push_back(new EqExtra2Flag("crafted", "that were crafted", ITEM2_CRAFTED));
+
+	flags.push_back(new EqAffFlag("blind", "that make the wearer blind", AFF_BLIND));
+  flags.push_back(new EqAffFlag("invisible", "that make the wearer invisible", AFF_INVISIBLE));
+  flags.push_back(new EqAffFlag("farsee", "that grant farsee", AFF_FARSEE));
+  flags.push_back(new EqAffFlag("det_invis", "that detect invisible", AFF_DETECT_INVISIBLE));
+  flags.push_back(new EqAffFlag("haste", "that grant haste", AFF_HASTE));
+  flags.push_back(new EqAffFlag("sense_life", "that sense lifeforms", AFF_SENSE_LIFE));
+  flags.push_back(new EqAffFlag("minor_globe", "that provide some magical protection", AFF_MINOR_GLOBE));
+  flags.push_back(new EqAffFlag("stone_skin", "that grant the wearer stone skin", AFF_STONE_SKIN));
+  flags.push_back(new EqAffFlag("ud_vision", "that grant underdark vision", AFF_UD_VISION));
+  flags.push_back(new EqAffFlag("armor", "that block armor spells", AFF_ARMOR));
+  flags.push_back(new EqAffFlag("wraithform", "that grant wraithform and fall off", AFF_WRAITHFORM));
+  flags.push_back(new EqAffFlag("waterbreath", "that grant waterbreathing", AFF_WATERBREATH));
+  flags.push_back(new EqAffFlag("ko", "that knock the wearer out", AFF_KNOCKED_OUT));
+  flags.push_back(new EqAffFlag("prot_evil", "that grant protection from evil", AFF_PROTECT_EVIL));
+  flags.push_back(new EqAffFlag("bound", "that bind the wearer", AFF_BOUND));
+  flags.push_back(new EqAffFlag("slow_poison", "that delay the effects of poison", AFF_SLOW_POISON));
+  flags.push_back(new EqAffFlag("prot_good", "that grant protection from good", AFF_PROTECT_GOOD));
+  flags.push_back(new EqAffFlag("sleep", "that used to put the wearer to sleep", AFF_SLEEP));
+  flags.push_back(new EqAffFlag("skill_aware", "that shouldn't exist", AFF_SKILL_AWARE));
+  flags.push_back(new EqAffFlag("sneak", "that grant sneak to the wearer", AFF_SNEAK));
+  flags.push_back(new EqAffFlag("hide", "that used to grant the user hide", AFF_HIDE));
+  flags.push_back(new EqAffFlag("fear", "that look really scary", AFF_FEAR));
+  flags.push_back(new EqAffFlag("charm", "that look really sweet", AFF_CHARM));
+  flags.push_back(new EqAffFlag("meditate", "that look tranquilizing", AFF_MEDITATE));
+  flags.push_back(new EqAffFlag("barkskin", "that grant the wearer barkskin", AFF_BARKSKIN));
+  flags.push_back(new EqAffFlag("infravision", "that grant the wearer infravision", AFF_INFRAVISION));
+  flags.push_back(new EqAffFlag("levitate", "that levitate the wearer", AFF_LEVITATE));
+  flags.push_back(new EqAffFlag("fly", "that make the wearer fly", AFF_FLY));
+  flags.push_back(new EqAffFlag("aware", "that make the wearer more aware of their surroundings", AFF_AWARE));
+  flags.push_back(new EqAffFlag("prot_fire", "that grant protection from fire", AFF_PROT_FIRE));
+  flags.push_back(new EqAffFlag("camping", "that look like tent poles", AFF_CAMPING));
+  flags.push_back(new EqAffFlag("biofeedback", "that grant the wearer biofeedback", AFF_BIOFEEDBACK));
+
+  flags.push_back(new EqAff2Flag("fireshield", "that grant the wearer fireshield", AFF2_FIRESHIELD));
+  flags.push_back(new EqAff2Flag("ultra", "that grant the wearer ultravision", AFF2_ULTRAVISION));
+  flags.push_back(new EqAff2Flag("det_evil", "that help the wearer sense evil", AFF2_DETECT_EVIL));
+  flags.push_back(new EqAff2Flag("det_good", "that help the wearer snse good", AFF2_DETECT_GOOD));
+  flags.push_back(new EqAff2Flag("det_magic", "that help the wearer sense magic", AFF2_DETECT_MAGIC));
+  flags.push_back(new EqAff2Flag("maj_phys", "that look big and physical", AFF2_MAJOR_PHYSICAL));
+  flags.push_back(new EqAff2Flag("prot_cold", "that grant protection from cold", AFF2_PROT_COLD));
+  flags.push_back(new EqAff2Flag("prot_light", "that grant protection from lightning", AFF2_PROT_LIGHTNING));
+  flags.push_back(new EqAff2Flag("minor_para", "that used to paralyze the wearer", AFF2_MINOR_PARALYSIS));
+  flags.push_back(new EqAff2Flag("major_para", "that used to permenantly paralyze the wearer", AFF2_MAJOR_PARALYSIS));
+  flags.push_back(new EqAff2Flag("slow", "that slow the wearer", AFF2_SLOW));
+  flags.push_back(new EqAff2Flag("globe", "that provide magical protection from most spells", AFF2_GLOBE));
+  flags.push_back(new EqAff2Flag("prot_gas", "that grant protection from gas", AFF2_PROT_GAS));
+  flags.push_back(new EqAff2Flag("prot_acid", "that grant protection from acid", AFF2_PROT_ACID));
+  flags.push_back(new EqAff2Flag("poisoned", "that poison the wearer", AFF2_POISONED));
+  flags.push_back(new EqAff2Flag("soulshield", "that grant soulshield", AFF2_SOULSHIELD));
+  flags.push_back(new EqAff2Flag("silenced", "that silence the wearer", AFF2_SILENCED));
+  flags.push_back(new EqAff2Flag("minor_invis", "that grant minor invisibility", AFF2_MINOR_INVIS));
+  flags.push_back(new EqAff2Flag("vamp", "that grant vampiric touch", AFF2_VAMPIRIC_TOUCH));
+  flags.push_back(new EqAff2Flag("stunned", "that look absolutely stunning", AFF2_STUNNED));
+  flags.push_back(new EqAff2Flag("earth_aura", "that grant earth aura", AFF2_EARTH_AURA));
+  flags.push_back(new EqAff2Flag("water_aura", "that grant water aura", AFF2_WATER_AURA));
+  flags.push_back(new EqAff2Flag("fire_aura", "that grant fire aura", AFF2_FIRE_AURA));
+  flags.push_back(new EqAff2Flag("air_aura", "that grant air aura", AFF2_AIR_AURA));
+  flags.push_back(new EqAff2Flag("hold_breath", "that are breath taking", AFF2_HOLDING_BREATH));
+  flags.push_back(new EqAff2Flag("memming", "that are mesmorizing", AFF2_MEMORIZING));
+  flags.push_back(new EqAff2Flag("drowning", "that make you want to choke", AFF2_IS_DROWNING));
+  flags.push_back(new EqAff2Flag("passdoor", "that grant the ability to walk through doors", AFF2_PASSDOOR));
+  flags.push_back(new EqAff2Flag("flurry", "that grant flurry", AFF2_FLURRY));
+  flags.push_back(new EqAff2Flag("casting", "that invoke feelings of casting a spell", AFF2_CASTING));
+  flags.push_back(new EqAff2Flag("scribing", "that make you want to write", AFF2_SCRIBING));
+  flags.push_back(new EqAff2Flag("hunter", "that make you want to kill", AFF2_HUNTER));
+
+  flags.push_back(new EqAff3Flag("tensors", "that make you wonder", AFF3_TENSORS_DISC));
+  flags.push_back(new EqAff3Flag("tracking", "that make you want to search", AFF3_TRACKING));
+  flags.push_back(new EqAff3Flag("singing", "that make you think you can sing", AFF3_SINGING));
+  flags.push_back(new EqAff3Flag("ecto", "that grant ecotplasmic form", AFF3_ECTOPLASMIC_FORM));
+  flags.push_back(new EqAff3Flag("absorbing", "that make you feel fat", AFF3_ABSORBING));
+  flags.push_back(new EqAff3Flag("prot_animal", "that grant protection from animals", AFF3_PROT_ANIMAL));
+  flags.push_back(new EqAff3Flag("sp_ward", "that grant spirit ward", AFF3_SPIRIT_WARD));
+  flags.push_back(new EqAff3Flag("gr_sp_ward", "that grant greater spirit ward", AFF3_GR_SPIRIT_WARD));
+  flags.push_back(new EqAff3Flag("mindblank", "that grant the wearer mindblank status", AFF3_NON_DETECTION));
+  flags.push_back(new EqAff3Flag("silver", "that can cut lycanthropes", AFF3_SILVER));
+  flags.push_back(new EqAff3Flag("plusone", "that can hit slightly magical creatures", AFF3_PLUSONE));
+  flags.push_back(new EqAff3Flag("plustwo", "that can hit some magical creatures", AFF3_PLUSTWO));
+  flags.push_back(new EqAff3Flag("plusthree", "that can hit most magical creatures", AFF3_PLUSTHREE));
+  flags.push_back(new EqAff3Flag("plusfour", "that can hit really magical creatures", AFF3_PLUSFOUR));
+  flags.push_back(new EqAff3Flag("plusfive", "that can hit all creatures", AFF3_PLUSFIVE));
+  flags.push_back(new EqAff3Flag("enlarge", "that make the wearer bigger", AFF3_ENLARGE));
+  flags.push_back(new EqAff3Flag("reduce", "that make the wearer smaller", AFF3_REDUCE));
+  flags.push_back(new EqAff3Flag("cover", "that make the wearer harder to hit via range", AFF3_COVER));
+  flags.push_back(new EqAff3Flag("fourarms", "that grant the wearer four arms to fight with", AFF3_FOUR_ARMS));
+  flags.push_back(new EqAff3Flag("inertial", "that grant the wearer inertial barrier", AFF3_INERTIAL_BARRIER));
+  flags.push_back(new EqAff3Flag("lightningshield", "that grant the wearer lightningshield", AFF3_LIGHTNINGSHIELD));
+  flags.push_back(new EqAff3Flag("coldshield", "that grant the wearer coldshield", AFF3_COLDSHIELD));
+  flags.push_back(new EqAff3Flag("cannibalize", "that feed the wearer mana from spelldamage", AFF3_CANNIBALIZE));
+  flags.push_back(new EqAff3Flag("swimming", "that make the wearer want a tan", AFF3_SWIMMING));
+  flags.push_back(new EqAff3Flag("toiw", "that grant the wearer a tower of iron will", AFF3_TOWER_IRON_WILL));
+  flags.push_back(new EqAff3Flag("underwater", "that make the wearer feel bankrupt", AFF3_UNDERWATER));
+  flags.push_back(new EqAff3Flag("blur", "that grant the wearer blur", AFF3_BLUR));
+  flags.push_back(new EqAff3Flag("healing", "that grant the wearer enhanced healing", AFF3_ENHANCE_HEALING));
+  flags.push_back(new EqAff3Flag("elemental_form", "that block elemental form", AFF3_ELEMENTAL_FORM));
+  flags.push_back(new EqAff3Flag("pwt", "that prevent the wearer from leaving tracks", AFF3_PASS_WITHOUT_TRACE));
+  flags.push_back(new EqAff3Flag("pal_aura", "that make you feel more holy", AFF3_PALADIN_AURA));
+  flags.push_back(new EqAff3Flag("famine", "that make you hungry", AFF3_FAMINE));
+
+  flags.push_back(new EqAff4Flag("looter", "that mark you as a corpse looter", AFF4_LOOTER));
+  flags.push_back(new EqAff4Flag("plague", "that make you really sick", AFF4_CARRY_PLAGUE));
+  flags.push_back(new EqAff4Flag("sacking", "that make you feel unemployed", AFF4_SACKING));
+  flags.push_back(new EqAff4Flag("sense_follower", "that grants the wearer awareness of invisible followers", AFF4_SENSE_FOLLOWER));
+  flags.push_back(new EqAff4Flag("stornogs", "that block stornogs spheres", AFF4_STORNOGS_SPHERES));
+  flags.push_back(new EqAff4Flag("stornogs_gr", "that block greater stornogs spheres", AFF4_STORNOGS_GREATER_SPHERES));
+  flags.push_back(new EqAff4Flag("vamp_form", "that make you a vampire", AFF4_VAMPIRE_FORM));
+  flags.push_back(new EqAff4Flag("no_unmorph", "that keep you morphed", AFF4_NO_UNMORPH));
+  flags.push_back(new EqAff4Flag("holy_sac", "that grant holy sacrifice", AFF4_HOLY_SACRIFICE));
+  flags.push_back(new EqAff4Flag("battle_ecs", "that grant battle ecstasy", AFF4_BATTLE_ECSTASY));
+  flags.push_back(new EqAff4Flag("dazzle", "that grant dazzle", AFF4_DAZZLER));
+  flags.push_back(new EqAff4Flag("phan_form", "that grant phantasmal form", AFF4_PHANTASMAL_FORM));
+  flags.push_back(new EqAff4Flag("nofear", "that make the wearer immune to fear-based magic", AFF4_NOFEAR));
+  flags.push_back(new EqAff4Flag("regen", "that grant regeneration", AFF4_REGENERATION));
+  flags.push_back(new EqAff4Flag("deaf", "that make you hard of hearing", AFF4_DEAF));
+  flags.push_back(new EqAff4Flag("battletide", "heals group members when wearer does damage", AFF4_BATTLETIDE));
+  flags.push_back(new EqAff4Flag("epic_increase", "that grant an bonus to earned epics", AFF4_EPIC_INCREASE));
+  flags.push_back(new EqAff4Flag("mage_flame", "that grant a magical flame for vision", AFF4_MAGE_FLAME));
+  flags.push_back(new EqAff4Flag("globe_dark", "that grant a globe of darkness to avoid the sun", AFF4_GLOBE_OF_DARKNESS));
+  flags.push_back(new EqAff4Flag("deflect", "that grant perm deflect to the wearer", AFF4_DEFLECT));
+  flags.push_back(new EqAff4Flag("hawkvision", "that grant hawkvision", AFF4_HAWKVISION));
+  flags.push_back(new EqAff4Flag("multiclass", "that really screw things up", AFF4_MULTI_CLASS));
+  flags.push_back(new EqAff4Flag("sanctuary", "that grant sanctuary", AFF4_SANCTUARY));
+  flags.push_back(new EqAff4Flag("hellfire", "that grant hellfire", AFF4_HELLFIRE));
+  flags.push_back(new EqAff4Flag("sense_holy", "that sense holiness", AFF4_SENSE_HOLINESS));
+  flags.push_back(new EqAff4Flag("prot_living", "that grant protection from the living", AFF4_PROT_LIVING));
+  flags.push_back(new EqAff4Flag("det_illusion", "that grant awareness to illusions", AFF4_DETECT_ILLUSION));
+  flags.push_back(new EqAff4Flag("ice_aura", "that grant ice aura", AFF4_ICE_AURA));
+  flags.push_back(new EqAff4Flag("reverse_polarity", "that make you hate shaman heals", AFF4_REV_POLARITY));
+  flags.push_back(new EqAff4Flag("neg_shield", "that grant a negative shield", AFF4_NEG_SHIELD));
+  flags.push_back(new EqAff4Flag("tupor", "that make you sleepy", AFF4_TUPOR));
+  flags.push_back(new EqAff4Flag("wildmagic", "that grant wildmagic status", AFF4_WILDMAGIC));
+
+  flags.push_back(new EqAff5Flag("dazzlee", "that make the world sparkle", AFF5_DAZZLEE));
+  flags.push_back(new EqAff5Flag("mental_anguish", "that make it really hard to focus", AFF5_MENTAL_ANGUISH));
+  flags.push_back(new EqAff5Flag("memory_block", "that make it really hard to cast", AFF5_MEMORY_BLOCK));
+  flags.push_back(new EqAff5Flag("vines", "that make you one with the earth", AFF5_VINES));
+  flags.push_back(new EqAff5Flag("ethereal_alliance", "that make you one with the ether", AFF5_ETHEREAL_ALLIANCE));
+  flags.push_back(new EqAff5Flag("blood_scent", "that make you smell blood", AFF5_BLOOD_SCENT));
+  flags.push_back(new EqAff5Flag("flesh_armor", "that grant immunity to flesh armor", AFF5_FLESH_ARMOR));
+  flags.push_back(new EqAff5Flag("wet", "that make you all wet", AFF5_WET));
+  flags.push_back(new EqAff5Flag("holy_dharma", "that prevent holy dharma from working", AFF5_HOLY_DHARMA));
+  flags.push_back(new EqAff5Flag("enhanced_hide", "that make you really hidden", AFF5_ENH_HIDE));
+  flags.push_back(new EqAff5Flag("listen", "that make the birds really loud", AFF5_LISTEN));
+  flags.push_back(new EqAff5Flag("prot_undead", "that grant protection from undead", AFF5_PROT_UNDEAD));
+  flags.push_back(new EqAff5Flag("imprison", "that make you feel like your wearing stripes", AFF5_IMPRISON));
+  flags.push_back(new EqAff5Flag("titan_form", "that make you really big", AFF5_TITAN_FORM));
+  flags.push_back(new EqAff5Flag("delirium", "that make you really confused", AFF5_DELIRIUM));
+  flags.push_back(new EqAff5Flag("shade_movement", "that allow you to remain hidden where there are shadows", AFF5_SHADE_MOVEMENT));
+  flags.push_back(new EqAff5Flag("noblind", "that prevent blindness stopping you", AFF5_NOBLIND));
+  flags.push_back(new EqAff5Flag("magic_glow", "that make you feel like you've just had sex", AFF5_MAGICAL_GLOW));
+  flags.push_back(new EqAff5Flag("refreshing_glow", "that make you feel like you just showered", AFF5_REFRESHING_GLOW));
+  flags.push_back(new EqAff5Flag("mine", "that grant miner's sight", AFF5_MINE));
+  flags.push_back(new EqAff5Flag("stance_offensive", "that make you more offensive", AFF5_STANCE_OFFENSIVE));
+  flags.push_back(new EqAff5Flag("stance_defensive", "that make you more defensive", AFF5_STANCE_DEFENSIVE));
+  flags.push_back(new EqAff5Flag("obscuring_mist", "that surround the wearer in a concealing mist", AFF5_OBSCURING_MIST));
+  flags.push_back(new EqAff5Flag("not_offensive", "that make you very peaceful", AFF5_NOT_OFFENSIVE));
+  flags.push_back(new EqAff5Flag("decaying_flesh", "that make your flesh decay", AFF5_DECAYING_FLESH));
+  flags.push_back(new EqAff5Flag("dreadnaught", "that make you feel sturdier", AFF5_DREADNAUGHT));
+  flags.push_back(new EqAff5Flag("forest_sight", "that make the forests open up", AFF5_FOREST_SIGHT));
+  flags.push_back(new EqAff5Flag("thornskin", "that grant thornskin", AFF5_THORNSKIN));
+  flags.push_back(new EqAff5Flag("following", "that screws with your ability to follow", AFF5_FOLLOWING));
 }
 
-string EqSort::getSortFlagsString(P_obj obj) {
+string EqSort::getSortFlagsString(P_obj obj)
+{
 	string keywords;
 
-	if( !obj ) return keywords;
-	
-	for( int i = 0; i < flags.size(); i++ ) {
-		if( flags[i] && flags[i]->match(obj) ) {
+	if( !obj )
+  {
+    return keywords;
+  }
+
+	for( int i = 0; i < flags.size(); i++ )
+  {
+		if( flags[i] && flags[i]->match(obj) )
+    {
 			keywords += " ";
-			keywords += flags[i]->keyword;
+			keywords += flags[i]->gKey();
 			keywords += ",";
 		}
-		
 	}
 
 	return keywords;
 }
 
-string EqSort::getDescString(const char *keyword) {
-	if( strlen(keyword) < 1 ) return string();
+string EqSort::getDescString(const char *keyword)
+{
+	if( strlen(keyword) < 1 )
+    return string();
 
-	for( int i = 0; i < flags.size(); i++ ) {
-		if( flags[i] && !strcmp(keyword, flags[i]->keyword.c_str() ) ) {
-			return flags[i]->desc;
+	for( int i = 0; i < flags.size(); i++ )
+  {
+		if( flags[i] && !strcmp(keyword, flags[i]->gKey() ) )
+    {
+			return flags[i]->gDesc();
 		}
 	}
 
 	return string();
 }
 
-bool EqSort::isKeyword(const char *keyword) {
-	if( strlen(keyword) < 1 ) return false;
+string EqSort::getKeyword(const int num)
+{
+  if( num < 0 || num > flags.size() )
+  {
+    return "NULL";
+  }
 
-	for( int i = 0; i < flags.size(); i++ ) {
-		if( flags[i] && !strcmp(keyword, flags[i]->keyword.c_str() ) ) {
+  return flags[num]->gKey();
+}
+
+bool EqSort::isKeyword(const char *keyword)
+{
+	if( strlen(keyword) < 1 )
+    return false;
+
+	for( int i = 0; i < flags.size(); i++ )
+  {
+		if( flags[i] && !strcmp(keyword, flags[i]->gKey() ) )
+    {
 			return true;
 		}
 	}

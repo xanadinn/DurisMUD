@@ -14481,27 +14481,17 @@ int witch_doctor(P_char ch, P_char customer, int cmd, char *arg)
     uint     affect_flag;
   } elixir_list[] =
   {
-    {
-    "accelerate",
-        "a &+ymagical elixir&n labeled \"&+YAcce&+yler&+Yate&n\"",
-        3000, 1, AFF_HASTE},
-    {
-    "incendio",
-        "a &+cwarm bottle&n labeled \"&+rProtectum &+RIncendio&n\"",
-        400, 1, AFF_PROT_FIRE},
-    {
-    "frigeo",
-        "a &+ccold bottle&n labeled \"&+bProtectum &+BFrigeo&n\"",
-        400, 2, AFF2_PROT_COLD},
-    {
-    "aviate",
-        "a &+clight flask&n labeled \"&+CAv&+Wia&+Cte&n\"", 1000, 1, AFF_FLY},
-    {
-    "indigetis",
-        "a &+Wglowing elixir&n labeled \"&+WIn&+wdiget&+Wis&n\"",
-        10000, 4, AFF4_EPIC_INCREASE},
-    {
-    0}
+    { "accelerate",
+      "a &+ymagical elixir&n labeled \"&+YAcce&+yler&+Yate&n\"", 3000, 1, AFF_HASTE},
+    { "incendio",
+      "a &+cwarm bottle&n labeled \"&+rProtectum &+RIncendio&n\"", 400, 1, AFF_PROT_FIRE},
+    { "frigeo",
+      "a &+ccold bottle&n labeled \"&+bProtectum &+BFrigeo&n\"", 400, 2, AFF2_PROT_COLD},
+    { "aviate",
+      "a &+clight flask&n labeled \"&+CAv&+Wia&+Cte&n\"", 1000, 1, AFF_FLY},
+    { "indigetis",
+      "a &+Wglowing elixir&n labeled \"&+WIn&+wdiget&+Wis&n\"", 10000, 4, AFF4_EPIC_INCREASE},
+    { 0 }
   };
 
   if (cmd == CMD_SET_PERIODIC)
