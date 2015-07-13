@@ -26,10 +26,12 @@
 #include "assocs.h"
 #include "specs.prototypes.h"
 #include "specs.zion.h"
+#include "objmisc.h"
 #include "vnum.obj.h"
+
 /*
- * external variables 
- */ 
+ * external variables
+ */
 
 extern P_char character_list;
 extern P_desc descriptor_list;
@@ -3701,7 +3703,7 @@ int gladius_backstabber(P_obj obj, P_char ch, int cmd, char *arg)
       act("$n's $q &nbegins to &+mhum&n.", TRUE, ch, obj, vict, TO_VICT);
       act("$n quickly vanishes and reappears behind you!", TRUE, ch, obj, vict, TO_VICT);
 
-      if( first_w )
+      if( first_w && IS_BACKSTABBER(first_w) )
       {
         single_stab(ch, vict, first_w);
       }
