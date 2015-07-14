@@ -6,8 +6,8 @@ A &+Gsmall, trained dragon&n with clipped wings
 This smallish (under 30 feet) green dragon has been trained to operate the
 newbie wagons. With clipped wings, flight is not possible.
 ~
-1034 0 0 0 0 0 0 0 S
-D 0 0 -1
+1034 0 0 0 0 0 0 0 0 S
+D 0 0 0 -1
 60 18 67 10d18+35 2d3+1
 0.0.0.0 1296
 8 8 0
@@ -19,8 +19,8 @@ A &+Gsmall, trained dragon&n with clipped wings
 This smallish (under 30 feet) green dragon has been trained to operate the
 newbie wagons. With clipped wings, flight is not possible.
 ~
-3082 0 0 0 0 0 0 0 S
-D 0 0 -1
+3082 0 0 0 0 0 0 0 0 S
+D 0 0 0 -1
 60 18 67 10d18+35 2d3+1
 0.0.0.0 1296
 8 8 0
@@ -32,8 +32,8 @@ A &+Gsmall, trained dragon&n with clipped wings
 This smallish (under 30 feet) green dragon has been trained to operate the
 newbie wagons. With clipped wings, flight is not possible.
 ~
-1034 0 0 0 0 0 0 0 S
-D 0 0 -1
+1034 0 0 0 0 0 0 0 0 S
+D 0 0 0 -1
 60 18 67 10d18+35 2d3+1
 0.0.0.0 1296
 8 8 0
@@ -43,8 +43,8 @@ captain wavedancer~
 &+yThe captain of the &+WWave&+BDancer&n &+ystands here.&n
 ~
 ~
-1140852746 0 0 8 0 0 0 0 S
-PH 0 67108896 -1
+1140852746 0 0 0 8 0 0 0 0 S
+PH 0 67108896 0 -1
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -54,8 +54,8 @@ first mate~
 &+yThe &+WWave&+BDancer's&+W first mate&+y stands here.&n
 ~
 ~
-67110922 0 0 8 0 0 0 0 S
-PH 0 513 -1
+67110922 0 0 0 8 0 0 0 0 S
+PH 0 513 0 -1
 51 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -65,8 +65,8 @@ galley chef~
 &+WA slender young galley chef prepares the ship's meals here.&n
 ~
 ~
-10 0 0 0 0 0 0 0 S
-PH 0 1 -1
+10 0 0 0 0 0 0 0 0 S
+PH 0 1 0 -1
 37 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 2
@@ -78,8 +78,8 @@ passenger resting female~
 &+W   This passenger is resting in her cabin, waiting until the ferry
 &+Wreaches the next destination.
 ~
-1140852746 0 0 0 0 0 0 0 S
-PH 0 1 -1
+1140852746 0 0 0 0 0 0 0 0 S
+PH 0 1 0 -1
 25 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 2
@@ -91,8 +91,8 @@ passenger resting male~
 &+W   This passenger is resting in his cabin, waiting until the ferry
 &+Wreaches the next destination.
 ~
-1140852746 0 0 0 0 0 0 0 S
-PH 0 1 -1
+1140852746 0 0 0 0 0 0 0 0 S
+PH 0 1 0 -1
 27 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -102,8 +102,8 @@ large rat~
 &+yA large rat scurries about the cargo area.&n
 ~
 ~
-8 0 0 0 0 0 0 -1000 S
-AC 0 1 -1
+8 0 0 0 0 0 0 0 -1000 S
+AC 0 1 0 -1
 13 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -113,8 +113,8 @@ ticket handler~
 &+yThe ferry &+Wticket&+y handler stands here, checking his list.&n
 ~
 ~
-2058 128 0 8 0 0 0 1000 S
-PH 0 1 -1
+2058 128 0 0 8 0 0 0 1000 S
+PH 0 1 0 -1
 50 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -124,8 +124,8 @@ crewman crew man~
 &+yA &+Wcrewman&+y hustles about here, helping to maintain the ship.&n
 ~
 ~
-1073743880 0 0 0 0 0 0 0 S
-PH 0 1 -1
+1073743880 0 0 0 0 0 0 0 0 S
+PH 0 1 0 -1
 31 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -135,8 +135,8 @@ crewman crew man~
 &+yA &+Wcrewman&+y hustles about here, helping to maintain the ship.&n
 ~
 ~
-1073743880 0 0 0 0 0 0 0 S
-PH 0 1 -1
+1073743880 0 0 0 0 0 0 0 0 S
+PH 0 1 0 -1
 31 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -149,8 +149,8 @@ old sailor~
 &+Lgreat sea.  This sailor looks very comfortable and quite experienced,
 &+Las he handles his role well.
 ~
-2122 0 0 0 0 0 0 -1 S
-p2 0 1 -1
+2122 0 0 0 0 0 0 0 -1 S
+p2 0 1 0 -1
 26 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -163,8 +163,8 @@ sailor strong~
 &+Lgreat sea.  This sailor looks very comfortable and quite experienced,
 &+Las he handles his role well.
 ~
-2122 0 0 0 0 0 0 -1 S
-p2 0 1 -1
+2122 0 0 0 0 0 0 0 -1 S
+p2 0 1 0 -1
 34 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -177,8 +177,8 @@ swashbuckler~
 &+Lgreat sea.  This sailor looks very comfortable and quite experienced,
 &+Las he handles his role well.
 ~
-2120 0 0 0 0 0 0 -1 S
-p2 0 1 -1
+2120 0 0 0 0 0 0 0 -1 S
+p2 0 1 0 -1
 30 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -192,8 +192,8 @@ huge skeletal dragon~
 &+Lfiery red eyes and a bony body.  It screeches while flying, beating
 &+Lits massive wings of bone.
 ~
-2122 0 0 24 0 0 0 -1000 S
-d 0 1 7
+2122 0 0 0 24 0 0 0 -1000 S
+d 0 1 0 7
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -207,8 +207,8 @@ mighty gryphon~
 &+ybody of this tamed beast.  It has the beaked head of an eagle, the body
 &+yof a lion, and two huge feathered wings.
 ~
-2250 0 0 24 0 0 0 500 S
-b 0 1 6
+2250 0 0 0 24 0 0 0 500 S
+b 0 1 0 6
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -222,8 +222,8 @@ giant green dragon~
 &+gquite massive.  A huge black leather saddle has been strapped to the
 &+gbackside of this beast.
 ~
-2122 0 0 24 0 0 0 -500 S
-d 0 1 6
+2122 0 0 0 24 0 0 0 -500 S
+d 0 1 0 6
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -238,8 +238,8 @@ huge hippogryph~
 &+Lantlers.  The hippogryph has long brilliant blue and yellow feathered
 &+Lwings.
 ~
-2122 0 0 24 0 0 0 0 S
-b 0 1 6
+2122 0 0 0 24 0 0 0 0 S
+b 0 1 0 6
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -252,8 +252,8 @@ flying carpet~
 &+Wthe ground.  Acting with magical enchantment, this carpet moves and reacts
 &+Wwith a mind of its own.
 ~
-2122 0 0 24 0 0 0 0 S
-b 0 1 5
+2122 0 0 0 24 0 0 0 0 S
+b 0 1 0 5
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -267,8 +267,8 @@ emerald dragon~
 &+gquite massive.  A huge black leather saddle has been strapped to the
 &+gbackside of this beast.
 ~
-2122 0 0 24 0 0 0 -500 S
-d 0 1 6
+2122 0 0 0 24 0 0 0 -500 S
+d 0 1 0 6
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -282,8 +282,8 @@ powerful gryphon~
 &+ybody of this tamed beast.  It has the beaked head of an eagle, the body
 &+yof a lion, and two huge feathered wings.
 ~
-2250 0 0 24 0 0 0 500 S
-b 0 1 6
+2250 0 0 0 24 0 0 0 500 S
+b 0 1 0 6
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -298,8 +298,8 @@ huge hippogryph~
 &+Lantlers.  The hippogryph has long brilliant blue and yellow feathered
 &+Lwings.
 ~
-2122 0 0 24 0 0 0 0 S
-b 0 1 6
+2122 0 0 0 24 0 0 0 0 S
+b 0 1 0 6
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -313,8 +313,8 @@ onyx dragon~
 &+Lof this fearsome beast.  As imposing as it his, however, this onyx
 &+Ldragon is used for hire to fly travellers from one place to another.
 ~
-2122 0 0 24 0 0 0 -1000 S
-d 0 1 -1
+2122 0 0 0 24 0 0 0 -1000 S
+d 0 1 0 -1
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -329,8 +329,8 @@ great blue drake~
 &+Bmuch more intelligent, as it has taken into gathering money from
 &+Btravellers for simply flying across the realm.
 ~
-2122 0 0 24 0 0 0 -100 S
-d 0 513 6
+2122 0 0 0 24 0 0 0 -100 S
+d 0 513 0 6
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -344,8 +344,8 @@ saddled fire drake~
 &+rleather saddle lined with thick fur.  Two huge straps wrap around a metal
 &+rmouthpiece and into a harness around the drake's body.
 ~
-2282 0 0 24 0 0 0 -100 S
-d 0 1 6
+2282 0 0 0 24 0 0 0 -100 S
+d 0 1 0 6
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -360,8 +360,8 @@ giant wyvern~
 &+ywyvern has been fitted with a huge saddle, making it mountable by travellers
 &+ydue to its above-average size.
 ~
-74 0 0 24 0 0 0 -500 S
-b 0 1 6
+74 0 0 0 24 0 0 0 -500 S
+b 0 1 0 6
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -379,8 +379,8 @@ krrlytstalarryn ancient red dragon~
 &+rin blood red plates of chitinous armor.  Black claws and black spines along his
 &+rtail complete the overall fearsome appearance of the creature.&n
 ~
-285374571 0 0 3120668860 4503775 85852288 131085856 -250 S
-d 0 17825812 7
+285374570 0 0 0 3120668860 4503775 85852288 131085856 -250 S
+d 0 17825812 0 7
 62 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -393,8 +393,8 @@ mighty griffon~
 &+Wwhite &+Yand yellow &N&+yfeathers.  This griffon's body is that of a strong,
 &+Wkingly &n&+ylion with talons as sharp as an &+Weagle&N and the head to match.
 ~
-2058 0 0 134217752 0 0 0 0 S
-b 0 1 -1
+2058 0 0 0 134217752 0 0 0 0 S
+b 0 1 0 -1
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -408,8 +408,8 @@ lithe black drake~
 &+Laging, this drake is quite lithe, dipping and moving with
 &+Lstrength and exquisite accuracy.
 ~
-3082 0 0 24 0 0 0 -100 S
-d 0 513 6
+3082 0 0 0 24 0 0 0 -100 S
+d 0 513 0 6
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -423,8 +423,8 @@ saddled white drake~
 &+Wrealms.  This young dragon is quite intelligent, speaking to
 &+Wmost of its passangers of both common and ancient lore.
 ~
-2250 0 0 134217728 0 0 0 0 S
-d 0 513 -1
+2250 0 0 0 134217728 0 0 0 0 S
+d 0 513 0 -1
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
