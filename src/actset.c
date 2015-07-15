@@ -1007,10 +1007,10 @@ static void setbit_dir(P_char ch, char *name, char *flag, char *value, int on_of
   if( room_number < 0 || room_number > top_of_world )
   {
     setbit_syntax(ch, SETBIT_DIR);
-    send_to_char("Invalid room number.  Please enter a number or 'here' for the room you are in.\n\r", ch );
+    send_to_char("Invalid room number.  Please enter a virtual number or 'here' for the room you are in.\n\r", ch );
     return;
   }
-  room = world + room_number;
+  room = &world[room_number];
 
   /*
    * Using first letter to differentiate between
