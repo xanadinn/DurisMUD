@@ -2802,10 +2802,10 @@ void do_combination(P_char ch, char *argument, int cmd)
 }
 
 //Drannak - Blade Barrage
-
+// Note: this only notches if the victim lives through it.
 void event_barrage(P_char ch, P_char victim, P_obj obj, void *data)
 {
-  int      percent = 100, skill, stage = 0, dam = 0, move, result, skill_req;
+  int percent, skill, stage, skill_req;
   struct damage_messages messages = {
     0, 0, 0,
     "...then you feign low and in a blur of speed leap into the air landing a swift roundkick to $S head.\n"
@@ -2819,24 +2819,24 @@ void event_barrage(P_char ch, P_char victim, P_obj obj, void *data)
   victim = ch->specials.fighting;
   victim = guard_check(ch, victim);
   affect_from_char(ch, SKILL_BLADE_BARRAGE);
-  if(!victim)
+
+  if( !IS_ALIVE(victim) )
   {
     send_to_char("&+cYour opponent has escaped your deadly blade barrage.\n", ch);
     return;
   }
 
-  if(GET_POS(ch) < POS_STANDING)
+  if( GET_POS(ch) < POS_STANDING )
   {
     send_to_char("&+cYou are unable to execute such a technique in your current position.\n", ch);
     return;
   }
-  
-  if(ch->in_room != victim->in_room)
+
+  if( ch->in_room != victim->in_room )
   {
     send_to_char("&+cYour victim has escaped...\r\n", ch);
     return;
   }
-  
 
   /* Ok, let's get it on! */
   act("&+L$n &nbecomes a &+gF&+GL&+gu&+GR&+gr&+GY &nof &+Lweapons &nas they begin their onslaught...&n", TRUE, ch, 0, 0, TO_ROOM);
@@ -2844,7 +2844,7 @@ void event_barrage(P_char ch, P_char victim, P_obj obj, void *data)
 
   skill = GET_CHAR_SKILL(ch, SKILL_BLADE_BARRAGE);
 
-  if(!number(0, 30))
+  if( !number(0, 30) )
   {
     act("&+R$n attempts a fancy attack, but almost cuts $s fingers off in the process!",
       FALSE, ch, 0, 0, TO_ROOM);
@@ -2853,66 +2853,90 @@ void event_barrage(P_char ch, P_char victim, P_obj obj, void *data)
     return;
   }
 
-  if(GET_C_LUK(ch) / 2 > number(0, 100))
+  // Percentage to start with.
+  if( GET_C_LUK(ch) / 2 > number(0, 100) )
   {
-    percent = (int) (percent * 1.05);
+    percent = 105;
+  }
+  else
+  {
+    percent = 100;
   }
 
+  // Yes, we lag before the attacks; it doesn't stop them, and we don't have to worry about victim dying.
+  CharWait(ch, 2 * PULSE_VIOLENCE);
+  stage = 0;
   do
   {
-    switch (stage)
+    switch( stage )
     {
     case 0:
-      dam = number(1, 30);
-	  hit(ch, victim, ch->equipment[PRIMARY_WEAPON]);
-      if(GET_LEVEL(ch) < 50)
+      hit(ch, victim, ch->equipment[PRIMARY_WEAPON]);
+      if( !(IS_ALIVE(ch) && IS_ALIVE(victim)) )
+      {
+        return;
+      }
+      if( GET_LEVEL(ch) < 50 )
         percent -= 10;
       skill_req = 25;
       break;
     case 1:
-      if(GET_LEVEL(ch) < 50)
+      hit(ch, victim, ch->equipment[SECONDARY_WEAPON]);
+      if( !(IS_ALIVE(ch) && IS_ALIVE(victim)) )
+      {
+        return;
+      }
+      if( GET_LEVEL(ch) < 50 )
         percent -= 5;
       skill_req = 35;
-      dam = number(30, 60);
-	  hit(ch, victim, ch->equipment[SECONDARY_WEAPON]);
       break;
     case 2:
+      hit(ch, victim, ch->equipment[PRIMARY_WEAPON]);
+      if( !(IS_ALIVE(ch) && IS_ALIVE(victim)) )
+      {
+        return;
+      }
       if(GET_LEVEL(ch) < 50)
         percent -= 5;
       skill_req = 40;
-      dam = number(40, 70);
-	  hit(ch, victim, ch->equipment[PRIMARY_WEAPON]);
       break;
     case 3:
+      hit(ch, victim, ch->equipment[SECONDARY_WEAPON]);
+      if( !(IS_ALIVE(ch) && IS_ALIVE(victim)) )
+      {
+        return;
+      }
       percent -= 5;
       skill_req = 55;
-      dam = number(50, 90);
-	  hit(ch, victim, ch->equipment[SECONDARY_WEAPON]);
       break;
     case 4:
+      hit(ch, victim, ch->equipment[PRIMARY_WEAPON]);
+      if( !(IS_ALIVE(ch) && IS_ALIVE(victim)) )
+      {
+        return;
+      }
       percent -= 5;
       skill_req = 70;
-      dam = number(60, 100);
-	  hit(ch, victim, ch->equipment[PRIMARY_WEAPON]);
       break;
     case 5:
+      hit(ch, victim, ch->equipment[SECONDARY_WEAPON]);
+      if( !(IS_ALIVE(ch) && IS_ALIVE(victim)) )
+      {
+        return;
+      }
       skill_req = 85;
-      dam = number(60, 120);
-	  hit(ch, victim, ch->equipment[SECONDARY_WEAPON]);
       break;
     case 6:
-      dam = number(100, 150);
-         hit(ch, victim, ch->equipment[PRIMARY_WEAPON]);
+      hit(ch, victim, ch->equipment[PRIMARY_WEAPON]);
+      break;
+    default:
       break;
     }
-    move = number(0, 1);
     stage++;
   }
-  while (skill >= skill_req &&
-         percent > number(0, 100) && stage < 7);
-  notch_skill(ch, SKILL_BLADE_BARRAGE, get_property("skill.notch.offensive", 7));
+  while( skill >= skill_req && percent >= number(1, 100) && stage < 7 );
 
-  CharWait(ch, 2 * PULSE_VIOLENCE);
+  notch_skill(ch, SKILL_BLADE_BARRAGE, get_property("skill.notch.offensive", 7));
 }
 
 
@@ -3003,9 +3027,8 @@ void do_barrage(P_char ch, char *argument, int cmd)
 {
   struct affected_type af;
 
-  if(!ch)
+  if( !IS_ALIVE(ch) )
     return;
-
 
   if(!GET_CHAR_SKILL(ch, SKILL_BLADE_BARRAGE))
   {
@@ -3017,16 +3040,14 @@ void do_barrage(P_char ch, char *argument, int cmd)
   {
     send_to_char("&+CYou must have a weapon equipped in order to unleash a barrage!\n", ch);
     return;
-  }  
+  }
 
   if(!IS_FIGHTING(ch))
   {
     send_to_char("You brandish your blades!... to no one in particular.\n", ch);
     return;
   }
-   if(!affect_timer(ch,
-        get_property("timer.secs.monkCombination", 30) * WAIT_SEC,
-        SKILL_BLADE_BARRAGE))
+   if( !affect_timer(ch, get_property("timer.secs.monkCombination", 30) * WAIT_SEC, SKILL_BLADE_BARRAGE) )
   {
     send_to_char("You're still recovering from your last attempt.\n", ch);
     return;
@@ -3042,21 +3063,13 @@ void do_barrage(P_char ch, char *argument, int cmd)
   memset(&af, 0, sizeof(af));
   af.type = SKILL_BLADE_BARRAGE;
   af.flags = AFFTYPE_NODISPEL | AFFTYPE_NOSHOW;
-  af.duration = 1;
+  af.duration = 2;
   affect_to_char(ch, &af);
   /* Yes, the higher the skill, the longer it takes to prepare */
-  add_event(event_barrage,
-            GET_LEVEL(ch) < 51 ? 2 * PULSE_VIOLENCE : PULSE_VIOLENCE, ch, 0,
-            0, 0, 0, 0);
-  act("&+L$n &nbrandishes their &+Lweapons &nin a formal stance...&n", TRUE, ch, 0,
-      0, TO_ROOM);
-  act("&+LYou grasp your &+Lweapons &nand prepare for the &+Lonslaught&n...", TRUE, ch, 0,
-      0, TO_CHAR);
+  add_event(event_barrage, GET_LEVEL(ch) < 51 ? 2 * PULSE_VIOLENCE : PULSE_VIOLENCE, ch, 0, 0, 0, 0, 0);
+  act("&+L$n &nbrandishes their &+Lweapons &nin a formal stance...&n", TRUE, ch, 0, 0, TO_ROOM);
+  act("&+LYou grasp your &+Lweapons &nand prepare for the &+Lonslaught&n...", TRUE, ch, 0, 0, TO_CHAR);
 }
-
-//Drannak - endblade barrage
-
-
 
 void do_bash(P_char ch, char *argument, int cmd)
 {
