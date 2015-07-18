@@ -763,59 +763,104 @@ int mace(P_obj obj, P_char ch, int cmd, char *arg)
 
 int flamberge(P_obj obj, P_char ch, int cmd, char *arg)
 {
-  P_char   vict;
-  int      room;
-  P_char   temp_ch;
-  int      curr_time;
-  char	   *argument;
+  P_char  vict;
+  int     room, loc;
+  int     curr_time;
+  char    arg1[MAX_INPUT_LENGTH];
+  struct affected_type *af;
+  bool    shown;
+
   if( cmd == CMD_SET_PERIODIC )
   {
     return TRUE;
   }
-// Modified and added keywords for invoke due to removed perm sanct. - gellz
-// Keyword will give sanct for evils/hellfire for good/and random effect chance
+
+  if( cmd == CMD_PERIODIC )
+  {
+    if( OBJ_WORN(obj) || OBJ_ROOM(obj) )
+    {
+      hummer(obj);
+    }
+    return TRUE;
+  }
+
+  // Modified and added keywords for invoke due to removed perm sanct. - gellz
+  // Keyword will give sanct for evils/hellfire for good/and random effect chance
   if((cmd == CMD_SAY) && (!(IS_FIGHTING(ch))))
   {
-    argument = arg;
-    while (*argument == ' ')
-      argument++;
-    if( !strcmp(argument, "timeit") && IS_TRUSTED(ch) )
+    while( *arg == ' ' )
+      arg++;
+    if( !strcmp(arg, "timeit") && IS_TRUSTED(ch) )
     {
-	    send_to_char_f(ch, "timer0 is: %d = %s\n", asctime(localtime(&obj->timer[0])));
-	    return FALSE;
+      act("&+LYou whisper 'timeit' to $p&+L.", FALSE, ch, obj, NULL, TO_CHAR);
+	    send_to_char_f(ch, "&+rFlamberge&n timer0 is: %10ld = %s", obj->timer[0], asctime(localtime(&obj->timer[0])));
+      curr_time = time(NULL) - obj->timer[0];
+	    send_to_char_f(ch, "  diff of timer0 is: %10ld = &+G%02d&+Lm &+G%02ld&+Ls&n\n", curr_time,
+        curr_time / 60, curr_time % 60 );
+	    return TRUE;
     }
-    if (!strcmp(argument, "efreeti"))
+    if( !strcmp(arg, "efreeti") && OBJ_WORN_BY(obj, ch) )
     {
-      curr_time = time(NULL);//get time
-      if (obj->timer[0] + 300 <= curr_time) //IF timer has passed..
+      do_say( ch, arg, CMD_SAY );
+      curr_time = time(NULL);
+      if( obj->timer[0] + 300 <= curr_time )
       {
-        if (GET_RACEWAR(ch) == RACEWAR_GOOD)
+        if( GET_RACEWAR(ch) == RACEWAR_GOOD )
         {
           send_to_room("&+wSm&+Lok&+we r&+Lis&+Wes&n from &+rthe holy flamberge&+w and slowly forms into the &+wim&+Wa&+Lge&n of an &+ref&+Rre&+ret&+Ri&n &+LUnq&+wu&+Lenchable&n who brings forth the &+rf&+Rir&+Re&+rs of &+Rhe&+rl&+Rl&n!.&n\n", ch->in_room);
           spell_hellfire(60, ch, 0, 0, ch, 0);
         }
-        if (GET_RACEWAR(ch) == RACEWAR_EVIL)
+        // Allowing Undead/Illithids to get sanc.
+        else // if (GET_RACEWAR(ch) == RACEWAR_EVIL)
         {
           send_to_room("A &+wh&+Lea&+wt h&+La&+Wze&n from &+rthe holy flamberge&+w materializes into the &+wim&+Wa&+Lge&n of an &+LOrd&+we&+Lr of &+RFi&+re&+Rry He&+ra&+Rrt&n who calls on the &+wforces of &+wl&+Wi&+Yg&+Wh&+wt for &+wpr&+Wot&+Yec&+Wti&+won&n!.&n\n", ch->in_room);
           spell_sanctuary(60, ch, 0, 0, ch, 0);
         }
         obj->timer[0] = curr_time;
       }
-      else //END if TImer has passed.
+      else
       {
         send_to_room("&+MAn &+ref&+Rre&+ret&+Ri &+Macolyte&+w snaps into your vision momentarilty then quickly &+Ldisappears&+w again, leaving only a faint trace of &+rheat&n.&n\n", ch->in_room);
         spell_fireshield(60, ch, NULL, 0, ch, obj);
         obj->timer[0] = curr_time;
       }
       return TRUE;
-    } //End efreeti Keywordi
-    return FALSE; //GO BACK because didnt say keyword
-  } //End cmd say and argument.
-//End Modifications for Keyword
+    }
+    return FALSE;
+  }
 
-  if( cmd == CMD_PERIODIC && (OBJ_WORN(obj) || OBJ_ROOM(obj)) )
+  // If removed, remove sanc/hellfire.
+  if( cmd == CMD_REMOVE && OBJ_WORN(obj) )
   {
-    hummer(obj);
+    // Using the same code as in do_remove to search for obj.
+    // The only real issue here is that, if there's not enough space in inventory to remove the flamberge,
+    //   it will still remove sanc/hellfire while flamberge stays equipped.
+    // To fix, make sure that A) There's at least one 'empty space' in inventory and B) If arg1 == "all",
+    //   there's 'enough empty spaces' to get flamberge removed.  To do B), you need to count the number
+    //   of 'empty spaces' == (CAN_CARRY_N(ch) - IS_CARRYING_N(ch)) is greater than the number of objects
+    //   removed before the flamberge (not so easy).
+    arg = one_argument(arg, arg1);
+    if( !str_cmp(arg1, "all") || get_object_in_equip(ch, arg1, &loc) == obj )
+    {
+      shown = FALSE;
+      if( (af = get_spell_from_char(ch, SPELL_SANCTUARY)) )
+      {
+        act("&+rYour $q &+Rflares&+r slightly.&n", FALSE, ch, obj, NULL, TO_CHAR);
+        shown = TRUE;
+        wear_off_message(ch, af);
+        affect_remove(ch, af);
+      }
+      if( (af = get_spell_from_char(ch, SPELL_HELLFIRE)) )
+      {
+        if( !shown )
+        {
+          act("&+rYour $q &+Rflares&+r slightly.&n", FALSE, ch, obj, NULL, TO_CHAR);
+        }
+        wear_off_message(ch, af);
+        affect_remove(ch, af);
+      }
+    }
+    return FALSE;
   }
 
   vict = (P_char)arg;
@@ -1138,28 +1183,25 @@ int flamberge(P_obj obj, P_char ch, int cmd, char *arg)
   int      dam = cmd / 1000;
   P_char   vict;
 
-  /*
-     check for periodic event calls
-   */
-  if (cmd == CMD_SET_PERIODIC)
+  if( cmd == CMD_SET_PERIODIC )
+  {
     return TRUE;
-  if (!ch && cmd == CMD_PERIODIC)
+  }
+  if( !ch && cmd == CMD_PERIODIC )
   {
     hummer(obj);
     return TRUE;
   }
 
-  if (!dam)                     /*
-                                   if dam is not 0, we have been called when
-                                   weapon hits someone
-                                 */
+  // If dam is not 0, we have been called when weapon hits someone
+  if( !dam )
     return (FALSE);
 
   if (!ch)
     return (FALSE);
 
   if (!OBJ_WORN_POS(obj, WIELD))
-    return (FALSE);
+    return FALSE;
 
   vict = (P_char) arg;
 
@@ -1168,32 +1210,27 @@ int flamberge(P_obj obj, P_char ch, int cmd, char *arg)
     if (!number(0, 24))
     {
       act("Your $q &+rsummons the power of fire and flames at at $N.", FALSE,
-          obj->loc.wearing, obj, vict, TO_CHAR);
+        obj->loc.wearing, obj, vict, TO_CHAR);
       act("$n's $q &+rsummons the power of fire and flames at you.", FALSE,
-          obj->loc.wearing, obj, vict, TO_VICT);
+        obj->loc.wearing, obj, vict, TO_VICT);
       act("$n's $q &+rsummons the power of fire and flames at $N.", FALSE,
-          obj->loc.wearing, obj, vict, TO_NOTVICT);
+        obj->loc.wearing, obj, vict, TO_NOTVICT);
       spell_burning_hands(60, ch, 0, SPELL_TYPE_SPELL, vict, 0);
       if (char_in_list(vict))
         spell_fireball(60, ch, 0, SPELL_TYPE_SPELL, vict, 0);
       if (char_in_list(vict))
       {
-        act
-          ("&+rA &+Rse&+Yari&+Rng &+Yburst &+rleaps from your $q&+r and hits $N &+Rdead on!",
-           FALSE, obj->loc.wearing, obj, vict, TO_CHAR);
-        act
-          ("&+rA &+Rse&+Yari&+Rng &+Yburst &+rleaps from $n's $q&+r and hits you &+Rdead on!",
-           FALSE, obj->loc.wearing, obj, vict, TO_VICT);
-        act
-          ("&+rA &+Rse&+Yari&+Rng &+Yburst &+rleaps from $n's $q&+r and hits $N &+Rdead on!",
-           FALSE, obj->loc.wearing, obj, vict, TO_NOTVICT);
+        act("&+rA &+Rse&+Yari&+Rng &+Yburst &+rleaps from your $q&+r and hits $N &+Rdead on!",
+          FALSE, obj->loc.wearing, obj, vict, TO_CHAR);
+        act("&+rA &+Rse&+Yari&+Rng &+Yburst &+rleaps from $n's $q&+r and hits you &+Rdead on!",
+          FALSE, obj->loc.wearing, obj, vict, TO_VICT);
+        act("&+rA &+Rse&+Yari&+Rng &+Yburst &+rleaps from $n's $q&+r and hits $N &+Rdead on!",
+          FALSE, obj->loc.wearing, obj, vict, TO_NOTVICT);
         damage(ch, vict, 350, SPELL_IMMOLATE);
-
-
       }
     }
   }
-  return (FALSE);
+  return FALSE;
 }
 #endif
 
