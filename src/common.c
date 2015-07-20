@@ -963,7 +963,7 @@ flagDef  affected5_bits[] = {
   {"BLOOD_SCENT", "Blood scent", 0, 0},
   {"FLESH_ARMOR", "Flesh armor", 1, 0},
   {"WET", "Wet", 0, 0},
-  {"DHARMA", "Unused", 1, 0},
+  {"DHARMA", "Dharma", 1, 0},
   {"ENH_HIDE", "Enhanced hide", 0, 0},
   {"LISTEN", "Listen", 0, 0},
   {"PROT_UNDEAD", "Prot undead", 1, 0},
@@ -974,7 +974,7 @@ flagDef  affected5_bits[] = {
   {"NO BLIND", "No blind", 0, 0},
   {"MAGICAL GLOW", "Magical glow", 0, 0},
   {"REFRESHING GLOW", "Refreshing glow", 0, 0},
-  {"MINE", "Mine", 1, 0},
+  {"MINERS SIGHT", "Miners sight", 1, 0},
   {"STANCE OFFENSIVE", "Stance offensive", 0, 0},
   {"STANCE DEFENSIVE", "Stance defensive", 0, 0},
   {"OBSCURING MIST", "Obscuring mist", 1, 0},
@@ -982,6 +982,8 @@ flagDef  affected5_bits[] = {
   {"DECAYING_FLESH", "Decaying Flesh", 1, 0},
   {"DREADNAUGHT", "Dreadnaught", 1, 0},
   {"FOREST_SIGHT", "Forest Sight", 1, 0},
+  {"THORNSKIN", "Thornskin", 1, 0},
+  {"FOLLOWING", "Following", 1, 0},
   {0}
 };
 
