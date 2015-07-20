@@ -10286,6 +10286,33 @@ void do_storage(P_char ch, char *arg, int cmd)
   }
 }
 
+void newb_spellup(P_char ch, P_char victim)
+{
+    wizlog(58, "(%s) newb buffed: (%s).", GET_NAME(ch), GET_NAME(victim));
+    logit(LOG_WIZ, "(%s) newb buffed: (%s).", GET_NAME(ch), GET_NAME(victim));
+
+    // Insert cool ascii shit here
+    if(isname("Jexni", ch->player.name))
+    {
+      send_to_char(file_to_string("lib/creation/hypnotoad"), victim);
+    }
+
+    // And lets spellup the noob!  A little good will goes a long way.
+    spell_bless(61, ch, 0, SPELL_TYPE_SPELL, victim, 0);
+    spell_spirit_armor(61, victim, 0, SPELL_TYPE_SPELL, victim, 0);
+    spell_barkskin(61, victim, 0, SPELL_TYPE_SPELL, victim, 0);
+    spell_enhance_armor(61, victim, 0, SPELL_TYPE_SPELL, victim, 0);
+    spell_stone_skin(61, ch, 0, SPELL_TYPE_SPELL, victim, 0);
+    spell_fly(61, ch, 0, SPELL_TYPE_SPELL, victim, 0);
+    spell_haste(61, ch, 0, SPELL_TYPE_SPELL, victim, 0);
+    spell_strength(61, ch, 0, SPELL_TYPE_SPELL, victim, 0);
+    spell_agility(61, ch, 0, SPELL_TYPE_SPELL, victim, 0);
+    spell_dexterity(61, ch, 0, SPELL_TYPE_SPELL, victim, 0);
+    spell_accel_healing(61, ch, 0, SPELL_TYPE_SPELL, victim, 0);
+
+    send_to_char("\nEnjoy your blessings.\n", victim);
+}
+
 void do_newb_spellup_all(P_char ch, char *arg, int cmd)
 {
   P_desc d;
@@ -10296,10 +10323,11 @@ void do_newb_spellup_all(P_char ch, char *arg, int cmd)
     {
       if (GET_LEVEL(d->character) <= 36)
       {
-        do_newb_spellup(ch, GET_NAME(d->character), CMD_NEWBSU);
+        newb_spellup(ch, d->character);
       }
     }
   }
+  send_to_char("Done.\n", ch);
 }
 
 void do_newb_spellup(P_char ch, char *arg, int cmd)
@@ -10309,45 +10337,26 @@ void do_newb_spellup(P_char ch, char *arg, int cmd)
 
   one_argument(arg, buf);
 
-  if(*arg)
+  if( !*arg )
   {
-    if( !(victim = get_char_vis(ch, buf)) )
-    {
-      send_to_char("Nobody with that name.\n", ch);
-      return;
-    }
-
-    if(IS_NPC(victim))
-    {
-      send_to_char("Only works on players.\n\r", ch);
-      return;
-    }
-
-    wizlog(58, "(%s) newb buffed: (%s).", GET_NAME(ch), GET_NAME(victim));
-    logit(LOG_WIZ, "(%s) newb buffed: (%s).", GET_NAME(ch), GET_NAME(victim));
-
-    //Insert cool ascii shit here
-    if(isname("Jexni", ch->player.name))
-    {
-      send_to_char(file_to_string("lib/creation/hypnotoad"), victim);
-    }
-
-    //And lets spellup the noob!  A little good will goes a long way.
-    spell_armor(61, ch, 0, SPELL_TYPE_SPELL, victim, 0);
-    spell_bless(61, ch, 0, SPELL_TYPE_SPELL, victim, 0);
-    spell_fly(61, ch, 0, SPELL_TYPE_SPELL, victim, 0);
-    spell_stone_skin(61, ch, 0, SPELL_TYPE_SPELL, victim, 0);
-    spell_haste(61, ch, 0, SPELL_TYPE_SPELL, victim, 0);
-    spell_strength(61, ch, 0, SPELL_TYPE_SPELL, victim, 0);
-    spell_agility(61, ch, 0, SPELL_TYPE_SPELL, victim, 0);
-    spell_dexterity(61, ch, 0, SPELL_TYPE_SPELL, victim, 0);
-    spell_barkskin(61, victim, 0, SPELL_TYPE_SPELL, victim, 0);
-    spell_accel_healing(61, ch, 0, SPELL_TYPE_SPELL, victim, 0);
-    spell_spirit_armor(61, victim, 0, SPELL_TYPE_SPELL, victim, 0);
-
-    send_to_char("Done.", ch);
-    send_to_char("\nEnjoy your blessings.\n", victim);
+    send_to_char( "&+WFormat: &+wnewbsu <player_name>&+W.&n\n", ch );
+    return;
   }
+
+  if( !(victim = get_char_vis(ch, buf)) )
+  {
+    send_to_char("Nobody with that name.\n", ch);
+    return;
+  }
+
+  if(IS_NPC(victim))
+  {
+    send_to_char("Only works on players.\n\r", ch);
+    return;
+  }
+
+  newb_spellup( ch, victim );
+  send_to_char("Done.\n", ch);
 }
 
 void do_givepet(P_char ch, char *arg, int cmd)
