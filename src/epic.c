@@ -490,8 +490,12 @@ void gain_epic(P_char ch, int type, int data, int amount)
 */
   if( (afp->modifier - amount) / errand_notch < afp->modifier / errand_notch && !has_epic_task(ch))
   {
-    debug( "%s got new task: old epics: %d, new epics: %d.", J_NAME(ch), afp->modifier - amount, afp->modifier );
-    epiclog( 56, "%s got new task: old epics: %d, new epics: %d.", J_NAME(ch), afp->modifier - amount, afp->modifier );
+    debug( "%s got new task: old epics: %d, new epics: %d, errand_notch: %d, %d < %d.",
+      J_NAME(ch), afp->modifier - amount, afp->modifier, errand_notch, (afp->modifier - amount) / errand_notch,
+      afp->modifier / errand_notch );
+    epiclog( 56, "%s got new task: old epics: %d, new epics: %d, errand_notch: %d, %d < %d.",
+      J_NAME(ch), afp->modifier - amount, afp->modifier, errand_notch, (afp->modifier - amount) / errand_notch,
+      afp->modifier / errand_notch );
     epic_choose_new_epic_task(ch);
   }
 
