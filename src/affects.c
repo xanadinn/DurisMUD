@@ -3878,7 +3878,7 @@ bool falling_obj(P_obj obj, int speed, bool caller_is_event)
 
   if( !OBJ_ROOM(obj) )
   {
-    logit(LOG_DEBUG, "falling_obj: obj '%s' %d is NOT in a room.", GET_OBJ_VNUM(obj), OBJ_SHORT(obj) );
+    logit(LOG_DEBUG, "falling_obj: obj '%s' %d is NOT in a room.", OBJ_SHORT(obj), GET_OBJ_VNUM(obj) );
     // Somebody snagged it while it was falling
     // May have to do the damage here, but more likely in get()
     return FALSE;
