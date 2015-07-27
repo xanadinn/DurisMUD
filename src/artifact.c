@@ -1364,18 +1364,12 @@ void poof_artifact( P_obj arti )
 
   // And get rid of it.
   extract_obj( arti, TRUE );
-  // Save where appropriate.
+  // Save where appropriate (We can only save if owner is online active, since we don't know if owner is
+  //   offline and a dummy, where we'd write RENT_POOFARTI, or if the owner is just ld, where we'd write
+  //   RENT_CRASH).  However, it's harmless to save them RENT_CRASH, so we'll do that regardless.
   if( owner )
   {
-    char buf[MAX_STRING_LENGTH];
-    char name[16];
-    sprintf( name, "%s", GET_NAME(owner) );
-    name[0] = LOWER(name[0]);
-    sprintf( buf, "cp -f %s/%c/%s %s/%c/%s.bak", SAVE_DIR, name[0], name, SAVE_DIR, name[0], name );
-    debug( "poof_artifact: %s", buf );
-    system( buf );
-
-    writeCharacter(owner, RENT_POOFARTI, owner->in_room);
+    writeCharacter(owner, RENT_CRASH, owner->in_room);
   }
   if( cont != NULL && GET_OBJ_VNUM(cont) == VOBJ_CORPSE && IS_SET(cont->value[CORPSE_FLAGS], PC_CORPSE) )
   {
@@ -1950,10 +1944,16 @@ void event_artifact_check_poof_sql( P_char ch, P_char vict, P_obj obj, void * ar
           {
             arti = get_object_from_char( owner, vnum );
           }
+          else
+          {
+            logit( LOG_ARTIFACT, "event_artifact_check_poof_sql: Could not load pfile of '%s' %d, to poof arti vnum %d.",
+              get_player_name_from_pid( location ), location, vnum );
+            arti = NULL;
+          }
           if( arti )
           {
             poof_artifact( arti );
-            nuke_eq( owner );
+            writeCharacter(owner, RENT_POOFARTI, owner->in_room);
           }
           else
           {
