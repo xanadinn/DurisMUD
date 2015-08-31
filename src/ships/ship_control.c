@@ -1369,7 +1369,7 @@ int claim_coffer(P_char ch, P_ship ship)
     }
     send_to_char_f(ch, "You get %s from the ship coffers.\r\n", coin_stringv(ship->money));
     ADD_MONEY(ch, ship->money);
-    logit(LOG_SHIP, "%s got %d from the ships coffers.", ship->money);
+    logit(LOG_SHIP, "%s got %d from the ships coffers.", J_NAME(ch), ship->money);
     ship->money = 0;
     return TRUE;
 }
