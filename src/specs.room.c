@@ -167,7 +167,7 @@ int multiclass_proc(int room, P_char ch, int cmd, char *arg)
 
   // Disabling multiclasses for the 2015-6 wipe to test balance stuffs.
   send_to_char("Multi-class is disabled indefinitely due to balancing issues.\n", ch);
-  return;
+  return FALSE;
 
   if (IS_MULTICLASS_PC(ch))
   {

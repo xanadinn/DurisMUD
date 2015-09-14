@@ -347,9 +347,10 @@ int epic_teacher(P_char ch, P_char pl, int cmd, char *arg)
 
     int skill = epic_rewards[s].value;
     float cost_f = 1 + GET_CHAR_SKILL(pl, skill) / get_property("epic.progressFactor", 30);
-    int points_cost = (int) (cost_f * epic_rewards[s].points_cost);
-    int coins_cost = (int) (cost_f * epic_rewards[s].coins);
-    
+    // For the 2015-6 wipe, doubling cash cost and tripling the epic point cost.
+    int points_cost = 3 * (int) (cost_f * epic_rewards[s].points_cost);
+    int coins_cost = 2 * (int) (cost_f * epic_rewards[s].coins);
+
     if(IS_MULTICLASS_PC(pl) &&
       !IS_SET(epic_rewards[s].classes, pl->player.m_class) &&
       IS_SET(epic_rewards[s].classes, pl->player.secondary_class))
