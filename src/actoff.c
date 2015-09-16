@@ -8271,7 +8271,7 @@ void do_bodyslam(P_char ch, char *arg, int cmd)
     send_to_char("Bodyslam who?\n", ch);
     return;
   }
-  
+
   if(IS_RIDING(ch))
   {
     send_to_char("&+mDismount prior to a bodyslam attempt.\r\n", ch);
@@ -8289,16 +8289,13 @@ void bodyslam(P_char ch, P_char victim)
 
   if(!has_innate(ch, INNATE_BODYSLAM))
   {
-    send_to_char
-      ("You don't feel massive enough to try such a daring maneuver.\n", ch);
+    send_to_char("You don't feel massive enough to try such a daring maneuver.\n", ch);
     return;
   }
 
   if(ch->specials.fighting)
   {
-    send_to_char
-      ("You cannot get enough speed to bodyslam in the midst of combat!\n",
-       ch);
+    send_to_char("You cannot get enough speed to bodyslam in the midst of combat!\n", ch);
     return;
   }
 
@@ -8310,36 +8307,33 @@ void bodyslam(P_char ch, P_char victim)
   if(should_not_kill(ch, victim))
     return;
 
+  if( GET_VITALITY(ch) < 30 )
+  {
+   send_to_char("You need to gather your energy before attempting to slam someone.\r\n", ch);
+   return;
+  }
+
   appear(ch);
 
   percent_chance = 50;
 
   percent_chance =
-    (int) (percent_chance *
-           ((double)
-            BOUNDED(80, 100 + GET_LEVEL(ch) - GET_LEVEL(victim), 125)) / 100);
+    (int) (percent_chance * ((double) BOUNDED(80, 100 + GET_LEVEL(ch) - GET_LEVEL(victim), 125)) / 100);
   percent_chance =
-    (int) (percent_chance *
-           ((double)
-           // BOUNDED(80, 100 + (GET_C_AGI(ch) - GET_C_AGI(victim)) / 4,
-              BOUNDED(80, 100 + (GET_WEIGHT(ch) - GET_C_AGI(victim)) / 4,
-                    155)) / 100);
+    (int) (percent_chance * ((double) BOUNDED(60, 100 + (GET_C_AGI(ch) - GET_C_AGI(victim)) / 2, 155)) / 100);
+  // Bodyslammer's dex can reduce, but not increase chance.  This is done for balancing.
+  percent_chance = (percent_chance * MIN( 100, GET_C_DEX(ch) )) / 100;
 
   if(IS_AFFECTED(victim, AFF_AWARE))
   {
-    percent_chance *= .80;
+    percent_chance = (percent_chance * 8) / 10;
   }
 
   percent_chance = takedown_check(ch, victim, percent_chance, SKILL_BODYSLAM, ~AGI_CHECK);
 
-  if (GET_VITALITY(ch) < 30)
-  {
-   send_to_char("You need to gather your energy before attempting to slam someone.\r\n", ch);
-   return;
-  }
   GET_VITALITY(ch) -= 30;
 
-  if(percent_chance == TAKEDOWN_CANCELLED)
+  if( percent_chance == TAKEDOWN_CANCELLED )
   {
     return;
   }
@@ -8349,50 +8343,36 @@ void bodyslam(P_char ch, P_char victim)
   }
   else if(GET_POS(victim) != POS_STANDING)
   {
-    act("$n trips over $N, in a futile attempt to slam $M down even further.",
-        FALSE, ch, 0, victim, TO_NOTVICT);
-    act("You trip over $N while pointlessly slamming at someone already down.",
-       FALSE, ch, 0, victim, TO_CHAR);
-    act("$n trips over you, in a futile attempt to slam you down even further.",
-       FALSE, ch, 0, victim, TO_VICT);
+    act("$n trips over $N, in a futile attempt to slam $M down even further.", FALSE, ch, 0, victim, TO_NOTVICT);
+    act("You trip over $N while pointlessly slamming at someone already down.", FALSE, ch, 0, victim, TO_CHAR);
+    act("$n trips over you, in a futile attempt to slam you down even further.", FALSE, ch, 0, victim, TO_VICT);
     CharWait(ch, 3 * PULSE_VIOLENCE);
   }
   else if(get_takedown_size(victim) > get_takedown_size(ch))
   {
-    act("$n makes a futile attempt to bodyslam $N, but $E is simply immovable.",
-       FALSE, ch, 0, victim, TO_NOTVICT);
+    act("$n makes a futile attempt to bodyslam $N, but $E is simply immovable.", FALSE, ch, 0, victim, TO_NOTVICT);
     act("$N is too huge for you to bodyslam!", FALSE, ch, 0, victim, TO_CHAR);
-    act("$n tries to bodyslam you but merely bounces off your huge girth.",
-        FALSE, ch, 0, victim, TO_VICT);
+    act("$n tries to bodyslam you but merely bounces off your huge girth.", FALSE, ch, 0, victim, TO_VICT);
     CharWait(ch, 3 * PULSE_VIOLENCE);
   }
   else if(get_takedown_size(victim) < get_takedown_size(ch) - 2)
   {
-    act("$n topples over $mself as $e tries to bodyslam $N.", FALSE, ch, 0,
-        victim, TO_NOTVICT);
-    act("$n topples over $mself as $e tries to bodyslam you.", FALSE, ch, 0,
-        victim, TO_VICT);
-    send_to_char
-      ("You may as well try and bodyslam a speck of dust!  Too small..\n",
-       ch);
+    act("$n topples over $mself as $e tries to bodyslam $N.", FALSE, ch, 0, victim, TO_NOTVICT);
+    act("$n topples over $mself as $e tries to bodyslam you.", FALSE, ch, 0, victim, TO_VICT);
+    send_to_char("You may as well try and bodyslam a speck of dust!  Too small..\n", ch);
     CharWait(ch, 3 * PULSE_VIOLENCE);
   }
   else if(percent_chance > number(1, 100))
   {
-    act("$n suddenly looks a bit dumb, and madly slams at $N!", TRUE, ch, 0,
-        victim, TO_NOTVICT);
-    act("$n suddenly looks a bit dumb, and madly slams _YOU_!", TRUE, ch, 0,
-        victim, TO_VICT);
-    act("You mindlessly slam $M with your mass!\n", TRUE, ch, 0, victim,
-        TO_CHAR);
+    act("$n suddenly looks a bit dumb, and madly slams at $N!", TRUE, ch, 0, victim, TO_NOTVICT);
+    act("$n suddenly looks a bit dumb, and madly slams _YOU_!", TRUE, ch, 0, victim, TO_VICT);
+    act("You mindlessly slam $M with your mass!\n", TRUE, ch, 0, victim, TO_CHAR);
     fall = FALSE;
     CharWait(victim, PULSE_VIOLENCE * 3);
     SET_POS(victim, POS_PRONE + GET_STAT(victim));
     engage(ch, victim);
     CharWait(ch, 3 * PULSE_VIOLENCE);
-    if(!damage
-        (ch, victim, str_app[STAT_INDEX(GET_C_STR(ch))].todam + 5,
-         SKILL_BODYSLAM))
+    if(!damage(ch, victim, str_app[STAT_INDEX(GET_C_STR(ch))].todam + 5, SKILL_BODYSLAM))
     {
       if(number(0, 1))
         Stun(victim, ch, number(PULSE_VIOLENCE, (int) (PULSE_VIOLENCE * 2.5)), TRUE);
@@ -8403,10 +8383,8 @@ void bodyslam(P_char ch, P_char victim)
   else
   {
     send_to_char("In your haste to slam people around, you slip and fall!\n", ch);
-    act("In $s haste to slam $N around, $n slips and falls!", FALSE, ch, 0,
-        victim, TO_NOTVICT);
-    act("In $s haste to slam you around, $n slips and falls!", FALSE, ch, 0,
-        victim, TO_VICT);
+    act("In $s haste to slam $N around, $n slips and falls!", FALSE, ch, 0, victim, TO_NOTVICT);
+    act("In $s haste to slam you around, $n slips and falls!", FALSE, ch, 0, victim, TO_VICT);
     CharWait(ch, 2 * PULSE_VIOLENCE);
     if(number(0, 1))
     {
@@ -8426,7 +8404,7 @@ void bodyslam(P_char ch, P_char victim)
   {
     bzero(&af, sizeof(af));
     af.type = SKILL_AWARENESS;
-    af.duration = 1;
+    af.duration = 2;
     af.bitvector = AFF_AWARE;
     af.flags = AFFTYPE_NODISPEL;
     affect_to_char(victim, &af);
