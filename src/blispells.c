@@ -1121,6 +1121,7 @@ void spell_faluzures_vitality(int level, P_char ch, char *arg, int type, P_char 
 void spell_sap_nature(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj )
 {
   struct affected_type af;
+  struct affected_type *afp;
   int skl_lvl;
 
   if( !IS_ALIVE(victim) || !IS_ALIVE(ch) )
@@ -1154,6 +1155,13 @@ void spell_sap_nature(int level, P_char ch, char *arg, int type, P_char victim, 
   if( GET_SPEC(ch, CLASS_BLIGHTER, SPEC_SCOURGE) )
   {
     skl_lvl += 5;
+  }
+
+  if( (afp = get_spell_from_char(ch, SPELL_SAP_NATURE)) )
+  {
+    act( "&+yYour sapping &+Genergy&+y from your surroundings is refreshed.&n", FALSE, ch, 0, victim, TO_CHAR );
+    afp->duration = skl_lvl;
+    return;
   }
 
   bzero(&af, sizeof(af));
