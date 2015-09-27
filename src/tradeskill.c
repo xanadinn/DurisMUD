@@ -3164,7 +3164,7 @@ int itemvalue( P_obj obj )
 	  workingvalue += 45;
 
   if (IS_SET(obj->bitvector2, AFF2_ULTRAVISION))
-	  workingvalue += 75;
+	  workingvalue += 80;
 
   if (IS_SET(obj->bitvector2, AFF2_DETECT_EVIL))
 	  workingvalue += 10;
@@ -3370,13 +3370,20 @@ int itemvalue( P_obj obj )
       workingvalue += (mod <= 2) ? mod : (mod - 1) * (mod - 1);
     }
 
-    //hit, move, mana, are generally large #'s
-    if( (obj->affected[i].location == APPLY_HIT)
-	    || (obj->affected[i].location == APPLY_MOVE)
+    // Hitpoints.
+    if( obj->affected[i].location == APPLY_HIT )
+    {
+      // 1 ival per hitpoint up to 4, then we count by 3's.
+      // 1 : 1, 4 : 4, 5 : 8, 10 : 23, 20 : 53, 30 : 83, 35 : 101 (can't be crafted), 37 : 107 (can't be enhanced).
+      workingvalue += (mod <= 4) ? mod : 3 * mod - 7;
+    }
+
+    // Moves and mana are generally large #'s
+    if( (obj->affected[i].location == APPLY_MOVE)
 	    || (obj->affected[i].location == APPLY_MANA) )
     {
-      // Right now, 25 : 25, 35 : 55, 50 : 100
-      workingvalue += (mod <= 25) ? mod : 3 * mod - 50;
+      // Right now, 25 : 25, 35 : 65, 44 : 101, 45 : 105 - not enhanceable.
+      workingvalue += (mod <= 25) ? mod : 4 * mod - 75;
     }
     //hit, move, mana, regen are generally large #'s, but we don't want above 9.
     if( (obj->affected[i].location == APPLY_HIT_REG)
@@ -3385,7 +3392,7 @@ int itemvalue( P_obj obj )
     {
       // 1:1, 2:2, 3:3, 4:5, 5:8, 6:12, 7:16, 8:21, 9:27, 10:33
       // 11:40, 12:48, 13:56, 14:65, 15:75, 16:85, 17:96, 18:108
-      workingvalue += (mod < 4) ? mod : mod * mod / 3;
+      workingvalue += (mod < 4) ? mod : (mod * mod) / 3;
     }
 
     // Racial attributes #'s - Do we still have these?
@@ -3445,10 +3452,12 @@ int itemvalue( P_obj obj )
       workingvalue += get_ival_from_proc(obj_index[obj->R_num].func.obj);
     }
 
-    //AC negative is good, not reducing itemvalue for items that make ac worse.
-    if( (obj->affected[i].location == APPLY_AC) )
+    // AC negative is good, not reducing itemvalue for items that make ac worse.
+    if( (obj->affected[i].location == APPLY_AC) && mod != 0 )
     {
-      workingvalue -= (mod < 0) ? 0 : (mod+1)/2;
+      // 1.5 points for each point of armor class.
+      // 1 : 1, 2 : 3, 3 : 4, 5 : 7, ... 50 : 75, 67 : 100, 68 : 102 (!craft), 70 : 105 (!enhance).
+      workingvalue += (( (mod < 0) ? -1 : 1 ) * mod * 3) / 2;
     }
 
     //saving throw values (good) are negative
@@ -3491,7 +3500,14 @@ int itemvalue( P_obj obj )
   {
     // Add avg damage.
     workingvalue += (obj->value[1] * obj->value[2])/2;
+    // Backstabbing weapons get a big ival for big dice.
+    if( IS_BACKSTABBER(obj) )
+    {
+      workingvalue += obj->value[1];
+      multiplier += obj->value[2];
+    }
   }
+
 
   if(workingvalue < 1)
   {
