@@ -349,22 +349,23 @@ bool rename_ship(P_char ch, char *owner_name, char *new_name)
 
 bool rename_ship_owner(char *old_name, char *new_name)
 {
-   P_ship ship;
-   
-   ship = get_ship_from_owner(old_name);
-   if( !ship )
-      return TRUE;
+  P_ship ship;
 
-   str_free(ship->ownername);
-   ship->ownername = str_dup(new_name);
-   name_ship(SHIP_NAME(ship), ship);
-   write_ship(ship);
-   write_ships_index(); // reset index file
+  ship = get_ship_from_owner(old_name);
+  if( !ship || !*new_name )
+    return FALSE;
 
-   sprintf(buf, "Ships/%s", old_name);
-   unlink(buf);
+  CAP(new_name);
+  str_free(ship->ownername);
+  ship->ownername = str_dup(new_name);
+  name_ship(SHIP_NAME(ship), ship);
+  write_ship(ship);
+  write_ships_index(); // reset index file
 
-   return TRUE;
+  sprintf(buf, "Ships/%s", old_name);
+  unlink(buf);
+
+  return TRUE;
 }
 
 
