@@ -6591,26 +6591,45 @@ void spell_unmaking(int level, P_char ch, char *arg, int type, P_char victim, P_
   }
 }
 
-void spell_enchant_weapon(int level, P_char ch, char *arg, int type,
-                          P_char victim, P_obj obj)
+void spell_enchant_weapon(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
-  int      i;
+  int  i;
+  bool affected;
 
-  if((GET_ITEM_TYPE(obj) == ITEM_WEAPON) &&
-      !IS_SET(obj->extra2_flags, ITEM2_MAGIC))
+  if( (GET_ITEM_TYPE(obj) == ITEM_WEAPON) && !IS_SET(obj->extra2_flags, ITEM2_MAGIC) )
   {
-
-    for (i = 0; i < MAX_OBJ_AFFECT; i++)
-      if(obj->affected[i].location != APPLY_NONE)
-        return;
-
     SET_BIT(obj->extra2_flags, ITEM2_MAGIC);
 
-    obj->affected[0].location = APPLY_HITROLL;
-    obj->affected[0].modifier = 1 + (level >= 25);
+    for( i = 0, affected = FALSE; i < MAX_OBJ_AFFECT; i++ )
+    {
+      if( obj->affected[i].location != APPLY_NONE && obj->affected[i].modifier != 0 )
+      {
+        affected = TRUE;
+      }
+    }
+    // If it already has effects, but isn't flagged magic, add 1 or 2 (@ lvl 31+) hitroll (3 for Overlords).
+    if( affected )
+    {
+      for( i = 0, affected = FALSE; i < MAX_OBJ_AFFECT; i++ )
+      {
+        if( obj->affected[i].modifier == 0 )
+        {
+          obj->affected[0].location = APPLY_HITROLL;
+          obj->affected[0].modifier = 1 + (level / 31);
+          break;
+        }
+      }
+    }
+    else
+    {
+      // At level 31: 2 hit, at 51: 3 hit (and 4 hit for Forgers+).
+      obj->affected[0].location = APPLY_HITROLL;
+      obj->affected[0].modifier = 1 + (level - 11) / 20;
 
-    obj->affected[1].location = APPLY_DAMROLL;
-    obj->affected[1].modifier = 1 + (level >= 25);
+      // At level 36: 2 dam, at 56: 3 dam.
+      obj->affected[1].location = APPLY_DAMROLL;
+      obj->affected[1].modifier = 1 + (level - 16) / 20;
+    }
 
     if(IS_GOOD(ch))
     {
@@ -6624,6 +6643,10 @@ void spell_enchant_weapon(int level, P_char ch, char *arg, int type,
     {
       act("&+Y$p glows yellow.", FALSE, ch, obj, 0, TO_CHAR);
     }
+  }
+  else
+  {
+    send_to_char("&+wNothing seems to happen.&n\n", ch);
   }
 }
 
@@ -13956,8 +13979,7 @@ void spell_ghastly_touch(int level, P_char ch, char *arg, int type, P_char victi
   }
 }
 
-void spell_heavens_aid(int level, P_char ch, char *arg, int type, P_char victim,
-                P_obj obj)
+void spell_heavens_aid(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   struct damage_messages messages = {
     "&+LYou direct the &+Wholy beam &+Ltowards $N&+L.",
@@ -14082,8 +14104,7 @@ void spell_summon_ghasts(int level, P_char ch, char *arg, int type, P_char victi
   CharWait(ch,(int) 1 * PULSE_VIOLENCE);
 }
 
-void single_unholy_word(int level, P_char ch, char *arg, int type,
-                       P_char victim, P_obj obj)
+void single_unholy_word(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   int in_room, lev;
   
@@ -14162,8 +14183,7 @@ if(IS_NPC(victim) && IS_AFFECTED4(victim, AFF4_HELLFIRE))
   }
 }
 
-void spell_unholy_word(int level, P_char ch, char *arg, int type,
-                       P_char victim, P_obj obj)
+void spell_unholy_word(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   if(!(ch) ||
      !IS_ALIVE(ch))
@@ -14198,8 +14218,7 @@ void spell_unholy_word(int level, P_char ch, char *arg, int type,
                       get_property("spell.area.chanceStep.unholyWord", 20));
 }
 
-void single_voice_of_creation(int level, P_char ch, char *arg, int type,
-                       P_char victim, P_obj obj)
+void single_voice_of_creation(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   int in_room, lev;
   
@@ -14250,8 +14269,7 @@ void single_voice_of_creation(int level, P_char ch, char *arg, int type,
   }
 }
 
-void single_holy_word(int level, P_char ch, char *arg, int type,
-                       P_char victim, P_obj obj)
+void single_holy_word(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   int in_room, lev;
   
@@ -14328,8 +14346,7 @@ void single_holy_word(int level, P_char ch, char *arg, int type,
   }
 }
 
-void spell_voice_of_creation(int level, P_char ch, char *arg, int type, P_char victim,
-                     P_obj obj)
+void spell_voice_of_creation(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   if(!(ch) ||
      !IS_ALIVE(ch))
@@ -14369,8 +14386,7 @@ void spell_voice_of_creation(int level, P_char ch, char *arg, int type, P_char v
                       get_property("spell.area.chanceStep.holyWord", 20));
 }
 
-void spell_holy_word(int level, P_char ch, char *arg, int type, P_char victim,
-                     P_obj obj)
+void spell_holy_word(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   if(!(ch) ||
      !IS_ALIVE(ch))
@@ -14410,8 +14426,7 @@ void spell_holy_word(int level, P_char ch, char *arg, int type, P_char victim,
 
 }
 
-void spell_solar_flare(int level, P_char ch, char *arg, int type,
-                       P_char victim, P_obj obj)
+void spell_solar_flare(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   int      dam;
   struct damage_messages messages = {
@@ -14437,8 +14452,7 @@ void spell_solar_flare(int level, P_char ch, char *arg, int type,
 }
 
 
-void spell_sunray(int level, P_char ch, char *arg, int type, P_char victim,
-                  P_obj obj)
+void spell_sunray(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   struct damage_messages messages = {
     "&+WYou unleash &+Ylight&+W in a focused, searing &+Yray&+W at&n $N!",
