@@ -2658,6 +2658,8 @@ bool StatSave(P_char ch, int stat, int mod)
     break;
   case APPLY_POW:
     save_num = STAT_INDEX(GET_C_POW(ch)) + mod;
+    if (has_innate(ch, INNATE_QUICK_THINKING))
+      save_num += 3;
     break;
   case APPLY_CON:
     save_num = STAT_INDEX(GET_C_CON(ch)) + mod;

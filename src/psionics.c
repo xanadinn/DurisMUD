@@ -1001,19 +1001,19 @@ void spell_psychic_crush(int level, P_char ch, char *arg, int type, P_char victi
     "&+mYou crumple to the ground, blood seeping from your ears as your mind is torn to pieces.",
     "&+RBlood &+mseeps from&n $N's &+mears as $S mind is torn to &+wpieces.", 0
   };
-  if(!ch)
+  if( !ch )
   {
     logit(LOG_EXIT, "spell_psychic_crush called in psionics.c with no ch");
     raise(SIGSEGV);
   }
-  if(ch &&
-     victim)
+  if( !IS_ALIVE(victim) )
   {
-    dam = dice((int) (MIN(level, 50) * 3), 10); //105 saved 210 unsaved
-    
+    send_to_char( "Your prey seems to not be alive.\n", ch );
+    return;
   }
-  if(victim &&
-    !affected_by_spell(victim, SPELL_PSYCHIC_CRUSH))
+
+  dam = dice((int) (MIN(level, 51) * 3), 10); // 105 saved 210 unsaved
+  if( !affected_by_spell(victim, SPELL_PSYCHIC_CRUSH) )
   {
     bzero(&af, sizeof(af));
     af.type = SPELL_PSYCHIC_CRUSH;
@@ -1024,97 +1024,68 @@ void spell_psychic_crush(int level, P_char ch, char *arg, int type, P_char victi
     act("$n &+msuddenly clutches their head, as if trying to shrug off some unknown malady.&n",
         FALSE, victim, 0, 0, TO_ROOM);
 
-    switch (number(0, 2))	  
+    switch (number(0, 2))
     {
     case 0:
       send_to_char("&+wThat last attack was particularly invasive, and you feel your collective power decrease.&n\r\n", victim);
       af.location = APPLY_POW;
       break;
-      
+
     case 1:
       send_to_char("&+wThat last attack was particularly invasive, and you feel your collective intelligence decrease.&n\r\n", victim);
       af.location = APPLY_INT;
       break;
-      
+
     case 2:
       send_to_char("&+wThat last attack was particularly invasive, and you feel your collective wisdom decrease.&n\r\n", victim);
       af.location = APPLY_WIS;
       break;
     }
-    
+
     affect_to_char(victim, &af);
   }
 
-if(!StatSave(victim, APPLY_POW, (GET_LEVEL(victim) - GET_LEVEL(ch)) / 5) &&
-           !IS_ELITE(victim))
-   {
-      if(ch &&
-      victim &&
-      (spell_damage(ch, victim, dam, SPLDAM_PSI, 0, &messages) !=
-        DAM_NONEDEAD))
-    {
-    return;
-    }
-
-  }
-  else
+  if( !StatSave(victim, APPLY_POW, (GET_LEVEL(victim) - GET_LEVEL(ch)) / 5) && !IS_ELITE(victim) )
   {
-    if(ch &&
-    victim &&
-    (spell_damage(ch, victim, dam >> 1, SPLDAM_PSI, 0, &messages) !=
-      DAM_NONEDEAD))
-  {
-    return;
-  }
-
-  }
-  //special affect on crush for +specced casters.
-  if(ch &&
-    GET_SPEC(ch, CLASS_PSIONICIST, SPEC_ENSLAVER))
-  {
-    spec_affect = number(1, 100);
-    
-    if(victim &&
-      (IS_ELITE(victim) ||
-      IS_TRUSTED(victim) ||
-      GET_RACE(victim) == RACE_GOLEM ||
-      GET_RACE(victim) == RACE_DRAGON ||
-      GET_RACE(victim) == RACE_PLANT ||
-      IS_ZOMBIE(victim)))
+    if( (spell_damage(ch, victim, dam, SPLDAM_PSI, 0, &messages) != DAM_NONEDEAD))
     {
       return;
     }
-    if(ch &&
-      victim &&
-      (spec_affect < 10))
+  }
+  else
+  {
+    if( (spell_damage(ch, victim, dam >> 1, SPLDAM_PSI, 0, &messages) != DAM_NONEDEAD))
+    {
+      return;
+    }
+  }
+  //special affect on crush for +specced casters.
+  if( GET_SPEC(ch, CLASS_PSIONICIST, SPEC_ENSLAVER) && !(IS_ELITE(victim) || IS_TRUSTED(victim) || IS_ZOMBIE(victim)
+    || GET_RACE(victim) == RACE_GOLEM || GET_RACE(victim) == RACE_DRAGON || GET_RACE(victim) == RACE_PLANT) )
+  {
+    spec_affect = number(1, 100);
+
+    if( spec_affect < 10 )
     {
       Stun(victim, ch, PULSE_VIOLENCE * 1, TRUE);
-      if(ch && victim && IS_HUMANOID(victim))
+      if( IS_HUMANOID(victim) )
       {
         strcpy(buf, "&n&+wGeT tHiS &+MThiNg&n &+wOuT oF mY hEaD !!!&n");
         do_say(victim, buf, CMD_SHOUT);
       }
     }
-    else if(ch &&
-          victim &&
-          (spec_affect < 15))
+    else if( spec_affect < 15 )
     {
       SET_POS(victim, POS_KNEELING + GET_STAT(victim));
-      act
-        ("&+yYou fall to your knees as uncontrollable pain engulfs your entire brain!&n",
+      act("&+yYou fall to your knees as uncontrollable pain engulfs your entire brain!&n",
          FALSE, ch, NULL, victim, TO_VICT);
-      act
-        ("$N &+yfalls to their knees, grasping $s head and screaming in pain!&n",
+      act("$N &+yfalls to their knees, grasping $s head and screaming in pain!&n",
          FALSE, ch, NULL, victim, TO_NOTVICT);
-      act
-        ("$N &+yfalls to their knees, grasping $s head and screaming in pain!!&n",
+      act("$N &+yfalls to their knees, grasping $s head and screaming in pain!!&n",
          TRUE, ch, NULL, victim, TO_CHAR);
       do_action(victim, 0, CMD_CRY);
     }
-    else if(ch &&
-           victim &&
-           IS_HUMANOID(victim) &&
-          (spec_affect < 40))
+    else if( IS_HUMANOID(victim) && spec_affect < 40 )
     {
       do_action(victim, 0, CMD_PUKE);
     }
