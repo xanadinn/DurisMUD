@@ -18400,14 +18400,12 @@ void spell_starshell(int level, P_char ch, char *arg, int type, P_char vict, P_o
   return;
 }
 
-void spell_vampire(int level, P_char ch, char *arg, int type, P_char vict,
-                   P_obj obj)
+void spell_vampire(int level, P_char ch, char *arg, int type, P_char vict, P_obj obj)
 {
   struct affected_type af, *afp;
   struct follow_type *foll, *next_foll;
   P_char tch;
   int circle;
-
 
   // Old pets no longer follow orders but still take same damage as PCs
   // and count towards pet limit to avoid cheesing: doesn't apply to mobs.
@@ -18460,11 +18458,17 @@ void spell_vampire(int level, P_char ch, char *arg, int type, P_char vict,
   af.type = (GET_CLASS(ch, CLASS_THEURGIST) ? SPELL_ANGELIC_COUNTENANCE : SPELL_VAMPIRE);
   af.duration = 10;
   af.modifier = (get_property("stats.str.Vampire", 100) - 100);
-  af.location = APPLY_STR_MAX;
-  affect_to_char(ch, &af);
+  if( af.modifier != 0 )
+  {
+    af.location = APPLY_STR_MAX;
+    affect_to_char(ch, &af);
+  }
   af.modifier = (get_property("stats.con.Vampire", 100) - 100);
-  af.location = APPLY_CON_MAX;
-  affect_to_char(ch, &af);
+  if( af.modifier != 0 )
+  {
+    af.location = APPLY_CON_MAX;
+    affect_to_char(ch, &af);
+  }
   af.location = APPLY_HITROLL;
   af.modifier = 15;
   affect_to_char(ch, &af);
