@@ -127,7 +127,7 @@ int get_vis_mode(P_char ch, int room)
   }
 
   // Normal dayvision: Not dayblind and in lit room.
-  if( !has_innate(ch, INNATE_DAYBLIND) && (CAN_DAYPEOPLE_SEE(room) || flame) )
+  if( !IS_DAYBLIND(ch) && (CAN_DAYPEOPLE_SEE(room) || flame) )
   {
     return 2;
   }
@@ -1315,7 +1315,7 @@ bool ac_can_see(P_char sub, P_char obj, bool check_z)
   }
 
   // First, we need to see if the subject can see anything or is dayblind / nightblind in the room their in.
-  dayblind = has_innate(sub, INNATE_DAYBLIND);
+  dayblind = IS_DAYBLIND(sub);
   sroom = sub->in_room;
   if( !IS_MAP_ROOM(sroom) )
   {
@@ -2742,9 +2742,9 @@ char *PERS(P_char ch, P_char vict, int short_d, bool noansi)
 
   // Handle infravision during dayblind / nightblind.
   // If they have infra, then it's a red shape..
-  if( IS_AFFECTED(vict, AFF_INFRAVISION) )
+  if( IS_AFFECTED(vict, AFF_INFRAVISION) && !IS_TRUSTED(vict) )
   {
-    if( has_innate(vict, INNATE_DAYBLIND) && !CAN_NIGHTPEOPLE_SEE(ch->in_room) )
+    if( IS_DAYBLIND(vict) && !CAN_NIGHTPEOPLE_SEE(ch->in_room) )
     {
       bool globe = FALSE;
       if( ch->in_room >= 0 )

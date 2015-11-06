@@ -877,7 +877,7 @@ int map_view_distance(P_char ch, int room)
   else if( IS_SURFACE_MAP(room) )
   {
     // The map_*_modifiers vary over time of day (done in weather.c).
-    if( has_innate(ch, INNATE_DAYBLIND) )
+    if( IS_DAYBLIND(ch) )
     {
       if( IS_AFFECTED(ch, AFF_INFRAVISION) )
       {
@@ -912,7 +912,7 @@ int map_view_distance(P_char ch, int room)
   // UD maps have a constant ultravision glow, but not much in the way of natural light.
   else if( IS_UD_MAP(room) )
   {
-    if( has_innate(ch, INNATE_DAYBLIND) )
+    if( IS_DAYBLIND(ch) )
     {
       n = 8;
     }

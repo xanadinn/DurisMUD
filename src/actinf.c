@@ -1961,9 +1961,10 @@ void list_char_to_char(P_char list, P_char ch, int mode)
     if( CAN_SEE(ch, i) )
     {
       // Infravision: Too dark for day people or too bright for night people, but has infra.
+      //   red shape if infra + ( dayblind and lit and no darkness globe, or nightblind and dark and no mage flame)
       if( !IS_TRUSTED(ch) && IS_AFFECTED(ch, AFF_INFRAVISION)
-        && (( !IS_AFFECTED2(ch, AFF2_ULTRAVISION) && !CAN_DAYPEOPLE_SEE(i->in_room) && !flame )
-        || ( has_innate(ch, INNATE_DAYBLIND) && !CAN_NIGHTPEOPLE_SEE(i->in_room) && !globe )) )
+        && (( IS_DAYBLIND(ch) && !CAN_NIGHTPEOPLE_SEE(i->in_room) && !globe )
+        || ( !IS_AFFECTED2(ch, AFF2_ULTRAVISION) && !CAN_DAYPEOPLE_SEE(i->in_room) && !flame )) )
       {
         sprintf(buf, "&+rYou see the red shape of a %s living being %shere.\n",
           size_types[GET_ALT_SIZE(i)], higher ? "above you " : lower ? "below you " : "");
@@ -2510,7 +2511,7 @@ void new_look(P_char ch, char *argument, int cmd, int room_no)
     if( !IS_TRUSTED(ch) && !has_innate(ch, INNATE_EYELESS) )
     {
       // Too bright?
-      if( has_innate(ch, INNATE_DAYBLIND) && !CAN_NIGHTPEOPLE_SEE(temp)
+      if( IS_DAYBLIND(ch) && !CAN_NIGHTPEOPLE_SEE(temp)
         && !IS_AFFECTED(ch, AFF_INFRAVISION) )
       {
         if( IS_SUNLIT(temp) )
