@@ -918,15 +918,18 @@ void apply_affs(P_char ch, int mode)
     GET_AC(ch) -= (int) (GET_C_AGI(ch) - stat_factor[(int) GET_RACE(ch)].Agi);
   }
 
-  ch->points.damroll = ch->points.base_damroll + ((mode) ? TmpAffs.Dam : 0);
+  temp = ch->points.base_damroll + ((mode) ? TmpAffs.Dam : 0);
+  // Can go over for Immortals and mobs (which is an undetected overflow error).
+  ch->points.damroll = (temp > 255) ? 255 : temp;
 
   if( IS_PC(ch) && ch->points.damroll > (damroll_cap * combat_by_race[GET_RACE(ch)][2]) )
   {
-//debug( "damroll: %d, damroll_cap: %d, racial modifier: %.3f, new damroll: %d", ch->points.damroll,
+//if( IS_PC(ch) ) debug( "damroll: %d, damroll_cap: %d, racial modifier: %.3f, new damroll: %d", ch->points.damroll,
 //  damroll_cap, combat_by_race[GET_RACE(ch)][2], (int)(damroll_cap * combat_by_race[GET_RACE(ch)][2]) );
     ch->points.damroll = (int)(damroll_cap * combat_by_race[GET_RACE(ch)][2]);
   }
 
+/* This shit right here has got to go..  Too complex.
   if( GET_C_STR(ch) > stat_factor[(int) GET_RACE(ch)].Str )
   {
     if( GET_C_STR(ch) - stat_factor[(int) GET_RACE(ch)].Str < 9 )
@@ -948,6 +951,7 @@ void apply_affs(P_char ch, int mode)
       }
     }
   }
+*/
 
   if( mode )
   {
@@ -979,7 +983,7 @@ void apply_affs(P_char ch, int mode)
     temp = ch->points.hitroll + GET_LEVEL(ch) / 6;
     ch->points.hitroll = (temp > 127) ? 127 : temp;
     temp = ch->points.damroll + GET_LEVEL(ch) / 6;
-    ch->points.damroll = (temp > 127) ? 127 : temp;
+    ch->points.damroll = (temp > 255) ? 255 : temp;
   }
 
   if( has_innate(ch, INNATE_DUAL_WIELDING_MASTER) && ch->equipment[PRIMARY_WEAPON]
@@ -995,7 +999,7 @@ void apply_affs(P_char ch, int mode)
     temp = ch->points.hitroll + GET_LEVEL(ch) / 8;
     ch->points.hitroll = (temp > 127) ? 127 : temp;
     temp = ch->points.damroll + GET_LEVEL(ch) / 10;
-    ch->points.damroll = (temp > 127) ? 127 : temp;
+    ch->points.damroll = (temp > 255) ? 255 : temp;
   }
 
   if( has_innate(ch, INNATE_AXE_MASTER) && (ch->equipment[PRIMARY_WEAPON]
@@ -1004,7 +1008,7 @@ void apply_affs(P_char ch, int mode)
     temp = ch->points.hitroll + GET_LEVEL(ch) / 8;
     ch->points.hitroll = (temp > 127) ? 127 : temp;
     temp = ch->points.damroll + GET_LEVEL(ch) / 12;
-    ch->points.damroll = (temp > 127) ? 127 : temp;
+    ch->points.damroll = (temp > 255) ? 255 : temp;
   }
 
   if( has_innate(ch, INNATE_LONGSWORD_MASTER) && ( ch->equipment[PRIMARY_WEAPON]
@@ -1013,7 +1017,7 @@ void apply_affs(P_char ch, int mode)
     temp = ch->points.hitroll + GET_LEVEL(ch) / 8;
     ch->points.hitroll = (temp > 127) ? 127 : temp;
     temp = ch->points.damroll + GET_LEVEL(ch) / 12;
-    ch->points.damroll = (temp > 127) ? 127 : temp;
+    ch->points.damroll = (temp > 255) ? 255 : temp;
   }
 
   if( has_innate(ch, INNATE_GAMBLERS_LUCK) )
@@ -1659,8 +1663,8 @@ void all_affects(P_char ch, int mode)
   /* HERE is the place to go into TmpAffs and tone things down */
   TmpAffs.Hits = BOUNDED(0, TmpAffs.Hits, GET_LEVEL(ch) * 3);
 
-  /* better +dam handling */
-  TmpAffs.Dam = MIN(GET_LEVEL(ch) + 35, TmpAffs.Dam);
+  /* This is where we handle damroll cap via level. Now 240 at 56. */
+  TmpAffs.Dam = MIN(GET_LEVEL(ch) * 4 + 16, TmpAffs.Dam);
 
   for (af = ch->affected; af; af = af->next)
   {
@@ -2340,7 +2344,7 @@ struct room_affect *affect_to_room(int room, struct room_affect *af)
 
   if( af->duration <= 0 )
   {
-    return;
+    return NULL;
   }
 
   if( !dead_room_affect_pool )

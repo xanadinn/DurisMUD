@@ -156,6 +156,7 @@ extern bool racial_innates[][LAST_RACE + 1];
 extern const struct innate_data innates_data[];
 extern float racial_exp_mods[LAST_RACE + 1];
 extern float racial_exp_mod_victims[LAST_RACE + 1];
+extern int damroll_cap;
 
 typedef void cmd_func(P_char, char *, int);
 extern const struct innate_data
@@ -1447,9 +1448,10 @@ void stat_dam(P_char ch, char *arg)
     mult_mod = get_property(prop_name, 1.);
     multiplier = combat_by_race[race][1];
     damcap = combat_by_race[race][2];
-    sprintf(buf, "%%-%ds &+W%%2d&n  %%.3f  (&+W%%.3f&n) &+%%c%%.3f&n\n",
+    sprintf(buf, "%%-%ds &+W%%2d&n  %%.3f  (&+W%%.3f&n) &+%%c%%.3f (%%d)&n\n",
       strlen(race_name) - ansi_strlen(race_name) + 15);
-    sprintf(tmplate, buf, race_name, (int) pulse, multiplier, mult_mod, (damcap > 1) ? 'C' : 'c', damcap);
+    sprintf(tmplate, buf, race_name, (int) pulse, multiplier, mult_mod, (damcap > 1) ? 'C' : 'c', damcap,
+      (int)(damcap * damroll_cap) );
     send_to_char(tmplate, ch);
   }
 }
