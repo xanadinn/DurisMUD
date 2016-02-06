@@ -8977,30 +8977,46 @@ int calculate_attacks(P_char ch, int attacks[])
   }
   else
   {                           // not MONK
-    if (!IS_AFFECTED2(ch, AFF2_SLOW) || IS_AFFECTED(ch, AFF_HASTE))
+    if( !IS_AFFECTED2(ch, AFF2_SLOW) || IS_AFFECTED(ch, AFF_HASTE) )
+    {
       ADD_ATTACK(PRIMARY_WEAPON);
+      // Can swing both primary hands at once - 49% for newbs, 99% for maxxed dual wield.
+      if( HAS_FOUR_HANDS(ch) && ch->equipment[THIRD_WEAPON]
+        && (( GET_CHAR_SKILL(ch, SKILL_DUAL_WIELD) / 2 + 50 ) > number( 1, 100 )) )
+      {
+        ADD_ATTACK(THIRD_WEAPON);
+      }
+    }
 
-    if (ch->equipment[PRIMARY_WEAPON] && ch->equipment[SECONDARY_WEAPON] &&
-        (ch->equipment[PRIMARY_WEAPON] != ch->equipment[SECONDARY_WEAPON]))
+    // I hate it when both my hands are trying to swing the same 1h sword.
+    if( ch->equipment[PRIMARY_WEAPON] && ch->equipment[SECONDARY_WEAPON]
+      && (ch->equipment[PRIMARY_WEAPON] != ch->equipment[SECONDARY_WEAPON]) )
     {
       if( notch_skill(ch, SKILL_DUAL_WIELD, get_property("skill.notch.offensive.auto", 4))
-        || number(1, 100) < GET_CHAR_SKILL(ch, SKILL_DUAL_WIELD)
-        || (GET_CLASS(ch, CLASS_RANGER || GET_SECONDARY_CLASS(ch, CLASS_RANGER)) && !number(0, 2)) )
+        || number(1, 100) < GET_CHAR_SKILL(ch, SKILL_DUAL_WIELD) )
       {
         ADD_ATTACK(SECONDARY_WEAPON);
-
-        if (number(1, 99) < GET_CHAR_SKILL(ch, SKILL_IMPROVED_TWOWEAPON))
+        // Can swing both secondary hands at once - 49% for newbs, 99% for maxxed dual wield.
+        if( HAS_FOUR_HANDS(ch) && ch->equipment[FOURTH_WEAPON]
+          && (( GET_CHAR_SKILL(ch, SKILL_DUAL_WIELD) / 2 + 50 ) > number( 1, 100 )) )
         {
-          ADD_ATTACK(SECONDARY_WEAPON);
+          ADD_ATTACK(FOURTH_WEAPON);
         }
 
-        if (GET_RACE(ch) == RACE_THRIKREEN)
+        if( number(1, 99) < GET_CHAR_SKILL(ch, SKILL_IMPROVED_TWOWEAPON) )
         {
           ADD_ATTACK(SECONDARY_WEAPON);
+          // Can swing both secondary hands at once - 49% for newbs, 99% for maxxed dual wield.
+          if( HAS_FOUR_HANDS(ch) && ch->equipment[FOURTH_WEAPON]
+            && (( GET_CHAR_SKILL(ch, SKILL_DUAL_WIELD) / 2 + 50 ) > number( 1, 100 )) )
+          {
+            ADD_ATTACK(FOURTH_WEAPON);
+          }
         }
       }
     }
-    /*  
+
+    /*
         if(ch->player.race == RACE_KOBOLD || ch->player.race == RACE_GNOME)
         {
         if (number(1, 160) < GET_C_AGI(ch))
@@ -9019,10 +9035,6 @@ int calculate_attacks(P_char ch, int attacks[])
         }
         }
         */
-    if(GET_CLASS(ch, CLASS_MONK))
-    {
-      ADD_ATTACK(PRIMARY_WEAPON);
-    }
 
 /* No longer giving minos an extra attack.
     //loop through affects - Drannak
@@ -9115,46 +9127,47 @@ int calculate_attacks(P_char ch, int attacks[])
       }
     }
 
-    if(GET_CLASS(ch, CLASS_PSIONICIST) &&
-        affected_by_spell(ch, SPELL_COMBAT_MIND))
+    if( GET_CLASS(ch, CLASS_PSIONICIST) && affected_by_spell(ch, SPELL_COMBAT_MIND) )
     {
       ADD_ATTACK(PRIMARY_WEAPON);
 
-      if(GET_LEVEL(ch) > 51)
+      if( GET_LEVEL(ch) > 51 )
         ADD_ATTACK(PRIMARY_WEAPON);
     }
 
     if( notch_skill(ch, SKILL_DOUBLE_ATTACK, get_property("skill.notch.offensive.auto", 4) )
-      || GET_CHAR_SKILL(ch, SKILL_DOUBLE_ATTACK) > number(0, 100))
+      || GET_CHAR_SKILL(ch, SKILL_DOUBLE_ATTACK) > number(1, 100))
     {
       ADD_ATTACK(PRIMARY_WEAPON);
+      // Can swing both primary hands at once - 94% chance max.
+      if( HAS_FOUR_HANDS(ch) && ch->equipment[THIRD_WEAPON]
+        && (( GET_CHAR_SKILL(ch, SKILL_DUAL_WIELD) / 2 + 45 ) > number( 1, 100 )) )
+      {
+        ADD_ATTACK(THIRD_WEAPON);
+      }
     }
 
     if (notch_skill(ch, SKILL_TRIPLE_ATTACK, get_property("skill.notch.offensive.auto", 4))
-      || GET_CHAR_SKILL(ch, SKILL_TRIPLE_ATTACK) > number(0, 100))
+      || GET_CHAR_SKILL(ch, SKILL_TRIPLE_ATTACK) > number(1, 100))
     {
       ADD_ATTACK(PRIMARY_WEAPON);
+      // Can swing both primary hands at once - 89% chance max.
+      if( HAS_FOUR_HANDS(ch) && ch->equipment[THIRD_WEAPON]
+        && (( GET_CHAR_SKILL(ch, SKILL_DUAL_WIELD) / 2 + 40 ) > number( 1, 100 )) )
+      {
+        ADD_ATTACK(THIRD_WEAPON);
+      }
     }
 
     if( notch_skill(ch, SKILL_QUADRUPLE_ATTACK, get_property("skill.notch.offensive.auto", 4))
-      || GET_CHAR_SKILL(ch, SKILL_QUADRUPLE_ATTACK) > number(0, 100) )
+      || GET_CHAR_SKILL(ch, SKILL_QUADRUPLE_ATTACK) > number(1, 100) )
     {
       ADD_ATTACK(PRIMARY_WEAPON);
-    }
-
-    if (HAS_FOUR_HANDS(ch))
-    {
-      if (ch->equipment[THIRD_WEAPON])
-        for (int i = 0; i < 3; i++)
-          if (GET_CHAR_SKILL(ch, SKILL_DUAL_WIELD) > number(1, 100))
-          {
-            ADD_ATTACK(THIRD_WEAPON);
-          }
-      if (ch->equipment[FOURTH_WEAPON] &&
-          GET_CHAR_SKILL(ch, SKILL_DUAL_WIELD) > number(1, 100))
+      // Can swing both primary hands at once - 84% chance max.
+      if( HAS_FOUR_HANDS(ch) && ch->equipment[THIRD_WEAPON]
+        && (( GET_CHAR_SKILL(ch, SKILL_DUAL_WIELD) / 2 + 35 ) > number( 1, 100 )) )
       {
         ADD_ATTACK(THIRD_WEAPON);
-        ADD_ATTACK(FOURTH_WEAPON);
       }
     }
   }
@@ -9162,10 +9175,15 @@ int calculate_attacks(P_char ch, int attacks[])
   // both monks and others below
   if (IS_AFFECTED(ch, AFF_HASTE))
   {
-    if (!IS_AFFECTED2(ch, AFF2_SLOW)) {
+    if( !IS_AFFECTED2(ch, AFF2_SLOW) )
+    {
       ADD_ATTACK(PRIMARY_WEAPON);
-      if (GET_RACE(ch) == RACE_THRIKREEN)
+      // Can swing both primary hands at once - 99% chance max.
+      if( HAS_FOUR_HANDS(ch) && ch->equipment[THIRD_WEAPON]
+        && (( GET_CHAR_SKILL(ch, SKILL_DUAL_WIELD) / 2 + 50 ) > number( 1, 100 )) )
+      {
         ADD_ATTACK(THIRD_WEAPON);
+      }
     }
   }
 
@@ -9330,10 +9348,11 @@ int calculate_attacks(P_char ch, int attacks[])
     int blurattackchance = (GET_LEVEL(ch) / 2);
     if (GET_CLASS(ch, CLASS_RANGER) && (number(1, 100) < blurattackchance) &&
         ch->equipment[SECONDARY_WEAPON])
-      ADD_ATTACK(SECONDARY_WEAPON); 
+      ADD_ATTACK(SECONDARY_WEAPON);
   }
 
-  if(!MIN_POS(ch, POS_STANDING + STAT_NORMAL) && !has_innate(ch, INNATE_GROUNDFIGHTING)) //not-standing? half attacks - Drannak 7/22/13
+  // Not-standing? half attacks - Drannak 7/22/13
+  if(!MIN_POS(ch, POS_STANDING + STAT_NORMAL) && !has_innate(ch, INNATE_GROUNDFIGHTING))
   {
     if(GET_POS(ch) == POS_KNEELING)
       number_attacks = (int)(number_attacks - (number_attacks * .70));
