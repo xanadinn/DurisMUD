@@ -317,7 +317,7 @@ void do_camp(P_char ch, char *arg, int cmd)
 
     logit(LOG_COMM, "%s has quit in [%d].", GET_NAME(ch), world[ch->in_room].number);
     loginlog( GET_LEVEL(ch), "%s has quit in [%d].", GET_NAME(ch), ROOM_VNUM(ch->in_room));
-    sql_log(ch, CONNECTLOG, "Quit game");
+    sql_log(ch, CONNECTLOG, "Quit Game");
     act("$n has left the game.", TRUE, ch, 0, 0, TO_ROOM);
 
     writeCharacter(ch, RENT_INN, ch->in_room);
@@ -1361,7 +1361,7 @@ void do_quit(P_char ch, char *argument, int cmd)
   i = ch->in_room;
   logit(LOG_COMM, "%s has quit in [%d].", GET_NAME(ch), world[ch->in_room].number);
   loginlog( GET_LEVEL(ch), "%s has quit in [%d].", GET_NAME(ch), world[ch->in_room].number);
-  sql_log(ch, CONNECTLOG, "Quit game");
+  sql_log(ch, CONNECTLOG, "Quit Game");
 
   /*
    * Mortals: drop everything but nodrop items, write char, then extract

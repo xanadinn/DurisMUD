@@ -379,7 +379,7 @@ int inn(int room, P_char ch, int cmd, char *arg)
     }
     loginlog( ch->player.level, "%s [%s] has rented out in [%d].",
       GET_NAME(ch), (ch->desc) ? ch->desc->host : "LINKDEAD", world[ch->in_room].number);
-    sql_log(ch, CONNECTLOG, "Rented out.");
+    sql_log(ch, CONNECTLOG, "Rented Out");
     extract_char(ch);
     ch = NULL;
 
@@ -455,7 +455,7 @@ int undead_inn(int room, P_char ch, int cmd, char *arg)
     loginlog(ch->player.level, "%s [%s] has rented out in [%d].",
              GET_NAME(ch), (ch->desc) ? ch->desc->host : "LINKDEAD",
              world[ch->in_room].number);
-    sql_log(ch, CONNECTLOG, "Rented out");
+    sql_log(ch, CONNECTLOG, "Rented Out");
     extract_char(ch);
     ch = NULL;
   }

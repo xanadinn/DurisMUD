@@ -1370,6 +1370,8 @@ void close_socket(struct descriptor_data *d)
   struct descriptor_data *tmp;
   snoop_by_data *snoop_by_ptr, *next;
   int      is_morphed = IS_MORPH(d->character);
+  char     Gbuf1[MAX_STRING_LENGTH];
+  time_t   ct;
 
   compress_end(d, TRUE);        /* does flushing out all output break anything ? */
   if (d->descriptor)
@@ -1392,8 +1394,7 @@ void close_socket(struct descriptor_data *d)
         ("Your host has lost link... you can no longer maintain the sight link.\r\n",
          snoop_by_ptr->snoop_by);
     else
-      send_to_char("Your victim is no longer among us.\r\n",
-                   snoop_by_ptr->snoop_by);
+      send_to_char("Your victim is no longer among us.\r\n", snoop_by_ptr->snoop_by);
     snoop_by_ptr->snoop_by->desc->snoop.snooping = 0;
 
     next = snoop_by_ptr->next;
@@ -1481,11 +1482,14 @@ void close_socket(struct descriptor_data *d)
       }
       else
       {
-        logit(LOG_COMM, "Closing link to: %s [%s].",
-              GET_NAME(GET_PLYR(d->character)), d->host);
-        loginlog(d->character->player.level, "%s [%s] has lost link.",
-                 GET_NAME(GET_PLYR(d->character)), d->host);
-        sql_log(d->character, CONNECTLOG, "Lost link");
+        logit(LOG_COMM, "Closing link to: %s [%s].", GET_NAME(GET_PLYR(d->character)), d->host);
+        // Subtract 5 hrs: GMT -> EST.
+        ct = time(0) - 5*60*60;
+        sprintf(Gbuf1, "%s", asctime( localtime(&ct) ));
+        *(Gbuf1 + strlen(Gbuf1) - 1) = '\0';
+        loginlog(d->character->player.level, "%s [%s] has lost link @ %s EST.",
+                 GET_NAME(GET_PLYR(d->character)), d->host, Gbuf1 );
+        sql_log(d->character, CONNECTLOG, "Lost Link");
       }
       writeCharacter(d->character, RENT_CRASH, d->character->in_room);
       d->character->desc = 0;

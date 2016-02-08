@@ -1547,9 +1547,15 @@ int gain_condition(P_char ch, int condition, int value)
 void point_update(void)
 {
   P_char   i, i_next;
-  char     Gbuf1[MAX_STRING_LENGTH];
+  char     Gbuf1[MAX_STRING_LENGTH], timestr[MAX_STRING_LENGTH];
+  time_t   ct;
 
   *Gbuf1 = '\0';
+  // Subtract 5 hrs: GMT -> EST.
+  ct = time(0) - 5*60*60;
+  sprintf(timestr, "%s", asctime( localtime(&ct) ));
+  *(timestr + strlen(timestr) - 1) = '\0';
+  strcat( timestr, " EST" );
 
   for( i = character_list; i; i = i_next )
   {
@@ -1612,8 +1618,9 @@ void point_update(void)
         send_to_char("You have been idle, and are pulled into a void.\r\n", i);
 
         logit(LOG_COMM, "idle rent for %s in %d.", GET_NAME(i), world[i->in_room].number);
-        loginlog(i->player.level, "%s has voided in [%d].", GET_NAME(i), world[i->in_room].number);
-        sql_log(i, CONNECTLOG, "Idle rent");
+
+        loginlog(i->player.level, "%s has voided in [%d] @ %s.", GET_NAME(i), world[i->in_room].number, timestr);
+        sql_log(i, CONNECTLOG, "Idle Rent");
 
         // How could this ever be TRUE?  Won't ch->player.name always exist for an in-game char?
         if( !GET_NAME(i) )

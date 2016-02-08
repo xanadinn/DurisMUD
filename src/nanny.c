@@ -3088,8 +3088,9 @@ void enter_game(P_desc d)
   int      cost;
   int r_room = NOWHERE;
   long     time_gone = 0, hit_g, move_g, heal_time, rest;
+  time_t   ct = time(NULL);
   int      mana_g;
-  char     Gbuf1[MAX_STRING_LENGTH];
+  char     Gbuf1[MAX_STRING_LENGTH], timestr[MAX_STRING_LENGTH];
   bool     nobonus = FALSE;
   P_char   ch = d->character;
   P_desc   i;
@@ -3119,7 +3120,7 @@ void enter_game(P_desc d)
   if (zone_table[world[r_room].zone].flags & ZONE_CLOSED)
     r_room = real_room(GET_BIRTHPLACE(ch));
 
-  if (ch->only.pc->pc_timer[PC_TIMER_HEAVEN] > time(NULL))
+  if (ch->only.pc->pc_timer[PC_TIMER_HEAVEN] > ct)
   {
     if (IS_ILLITHID(ch))
       r_room = real_room(ILLITHID_HEAVEN_ROOM);
@@ -3227,7 +3228,7 @@ void enter_game(P_desc d)
     }
     else if (d->rtype == RENT_DEATH)
     {
-      if (ch->only.pc->pc_timer[PC_TIMER_HEAVEN] > time(NULL))
+      if (ch->only.pc->pc_timer[PC_TIMER_HEAVEN] > ct)
         send_to_char("\r\nYour soul finds its way to the afterlife...\r\n", ch);
       else
         send_to_char("\r\nYou rejoin the land of the living...\r\n", ch);
@@ -3279,9 +3280,9 @@ void enter_game(P_desc d)
      */
 
     // time_gone is how many ticks (currently real minutes) they have been out of the game.
-    time_gone = (time(0) - ch->player.time.saved) / SECS_PER_MUD_HOUR;
+    time_gone = (ct - ch->player.time.saved) / SECS_PER_MUD_HOUR;
     // rest is how many seconds they have been out of the game.
-    rest = time(0) - ch->player.time.saved;
+    rest = ct - ch->player.time.saved;
 
     ch->player.time.birth -= time_gone;
 
@@ -3599,14 +3600,20 @@ void enter_game(P_desc d)
   }
 
   GetMIA(ch->player.name, Gbuf1 );
-  loginlog(GET_LEVEL(ch), "%s [%s] enters game. %s [%d]",
-           GET_NAME(ch), d->host, Gbuf1, world[ch->in_room].number);
-  sql_log(ch, CONNECTLOG, "Entered game");
-  
+  // Convert to EST.
+  ct -= 5*60*60;
+  sprintf(timestr, "%s", asctime( localtime(&ct) ));
+  *(timestr + strlen(timestr) - 1) = '\0';
+  strcat( timestr, " EST" );
+  ct += 5*60*60;
+
+  loginlog(GET_LEVEL(ch), "%s [%s] enters game @ %s.%s [%d]",
+           GET_NAME(ch), d->host, timestr, Gbuf1, world[ch->in_room].number);
+  sql_log(ch, CONNECTLOG, "Entered Game");
+
   if(GET_LEVEL(ch) >= MINLVLIMMORTAL)
     loginlog(GET_LEVEL(ch), "&+GIMMORTAL&n: (%s) [%s] has logged on.%s",
              GET_NAME(ch), d->host, Gbuf1);
-  
 
 //  /* multiplay check */
 //  for (P_desc k = descriptor_list; k; k = k->next)
@@ -3626,8 +3633,8 @@ void enter_game(P_desc d)
 //               d->character->player.name, k->character->player.name);
 //      }
 //    }
-//  }  
-  
+//  }
+
   set_town_flag_justice(ch, FALSE);
 
   /* clean up justice goofs */
@@ -4291,7 +4298,7 @@ void select_pwd(P_desc d, char *arg)
         {
           logit(LOG_PLAYER, "Invalid password for %s from %s@%s.",
                 GET_NAME(d->character), d->login, d->host);
-          sql_log(d->character, CONNECTLOG, "Invalid password");
+          sql_log(d->character, CONNECTLOG, "Invalid Password");
         }
         STATE(d) = CON_FLUSH;
         return;

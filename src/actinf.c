@@ -5720,12 +5720,12 @@ void do_score(P_char ch, char *argument, int cmd)
 
 void do_time(P_char ch, char *argument, int cmd)
 {
-  char    *tmstr;
-  char     Gbuf1[MAX_STRING_LENGTH], Gbuf2[MAX_STRING_LENGTH];
+  char       *tmstr;
+  char        Gbuf1[MAX_STRING_LENGTH], Gbuf2[MAX_STRING_LENGTH];
   const char *suf;
-  int      weekday, day, hour;
-  long     ct;
-  struct tm *lt;
+  int         weekday, day, hour;
+  long        ct;
+  struct tm  *lt;
   struct time_info_data uptime;
 
   argument = one_argument(argument, Gbuf1);
@@ -5814,6 +5814,13 @@ void do_time(P_char ch, char *argument, int cmd)
   *(tmstr + strlen(tmstr) - 1) = '\0';
   sprintf(Gbuf2, "Current time is: %s (%s)\n",
           tmstr, (lt->tm_isdst <= 0) ? "GMT" : "GMT");
+  send_to_char(Gbuf2, ch);
+  // Subtract 5 hrs.
+  ct -= 5*60*60;
+  lt = localtime(&ct);
+  tmstr = asctime(lt);
+  *(tmstr + strlen(tmstr) - 1) = '\0';
+  sprintf(Gbuf2, "                 %s (EST)\n", tmstr );
   send_to_char(Gbuf2, ch);
 
   if (IS_TRUSTED(ch))
