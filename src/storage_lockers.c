@@ -433,6 +433,8 @@ bool StorageLocker::MakeChests(P_char ch, char *args)
         p = AddLockerChest(new EqWearChest(CLASS_DREADLORD, chestKeyword, chestDesc));
       IF_ISLOCKERTYPE("ethermancer", "usable by an ethermancer")
         p = AddLockerChest(new EqWearChest(CLASS_ETHERMANCER, chestKeyword, chestDesc));
+      IF_ISLOCKERTYPE("blighter", "usable by a blighter")
+        p = AddLockerChest(new EqWearChest(CLASS_BLIGHTER, chestKeyword, chestDesc));
       IF_ISLOCKERTYPE("totems", "used as totems")
         p = AddLockerChest(new EqTypeChest(ITEM_TOTEM, chestKeyword, chestDesc));
       IF_ISLOCKERTYPE("instruments", "playable as bard instruments")
