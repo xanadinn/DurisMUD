@@ -3937,25 +3937,28 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags, str
       return DAM_CHARDEAD;
 
     /* defensive spell hook for equipped items - Tharkun */
-    for (i = 0; i < sizeof(proccing_slots) / sizeof(int); i++)
+    if( !IS_PC_PET(victim) )
     {
-      item = victim->equipment[proccing_slots[i]];
-
-      if (item && obj_index[item->R_num].func.obj != NULL)
+      for (i = 0; i < sizeof(proccing_slots) / sizeof(int); i++)
       {
-        data.victim = ch;
-        data.dam = (int) dam;
-        data.attacktype = type;
-        data.flags = flags;
-        data.messages = messages;
-        if ((*obj_index[item->R_num].func.obj) (item, victim, CMD_GOTNUKED, (char *) &data))
+        item = victim->equipment[proccing_slots[i]];
+
+        if (item && obj_index[item->R_num].func.obj != NULL)
         {
-          if (GET_STAT(victim) == STAT_DEAD)
-            return DAM_VICTDEAD;
-          else if (GET_STAT(ch) == STAT_DEAD)
-            return DAM_CHARDEAD;
-          else
-            return DAM_NONEDEAD;
+          data.victim = ch;
+          data.dam = (int) dam;
+          data.attacktype = type;
+          data.flags = flags;
+          data.messages = messages;
+          if ((*obj_index[item->R_num].func.obj) (item, victim, CMD_GOTNUKED, (char *) &data))
+          {
+            if (GET_STAT(victim) == STAT_DEAD)
+              return DAM_VICTDEAD;
+            else if (GET_STAT(ch) == STAT_DEAD)
+              return DAM_CHARDEAD;
+            else
+              return DAM_NONEDEAD;
+          }
         }
       }
     }
@@ -7622,7 +7625,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
     weapon->value[4] = 0;       /* remove on success */
   }
 
-  if( weapon && is_char_in_room(ch, room) && is_char_in_room(victim, room) && IS_ALIVE(victim) )
+  if( weapon && is_char_in_room(ch, room) && is_char_in_room(victim, room) && IS_ALIVE(victim) && !IS_PC_PET(ch) )
   {
     weapon_proc(weapon, ch, victim);
   }
@@ -9831,24 +9834,26 @@ int pv_common(P_char ch, P_char opponent, const P_obj wpn)
     }
   }
   /* defensive hit hook for equipped items - Tharkun */
-  for (i = 0; i < sizeof(proccing_slots) / sizeof(int); i++)
+  if( !IS_PC_PET(opponent) )
   {
-    item = opponent->equipment[proccing_slots[i]];
-
-    if (item && obj_index[item->R_num].func.obj != NULL)
+    for (i = 0; i < sizeof(proccing_slots) / sizeof(int); i++)
     {
-      data.victim = ch;
-      if ((*obj_index[item->R_num].func.obj) (item, opponent, CMD_GOTHIT,
-            (char *) &data))
+      item = opponent->equipment[proccing_slots[i]];
+
+      if (item && obj_index[item->R_num].func.obj != NULL)
       {
-        return FALSE;
+        data.victim = ch;
+        if( (*obj_index[item->R_num].func.obj) (item, opponent, CMD_GOTHIT, (char *) &data) )
+        {
+          return FALSE;
+        }
       }
     }
   }
 
   /* defensive hit hook for mob procs - Torgal */
-  if(IS_ALIVE(opponent) && IS_NPC(opponent) && mob_index[GET_RNUM(opponent)].func.mob
-    && !affected_by_spell(opponent, TAG_CONJURED_PET))
+  if( IS_ALIVE(opponent) && IS_NPC(opponent) && mob_index[GET_RNUM(opponent)].func.mob
+    && !affected_by_spell(opponent, TAG_CONJURED_PET) )
   {
     data.victim = ch;
 

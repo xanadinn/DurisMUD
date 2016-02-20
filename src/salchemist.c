@@ -934,7 +934,7 @@ int encrusted_eq_proc(P_obj obj, P_char ch, int cmd, char *arg)
 
   if(cmd == CMD_SET_PERIODIC)
   {
-    return TRUE;
+    return FALSE;
   }
 
   if( cmd != CMD_MELEE_HIT )
