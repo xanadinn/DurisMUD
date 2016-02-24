@@ -13824,6 +13824,15 @@ int conj_specpet_djinni(P_char ch, P_char pl, int cmd, char *arg)
   if (cmd == CMD_SET_PERIODIC)
     return TRUE;
 
+  if( cmd == CMD_PERIODIC && (tch = get_linked_char( ch, LNK_PET )) != NULL && IS_PC(tch)
+    && !strcmp(tch->player.name, "Orthyn") && !number(0, 100) )
+  {
+    if( number(0, 3) )
+      do_say( ch, "Ebola!", CMD_SAY );
+    else
+      do_say( ch, "AIDS!", CMD_SAY );
+  }
+
   if (IS_FIGHTING(ch) && (cmd == 0) && (number(1, 10) == 1))
   {
     vict = ch->specials.fighting;
