@@ -3927,7 +3927,7 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags, str
           FALSE, ch, 0, victim, TO_CHAR);
 
       affect_from_char(victim, SPELL_DEFLECT);
-      result = spell_damage(ch, ch, dam * 0.7, type, flags | SPLDAM_NODEFLECT, messages);
+      result = spell_damage(victim, ch, dam * 0.7, type, flags | SPLDAM_NODEFLECT, messages);
 
       if (result == DAM_NONEDEAD)
       {
