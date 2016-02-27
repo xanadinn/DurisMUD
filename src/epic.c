@@ -1784,7 +1784,7 @@ void do_epic_share(P_char ch, char *arg, int cmd)
 	    tafp->flags = afp->flags;
 	    tafp->duration = afp->duration;
 	    tafp->modifier = afp->modifier;
-	    act("&+C$n has just shared his epic task with you!&n", TRUE, ch, 0, gl->ch, TO_VICT);
+	    act("&+C$n has just shared their epic task with you!&n", TRUE, ch, 0, gl->ch, TO_VICT);
 	    act("&+CYou have just shared your epic task with $N.&n", TRUE, ch, 0, gl->ch, TO_CHAR);
 	  }
 	}

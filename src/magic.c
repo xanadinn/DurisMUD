@@ -12280,7 +12280,7 @@ void spell_prot_from_undead(int level, P_char ch, char *arg, int type,
   af.duration = BOUNDED(2, GET_LEVEL(ch) / 3, 20);
   af.bitvector5 = AFF5_PROT_UNDEAD;
   affect_to_char(ch, &af);
-  act("$N is now protected from undead!", TRUE, ch, 0, victim, TO_CHAR);
+  act("&+WA field of &+Yliving energy&+W slowly forms around $N.", TRUE, ch, 0, victim, TO_CHAR);
 }
 
 
