@@ -1581,7 +1581,7 @@ void spell_cosmic_vacuum(int level, P_char ch, char *arg, int type, P_char victi
     TRUE, ch, 0, victim, TO_CHAR);
   act("&+wThe &+Yco&+Wsm&+Yic &+Lvacuum's &+wpowerful force leaves you temporarily defenseless.",
     TRUE, ch, 0, victim, TO_VICT);
-  act("$n &+wopens a &+Yco&+Wsm&+Yic&+L vacuum &+wby&n $N&+w, draining $M&+w of $S's&+w defenses.",
+  act("$n &+wopens a &+Yco&+Wsm&+Yic&+L vacuum &+wby&n $N&+w, draining $M&+w of $S&+w defenses.",
     TRUE, ch, 0, victim, TO_NOTVICT);
 
   DamageStuff(victim, SPLDAM_NEGATIVE);

@@ -9917,7 +9917,7 @@ void restrain(P_char ch, P_char victim)
 */
       {
         act("&+LYou turn to &n$N &+Land make an un&+who&+Wly &+Lgesture.\n"
-            "&+LA &nsmoking &+Ldark pit opens beneath &n$S's feet, the smell of death\n"
+            "&+LA &nsmoking &+Ldark pit opens beneath &n$S feet, the smell of death\n"
             "&+Land decay fill the air. Suddenly, &+Wskeletal &+Lhands emerge, grasping\n"
             "$N &+Ltightly! &n$N &+Llets out a final &+rsCCrrREEEaaMM &+Las they\n"
             "&+Lare whisked away into the &+rabyss&+L.", FALSE, ch, 0, victim, TO_CHAR);
@@ -9928,7 +9928,7 @@ void restrain(P_char ch, P_char victim)
             "&+LWith a final gasp, you cry out a final &+rsCCrrREEEaaMM &+Las you\n"
             "&+Lare whisked away into the &+rabyss&+L.", FALSE, ch, 0, victim, TO_VICT);
         act("$n&+L turns to &n$N &+Land makes an un&+who&+Wly &+Lgesture.\n"
-            "&+LA &nsmoking &+Ldark pit opens beneath &n$S's feet, the smell of death\n"
+            "&+LA &nsmoking &+Ldark pit opens beneath &n$S feet, the smell of death\n"
             "&+Land decay fill the air. Suddenly, &+Wskeletal &+Lhands emerge, grasping\n"
             "$N &+Ltightly! &n$N &+Llets out a final &+rsCCrrREEEaaMM &+Las they\n"
             "&+Lare whisked away into the &+rabyss&+L.", FALSE, ch, 0, victim, TO_NOTVICT);

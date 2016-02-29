@@ -1011,7 +1011,7 @@ void spell_life_leech(int level, P_char ch, char *arg, int type,
   bool saved  = FALSE;
   
   struct damage_messages messages = {
-    "&+LYou reach out and touch $N, &+rleeching &+Lsome of $S's &+Llife&+wfor&+Wce.&n",
+    "&+LYou reach out and touch $N, &+rleeching &+Lsome of $S &+Llife&+wfor&+Wce.&n",
     "&+LYour &+rlife &+force seems to slip away as&n $n &+Ltouches you.&n",
     "$n &+Lseems to suck the &+rlife &+Lright out of&n $N!",
     "$N &+rapparently has no more &+Rlife &+rto leech!&n",
