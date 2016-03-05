@@ -26,55 +26,50 @@ extern P_obj object_list;
 extern P_room world;
 extern int proccing_slots[];
 extern struct material_data materials[];
-char bufCOLOR[MAX_STRING_LENGTH];
-char    *item_condition(P_obj obj)
+
+char *item_condition( P_obj obj )
 {
-  int      value;
-  static char buf[MAX_STRING_LENGTH];
-//   char bufCOLOR[MAX_STRING_LENGTH];
-  /* default conditon is 100, and reflects average quality. This can be
-     raised, through _special_ and _expensive_ smiths, tailors, etc to a max
-     of 125, reflecting exceptional quality and manufacture. Code only
-     cares about 1-12, so lets chop the name down a bit...
+  int         value;
+  // I can't imagine anything longer than "&N&=LR\0" which is only 7 chars.
+  char        bufCOLOR[8];
+  // I can't imagine having a condition string longer than " [&N&=LR100%%&N]\0" which is only 16 chars.. 32 def safe.
+  static char buf[32];
+
+  if( obj->condition > 90 )
+    sprintf(bufCOLOR, "&+G");
+  else if( obj->condition > 70 )
+    sprintf(bufCOLOR, "&+g");
+  else if( obj->condition > 50 )
+    sprintf(bufCOLOR, "&+y");
+  else if( obj->condition > 20 )
+    sprintf(bufCOLOR, "&+r");
+  else if( obj->condition > 0 )
+    sprintf(bufCOLOR, "&+R");
+  else
+    sprintf(bufCOLOR, "&=LR");
+
+  // Print either the [20%] or spaces of equivalent length.
+  if( obj->condition < 90 )
+    sprintf(buf, " [%s%2d&n%%]", bufCOLOR , obj->condition);
+  else
+    buf[0] = '\0';
+
+  /* Default conditon is 100, and reflects average quality. This can be
+   * raised, through _special_ and _expensive_ smiths, tailors, etc to a max
+   * of 125, reflecting exceptional quality and manufacture. Code only
+   * cares about 1-12, so lets chop the name down a bit...
    */
 
+  /*  This isn't used atm. - We use the actual % now.
 #ifndef NEW_COMBAT
   value = BOUNDED(1, obj->condition / 10, 12);
 #else
-  value =
-    BOUNDED(1, (int) (((float) obj->curr_sp / (float) obj->max_sp) * 10.0),
-            12);
+  value = BOUNDED(1, (int) (((float) obj->curr_sp / (float) obj->max_sp) * 10.0), 12);
 #endif
 
-  if (obj->type == ITEM_CORPSE)
-    value = 12;                 /* So these item types wont be shown with a condition */
-
-
-#if 1
-
-if(obj->condition > 90)
-sprintf(bufCOLOR, "&+G");
-
-else if(obj->condition > 70)
-sprintf(bufCOLOR, "&+g");
-
-else if(obj->condition > 50)
-sprintf(bufCOLOR, "&+y");
-
-else if(obj->condition > 20)
-sprintf(bufCOLOR, "&+r");
-
-else if(obj->condition > 0)
-sprintf(bufCOLOR, "&+R");
-
-
-if(obj->condition < 90)
-sprintf(buf, " [%s%d&n%%]             ", bufCOLOR , obj->condition);
-else
-sprintf(buf, "");
-
-#else
-
+  // So these item types wont be shown with a condition.
+  if( obj->type == ITEM_CORPSE )
+    value = 12;
 
   switch (value)
   {
@@ -108,7 +103,8 @@ sprintf(buf, "");
   default:
     sprintf(buf, "");
   }
-#endif
+  */
+
   return buf;
 }
 

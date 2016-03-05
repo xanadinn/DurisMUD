@@ -869,7 +869,7 @@ char *show_obj_to_char(P_obj object, P_char ch, int mode, bool print)
     }
     */
   }
-  strcat(buf, item_condition(object));
+  strcat( buf, item_condition(object) );
   if (ch->specials.z_cord > object->z_cord)
       strcat(buf, " &N(below you)");
   if (ch->specials.z_cord < object->z_cord)
@@ -7398,7 +7398,7 @@ bool get_equipment_list(P_char ch, char *buf, int list_only)
           }
         }
 
-        strcat(buf, item_condition(t_obj));
+        strcat( buf, item_condition(t_obj) );
 
         sprintf(tempbuf, "Error");
 

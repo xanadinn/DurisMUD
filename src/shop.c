@@ -937,7 +937,7 @@ void shopping_peruse(char *arg, P_char ch, P_char keeper, int shop_nr)
 
 void shopping_list(char *arg, P_char ch, P_char keeper, int shop_nr)
 {
-  P_obj    temp1;
+  P_obj    obj1;
   int      found_obj, temp;
   char     Gbuf1[MAX_STRING_LENGTH], Gbuf2[MAX_STRING_LENGTH];
   char     Gbuf3[MAX_STRING_LENGTH], Gbuf4[MAX_STRING_LENGTH];
@@ -946,25 +946,32 @@ void shopping_list(char *arg, P_char ch, P_char keeper, int shop_nr)
   char     descbuf[MAX_STRING_LENGTH];
 
 
-  if (!(is_ok(keeper, ch, shop_nr)))
+  if( !(is_ok(keeper, ch, shop_nr)) )
     return;
 
   cost_factor = (float) cha_app[STAT_INDEX(MAX(100, GET_C_CHA(ch)))].modifier;
-  if (GET_RACE(ch) != GET_RACE(keeper))
+  if( GET_RACE(ch) != GET_RACE(keeper) )
     cost_factor = cost_factor * 2.;
 
-  cost_factor =
-    shop_index[shop_nr].sell_percent * (1.0 - (cost_factor / 100.));
-  if (cost_factor < shop_index[shop_nr].sell_percent)
-    cost_factor = shop_index[shop_nr].sell_percent + .01;
+  cost_factor = shop_index[shop_nr].sell_percent * (1.0 - (cost_factor / 100.));
 
-  if (has_innate(ch, INNATE_BARTER)) {
-   if (GET_C_CHA(ch) > number(0, 125)) {
-    cost_factor -= .25;
-   } else {
-    cost_factor += .10;
-   }
-  } 
+  /* This is dumb for prices to randomly change when you type 'list' at a shop.
+   * It would be proper to show the full price, then add "You get %s at a %d%% discount." when buying.
+  if( has_innate(ch, INNATE_BARTER) )
+  {
+    if (GET_C_CHA(ch) > number(0, 125))
+    {
+      cost_factor -= .25;
+    }
+    else
+    {
+      cost_factor += .10;
+    }
+  }
+  */
+
+  if( cost_factor < shop_index[shop_nr].sell_percent )
+    cost_factor = shop_index[shop_nr].sell_percent + .01;
 
   /*
    * New routine for listing goods by numbers. MIAX
@@ -986,8 +993,8 @@ void shopping_list(char *arg, P_char ch, P_char keeper, int shop_nr)
 
     while (x < 6)
     {
-      temp1 = create_random_eq_new(keeper, keeper, -1, -1);
-      obj_to_char(temp1, keeper);
+      obj1 = create_random_eq_new(keeper, keeper, -1, -1);
+      obj_to_char(obj1, keeper);
       x++;
     }
     SET_BIT(keeper->only.npc->spec[2], MOB_INIT_RANDOM_EQ);
@@ -996,54 +1003,52 @@ void shopping_list(char *arg, P_char ch, P_char keeper, int shop_nr)
   */
   //End selling random eq code..
   found_obj = FALSE;
-  if (keeper->carrying)
-    for (temp1 = keeper->carrying; temp1; temp1 = temp1->next_content)
+  if( keeper->carrying )
+  {
+    for( obj1 = keeper->carrying; obj1; obj1 = obj1->next_content )
     {
-      if(IS_ARTIFACT(temp1) || isname("encrust", temp1->name))
+      if( IS_ARTIFACT(obj1) || isname("encrust", obj1->name) )
       {
-        wizlog(56, "(%s) shopkeeper just destroyed (%s).", GET_NAME(keeper), (temp1->short_description));
-        extract_obj(temp1, TRUE); // Bye arti.
+        wizlog(56, "(%s) shopkeeper just destroyed (%s %d).", GET_NAME(keeper), obj1->short_description, OBJ_VNUM(obj1));
+        extract_obj(obj1, TRUE); // Bye arti.
         continue;
       }
 
-      sprintf(descbuf, "%s", temp1->short_description);
+      sprintf( descbuf, "%s%s", obj1->short_description, item_condition(obj1) );
 
-      if ((CAN_SEE_OBJ(ch, temp1)) && (temp1->cost > 0))
+      if( CAN_SEE_OBJ(ch, obj1) && (obj1->cost > 0) )
       {
         temp++;
         found_obj = TRUE;
 
-        sale = (int) (temp1->cost * cost_factor);
+        sale = (int) (obj1->cost * cost_factor);
 
-	// hook for epic bonus
-	sale -= (int) (sale * get_epic_bonus(ch, EPIC_BONUS_SHOP));
+        // hook for epic bonus
+        sale -= (int) (sale * get_epic_bonus(ch, EPIC_BONUS_SHOP));
 
-        if (sale < 1)
+        if( sale < 1 )
           sale = 1;
-        if (temp1->type != ITEM_DRINKCON)
+        if( obj1->type != ITEM_DRINKCON )
         {
-          sprintf(Gbuf2, "%s%s for %s.\r\n", pad_ansi(descbuf, 40).c_str(),
-                  item_condition(temp1), coin_stringv(sale));
+          sprintf(Gbuf2, "%s for %s.\r\n", pad_ansi(descbuf, 45).c_str(), coin_stringv(sale));
         }
         else
         {
-          if (temp1->value[1])
-            sprintf(Gbuf3, "%s of %s", descbuf,
-                    drinks[temp1->value[2]]);
+          if( obj1->value[1] )
+            sprintf(Gbuf3, "%s of %s", descbuf, drinks[obj1->value[2]]);
           else
             sprintf(Gbuf3, "%s", descbuf ? descbuf : "");
-          
-          sprintf(Gbuf2, "%s for %s.\r\n", pad_ansi(Gbuf3, 40).c_str(), coin_stringv(sale));
+
+          sprintf(Gbuf2, "%s for %s.\r\n", pad_ansi(Gbuf3, 45).c_str(), coin_stringv(sale));
         }
-        if (temp < 10)
-          sprintf(Gbuf4, " %d) ", temp);
-        else
-          sprintf(Gbuf4, "%d) ", temp);
+
+        sprintf(Gbuf4, "%2d) ", temp);
         CAP(Gbuf2);
         strcat(Gbuf4, Gbuf2);
         strcat(Gbuf1, Gbuf4);
       }
     }
+  }
 
   if (!found_obj)
     strcat(Gbuf1, "Nothing!\r\n");
