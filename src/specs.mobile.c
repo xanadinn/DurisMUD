@@ -14484,7 +14484,7 @@ int necro_dracolich(P_char ch, P_char pl, int cmd, char *arg)
   return FALSE;
 }
 
-int witch_doctor(P_char ch, P_char customer, int cmd, char *arg)
+int witch_doctor(P_char witch, P_char customer, int cmd, char *arg)
 {
   struct affected_type af;
   char     buf[256];
@@ -14498,72 +14498,74 @@ int witch_doctor(P_char ch, P_char customer, int cmd, char *arg)
     uint     affect_flag;
   } elixir_list[] =
   {
-    { "accelerate",
+    { "accelerate haste",
       "a &+ymagical elixir&n labeled \"&+YAcce&+yler&+Yate&n\"", 3000, 1, AFF_HASTE},
-    { "incendio",
+    { "incendio fire",
       "a &+cwarm bottle&n labeled \"&+rProtectum &+RIncendio&n\"", 400, 1, AFF_PROT_FIRE},
-    { "frigeo",
+    { "frigeo cold",
       "a &+ccold bottle&n labeled \"&+bProtectum &+BFrigeo&n\"", 400, 2, AFF2_PROT_COLD},
-    { "aviate",
+    { "aviate fly",
       "a &+clight flask&n labeled \"&+CAv&+Wia&+Cte&n\"", 1000, 1, AFF_FLY},
-    { "indigetis",
+    { "indigetis epic epics",
       "a &+Wglowing elixir&n labeled \"&+WIn&+wdiget&+Wis&n\"", 10000, 4, AFF4_EPIC_INCREASE},
-    { "gnowsis",
+    { "gnowsis experience exp",
       "a &+mrapidly vibrating vial&n labeled \"&+MGnowsis Ektaktos&n\"", (100 * GET_LEVEL(customer)), 0, TAG_RESTED},
     { 0 }
   };
 
-  if (cmd == CMD_SET_PERIODIC)
+  if( cmd == CMD_SET_PERIODIC )
     return TRUE;               // change to TRUE to enable wandering
 
-  if (cmd == CMD_LIST)
+  if( cmd == CMD_LIST )
   {
-    act
-      ("$n whispers, '&+WI can offer you the following arcane elixirs:&n'\r\n",
-       FALSE, ch, 0, customer, TO_VICT);
-    for (i = 0; elixir_list[i].keyword; i++)
+    act("$n whispers, '&+WI can offer you the following arcane elixirs:&n'\r\n",
+      FALSE, witch, 0, customer, TO_VICT);
+    for( i = 0; elixir_list[i].keyword; i++ )
     {
-      sprintf(buf, "&+W%d)&n %s  - %d &+Wplatinum&n\r\n", i + 1,
-              elixir_list[i].desc, elixir_list[i].price);
+      sprintf(buf, "&+W%d)&n %s  - %d &+Wplatinum&n\r\n", i + 1, elixir_list[i].desc, elixir_list[i].price);
       send_to_char(buf, customer);
     }
     return TRUE;
   }
 
-  if (cmd == CMD_BUY)
+  if( cmd == CMD_BUY )
   {
-    for (i = 0; elixir_list[i].keyword; i++)
+    for( i = 0; elixir_list[i].keyword; i++ )
     {
-      if (((code = atoi(arg)) > 0 && code == i + 1) ||
-          strstr(arg, elixir_list[i].keyword) != NULL)
+      if( ((code = atoi(arg)) > 0 && code == i + 1)
+        || isname(arg, elixir_list[i].keyword) )
       {
-        if (transact(customer, NULL, ch, 1000 * elixir_list[i].price))
+        memset(&af, 0, sizeof(struct affected_type));
+        // Static for TAG_RESTED potion for exp
+        if( i == 5 )
         {
-          memset(&af, 0, sizeof(struct affected_type));
-          if(i == 5) //static for TAG_RESTED potion for exp
-          {
-	    if (affected_by_spell(customer, TAG_RESTED) || affected_by_spell(customer, TAG_WELLRESTED)) 
-	    {
-	      send_to_char("The &+Gwi&+gtc&+Gh &+gdoctor&n says to you 'You already have an &+mexperience bonus&n currently active, come find me again when that one has expired!'\n\n", customer);
-	      sprintf(buf, "He refunds your %d &+Wplatinum&n.\n", (100 * GET_LEVEL(customer)));
-	      send_to_char(buf, customer);
-	      GET_PLATINUM(customer)+=(100 * GET_LEVEL(customer));
-	      return FALSE;
-	    } else 
-	    {
-              af.type = TAG_RESTED;
-              af.flags = AFFTYPE_PERM | AFFTYPE_NODISPEL | AFFTYPE_OFFLINE;
-              debug( "'%s' getting rested bonus from WITCH", J_NAME(customer) );
-	    }
+  	      if (affected_by_spell(customer, TAG_RESTED) || affected_by_spell(customer, TAG_WELLRESTED)) 
+	        {
+            send_to_char("The &+Gwi&+gtc&+Gh &+gdoctor&n says to you 'You already have an &+mexperience bonus&n currently active, come find me again when that one has expired!'\n\n", customer);
+            return TRUE;
           }
           else
           {
-            af.type = TAG_WITCHSPELL;
-            af.flags = AFFTYPE_NOSHOW | AFFTYPE_PERM | AFFTYPE_NODISPEL | AFFTYPE_OFFLINE;
+            // 150 ticks about 2 1/2 hrs.
+            af.duration = 150;
+            af.type = TAG_RESTED;
+            // Note: This one is visible on score while the rest of the witch spells aren't.
+            //   This is justifiable since it has a much shorter timer.
+            af.flags = AFFTYPE_PERM | AFFTYPE_NODISPEL | AFFTYPE_OFFLINE;
+            debug( "'%s' getting rested bonus from WITCH!", J_NAME(customer) );
           }
+        }
+        else
+        {
           // 1 rl week = 7 * 24 * 60.
           af.duration = 10080;
+          af.type = TAG_WITCHSPELL;
+          af.flags = AFFTYPE_NOSHOW | AFFTYPE_PERM | AFFTYPE_NODISPEL | AFFTYPE_OFFLINE;
+        }
 
+        // Prices are in platinum -> 1000 * ...
+        if( transact(customer, NULL, witch, 1000 * elixir_list[i].price) )
+        {
           if (elixir_list[i].affect_vector == 1)
             af.bitvector = elixir_list[i].affect_flag;
           else if (elixir_list[i].affect_vector == 2)
@@ -14576,17 +14578,16 @@ int witch_doctor(P_char ch, P_char customer, int cmd, char *arg)
             af.bitvector5 = elixir_list[i].affect_flag;
           affect_to_char(customer, &af);
           sprintf(buf, "$n reaches down to $s sack and hands to you %s.\n"
-                  "As you quaff %s you feel the &+Ymagical powers&n surge\n"
-                  "through your body transforming you and making more "
-                  "&+Wpowerful&n than before.",
-                  elixir_list[i].desc, elixir_list[i].desc);
-          act(buf, FALSE, ch, 0, customer, TO_VICT);
-          GET_PLATINUM(ch) = 0;
+            "As you quaff %s you feel the &+Ymagical powers&n surge through your body"
+            " transforming you and making more &+Wpowerful&n than before.",
+            elixir_list[i].desc, elixir_list[i].desc);
+          act(buf, FALSE, witch, 0, customer, TO_VICT);
+          GET_PLATINUM(witch) = 0;
         }
         return TRUE;
       }
     }
-    act("$n says, 'I dont sell that.'", FALSE, ch, 0, customer, TO_VICT);
+    act("$n says, 'I dont sell that.'", FALSE, witch, 0, customer, TO_VICT);
     return TRUE;
   }
 
@@ -14613,11 +14614,10 @@ int witch_doctor(P_char ch, P_char customer, int cmd, char *arg)
     else
     {
       act("$n looks around and says, '&+WNice doing trade with you but I need to serve other customers as well.&n'",
-         FALSE, ch, 0, 0, TO_ROOM);
-      act("$n utters a few words, $s form blurs and shifts and $e's gone!",
-          FALSE, ch, 0, 0, TO_ROOM);
-      char_from_room(ch);
-      char_to_room(ch, room, -1);
+         FALSE, witch, 0, 0, TO_ROOM);
+      act("$n utters a few words, $s form blurs and shifts and $e's gone!", FALSE, witch, 0, 0, TO_ROOM);
+      char_from_room(witch);
+      char_to_room(witch, room, -1);
     }
   }
 
