@@ -14488,7 +14488,7 @@ int witch_doctor(P_char witch, P_char customer, int cmd, char *arg)
 {
   struct affected_type af;
   char     buf[256];
-  int      i, room, tries, code, temp;
+  int      i, room, tries, code;
   struct item
   {
     char    *keyword;
