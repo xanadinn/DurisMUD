@@ -234,6 +234,8 @@ int inn(int room, P_char ch, int cmd, char *arg)
 {
   struct zone_data *zone;
   P_char   tch, next_ch;
+  char timestr[MAX_STRING_LENGTH];
+  time_t ct;
 
   /* check for periodic event calls */
   if(cmd == CMD_SET_PERIODIC)
@@ -274,7 +276,8 @@ int inn(int room, P_char ch, int cmd, char *arg)
       send_to_char("The innkeeper says 'I don't serve outlaws like you! Begone!'\r\n", ch);
       return TRUE;
     }
-    if( IS_NOTWELCOME(ch) || GET_RACE(ch) == RACE_ILLITHID )
+    // Allowing Illithids to rent in their own gh.
+    if( IS_NOTWELCOME(ch) ) // || GET_RACE(ch) == RACE_ILLITHID )
     {
       send_to_char("You are NOT welcome here!\r\n", ch);
       return TRUE;
@@ -377,8 +380,14 @@ int inn(int room, P_char ch, int cmd, char *arg)
       */
       return TRUE;
     }
-    loginlog( ch->player.level, "%s [%s] has rented out in [%d].",
-      GET_NAME(ch), (ch->desc) ? ch->desc->host : "LINKDEAD", world[ch->in_room].number);
+    ct = time(NULL);
+    // Convert to EST. - this sux.. gotta be a be'er way.
+    ct -= 4*60*60;
+    sprintf( timestr, "%s", asctime(localtime( &ct )) );
+    sprintf( timestr + strlen(timestr) - 1, " EST" );
+
+    loginlog( ch->player.level, "%s [%s] has rented out in [%d] @ %s.",
+      GET_NAME(ch), (ch->desc) ? ch->desc->host : "LINKDEAD", world[ch->in_room].number, timestr );
     sql_log(ch, CONNECTLOG, "Rented Out");
     extract_char(ch);
     ch = NULL;
