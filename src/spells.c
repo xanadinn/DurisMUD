@@ -51,8 +51,7 @@ extern bool create_walls(int room, int exit, P_char ch, int level, int type,
                          ulong flags);
 
 
-void cast_call_lightning(int level, P_char ch, char *arg, int type,
-                         P_char victim, P_obj tar_obj)
+void cast_call_lightning(int level, P_char ch, char *arg, int type, P_char victim, P_obj tar_obj)
 {
   P_char   next;
 
@@ -104,8 +103,7 @@ void cast_call_lightning(int level, P_char ch, char *arg, int type,
   }
 }
 
-void cast_control_weather(int level, P_char ch, char *arg, int type,
-                          P_char tar_ch, P_obj tar_obj)
+void cast_control_weather(int level, P_char ch, char *arg, int type, P_char tar_ch, P_obj tar_obj)
 {
   char     Gbuf4[MAX_STRING_LENGTH];
   int      var;

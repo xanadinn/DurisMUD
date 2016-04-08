@@ -8717,10 +8717,17 @@ int staff_of_air_conjuration(P_obj obj, P_char ch, int cmd, char *arg)
   {
     if ( isname(arg, "lightning") )
     {
+      if( !OUTSIDE(ch) )
+      {
+        send_to_char( "&+cA small voice inside your head whispers, \"Try it outside.\"\n", ch );
+        return TRUE;
+      }
+
       if (obj->timer[0]+1440 <= curr_time )
       {
-        act("&+cElectrical c&+Wh&+Ca&+Br&+bges&+c begin to &+Ca&+Wr&+Bc&+c and &+Ws&+Cp&+Ba&+brk&+c on the ground randomly..&n", TRUE, ch, obj, victim, TO_ROOM);
-        cast_call_lightning(56, ch, 0, SPELL_TYPE_SPELL, victim, 0);
+        act("&+cElectrical c&+Wh&+Ca&+Br&+bges&+c begin to &+Ca&+Wr&+Bc&+c and &+Ws&+Cp&+Ba&+brk&+c on the ground randomly..&n", TRUE, ch, obj, NULL, TO_CHAR);
+        act("&+cElectrical c&+Wh&+Ca&+Br&+bges&+c begin to &+Ca&+Wr&+Bc&+c and &+Ws&+Cp&+Ba&+brk&+c on the ground randomly..&n", TRUE, ch, obj, NULL, TO_ROOM);
+        cast_call_lightning(56, ch, 0, SPELL_TYPE_SPELL, NULL, 0);
         obj->timer[0] = curr_time;
         return TRUE;
       }
