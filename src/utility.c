@@ -5971,6 +5971,12 @@ bool item_load_check( P_obj item, int ival, int zone_percent )
 
   percent += 5 * fails;
 
+  // Artifacts are more rare from now on (around 30% chance prolly).
+  if( IS_ARTIFACT(item) )
+  {
+    percent /= 2;
+  }
+
   percent = MIN( percent, zone_percent );
 
   if( percent > number(0, 99) )

@@ -1441,7 +1441,6 @@ char *CRYPT2( char *passwd, char *name );
 // Damage bonus to offensive magic for ch: value between 100 and 130% (130 at strength of 181).
 #define MAGICDAMBONUS(ch) ((GET_C_STR(ch) < 121) ? 100 : (GET_C_STR(ch) < 141) ? 110 : (GET_C_STR(ch) < 181) ? 120 : 130)
 
-// Approaches 25% chance as ival approaches infinity.  ival 1 -> 100% chance, 2 -> ~94.5%...
 // Quest items and containers (maybe containing quest items) have 100% load.
 #define ITEM_LOAD_CHECK(item, ival, zone_percent) ( (IS_OBJ_STAT2( item, ITEM2_QUESTITEM ) \
   || ( item->type == ITEM_CONTAINER )) ? TRUE : item_load_check(item, ival, zone_percent) )
