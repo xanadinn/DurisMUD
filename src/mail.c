@@ -20,6 +20,7 @@
 #include "comm.h"
 #include "interp.h"
 #include "utils.h"
+#include "utility.h"
 #include "db.h"
 #include "mm.h"
 #include "justice.h"

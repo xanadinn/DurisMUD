@@ -1,5 +1,7 @@
 #ifndef _TRADESKILL_H_
 
+#define GUILD_COST             5000000
+
 #define REG_FAERIE_BAG_VNUM     400217
 #define RARE_FAERIE_BAG_VNUM    400235
 #define EXCEPT_FAERIE_BAG_VNUM  400233
@@ -193,7 +195,7 @@ void event_mine_check(P_char ch, P_char victim, P_obj, void *data);
 void event_load_mines(P_char ch, P_char victim, P_obj, void *data);
 bool invalid_mine_room(int rroom_id);
 void event_fish_check(P_char ch, P_char victim, P_obj, void *data);
-
+int assoc_founder(P_char mob, P_char pl, int cmd, char *arg);
 
 
 bool player_recipes_exists(char *charname);

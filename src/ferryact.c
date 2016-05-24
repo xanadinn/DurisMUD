@@ -20,6 +20,7 @@ For the main ferry documentation, see ferry.c
 #include "spells.h"
 #include "structs.h"
 #include "utils.h"
+#include "utility.h"
 #include "graph.h"
 #include "ferry.h"
 

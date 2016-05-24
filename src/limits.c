@@ -652,12 +652,12 @@ void advance_level(P_char ch)
   logit(LOG_LEVEL, "Level %2d: %s", GET_LEVEL(ch), GET_NAME(ch));
   ch->only.pc->prestige++;
 
-  if( IS_PC(ch) && GET_A_NUM(ch) && ch->only.pc->highest_level < GET_LEVEL(ch) && ch->group )
+  if( IS_PC(ch) && GET_ASSOC(ch) && ch->only.pc->highest_level < GET_LEVEL(ch) && ch->group )
   {
     int group_size = 1;
     for( struct group_list *gl = ch->group; gl; gl = gl->next )
     {
-      if( IS_PC(gl->ch) && gl->ch != ch && (GET_A_NUM(gl->ch) == GET_A_NUM(ch)) && gl->ch->in_room == ch->in_room )
+      if( IS_PC(gl->ch) && gl->ch != ch && (GET_ASSOC(gl->ch) == GET_ASSOC(ch)) && gl->ch->in_room == ch->in_room )
         group_size++;
     }
 
@@ -667,7 +667,7 @@ void advance_level(P_char ch)
 
       send_to_char("&+bYour guild gained prestige!\r\n", ch);
       prestige = check_nexus_bonus(ch, prestige, NEXUS_BONUS_PRESTIGE);
-      add_assoc_prestige(GET_A_NUM(ch), prestige);
+      GET_ASSOC(ch)->add_prestige( prestige );
     }
   }
 
@@ -776,13 +776,12 @@ void lose_level(P_char ch)
   balance_affects(ch);
 }
 
-void set_title(P_char ch)
+void clear_title(P_char ch)
 {
-  if (GET_TITLE(ch))
+  if( GET_TITLE(ch) )
   {
-
     FREE(ch->player.title);
-    ch->player.title = 0;
+    ch->player.title = NULL;
   }
 }
 

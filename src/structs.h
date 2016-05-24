@@ -63,6 +63,8 @@ typedef signed char               sbyte;
 typedef signed short int          sh_int;
 typedef struct AC_Memory          Memory;
 typedef struct char_data         *P_char;
+typedef struct Guild             *P_Guild;
+typedef struct Alliance          *P_Alliance;
 typedef struct descriptor_data   *P_desc;
 typedef struct event_data        *P_event;
 typedef struct nevent_data       *P_nevent;
@@ -1316,7 +1318,7 @@ struct char_special_data {
   int           combat_tics;
   float         damage_mod;
 
-  ush_int guild;                /* which guild?                            */
+  P_Guild guild;                /* which guild?                            */
   int guild_status;             /* rank, how you enter, etc.               */
 
   int carry_weight;             /* Carried weight                          */

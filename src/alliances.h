@@ -4,12 +4,26 @@
 #include <vector>
 using namespace std;
 
-extern vector<struct alliance_data> alliances;
+extern vector<struct Alliance> alliances;
 
-struct alliance_data {
-  int forging_assoc_id;
-  int joining_assoc_id;
-  int tribute_owed;
+typedef struct Alliance * P_Alliance;
+
+class Alliance
+{
+  friend void load_alliances();
+  friend void save_alliances();
+
+  public:
+    Alliance( P_Guild forgers, P_Guild joiners, int tribute_owed );
+    Alliance( ) : forging_assoc(NULL), joining_assoc(NULL), tribute_owed(0) {}
+    P_Guild get_forgers( ) {return forging_assoc;}
+    P_Guild get_joiners( ) {return joining_assoc;}
+    bool is_allied_with( P_Guild ally);
+
+  protected:
+    P_Guild forging_assoc;
+    P_Guild joining_assoc;
+    int tribute_owed;
 };
 
 #define IS_FORGING_ASSOC(alliance, assoc_id) ( alliance && alliance->forging_assoc_id == assoc_id )
@@ -24,14 +38,8 @@ void do_alliance(P_char ch, char *arg, int cmd);
 void alliance_forge(P_char ch, char *arg, int cmd);
 void alliance_sever(P_char ch, char *arg, int cmd);
 
-void sever_alliance(int assoc_id);
+void sever_alliance( P_Guild guild );
 
-alliance_data *get_alliance(int assoc_id);
-
-void send_to_alliance(char *str, int alliance_id);
-
-bool is_allied_with(int assoc_id1, int assoc_id2);
-
-void sever_revert_sethome(int);
+void send_to_alliance(char *str, P_Alliance alliance);
 
 #endif // _ALLIANCES_H_

@@ -8,6 +8,7 @@
 #include "structs.h"
 #include "prototypes.h"
 #include "utils.h"
+#include "utility.h"
 #include "events.h"
 #include "map.h"
 #include "limits.h"

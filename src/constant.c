@@ -15,6 +15,7 @@
 #include "spells.h"
 #include "structs.h"
 #include "ships.h"
+#include "assocs.h"
 #include "vnum.obj.h"
 
 extern const char *god_list[];
@@ -1908,6 +1909,19 @@ const int avail_hometowns[][LAST_RACE + 1] = {
 
 /* N  Hu Ba Dr Gr Mo Du Ha Gn Og Tr H2 Il Or Th Ce Gi Mi Ae Su Gb Li Va DK SB*/
 
+extern char guild_default_titles[ASC_NUM_RANKS][ASC_MAX_STR_RANK];
+char guild_default_titles[ASC_NUM_RANKS][ASC_MAX_STR_RANK] =
+{
+  "Enemy of",
+  "On parole,",
+  "Member of",
+  "Senior of",
+  "Officer of",
+  "Deputy of",
+  "Leader of",
+  "King of"
+};
+
 /*
  *      SAM 7-94
  *      Guilds in each city (virtual room number) for each class.
@@ -2418,12 +2432,8 @@ const int race_hatred_data[][MAX_HATRED] = {
   {-1,-1,-1,-1,-1}                            /* * END */
 };
 
-extern const char racewar_sides[MAX_RACEWAR+1][10];
-const char racewar_sides[MAX_RACEWAR+1][10] =
+extern const racewar_struct racewar_color[MAX_RACEWAR+2];
+const racewar_struct racewar_color[MAX_RACEWAR+2] =
 {
-  "None",
-  "Good",
-  "Evil",
-  "Undead",
-  "Neutral"
+  {'W', "None"}, {'Y', "Good"}, {'R', "Evil"}, {'L', "Undead"}, {'M', "Neutral"}, {'C', "Unknown"}
 };

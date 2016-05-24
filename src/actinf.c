@@ -8180,7 +8180,7 @@ void do_punish(P_char ch, char *arg, int cmd)
   {
     sprintf(Gbuf1, "Supply a damn reason!\n", GET_NAME(t_ch));
     send_to_char(Gbuf1, ch);
-    set_title(t_ch);
+    clear_title(t_ch);
     return;
   }
   t = time(0);
@@ -8251,7 +8251,7 @@ void do_title(P_char ch, char *arg, int cmd)
   {
     sprintf(Gbuf1, "%s's title cleared.\n", GET_NAME(t_ch));
     send_to_char(Gbuf1, ch);
-    set_title(t_ch);
+    clear_title(t_ch);
     return;
   }
   sprintf(Gbuf1, "Title Bestowed:\n%s %s\n", GET_NAME(t_ch), arg);

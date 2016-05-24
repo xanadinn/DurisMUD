@@ -44,12 +44,14 @@ void Guildhall::initialize()
 
   // load guildhalls from DB
   load_guildhalls(guildhalls);
-  
+
   for( int i = 0; i < guildhalls.size(); i++ )
   {
     load_guildhall_rooms(guildhalls[i]);
+    if( (guildhalls[i]->guild = get_guild_from_id( guildhalls[i]->id )) == NULL )
+      raise(SIGSEGV);
     guildhalls[i]->init();
-  }    
+  }
 }
 
 void Guildhall::shutdown()
@@ -75,14 +77,15 @@ void Guildhall::add(Guildhall* gh)
 
 bool Guildhall::reload()
 {
-  if( !this->deinit() )
+  if( !deinit() )
     return FALSE;
-  
-  this->clear_rooms();
-  load_guildhall(this->id, this);  
+
+  clear_rooms();
+  load_guildhall(id, this);
   load_guildhall_rooms(this);
-    
-  return this->init();  
+  guild = get_guild_from_id( id );
+
+  return this->init();
 }
 
 void Guildhall::remove(Guildhall* gh)
@@ -126,7 +129,7 @@ Guildhall* Guildhall::find_by_assoc_id(int id)
 {
   for( int i = 0; i < guildhalls.size(); i++ )
   {
-    if( guildhalls[i] && guildhalls[i]->assoc_id == id )
+    if( guildhalls[i] && guildhalls[i]->guild->get_id() == id )
     {
       return guildhalls[i];
     }
@@ -251,15 +254,14 @@ LibraryRoom* Guildhall::find_library_by_vnum(int vnum)
 int Guildhall::count_by_assoc_id(int assoc_id, int type)
 {
   int count = 0;
-  
+
   for( int i = 0; i < guildhalls.size(); i++ )
   {
     if( !guildhalls[i] )
       continue;
-    
-    if( guildhalls[i]->assoc_id == assoc_id && guildhalls[i]->type == type )
+
+    if( guildhalls[i]->guild->get_id() == assoc_id && guildhalls[i]->type == type )
       count++;
-    
   }
   return count;
 }
@@ -321,8 +323,8 @@ void Guildhall::add_room(GuildhallRoom* room)
     logit(LOG_GUILDHALLS, "Guildhall::add_room(): invalid room!");
     return;
   }
-  
-  room->guildhall_id = this->id;
+
+  room->guild = this->guild;
   room->guildhall = this;
   this->rooms.push_back(room);
 }
@@ -331,17 +333,20 @@ bool Guildhall::init()
 {
   // guildhall initialization
   // TODO: set up upkeep events
-  
+
   // initialize rooms
   for( int i = 0; i < this->rooms.size(); i++ )
   {
+    if( (this->rooms[i]->guild = this->guild) == NULL )
+      raise(SIGSEGV);
+
     if( !this->rooms[i]->init() )
     {
       logit(LOG_GUILDHALLS, "Guildhall::init(%d): room %d init failed!", this->id, this->rooms[i]->id);
       return FALSE;
     }
   }
-  
+
   return TRUE;
 }
 

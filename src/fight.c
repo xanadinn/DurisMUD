@@ -26,6 +26,7 @@
 #include "spells.h"
 #include "structs.h"
 #include "utils.h"
+#include "utility.h"
 #include "arena.h"
 #include "arenadef.h"
 #include "justice.h"

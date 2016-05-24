@@ -17,6 +17,7 @@ using namespace std;
 #include "utility.h"
 #include "utils.h"
 #include "prototypes.h"
+#include "assocs.h"
 
 extern vector<Guildhall*> guildhalls;
 extern P_room world;
@@ -116,24 +117,24 @@ void load_guildhalls(vector<Guildhall*>& guildhalls)
     logit(LOG_GUILDHALLS, "load_guildhalls(): query failed");
     return;
   }
-  
+
   MYSQL_RES *res = mysql_store_result(DB);
-  
+
   MYSQL_ROW row;
   while( row = mysql_fetch_row(res) )
   {
     Guildhall *gh = new Guildhall();
     gh->id = atoi(row[0]);
-    gh->assoc_id = atoi(row[1]);
+    gh->guild = get_guild_from_id(atoi(row[1]));
     gh->type = atoi(row[2]);
     gh->outside_vnum = atoi(row[3]);
     gh->racewar = atoi(row[4]);
-    
+
     guildhalls.push_back(gh);
   }
-  
-  mysql_free_result(res);  
-#endif  
+
+  mysql_free_result(res);
+#endif
 }
 
 void load_guildhall(int id, Guildhall *gh)
@@ -168,7 +169,7 @@ void load_guildhall(int id, Guildhall *gh)
   }
 
   gh->id = atoi(row[0]);
-  gh->assoc_id = atoi(row[1]);
+  gh->guild = get_guild_from_id(atoi(row[1]));
   gh->type = atoi(row[2]);
   gh->outside_vnum = atoi(row[3]);
   gh->racewar = atoi(row[4]);
@@ -184,27 +185,27 @@ void load_guildhall_rooms(Guildhall *guildhall)
     logit(LOG_GUILDHALLS, "read_guildhall_rooms(): invalid guildhall!");
     return;
   }
-  
+
   if( guildhall->id <= 0 )
   {
     logit(LOG_GUILDHALLS, "read_guildhall_rooms(): invalid id (%d)", guildhall->id);
     return;
   }
-  
+
 #ifndef __NO_MYSQL__
   if(!qry("select id, vnum, guildhall_id, name, type, value0, value1, value2, value3, value4, value5, value6, value7, exit0, exit1, exit2, exit3, exit4, exit5, exit6, exit7, exit8, exit9 from guildhall_rooms where guildhall_id = %d order by vnum", guildhall->id))
   {
     logit(LOG_GUILDHALLS, "read_guildhall_rooms(): query failed");
     return;
-  }  
-  
+  }
+
   MYSQL_RES *res = mysql_store_result(DB);
-  
+
   MYSQL_ROW row;
   while( row = mysql_fetch_row(res) )
   {
     GuildhallRoom *room = NULL;
-    
+
     switch(atoi(row[4]))
     {
       case GH_ROOM_TYPE_ENTRANCE:
@@ -212,7 +213,7 @@ void load_guildhall_rooms(Guildhall *guildhall)
         break;
       case GH_ROOM_TYPE_INN:
         room = new InnRoom();
-        break;      
+        break;
       case GH_ROOM_TYPE_HEARTSTONE:
         room = new HeartstoneRoom();
         break;
@@ -227,16 +228,16 @@ void load_guildhall_rooms(Guildhall *guildhall)
         break;
       case GH_ROOM_TYPE_BANK:
         room = new BankRoom();
-        break;        
+        break;
       case GH_ROOM_TYPE_TOWN_PORTAL:
         room = new TownPortalRoom();
-        break;        
+        break;
       case GH_ROOM_TYPE_LIBRARY:
         room = new LibraryRoom();
-        break;                
+        break;
       case GH_ROOM_TYPE_CARGO:
         room = new CargoRoom();
-        break;                        
+        break;
       default:
         room = new GuildhallRoom();
     }
@@ -246,10 +247,10 @@ void load_guildhall_rooms(Guildhall *guildhall)
       logit(LOG_GUILDHALLS, "load_guildhall_rooms(): couldn't allocate new guildhallroom!");
       return;
     }
-    
+
     room->id = atoi(row[0]);
     room->vnum = atoi(row[1]);
-    room->guildhall_id = atoi(row[2]);
+    room->guild = guildhall->get_assoc();
     room->name = string(row[3]);
     room->type = atoi(row[4]);
     
@@ -294,7 +295,7 @@ bool save_guildhall(Guildhall *gh)
   return TRUE;
 #else  
   if(!qry("replace into guildhalls (id, assoc_id, type, outside_vnum, racewar) values (%d, %d, %d, %d, %d)",
-          gh->id, gh->assoc_id, gh->type, gh->outside_vnum, gh->racewar))
+          gh->id, gh->guild, gh->type, gh->outside_vnum, gh->racewar))
   {
     logit(LOG_GUILDHALLS, "save_guildhall(): replace query failed!");
     return FALSE;
@@ -330,7 +331,7 @@ bool save_guildhall_room(GuildhallRoom *room)
   if(!qry("replace into guildhall_rooms (id, vnum, guildhall_id, name, type, value0, value1, value2, value3, value4, value5, value6, value7, exit0, exit1, exit2, exit3, exit4, exit5, exit6, exit7, exit8, exit9) values (%d, %d, %d, '%s', %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d)",
           room->id,
           room->vnum, 
-          room->guildhall_id, 
+          room->guild->get_id(), 
           escape_str(room->name.c_str()).c_str(), 
           room->type, 
           room->value[0], 

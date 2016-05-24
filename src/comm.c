@@ -381,12 +381,15 @@ void run_the_game(int port)
     fprintf(stderr, "Starting without ferries.\r\n");
 
   initialize_transport();
-  
+
   //initialize_buildings();
+
+  Guild::initialize();
+  fprintf(stderr, "-- Done loading guilds\r\n");
 
   Guildhall::initialize();
   fprintf(stderr, "-- Done loading guildhalls\r\n");
-  
+
   init_auction_houses();
 
   reset_racewar_stat_mods();

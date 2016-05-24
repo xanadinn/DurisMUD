@@ -21,8 +21,8 @@
 #include "db.h"
 #include "justice.h"
 
-#define CAN_CONSTRUCT_CMD(ch) ( GET_A_NUM(ch) && (IS_LEADER(GET_M_BITS(GET_A_BITS(ch), A_RK_MASK)) || GT_LEADER(GET_M_BITS(GET_A_BITS(ch), A_RK_MASK))) )
-#define CAN_GUILDHALL_CMD(ch) ( GET_A_NUM(ch) && (IS_OFFICER(GET_M_BITS(GET_A_BITS(ch), A_RK_MASK)) || GT_OFFICER(GET_M_BITS(GET_A_BITS(ch), A_RK_MASK))) )
+#define CAN_CONSTRUCT_CMD(ch) ( GET_ASSOC(ch) && (IS_LEADER(GET_M_BITS(GET_A_BITS(ch), A_RK_MASK)) || GT_LEADER(GET_M_BITS(GET_A_BITS(ch), A_RK_MASK))) )
+#define CAN_GUILDHALL_CMD(ch) ( GET_ASSOC(ch) && (IS_OFFICER(GET_M_BITS(GET_A_BITS(ch), A_RK_MASK)) || GT_OFFICER(GET_M_BITS(GET_A_BITS(ch), A_RK_MASK))) )
 
 // global variable declarations
 extern P_room world;
@@ -47,7 +47,7 @@ void do_guildhall_info(P_char ch, char *arg);
 void do_guildhall_move(P_char ch, char *arg);
 
 void guildhall_info(Guildhall *gh, P_char ch);
-bool construct_main_guildhall(int assoc_id, int outside_vnum, int racewar);
+bool construct_main_guildhall(P_Guild guild, int outside_vnum, int racewar);
 bool construct_new_guildhall_room(int id, int from_vnum, int dir);
 bool construct_golem(Guildhall *gh, int slot, int type);
 bool upgrade_room(GuildhallRoom *room, int type);
@@ -63,14 +63,14 @@ bool guildhall_map_check(P_char ch);
 int check_gh_home(P_char ch, int r_room)
 {
   Guildhall *gh = NULL;
-  
+
   //debug("entering check_gh_home(): home: %d birthplace: %d orig_birthplace: %d", GET_HOME(ch), GET_BIRTHPLACE(ch), GET_ORIG_BIRTHPLACE(ch));
 
   if( IN_GH_ZONE(real_room0(GET_BIRTHPLACE(ch))) )
   {
     gh = Guildhall::find_by_vnum(GET_BIRTHPLACE(ch));
-    
-    if( !gh || !IS_ASSOC_MEMBER(ch, gh->assoc_id) )
+
+    if( !gh || !IS_ASSOC_MEMBER(ch, gh->guild) )
     {
       debug("%s birthplace in GH but no GH or doesn't belong to guild, bumping to hometown", GET_NAME(ch));
       GET_BIRTHPLACE(ch) = GET_ORIG_BIRTHPLACE(ch);
@@ -81,7 +81,7 @@ int check_gh_home(P_char ch, int r_room)
   {
     gh = Guildhall::find_by_vnum(GET_HOME(ch));
     
-    if( !gh || !IS_ASSOC_MEMBER(ch, gh->assoc_id) )
+    if( !gh || !IS_ASSOC_MEMBER(ch, gh->guild) )
     {
       debug("%s home in GH but no GH or doesn't belong to guild, bumping to hometown", GET_NAME(ch));
       GET_HOME(ch) = GET_BIRTHPLACE(ch);
@@ -93,7 +93,7 @@ int check_gh_home(P_char ch, int r_room)
   {
     gh = Guildhall::find_by_vnum(world[r_room].number);
 
-    if( !gh || GET_A_NUM(ch) != gh->assoc_id )
+    if( !gh || GET_ASSOC(ch) != gh->guild )
     {
       // if player comes back in the GH zone but not inside of a GH, bump to hometown
       debug("%s entering game in GH zone but no GH or not in guild, bumping to hometown", GET_NAME(ch));
@@ -185,7 +185,7 @@ void do_construct_overmax(P_char ch, char *arg)
   if (!ch)
     return;
 
-  if (!GET_A_NUM(ch))
+  if (!GET_ASSOC(ch))
   {
     send_to_char("You must be the leader of a guild to expand your max players.\r\n", ch);
     return;
@@ -201,7 +201,7 @@ void do_construct_overmax(P_char ch, char *arg)
   else
     maxovermax = 0;
 
-  if(get_assoc_overmax(GET_A_NUM(ch)) >= maxovermax)
+  if( GET_ASSOC(ch)->get_overmax() >= maxovermax )
   {
     send_to_char("You can't purchase anymore max players.\r\n", ch);
     return;
@@ -216,19 +216,19 @@ void do_construct_overmax(P_char ch, char *arg)
       send_to_char(buff, ch);
       return;
     }
-  
-    if(get_assoc_cps(GET_A_NUM(ch)) < cp_cost)
+
+    if( GET_ASSOC(ch)->get_construction() < cp_cost )
     {
       sprintf(buff, "Your guild doesn't yet have enough &+Wconstruction points&n - it costs %d to add a member over max.\r\n", cp_cost);
       send_to_char(buff, ch);
       return;
     }
   }
-  
+
   if (!IS_TRUSTED(ch))
     SUB_MONEY(ch, plat_cost, 0);
-  add_assoc_cps(GET_A_NUM(ch), -cp_cost);
-  add_assoc_overmax(GET_A_NUM(ch), 1);
+  GET_ASSOC(ch)->add_construction( -cp_cost );
+  GET_ASSOC(ch)->add_overmax( 1 );
   send_to_char("You have purchased an overmax player limit.\n\r", ch);
 
   return;
@@ -244,7 +244,7 @@ void do_construct_guildhall(P_char ch, char *arg)
   if(!ch)
     return;
   
-  if(!GET_A_NUM(ch))
+  if(!GET_ASSOC(ch))
   {
     send_to_char("You must be the leader of a guild to build a guildhall.\r\n", ch);
     return;
@@ -257,7 +257,7 @@ void do_construct_guildhall(P_char ch, char *arg)
       return;
     }
     
-    if( Guildhall::count_by_assoc_id(GET_A_NUM(ch), GH_TYPE_MAIN) > 0 )
+    if( Guildhall::count_by_assoc_id(GET_ASSOC(ch)->get_id(), GH_TYPE_MAIN) > 0 )
     {
       send_to_char("You already have a guildhall!\r\n", ch);
       return;
@@ -270,28 +270,28 @@ void do_construct_guildhall(P_char ch, char *arg)
       return;
     }
     
-    if(get_assoc_cps(GET_A_NUM(ch)) < cp_cost)
+    if( GET_ASSOC(ch)->get_construction() < cp_cost )
     {
       sprintf(buff, "Your guild doesn't yet have enough &+Wconstruction points&n - it costs %d to build a guildhall.\r\n", cp_cost);
       send_to_char(buff, ch);
       return;
     }
   }
-  
-  if( construct_main_guildhall(GET_A_NUM(ch), world[ch->in_room].number, GET_RACEWAR(ch)) )
+
+  if( construct_main_guildhall(GET_ASSOC(ch), world[ch->in_room].number, GET_RACEWAR(ch)) )
   {
     if(!IS_TRUSTED(ch))
     {
       SUB_MONEY(ch, plat_cost, 0);
-      add_assoc_cps(GET_A_NUM(ch), -cp_cost);
+      GET_ASSOC(ch)->add_construction( -cp_cost );
     }
-    
+
     send_to_char("You stand back as a &+ggremlin construction team&n begins scrambling around the construction site. The building\r\n"
                  "begins to take shape immediately, and only a few minutes later you are left with a brand new guildhall and\r\n"
                  "a much lighter wallet.\r\n", ch);
     
     CharWait(ch, PULSE_VIOLENCE*2);
-    logit(LOG_GUILDHALLS, "%s built a main guildhall for %s in %d", GET_NAME(ch), strip_ansi(get_assoc_name(GET_A_NUM(ch)).c_str()).c_str(), world[ch->in_room].number);
+    logit(LOG_GUILDHALLS, "%s built a main guildhall for %s in %d", GET_NAME(ch), strip_ansi(GET_ASSOC(ch)->get_name().c_str()).c_str(), world[ch->in_room].number);
     return;
   }
   else
@@ -321,7 +321,7 @@ void do_construct_room(P_char ch, char *arg)
     return;
   }
   
-  if( GET_A_NUM(ch) != gh->assoc_id )
+  if( GET_ASSOC(ch) != gh->guild )
   {
     send_to_char("You can only construct inside of YOUR guildhall.\r\n", ch);
     return;
@@ -366,7 +366,7 @@ void do_construct_room(P_char ch, char *arg)
       return;
     }    
     
-    if(get_assoc_cps(GET_A_NUM(ch)) < cp_cost)
+    if(GET_ASSOC(ch)->get_construction() < cp_cost)
     {
       sprintf(buff, "Your guild doesn't yet have enough &+Wconstruction points&n - it costs %d to build a new room.\r\n", cp_cost);
       send_to_char(buff, ch);
@@ -379,14 +379,14 @@ void do_construct_room(P_char ch, char *arg)
     if(!IS_TRUSTED(ch))
     {
       SUB_MONEY(ch, plat_cost, 0);
-      add_assoc_cps(GET_A_NUM(ch), -cp_cost);
+      GET_ASSOC(ch)->add_construction( -cp_cost );
     }
     
     send_to_char("A &+ggremlin construction team&n appears immediately from out of nowhere and begins boring a hole\r\n"
                  "in the wall. Seconds later the dust settles and your hall has a new room!\r\n", ch);
     
     CharWait(ch, PULSE_VIOLENCE*2);
-    logit(LOG_GUILDHALLS, "%s built a new room for %s in %d", GET_NAME(ch), strip_ansi(get_assoc_name(GET_A_NUM(ch)).c_str()).c_str(), world[ch->in_room].number);
+    logit(LOG_GUILDHALLS, "%s built a new room for %s in %d", GET_NAME(ch), strip_ansi(GET_ASSOC(ch)->get_name().c_str()).c_str(), world[ch->in_room].number);
     return;
   }
   else
@@ -414,7 +414,7 @@ void do_construct_golem(P_char ch, char *arg)
     return;
   }
 
-  if( GET_A_NUM(ch) != gh->assoc_id )
+  if( GET_ASSOC(ch) != gh->guild )
   {
     send_to_char("You can only construct inside of YOUR guildhall.\r\n", ch);
     return;
@@ -522,7 +522,7 @@ void do_construct_golem(P_char ch, char *arg)
       return;
     }
 
-    if(get_assoc_cps(GET_A_NUM(ch)) < cp_cost)
+    if(GET_ASSOC(ch)->get_construction() < cp_cost)
     {
       sprintf(buff, "Your guild doesn't yet have enough &+Wconstruction points&n - it costs %d to build that type of golem.\r\n", cp_cost);
       send_to_char(buff, ch);
@@ -535,7 +535,7 @@ void do_construct_golem(P_char ch, char *arg)
     if(!IS_TRUSTED(ch))
     {
       SUB_MONEY(ch, plat_cost, 0);
-      add_assoc_cps(GET_A_NUM(ch), -cp_cost);
+      GET_ASSOC(ch)->add_construction( -cp_cost );
     }
 
     send_to_char("A &+ggremlin construction team&n appears carrying a massive load of iron, clay, pottery, and bits of string.\r\n"
@@ -544,7 +544,7 @@ void do_construct_golem(P_char ch, char *arg)
                  "and the &+ggremlins&n disappear as quickly as they came.\r\n", ch);
 
     CharWait(ch, PULSE_VIOLENCE*2);
-    logit(LOG_GUILDHALLS, "%s built a type %d golem for %s in %d", GET_NAME(ch), type, strip_ansi(get_assoc_name(GET_A_NUM(ch)).c_str()).c_str(), world[ch->in_room].number);
+    logit(LOG_GUILDHALLS, "%s built a type %d golem for %s in %d", GET_NAME(ch), type, strip_ansi(GET_ASSOC(ch)->get_name().c_str()).c_str(), world[ch->in_room].number);
     return;
   }
   else
@@ -573,7 +573,7 @@ void do_construct_upgrade(P_char ch, char *arg)
   if(!gh)
     return;
 
-  if( GET_A_NUM(ch) != gh->assoc_id )
+  if( GET_ASSOC(ch) != gh->guild )
   {
     send_to_char("You can only construct inside of YOUR guildhall.\r\n", ch);
     return;
@@ -685,7 +685,7 @@ void do_construct_upgrade(P_char ch, char *arg)
       return;
     }    
     
-    if(get_assoc_cps(GET_A_NUM(ch)) < cp_cost)
+    if(GET_ASSOC(ch)->get_construction() < cp_cost)
     {
       sprintf(buff, "Your guild doesn't yet have enough &+Wconstruction points&n - it costs %d for that room upgrade.\r\n", cp_cost);
       send_to_char(buff, ch);
@@ -698,14 +698,14 @@ void do_construct_upgrade(P_char ch, char *arg)
     if(!IS_TRUSTED(ch))
     {
       SUB_MONEY(ch, plat_cost, 0);
-      add_assoc_cps(GET_A_NUM(ch), -cp_cost);
+      GET_ASSOC(ch)->add_construction( -cp_cost );
     }
     
     send_to_char("A &+ggremlin construction team&n appears suddenly and begins to renovate the room. As quickly as they appeared,\r\n"
                  "they are suddenly gone and the room has had a complete makeover.\r\n", ch);
     
     CharWait(ch, PULSE_VIOLENCE*2);
-    logit(LOG_GUILDHALLS, "%s upgraded room for %s in %d to type %d", GET_NAME(ch), strip_ansi(get_assoc_name(GET_A_NUM(ch)).c_str()).c_str(), world[ch->in_room].number, type);
+    logit(LOG_GUILDHALLS, "%s upgraded room for %s in %d to type %d", GET_NAME(ch), strip_ansi(GET_ASSOC(ch)->get_name().c_str()).c_str(), world[ch->in_room].number, type);
     return;
   }
   else
@@ -738,7 +738,7 @@ void do_construct_rename(P_char ch, char *arg)
     return;
   }
 
-  if( GET_A_NUM(ch) != gh->assoc_id )
+  if( GET_ASSOC(ch) != gh->guild )
   {
     send_to_char("You can only construct inside of YOUR guildhall.\r\n", ch);
     return;
@@ -769,7 +769,7 @@ void do_construct_rename(P_char ch, char *arg)
       return;
     }    
     
-    if(get_assoc_cps(GET_A_NUM(ch)) < cp_cost)
+    if(GET_ASSOC(ch)->get_construction() < cp_cost)
     {
       sprintf(buff, "Your guild doesn't yet have enough &+Wconstruction points&n - it costs %d to rename the room.\r\n", cp_cost);
       send_to_char(buff, ch);
@@ -782,14 +782,14 @@ void do_construct_rename(P_char ch, char *arg)
     if(!IS_TRUSTED(ch))
     {
       SUB_MONEY(ch, plat_cost, 0);
-      add_assoc_cps(GET_A_NUM(ch), -cp_cost);
+      GET_ASSOC(ch)->add_construction( -cp_cost );
     }
     
     send_to_char("An annoyed, blurry-eyed &+ggremlin&n appears, gives you a dirty look, claps his hands two and a half times,\r\n"
                  "and then disappears. In the silence after his departure you notice that the room has ... changed.\r\n", ch);
     
     CharWait(ch, PULSE_VIOLENCE*2);
-    logit(LOG_GUILDHALLS, "%s renamed for %s room %d to %s", GET_NAME(ch), strip_ansi(get_assoc_name(GET_A_NUM(ch)).c_str()).c_str(), world[ch->in_room].number, arg);
+    logit(LOG_GUILDHALLS, "%s renamed for %s room %d to %s", GET_NAME(ch), strip_ansi(GET_ASSOC(ch)->get_name().c_str()).c_str(), world[ch->in_room].number, arg);
     return;
   }
   else
@@ -879,16 +879,16 @@ void do_guildhall_list(P_char ch, char *arg)
   for( int i = 0; i < Guildhall::guildhalls.size(); i++ )
   {
     Guildhall* gh = Guildhall::guildhalls[i];
-    
+
     if(!gh)
       continue;
-    
+
     char buff[MAX_STRING_LENGTH];
-    
+
     sprintf(buff, "%4d &+b|&n %2d: %s&n &+b|&n &+C%10d&n &+b|&n &+C%7d&n &+b| %s&n\r\n", 
             gh->id, 
-            gh->assoc_id,
-            pad_ansi(get_assoc_name(gh->assoc_id).c_str(), 25).c_str(), 
+            gh->guild->get_id(),
+            pad_ansi(gh->guild->get_name().c_str(), 25).c_str(), 
             (gh->heartstone_room ? gh->heartstone_room->vnum : -1),
             gh->outside_vnum,
             continent_name(world[real_room0(gh->outside_vnum)].continent));
@@ -906,7 +906,7 @@ void do_guildhall_destroy(P_char ch, char *arg)
 
   if( destroy_guildhall(id) )
   {
-    logit(LOG_GUILDHALLS, "%s destroyed guildhall %d (%s)", GET_NAME(ch), id, strip_ansi(get_assoc_name(GET_A_NUM(ch)).c_str()).c_str());
+    logit(LOG_GUILDHALLS, "%s destroyed guildhall %d (%s)", GET_NAME(ch), id, strip_ansi(GET_ASSOC(ch)->get_name().c_str()).c_str());
     send_to_char("Guildhall destroyed.\r\n", ch);
   }
   else
@@ -924,7 +924,7 @@ void do_guildhall_reload(P_char ch, char *arg)
   
   if( reload_guildhall(id) )
   {
-    logit(LOG_GUILDHALLS, "%s reloaded guildhall %d (%s)", GET_NAME(ch), id, strip_ansi(get_assoc_name(GET_A_NUM(ch)).c_str()).c_str());
+    logit(LOG_GUILDHALLS, "%s reloaded guildhall %d (%s)", GET_NAME(ch), id, strip_ansi(GET_ASSOC(ch)->get_name().c_str()).c_str());
     send_to_char("Guildhall reloaded.\r\n", ch);
   }
   else 
@@ -1030,7 +1030,7 @@ void do_guildhall_move(P_char ch, char *arg)
   
   if( move_guildhall(gh, vnum) )
   {
-    logit(LOG_GUILDHALLS, "%s moved guildhall %d (%s) from %d to %d", GET_NAME(ch), gh->id, strip_ansi(get_assoc_name(GET_A_NUM(ch)).c_str()).c_str(), old_vnum, vnum);
+    logit(LOG_GUILDHALLS, "%s moved guildhall %d (%s) from %d to %d", GET_NAME(ch), gh->id, strip_ansi(GET_ASSOC(ch)->get_name().c_str()).c_str(), old_vnum, vnum);
     send_to_char("Guildhall moved!\r\n", ch);
   }
   else
@@ -1056,11 +1056,11 @@ void do_guildhall_move(P_char ch, char *arg)
  
  South from entrance leads back to outside guildhall
  */
-bool construct_main_guildhall(int assoc_id, int outside_vnum, int racewar)
+bool construct_main_guildhall(P_Guild guild, int outside_vnum, int racewar)
 {
   Guildhall *gh = new Guildhall();
   gh->id = next_guildhall_id();
-  gh->assoc_id = assoc_id;
+  gh->guild = guild;
   gh->type = GH_TYPE_MAIN;
   gh->outside_vnum = outside_vnum;
   gh->racewar = racewar;
@@ -1240,7 +1240,7 @@ void guildhall_info(Guildhall *gh, P_char ch)
   sprintf(buff, "&+BGuildhall in &n%s\r\n", world[real_room0(gh->outside_vnum)].name);
   send_to_char(buff, ch);
 
-  sprintf(buff, "&+BOwned by&n %s\r\n", get_assoc_name(gh->assoc_id).c_str());
+  sprintf(buff, "&+BOwned by&n %s\r\n", gh->guild->get_name().c_str());
   send_to_char(buff, ch);
 
   sprintf(buff, "&+BRooms:&n %d\r\n", (int) gh->rooms.size());
@@ -1414,7 +1414,7 @@ P_obj find_gh_library_book_obj(P_char ch)
   if(!room->guildhall)
     return NULL;
   
-  if(GET_A_NUM(ch) != room->guildhall->assoc_id)
+  if(GET_ASSOC(ch) != room->guild)
     return NULL;
   
   return room->tome;

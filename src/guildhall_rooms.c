@@ -93,15 +93,15 @@ bool GuildhallRoom::valid()
 }
 
 bool GuildhallRoom::init()
-{   
+{
   if( !this->valid() )
   {
     logit(LOG_GUILDHALLS, "GuildhallRoom::init(%d): invalid!", this->id);
     return FALSE;
   }
-  
+
   this->room = &world[real_room0(this->vnum)];
-  
+
   SET_BIT(this->room->room_flags, GUILD_ROOM);
   SET_BIT(this->room->room_flags, NO_MOB);
   SET_BIT(this->room->room_flags, NO_TELEPORT);
@@ -109,14 +109,14 @@ bool GuildhallRoom::init()
   SET_BIT(this->room->room_flags, NO_SUMMON);
   SET_BIT(this->room->room_flags, NO_GATE);
   SET_BIT(this->room->room_flags, TWILIGHT);
-  
+
   // set up room exits
-  for (int dir = 0; dir < NUM_EXITS; dir++)
+  for( int dir = 0; dir < NUM_EXITS; dir++ )
   {
     if( this->has_exit(dir) && real_room0(this->exits[dir]) )
       connect_rooms(this->vnum, this->exits[dir], dir, -1);
   }
-  
+
   // set up name
   if( this->name.length() )
   {
@@ -125,10 +125,10 @@ bool GuildhallRoom::init()
   else
   {
     char buff[MAX_STRING_LENGTH];
-    sprintf(buff, world[real_room0(this->template_vnum)].name, get_assoc_name(this->guildhall->assoc_id).c_str());    
+    sprintf(buff, world[real_room0(this->template_vnum)].name, this->guild->get_name().c_str());
     this->room->name = str_dup(buff);
   }
-  
+
   return TRUE;
 }
 
@@ -173,7 +173,7 @@ bool EntranceRoom::init()
   {
     char buff[MAX_STRING_LENGTH];
     this->door->str_mask = STRUNG_DESC1;
-    sprintf(buff, this->door->description, get_assoc_name(this->guildhall->assoc_id).c_str());
+    sprintf(buff, this->door->description, this->guild->get_name().c_str());
     this->door->description = str_dup(buff);
     this->door->value[0] = this->vnum;
     obj_to_room(this->door, real_room0(this->guildhall->outside_vnum));
@@ -219,7 +219,7 @@ bool EntranceRoom::init()
       
       GET_HOME(golem) = GET_BIRTHPLACE(golem) = GET_ORIG_BIRTHPLACE(golem) = this->vnum;
       
-      GET_A_NUM(golem) = this->guildhall->assoc_id;
+      GET_ASSOC(golem) = this->guild;
       if(this->guildhall->racewar == RACEWAR_GOOD)
       {
          SET_BIT(golem->only.npc->aggro_flags, AGGR_EVIL_RACE);
@@ -269,7 +269,7 @@ bool InnRoom::init()
   world[real_room0(this->vnum)].funct = inn;
   
   // set up guild board
-  if( (this->board = read_object(GH_BOARD_START + this->guildhall->assoc_id, VIRTUAL)) )
+  if( (this->board = read_object(GH_BOARD_START + this->guild->get_id(), VIRTUAL)) )
   {
     obj_to_room(board, real_room0(this->vnum));
   }

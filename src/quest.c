@@ -16,6 +16,7 @@
 #include "spells.h"
 #include "structs.h"
 #include "utils.h"
+#include "utility.h"
 #include "sql.h"
 
 /* external variables */

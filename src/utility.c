@@ -231,7 +231,7 @@ bool is_ansi_char(char collor_char)
       default:
          break;
    }
-   
+
    return FALSE;
 }
 
@@ -313,12 +313,12 @@ bool is_valid_ansi_with_msg(P_char ch, char *ansi_text, bool can_set_blinking)
 }
 
 __attribute__ ((deprecated))
-     char    *stripansi(const char *mesg)
+char *stripansi(const char *mesg)
 {
   char     tmp_buf[MAX_STRING_LENGTH];
   int      i, j, length;
 
-  if (mesg == NULL)
+  if( mesg == NULL )
   {
     return NULL;
   }
@@ -362,7 +362,7 @@ __attribute__ ((deprecated))
 
 int stripansi_2(const char *mesg, char *destination)
 {
-  int      i,j, length;
+  int i,j, length;
 
   if ((mesg == NULL) || (destination == NULL))
   {
@@ -406,7 +406,7 @@ int stripansi_2(const char *mesg, char *destination)
   return i;
 }
 
-char    *striplinefeed(char *mesg)
+char *striplinefeed(char *mesg)
 {
   char     tmp_buf[MAX_STRING_LENGTH];
   int      i;
@@ -896,7 +896,7 @@ void statuslog(int level, const char *format, ...)
 
   // Remove the newline/carriage return and send it to the log file.
   lbuf[strlen(lbuf)-2] = '\0';
-  logit(LOG_STATUS, stripansi(lbuf));
+  logit(LOG_STATUS, strip_ansi(lbuf).c_str());
 }
 
 void epiclog(int level, const char *format, ...)
@@ -924,7 +924,7 @@ void epiclog(int level, const char *format, ...)
 
   // Remove the newline/carriage return and send it to the log file.
   lbuf[strlen(lbuf)-2] = '\0';
-  logit(LOG_EPIC, stripansi(lbuf));
+  logit(LOG_EPIC, strip_ansi(lbuf).c_str());
 }
 
 void banlog(int level, const char *format, ...)
@@ -1600,22 +1600,21 @@ bool can_char_multi_to_class(P_char ch,  int m_class)
   return FALSE;
 }
 
-
 int coin_type(char *s)
 {
   if( !*s )
   {
-    return -1;
+    return COIN_NONE;
   }
   if( is_abbrev(s, "copper") )
-    return 0;
+    return COIN_COPPER;
   if( is_abbrev(s, "silver") )
-    return 1;
+    return COIN_SILVER;
   if( is_abbrev(s, "gold") )
-    return 2;
+    return COIN_GOLD;
   if( is_abbrev(s, "platinum") )
-    return 3;
-  return -1;
+    return COIN_PLATINUM;
+  return COIN_NONE;
 }
 
 int ScaleAreaDamage(P_char ch, int orig_dam)
@@ -3118,27 +3117,27 @@ string pad_ansi(const char *str, int length, bool trim_to_length)
   return ret_str;
 }
 
-string strip_ansi(const char *str)
+string strip_ansi( const char *str )
 {
   int      i = 0;
   string colorless;
-  
-  while (*str)
+
+  while( *str )
   {
-    if (*str == '&')
+    if( *str == '&' )
     {
-      if (LOWER(*(str + 1)) == 'n')
+      if( LOWER(*(str + 1)) == 'n' )
       {
         str += 2;
         continue;
       }
-      if ((*(str + 1) == '-') || (*(str + 1) == '+'))
+      if( (*(str + 1) == '-') || (*(str + 1) == '+') )
       {
         if (isupper(*(str + 1))) ;
         str += 3;
         continue;
       }
-      if ((*(str + 1) == '='))
+      if( (*(str + 1) == '=') )
       {
         if (isupper(*(str + 1))) ;
         if (isupper(*(str + 2))) ;
@@ -4149,7 +4148,7 @@ int is_introd(P_char viewee, P_char viewer)
 
   if (IS_NPC(viewee) || (IS_NPC(viewer) && (GET_VNUM(viewer) != 250)))
     return TRUE;
-  if (GET_A_NUM(viewee) && (GET_A_NUM(viewee) == GET_A_NUM(viewer)) &&
+  if (GET_ASSOC(viewee) && (GET_ASSOC(viewee) == GET_ASSOC(viewer)) &&
       IS_MEMBER(GET_A_BITS(viewer)) && IS_MEMBER(GET_A_BITS(viewee)))
     return TRUE;
   if (IS_TRUSTED(viewer) || IS_TRUSTED(viewee))
@@ -5166,7 +5165,7 @@ int ansi_strlen(const char *string)
 
   for (i = 0; string[i]; i++)
   {
-    if (string[i] == '&' && state == 0)
+    if( string[i] == '&' && state == 0 )
       state = 1;
     else if ((string[i] == '+' || string[i] == '-') && state == 1)
       state = 2;
@@ -5174,6 +5173,12 @@ int ansi_strlen(const char *string)
       state = 0;
     else if ((string[i] == 'n' || string[i] == 'N') && state == 1)
       state = 0;
+    // && -> &
+    else if( string[i] == '&' && state == 1 )
+    {
+      state = 0;
+      length++;
+    }
     else
     {
       state = 0;
@@ -6010,4 +6015,554 @@ P_desc get_descriptor_from_name( char *name )
     }
   }
   return NULL;
+}
+
+// Turns the 4 values of coins into a single, legible string, using color_string as the
+//   ansi-color string (ie &+y or &n) for the puncuation (commas) and "and" if applicable.
+// coins is a bitstring representing whether or not to print each coin type.
+// and_pos is the place to put the and (before the last non-zero coin type iff there's a preceding type).
+// This is kinda long, but it should be easy enough to read.
+char *coins_to_string( int platinum, int gold, int silver, int copper, char *color_string )
+{
+  static char ret_string[MAX_STRING_LENGTH];
+  int coins, and_pos, pos1, pos2;
+
+  coins = and_pos = pos1 = pos2 = 0;
+  ret_string[0] = '\0';
+
+  // Start with copper to make and_pos easy to calculate.
+  if( copper != 0 )
+  {
+    // Set the print copper to true.
+    coins += BIT_4;
+    // Set and_pos to possibly be before copper.
+    and_pos = -4;
+  }
+  if( silver != 0 )
+  {
+    // Set the print silver to true.
+    coins += BIT_3;
+    // If we have a previous (smaller) coin type, set the and_pos value to positive to
+    //   show that we do want "and" and we want it in the previous type's position.
+    if( and_pos < 0 )
+    {
+      and_pos *= -1;
+    }
+    // If we don't have a smaller coin type, set the possible and to the before silver position.
+    else
+    {
+      and_pos = -3;
+    }
+  }
+  if( gold != 0 )
+  {
+    // Set the print gold to true.
+    coins += BIT_2;
+    // If we have exactly one smaller coin type, flip the sign on and_pos to put the and before that type.
+    if( and_pos < 0 )
+    {
+      and_pos *= -1;
+    }
+    // If we have no smaller types, then set the possible and spot to before gold.
+    else if( and_pos == 0 )
+    {
+      and_pos = -2;
+    }
+    // Otherwise the and_pos is before copper (copper and silver are both non-zero).
+  }
+  if( platinum != 0 )
+  {
+    // Set the print platinum to true.
+    coins += BIT_1;
+    // If we have exactly one smaller coin type, flip the sign on and_pos to signify we do want the "and".
+    if( and_pos < 0 )
+    {
+      and_pos *= -1;
+    }
+    // Otherwise, either we have only platinum or the and_pos is already set.
+  }
+  // If we only have one coin type, there is no and.
+  if( and_pos < 0 )
+  {
+    and_pos = 0;
+  }
+
+  // If we have no coins.
+  if( coins == 0 )
+  {
+    sprintf( ret_string, "%snothing&n", color_string );
+    return ret_string;
+  }
+
+  // If we're printing platinum.
+  if( coins & BIT_1 )
+  {
+    // If we have another type, use a comma.
+    if( coins & (BIT_2 | BIT_3 | BIT_4) )
+    {
+      pos1 = sprintf( ret_string, "&+W%dp%s, ", platinum, color_string );
+    }
+    // Otherwise, print just plat and return it.
+    else
+    {
+      sprintf( ret_string, "&+W%dp&n", platinum, color_string );
+      return ret_string;
+    }
+  }
+  // "and" goes before gold.
+  if( and_pos == 2 )
+  {
+    pos2 = sprintf( ret_string + pos1, "%sand ", color_string );
+    pos1 += pos2;
+  }
+  // If we're printing gold.
+  if( coins & BIT_2 )
+  {
+    // If we have another type, use a comma.
+    if( coins & (BIT_3 | BIT_4) )
+    {
+      pos2 = sprintf( ret_string + pos1, "&+Y%dg%s, ", gold, color_string );
+      pos1 += pos2;
+    }
+    // Otherwise, just add gold and return it.
+    else
+    {
+      sprintf( ret_string + pos1, "&+Y%dg%s&n", gold, color_string );
+      return ret_string;
+    }
+  }
+  // "and" goes before silver.
+  if( and_pos == 3 )
+  {
+    pos2 = sprintf( ret_string + pos1, "%sand ", color_string );
+    pos1 += pos2;
+  }
+  // If we're printing silver.
+  if( coins & BIT_3 )
+  {
+    // If we have another type (copper), use a comma.
+    if( coins & BIT_4 )
+    {
+      pos2 = sprintf( ret_string + pos1, "&+w%ds%s, ", silver, color_string );
+      pos1 += pos2;
+    }
+    // Otherwise, just add silver and return it.
+    else
+    {
+      sprintf( ret_string + pos1, "&+w%ds%s&n", silver, color_string );
+      return ret_string;
+    }
+  }
+  // "and" goes before copper.
+  if( and_pos == 4 )
+  {
+    pos2 = sprintf( ret_string + pos1, "%sand ", color_string );
+    pos1 += pos2;
+  }
+  // If we're printing copper.
+  if( coins & BIT_4 )
+  {
+    pos2 = sprintf( ret_string + pos1, "&+y%dc&n", copper );
+    pos1 += pos2;
+  }
+  else
+  {
+    debug( "coins_to_string: Reached end of function with no coins?!" );
+  }
+
+  return ret_string;
+}
+
+// This copies string 'orig' into string 'good' trimming the end such that
+//   the total length of good is no more than 'length' characters,
+//   including the string terminator, _and_ that the ending text color is not colored.
+// One could merge the "*index == '\0'" at the bottom with the non-fully-copied string code,
+//   but it's only a marginal change in size.
+void trim_and_end_colorless( char *orig, char *good, int length )
+{
+  int chars_left;
+  bool colored;
+  char *index, *last_ansi_sequence;
+
+  if( length <= 1 )
+  {
+    if( good != NULL )
+    {
+      *good = '\0';
+    }
+    return;
+  }
+
+  // Skip leading spaces first for the new title.
+  while( isspace(*orig) )
+    orig++;
+
+  // Walk through keeping track of ansi state.
+  // We check for 5 chars left to handle ending with "&=<char><char>\0".
+  // And we copy each non-ansi-sequence character or full ansi sequence, or partial almost-ansi sequence as
+  //   a chunk so we end with either a character (that isn't part of an ansi sequence), or a complete ansi sequence.
+  // This is important for the rest of the function to work right.
+  colored = FALSE;
+  // last_ansi_sequence points to the last character in the last ansi sequence.
+  last_ansi_sequence = NULL;
+  for( index = orig, chars_left = length; (*index != '\0' && chars_left >= 5); )
+  {
+    // Possible start of ansi escape sequence.
+    if( *index == '&' )
+    {
+      if( (index[1] == 'n') || (index[1] == 'N') )
+      {
+          // Copy the &
+          *(good++) = '&';
+          index++;
+          --chars_left;
+          last_ansi_sequence = good;
+          // Copy the n or N.
+          *(good++) = *index;
+          index++;
+          colored = FALSE;
+          --chars_left;
+      }
+      else if( index[1] == '&' )
+      {
+          // Copy the &'s
+          // I don't know if it's faster to print each & vs sprintf(good, "&&") then good += 2.
+          *(good++) = '&';
+          last_ansi_sequence = good;
+          *(good++) = '&';
+          index += 2;
+          chars_left -= 2;
+      }
+      else if( (index[1] == '+') || (index[1] == '-') )
+      {
+        // If we have an ansi escape sequence.
+        if( is_ansi_char(index[2]) )
+        {
+          // Copy the &<+|-><color>
+          sprintf( good, "&%c%c", index[1], index[2] );
+          last_ansi_sequence = good + 2;
+          good += 3;
+          index += 3;
+          chars_left -=3;
+          colored = TRUE;
+        }
+        // At this point, we have "&+<char>" where <char> is a non-ansi character.
+        // So we want to convert the & to && so it doesn't bug out later.
+        else
+        {
+          // We print the & (using 2 &'s to make it not buggy) and the '+' or '-',
+          //   and decrement chars_left by 3, and move index over 2 and good over 3.
+          // Note: We don't try'n print the 3rd character since it might be the start
+          //   of an ansi sequence.
+          // Note: We created an ansi sequence "&&".
+          sprintf( good, "&&%c", index[1] );
+          last_ansi_sequence = good + 1;
+          good += 3;
+          index += 2;
+          chars_left -= 3;
+        }
+      }
+      else if( index[1] == '=' )
+      {
+        // If we have an ansi escape sequence.
+        if( is_ansi_char(index[2]) && is_ansi_char(index[3]) )
+        {
+          // Copy the &=<char><char>
+          sprintf( good, "&=%c%c", index[2], index[3] );
+          last_ansi_sequence = good + 3;
+          good += 4;
+          index += 4;
+
+          colored = TRUE;
+          chars_left -= 4;
+        }
+        // We want "&=" to show.
+        else
+        {
+          // We print the & (using 2 &'s to make it not buggy) and the '=',
+          //   and decrement chars_left by 3, and move index over 2 and good over 3.
+          // Note: We don't try'n print the 3rd character since it might be the start
+          //   of an ansi sequence.
+          // Note: We created an ansi sequence "&&".
+          sprintf( good, "&&=" );
+          last_ansi_sequence = good + 1;
+          good += 3;
+          index += 2;
+          chars_left -= 3;
+        }
+      }
+    }
+    // Regular character
+    else
+    {
+      *(good++) = *(index++);
+      chars_left--;
+    }
+  }
+
+  // At this point, chars_left is between 1 and 4 and we may have to truncate, or
+  //   chars_left is 1 or more and we've copied the whole string.
+
+  // If we need to back track and overwrite a &N.
+  if( colored )
+  {
+    // If we've copied the whole string
+    if( *index == '\0' )
+    {
+      // If we have enough room, just add the &N and string terminator.
+      if( chars_left > 2 )
+      {
+        sprintf( good, "&N" );
+        return;
+      }
+      // We need to overwrite one character.
+      if( chars_left == 2 )
+      {
+        // If the last character of the last ansi sequence is the last character in good.
+        // (if we ended with an ansi sequence).
+        if( last_ansi_sequence == (good - 1) )
+        {
+          // All ansi sequences are at least 2 characters long.
+          --good;
+          // All ansi sequences begin with '&', so backtrack to it.
+          while( *(good - 1) != '&' )
+          {
+            good--;
+          }
+          sprintf( good, "N" );
+          return;
+        }
+        // If we have 2 chars left, and we don't run into the last ansi sequence, just overwrite the last char.
+        sprintf( good - 1, "&N" );
+        return;
+      }
+      // We have 1 character left.
+      // If we ended with an ansi sequence.
+      if( last_ansi_sequence == (good - 1) )
+      {
+        // All ansi sequences are at least 2 characters long (skip the last char).
+        --good;
+        // All ansi sequences begin with '&', so backtrack to it.
+        while( *(good - 1) != '&' )
+        {
+          good--;
+        }
+        // Overwrite the sequence with "N\0".
+        sprintf( good, "N" );
+        return;
+      }
+      // If the second to last char is an ansi starter, we need to overwrite the ansi sequence,
+      //   cutting off the last regular character of the string in the process.
+      if( last_ansi_sequence == (good - 2) )
+      {
+        // Skip the non-ansi sequence char and the last char of the ansi sequence.
+        good -= 2;
+        // All ansi sequences begin with '&', so backtrack to it.
+        while( *(good - 1) != '&' )
+        {
+          good--;
+        }
+        // Overwrite the sequence with "N\0".
+        sprintf( good, "N" );
+        return;
+      }
+      // 1 space left and neither of the last 2 chars are in an ansi sequence, so overwrite them.
+      sprintf( good - 2, "&N" );
+      return;
+    }
+
+    // Here we're colored, have not copied the whole string, and have between 1 and 4 chars_left.
+    if( chars_left == 4 )
+    {
+      // Possible ansi sequence.
+      if( *index == '&' )
+      {
+        // Since an ansi sequence is at least 2 chars, and we need 3 chars for "&N\0", no combinations
+        //   are possible within the 4 spaces we have left.
+        // So, we just decolorize and terminate.
+        sprintf( good, "&N" );
+        return;
+      }
+      // Regular character.
+      else
+      {
+        *(good++) = *(index++);
+        chars_left--;
+      }
+    }
+    if( chars_left == 3 )
+    {
+      // Then we only have room to decolorize and terminate.
+      sprintf( good, "&N" );
+      return;
+    }
+    // We need more room.
+    if( chars_left == 2 )
+    {
+      // If the last character of the last ansi sequence is the last character in good.
+      // (if we ended with an ansi sequence).
+      if( last_ansi_sequence == (good - 1) )
+      {
+        // All ansi sequences are at least 2 characters long.
+        --good;
+        // All ansi sequences begin with '&', so backtrack to it.
+        while( *(good - 1) != '&' )
+        {
+          good--;
+        }
+        sprintf( good, "N" );
+        return;
+      }
+      // If we have 2 chars left, and we don't run into the last ansi sequence, just overwrite the last char.
+      sprintf( good - 1, "&N" );
+      return;
+    }
+    // We can assume chars_left == 1
+    // If we ended with an ansi sequence.
+    if( last_ansi_sequence == (good - 1) )
+    {
+      // All ansi sequences are at least 2 characters long (skip the last char).
+      --good;
+      // All ansi sequences begin with '&', so backtrack to it.
+      while( *(good - 1) != '&' )
+      {
+        good--;
+      }
+      // Overwrite the sequence with "N\0".
+      sprintf( good, "N" );
+      return;
+    }
+    // If the second to last char is an ansi starter, we need to overwrite the ansi sequence,
+    //   cutting off the last regular character of the string in the process.
+    if( last_ansi_sequence == (good - 2) )
+    {
+      // Skip the non-ansi sequence char and the last char of the ansi sequence.
+      good -= 2;
+      // All ansi sequences begin with '&', so backtrack to it.
+      while( *(good - 1) != '&' )
+      {
+        good--;
+      }
+      // Overwrite the sequence with "N\0".
+      sprintf( good, "N" );
+      return;
+    }
+    // 1 space left and neither of the last 2 chars are in an ansi sequence, so overwrite them.
+    sprintf( good - 2, "&N" );
+    return;
+  }
+
+  if( *index == '\0' )
+  {
+    *good = '\0';
+    return;
+  }
+
+  // At this point, we're non colored, chars_left is between 1 and 4 and we may have to truncate.
+  if( chars_left == 4 )
+  {
+    // Copy a regular char.
+    if( *index != '&' )
+    {
+      *(good++) = *(index++);
+      chars_left--;
+    }
+    // Check for escape sequences.
+    else
+    {
+      // If we're uncolored, and have a "&N" or "&n" or "&&" sequence .. we can copy it.
+      if( (index[1] == 'n') || (index[1] == 'N') || (index[1] == '&') )
+      {
+        *(good++) = '&';
+        index++;
+        *(good++) = *(index++);
+        chars_left -= 2;
+      }
+      // If we have a "&<+|-><ansi char>" sequence .. we just terminate because there's no room to decolorize after.
+      if( (( index[1] == '+' ) || ( index[1] == '-' )) && is_ansi_char(index[2]) )
+      {
+        *good = '\0';
+        return;
+      }
+      // If we have a "&=<ansi char><ansi char>" sequence do the same as above.
+      if( (index[1] == '=') && is_ansi_char(index[2]) && is_ansi_char(index[3]) )
+      {
+        *good = '\0';
+        return;
+      }
+      // At this point, we have an & that's not part of a sequence, so we create one.
+      *(good++) = '&';
+      *(good++) = '&';
+      index++;
+      chars_left -= 2;
+    }
+  }
+  // We can treat 3 chars left the same as 4 since chars_left is reduced by at most 2.
+  // Note: Important not to merge these since 4 can lead to 3 via non '&' character.
+  // Also, need to check if next char is '\0'.
+  if( chars_left == 3 )
+  {
+    // Copy a regular char.
+    if( *index != '&' )
+    {
+      // If we reached the end of the string, return.
+      if( (*( good++ ) = *( index++ )) == '\0' )
+      {
+        return;
+      }
+      chars_left--;
+    }
+    // Check for escape sequences.
+    else
+    {
+      // If we're uncolored, and have a "&N" or "&n" or "&&" sequence .. we can copy it.
+      if( (index[1] == 'n') || (index[1] == 'N') || (index[1] == '&') )
+      {
+        *(good++) = '&';
+        index++;
+        *(good++) = *(index++);
+        chars_left -= 2;
+      }
+      // If we have a "&<+|-><ansi char>" sequence .. we just terminate because there's no room to decolorize after.
+      if( (( index[1] == '+' ) || ( index[1] == '-' )) && is_ansi_char(index[2]) )
+      {
+        *good = '\0';
+        return;
+      }
+      // If we have a "&=<ansi char><ansi char>" sequence do the same as above.
+      if( (index[1] == '=') && is_ansi_char(index[2]) && is_ansi_char(index[3]) )
+      {
+        *good = '\0';
+        return;
+      }
+      // At this point, we have an & that's not part of a sequence, so we create one.
+      *(good++) = '&';
+      *(good++) = '&';
+      index++;
+      chars_left -= 2;
+    }
+  }
+  // At 2 chars left, we can't use any escape sequences.
+  if( chars_left == 2 )
+  {
+    // Copy a regular char.
+    if( *index != '&' )
+    {
+      if( (*( good++ ) = *( index++ )) == '\0' )
+      {
+        return;
+      }
+      chars_left--;
+    }
+    // We have no room for an escape sequence, so just terminate.
+    else
+    {
+      *good = '\0';
+      return;
+    }
+  }
+  if( chars_left == 1 )
+  {
+    *good = '\0';
+  }
 }

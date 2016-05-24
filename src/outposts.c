@@ -61,7 +61,7 @@ extern const long boot_time;
 int upkeep_time;
 
 
-#define CAN_CONSTRUCT_CMD(ch) ( GET_A_NUM(ch) && (IS_LEADER(GET_M_BITS(GET_A_BITS(ch), A_RK_MASK)) || GT_LEADER(GET_M_BITS(GET_A_BITS(ch), A_RK_MASK))) )
+#define CAN_CONSTRUCT_CMD(ch) ( GET_ASSOC(ch) && (IS_LEADER(GET_M_BITS(GET_A_BITS(ch), A_RK_MASK)) || GT_LEADER(GET_M_BITS(GET_A_BITS(ch), A_RK_MASK))) )
 
 #ifdef __NO_MYSQL__
 int init_outposts()
@@ -150,11 +150,12 @@ int load_outposts()
     int portal = atoi(row[4]);
     int golems = atoi(row[5]);
 
-    if (building = load_building(guild, BUILDING_OUTPOST, outpost_locations[id][0], level))
+    if( building = load_building(get_guild_from_id(guild), BUILDING_OUTPOST, outpost_locations[id][0], level))
     {
-      building->golem_dir = outpost_locations[id][1];
+      building->set_dir( outpost_locations[id][1] );
       outpost_generate_walls(building, walls, golems);
-      if (portal) outpost_generate_portals(building);
+      if( portal )
+        building->generate_portals();
     }
   }
   
@@ -217,7 +218,7 @@ void show_outposts(P_char ch)
 
     sprintf(buff, "&+W*ID: &+c%2d &+WContinent: &+c%-18s&n &+WOwner: &+c%-15s&n\r\n", i+1, pad_ansi(continent_name(world[building->location()].continent), 18).c_str(), title);
     send_to_char(buff, ch);
-    if (IS_TRUSTED(ch) || ((owner != 0) && (owner == GET_A_NUM(ch))))
+    if (IS_TRUSTED(ch) || ((owner != 0) && (owner == GET_ASSOC(ch)->get_id())))
     {
       sprintf(buff, "       &+LGateguards: &+c%d &+LPortal: &+c%-4s &+LArchers: &+c%-4s &+LMeurtriere: &+c%-4s&n\r\n", golems, (portal ? "Yes" : "No"), (archers ? "Yes" : "No"), (meurtriere ? "Yes" : "No"));
       send_to_char(buff, ch);
@@ -238,7 +239,7 @@ void show_outposts(P_char ch)
 
 int get_current_outpost_hitpoints(Building *building)
 {
-  if (!qry("SELECT id, hitpoints FROM outposts WHERE id = %d", building->id-1))
+  if (!qry("SELECT id, hitpoints FROM outposts WHERE id = %d", building->get_id()-1))
   {
     debug("get_current_outpost_hitpoints() cant read from db");
     return FALSE;
@@ -261,9 +262,9 @@ int get_current_outpost_hitpoints(Building *building)
   return hitpoints;
 }
 
-int get_outpost_owner(Building *building)
+P_Guild get_outpost_owner(Building *building)
 {
-  if (!qry("SELECT id, owner_id FROM outposts WHERE id = %d", building->id-1))
+  if (!qry("SELECT id, owner_id FROM outposts WHERE id = %d", building->get_id()-1))
   {
     debug("get_outpost_owner() cant read from db");
     return FALSE;
@@ -278,15 +279,15 @@ int get_outpost_owner(Building *building)
   MYSQL_ROW row = mysql_fetch_row(res);
 
   int owner = atoi(row[1]);
-  
+
   mysql_free_result(res);
 
-  return owner;
+  return get_guild_from_id(owner);
 }
 
 int get_outpost_resources(Building *building, int type)
 {
-  if (!qry("SELECT id, owner_id FROM outposts WHERE id = %d", building->id-1))
+  if (!qry("SELECT id, owner_id FROM outposts WHERE id = %d", building->get_id()-1))
   {
     debug("get_outpost_resources() cant read from db");
     return FALSE;
@@ -313,7 +314,7 @@ int get_outpost_resources(Building *building, int type)
 
 int get_outpost_golems(Building *building)
 {
-  if (!qry("SELECT id, golems FROM outposts WHERE id = %d", building->id-1))
+  if (!qry("SELECT id, golems FROM outposts WHERE id = %d", building->get_id()-1))
   {
     debug("get_outpost_resources() cant read from db");
     return FALSE;
@@ -338,7 +339,7 @@ int get_outpost_golems(Building *building)
 
 int get_outpost_archers(Building *building)
 {
-  if (!qry("SELECT id, archers FROM outposts WHERE id = %d", building->id-1))
+  if (!qry("SELECT id, archers FROM outposts WHERE id = %d", building->get_id()-1))
   {
     debug("get_outpost_archers() cant read from db");
     return FALSE;
@@ -363,7 +364,7 @@ int get_outpost_archers(Building *building)
 
 int get_outpost_meurtriere(Building *building)
 {
-  if (!qry("SELECT id, meurtriere FROM outposts WHERE id = %d", building->id-1))
+  if (!qry("SELECT id, meurtriere FROM outposts WHERE id = %d", building->get_id()-1))
   {
     debug("get_outpost_meurtriere() cant read from db");
     return FALSE;
@@ -425,7 +426,7 @@ int get_guild_resources(int id, int type)
 
 void set_current_outpost_hitpoints(Building *building)
 {
-  db_query("UPDATE outposts SET hitpoints='%d' WHERE id='%d'", ((GET_HIT(building->mob) < 0) ? 0 : GET_HIT(building->mob)), building->id-1);
+  db_query("UPDATE outposts SET hitpoints='%d' WHERE id='%d'", ((GET_HIT(building->get_mob()) < 0) ? 0 : GET_HIT(building->get_mob())), building->get_id()-1);
 }
   
 void do_outpost(P_char ch, char *arg, int cmd)
@@ -525,12 +526,12 @@ void do_outpost(P_char ch, char *arg, int cmd)
       return;
     }
 
-    if (get_outpost_owner(building) != GET_A_NUM(ch))
+    if (get_outpost_owner(building) != GET_ASSOC(ch))
     {
       send_to_char("You don't own that outpost.\r\n", ch);
       return;
     }
-    update_outpost_owner(0, building);
+    building->update_outpost_owner( NULL );
     reset_one_outpost(building);
     send_to_char("You relinquish control of that outpost.\r\n", ch);
     return;
@@ -561,14 +562,13 @@ void do_outpost(P_char ch, char *arg, int cmd)
          wizlog(56, "Failed to get building id from rubble.");
          raise(SIGSEGV);
       }
-      op = building->mob;
-      if (GET_A_NUM(ch))
+      op = building->get_mob();
+      if (GET_ASSOC(ch))
       {
         send_to_char("You begin the arduous task of rebuilding the destroyed tower, claiming it for your guild!\r\n", ch);
-        int ownerid = GET_A_NUM(ch);
-        update_outpost_owner(ownerid, building);
+        building->update_outpost_owner( GET_ASSOC(ch) );
       }
-      if (!GET_A_NUM(ch))
+      if (!GET_ASSOC(ch))
       {
         send_to_char("You must belong to an association to claim an outpost.\r\n", ch);
         return;
@@ -607,7 +607,7 @@ void do_outpost(P_char ch, char *arg, int cmd)
           send_to_char("Can't find building associated with outpost, tell a god.\r\n", ch);
           return;
         }
-        if (GET_A_NUM(ch) != building->guild_id)
+        if (GET_ASSOC(ch) != building->get_guild())
         {
           send_to_char("You don't own this outpost!\r\n", ch);
           return;
@@ -661,16 +661,16 @@ void do_outpost(P_char ch, char *arg, int cmd)
       send_to_char("You need to be inside your outpost to use this command.\r\n", ch);
       return;
     }
-   
-    if (!IS_TRUSTED(ch) && !sub_money_asc(building->guild_id, cost/1000, 0, 0, 0))
+
+    if( !IS_TRUSTED(ch) && !(building->sub_money( cost / 1000, 0, 0, 0 )) )
     {
-      send_to_guild(building->guild_id, "The Guild Banker", "There are not enough guild funds to purchase a portal.");
+      send_to_guild(building->get_guild(), "The Guild Banker", "There are not enough guild funds to purchase a portal.");
       return;
     }
 
-    if (outpost_generate_portals(building))
+    if( building->generate_portals() )
     {
-      db_query("UPDATE outposts SET portal_room = '1' WHERE id = '%d'", building->id-1);
+      db_query("UPDATE outposts SET portal_room = '1' WHERE id = '%d'", building->get_id()-1);
       send_to_char("Your outpost now contains portals.\r\n", ch);
     }
     else
@@ -700,15 +700,15 @@ void do_outpost(P_char ch, char *arg, int cmd)
       send_to_char("You can't have anymore outpost golems.\r\n", ch);
       return;
     }
-    
-    if (!IS_TRUSTED(ch) && !sub_money_asc(building->guild_id, cost/1000, 0, 0, 0))
+
+    if( !IS_TRUSTED(ch) && !(building->sub_money( cost / 1000, 0, 0, 0 )) )
     {
-      send_to_guild(building->guild_id, "The Guild Banker", "There are not enough guild funds to purchase an outpost golem.");
+      send_to_guild(building->get_guild(), "The Guild Banker", "There are not enough guild funds to purchase an outpost golem.");
       return;
     }
 
-    outpost_load_gateguard(building->golem_room, OUTPOST_GATEGUARD_WAR, building, (get_outpost_golems(building)));
-    db_query("UPDATE outposts SET golems = '%d' WHERE id = '%d'", (get_outpost_golems(building) + 1), building->id-1);
+    building->load_gateguard(building->get_golem_room(), OUTPOST_GATEGUARD_WAR, (get_outpost_golems(building)));
+    db_query("UPDATE outposts SET golems = '%d' WHERE id = '%d'", (get_outpost_golems(building) + 1), building->get_id()-1);
     send_to_char("You hire a new outpost gateguard.\r\n", ch);
     return;
   }
@@ -737,13 +737,13 @@ void do_outpost(P_char ch, char *arg, int cmd)
       return;
     }
 
-    if (!IS_TRUSTED(ch) && !sub_money_asc(building->guild_id, cost/1000, 0, 0, 0))
+    if( !IS_TRUSTED(ch) && !(building->sub_money( cost / 1000, 0, 0, 0 )) )
     {
-      send_to_guild(building->guild_id, "The Guild Banker", "There are not enough guild funds to purchase outpost archers.");
+      send_to_guild(building->get_guild(), "The Guild Banker", "There are not enough guild funds to purchase outpost archers.");
       return;
     }
     
-    db_query("UPDATE outposts SET archers = '1' WHERE id = '%d'", building->id-1);
+    db_query("UPDATE outposts SET archers = '1' WHERE id = '%d'", building->get_id()-1);
     send_to_char("You hire archers to defend your outpost.\r\n", ch);
     return;
   }
@@ -772,13 +772,13 @@ void do_outpost(P_char ch, char *arg, int cmd)
       return;
     }
 
-    if (!IS_TRUSTED(ch) && !sub_money_asc(building->guild_id, cost/1000, 0, 0, 0))
+    if( !IS_TRUSTED(ch) && !(building->sub_money( cost / 1000, 0, 0, 0 )) )
     {
-      send_to_guild(building->guild_id, "The Guild Banker", "There are not enough guild funds to purchase an meurtriere.");
+      send_to_guild(building->get_guild(), "The Guild Banker", "There are not enough guild funds to purchase an meurtriere.");
       return;
     }
 
-    db_query("UPDATE outposts SET meurtriere = '1' WHERE id = '%d'", building->id-1);
+    db_query("UPDATE outposts SET meurtriere = '1' WHERE id = '%d'", building->get_id()-1);
     send_to_char("Your outpost gate now posseses a meurtriere.", ch);
     return;
   }
@@ -816,18 +816,18 @@ void event_outpost_repair(P_char op, P_char vict, P_obj obj, void *data)
       return;
   }
 
-  if (!sub_money_asc(building->guild_id, cost/div/1000, 0, 0, 0))
+  if( !(building->sub_money( cost / div / 1000, 0, 0, 0 )) )
   {
-    send_to_guild(building->guild_id, "The Guild Banker", "There are not enough guild funds to complete outpost repairs.");
+    send_to_guild(building->get_guild(), "The Guild Banker", "There are not enough guild funds to complete outpost repairs.");
     return;
   }
 
   //  Add 10% of the buildings max hitpoints, up to max.
-  GET_HIT(building->mob) = BOUNDED(GET_HIT(building->mob), GET_HIT(building->mob) + (building_types[BUILDING_OUTPOST-1].hitpoints/10), building_types[BUILDING_OUTPOST-1].hitpoints);
+  GET_HIT(building->get_mob()) = BOUNDED(GET_HIT(building->get_mob()), GET_HIT(building->get_mob()) + (building_types[BUILDING_OUTPOST-1].hitpoints/10), building_types[BUILDING_OUTPOST-1].hitpoints);
   act("The repair process on $n continues.", TRUE, op, 0, 0, TO_ROOM);
 
   // If outpost is complete, no more events
-  if (GET_HIT(building->mob) >= building_types[BUILDING_OUTPOST-1].hitpoints)
+  if (GET_HIT(building->get_mob()) >= building_types[BUILDING_OUTPOST-1].hitpoints)
   {
     act("The repair process on $n is complete.", TRUE, op, 0, 0, TO_ROOM);
     return;
@@ -852,14 +852,14 @@ void outpost_death(P_char outpost, P_char killer)
   rubble->value[1] = stone;
   */
   P_obj rubble = read_object(97800, VIRTUAL);
-  rubble->value[3] = building->id;
+  rubble->value[3] = building->get_id();
   obj_to_room(rubble, outpost->in_room);
   reset_one_outpost(building);
-  GET_HIT(building->mob) = 0;
+  GET_HIT(building->get_mob()) = 0;
   set_current_outpost_hitpoints(building);
-  update_outpost_owner(0, building);
+  building->update_outpost_owner( NULL );
   // Remove players from inside the outpost.
-  for (int i = 0; i < building->rooms.size(); i++)
+  for( int i = 0; i < building->size(); i++ )
   {
     P_char next_tch;
     for (P_char tch = world[building->gate_room()].people; tch != NULL; tch = next_tch)
@@ -871,7 +871,7 @@ void outpost_death(P_char outpost, P_char killer)
       char_to_room(tch, building->location(), -1);
     }
   }
-  for (int i = 0; i < building->rooms.size(); i++)
+  for (int i = 0; i < building->size(); i++)
   {
     P_obj next_obj;
     for(P_obj tobj = world[building->gate_room()].contents; tobj != NULL; tobj = next_obj)
@@ -889,19 +889,20 @@ void outpost_death(P_char outpost, P_char killer)
     for (struct group_list *gl = killer->group; gl; gl = gl->next)
     {
       if (gl->ch->in_room == killer->in_room)
-        check_boon_completion(gl->ch, NULL, building->id, BOPT_OP);
+        check_boon_completion(gl->ch, NULL, building->get_id(), BOPT_OP);
     }
   }
   else
-    check_boon_completion(killer, NULL, building->id, BOPT_OP);
+    check_boon_completion(killer, NULL, building->get_id(), BOPT_OP);
 }
 
-int get_killing_association(P_char ch)
+P_Guild get_killing_association(P_char ch)
 {
   struct group_list *gl;
   int guild[MAX_ASC];
-  int killer = 0, curmax = 0;
-    
+  P_Guild killer = NULL;
+  int curmax = 0;
+
   for (int i = 0; i < MAX_ASC; i++)
   {
     guild[i] = 0;
@@ -910,11 +911,11 @@ int get_killing_association(P_char ch)
   // are we grouped?
   if (!ch->group)
   {
-    if (!GET_A_NUM(ch))
+    if (!GET_ASSOC(ch))
       return 0;
     else
     {
-      killer = GET_A_NUM(ch);
+      killer = GET_ASSOC(ch);
       return killer;
     }
   }
@@ -923,31 +924,30 @@ int get_killing_association(P_char ch)
     //grouped, spool the number of guildies in groups for each association.
     for (gl = ch->group; gl; gl = gl->next)
     {
-      if(gl->ch && GET_A_NUM(gl->ch))
-	guild[GET_A_NUM(gl->ch)]++;
+      if(gl->ch && GET_ASSOC(gl->ch))
+        guild[GET_ASSOC(gl->ch)->get_id()]++;
     }
   }
-  
+
   // Lets find out who has the most guild members in group
   curmax = guild[0];
-  killer = 0;
   for (int i = 0; i < MAX_ASC; i++)
   {
     // If there is a tie, check prestige.
-    if (guild[i] == 0)
+    if( guild[i] == 0 )
     {
       continue;
     }
-    else if (guild[i] == curmax)
+    else if( guild[i] == curmax )
     {
-      if (get_assoc_prestige(i) > get_assoc_prestige(killer))
+      if( get_guild_from_id(i)->get_prestige() > killer->get_prestige() )
       {
-	killer = i;
+        killer = get_guild_from_id(i);
       }
     }
     else if(guild[i] > curmax)
     {
-      killer = i;
+      killer = get_guild_from_id(i);
       curmax = guild[i];
     }
   }
@@ -958,7 +958,7 @@ int get_killing_association(P_char ch)
 // Add resources to a player's guild's current resource pool
 void outpost_update_resources(P_char ch, int wood, int stone)
 {
-  if (!qry("SELECT id, wood, stone FROM associations WHERE id = %d", GET_A_NUM(ch)))
+  if (!qry("SELECT id, wood, stone FROM associations WHERE id = %d", GET_ASSOC(ch)))
   {
     debug("outpost_update_resources() cant read from db");
     return;
@@ -979,37 +979,18 @@ void outpost_update_resources(P_char ch, int wood, int stone)
 
   mysql_free_result(res);
   
-  db_query("UPDATE associations SET wood='%d', stone='%d' WHERE id='%d'", (int)(wood+cur_wood), (int)(stone+cur_stone), GET_A_NUM(ch));
-}
-
-void update_outpost_owner(int owner, Building *building)
-{
-  P_char op;
-  int id;
-  struct affected_type *afp;
-
-  if (!building->id)
-  {
-    debug("error calling update_outpost_owner, no building ID available");
-    return;
-  }
-
-  // Update the DB	
-  id = building->id-1;
-  db_query("UPDATE outposts SET owner_id = '%d' WHERE id = '%d'", owner, id);
-  building->guild_id = owner;
-  return;
+  db_query("UPDATE associations SET wood='%d', stone='%d' WHERE id='%d'", (int)(wood+cur_wood), (int)(stone+cur_stone), GET_ASSOC(ch));
 }
 
 void update_outpost_golems(Building *building, int amount)
 {
-  if (!building->id)
+  if (!building->get_id())
   {
     debug("error calling update_outpost_golems, no building ID available");
     return;
   }
 
-  db_query("UPDATE outposts SET golems = '%d' WHERE id = '%d'", BOUNDED(0, (get_outpost_golems(building) + amount), MAX_OUTPOST_GATEGUARDS), building->id-1);
+  db_query("UPDATE outposts SET golems = '%d' WHERE id = '%d'", BOUNDED(0, (get_outpost_golems(building) + amount), MAX_OUTPOST_GATEGUARDS), building->get_id()-1);
   return;
 }
 
@@ -1018,24 +999,21 @@ void reset_one_outpost(Building *building)
   P_char op;
   int id;
 
-  if (!building->id)
+  if (!building->get_id())
   {
     debug("error calling reset_one_outpost, no building ID available");
     return;
   }
-  id = building->id-1;
+  id = building->get_id()-1;
 
   db_query("UPDATE outposts SET owner_id = '0', level = '8', walls = '1', archers = '0', meurtriere = '0', hitpoints = '%d', portal_room = '0' WHERE id = '%d'", building_types[BUILDING_OUTPOST-1].hitpoints, id);
 
-  GET_MAX_HIT(building->mob) = building->mob->points.base_hit = GET_HIT(building->mob) = building_types[BUILDING_OUTPOST-1].hitpoints;
+  GET_MAX_HIT(building->get_mob()) = building->get_mob()->points.base_hit = GET_HIT(building->get_mob()) = building_types[BUILDING_OUTPOST-1].hitpoints;
 
-  SET_POS(building->mob, POS_STANDING + STAT_NORMAL);
+  SET_POS(building->get_mob(), POS_STANDING + STAT_NORMAL);
 
   //remove portals
-  obj_from_room(building->portal_op);
-  building->portal_op = NULL;
-  obj_from_room(building->portal_gh);
-  building->portal_gh = NULL;
+  building->clear_portal_op();
 }
 
 void reset_outposts(P_char ch)
@@ -1051,7 +1029,7 @@ void reset_outposts(P_char ch)
 
     building = get_building_from_char(op);
 
-    debug("resetting outpost #: %d", building->id-1);
+    debug("resetting outpost #: %d", building->get_id()-1);
     reset_one_outpost(building);
   }
 }
@@ -1080,7 +1058,7 @@ int outpost_rubble(P_obj obj, P_char ch, int cmd, char *arg)
     
     if (t_obj = obj)
     {
-      if (!GET_A_NUM(ch))
+      if (!GET_ASSOC(ch))
       {
         send_to_char("You need to be guilded to make use of outpost resources!\r\n", ch);
         return TRUE;
@@ -1134,10 +1112,10 @@ int outpost_generate_walls(Building* building, int type, int numgolem)
   int location = 0;
   int walllocal[10];
   int x;
-  int gate = building->golem_dir;
+  int gate = building->get_golem_dir();
 
-  if (building->mob->in_room)
-    location = building->mob->in_room;
+  if (building->get_mob()->in_room)
+    location = building->get_mob()->in_room;
 
   if (!location)
   {
@@ -1161,10 +1139,10 @@ int outpost_generate_walls(Building* building, int type, int numgolem)
   {
     if (x == gate)
     {
-      //outpost_setup_gateguards(world[walllocal[x]].dir_option[gate]->to_room, OUTPOST_GATEGUARD_WAR, 2, building->guild_id);
+      //outpost_setup_gateguards(world[walllocal[x]].dir_option[gate]->to_room, OUTPOST_GATEGUARD_WAR, 2, building->get_guild());
       outpost_setup_gateguards(walllocal[x], OUTPOST_GATEGUARD_WAR, numgolem, building);
       world[walllocal[x]].sector_type = SECT_CASTLE_GATE;
-      building->golem_room = walllocal[x];
+      building->set_golem_room( walllocal[x] );
       continue;
     }
     
@@ -1201,38 +1179,17 @@ int outpost_generate_walls(Building* building, int type, int numgolem)
       break;
     }
   
-    world[building->mob->in_room].sector_type = SECT_CASTLE;
+    world[building->get_mob()->in_room].sector_type = SECT_CASTLE;
   }
-}
-
-int outpost_load_gateguard(int location, int type, Building *building, int golemnum)
-{
-  building->golems[golemnum] = read_mobile(type, VIRTUAL);
-
-  mob_index[real_mobile0(type)].func.mob = outpost_gateguard_proc;
-
-  if (!building->golems[golemnum])
-  {
-    debug("outpost_load_gateguards() error reading mobile");
-    return FALSE;
-  }
-
-  add_tag_to_char(building->golems[golemnum], TAG_DIRECTION, rev_dir[building->golem_dir], AFFTYPE_PERM);
-  add_tag_to_char(building->golems[golemnum], TAG_GUILDHALL, building->id, AFFTYPE_PERM);
-  GET_A_NUM(building->golems[golemnum]) = building->guild_id;
-  building->golems[golemnum]->player.birthplace = building->golems[golemnum]->player.orig_birthplace = building->golems[golemnum]->player.hometown = world[location].number;
-  char_to_room(building->golems[golemnum], location, -1);
-
-  return TRUE;
 }
 
 void outpost_setup_gateguards(int location, int type, int amnt, Building *building)
 {
   int i;
-  int guild = building->guild_id;
+
   for (i = 0; i < amnt; i++)
   {
-    outpost_load_gateguard(location, type, building, i);
+    building->load_gateguard(location, type, i);
   }
 }
 
@@ -1268,9 +1225,9 @@ int outpost_gateguard_proc(P_char ch, P_char pl, int cmd, char *arg)
   Building *building = get_building_from_gateguard(ch);
   if (!building)
     return FALSE;
-  if (get_outpost_owner(building) != GET_A_NUM(ch))
+  if (get_outpost_owner(building) != GET_ASSOC(ch))
   {
-    GET_A_NUM(ch) = get_outpost_owner(building);
+    GET_ASSOC(ch) = get_outpost_owner(building);
     act("$n blinks momentarily then accepts their new owners.", TRUE, ch, 0, 0, TO_ROOM);
   }
   
@@ -1313,16 +1270,16 @@ int outpost_gateguard_proc(P_char ch, P_char pl, int cmd, char *arg)
     
     if(!t_ch)
       return FALSE;
-    
+
     bool allowed = FALSE;
-    struct alliance_data *alliance = get_alliance(GET_A_NUM(ch));
-    
-    if ((GET_A_NUM(pl) == GET_A_NUM(ch)) ||
-	(!GET_A_NUM(ch)))
+    P_Alliance alliance = GET_ASSOC(ch)->get_alliance();
+
+    if ((GET_ASSOC(pl) == GET_ASSOC(ch)) ||
+	(!GET_ASSOC(ch)))
       allowed = TRUE;
-    else if ((alliance = get_alliance(GET_A_NUM(ch))) &&
-	      ((GET_A_NUM(pl) == alliance->forging_assoc_id) ||
-	       (GET_A_NUM(pl) == alliance->joining_assoc_id)))
+    else if ((alliance = GET_ASSOC(ch)->get_alliance()) &&
+	      ((GET_ASSOC(pl) == alliance->get_forgers()) ||
+	       (GET_ASSOC(pl) == alliance->get_joiners())))
       allowed = TRUE;
     if (!allowed && pl->group)
     {
@@ -1330,7 +1287,7 @@ int outpost_gateguard_proc(P_char ch, P_char pl, int cmd, char *arg)
       gl = pl->group;
       while (gl)
       {
-	if (GET_A_NUM(gl->ch) == GET_A_NUM(ch))
+	if (GET_ASSOC(gl->ch) == GET_ASSOC(ch))
 	  allowed = TRUE;
         gl = gl->next;
       }
@@ -1381,93 +1338,13 @@ int outpost_gateguard_proc(P_char ch, P_char pl, int cmd, char *arg)
 	  !is_silent(i->character, TRUE) &&
 	  IS_SET(i->character->specials.act, PLR_GCC) &&
 	  IS_MEMBER(GET_A_BITS(i->character)) &&
-	  (GET_A_NUM(i->character) == GET_A_NUM(ch)) &&
+	  (GET_ASSOC(i->character) == GET_ASSOC(ch)) &&
 	  !IS_TRUSTED(i->character))
 	act(buff, FALSE, i->character, 0, pl, TO_CHAR);
     return FALSE;
   }
   
   return FALSE;
-}
-
-int outpost_generate_portals(Building *building)
-{
-  char Gbuf1[MAX_STRING_LENGTH], Gbuf2[MAX_STRING_LENGTH];
-  char buff[MAX_STRING_LENGTH], ghname[MAX_STRING_LENGTH];
-  FILE *f;
-  int guildhall_room = 0;
-
-  if (!building)
-  {
-    debug("error in outpost_generate_portals(): called without valid building.");
-    return 0;
-  }
-
-  if (building->portal_op || building->portal_gh)
-  {
-    debug("portal already exists");
-    return 0;
-  }
-
-  if (building->guild_id <= 0)
-  {
-    debug("building isn't owned by a guild.");
-    return 0;
-  }
-  else
-  {
-    debug("building->guild_id: %d", building->guild_id);
-    if (Guildhall *gh = Guildhall::find_by_assoc_id(building->guild_id))
-    {
-      if (gh->heartstone_room)
-        guildhall_room = gh->heartstone_room->vnum;
-      else
-      {
-        debug("can't find guildhall hearthstone_room");
-        return 0;
-      }
-    }
-    else
-    {
-      debug("You don't own a guildhall.");
-      return 0;
-    }
-    
-    sprintf(Gbuf1, "%sasc.%u", ASC_DIR, (ush_int)building->guild_id);
-    f = fopen(Gbuf1, "r");
-    if (!f)
-    {
-      sprintf(ghname, "Unknown");
-    }
-    else
-    {
-      fgets(Gbuf2, MAX_STR_NORMAL, f);
-      Gbuf2[strlen(Gbuf2)-1] = 0;
-      Gbuf2[ASC_MAX_STR-1] = 0;
-      strcpy(ghname, Gbuf2);
-      fclose(f);
-    }
-  }
- 
-  if (building->portal_op = read_object(BUILDING_PORTAL, VIRTUAL))
-  {
-    sprintf(buff, building->portal_op->description, ghname);
-    building->portal_op->value[0] = guildhall_room;
-    building->portal_op->description = str_dup(buff);
-    building->portal_op->str_mask = STRUNG_DESC1;
-    obj_to_room(building->portal_op, building->gate_room());
-  }
-  
-  if (building->portal_gh = read_object(BUILDING_PORTAL, VIRTUAL))
-  {
-    sprintf(buff, building->portal_gh->description, continent_name(world[building->location()].continent));
-    building->portal_gh->value[0] = building->rooms[0]->number;
-    building->portal_gh->description = str_dup(buff);
-    building->portal_gh->str_mask = STRUNG_DESC1;
-    obj_to_room(building->portal_gh, real_room0(guildhall_room));
-  }
-
-  return 1;
 }
 
 bool check_castle_walls(int from, int to)
@@ -1488,6 +1365,7 @@ void outposts_upkeep()
   char buff[MAX_STRING_LENGTH];
   int i, j, k;
   Building *building;
+  P_Guild guild;
   int cost = (int)get_property("outpost.cost.upkeep", 500000); // per day
   int deduct = 0;
   int owners[MAX_ASC];
@@ -1513,7 +1391,9 @@ void outposts_upkeep()
     {
       continue;
     }
-    owners[building->guild_id]++;
+    // If a guild owns it (ie outposts).
+    if( building->get_guild() != NULL )
+      owners[building->get_guild()->get_id()]++;
   }
 
   for (j = 1; j < MAX_ASC; j++)
@@ -1538,9 +1418,10 @@ void outposts_upkeep()
       deduct = deduct % 10;
       int c = deduct;
 //      debug("p: %d, g: %d, s: %d, c: %d", p, g, s, c);
-      if (!sub_money_asc(j, p, g, s, c))
+      guild = get_guild_from_id(j);
+      if( building->sub_money(p, g, s, c) )
       {
-	      send_to_guild(j, "The Guild Banker", "There are not enough funds for the outpost upkeep.");
+	      send_to_guild(guild, "The Guild Banker", "There are not enough funds for the outpost upkeep.");
         // drop outposts.
         for( i = 1; i <= buildings.size(); i++ )
 	      {
@@ -1549,7 +1430,7 @@ void outposts_upkeep()
           {
       	    continue;
           }
-	        if (building->guild_id == j)
+	        if( building->get_guild() == guild )
 	        {
             // give them an hour after boot to get things in order before dropping
 	          if( real_time_passed(time(0), boot_time).hour < 1
@@ -1558,8 +1439,8 @@ void outposts_upkeep()
 	            continue;
             }
       	    sprintf(buff, "Dropping %s&+C outpost.", continent_name(world[building->location()].continent));
-	          send_to_guild(j, "The Guild Banker", buff);
-      	    update_outpost_owner(0, building);
+	          send_to_guild(guild, "The Guild Banker", buff);
+      	    building->update_outpost_owner( NULL );
 	          reset_one_outpost(building);
       	  }
       	}
@@ -1672,8 +1553,6 @@ int outpost_meurtriere_attack(P_char ch)
 
   return 0;
 }
-
-
 
 #endif
 

@@ -1119,36 +1119,36 @@ bool group_add_member(P_char leader, P_char member)
 
 int is_guild_golem(P_char ch, P_char pl)
 {
-  ush_int  assoc;
   uint     bits;
   char    *tmp;
   int      allowed = FALSE;
+  P_Guild  guild;
 
-  if (!GET_A_NUM(ch))
+  if( !GET_ASSOC(ch) )
   {
     tmp = strstr(GET_NAME(ch), "assoc");
-    if (!tmp)
+    if( !tmp )
     {
       return FALSE;
     }
-    assoc = (ush_int) atoi(tmp + 5);
-    if ((assoc < 1) || (assoc > MAX_ASC))
+    guild = get_guild_from_id(atoi( tmp + 5 ));
+
+    if( guild == NULL )
     {
       return FALSE;
     }
-    GET_A_NUM(ch) = assoc;
+    GET_ASSOC(ch) = guild;
   }
 
   tmp = strstr(GET_NAME(ch), "assoc");
 
-  assoc = GET_A_NUM(ch);
+  guild = GET_ASSOC(ch);
 
   allowed = FALSE;
 
   bits = GET_A_BITS(pl);
 
-  allowed = (((GET_A_NUM(pl) == assoc) && IS_MEMBER(bits)
-              && GT_PAROLE(bits)) || IS_TRUSTED(pl));
+  allowed = ( (( GET_ASSOC(pl) == guild ) && IS_MEMBER( bits ) && GT_PAROLE( bits )) || IS_TRUSTED(pl) );
 
   return (allowed);
 }

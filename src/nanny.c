@@ -60,7 +60,7 @@ extern const struct bonus_stat bonus_stats[];
 extern const struct con_app_type con_app[];
 extern const struct stat_data stat_factor[];
 extern const struct racial_data_type racial_data[];
-extern const char racewar_sides[MAX_RACEWAR+1][10];
+extern const racewar_struct racewar_color[MAX_RACEWAR+2];
 extern int avail_descs;
 extern int avail_hometowns[][LAST_RACE + 1];
 extern int class_table[LAST_RACE + 1][CLASS_COUNT + 1];
@@ -3096,6 +3096,7 @@ void enter_game(P_desc d)
   P_char   ch = d->character;
   P_desc   i;
   P_nevent evp;
+  P_Guild  guild;
 
   // Bring them to life!
   SET_POS(ch, POS_STANDING + STAT_NORMAL);
@@ -3469,11 +3470,13 @@ void enter_game(P_desc d)
 
   affect_total(ch, FALSE);
 
-  update_member(ch, 1);
-
-  if (IS_MEMBER(GET_A_BITS(ch)))
+  if( (guild = GET_ASSOC( ch )) != NULL )
   {
-    do_gmotd(ch, "", 0);
+    guild->update_member( ch );
+    if( IS_MEMBER(GET_A_BITS( ch )) )
+    {
+      do_gmotd( ch, "", CMD_GMOTD );
+    }
   }
 
   /* check the fraglist .. */
@@ -4219,8 +4222,8 @@ bool violating_one_hour_rule( P_desc d )
   sql_log( d->character, PLAYERLOG, "Tried to break the one-hour rule.", GET_NAME(d->character) );
 
   send_to_char_f( d->character, "\n\rYou need to wait longer before logging a character on a different"
-    " racewar side.\n\rCurrent side: %s, Seconds to clear: %d\n\rPress return to disconnect.\n\r",
-    racewar_sides[racewar_side], timer );
+    " racewar side.\n\rCurrent side: &+%c%s&n, Time to clear: %d:%02d\n\rPress return to disconnect.\n\r",
+    racewar_color[racewar_side].color, racewar_color[racewar_side].name, timer / 60, timer % 60 );
   return TRUE;
 }
 
@@ -6125,7 +6128,7 @@ void init_char(P_char ch)
 {
   int      i;
 
-  set_title(ch);
+  clear_title(ch);
 
   ch->only.pc->pid = getNewPCidNumb();
   ch->only.pc->screen_length = 24;      /* default */

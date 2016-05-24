@@ -527,6 +527,8 @@ int race_size(int race);
 #define IS_SHOPKEEPER(a)  (IS_NPC(a) && ((mob_index[GET_RNUM(a)].qst_func == shop_keeper) || \
     (mob_index[GET_RNUM(a)].func.mob == shop_keeper)))
 
+#define MOB_PROC(npc) (mob_index[GET_RNUM(npc)].func.mob)
+
      /* Object And Carry related macros */
 
 #define CAN_SEE_OBJ(sub, obj)   (ac_can_see_obj((sub), (obj)))
@@ -1420,6 +1422,15 @@ char *CRYPT2( char *passwd, char *name );
   && race != RACE_SLIME    && race != RACE_CONSTRUCT && race != RACE_ZOMBIE      && race != RACE_SPECTRE     \
   && race != RACE_SKELETON && race != RACE_WRAITH    && race != RACE_V_ELEMENTAL && race != RACE_I_ELEMENTAL \
   && race != RACE_SHADOW   && race != RACE_AVATAR )
+
+// Return values for coin_type(char *)
+#define COIN_NONE    -1
+#define COIN_COPPER   0
+#define COIN_SILVER   1
+#define COIN_GOLD     2
+#define COIN_PLATINUM 3
+
+#define GET_FRAGS(ch) ((ch)->only.pc->frags)
 
 // Good spell pulse is negative.
 #define SPELL_PULSE(ch) (1.0 + (.03 * ch->points.spell_pulse))

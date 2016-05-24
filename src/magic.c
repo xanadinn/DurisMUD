@@ -11475,7 +11475,7 @@ bool check_item_teleport(P_char ch, char *arg, int cmd)
   int        pos;
   int        vnum;
   int        virt;
-  int        guild_id;
+  P_Guild    guild;
   char       Gbuf1[100];
 
   room = ch->in_room;
@@ -11566,7 +11566,7 @@ bool check_item_teleport(P_char ch, char *arg, int cmd)
     {
       Guildhall *gh = find_gh_from_vnum( world[ch->in_room].number );
       if( gh )
-        guild_id = gh->assoc_id;
+        guild = gh->guild;
       else
       {
         send_to_char( "Buggy guild portal.  Tell a God.\n", ch );
@@ -11577,7 +11577,7 @@ bool check_item_teleport(P_char ch, char *arg, int cmd)
     {
       Building *op = get_building_from_room( ch->in_room );
       if( op )
-        guild_id = get_outpost_owner( op );
+        guild = get_outpost_owner( op );
       else
       {
         send_to_char( "Buggy outpost portal.  Tell a God.\n", ch );
@@ -11586,21 +11586,18 @@ bool check_item_teleport(P_char ch, char *arg, int cmd)
     }
     // Now find a group member or ch that is in the assoc. or fail.
     struct group_list *tgroup = ch->group;
-    struct alliance_data *alliance;
+    P_Alliance alliance;
     // If ch is not in the proper guild,
-    if( GET_A_NUM(ch) != guild_id )
+    if( GET_ASSOC(ch) != guild )
     {
-      alliance = get_alliance(GET_A_NUM(ch));
-      if( !(alliance && (alliance->forging_assoc_id == guild_id
-        || alliance->joining_assoc_id == guild_id)) )
+      alliance = (GET_ASSOC(ch) == NULL) ? NULL : GET_ASSOC(ch)->get_alliance();
+      if( !(alliance && ( alliance->get_forgers() == guild || alliance->get_joiners() == guild )) )
       {
         // Check all group members
-        while( tgroup && (GET_A_NUM(tgroup->ch) != guild_id
-          || IS_APPLICANT(GET_A_BITS(tgroup->ch))) )
+        while( tgroup && (GET_ASSOC(tgroup->ch) != guild || IS_APPLICANT(GET_A_BITS(tgroup->ch))) )
         {
-          alliance = get_alliance(GET_A_NUM(tgroup->ch));
-          if( alliance && (alliance->forging_assoc_id == guild_id
-            || alliance->joining_assoc_id == guild_id) )
+          alliance = (GET_ASSOC(tgroup->ch) == NULL) ? NULL : GET_ASSOC(tgroup->ch)->get_alliance();
+          if( alliance && (alliance->get_forgers() == guild || alliance->get_joiners() == guild) )
           {
             break;
           }

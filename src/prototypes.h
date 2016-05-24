@@ -116,7 +116,7 @@ void do_gossip(P_char, char *, int);
 void do_insult(P_char, char *, int);
 /*bool CAN_GCC(P_char);*/
 void do_gcc(P_char, char *, int);
-void send_to_guild(int, char *, char *);
+void send_to_guild(P_Guild, char *, char *);
 void do_project(P_char, char *, int);
 void do_page(P_char, char *, int);
 void do_petition(P_char, char *, int);
@@ -1249,8 +1249,9 @@ void argument_interpreter(char *, char *, char *);
 void assign_command_pointers(void);
 void assign_grant_commands(void);
 void command_interpreter(P_char, char *);
-void do_confirm(P_char, int);
+void do_confirm(P_char, bool);
 void half_chop(char *, char *, char *);
+char *lohrr_chop(char *, char *);
 
 /* justice.c */
 
@@ -1335,7 +1336,7 @@ void gain_practices(P_char);
 void lose_level(P_char);
 void lose_practices(P_char);
 void point_update(void);
-void set_title(P_char);
+void clear_title(P_char);
 
 /* breath_weapons.c */
 void breath_weapon_fire(int, P_char, char *, int, P_char, P_obj);
@@ -2913,7 +2914,6 @@ void debug( const char *format, ... );
 int create_html();
 int god_check(char *name);
 
-__attribute__((deprecated)) char* stripansi(const char *mesg);
 string strip_ansi(const char *str);
 int stripansi_2(const char *, char *);
 void ansi_comp(char *);
@@ -2961,7 +2961,6 @@ bool aggressive_to(P_char, P_char);
 bool aggressive_to_basic(P_char, P_char);
 char *PERS(P_char, P_char, int);
 char *PERS(P_char, P_char, int, bool);
-char *coin_stringv( int amount, int padfront = 0 );
 char *str_dup(const char *);
 void str_free(char *);
 char strleft(const char *, const char *);
@@ -3064,47 +3063,6 @@ int in_weather_sector(int);
 
 bool is_char_pet (P_char, P_char);
 int mount_rent_cost (P_char);
-
-/* assocs.c */
-int remove_a_golem_from_house(int);
-void display_guild_frags( P_char god );
-void sacking_event(P_char, P_char);
-P_char get_guild_leader(int);
-int ostracize_enemy (P_char, char *);
-int find_enemy (P_char, ush_int);
-int level_check(P_char);
-void update_member(P_char, int);
-void do_supervise(P_char, char *, int);
-void do_asclist(P_char, char *, int);
-void do_society(P_char, char *, int);
-int found_asc(P_char, P_char, char *, char *);
-void asc_list (P_char);
-int delete_asc (P_char, ush_int);
-int govern_asc (P_char, ush_int);
-int name_asc (P_char, ush_int, char *);
-int type_asc (P_char, ush_int, char *);
-int ban_mortal (P_char, P_char);
-void update_asc(P_char, ush_int, int);
-void found_kingdom(P_char, int, int);
-int move_to_kingdom_check(P_char);
-int apply_asc (P_char, P_char);
-int enrol_asc (P_char, P_char);
-int kickout_member (P_char, char *);
-int secede_asc (P_char);
-int rank_member (P_char, char *, int);
-int name_rank (P_char, char *, char *);
-int punish_member (P_char, char *);
-void retitle_member(P_char, P_char, char *);
-int challenge (P_char, P_char);
-void member_list(P_char);
-int fine_member (P_char, char *, int, int, int, int);
-int deposit_asc (P_char, int, int, int, int);
-int sub_money_asc (int, int, int, int, int);
-int withdraw_asc (P_char, int, int, int, int);
-void str_to_money(char *, int *, int *, int *, int *);
-char *title_member(P_char, char *);
-void do_gmotd(P_char, char *, int);
-int assoc_founder(P_char ch, P_char victim, int cmd, char *arg);
 
 /* range.c */
 void event_arrow_bleeding(P_char, P_char, P_obj, void*);

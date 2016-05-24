@@ -32,6 +32,7 @@ using namespace std;
 #include "objmisc.h"
 #include "interp.h"
 #include "utils.h"
+#include "utility.h"
 #include "justice.h"
 #include "prototypes.h"
 #include "spells.h"

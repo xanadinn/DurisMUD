@@ -2256,8 +2256,7 @@ int boon_display(P_char ch, char *argument)
 	    sprintf(buffoption, "&+W'%d' is not a valid guildhall ID.&n", (int)criteria);
 	    break;
 	  }
-	  sprintf(buffoption, boon_options[option].desc,
-	    get_assoc_name(gh->assoc_id).c_str());
+	  sprintf(buffoption, boon_options[option].desc, gh->get_assoc()->get_name().c_str() );
 	  break;
 	}
       case BOPT_NEXUS:

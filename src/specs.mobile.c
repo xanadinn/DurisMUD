@@ -24,6 +24,7 @@
 #include "specs.prototypes.h"
 #include "structs.h"
 #include "utils.h"
+#include "utility.h"
 #include "justice.h"
 #include "weather.h"
 #include "assocs.h"

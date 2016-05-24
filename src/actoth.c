@@ -14,6 +14,7 @@
 #include <string.h>
 #include <time.h>
 
+#include "assocs.h"
 #include "comm.h"
 #include "sql.h"
 #include "db.h"
@@ -6654,7 +6655,8 @@ void do_descend(P_char ch, char *arg, int cmd)
     GET_RACE(ch) = RACE_LICH;
     ch->player.m_class = CLASS_NECROMANCER;
     ch->player.secondary_class = CLASS_SORCERER;
-    secede_asc(ch); //leave your guild!
+    if( GET_ASSOC(ch) != NULL )
+      GET_ASSOC(ch)->secede(ch);
     ch->only.pc->frags = 0;
     ch->only.pc->epics = 0;
 

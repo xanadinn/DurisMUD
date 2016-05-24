@@ -12,6 +12,7 @@ using namespace std;
 #include "prototypes.h"
 #include "defines.h"
 #include "utils.h"
+#include "utility.h"
 #include "structs.h"
 #include "nexus_stones.h"
 #include "racewar_stat_mods.h"

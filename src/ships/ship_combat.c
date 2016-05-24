@@ -14,6 +14,7 @@
 #include "structs.h"
 #include "ship_auto.h"
 #include "utils.h"
+#include "utility.h"
 #include "events.h"
 #include "epic.h"
 #include "ship_npc.h"

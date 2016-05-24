@@ -712,8 +712,8 @@ void boot_db(int mini_mode)
   restore_shopkeepers();
 
   fprintf(stderr, "-- Associations\n");
-  logit(LOG_STATUS, "Reloading associations table.");
-  reload_assoc_table();
+  logit(LOG_STATUS, "Updating associations table.");
+  sql_update_assoc_table();
 
   if (!mini_mode)
   {

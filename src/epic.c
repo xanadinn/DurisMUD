@@ -393,7 +393,8 @@ void gain_epic(P_char ch, int type, int data, int amount)
   }
 
   // add guild prestige
-  check_assoc_prestige_epics(ch, amount, type);
+  if( GET_ASSOC(ch) )
+    GET_ASSOC(ch)->add_prestige_epics(ch, amount, type);
 
 //  int old = ch->only.pc->epics; - Disabled epic skill points.
   sprintf(buffer, "You have gained %d epic point%s.\n", amount, amount == 1 ? "" : "s");

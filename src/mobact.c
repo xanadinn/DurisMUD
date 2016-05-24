@@ -10219,14 +10219,13 @@ P_char find_protector_target(P_char ch)
     }
 
     /* special handling for guild golems */
-    if( GET_A_NUM(ch) )
+    if( GET_ASSOC(ch) )
     {
-
       /* golems ALWAYS kill enemies */
-      if(find_enemy(vict, (ush_int) GET_A_NUM(ch)))
+      if( GET_ASSOC(ch)->is_enemy(vict) )
         cur_val |= BIT_30;
-      else if((GET_A_NUM(ch) == GET_A_NUM(t_ch)) &&
-               (GET_A_NUM(ch) != GET_A_NUM(vict)))
+      else if((GET_ASSOC(ch) == GET_ASSOC(t_ch)) &&
+               (GET_ASSOC(ch) != GET_ASSOC(vict)))
         cur_val |= BIT_30;
       else
         continue;               /* don't let other protector code work */
@@ -10445,7 +10444,7 @@ void remember(P_char ch, P_char victim, bool check_group_remember)
   }
 
   /* don't let golems aggro their own guildees */
-  if( (IS_OP_GOLEM(ch) || IS_GH_GOLEM(ch)) && (GET_A_NUM(ch) == GET_A_NUM(victim)) )
+  if( (IS_OP_GOLEM(ch) || IS_GH_GOLEM(ch)) && (GET_ASSOC(ch) == GET_ASSOC(victim)) )
   {
     return;
   }

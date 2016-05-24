@@ -20,6 +20,7 @@
 #include "spells.h"
 #include "structs.h"
 #include "utils.h"
+#include "utility.h"
 #include "weather.h"
 #include "justice.h"
 #include "damage.h"

@@ -30,6 +30,8 @@ int direction_tag(P_char ch);
 const char *condition_str(P_char ch);
 
 string pad_ansi(const char *str, int length, bool trim_to_length = FALSE);
+void trim_and_end_colorless( char *orig, char *good, int length );
+
 P_char get_player_from_name(char *name);
 int get_player_pid_from_name(char *name);
 char *get_player_name_from_pid(int pid);
@@ -37,5 +39,8 @@ char *get_player_name_from_pid(int pid);
 bool sub_string( const char *, const char * );
 bool sub_string_cs( const char *, const char * );
 bool sub_string_set( const char *, const char ** );
+
+char *coin_stringv( int amount, int padfront = 0 );
+char *coins_to_string( int platinum, int gold, int silver, int copper, char *color_string );
 
 #endif // _UTILITY_H_

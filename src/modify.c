@@ -19,6 +19,7 @@
 #include "prototypes.h"
 #include "structs.h"
 #include "utils.h"
+#include "utility.h"
 #include "mm.h"
 #include "events.h"
 #include "spells.h"
@@ -1742,8 +1743,7 @@ bool rename_character(P_char ch, char *old_name, char *new_name)
 
 /* One_Word is like one_argument, except that words in quotes '' are */
 /* regarded as ONE word                                              */
-
-char    *one_word(char *argument, char *first_arg)
+char *one_word(char *argument, char *first_arg)
 {
   int      found, begin, look_at;
 

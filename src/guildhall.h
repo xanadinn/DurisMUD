@@ -136,7 +136,7 @@ struct GuildhallRoom {
   // fields stored in DB
   int id;
   int vnum;
-  int guildhall_id;
+  P_Guild guild;
   string name;
   int type;
   unsigned int value[GH_ROOM_NUM_VALUES];
@@ -164,7 +164,7 @@ struct GuildhallRoom {
 
   P_room room;
   
-  GuildhallRoom() : vnum(-1), guildhall_id(0), type(0), room(NULL), guildhall(NULL), template_vnum(GH_ROOM_TEMPLATE_GENERIC)
+  GuildhallRoom() : vnum(-1), guild(NULL), type(0), room(NULL), guildhall(NULL), template_vnum(GH_ROOM_TEMPLATE_GENERIC)
   {
     for( int i = 0; i < GH_ROOM_NUM_VALUES; i++ )
     {
@@ -177,7 +177,7 @@ struct GuildhallRoom {
     }    
   }
   
-  GuildhallRoom(int _template_vnum) : vnum(-1), guildhall_id(0), type(0), room(NULL), guildhall(NULL), template_vnum(_template_vnum)
+  GuildhallRoom(int _template_vnum) : vnum(-1), guild(NULL), type(0), room(NULL), guildhall(NULL), template_vnum(_template_vnum)
   {
     GuildhallRoom();
   }
@@ -299,10 +299,10 @@ struct Guildhall {
 
   static void initialize();
   static void shutdown();
-  
+
   static void add(Guildhall*);
   static void remove(Guildhall*);
-  
+
   static Guildhall* find_by_id(int id);
   static Guildhall* find_by_assoc_id(int id);
   static Guildhall* find_by_vnum(int vnum);
@@ -311,14 +311,16 @@ struct Guildhall {
   static GuildhallRoom* find_room_by_vnum(int vnum);
   static Guildhall* find_from_ch(P_char ch);
   static LibraryRoom* find_library_by_vnum(int vnum);
-  
+
   static int count_by_assoc_id(int assoc_id, int type);
-  
+
+  P_Guild get_assoc() {return guild;}
+
   static const int max_rooms = 50;
-  
+
   // fields stored in DB
-  int id;  
-  int assoc_id;  
+  int id;
+  P_Guild guild;
   int type;
   int outside_vnum;
   int racewar;
@@ -341,7 +343,7 @@ struct Guildhall {
   PortalRoom* portal_room;
   HeartstoneRoom* heartstone_room;
     
-  Guildhall() : id(0), assoc_id(0), type(0), outside_vnum(0), racewar(RACEWAR_NONE), entrance_room(NULL), inn_room(NULL), portal_room(NULL), heartstone_room(NULL) {}
+  Guildhall() : id(0), guild(NULL), type(0), outside_vnum(0), racewar(RACEWAR_NONE), entrance_room(NULL), inn_room(NULL), portal_room(NULL), heartstone_room(NULL) {}
   
   ~Guildhall()
   {

@@ -14,7 +14,6 @@
 #include <string.h>
 #include <math.h>
 
-
 #include "comm.h"
 #include "db.h"
 #include "events.h"
@@ -33,6 +32,7 @@
 #include "specs.zion.h"
 #include "spells.h"
 #include "structs.h"
+#include "utility.h"
 #include "utils.h"
 #include "arena.h"
 #include "arenadef.h"
@@ -65,6 +65,7 @@ extern P_room world;
 extern const int top_of_world;
 extern char debug_mode;
 extern const char *race_types[];
+extern const char *rude_ass[];
 
 //extern const int material_absorbtion[][];
 extern const struct stat_data stat_factor[];
@@ -3970,125 +3971,79 @@ void do_dice(P_char ch, char *arg, int cmd)
  send_to_char("Roll some dice! Syntax: dice <number> <sides>\r\n", ch);
 }
 
-int assoc_founder(P_char ch, P_char victim, int cmd, char *arg)
+int assoc_founder(P_char mob, P_char pl, int cmd, char *arg)
 {
-  char buffer[MAX_STRING_LENGTH] = "";
-  char buffer2[MAX_STRING_LENGTH], bufbug[256], buf[MAX_STRING_LENGTH];
-  uint temp;
+  char buffer[MAX_STRING_LENGTH], buffer2[MAX_STRING_LENGTH], guild_name[MAX_INPUT_LENGTH];
   int qend;
 
-  if(cmd == CMD_LIST)
-  {//iflist
-      if(!arg || !*arg)
-   {//ifnoarg
-      // practice called with no arguments
-      if(GET_RACEWAR(victim) == RACEWAR_GOOD)
-      {
-      sprintf(buffer,
-              "&+WKotil&+L looks you over briefly and then chuckles.'\n"
-	       "&+WKotil&+L &+wsays 'Welcome adventurer. If it is a guild ye are wishing to found, then ye have come to the right place&n.'\n"
-	       "&+WKotil&+L &+wsays 'Ye will find the command to create a guild listed here, as well as the cost.'\n"
-              "&+y=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n"
-		"&+y|&+WFounding a guild will cost &+R5,000 &+Wplatinum coins.\n"																
-              "&+y|&+WTo found the guild, type the following command and have the coins on your character:&+y\n"
-              "&+y|&+Wbuy '<name of guild>'&+y\n"
-              "&+y|&+y|\n"
-              "&+y|&+Wexample: buy '&+Lthe &+MNetheril &+mMages&n'&+y\n"
-              "&+y|&nSee help &+cansi &nand help &+ctestcolor&n for help in creatnig your guild colors.&+y\n"
-              "&+y|&+WBe warned! Once you create the guild, there is no way to rename it, for now.&+y\n"
-              "&+y=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n"
-		"\n");
-      send_to_char(buffer, victim);
-      }
-      else
-      {
-      sprintf(buffer,
-              "&+WZurg&+L looks you over briefly and then chuckles.'\n"
-	       "&+WZurg&+L &+wsays 'Welcome adventurer. If it is a guild ye are wishing to found, then ye have come to the right place&n.'\n"
-	       "&+WZurg&+L &+wsays 'Ye will find the command to create a guild listed here, as well as the cost.'\n"
-              "&+y=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n"
-		"&+y|&+WFounding a guild will cost &+R5,000 &+Wplatinum coins.\n"																
-              "&+y|&+WTo found the guild, type the following command and have the coins on your character:&+y\n"
-              "&+y|&+Wbuy <name of guild>&+y\n"
-              "&+y|&+y\n"
-              "&+y|&+Wexample: buy '&+Lthe &+MNetheril &+mMages&n'&+y\n"
-              "&+y|&nSee help &+cansi &nand help &+ctestcolor&n for help in creatnig your guild colors.&+y\n"
-              "&+y|&+WBe warned! Once you create the guild, there is no way to rename it, for now.&+y\n"
-              "&+y=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n"
-		"\n");
-      send_to_char(buffer, victim);
-      }
+  if( cmd == CMD_LIST )
+  {
+    if( !arg || !*arg )
+    {
+      sprintf( buffer2, "%s", PERS(mob, pl, FALSE) );
+      sprintf( buffer, "%s&+L looks you over briefly and then chuckles.'\n"
+	      "%s &+wsays 'Welcome adventurer.  If it is a guild ye are wishing to found, then ye have come to the right place&n.'\n"
+	      "%s &+wsays 'Ye will find the command to create a guild listed here, as well as the cost.'\n"
+        "&+y=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=+\n"
+		    "&+y|&+WFounding a guild will cost &+R%s &+Wplatinum coins.                                       &+y|\n"
+        "&+y|&+WTo found the guild, type the following command and have the coins on your character:      &+y|\n"
+        "&+y|&+Wbuy '<name of guild>'                                                                     &+y|\n"
+        "&+y|                                                                                             &+y|\n"
+        "&+y|&+Wexample: buy '&&+Lthe &&+MNetheril &&+mMages&&n'                                          &+y|\n"
+        "&+y|&+WThis will create a guild named: '&+Lthe &+MNetheril &+mMages&n'                           &+y|\n"
+        "&+y|&nSee help &+cansi &nand help &+ctestcolor&n for help in creatnig your guild colors.         &+y|\n"
+        "&+y|&+WBe warned! Once you create the guild, there is no way to rename it, for now.              &+y|\n"
+        "&+y=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=+\n"
+        "&+RNO racist, hate speech, or curse words will be tolerated in guild names. Violations will be met with a ban.\n"
+		    "\n", buffer2, buffer2, buffer2, comma_string(GUILD_COST / 1000) );
+      send_to_char(buffer, pl);
       return TRUE;
     }//endifnoarg
   }//endiflist
 
-  if(cmd == CMD_BUY)
-   {
+  if( cmd == CMD_BUY )
+  {
 
-    temp = GET_A_BITS(victim);
-    if (IS_MEMBER(temp))
+    if( GET_ASSOC(pl) != NULL )
     {
-     send_to_char("You cannot form a guild if you are currently a member of a guild.\r\n", victim);
+     send_to_char("You cannot form a guild if you are currently a member of a guild.\r\n", pl);
      return TRUE;
     }
 
     arg = skip_spaces(arg);
-    if (*arg != '\'')
-     {
-      send_to_char
-        ("The guild name must be enclosed in 'apostrophes'.\n",
-         victim);
-       return TRUE;
-     }
-       int i = 0;
-       sprintf(bufbug, "%s", arg);
-       int times = 0;
-       while(times < 2)
-       {
-          char blinkcheck[256]; //we'll use this to make sure they dont use -L for blinking ansi
-          int x = i +1;
-          sprintf(buffer2, "%c", bufbug[i]);
-          sprintf(blinkcheck, "%c", bufbug[x]);
-          if(strstr(buffer2, "-") && strstr(blinkcheck, "L"))
-          {
-           send_to_char("You may not have blinking ansi in a guild name.\r\n", victim);
-           return TRUE;
-          }
-          if(!strstr(buffer2, "'"))
-          {
-          strcat(buffer, buffer2);
-          }
-          else
-          times++;
-          i++;
-       }
+    if( (*arg != '\'') || (arg[strlen( arg ) - 1] != '\'') )
+    {
+      send_to_char("The guild name must be enclosed in 'apostrophes'.\n", pl);
+      send_to_char_f( pl, "\"%s\" is not good enough.\n", arg );
+      return TRUE;
+    }
+    // Skip the opening '.
+    sprintf( guild_name, "%s", arg + 1 );
+    // Overwrite the closing ' with a color normal.
+    sprintf( guild_name + strlen(guild_name) - 1, "&n" );
 
-     if(strstr(buffer, "shit") ||
-        strstr(buffer, "fuck") ||
-        strstr(buffer, "ass")  ||
-        strstr(buffer, "nigger") ||
-        strstr(buffer, "nazi") ||
-        strstr(buffer, "bitch") ||
-        strstr(buffer, "pussy") ||
-        strstr(buffer, "cunt"))
-       {
-        send_to_char("No curse words. Violations will be met with ban.\r\n", victim);
-        return TRUE;
-       }
+    if( sub_string_cs(guild_name, "&-") || sub_string_cs(guild_name, "&=") )
+    {
+      send_to_char("You may not have blinking ansi or background colors in a guild name.\r\n", pl);
+      return TRUE;
+    }
 
-      strcat(buffer, "&n"); //no ansi bleed
-     sprintf(bufbug, "&+RNO racist, hate speech, or curse words will be tolerated in guild names. Violations will be met with a ban.\r\n");
-     sprintf(buffer2, "You have selected: %s for your guild name, is this correct? (y/n)", buffer, victim);  
-     send_to_char(bufbug, victim);   
-     send_to_char(buffer2, victim);
-     char makeit[MAX_INPUT_LENGTH];
-     sprintf(makeit, "%s", buffer);
+    if( sub_string_set(guild_name, rude_ass) )
+    {
+      send_to_char("No curse words. Violations will be met with ban.\r\n", pl);
+      debug( "Player '%s' %d is tryiing to make a rude-named guild: '%s'", J_NAME(pl), GET_ID(pl), guild_name );
+      return TRUE;
+    }
 
-     strcpy(victim->desc->last_command, makeit);
-     strcpy(victim->desc->client_str, "found_asc");
-     victim->desc->confirm_state = CONFIRM_AWAIT;
-     return TRUE;
-   }
+    sprintf(buffer2, "You have selected: %s for your guild name, is this correct? (y/n)\n", guild_name );
+    send_to_char(buffer2, pl);
+
+    strcpy(pl->desc->last_command, guild_name);
+    strcpy(pl->desc->client_str, "found_asc");
+    pl->desc->confirm_state = CONFIRM_AWAIT;
+
+    return TRUE;
+  }
   return FALSE;
 }
 

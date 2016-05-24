@@ -54,6 +54,7 @@
 #include "achievements.h"
 #include "siege.h"
 #include "vnum.room.h"
+#include "tradeskill.h"
 
 /*
  * external variables
@@ -1100,10 +1101,13 @@ const char *rude_ass[] = {
   "ass",
   "bitch",
   "cunt",
+  "pussy",
   "dick",
   "fuck",
   "penis",
   "shit",
+  "nigger",
+  "nazi",
   "\n"
 };
 
@@ -1211,55 +1215,63 @@ int old_search_block(const char *argument, const uint begin, uint length,
 /*
  * SAM 7-94, command confirmation
  */
-void do_confirm(P_char ch, int yes)
+void do_confirm(P_char ch, bool yes)
 {
-  if (IS_NPC(ch) || !ch->desc)  /*
-                                 * was a force, or npc doing it.
-                                 */
+  P_char founder;
+
+  // Was a force, or npc doint it.
+  if( IS_NPC(ch) || !ch->desc )
     return;
 
-  /*
-   * the putz just entered yes or no without a pending command
-   */
-  if (ch->desc->confirm_state != CONFIRM_AWAIT)
+  // The putz just entered yes or no without a pending command
+  if( ch->desc->confirm_state != CONFIRM_AWAIT )
   {
     send_to_char("What do you wish to confirm?\r\n", ch);
     return;
   }
-  /*
-   * they said no
-   */
-  if (!yes)
+  // They said no
+  if( !yes )
   {
     ch->desc->confirm_state = CONFIRM_NONE;
     send_to_char("Did not think you wanted to do that... :P\r\n", ch);
     return;
   }
-  /*
-   * they said yes, so do it
-   */
-  //Guild creation - Drannak
+  // They said yes, so do it
+  // Guild creation - Drannak
   if (strstr(ch->desc->client_str, "found_asc"))
-   {
+  {
     char guildinfo[MAX_INPUT_LENGTH];
-    if(GET_MONEY(ch) < 5000000)
+    if( GET_MONEY(ch) < GUILD_COST )
     {
       send_to_char("You dont have enough money!\r\n", ch);
-    ch->desc->confirm_state = CONFIRM_DONE;
-    strcpy(ch->desc->client_str, "");
-    return;
-
+      ch->desc->confirm_state = CONFIRM_DONE;
+      strcpy(ch->desc->client_str, "");
+      return;
+    }
+    founder = world[ch->in_room].people;
+    while( founder )
+    {
+      if( IS_NPC(founder) && (mob_index[GET_RNUM(founder)].func.mob == assoc_founder) )
+        break;
+      founder = founder->next_in_room;
+    }
+    if( !founder )
+    {
+      send_to_char("The guild creating mob seems to have wandered off!\n", ch);
+      ch->desc->confirm_state = CONFIRM_DONE;
+      strcpy(ch->desc->client_str, "");
+      return;
     }
 
     sprintf(guildinfo, "%s", ch->desc->last_command);
-    int x = found_asc(ch, ch, "n", guildinfo);
+    bool x = found_asc(founder, ch, "n", guildinfo);
     if(x)
-    SUB_MONEY(ch, 5000000, 0);
+    SUB_MONEY(ch, GUILD_COST, 0);
     ch->desc->confirm_state = CONFIRM_DONE;
     strcpy(ch->desc->client_str, "");
     return;
    }
-  
+
   ch->desc->confirm_state = CONFIRM_DONE;
   command_interpreter(ch, ch->desc->last_command);
 }
@@ -1981,20 +1993,20 @@ bool is_number(char *str)
  * find the first sub-argument of a string, return pointer to first char
  * in primary argument, following the sub-arg
  */
-char    *one_argument(const char *argument, char *first_arg)
+char *one_argument(const char *argument, char *first_arg)
 {
-  int      found, begin, look_at;
+  int found, begin, look_at;
 
   found = begin = 0;
 
-  if (!argument)
+  if( !argument )
   {
     *first_arg = '\0';
     return NULL;
   }
-  if (strlen(argument) >= MAX_INPUT_LENGTH)
+  if( strlen(argument) >= MAX_INPUT_LENGTH )
   {
-    logit(LOG_SYS, "too long arg in one_argument.");
+    logit(LOG_SYS, "one_argument: argument too long.");
     *(first_arg) = '\0';
     return NULL;
   }
@@ -2003,21 +2015,22 @@ char    *one_argument(const char *argument, char *first_arg)
     /*
      * Find first non blank
      */
-    for (; isspace(*(argument + begin)); begin++) ;
+    for( ; isspace(*(argument + begin)); begin++ )
+      ;
 
     /*
      * Find length of first word
      */
-    for (look_at = 0; *(argument + begin + look_at) > ' '; look_at++)
-      /*
-       * Make all letters lower case, AND copy them to first_arg
-       */
+    for( look_at = 0; *(argument + begin + look_at) > ' '; look_at++ )
+    {
+      // Make all letters lower case, AND copy them to first_arg
       *(first_arg + look_at) = LOWER(*(argument + begin + look_at));
+    }
 
     *(first_arg + look_at) = '\0';
     begin += look_at;
   }
-  while (fill_word(first_arg));
+  while( fill_word(first_arg) );
 
   return ((char *) (argument + begin));
 }
@@ -2130,7 +2143,7 @@ bool special(P_char ch, int cmd, char *arg)
          mob_index[GET_RNUM(k)].func.mob &&
          !affected_by_spell(k, TAG_CONJURED_PET) &&
          (!IS_IMMOBILE(k) ||
-	  (IS_NPC(k) && (GET_VNUM(k) == BUILDING_OUTPOST_MOB))))
+	  (IS_NPC(k) && (GET_VNUM(k) == OUTPOST_BUILDING_MOB))))
       {
         if ((*mob_index[GET_RNUM(k)].func.mob) (k, ch, cmd, arg))
         {
@@ -3238,4 +3251,64 @@ void check_aggro_from_command( P_char exec_char )
       }
     }
   }
+}
+
+// Hybrid between one_argument and half_chop:
+// Takes the string, skips initial spaces, pulls out arg1 (making all lowercase),
+//   does _NOT_ skip any words, skips spaces and returns the remainder of the argument(s).
+// Note: This _DOES_ treat a substring in quotes as a single argument.
+char *lohrr_chop( char *string, char *arg1 )
+{
+  char *index;
+  bool single_quoted;
+
+  // First test for empty.
+  if( (string == NULL) || (*string == '\0') )
+  {
+    *arg1 = '\0';
+    return string;
+  }
+
+  // Skip spaces / tabs / etc
+  for( ; isspace(*string); string++ )
+  {
+    ;
+  }
+  index = string;
+
+  // If it starts with a single quote, then we must end with a closing single quote.
+  single_quoted = (*index == '\'');
+  if( single_quoted )
+    index++;
+  // Copy until we hit a space unless we have an opening quote and are looking for a closer.
+  while( !isspace(*index) || single_quoted )
+  {
+    // If we've found the closing quote, go past and don't copy it.
+    if( single_quoted && *index == '\'' )
+    {
+      index++;
+      break;
+    }
+    // If we've reached the end of the string.
+    if( *index == '\0' )
+    {
+      // Opening quote no closing quote. :/
+      // So we start over not looking for single quotes.
+      if( single_quoted )
+      {
+        index = string;
+        single_quoted = FALSE;
+      }
+      else
+      {
+        break;
+      }
+    }
+    *arg1 = LOWER(*index);
+    arg1++;
+    index++;
+  }
+  *arg1 = '\0';
+
+  return index;
 }

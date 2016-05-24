@@ -3,6 +3,7 @@
 #include "prototypes.h"
 #include "skills.h"
 #include "utils.h"
+#include "utility.h"
 #include "comm.h"
 #include "db.h"
 #include "interp.h"

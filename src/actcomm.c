@@ -475,12 +475,13 @@ void do_gcc(P_char ch, char *argument, int cmd)
 {
   P_desc   i;
   P_char   to_ch;
-  ush_int  from_guild, to_guild;
+  P_Guild  from_guild, to_guild;
   char     Gbuf1[MAX_STRING_LENGTH];
-  char     guild_name[1024];
+  char     guild_name[MAX_INPUT_LENGTH];
+  int      guild_number;
   FILE    *f;
 
-  from_guild = GET_A_NUM(ch);
+  from_guild = GET_ASSOC(ch);
 
   if( IS_NPC(ch) )
   {
@@ -522,11 +523,9 @@ void do_gcc(P_char ch, char *argument, int cmd)
   {
     if( IS_TRUSTED(ch) )
     {
-      struct stat statbuf;
-      argument = one_argument( argument, Gbuf1 );
-      from_guild = atoi(Gbuf1);
-      sprintf(Gbuf1, "%sasc.%u", ASC_DIR, from_guild);
-      if( stat(Gbuf1, &statbuf) )
+      argument = one_argument( argument, guild_name );
+      guild_number = atoi( guild_name );
+      if( (from_guild = get_guild_from_id( guild_number )) == NULL )
       {
         send_to_char( "&+WSyntax:&n\n   &+wgcc [guild number] <message>&n\n   &+wgcc <message>&n\n", ch );
         send_to_char( "Where you are either &+wsupervis&ning a guild or supply the &+wnumber&n of the guild.\n", ch );
@@ -573,18 +572,7 @@ void do_gcc(P_char ch, char *argument, int cmd)
       }
     }
 
-    sprintf(Gbuf1, "%sasc.%u", ASC_DIR, from_guild);
-    if( (f = fopen(Gbuf1, "r")) )
-    {
-      fgets(guild_name, MAX_STR_NORMAL, f);
-      fclose(f);
-      sprintf(guild_name + strlen(guild_name) - 1, "&n");
-    }
-    else
-    {
-      sprintf( guild_name, "Unknown Guild" );
-    }
-
+    sprintf( guild_name, "%s", from_guild->get_name().c_str() );
     for( i = descriptor_list; i; i = i->next )
     {
       if( !(to_ch = i->character) )
@@ -605,12 +593,11 @@ void do_gcc(P_char ch, char *argument, int cmd)
       }
 
       // Dereference once for ease and speed.
-      to_guild = GET_A_NUM(to_ch);
+      to_guild = GET_ASSOC(to_ch);
       if( IS_TRUSTED(to_ch) )
       {
         // If they'r governing a diff't association or they have GCC toggled off, or ignoring ch.
-        if( (to_guild && to_guild != from_guild) || !PLR_FLAGGED(to_ch, PLR_GCC)
-          || to_ch->only.pc->ignored == ch )
+        if( (to_guild && to_guild != from_guild) || !PLR_FLAGGED(to_ch, PLR_GCC) || to_ch->only.pc->ignored == ch )
         {
           continue;
         }
@@ -630,23 +617,24 @@ void do_gcc(P_char ch, char *argument, int cmd)
   }
 }
 
-void send_to_guild(int asc, char *name, char *arg)
+// Sends a message to each person in-game and in guild.
+void send_to_guild( P_Guild guild, char *name, char *arg)
 {
   P_desc i;
   char Gbuf1[MAX_STRING_LENGTH];
 
-  for (i = descriptor_list; i; i = i->next)
-    if (!i->connected &&
-        !is_silent(i->character, FALSE) &&
-        IS_SET(i->character->specials.act, PLR_GCC) &&
-        IS_MEMBER(GET_A_BITS(i->character)) &&
-	(GET_A_NUM(i->character) == asc) &&
-        (!(IS_AFFECTED4(i->character, AFF4_DEAF))) &&
-        (GT_PAROLE(GET_A_BITS(i->character))))
+  // Walk through connections...
+  for( i = descriptor_list; i; i = i->next )
+  {
+    // If we're not at menu, nor in silent room nor have gcc off
+    if( !i->connected && !is_silent(i->character, FALSE) && IS_SET(i->character->specials.act, PLR_GCC)
+      && IS_MEMBER(GET_A_BITS(i->character)) && (GET_ASSOC(i->character) == guild)
+      && (!(IS_AFFECTED4(i->character, AFF4_DEAF))) && (GT_PAROLE(GET_A_BITS(i->character))))
     {
       sprintf(Gbuf1, "&+c%s&n&+c tells your guild '&+C%s&n&+c'\r\n", name, arg);
       send_to_char(Gbuf1, i->character, LOG_PRIVATE);
     }
+  }
 }
 
 void do_rwc(P_char ch, char *argument, int cmd)

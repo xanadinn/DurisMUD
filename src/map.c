@@ -74,6 +74,7 @@ extern struct zone_data *zone;
 extern struct zone_data *zone_table;
 extern int LOADED_RANDOM_ZONES;
 extern struct time_info_data time_info;
+extern const racewar_struct racewar_color[MAX_RACEWAR+2];
 
 int      whats_in_maproom(P_char, int, int);
 // These are set in weather.c
@@ -578,7 +579,7 @@ void display_map_room(P_char ch, int from_room, int n, int show_map_regardless)
   int      x, y, where, what, from_what, prev = -1, temp;
   int      where_rnum, whats_in, distance;
   bool     hadbg = false, map_tile;
-  char     buf[MAX_STRING_LENGTH];
+  char     buf[MAX_STRING_LENGTH], minibuf[10];
   float    horizontal_factor, vertical_factor;
   P_ship   ship;
 
@@ -695,27 +696,33 @@ void display_map_room(P_char ch, int from_room, int n, int show_map_regardless)
       }
       else if (whats_in == CONTAINS_GOOD_SHIP)
       {
-        strcat(buf, "&+YS&n");
+        sprintf(minibuf, "&+%cS&n", racewar_color[RACEWAR_GOOD].color );
+        strcat(buf, minibuf);
       }
       else if (whats_in == CONTAINS_EVIL_SHIP)
       {
-        strcat(buf, "&+RS&n");
+        sprintf(minibuf, "&+%cS&n", racewar_color[RACEWAR_EVIL].color );
+        strcat(buf, minibuf);
       }
       else if (whats_in == CONTAINS_UNDEAD_SHIP)
       {
-        strcat(buf, "&+LS&n");
+        sprintf(minibuf, "&+%cS&n", racewar_color[RACEWAR_UNDEAD].color );
+        strcat(buf, minibuf);
       }
       else if (whats_in == CONTAINS_NEUTRAL_SHIP)
       {
-        strcat(buf, "&+MS&n");
+        sprintf(minibuf, "&+%cS&n", racewar_color[RACEWAR_NEUTRAL].color );
+        strcat(buf, minibuf);
       }
       else if (whats_in == CONTAINS_UNKNOWN_SHIP)
       {
-        strcat(buf, "&+CS&n");
+        sprintf(minibuf, "&+%cS&n", racewar_color[MAX_RACEWAR+1].color );
+        strcat(buf, minibuf);
       }
       else if (whats_in == CONTAINS_SHIP)
       {
-        strcat(buf, "&+WS&n");
+        sprintf(minibuf, "&+%cS&n", racewar_color[RACEWAR_NONE].color );
+        strcat(buf, minibuf);
       }
       else if (whats_in == CONTAINS_FERRY)
       {

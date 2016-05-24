@@ -12,6 +12,7 @@ using namespace std;
 
 #include "map.h"
 #include "structs.h"
+#include "vnum.room.h"
 
 #define BUILDING_START_ROOM 97800
 #define BUILDING_END_ROOM 97899
@@ -21,63 +22,78 @@ using namespace std;
 // Building types for building_types array
 #define BUILDING_OUTPOST 1
 
-// Building structure mob vnums
-#define BUILDING_OUTPOST_MOB     97800
-
 // Building object vnums
 #define BUILDING_RUBBLE          97800
 #define BUILDING_PORTAL          97801
 
+// Building structure mob vnums
+#define OUTPOST_BUILDING_MOB     97800
 // Normal mobs relating to outposts
 #define OUTPOST_GATEGUARD_WAR    97801
 #define MAX_OUTPOST_GATEGUARDS   2
 
 #define IS_OP_GOLEM(ch) (IS_NPC(ch) && (GET_VNUM(ch) == OUTPOST_GATEGUARD_WAR))
 
-struct Building
+int outpost_mob(P_char ch, P_char pl, int cmd, char *arg);
+
+class Building
 {
-  Building();
-  Building(int _guild_id, int _type, int _room_vnum, int _level);
-  ~Building();
-    
-  int load();
-  int unload();
+  public:
+    Building();
+    Building(P_Guild _guild, int _type, int _room_vnum, int _level);
+    ~Building();
 
-  int id;
-  
-  static int next_id;
-  
-  int guild_id;
-  int type;
-  int room_vnum;
-  int level;
-  int golem_room;
-  int golem_dir;
+    int load();
+    int unload();
+    bool sub_money( int p, int g, int s, int c );
+    int gate_room()
+    {
+      if( rooms.size() < 1 )
+        return RROOM_VOID;
+      if( !rooms[0] )
+        return RROOM_VOID;
+      return real_room0(rooms[0]->number);
+    }
+    int location() { real_room0(room_vnum); }
+    int get_id() { return id; }
+    int size() { return rooms.size(); }
+    P_room get_room( int room_num ) { return &(*rooms[room_num]); }
+    bool is_loaded() { return loaded; }
+    bool proc( P_char ch, P_char pl, int cmd, char *arg);
+    P_Guild get_guild( ) { return guild; }
+    P_char get_mob() { return mob; }
+    void set_proc() { mob_proc = outpost_mob; }
+    void add_room( P_room room ) { rooms.push_back(room); }
+    int get_level() { return level; }
+    void set_dir( int dir ) { golem_dir = dir; }
+    int get_golem_room() { return golem_room; }
+    int get_golem_dir() { return golem_dir; }
+    void set_golem_room( int room ) { golem_room = room; }
+    bool load_gateguard(int location, int type, int golemnum);
+    void update_outpost_owner( P_Guild new_guild );
+    void set_guild( P_Guild new_guild ) { guild = new_guild; }
+    void clear_portal_op();
+    bool generate_portals();
 
-  bool loaded;  
-  
-  P_char mob;
-  mob_proc_type mob_proc;  
+  protected:
+    int id;
+    static int next_id;
+    P_Guild guild;
+    int type;
+    int room_vnum;
+    int level;
+    int golem_room;
+    int golem_dir;
+    bool loaded;
+    P_char mob;
+    mob_proc_type mob_proc;
 
-  P_obj portal_op;
-  P_obj portal_gh;
+    P_obj portal_op;
+    P_obj portal_gh;
 
-  P_char golems[MAX_OUTPOST_GATEGUARDS];
+    P_char golems[MAX_OUTPOST_GATEGUARDS];
 
-  vector<P_room> rooms;
-  
-  int gate_room() 
-  {
-    if( rooms.size() < 1 )
-      return 0;
-    
-    if( !rooms[0] )
-      return 0;
-    
-    return real_room0(rooms[0]->number);
-  }
-  
-  int location() { real_room0(room_vnum); }
+    vector<P_room> rooms;
 };
 
 // building generation functions
@@ -102,7 +118,7 @@ Building* get_building_from_rubble(P_obj rubble);
 Building* get_building_from_char(P_char ch);
 Building* get_building_from_room(int rroom);
 Building* get_building_from_id(int id);
-Building* load_building(int guildid, int type, int location, int level);
+Building* load_building(P_Guild guild, int type, int location, int level);
 void do_build(P_char ch, char *argument, int cmd);
 int building_mob_proc(P_char ch, P_char pl, int cmd, char *arg);
 int check_outpost_death(P_char, P_char);
@@ -113,7 +129,6 @@ int check_outpost_death(P_char, P_char);
 
 // OUTPOST
 int outpost_generate(Building* building);
-int outpost_mob(P_char ch, P_char pl, int cmd, char *arg);
 int outpost_inside(int room, P_char ch, int cmd, char *arg);
 
 #endif

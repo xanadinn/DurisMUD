@@ -2590,11 +2590,10 @@ void do_stat(P_char ch, char *argument, int cmd)
               IS_TRUSTED(k) ? "Unknown" : buf1);
     }
 
-    sprintf(buf,
-            "&+YLevel: &N%d&+Y(&n%d&+Y)&n  &+YExperience: &N%s %s  &+YAlignment [&N%d&+Y] Assoc:&n %d\n",
-            k->player.level,
-            IS_PC(k) ? k->only.pc->highest_level : GET_LEVEL(k),
-            comma_string((int) GET_EXP(k)), buf2, GET_ALIGNMENT(k), GET_A_NUM(k));
+    sprintf(buf, "&+YLevel: &N%d&+Y(&n%d&+Y)&n  &+YExperience: &N%s %s  &+YAlignment [&N%d&+Y] Assoc:&n %d %s\n",
+      k->player.level, IS_PC(k) ? k->only.pc->highest_level : GET_LEVEL(k), comma_string((int) GET_EXP(k)),
+      buf2, GET_ALIGNMENT(k), (GET_ASSOC(k) == NULL) ? -1 : GET_ASSOC(k)->get_id(),
+      (GET_ASSOC(k) == NULL) ? "" : GET_ASSOC(k)->get_name().c_str() );
     strcat(o_buf, buf);
 
 
@@ -5176,7 +5175,7 @@ void do_start(P_char ch, int nomsg)
       " NOTE:  Type TOGGLE and HELP for useful information!\n", ch);
   }
 
-  set_title(ch);
+  clear_title(ch);
 
   if( !(GET_CLASS(ch, CLASS_AVENGER | CLASS_DREADLORD))
     && !((GET_RACE(ch) == RACE_DUERGAR || GET_RACE(ch) == RACE_MOUNTAIN)
@@ -5214,7 +5213,10 @@ void do_start(P_char ch, int nomsg)
   if( nomsg == CMD_MULTICLASS )
   {
     // Set ch to parole if guilded.
-    level_check(ch);
+    if( GET_ASSOC(ch) != NULL )
+    {
+      SET_PAROLE(GET_A_BITS(ch));
+    }
   }
   else
   {

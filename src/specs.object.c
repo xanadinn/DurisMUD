@@ -940,7 +940,7 @@ int magic_mouth(P_obj obj, P_char ch, int cmd, char *arg)
   if (IS_TRUSTED(ch))
     return FALSE;
 
-  if ((obj->value[0] != GET_A_NUM(ch)) &&       /* not in guild */
+  if ((obj->value[0] != GET_ASSOC(ch)->get_id()) &&       /* not in guild */
       (!number(0, 4)))          /* do only occasionally */
   {
     sprintf(buff,
@@ -951,7 +951,7 @@ int magic_mouth(P_obj obj, P_char ch, int cmd, char *arg)
           !is_silent(i->character, TRUE) &&
           IS_SET(i->character->specials.act, PLR_GCC) &&
           IS_MEMBER(GET_A_BITS(i->character)) &&
-          (GET_A_NUM(i->character) == obj->value[0]) &&
+          (GET_ASSOC(i->character)->get_id() == obj->value[0]) &&
           !IS_TRUSTED(i->character))
         act(buff, FALSE, i->character, 0, ch, TO_CHAR);
   }

@@ -322,7 +322,14 @@ int sql_save_player_core(P_char ch)
   p = &ch->player;
   val = flag2idx(p->m_class);
 
-  get_assoc_name(GET_A_NUM(ch), assoc_name);
+  if( GET_ASSOC(ch) == NULL )
+  {
+    assoc_name[0] = '\0';
+  }
+  else
+  {
+    sprintf( assoc_name, "%s", GET_ASSOC(ch)->get_name().c_str() );
+  }
   mysql_str(assoc_name, assoc_name_sql);
 
   if (IS_SPECIALIZED(ch))
@@ -502,7 +509,14 @@ void get_pkill_player_description(P_char ch, char *buffer)
 {
   char assoc_name[MAX_STRING_LENGTH];
 
-  get_assoc_name(GET_A_NUM(ch), assoc_name);
+  if( GET_ASSOC(ch) == NULL )
+  {
+    assoc_name[0] = '\0';
+  }
+  else
+  {
+    sprintf( assoc_name, "%s", GET_ASSOC(ch)->get_name().c_str() );
+  }
 
   sprintf(buffer, "[%2d %s&n] %s &n%s &n(%s&n)",
                GET_LEVEL(ch), get_class_name(ch, ch), GET_NAME(ch), assoc_name, race_names_table[GET_RACE(ch)].ansi);

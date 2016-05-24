@@ -26,6 +26,7 @@
 #include "sql.h"
 #include "trophy.h"
 #include "vnum.obj.h"
+#include "assocs.h"
 
 #include <iostream>
 using namespace std;
@@ -436,7 +437,7 @@ int writeStatus(char *buf, P_char ch, bool updateTime )
   ADD_INT(buf, ch->specials.alignment);
   ADD_INT(buf, 0);
   ADD_SHORT(buf, ch->only.pc->prestige);
-  ADD_SHORT(buf, ch->specials.guild);
+  ADD_SHORT(buf, ch->specials.guild->get_id());
   ADD_INT(buf, ch->specials.guild_status);
   ADD_LONG(buf, ch->only.pc->time_left_guild);
   ADD_BYTE(buf, ch->only.pc->nb_left_guild);
@@ -2326,11 +2327,7 @@ int restoreStatus(char *buf, P_char ch)
             ch->only.pc->learned_forged_list[tmp] = GET_INTE(buf);
 
              }
-  
 
-
-  
- 
   ch->base_stats.Str = (ubyte) GET_BYTE(buf);
   ch->base_stats.Dex = (ubyte) GET_BYTE(buf);
   ch->base_stats.Agi = (ubyte) GET_BYTE(buf);
@@ -2367,7 +2364,7 @@ int restoreStatus(char *buf, P_char ch)
 //  ch->points.max_exp =
   GET_INTE(buf);
   ch->only.pc->epics = GET_INTE(buf);    // Used for lvl withouth potion
-  
+
   if(stat_vers >= 44)
   {
     ch->only.pc->epic_skill_points = GET_INTE(buf);
@@ -2382,7 +2379,7 @@ int restoreStatus(char *buf, P_char ch)
 
   if(stat_vers > 40)
     ch->only.pc->spell_bind_used = GET_INTE(buf);
-    
+
   // quaffed_level
   if(stat_vers < 43)
     GET_INTE(buf);
@@ -2402,10 +2399,39 @@ int restoreStatus(char *buf, P_char ch)
   GET_INTE(buf);  // orig_align field, not used anymore
 
   ch->only.pc->prestige = GET_SHORT(buf);
-  ch->specials.guild = GET_SHORT(buf);
-  ch->specials.guild_status = GET_INTE(buf);
-  GET_TIME_LEFT_GUILD(ch) = GET_LONG(buf);
-  GET_NB_LEFT_GUILD(ch) = GET_BYTE(buf);
+  if( (tmp = GET_SHORT( buf )) > 0 )
+  {
+    ch->specials.guild = get_guild_from_id(tmp);
+    if( GET_ASSOC(ch) == NULL )
+    {
+      clear_title( ch );
+      send_to_char( "\n&+CYour guild no longer seems to exist.&n\n\n", ch );
+      // Reset guild bits.
+      GET_A_BITS(ch) = 0;
+      GET_INTE(buf);
+      // Set time left guild to now
+      GET_TIME_LEFT_GUILD(ch) = time(0);
+      GET_LONG(buf);
+      // Increment number of times left guild.
+      GET_NB_LEFT_GUILD(ch) = GET_BYTE(buf) + 1;
+    }
+    // Load guild info
+    else
+    {
+      GET_A_BITS(ch) = GET_INTE(buf);
+      GET_TIME_LEFT_GUILD(ch) = GET_LONG(buf);
+      GET_NB_LEFT_GUILD(ch) = GET_BYTE(buf);
+    }
+  }
+  // Not in a guild.
+  else
+  {
+    GET_ASSOC(ch) = NULL;
+    GET_A_BITS(ch) = GET_INTE(buf);
+    GET_TIME_LEFT_GUILD(ch) = GET_LONG(buf);
+    GET_NB_LEFT_GUILD(ch) = GET_BYTE(buf);
+  }
+
   if (stat_vers > 31)
     ch->only.pc->time_unspecced = GET_LONG(buf);
   else

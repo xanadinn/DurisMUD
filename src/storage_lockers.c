@@ -25,6 +25,7 @@
 #include "spells.h"
 #include "structs.h"
 #include "utils.h"
+#include "utility.h"
 #include "events.h"
 #include "assocs.h"
 #include "justice.h"
@@ -1070,19 +1071,19 @@ int storage_locker_room_hook(int room, P_char ch, int cmd, char *arg)
   // check for guild locker
   if (!str_cmp(enterWho, "guild"))
   {                             /* guild lockers are named:  guild.x.locker where 'x' is the assoc number */
-    if (!GET_A_NUM(ch) || !IS_MEMBER(GET_A_BITS(ch)) ||
+    if (!GET_ASSOC(ch) || !IS_MEMBER(GET_A_BITS(ch)) ||
         (IS_PC(ch) && !GT_PAROLE(GET_A_BITS(ch))))
     {
       send_to_char("Try becoming part of a guild first!\r\n", ch);
       return TRUE;
     }
     
-    if (get_assoc_prestige(GET_A_NUM(ch)) < get_property("prestige.locker.required", 0))
+    if (GET_ASSOC(ch)->get_prestige() < get_property("prestige.locker.required", 0))
     {
       send_to_char("Your association is not yet prestigious enough to have a locker!\r\n", ch);
       return TRUE;
     }
-    sprintf(enterWho, "guild.%d", GET_A_NUM(ch));
+    sprintf(enterWho, "guild.%d", GET_ASSOC(ch)->get_id());
         is_guild_locker = 1;
   }
   else if ('\0' == enterWho[0])
@@ -1264,14 +1265,14 @@ int guild_locker_room_hook(int room, P_char ch, int cmd, char *arg)
   }
   
   /* guild lockers are named:  guild.x.locker where 'x' is the assoc number */
-  if (!GET_A_NUM(ch) || !IS_MEMBER(GET_A_BITS(ch)) ||
+  if (!GET_ASSOC(ch) || !IS_MEMBER(GET_A_BITS(ch)) ||
       (IS_PC(ch) && !GT_PAROLE(GET_A_BITS(ch))))
   {
     send_to_char("Try becoming part of a guild first!\r\n", ch);
     return TRUE;
   }
     
-  sprintf(enterWho, "guild.%d", GET_A_NUM(ch));
+  sprintf(enterWho, "guild.%d", GET_ASSOC(ch)->get_id());
   is_guild_locker = 1;
   
   sprintf(lockerName, "%s.locker", enterWho);

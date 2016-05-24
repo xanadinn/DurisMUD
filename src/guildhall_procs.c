@@ -38,7 +38,7 @@ int golem_noflee(P_char ch, P_char pl, int cmd, char *arg)
           else
           {                             //IS GH room - player FLED.
             Guildhall *gh = room->guildhall;
-            if (GET_A_NUM(pl) != gh->assoc_id)  // Is user in Guild?
+            if (GET_ASSOC(pl) != gh->guild)  // Is user in Guild?
              {act("$N&+y takes advantage of the &+Rpanicked&+y look on your face to &+Wquickly&+y move and block the exit. You are unable to &+Rflee!&n\n", FALSE, pl, 0, ch, TO_CHAR);
             act("$N&+y senses the &+Rpanic&+y on $n's face and &+Wquickly&+y intercepts their attempt at escape. The &+Yfight&+y is still on!&n\n", FALSE, pl, 0, ch, TO_ROOM);
           return TRUE;
@@ -112,7 +112,7 @@ int guildhall_golem(P_char ch, P_char pl, int cmd, char *arg)
         debug( "We have a real problem: Guildhall room vnum %d doesn't have a guildhall!", room->vnum );
       }
       // Is person fleeing in Guild?
-      else if( GET_A_NUM(pl) != gh->assoc_id )
+      else if( GET_ASSOC(pl) != gh->guild )
       {
         act("$N&+y takes advantage of the &+Rpanicked&+y look on your face to &+Wquickly&+y move and block the exit. You are unable to &+Rflee!&n\n", FALSE, pl, 0, ch, TO_CHAR);
         act("$N&+y senses the &+Rpanic&+y on $n's face and &+Wquickly&+y intercepts their attempt at escape. The &+Yfight&+y is still on!&n\n", FALSE, pl, 0, ch, TO_ROOM);
@@ -135,7 +135,7 @@ int guildhall_golem(P_char ch, P_char pl, int cmd, char *arg)
   //
   // standard checks
   //
-  if (!GET_A_NUM(ch))
+  if (!GET_ASSOC(ch))
   {
     logit(LOG_GUILDHALLS, "guildhall_golem() assigned to %s in %d has no association number!", ch->player.short_descr, world[ch->in_room].number);
     REMOVE_BIT(ch->specials.act, ACT_SPEC);
@@ -189,13 +189,13 @@ int guildhall_golem(P_char ch, P_char pl, int cmd, char *arg)
     if(!t_ch)
       return FALSE;
 
-    bool allowed = IS_ASSOC_MEMBER(t_ch, GET_A_NUM(ch));
+    bool allowed = IS_ASSOC_MEMBER(t_ch, GET_ASSOC(ch));
 
-    struct alliance_data *alliance = get_alliance(GET_A_NUM(ch));
+    P_Alliance alliance = GET_ASSOC(ch)->get_alliance();
 
     if( alliance )
     {
-      allowed = allowed || IS_ASSOC_MEMBER(t_ch, alliance->forging_assoc_id) || IS_ASSOC_MEMBER(t_ch, alliance->joining_assoc_id);
+      allowed = allowed || IS_ASSOC_MEMBER(t_ch, alliance->get_forgers()) || IS_ASSOC_MEMBER(t_ch, alliance->get_joiners());
     }
     if(!allowed && pl->group)
     {
@@ -203,7 +203,7 @@ int guildhall_golem(P_char ch, P_char pl, int cmd, char *arg)
       gl = pl->group;
       while (gl)
       {
-	      if (GET_A_NUM(gl->ch) == GET_A_NUM(ch))
+	      if (GET_ASSOC(gl->ch) == GET_ASSOC(ch))
 	        allowed = TRUE;
 	      gl = gl->next;
       }
@@ -251,7 +251,7 @@ int guildhall_golem(P_char ch, P_char pl, int cmd, char *arg)
       if( !i->connected && !is_silent(i->character, TRUE)
         && IS_SET(i->character->specials.act, PLR_GCC)
         && IS_MEMBER(GET_A_BITS(i->character))
-        && (GET_A_NUM(i->character) == GET_A_NUM(ch))
+        && (GET_ASSOC(i->character) == GET_ASSOC(ch))
         && !IS_TRUSTED(i->character) )
       {
         act(buff, FALSE, i->character, 0, pl, TO_CHAR);
@@ -341,7 +341,7 @@ int guildhall_bank_room(int room, P_char ch, int cmd, char *arg)
   {
     Guildhall *gh = Guildhall::find_by_vnum(world[ch->in_room].number);
     
-    if( !gh || gh->assoc_id != GET_A_NUM(ch) )
+    if( !gh || gh->guild != GET_ASSOC(ch) )
     {
       send_to_char("This isn't your guildhall!\r\n", ch);
       return TRUE;

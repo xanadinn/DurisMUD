@@ -988,6 +988,12 @@ struct attr_names_struct {
 #define RACEWAR_NEUTRAL      4
 #define MAX_RACEWAR          4
 
+struct racewar_struct
+{
+  const char color;
+  const char *name;
+};
+
 /* class defn's (PC) */
 /* IF YOU ADD A CLASS, YOU NEED TO ADD IT HERE AND EXPMOD_CLS_...
  * IF YOU REMOVE A CLASS, YOU SHOULD TO UPDATE EXPMOD_CLS_... to EXPMOD_CLS_UNUSED or such."

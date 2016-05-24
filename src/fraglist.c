@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
+#include "assocs.h"
 #include "prototypes.h"
 #include "structs.h"
 #include "config.h"
@@ -490,7 +491,7 @@ void displayFragList(P_char ch, char *arg, int cmd)
     }
     else if (strstr("guild", arg))
     {
-      display_guild_frags(ch);
+      show_guild_frags(ch);
       return;
     }
     else

@@ -31,6 +31,7 @@
 #include "buildings.h"
 #include "vnum.mob.h"
 #include "vnum.obj.h"
+#include "tradeskill.h"
 
 extern const int top_of_world;
 extern P_index mob_index;
@@ -1157,6 +1158,10 @@ void assign_mobiles(void)
   mob_index[real_mobile0(97030)].func.mob = ice_wolf;
   mob_index[real_mobile0(97003)].func.mob = ice_malice;
 
+  // Outposts
+  mob_index[real_mobile0(OUTPOST_BUILDING_MOB)].func.mob = building_mob_proc;
+  mob_index[real_mobile0(OUTPOST_GATEGUARD_WAR)].func.mob = outpost_gateguard_proc;
+
   /*
      jotunhiem
    */
@@ -1324,8 +1329,7 @@ void assign_objects(void)
 
   /* outposts */
   //obj_index[real_object0(97800)].func.obj = outpost_rubble; 
-  mob_index[real_mobile0(97800)].func.mob = building_mob_proc;
-  
+
   /* ailvio */
   obj_index[real_object0(29328)].func.obj = burbul_map_obj;
   obj_index[real_object0(29329)].func.obj = chyron_search_obj;

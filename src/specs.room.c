@@ -284,7 +284,7 @@ int inn(int room, P_char ch, int cmd, char *arg)
     }
 
     Guildhall *gh = Guildhall::find_by_vnum(world[ch->in_room].number);
-    if( gh && (!IS_MEMBER(GET_A_BITS(ch)) || GET_A_NUM(ch) != gh->assoc_id) )
+    if( gh && (!IS_MEMBER(GET_A_BITS(ch)) || GET_ASSOC(ch) != gh->guild) )
     {
       send_to_char("You're just a guest here, so you should probably stay awake!\r\n", ch);
       return TRUE;
