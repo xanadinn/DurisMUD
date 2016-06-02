@@ -1074,7 +1074,7 @@ int gain_exp(P_char ch, P_char victim, const int value, int type)
       return 0;
     }
     // If they're ready to level and capped by the levelcap, then only give 2/3 exp.
-    if( (GET_LEVEL( ch ) >= levelcap) && (new_exp_table[GET_LEVEL(ch) + 1] <= GET_EXP( ch )) )
+    if( (levelcap < 56) && (GET_LEVEL( ch ) >= levelcap) && (new_exp_table[GET_LEVEL(ch) + 1] <= GET_EXP( ch )) )
       XP *= exp_mods[EXPMOD_OVER_LEVEL_CAP];
   }
 
