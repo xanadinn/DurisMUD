@@ -381,7 +381,7 @@ void get_level_cap( long *max_frags, int* racewar )
     *max_frags = (long)-1;
     *racewar = RACEWAR_NONE;
   }
-  *max_frags = (long)(atof( row[0] ) * 100.);
+  *max_frags = (long)(atof( row[0] ) * 100. + .01);
   *racewar   = atoi(row[1]);
 
   // cycle out until a NULL return
@@ -401,6 +401,7 @@ int sql_level_cap( int racewar_side )
 
   // This goes from 25 for no frags, 26 for .4 frags, 27 for .8 frags, up to 56 for 12.4 or more frags.
   level_cap = (int) ( (max_frags / 40) + 25 );
+
   // Everyone can reach 56 when someone reaches the limit.
   if( level_cap >= 56 )
     return 56;
