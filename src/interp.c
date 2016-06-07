@@ -1287,7 +1287,7 @@ void do_confirm(P_char ch, bool yes)
  */
 void command_interpreter(P_char ch, char *argument)
 {
-  uint     look_at, begin;
+  uint     look_at, begin, old_room;
   int      cmd, i, j, k, current;
   char    *ch_ptr;
   P_char   target, master, exec_char = ch;
@@ -1809,6 +1809,7 @@ void command_interpreter(P_char ch, char *argument)
           }
         }
       }
+
       if( !no_specials && special(exec_char, cmd, argument + begin + look_at) )
       {
         return;
@@ -1851,14 +1852,18 @@ void command_interpreter(P_char ch, char *argument)
         {
           look_at++;
         }
+        old_room = exec_char->in_room;
 
         ((*cmd_info[cmd].command_pointer)(exec_char, argument + begin + look_at, cmd));
+
         // If mobs should and can aggro the executor of the above command.
         if( (cmd_info[cmd].check_aggro) && IS_ALIVE(exec_char)
           && (IS_PC( exec_char ) || ( (( master = get_linked_char(exec_char, LNK_PET) ) != NULL) && IS_PC(master) ))
           && (exec_char->in_room > RROOM_LIMBO) && !CHAR_IN_SAFE_ROOM(exec_char) )
         {
-          check_aggro_from_command( exec_char );
+          // 33% chance to fail sneak.
+          if( (exec_char->in_room == old_room) || !SNEAK(exec_char) || !number(0, 2) )
+            check_aggro_from_command( exec_char );
         }
       }
     }

@@ -1309,7 +1309,7 @@ struct material_data {
 #define REVENANT_CROWN_VNUM            22070
 #define DWARVEN_ANCESTOR_VNUM             75
 
-#define SNEAK(ch) (IS_AFFECTED(ch, AFF_SNEAK) || UD_SNEAK(ch) || OUTDOOR_SNEAK(ch))
+#define SNEAK(ch) (IS_AFFECTED(ch, AFF_SNEAK) || UD_SNEAK(ch) || OUTDOOR_SNEAK(ch) || SWAMP_SNEAK(ch))
 #define LEVITATE(ch, dir) (IS_AFFECTED(ch, AFF_LEVITATE) && ((dir == UP) || (dir == DOWN)))
 
 // world_quest_.c
