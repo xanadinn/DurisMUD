@@ -1171,8 +1171,7 @@ void spell_wall_of_bones(int level, P_char ch, char *arg, int type, P_char tar_c
 	return;
   }
 
-  
-  if( corpse && create_walls(ch->in_room, var, ch, level, WALL_OF_BONES, level, 1800,
+  if( corpse && create_walls(ch->in_room, var, ch, level, WALL_OF_BONES, level / 2, 1800,
     "&+La wall of &+wbones&n",
     "&+LA large wall of &+wbones&+L is here to the %s.&n", 0) )
   {
