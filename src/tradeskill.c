@@ -1441,27 +1441,25 @@ void event_fish_check(P_char ch, P_char victim, P_obj, void *data)
 
   //noise distance calc
   for (P_desc i = descriptor_list; i; i = i->next)
-    {
-      if( i->connected != CON_PLAYING ||
-          ch == i->character ||
-          i->character->following == ch ||
-          world[i->character->in_room].zone != world[ch->in_room].zone ||
-          ch->in_room == i->character->in_room ||
-          ch->in_room == real_room(i->character->specials.was_in_room) ||
-          real_room(ch->specials.was_in_room) == i->character->in_room )
-      {
-        continue;
-      }
-      
-      int dist = calculate_map_distance(ch->in_room, i->character->in_room);
-
-  if(dist <= 550 && (number(1, 12) < 3))
   {
-  zone_spellmessage(ch->in_room,
-    "&+cThe &+Csoft &+csound of &+Cwater&+c splashing can be heard in the distance...&n\r\n",
-    "&+cThe &+Csoft &+csound of &+Cwater&+c splashing can be heard to the %s...&n\r\n");
+    if( i->connected != CON_PLAYING || ch == i->character || i->character->following == ch
+      || world[i->character->in_room].zone != world[ch->in_room].zone
+      || ch->in_room == i->character->in_room
+      || ch->in_room == real_room(i->character->specials.was_in_room)
+      || real_room(ch->specials.was_in_room) == i->character->in_room )
+    {
+      continue;
+    }
+
+    int dist = calculate_map_distance(ch->in_room, i->character->in_room);
+
+    if( dist <= 225 && (number( 1, 12 ) < 3) )
+    {
+      zone_spellmessage(ch->in_room,
+        "&+cThe &+Csoft &+csound of &+Cwater&+c splashing can be heard in the distance...&n\r\n",
+        "&+cThe &+Csoft &+csound of &+Cwater&+c splashing can be heard to the %s...&n\r\n");
+    }
   }
- }
 }
 
 int mine(P_obj obj, P_char ch, int cmd, char *arg)
@@ -1838,7 +1836,7 @@ void event_mine_check( P_char ch, P_char victim, P_obj, void *data )
 
     int dist = calculate_map_distance(ch->in_room, i->character->in_room);
 
-    if(dist <= 550 && (number(1, 12) < 3))
+    if( dist <= 400 && (number( 1, 12 ) < 3) )
     {
       zone_spellmessage(ch->in_room,
       "&+yThe sound of &+wmetal &+yhewing &+Lrock&+y can be heard in the distance...&n\r\n",
