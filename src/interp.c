@@ -1861,10 +1861,10 @@ void command_interpreter(P_char ch, char *argument)
           && (IS_PC( exec_char ) || ( (( master = get_linked_char(exec_char, LNK_PET) ) != NULL) && IS_PC(master) ))
           && (exec_char->in_room > RROOM_LIMBO) && !CHAR_IN_SAFE_ROOM(exec_char) )
         {
-          // 10% chance to fail sneak.
-          if( (exec_char->in_room == old_room) || !SNEAK(exec_char) || !number(0, 9) )
-            // 10% chance for calming to work.
-            if( !has_innate(ch, INNATE_CALMING) || !number(0, 9) )
+          // 5% chance to fail sneak.
+          if( (exec_char->in_room == old_room) || !SNEAK(exec_char) || !number(0, 19) )
+            // 5% chance for calming to work.
+            if( !has_innate(ch, INNATE_CALMING) || !number(0, 19) )
               // And the charisma calm chance.
               if( number(1,100) > CALMCHANCE(exec_char) )
                 check_aggro_from_command( exec_char );
