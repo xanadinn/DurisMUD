@@ -183,30 +183,30 @@ typedef struct Guild * P_Guild;
 class Guild
 {
   public:
-    int get_id( ) { if( this == NULL ) return 0; else return id_number; }
-    int get_racewar() { return racewar; }
+    unsigned int get_id( ) { if( this == NULL ) return 0; else return id_number; }
+    unsigned int get_racewar() { return racewar; }
     char *get_top_fragger() { return frags.topfragger; }
     long get_top_frags() { return frags.top_frags; }
-    int get_num_members() { return member_count; }
-    int get_max_members();
+    unsigned int get_num_members() { return member_count; }
+    unsigned int get_max_members();
 
     string get_name() { return string(name); }
     void set_name( char *new_name ) { sprintf( name, "%s", new_name ); }
 
-    int get_prestige( ) { return prestige; }
+    unsigned long get_prestige( ) { return prestige; }
     void add_prestige( int prest ) { prestige += prest; }
     void set_prestige( int prest ) { prestige = prest; }
     void add_prestige_epics( P_char ch, int epics, int epic_type );
 
-    int get_construction( ) { return construction; }
+    unsigned long get_construction( ) { return construction; }
     void add_construction( int cps ) { construction += cps; }
     void set_construction( int cps ) { construction = cps; }
 
-    void set_bits( int new_bits ) { bits = new_bits; }
+    void set_bits( unsigned long new_bits ) { bits = new_bits; }
 
-    int get_overmax( ) { return overmax; }
-    void add_overmax( int _overmax ) { overmax += _overmax; }
-    int max_size( );
+    unsigned int get_overmax( ) { return overmax; }
+    void add_overmax( unsigned int _overmax ) { overmax += _overmax; }
+    unsigned int max_size( );
 
     long get_frags( ) { return frags.frags; }
     void add_frags( P_char ch, long new_frags );
@@ -252,7 +252,8 @@ class Guild
     void save_members( P_member member, char *buf );
 
     static void initialize();
-    Guild( char *_name, int _racewar, int _id_number, int _prestige, int _construction, int _money, int _bits );
+    Guild( char *_name, unsigned int _racewar, unsigned int _id_number, unsigned long _prestige,
+      unsigned long _construction, unsigned long _money, unsigned long _bits );
     Guild( );
     ~Guild( );
 

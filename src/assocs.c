@@ -372,7 +372,8 @@ bool found_asc(P_char god, P_char leader, char *bits, char *asc_name)
   return TRUE;
 }
 
-Guild::Guild( char *_name, int _racewar, int _id_number, int _prestige, int _construction, int _money, int _bits )
+Guild::Guild( char *_name, unsigned int _racewar, unsigned int _id_number, unsigned long _prestige, \
+      unsigned long _construction, unsigned long _money, unsigned long _bits )
 {
   strcpy( name, _name );
   racewar = _racewar;
@@ -1001,7 +1002,7 @@ void Guild::display( P_char member )
   send_to_char( buf, member );
 }
 
-int Guild::get_max_members()
+unsigned int Guild::get_max_members()
 {
   int base_size, max_size, step_size, max_members;
 
