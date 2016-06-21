@@ -2160,7 +2160,7 @@ int restoreStatus(char *buf, P_char ch)
 
   stat_vers = GET_BYTE(buf);
 
-  if (stat_vers > (char) SAV_STATVERS)
+  if( stat_vers > (char) SAV_STATVERS )
   {
     logit(LOG_FILE, "Save file for %s status restore failed.", GET_NAME(ch));
     send_to_char
@@ -2932,7 +2932,7 @@ int restorePasswdOnly(P_char ch, char *name)
 
   GET_LONG(buf);
   stat_vers = GET_BYTE(buf);
-  if (stat_vers > (char) SAV_STATVERS)
+  if( stat_vers > (char) SAV_STATVERS )
   {
     logit(LOG_FILE, "Save file for %s status restore failed.", GET_NAME(ch));
     send_to_char

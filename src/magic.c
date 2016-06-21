@@ -6094,7 +6094,7 @@ void spell_ray_of_enfeeblement( int level, P_char ch, char *arg, int type, P_cha
   struct affected_type af;
   int base_str = victim->base_stats.Str;
   int curr_str = GET_C_STR(victim);
-  int mod = level;
+  int mod;
 
   if( !IS_ALIVE(ch) || !IS_ALIVE(victim) )
     return;
@@ -6124,16 +6124,18 @@ void spell_ray_of_enfeeblement( int level, P_char ch, char *arg, int type, P_cha
     return;
   }
 
+  if( level < 1 )
+    level = 1;
+
+  mod = level + 1;
+
   if( mod > base_str )
     mod = base_str;
 
   if( mod > curr_str )
     mod = curr_str;
 
-  if( level < 1 )
-    level = 1;
-
-  mod = (int)(mod * 0.50);
+  mod /= 2;
 
   int success_chance = BOUNDED(50, 70 + GET_LEVEL(ch) - GET_LEVEL(victim), 80);
 
@@ -6152,10 +6154,12 @@ void spell_ray_of_enfeeblement( int level, P_char ch, char *arg, int type, P_cha
       af.location = APPLY_STR;
       affect_to_char(victim, &af);
 
-      af.modifier = -1 * level / 10 - number(1, 6);
+      mod = level / 10 + number(1, 6);
       // Don't go below 0 or it'll jump up to 255 'cause damroll is an unsigned byte.
-      if( af.modifier < 0 - victim->points.damroll || victim->points.damroll - af.modifier > victim->points.damroll )
+      if( mod > victim->points.damroll )
         af.modifier = 0 - victim->points.damroll;
+      else
+        af.modifier = 0 - mod;
       af.location = APPLY_DAMROLL;
       affect_to_char(victim, &af);
     }
@@ -6163,13 +6167,13 @@ void spell_ray_of_enfeeblement( int level, P_char ch, char *arg, int type, P_cha
     {
       af.duration = 1;
       af.modifier = -1 * mod / 10 - number(1, 6);
-      // Don't go below 0 or it'll jump up to 255 'cause damroll is an unsigned byte.
-      if( af.modifier < 0 - victim->points.damroll )
-        af.modifier = 0 - victim->points.damroll;
       af.location = APPLY_STR;
       affect_to_char(victim, &af);
 
       af.modifier = MIN(-1, (int)(-1 * level / 10 - number(0, 5)));
+      // Don't go below 0 or it'll jump up to 255 'cause damroll is an unsigned byte.
+      if( af.modifier < 0 - victim->points.damroll )
+        af.modifier = 0 - victim->points.damroll;
       af.location = APPLY_DAMROLL;
       affect_to_char(victim, &af);
     }
