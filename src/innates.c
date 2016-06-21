@@ -4097,17 +4097,17 @@ void branch(P_char ch, P_char victim)
     "$n lifts you lightly and &+rsmashes&n you against the &+yground!&n",
     "$n lifts $N lightly and &+rsmashes&n $M against the &+yground!&n",
   };
-  if( !IS_ALIVE(ch) || !IS_ALIVE(victim) || ch->in_room != victim->in_room);
+  if( !IS_ALIVE(ch) || !IS_ALIVE(victim) || ch->in_room != victim->in_room)
     return;
 
-  victim = guard_check(ch, victim); 
+  victim = guard_check(ch, victim);
 
   act("One of your branches reaches towards $N.", FALSE, ch, 0, victim, TO_CHAR);
   act("One of $n's branches reaches towards $N.", FALSE, ch, 0, victim, TO_NOTVICT);
   act("One of $n's branches reaches towards you.", FALSE, ch, 0, victim, TO_VICT);
-  if( get_takedown_size(victim) >= get_takedown_size(ch) )
+  if( get_takedown_size(victim) > get_takedown_size(ch) )
   {
-    act("You fail to pick $N up.", FALSE, ch, 0, victim, TO_NOTVICT);
+    act("You fail to pick $N up.", FALSE, ch, 0, victim, TO_CHAR);
     act("$n fails to pick $N up.", FALSE, ch, 0, victim, TO_NOTVICT);
     act("$n failed to pick you up.", FALSE, ch, 0, victim, TO_VICT);
     return;
@@ -4128,23 +4128,20 @@ void branch(P_char ch, P_char victim)
 
   chance = BOUNDED(40, chance, 95);
 
-  if(GET_POS(victim) < POS_STANDING)
+  if( (GET_POS( victim ) < POS_STANDING) || (chance < number( 1, 100 )) )
   {
+    act("$N narrowly avoids your grasp.", FALSE, ch, 0, victim, TO_CHAR);
     act("$N narrowly avoids $n's grasp.", FALSE, ch, 0, victim, TO_NOTVICT);
     act("You narrowly avoid $n's grasp.", FALSE, ch, 0, victim, TO_VICT);
   }
   else
   {
-    if (chance > number(0,100))
-    {
-      CharWait(victim, 2 * PULSE_VIOLENCE);
-      melee_damage(ch, victim, 2 * GET_LEVEL(ch), PHSDAM_NOENGAGE | PHSDAM_NOSHIELDS, &messages);
-      SET_POS(victim, POS_PRONE + GET_STAT(victim));
-    }
+    CharWait(victim, 2 * PULSE_VIOLENCE);
+    melee_damage(ch, victim, 2 * GET_LEVEL(ch), PHSDAM_NOENGAGE | PHSDAM_NOSHIELDS, &messages);
+    SET_POS(victim, POS_PRONE + GET_STAT(victim));
   }
-  if(IS_NPC(ch) &&
-     IS_PC_PET(ch))
-        CharWait(ch, 4 * PULSE_VIOLENCE);
+  if( IS_NPC(ch) && IS_PC_PET(ch) )
+    CharWait(ch, 4 * PULSE_VIOLENCE);
   else
     CharWait(ch, 2 * PULSE_VIOLENCE);
 }
