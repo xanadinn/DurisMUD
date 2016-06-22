@@ -2885,6 +2885,10 @@ void spell_wall_of_bones(int level, P_char ch, char *arg, int type, P_char tar_c
       send_to_char("You see no exit in that direction!\r\n", ch);
       return;
     }
+    if( !exit_wallable(ch->in_room, var, ch) )
+    {
+      return;
+    }
   }
   else
   {
