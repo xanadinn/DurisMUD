@@ -605,7 +605,9 @@ int calculate_hitpoints2(P_char ch)
     old_bonus, new_bonus, class_mod, age_mod, maxconbonus, toughness, newbie, hardcore );
  */
 
-  return (GET_MAX_HIT(ch) * racial_con) / 100 + old_bonus + new_bonus + age_mod + maxconbonus + toughness + newbie + hardcore;
+  // we use base_hit for the racial mod, and the difference is the hps gear.
+  return (ch->points.base_hit * racial_con) / 100 + GET_MAX_HIT(ch) - ch->points.base_hit
+    + old_bonus + new_bonus + age_mod + maxconbonus + toughness + newbie + hardcore;
 }
 
 void event_balance_affects(P_char ch, P_char victim, P_obj obj, void *data)
