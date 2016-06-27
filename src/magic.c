@@ -14477,7 +14477,7 @@ void spell_solar_flare(int level, P_char ch, char *arg, int type, P_char victim,
   if(!number(0, 1) && !NewSaves(victim, SAVING_SPELL, 0))
     blind(ch, victim, 60 * WAIT_SEC);
 
-  if(!number(0, 6))
+  if( !number(0, 1) )
     spell_immolate(level, ch, NULL, 0, victim, NULL);
 }
 
