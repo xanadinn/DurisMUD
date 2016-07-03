@@ -7181,9 +7181,9 @@ void maul(P_char ch, P_char victim)
     CharWait(ch, (PULSE_VIOLENCE * 
       get_property("skill.maul.failedmaul.lag", 1.500)));
   }
-  else if(percent_chance > percentroll)
+  else if( percent_chance > percentroll
+    || notch_skill(ch, SKILL_MAUL, get_property("skill.notch.offensive", 7)) )
   {
-    notch_skill(ch, SKILL_MAUL, get_property("skill.notch.offensive", 7));
 
     act("$n &+yknocks&n $N &+ydown with a mighty blow!&n",
       FALSE, ch, 0, victim, TO_NOTVICT);
@@ -8662,11 +8662,11 @@ void do_springleap(P_char ch, char *argument, int cmd)
     debug("Springleap (PVP): (%s) springing (%s) with (%d) percent chance.", GET_NAME(ch), GET_NAME(vict), percent_chance);
   }
 
-  if(!notch_skill(ch, SKILL_SPRINGLEAP, get_property("skill.notch.offensive", 7)) &&
-      percent_chance < number(1, 100))
+  // The percent_chance == 0 should stop ppl from notching the skill on a sitting opponent.
+  if( !((percent_chance == 0) || notch_skill(ch, SKILL_SPRINGLEAP, get_property("skill.notch.offensive", 7)))
+    && percent_chance < number(1, 100) )
   {
-    send_to_char
-      ("You manage with complete &+Wincompetence&N to throw yourself head first into the ground!\n", ch);
+    send_to_char("You manage with complete &+Wincompetence&N to throw yourself head first into the ground!\n", ch);
 
     act("$n, in a show of awesome skill, tackles the ground with $s head.",
         FALSE, ch, 0, 0, TO_NOTVICT);
