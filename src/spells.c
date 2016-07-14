@@ -3010,6 +3010,7 @@ void event_change_yzar_race(P_char ch, P_char victim, P_obj obj, void *data)
   {
     GET_MAX_VITALITY(ch) = 175;
   }
+  GET_SIZE(ch) = race_size( GET_RACE(ch) );
 
   act("A &+wSkeleton&n continues to change into $n.", TRUE, ch, 0, 0, TO_ROOM);
 
