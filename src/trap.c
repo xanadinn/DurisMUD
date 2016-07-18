@@ -171,8 +171,7 @@ void do_traplist(P_char ch, char *argument, int cmd)
 void do_trapset(P_char ch, char *argument, int cmd)
 {
   P_obj    obj;
-  char     arg1[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH],
-    arg3[MAX_INPUT_LENGTH];
+  char     arg1[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH], arg3[MAX_INPUT_LENGTH];
   int      val = 0;
   P_char   dummy;
   int      bits;
@@ -182,12 +181,12 @@ void do_trapset(P_char ch, char *argument, int cmd)
   argument = one_argument(argument, arg3);
   if (arg1[0] == '\0' || arg2[0] == '\0')
   {
-    send_to_char("Syntax: trapset <object> <field> <value>\r\n", ch);
-    send_to_char("Field: move, object(get and put), room, open, damage, charge\r\n", ch);
-    send_to_char("Values: Move> north, south, east, west, up, down, and all.\r\n", ch);
-    send_to_char("        Damage> sleep, teleport, fire, cold, acid, energy,\r\n", ch);
-    send_to_char("                blunt, pierce, slash.\r\n", ch);
-    send_to_char("        Object, open, room> no values\r\n", ch);
+    send_to_char("Syntax: trapset <object> <field> <value>\r\n"
+                 "Field: move, object(get and put), room, open, damage, charge\r\n"
+                 "Values: Move> north, south, east, west, up, down, and all.\r\n"
+                 "        Damage> sleep, teleport, fire, cold, acid, energy,\r\n"
+                 "                blunt, pierce, slash.\r\n"
+                 "        Object, open, room> no values\r\n", ch);
     return;
   }
   // Just not allowing tracks to be trapped. by anyone.
@@ -203,17 +202,12 @@ void do_trapset(P_char ch, char *argument, int cmd)
   {
     if (arg3[0] == '\0')
     {
-      send_to_char("Syntax: trapset <object> <field> <value>\r\n", ch);
-      send_to_char("Field: move, object(get and put), room, open, damage\r\n",
-                   ch);
-      send_to_char
-        ("Values: Move> north, south, east, west, up, down, and all.\r\n",
-         ch);
-      send_to_char
-        ("        Damage> sleep, teleport, fire, cold, acid, energy,\r\n",
-         ch);
-      send_to_char("                blunt, pierce, slash.\r\n", ch);
-      send_to_char("        Object, open, room> no values\r\n", ch);
+      send_to_char("Syntax: trapset <object> <field> <value>\r\n"
+        "Field: move, object(get and put), room, open, damage\r\n"
+        "Values: Move> north, south, east, west, up, down, and all.\r\n"
+        "        Damage> sleep, teleport, fire, cold, acid, energy,\r\n"
+        "                blunt, pierce, slash.\r\n"
+        "        Object, open, room> no values\r\n", ch);
       return;
     }
     if (!str_cmp(arg3, "north"))
@@ -410,8 +404,7 @@ bool checkmovetrap(P_char ch, int dir)
   {
     obj_next = obj->next_content;
 
-    if (obj->trap_eff && IS_SET(obj->trap_eff, TRAP_EFF_MOVE) &&
-        obj->trap_charge)
+    if( obj->trap_eff && IS_SET(obj->trap_eff, TRAP_EFF_MOVE) && obj->trap_charge )
       found = TRUE;
     else
       found = FALSE;
@@ -488,7 +481,7 @@ void trapdamage(P_char ch, P_obj obj)
   int      level, dam, numdice, numsides;
   struct damage_messages messages;
 
-  if (!obj->trap_charge)
+  if( !obj->trap_charge )
     return;
 
   if( IS_NPC(ch) && !IS_PC_PET(ch) )
@@ -620,7 +613,7 @@ void trapdamage(P_char ch, P_obj obj)
         {
           next_ch = wch->next_in_room;
 
-          spell_damage(ch, ch, dam, SPLDAM_FIRE, SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, &messages);
+          spell_damage(wch, wch, dam, SPLDAM_FIRE, SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, &messages);
         }
       }
       break;
@@ -653,7 +646,7 @@ void trapdamage(P_char ch, P_obj obj)
         {
           next_ch = wch->next_in_room;
 
-          spell_damage(ch, ch, dam, SPLDAM_COLD, SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, &messages);
+          spell_damage(wch, wch, dam, SPLDAM_COLD, SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, &messages);
         }
       }
       break;
@@ -687,7 +680,7 @@ void trapdamage(P_char ch, P_obj obj)
         {
           next_ch = wch->next_in_room;
 
-          spell_damage(ch, ch, dam, SPLDAM_ACID, SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, &messages);
+          spell_damage(wch, wch, dam, SPLDAM_ACID, SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, &messages);
         }
       }
       break;
@@ -721,7 +714,7 @@ void trapdamage(P_char ch, P_obj obj)
         {
           next_ch = wch->next_in_room;
 
-          spell_damage(ch, ch, dam, SPLDAM_LIGHTNING, SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, &messages);
+          spell_damage(wch, wch, dam, SPLDAM_LIGHTNING, SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, &messages);
         }
       }
       break;
@@ -742,7 +735,7 @@ void trapdamage(P_char ch, P_obj obj)
         {
           next_ch = wch->next_in_room;
 
-          damage(ch, wch, dam, TYPE_TRAP);
+          damage(wch, wch, dam, TYPE_TRAP);
         }
       }
       break;
@@ -763,7 +756,7 @@ void trapdamage(P_char ch, P_obj obj)
         {
           next_ch = wch->next_in_room;
 
-          damage(ch, wch, dam, TYPE_TRAP);
+          damage(wch, wch, dam, TYPE_TRAP);
         }
       }
       break;
@@ -786,7 +779,7 @@ void trapdamage(P_char ch, P_obj obj)
         {
           next_ch = wch->next_in_room;
 
-          damage(ch, wch, dam, TYPE_TRAP);
+          damage(wch, wch, dam, TYPE_TRAP);
         }
       }
       break;
