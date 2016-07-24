@@ -7834,128 +7834,137 @@ void do_decline(P_char ch, char *arg, int cmd)
 
 extern int accept_mode;
 
+#define ACCEPT_OFF 0
+#define ACCEPT_ON  1
 void do_accept(P_char ch, char *arg, int cmd)
 {
-  int      i;
-  P_desc   d, j;
-  char     Gbuf2[MAX_STRING_LENGTH], Gbuf1[MAX_STRING_LENGTH];
+  int    count;
+  P_desc d1, d2;
+  char   Gbuf2[MAX_STRING_LENGTH], Gbuf1[MAX_STRING_LENGTH];
   const char *accept_modes[] = {
     "off",
     "on",
     "\n"
   };
 
-  if(!*arg || !arg)
+  if( !arg || !*arg )
   {
     /* list characters needing approval:  */
-    i = 0;
-    sprintf(Gbuf1, "&+cAC: Post-creation approval system is now %s.\n",
-            accept_modes[accept_mode]);
+    count = 0;
+    sprintf(Gbuf1, "&+cAC: Post-creation approval system is now %s.\n", accept_modes[accept_mode]);
     send_to_char(Gbuf1, ch);
-    if(accept_mode)
+    if( accept_mode == ACCEPT_ON )
     {
       send_to_char("List of characters needing approval:\n", ch);
-      for (d = descriptor_list; d; d = d->next)
-        if(STATE(d) == CON_ACCEPTWAIT)
+      for( d1 = descriptor_list; d1; d1 = d1->next)
+      {
+        if( STATE(d1) == CON_ACCEPTWAIT )
         {
-          sprintf(Gbuf1, "%s (%s %s %s)\n",
-                  GET_NAME(d->character), get_class_string(d->character,
-                                                           Gbuf2),
-                  race_names_table[(int) GET_RACE(d->character)].ansi,
-                  d->host ? d->host : "UNKNOWN");
+          sprintf(Gbuf1, "%d. %s (%s %s %s)\n", ++count, GET_NAME(d1->character), get_class_string(d1->character, Gbuf2),
+            race_names_table[(int) GET_RACE(d1->character)].ansi, d1->host ? d1->host : "UNKNOWN");
           send_to_char(Gbuf1, ch);
-          i++;
         }
-      if(!i)
+      }
+      if( count == 0 )
+      {
         send_to_char("None.\n\n", ch);
+      }
     }
     send_to_char("Usage: accept <charname|on|off>\n", ch);
     return;
   }
   arg = skip_spaces(arg);
-  switch (search_block(arg, accept_modes, FALSE))
+  switch( search_block(arg, accept_modes, FALSE) )
   {
-  case 0:
-
-    if(GET_LEVEL(ch) < 62)
-    {
-      send_to_char("Sorry, that option is overlord only.\n", ch);
-      return;
-    }
-    accept_mode = 0;
-
-    sprintf(Gbuf1, "&+cAC: %s set newchar application system %s.\n",
-            GET_NAME(ch), accept_modes[accept_mode]);
-    sprintf(Gbuf2, "&+CAC: Someone set newchar application system %s.\n",
-            accept_modes[accept_mode]);
-    logit(LOG_WIZ, Gbuf1);
-    for (j = descriptor_list; j; j = j->next)
-      if(!j->connected && j->character &&
-          IS_SET(j->character->specials.act, PLR_PETITION) &&
-          IS_TRUSTED(j->character))
-        if(!CAN_SEE(j->character, ch))
-          send_to_char(Gbuf2, j->character);
-        else
-          send_to_char(Gbuf1, j->character);
-    break;
-  case 1:
-
-    if(GET_LEVEL(ch) < 62)
-    {
-      send_to_char("Sorry, that option is overlord only.\n", ch);
-      return;
-    }
-    accept_mode = 1;
-
-    sprintf(Gbuf1, "&+cAC: %s set newchar application system %s.\n",
-            GET_NAME(ch), accept_modes[accept_mode]);
-    logit(LOG_WIZ, Gbuf1);
-    sprintf(Gbuf2, "&+cAC: Someone set newchar application system %s.\n",
-            accept_modes[accept_mode]);
-    for (j = descriptor_list; j; j = j->next)
-      if(!j->connected && j->character &&
-          IS_SET(j->character->specials.act, PLR_PETITION) &&
-          IS_TRUSTED(j->character))
-        if(!CAN_SEE(j->character, ch))
-          send_to_char(Gbuf2, j->character);
-        else
-          send_to_char(Gbuf1, j->character);
-    break;
-  case -1:
-    for (d = descriptor_list; d; d = d->next)
-      if(STATE(d) == CON_ACCEPTWAIT && d->character &&
-          !str_cmp(GET_NAME(d->character), arg))
+    case 0:
+      if( GET_LEVEL(ch) < 62 )
       {
-        logit(LOG_NEWCHAR, "%s accepted new char %s from %s.",
-              GET_NAME(ch), GET_NAME(d->character),
-              (d->host ? d->host : "UNKNOWN"));
-        sprintf(Gbuf1, "&+c*** STATUS: %s accepted new player %s from %s.\n",
-                GET_NAME(ch), GET_NAME(d->character),
-                d->host ? d->host : "&+WUNKNOWN&n");
-        sprintf(Gbuf2,
-                "&+c*** STATUS: Someone accepted new player %s from %s.\n",
-                GET_NAME(d->character), d->host ? d->host : "&+WUNKNOWN&n");
-
-        for (j = descriptor_list; j; j = j->next)
-          if(!j->connected && j->character &&
-              IS_SET(j->character->specials.act, PLR_PETITION) &&
-              IS_TRUSTED(j->character))
-            if(!CAN_SEE(j->character, ch))
-              send_to_char(Gbuf2, j->character);
-            else
-              send_to_char(Gbuf1, j->character);
-        SEND_TO_Q
-          ("\nYour application for character has been accepted. Welcome into ranks of\nthe players of Duris!\n\n",
-           d);
-        SEND_TO_Q("\n*** PRESS RETURN:\n", d);
-        STATE(d) = CON_WELCOME;
-
-        accept_name(GET_NAME(d->character));
-
+        send_to_char("Sorry, that option is overlord only.\n", ch);
         return;
       }
-    send_to_char("No such player in the newplayer-queue! \n", ch);
-    break;
+      accept_mode = ACCEPT_OFF;
+
+      sprintf(Gbuf1, "&+cAC: %s set newchar application system %s.\n", GET_NAME(ch), accept_modes[ACCEPT_OFF]);
+      sprintf(Gbuf2, "&+CAC: Someone set newchar application system %s.\n", accept_modes[ACCEPT_OFF]);
+      logit(LOG_WIZ, Gbuf1);
+      for( d1 = descriptor_list; d1; d1 = d1->next )
+      {
+        if( (d1->connected == CON_PLAYING) && d1->character && IS_SET(d1->character->specials.act, PLR_PETITION)
+          && IS_TRUSTED(d1->character) )
+        {
+          if( !CAN_SEE(d1->character, ch) )
+            send_to_char(Gbuf2, d1->character);
+          else
+            send_to_char(Gbuf1, d1->character);
+        }
+      }
+      break;
+    case 1:
+      if(GET_LEVEL(ch) < 62)
+      {
+        send_to_char("Sorry, that option is overlord only.\n", ch);
+        return;
+      }
+      accept_mode = ACCEPT_ON;
+
+      sprintf(Gbuf1, "&+cAC: %s set newchar application system %s.\n", GET_NAME(ch), accept_modes[ACCEPT_ON]);
+      logit(LOG_WIZ, Gbuf1);
+      sprintf(Gbuf2, "&+cAC: Someone set newchar application system %s.\n", accept_modes[ACCEPT_ON]);
+      for( d1 = descriptor_list; d1; d1 = d1->next )
+      {
+        if( (d1->connected == CON_PLAYING) && d1->character && IS_SET(d1->character->specials.act, PLR_PETITION)
+          && IS_TRUSTED(d1->character) )
+        {
+          if( !CAN_SEE(d1->character, ch) )
+            send_to_char(Gbuf2, d1->character);
+          else
+            send_to_char(Gbuf1, d1->character);
+        }
+      }
+      break;
+    default:
+      for( d1 = descriptor_list; d1; d1 = d1->next )
+      {
+        if( STATE(d1) == CON_ACCEPTWAIT && d1->character && !str_cmp(GET_NAME(d1->character), arg) )
+        {
+          logit(LOG_NEWCHAR, "%s accepted new char %s from %s.", GET_NAME(ch), GET_NAME(d1->character),
+            (d1->host ? d1->host : "UNKNOWN"));
+          sprintf(Gbuf1, "&+c*** STATUS: %s accepted new player %s from %s.\n", GET_NAME(ch), GET_NAME(d1->character),
+            d1->host ? d1->host : "&+WUNKNOWN&n");
+          sprintf(Gbuf2, "&+c*** STATUS: Someone accepted new player %s from %s.\n", GET_NAME(d1->character),
+            d1->host ? d1->host : "&+WUNKNOWN&n");
+
+          for( d2 = descriptor_list; d2; d2 = d2->next )
+          {
+            if( (d2->connected == CON_PLAYING) && d2->character && IS_SET(d2->character->specials.act, PLR_PETITION)
+              && IS_TRUSTED(d2->character) )
+            {
+              if( !CAN_SEE(d2->character, ch) )
+                send_to_char(Gbuf2, d2->character);
+              else
+                send_to_char(Gbuf1, d2->character);
+            }
+          }
+
+          SEND_TO_Q("\nYour application for character has been accepted. Welcome into ranks of\nthe players of Duris!\n\n", d1);
+          SEND_TO_Q("\n*** PRESS RETURN:\n", d1);
+          STATE(d1) = CON_WELCOME;
+          accept_name(GET_NAME(d1->character));
+
+          return;
+        }
+      }
+
+      if( accept_mode == ACCEPT_OFF )
+      {
+        accept_name(arg);
+        statuslog( GET_WIZINVIS(ch), "Name '%s' added to the accepted names list by %s", arg, GET_NAME(ch) );
+      }
+      else
+      {
+        send_to_char("No such player in the newplayer-queue! \n", ch);
+      }
+      break;
   }
 }
 
