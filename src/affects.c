@@ -3585,7 +3585,7 @@ int camp(P_char ch)
             send_to_char
               ("You climb into your little grave and bury yourself.\n", ch);
           }
-          if( IS_SHIP_ROOM(world[ch->in_room].number) )
+          if( IS_SHIP_ROOM(ch->in_room) )
           {
             GET_HOME(ch) = GET_BIRTHPLACE(ch);
           }
