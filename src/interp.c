@@ -1081,6 +1081,7 @@ const char *command[MAX_CMD] = {
   "beep",                 /* 830 */
   "deathsdoor",
   "offlinemsg",
+  "instacast",
   "\n"                          /* MAX_CMD = 833, MAX_CMD_LIST = 1000 */
 };
 
@@ -2418,6 +2419,7 @@ void assign_command_pointers(void)
   CMD_GRT(CMD_WHITELIST, STAT_DEAD + POS_PRONE, do_whitelist, IMMORTAL);
   CMD_GRT(CMD_QUESTWHERE, STAT_NORMAL + POS_STANDING, do_questwhere, IMMORTAL);
   CMD_GRT(CMD_OFFLINEMSG, STAT_NORMAL + POS_STANDING, do_offlinemsg, GREATER_G);
+  CMD_GRT(CMD_INSTACAST, STAT_NORMAL + POS_STANDING, do_cast, GREATER_G);
   CMD_GRT(CMD_WHOIS, STAT_DEAD + POS_PRONE, do_whois, LESSER_G);
 
   /*

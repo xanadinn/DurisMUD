@@ -58,15 +58,16 @@ Howto Add a Boon Reward Type:
 
 Howto Add a Command:
   First, in interp.h, add CMD_<new command>.
-  Second, in interp.c, add "<new command>", to the end of command[] (before the "\n").
-  Third, in interp.c, add CMD_*(CMD_<new command>, STAT_<MIN STAT> + POS_<MIN POS>, do_<new function name>, <MIN LVL>)
+  Second, in config.h, increment MAX_CMD by 1. 
+  Third, in interp.c, add "<new command>", to the end of command[] (before the "\n").
+  Fourth, in interp.c, add CMD_*(CMD_<new command>, STAT_<MIN STAT> + POS_<MIN POS>, do_<new function name>, <MIN LVL>)
     CMD_* refers to the type of command you are creating (CMD_GRT/CMD_N/CMD_Y/CMD_CNF_N/etc).
     STAT_<MIN STAT> is the minimum state of the char necessary to execute the command (NORMAL/SLEEPING/DEAD/etc).
     POS_<MIN_POS> is the minimum position of the char (PRONE/KNEELING/SITTING/STANDING).
     do_<new function name> is the name of the function that will be executed when this command is done.
     <MIN LVL> is the lowest level the command is available to.
-  Fourth, in prototypes.h, define "void do_<new function name>(P_char ch, char *arg, int cmd);"
-  Fifth, in whatever .c file is most appropriate, define the new function.
+  Fifth, in prototypes.h, define "void do_<new function name>(P_char ch, char *arg, int cmd);"
+  Sixth, in whatever .c file is most appropriate, define the new function.
 
 Howto Add an Innate:
   First, in structs.h, add INNATE_<new innate> and increment LAST_INNATE.

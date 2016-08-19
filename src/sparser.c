@@ -2253,6 +2253,7 @@ void do_cast(P_char ch, char *argument, int cmd)
   tar_char = common_target_data.t_char;
   tmp_spl.spell = common_target_data.ttype;
   tmp_spl.object = common_target_data.t_obj;
+  tmp_spl.arg = str_dup(common_target_data.arg);
 
   if( IS_SET(world[ch->in_room].room_flags, NO_MAGIC) && !IS_TRUSTED(ch) )
   {
@@ -2273,6 +2274,15 @@ void do_cast(P_char ch, char *argument, int cmd)
   {
     send_to_char("You seem to have forgotten how to cast!\n", ch);
     StopCasting(ch);
+    return;
+  }
+
+PENIS:
+  if( cmd == CMD_INSTACAST )
+  {
+    SpellCastShow(ch, spl);
+    SET_BIT(ch->specials.affected_by2, AFF2_CASTING);
+    event_spellcast(ch, common_target_data.t_char, common_target_data.t_obj, &tmp_spl);
     return;
   }
 

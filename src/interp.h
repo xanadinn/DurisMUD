@@ -861,6 +861,7 @@ extern unsigned int game_locked_level;
 #define CMD_BEEP           830 // Make <arg>'s computer beep
 #define CMD_DEATHS_DOOR    831 // gellz all base stats 100 achievement
 #define CMD_OFFLINEMSG     832 // Send an offline message to <char>, displayed the next time they log in.
+#define CMD_INSTACAST      833 // Instantly cast a spell (gods only).
 
 /* The CMD_s below are not real commands, they are used in item special procedures to identify
  * when wearer gets hit in melee or nuked and when an item is poofing on ground.
