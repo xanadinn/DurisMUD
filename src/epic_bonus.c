@@ -17,13 +17,13 @@
 #include "sql.h"
 
 struct epic_bonus_data ebd[] = {
-  {EPIC_BONUS_NONE, "none", "No Epic Bonus"},
-  {EPIC_BONUS_CARGO, "cargo", "Cargo Discount"},
-  {EPIC_BONUS_SHOP, "shop", "Shop Discount"},
-  {EPIC_BONUS_EXP, "exp", "Experience Bonus"},
-  {EPIC_BONUS_EPIC_POINT, "epic", "Epic Points Bonus"},
-  {EPIC_BONUS_HEALTH, "health", "Health Regen Bonus"},
-  {EPIC_BONUS_MOVES, "moves", "Movement Regen Bonus"},
+  {EPIC_BONUS_NONE,       "none",   "No Epic Bonus"       },
+  {EPIC_BONUS_CARGO,      "cargo",  "Cargo Discount"      },
+  {EPIC_BONUS_SHOP,       "shop",   "Shop Discount"       },
+  {EPIC_BONUS_EXP,        "exp",    "Experience Bonus"    },
+  {EPIC_BONUS_EPIC_POINT, "epic",   "Epic Points Bonus"   },
+  {EPIC_BONUS_HEALTH_REG, "health", "Health Regen Bonus"  },
+  {EPIC_BONUS_MOVE_REG,   "moves",  "Movement Regen Bonus"},
   {0},
 };
 

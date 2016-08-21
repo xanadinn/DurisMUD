@@ -308,7 +308,7 @@ int hit_regen(P_char ch, bool display_only)
 
   gain += ch->points.hit_reg;
 
-  gain += (int)((float)gain * get_epic_bonus(ch, EPIC_BONUS_HEALTH));
+  gain += (int)((float)gain * get_epic_bonus(ch, EPIC_BONUS_HEALTH_REG));
 
   if( IS_AFFECTED4(ch, AFF4_REGENERATION) || has_innate(ch, INNATE_REGENERATION)
     || (has_innate(ch, INNATE_WOODLAND_RENEWAL) && (world[ch->in_room].sector_type == SECT_FOREST))
@@ -468,7 +468,7 @@ int move_regen( P_char ch, bool display_only )
   if( gain > 0 && IS_AFFECTED4(ch, AFF4_TUPOR) )
     gain += 20;
 
-  gain += (int)((float)gain * get_epic_bonus(ch, EPIC_BONUS_MOVES));
+  gain += (int)((float)gain * get_epic_bonus(ch, EPIC_BONUS_MOVE_REG));
 
   /* This is another pretty hack to increase movement points
    * due to having the IMPROVED ENDURANCE epic skill. Once
