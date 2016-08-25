@@ -1456,7 +1456,7 @@ char *CRYPT2( char *passwd, char *name );
 
 // Quest items and containers (maybe containing quest items) have 100% load.
 #define ITEM_LOAD_CHECK(item, ival, zone_percent) ( (IS_OBJ_STAT2( item, ITEM2_QUESTITEM ) \
-  || ( item->type == ITEM_CONTAINER )) ? TRUE : item_load_check(item, ival, zone_percent) )
+  || ( item->type == ITEM_CONTAINER )) ? zone_percent : item_load_check(item, ival, zone_percent) )
 bool item_load_check( P_obj item, int ival, int zone_percent );
 
 #endif /* _DURIS_UTILS_H_ */
