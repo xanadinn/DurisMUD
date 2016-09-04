@@ -2223,7 +2223,7 @@ void new_look(P_char ch, char *argument, int cmd, int room_no)
     "u",
     "d",
     "inside",
-    "i"             // 25
+    "i",            // 25
     "\n"
   };
 
