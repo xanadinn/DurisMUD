@@ -9060,8 +9060,8 @@ int calculate_attacks(P_char ch, int attacks[])
 
     while( num_atts-- )
     {
-      // We're not on the last attack and up to 25% chance at level 56 (% max health for 2 hits damage).
-      if( fighting_pc && (num_atts > 0) && (( (GET_LEVEL( ch ) / 4 + 11) ) >= number( 1, 100 )) )
+      // We're not on the last attack and up to 35% chance at level 56 (% max health for 2 hits damage).
+      if( fighting_pc && (num_atts > 0) && (( (GET_LEVEL( ch ) / 2 + 9) ) >= number( 1, 100 )) )
       {
         // Costs 3 attacks worth.
         num_atts--;
