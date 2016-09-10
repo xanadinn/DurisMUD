@@ -3371,7 +3371,6 @@ void enter_game(P_desc d)
 //  Furthermore, it will wipe any formerly-racial now-epic skills learned. - Lohrr
 //    reset_racial_skills( ch );
 
-    set_surname(ch, 0);
   }
   // Don't do any of above for new chars, but do give well-rested bonus.
   else

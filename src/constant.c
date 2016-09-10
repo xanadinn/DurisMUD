@@ -2447,3 +2447,16 @@ const surname_struct surnames[MAX_SURNAME+1] =
   {"&+LDe&+mceptic&+LoN&n",             "Decepticon",     ACH_DECEPTICON},
   {"&+MTo&+mug&+Mh G&+muy&n",           "Tough Guy",      ACH_DEATHSDOOR}
 };
+
+// There are 8 slots for Feudal Surnames.
+extern const surname_struct feudal_surnames[7];
+const surname_struct feudal_surnames[7] =
+{
+  {"&+wUnknown&n", "Unknown", -1},
+  {"&+ySerf&n", "Serf", 0},
+  {"&+YCommoner&n", "Commoner", 200},
+  {"&+LK&+wn&+Wig&+wh&+Lt&n", "Knight", 500},
+  {"&+mN&+Mobl&+me&n", "Noble", 1500},
+  {"&+rL&+Ror&+rd&n", "Lord", 2800},
+  {"&+yK&+Yin&+yg&n", "King", 4000}
+};

@@ -130,6 +130,8 @@ extern int map_normal_modifier;
 extern int map_ultra_modifier;
 extern int map_dayblind_modifier;
 extern const char *apply_types[];
+extern const surname_struct surnames[MAX_SURNAME+1];
+extern const surname_struct feudal_surnames[7];
 
 void display_map(P_char ch, int n, int show_map_regardless);
 
@@ -6221,7 +6223,7 @@ void do_who(P_char ch, char *argument, int cmd)
   char     buf[MAX_STRING_LENGTH], buf3[MAX_STRING_LENGTH];
   char     buf4[MAX_STRING_LENGTH], buf5[MAX_STRING_LENGTH];
   char     pattern[256], arg[256];
-  int      i, j, k, nr_args_now = 0, who_list_size = 0, who_gods_size = 0, total_ingame_connections = 0;
+  int      i, j, k, nr_args_now = 0, who_list_size = 0, who_gods_size = 0, total_ingame_connections = 0, surname;
   long     timer = 0;
   snoop_by_data *snoop_by_ptr;
   int      align = RACEWAR_NONE, min_level = MAXLVL + 1, max_level = -1;
@@ -6561,48 +6563,19 @@ void do_who(P_char ch, char *argument, int cmd)
           // Fixed this.
           if( PLR3_FLAGGED(ch, PLR3_SURNAMES) )
           {
-            switch( GET_SURNAME(who_list[j]) )
+            strcat(who_output, " [" );
+            surname = GET_SURNAME(who_list[j]);
+            if( surname <= SURNAME_KING )
             {
-              case SURNAME_SERF:
-                strcat(who_output, "&n[&+ySerf&n]");
-                break;
-              case SURNAME_COMMONER:
-                strcat(who_output, "&n[&+YCommoner&n]");
-                break;
-              case SURNAME_KNIGHT:
-                strcat(who_output, "&n[&+LK&+wn&+Wig&+wh&+Lt&n]");
-                break;
-              case SURNAME_NOBLE:
-                strcat(who_output, "&n[&+mN&+Mobl&+me&n]");
-                break;
-              case SURNAME_LORD:
-                strcat(who_output, "&n[&+rL&+Ror&+rd&n]");
-                break;
-              case SURNAME_KING:
-                strcat(who_output, "&n[&+yK&+Yin&+yg&n]");
-                break;
-              case SURNAME_LIGHTBRINGER:
-                strcat(who_output, "&n[&+WLight&+wbri&+Lnger&n]");
-                break;
-              case SURNAME_DRAGONSLAYER:
-                strcat(who_output, "&n[&+gDr&+Gag&+Lon &+gS&+Glaye&+gr&n]");
-                break;
-              case SURNAME_DOCTOR:
-                strcat(who_output, "&n[&+WD&+Ro&+rct&+Ro&+Wr&n]");
-                break;
-              case SURNAME_SERIALKILLER:
-                strcat(who_output, "&n[&+LSe&+wr&+Wi&+wa&+Ll &+rKiller&n]");
-                break;
-              case SURNAME_GRIMREAPER:
-                strcat(who_output, "&n[&+LGr&+wi&+Wm Rea&+wp&+Ler&n]");
-                break;
-              case SURNAME_DECEPTICON:
-                strcat(who_output, "&n[&+LDe&+mCePTiC&+LoN&n]");
-                break;
-              case SURNAME_TOUGHGUY:
-                strcat(who_output, "&n[&+MTo&+mug&+Mh G&+muy&n]");
-                break;
+              // Divide by SURNAME_SERF to convert from bits to index.
+              strcat(who_output, feudal_surnames[surname / SURNAME_SERF].color_name);
             }
+            else
+            {
+              // Divide by SURNAME_LIGHTBRINGER to convert from bits to index, and add 1, since surnames[1] == feudal.
+              strcat(who_output, surnames[surname / SURNAME_LIGHTBRINGER + 1].color_name);
+            }
+            strcat(who_output, "]" );
           }
 
           /* No frag food title? :(

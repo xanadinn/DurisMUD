@@ -71,35 +71,59 @@ extern P_obj quest_item_reward(P_char ch);
 extern int find_map_place();
 extern int getItemFromZone(int zone);
 extern const surname_struct surnames[MAX_SURNAME+1];
+extern const surname_struct feudal_surnames[7];
 
 void     set_short_description(P_obj t_obj, const char *newShort);
 void     set_keywords(P_obj t_obj, const char *newKeys);
 void     set_long_description(P_obj t_obj, const char *newDescription);
 
+/* Surname List
+ *   0 - Update
+ *   1 - Feudal Surname
+ *   2... - achievement based.
+ * From least to greatest: [SERF, COMMONER, KNIGHT, NOBLE, LORD, KING], NULL, [LIGHTBRINGER, DRAGONSLAYER, DOCTOR,
+ *   SERIALKILLER, GRIMREAPER, DECEPTICON, TOUGHGUY], followed by 1 + 8 * 3 = 25 empty slots (for new surnames).
+ *   Inbetween King and Lightbringer there's an intentionally skipped spot such that the first 3 bits contain feudal,
+ *   and the rest are achievement based.
+ */
 void set_surname(P_char ch, int num)
 {
-  /* Surname List
-     0 - Leaderboard Based (default)
-     1 - User Toggled Custom Surname Off
-     2 - Lightbringer
-     3 - Dragonslayer
-     4 - Decepticon
-     ...
-   */
+  int points, curr_surname;
 
   if( !IS_ALIVE(ch) || !IS_PC(ch) )
   {
     return;
   }
 
-  if( (num == 0) || (num == 1) )
+  if( num == 0 )
   {
-    int points = getLeaderBoardPts(ch);
-    points /= 100;
+    // By dividing by SURNAME_SERF, we convert to an index.
+    curr_surname = GET_SURNAME(ch) / SURNAME_SERF;
+    // Do not update a feudal surname past 6 (6 is King and is not updatable since it's the highest possible).
+    points = getLeaderBoardPts(ch) / 100;
+    while( (curr_surname < 6) && (points > feudal_surnames[curr_surname+1].achievement_number) )
+    {
+      curr_surname++;
+      send_to_char_f( ch, "You have ranked up to %s.\n", feudal_surnames[curr_surname].color_name);
+      CLEAR_SURNAME(ch);
+      // Multiply by SURNAME_SERF to convert from index to flag.
+      SET_SURNAME( ch, curr_surname * SURNAME_SERF );
+    }
+    return;
+  }
+
+  // Feudal
+  if( num == 1 )
+  {
+    points = getLeaderBoardPts(ch) / 100;
 
     CLEAR_SURNAME(ch);
 
-    if( IS_TRUSTED(ch) || (points >= 4000) )
+    if( IS_TRUSTED(ch) )
+    {
+      SET_SURNAME(ch, SURNAME_KING);
+    }
+    else if( points >= 4000 )
     {
       SET_SURNAME(ch, SURNAME_KING);
     }
@@ -201,6 +225,24 @@ void do_surname(P_char ch, char *argument, int cmd)
   }
 
   set_surname(ch, surname_index );
+}
+
+void event_update_surnames(P_char ch, P_char victim, P_obj, void *data)
+{
+  P_desc d;
+
+  // For each descriptor
+  for( d = descriptor_list; d; d = d->next )
+  {
+    // If it's not in-game, skip it.
+    if( STATE(d) != CON_PLAYING )
+    {
+      continue;
+    }
+    set_surname( GET_TRUE_CHAR_D(d), 0);
+  }
+  // Check every 5 to 10 minutes.
+  add_event( event_update_surnames, number( 300, 600) * WAIT_SEC, NULL, NULL, NULL, 0, NULL, 0 );
 }
 
 bool quested_spell(P_char ch, int spl)

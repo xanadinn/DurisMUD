@@ -811,6 +811,7 @@ void init_cmdlog(void);
 void loop_debug(void);
 
 /* drannak.c */
+void event_update_surnames(P_char ch, P_char victim, P_obj, void *data);
 bool quested_spell(P_char ch, int spl);
 int vnum_in_inv(P_char ch, int vnum);
 void vnum_from_inv(P_char ch, int item, int count);

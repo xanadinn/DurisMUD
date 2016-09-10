@@ -817,6 +817,9 @@ void ne_init_events(void)
   // Upkeep costs for outposts
   add_event( event_outposts_upkeep, SECS_PER_MUD_HOUR * WAIT_SEC, NULL, NULL, NULL, 0, NULL, 0 );
 
+  // Increases and notifies people if they've ranked up in feudal surname.
+  add_event( event_update_surnames, 45 * WAIT_SEC, NULL, NULL, NULL, 0, NULL, 0 );
+
   logit(LOG_STATUS, "Done scheduling events.\n");
 }
 
