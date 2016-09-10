@@ -4556,7 +4556,7 @@ void do_more(P_char ch, char *arg, int cmd)
 
 void do_toggle(P_char ch, char *arg, int cmd)
 {
-  int      i, j, tog_nr = -1, result = -1, wimp_lev = -1;
+  int      i, j, tog_nr = -1, result = -1, length, number;
   char     Gbuf1[MAX_STRING_LENGTH], Gbuf3[MAX_STRING_LENGTH], buf[80];
   P_char   send_ch = ch;
 
@@ -4579,7 +4579,18 @@ void do_toggle(P_char ch, char *arg, int cmd)
     show_toggles(send_ch);
     return;
   }
-  tog_nr = (old_search_block(arg, 0, strlen(arg), toggles_list, 0) - 1);
+
+  length = strlen(arg);
+  // Look at the end of the string backwards skipping over numbers
+  while( isdigit(arg[length-1]) )
+    length--;
+  // Set number to the end-string of numbers
+  number = atoi(&(arg[length]));
+  // Skip the spaces before the end-string of numbers.
+  while( isspace(arg[length - 1]) )
+    length--;
+
+  tog_nr = (old_search_block(arg, 0, length, toggles_list, 0) - 1);
 
   if( tog_nr < 0 )
   {
@@ -4715,44 +4726,27 @@ void do_toggle(P_char ch, char *arg, int cmd)
                                  */
     result = PLR_TOG_CHK(ch, PLR_ECHO);
     break;
-  case 13:                     /*
-                                 * wimpy
-                                 */
-
-    arg = one_argument(arg, Gbuf1);
-
-    if (isdigit(*Gbuf1))
+  case 13:  // wimpy level
+    if( number < 0 )
     {
-      if ((wimp_lev = atoi(Gbuf1)))
-      {
-        if (wimp_lev < 0)
-        {
-          send_to_char("Hehe... We are jolly funny today, eh?\r\n", send_ch);
-          return;
-        }
-        if (wimp_lev > GET_MAX_HIT(ch))
-        {
-          send_to_char("That doesn't make much sense, now does it?\r\n",
-                       send_ch);
-          return;
-        }
-        GET_WIMPY(ch) = wimp_lev;
-        result = TRUE;
-        sprintf(Gbuf3, "%d", wimp_lev);
-      }
-      else if (*Gbuf1 == '0')
-      {
-        GET_WIMPY(ch) = 0;
-        result = FALSE;
-        strcpy(Gbuf3, "Off");
-      }
+      send_to_char("Hehe... We are jolly funny today, eh?\r\n", send_ch);
+      return;
+    }
+    if( number > GET_MAX_HIT(ch) )
+    {
+      send_to_char("That doesn't make much sense, now does it?\r\n", send_ch);
+      return;
+    }
+    GET_WIMPY(ch) = number;
+    if( number == 0 )
+    {
+      result = FALSE;
+      strcpy(Gbuf3, "Off");
     }
     else
     {
-      send_to_char
-        ("Specify at how many hit points you want to flee.  (0 to disable)\r\n",
-         send_ch);
-      return;
+      result = TRUE;
+      sprintf(Gbuf3, "%d", number);
     }
     break;
   case 14:                     /*
@@ -4844,33 +4838,22 @@ void do_toggle(P_char ch, char *arg, int cmd)
       return;
     }
     break;
-  case 21:                     /*
-                                 * screen length
-                                 */
-
-    arg = one_argument(arg, Gbuf1);
-
-    if (is_number(Gbuf1) && (wimp_lev = atoi(Gbuf1)))
-    {
-      if ((wimp_lev < 12) || (wimp_lev > 48))
-      {
-        send_to_char("Screen length must be between 12 and 48 lines\r\n",
-                     send_ch);
-        return;
-      }
-      ch->only.pc->screen_length = wimp_lev;
-      result = TRUE;
-      sprintf(Gbuf3, "%d", wimp_lev);
-    }
-    else if( isname(Gbuf1, "off") || isname(Gbuf1, "default") )
+  case 21:  // Screen length
+    if( number == 0 )
     {
       result = FALSE;
-      strcpy(Gbuf3, " 24");
+      ch->only.pc->screen_length = 24;
+    }
+    else if( (number < 12) || (number > 48))
+    {
+      send_to_char("Screen length must be between 12 and 48 lines\r\n", send_ch);
+      return;
     }
     else
     {
-      send_to_char("Specify how many lines to display on a page (no effect without paging)\r\nor 'off' or 'default' to reset to standard 24 lines.\r\n", send_ch);
-      return;
+      ch->only.pc->screen_length = number;
+      result = TRUE;
+      sprintf(Gbuf3, "%d", number);
     }
     break;
   case 22:
