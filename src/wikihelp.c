@@ -503,9 +503,9 @@ string wiki_races(string title, int type )
 string wiki_help_single(string str)
 {
   string return_str, title;
-  int category;
+  int category, dashes;
 
-  if( !qry("select title, text, category_id from pages where title = '%s' limit 1", str.c_str()) )
+  if( !qry("select title, text, category_id, last_update, last_update_by from pages where title = '%s' limit 1", str.c_str()) )
   {
     return string("&+GSorry, but there was an error with the help system.");
   }
@@ -531,11 +531,20 @@ string wiki_help_single(string str)
     }
   }
 
-  return_str += "&+c";
+  return_str = "&+c";
   return_str += row[0];
-  return_str += "\n";
+  return_str += "&N - Last Edited: &+w";
+  return_str += row[3];
+  return_str += "&n by &+w";
+  return_str += (row[4] == NULL) ? "Unknown" : row[4];
 
-  return_str += "&+L=========================================\n";
+  dashes = ansi_strlen(return_str.c_str());
+  return_str += "&N\n&+L";
+  while( dashes-- > 0 )
+  {
+    return_str += "=";
+  }
+  return_str += "&N\n";
 
   return_str += dewikify(trim(string(row[1]), " \t\n"));
 
