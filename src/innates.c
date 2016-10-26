@@ -1778,9 +1778,18 @@ void bite(P_char ch, P_char victim)
     snakebite(ch, victim);
     return;
   }
-  
+
   if (GET_RACE2(ch) == RACE_PARASITE) {
     parasitebite(ch, victim);
+    return;
+  }
+
+  if( GET_STAT(ch) < STAT_RESTING )
+  {
+    if( GET_STAT(ch) == STAT_SLEEPING )
+      send_to_char( "You wish you could, if only you were awake.\n", ch );
+    else
+      send_to_char( "Mmm.. food.  If only you weren't bleeding to death already.\n", ch );
     return;
   }
 
