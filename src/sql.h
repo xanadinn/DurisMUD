@@ -86,6 +86,8 @@ void zone_trophy_update();
 #define EXPLOG "exp"
 #define CONNECTLOG "connect"
 
+#define FRAGS_TO_LEVEL( frags ) ( (frags / .6) + 25 )
+
 void sql_log(P_char ch, char * kind, char * format, ...);
 
 struct zone_info

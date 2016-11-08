@@ -369,11 +369,11 @@ void sql_save_progress(int pid, int delta, const char *type)
 }
 
 // Retrieves the current highest number of frags and which racewar side has it.
-void get_level_cap_info( long *max_frags, int* racewar )
+void get_level_cap_info( long *max_frags, int *racewar, int *level, time_t *next_update )
 {
   MYSQL_RES *db = NULL;
   MYSQL_ROW row;
-  db = db_query( "SELECT most_frags, racewar_leader FROM level_cap" );
+  db = db_query( "SELECT most_frags, racewar_leader, level, UNIX_TIMESTAMP(next_update) FROM level_cap" );
 
   if( (db == NULL) || (( row = mysql_fetch_row(db) ) == NULL) )
   {
@@ -381,8 +381,10 @@ void get_level_cap_info( long *max_frags, int* racewar )
     *max_frags = (long)-1;
     *racewar = RACEWAR_NONE;
   }
-  *max_frags = (long)(atof( row[0] ) * 100. + .01);
-  *racewar   = atoi(row[1]);
+  *max_frags   = (long)(atof( row[0] ) * 100. + .01);
+  *racewar     = atoi(row[1]);
+  *level       = atoi(row[2]);
+  *next_update = atol(row[3]);
 
   // cycle out until a NULL return
   while( row != NULL )
@@ -395,34 +397,84 @@ void get_level_cap_info( long *max_frags, int* racewar )
 // Returns the highest level achievable by mortals, limited by racewar side.
 int sql_level_cap( int racewar_side )
 {
-  long max_frags;
   int  leading_racewar, level_cap;
+  MYSQL_RES *db = NULL;
+  MYSQL_ROW row;
 
-  get_level_cap_info( &max_frags, &leading_racewar );
+  db = db_query( "SELECT level, racewar_leader FROM level_cap" );
 
-  // This goes from 25 for no frags, 26 for .4 frags, 27 for .8 frags, up to 56 for 12.4 or more frags.
-  level_cap = (int) ( (max_frags / 40) + 25 );
+  if( (db == NULL) || (( row = mysql_fetch_row(db) ) == NULL) )
+  {
+    debug( "get_level_cap_info: Database read fail." );
+    return 25;
+  }
+
+  level_cap       = atoi(row[0]);
+  leading_racewar = atoi(row[1]);
+
+  // cycle out until a NULL return
+  while( row != NULL )
+  {
+    row = mysql_fetch_row(db);
+  }
+  mysql_free_result(db);
 
   // Everyone can reach 56 when someone reaches the limit + 40.
-  if( level_cap > 56 )
-    return 56;
+  if( level_cap >= MAXLVLMORTAL )
+    return MAXLVLMORTAL;
   // 25 is the lower limit.
   if( level_cap <= 25 )
     return 25;
-  // Otherwise, we have a 1 level penalty for non-leading racewar sides.
-  return level_cap - ( (racewar_side == leading_racewar) ? 0 : 1 );
+  // Otherwise, we have a 1 level penalty for non-leading racewar sides (on non-circle levels).
+  if( (racewar_side != leading_racewar) && (level_cap % 5 != 1) )
+    return level_cap - 1;
+  else
+    return level_cap;
 }
 
 // Checks the number of frags against the current highest and sets the new highest if applicable.
 void sql_check_level_cap( long max_frags, int racewar )
 {
   long old_max_frags;
-  int  old_racewar;
+  int  old_racewar, old_level;
+  time_t next_update;
   char query[1024];
 
-  get_level_cap_info( &old_max_frags, &old_racewar );
-
-  if( max_frags > old_max_frags )
+  get_level_cap_info( &old_max_frags, &old_racewar, &old_level, &next_update );
+  // If we've capped out
+  if( old_level >= MAXLVLMORTAL )
+  {
+    return;
+  }
+  // If enough time has passed, and level should change, update level if appropriate.
+  if( next_update <= time(NULL) )
+  {
+    // New max frags
+    if( max_frags > old_max_frags )
+    {
+      // New level
+      if( old_level < FRAGS_TO_LEVEL(max_frags) )
+      {
+        sprintf(query, "UPDATE level_cap SET most_frags = %f, racewar_leader = %d, level = %d, next_update = FROM_UNIXTIME(%ld)",
+          max_frags/100., racewar, old_level + 1, time(NULL) + SECS_PER_REAL_DAY );
+        db_query(query);
+      }
+      else
+      {
+        sprintf(query, "UPDATE level_cap SET most_frags = %f, racewar_leader = %d", max_frags/100., racewar );
+        db_query(query);
+      }
+    }
+    // Already had enough frags to update level.
+    else if( old_level < FRAGS_TO_LEVEL(old_max_frags) )
+    {
+      sprintf(query, "UPDATE level_cap SET level = %d, next_update = FROM_UNIXTIME(%ld)",
+        old_level + 1, time(NULL) + SECS_PER_REAL_DAY );
+      db_query(query);
+    }
+  }
+  // Just changing highest frag amount and, possibly, racewar leader.
+  else if( max_frags > old_max_frags )
   {
     sprintf(query, "UPDATE level_cap SET most_frags = %f, racewar_leader = %d", max_frags/100., racewar );
     db_query(query);
@@ -432,12 +484,29 @@ void sql_check_level_cap( long max_frags, int racewar )
 // Sets the values of level (actual cap) and racewar (the side that is in the lead).
 void get_level_cap( int *level, int *racewar )
 {
-  long max_frags;
+  MYSQL_RES *db = NULL;
+  MYSQL_ROW row = NULL;
 
-  get_level_cap_info( &max_frags, racewar );
-  // This is a little redundant, since sql_level_cap(int) calls get_level_cap_info,
-  //   but it saves on having calculations in two places (easier to update).
-  *level = sql_level_cap( *racewar );
+  db = db_query( "SELECT level, racewar_leader FROM level_cap" );
+
+  if( (db == NULL) || (( row = mysql_fetch_row(db) ) == NULL) )
+  {
+    debug( "get_level_cap: Database read fail." );
+    *level = 25;
+    *racewar = RACEWAR_NONE;
+  }
+  else
+  {
+    *level   = atoi(row[0]);
+    *racewar = atoi(row[1]);
+  }
+
+  // cycle out until a NULL return
+  while( row != NULL )
+  {
+    row = mysql_fetch_row(db);
+  }
+  mysql_free_result(db);
 }
 
 /* Save frags delta */
@@ -1851,6 +1920,20 @@ bool sql_pwipe( int code_verify )
     logit(LOG_DEBUG, "sql_pwipe: Deactivating players_core data... .. ." );
     send_to_all( "Deactivating players_core data... .. ." );
     if( qry("UPDATE players_core SET active = 0") )
+    {
+      logit(LOG_DEBUG, "  success!" );
+      send_to_all( "  success!\n" );
+    }
+    else
+    {
+      logit(LOG_DEBUG, "        failure!");
+      send_to_all( "        failure!\n");
+      return FALSE;
+    }
+    logit(LOG_DEBUG, "sql_pwipe: Resetting level_cap data... .. ." );
+    send_to_all( "Resetting level_cap data... .. ." );
+    // Level 25 is base level for no frags.
+    if( qry("UPDATE level_cap SET most_frags=0, racewar_leader=0, level=25, next_update=NOW()") )
     {
       logit(LOG_DEBUG, "  success!" );
       send_to_all( "  success!\n" );
