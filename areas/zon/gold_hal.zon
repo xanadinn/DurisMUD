@@ -624,7 +624,7 @@ O 0 40400 24 40484 100 0 0 0       * a glowing torch
 O 0 40400 24 40486 100 0 0 0       * a glowing torch
 O 0 40400 24 40488 100 0 0 0       * a glowing torch
 O 0 40414 1 40496 100 0 0 0        * a huge silver broadsword
-O 0 40409 1 40497 100 0 0 0        * the flawless broadsword, Reliance
+O 0 40409 2 40497 100 0 0 0        * the flawless broadsword, Reliance
 O 0 40423 1 40499 100 0 0 0        * a small sign
 O 0 40422 1 40501 100 0 0 0        * a strange necklace of woven hemp
 O 0 40419 999 40502 100 0 0 0      * a white potion
@@ -732,6 +732,7 @@ M 0 40427 1 40494 100 0 0 0        * a delegate from bloodstone
 E 1 40416 1 2 100 0 0 0            *   a bloodstone ring
 M 0 40417 1 40495 100 0 0 0        * Prince Wasephius
 E 1 40418 2 10 100 0 0 0           *   an armband of knighthood
+E 1 40409 2 16 20 0 0 0            *   the flawless broadsword, Reliance
 G 1 40429 1 0 100 0 0 0            *    a stone key looped on a leather band
 G 1 40413 2 0 100 0 0 0            *    a twisted golden key
 F 1 40419 2 40495 100 0 0 0        * a personal bodyguard of the prince (following)
