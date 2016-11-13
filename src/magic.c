@@ -17644,26 +17644,25 @@ void event_judgement(P_char ch, P_char victim, P_obj obj, void *data)
       {
         act("&+WYou suddenly realize how &+Lwrong &+Wyour life has been!\n"
             "&+WYou feel compelled to change your ways, but the feeling goes away...\n", TRUE, victim, 0, 0, TO_CHAR);
-        act("As a ray of &+Wheavenly light&n shines upon $n, $e suddenly relaxes and sinks deeply into thought.&n", 
+        act("As a ray of &+Wheavenly light&n shines upon $n, $e suddenly relaxes and sinks deeply into thought.&n",
              TRUE, victim, 0, victim, TO_ROOM);
-        
+
         stop_fighting(victim);
         if( IS_DESTROYING(victim) )
           stop_destroying(victim);
-        
+
         CharWait(victim, PULSE_VIOLENCE * 3);
       }
-      else if(!number(0, 2))
+      else if( !number(0, 2) || IS_AFFECTED4(victim, AFF4_NOFEAR) )
       {
         spell_damage(ch, victim, dice(10, GET_LEVEL(ch)), SPLDAM_HOLY, RAWDAM_NOKILL, &messages);
-        
+
         if(!IS_ALIVE(ch))
         {
           return;
         }
-        
+
         SET_POS(victim, POS_SITTING + GET_STAT(victim));
-        
         CharWait(victim, PULSE_VIOLENCE * 2);
       }
       else
@@ -17671,9 +17670,9 @@ void event_judgement(P_char ch, P_char victim, P_obj obj, void *data)
         send_to_char("&+RJudged and humiliated, you desperately search for &+Wescape...!\n", victim);
         act("As a ray of &+Wheavenly light&n shines upon $n, $e tries to escape &+Wjustice&n.", 
              TRUE, victim, 0, victim, TO_ROOM);
-        
+
         do_flee(victim, 0, 1);
-        
+
         CharWait(victim, PULSE_VIOLENCE * 2);
       }
     }
