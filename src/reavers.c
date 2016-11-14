@@ -89,23 +89,24 @@ void spell_ferrix_precision(int level, P_char ch, char *arg, int type, P_char vi
     struct affected_type *af1;
 
     for (af1 = victim->affected; af1; af1 = af1->next)
+    {
       if (af1->type == SPELL_FERRIX_PRECISION)
       {
         af1->duration = 32;
       }
-    
+    }
     return;
   }
   bzero(&af, sizeof(af));
 
   af.type = SPELL_FERRIX_PRECISION;
   af.duration = 32;
-  af.modifier = ((int) (level / 9)) + 2;
+  af.modifier = ((int) (level / 7)) + 2;
   af.location = APPLY_DEX_MAX;
   affect_to_char(victim, &af);
 
   af.duration =  32;
-  af.modifier = ((int) (level / 9)) + 2;
+  af.modifier = ((int) (level / 7)) + 2;
   af.location = APPLY_HITROLL;
   affect_to_char(victim, &af);
 
@@ -179,7 +180,7 @@ void spell_kanchelsis_fury(int level, P_char ch, char *arg, int type, P_char vic
     bzero(&af, sizeof(af));
     af.type = SPELL_KANCHELSIS_FURY;
     af.duration = 10;
-    af.modifier = number(3, 9);
+    af.modifier = (level / 7) + 2;
     af.location = APPLY_STR_MAX;
     affect_to_char(victim, &af);
     if (level >= 56)
