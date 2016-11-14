@@ -9031,6 +9031,7 @@ int calculate_attacks(P_char ch, int attacks[])
 {
   P_char rider;
   int number_attacks = 0;
+  P_obj weapon;
 
   if( IS_AFFECTED5(ch, AFF5_NOT_OFFENSIVE) || !IS_ALIVE(GET_OPPONENT(ch)) )
   {
@@ -9301,18 +9302,40 @@ int calculate_attacks(P_char ch, int attacks[])
     }
   }
 
-  //dex and dex max now grants extra attacks.
-  P_obj weapon = ch->equipment[WIELD]; //harder to swing a lot with heavier weapons.
-  double wpnweight = 0.00;
+  // High dex now grants extra attacks (does not include bare hands).
+  // Dex primary weapon
+  weapon = ch->equipment[PRIMARY_WEAPON];
+  if( (weapon != NULL) && (weapon->type == ITEM_WEAPON) )
+  {
+    int actpct = (100 * GET_OBJ_WEIGHT( weapon )) / GET_C_STR(ch);
 
-  if(weapon)
-    wpnweight = (double)GET_OBJ_WEIGHT(weapon);
-  double currstr = (double)GET_C_STR(ch);
-  //debug("wpnweight: %f", wpnweight);
+    if( (( actpct <= 6 ) && ( GET_C_DEX(ch) >= 125 ))
+      || (( actpct <= 20 ) && ( GET_C_DEX(ch) >= 150 )) )
+    {
+      if( number(1, GET_C_DEX(ch)) > 60 )
+      {
+        send_to_char("&nYour improved &+gdexterity&n grants you an additional attack!&n\n\r", ch);
+        ADD_ATTACK(PRIMARY_WEAPON);
+      }
+    }
+  }
+  // Dex secondary weapon
+  weapon = ch->equipment[SECONDARY_WEAPON];
+  if( (weapon != NULL) && (weapon->type == ITEM_WEAPON) )
+  {
+    int actpct = (100 * GET_OBJ_WEIGHT( weapon )) / GET_C_STR(ch);
 
-  double wpnpct = wpnweight / currstr;
-  int actpct = (100 * wpnpct);
+    if( (actpct <= 6) && (GET_C_DEX(ch) >= 150) )
+    {
+      if( number(1, GET_C_DEX(ch)) > 60 )
+      {
+        send_to_char("&nYour improved &+gdexterity&n grants you an additional attack!&n\n\r", ch);
+        ADD_ATTACK(SECONDARY_WEAPON);
+      }
+    }
+  }
 
+/* Keeping the old 3 tier code for dex attacks, but reducing it to two.
   if(actpct <= 5)
   {
     if(GET_C_DEX(ch) >= 155)
@@ -9390,6 +9413,7 @@ int calculate_attacks(P_char ch, int attacks[])
       }
     }
   }
+*/
 
   if(GET_CLASS(ch, CLASS_CLERIC) &&
       affected_by_spell(ch, SPELL_DIVINE_FURY))
