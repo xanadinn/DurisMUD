@@ -240,23 +240,20 @@ void do_construct_guildhall(P_char ch, char *arg)
 
   int plat_cost = get_property("guildhalls.construction.platinum.main", 0) * 1000;
   int cp_cost = get_property("guildhalls.construction.points.main", 0);
-  
-  if(!ch)
-    return;
-  
-  if(!GET_ASSOC(ch))
+
+  if( !GET_ASSOC(ch) )
   {
     send_to_char("You must be the leader of a guild to build a guildhall.\r\n", ch);
     return;
   }
-  
+
   if( !IS_TRUSTED(ch) )
   {
     if( !guildhall_map_check(ch) )
     {
       return;
     }
-    
+
     if( Guildhall::count_by_assoc_id(GET_ASSOC(ch)->get_id(), GH_TYPE_MAIN) > 0 )
     {
       send_to_char("You already have a guildhall!\r\n", ch);
@@ -269,7 +266,7 @@ void do_construct_guildhall(P_char ch, char *arg)
       send_to_char(buff, ch);
       return;
     }
-    
+
     if( GET_ASSOC(ch)->get_construction() < cp_cost )
     {
       sprintf(buff, "Your guild doesn't yet have enough &+Wconstruction points&n - it costs %d to build a guildhall.\r\n", cp_cost);
@@ -1280,38 +1277,37 @@ bool move_guildhall(Guildhall *gh, int vnum)
   return gh->reload();
 }
 
+// Making guildhalls only avail in towns - 8/22/13 Drannak
+// Reversing this to make guildhalls map only again. 11/17/2016 Lohrr
 bool guildhall_map_check(P_char ch)
 {
   int rroom = ch->in_room;
-  
-  if(!rroom)
-    return FALSE;
 
-  //making guildhalls only avail in towns - 8/22/13 Drannak
-  if (IS_RACEWAR_GOOD(ch) && IS_SET(hometowns[VNUM2TOWN(world[ch->in_room].number)-1].flags, JUSTICE_EVILHOME))
+  if( !IS_RACEWAR_GOOD(ch) && IS_SET(hometowns[VNUM2TOWN(world[ch->in_room].number)-1].flags, JUSTICE_GOODHOME) )
   {
-    send_to_char("Sure, call in the contractors!... Try to find a good hometown to build in.\n", ch);
+    send_to_char("Sure, call in the contractors!... Find a non-good hometown to build in.\n", ch);
     return FALSE;
   }
-  else if (IS_RACEWAR_EVIL(ch) && IS_SET(hometowns[VNUM2TOWN(world[ch->in_room].number)-1].flags, JUSTICE_GOODHOME))
+  else if( !IS_RACEWAR_EVIL(ch) && IS_SET(hometowns[VNUM2TOWN(world[ch->in_room].number)-1].flags, JUSTICE_EVILHOME) )
   {
-    send_to_char("Sure, call in the contractors!... Try to find an evil hometown to build in.\n", ch);
+    send_to_char("Sure, call in the contractors!... Find a non-evil hometown to build in.\n", ch);
     return FALSE;
   }
 
- //dranfat 
+  // Dranfat
   if( Guildhall::find_by_vnum(world[rroom].number) )
   {
     send_to_char("There is already a guildhall here.\r\n", ch);
     return FALSE;
   }
 
-  if((!IS_SET(hometowns[VNUM2TOWN(world[ch->in_room].number)-1].flags, JUSTICE_EVILHOME)) && (!IS_SET(hometowns[VNUM2TOWN(world[ch->in_room].number)-1].flags, JUSTICE_GOODHOME)))
+  if( (IS_SET( hometowns[VNUM2TOWN(world[ch->in_room].number)-1].flags, JUSTICE_EVILHOME ))
+    || (IS_SET( hometowns[VNUM2TOWN(world[ch->in_room].number)-1].flags, JUSTICE_GOODHOME )) )
   {
-    send_to_char("Guildhalls can only be built within the confines of a city.\r\n", ch);
+    send_to_char("Guildhalls can only be built &+Woutside&n the confines of a city.\r\n", ch);
     return FALSE;
   }
-  
+
  /* if( GET_RACEWAR(ch) == RACEWAR_GOOD )
   {
     if( !IS_CONTINENT(rroom, CONT_GC) )
@@ -1319,12 +1315,12 @@ bool guildhall_map_check(P_char ch)
       send_to_char("You can only build a guildhall on the &+WGood Continent&n.\r\n", ch);
       return FALSE;
     }
-    
+
     int dist = calculate_map_distance(ch->in_room, real_room(TH_MAP_VNUM));
-    
+
     if( dist )
       dist = (int) sqrt(dist); // calculate_map_distance returns the square of the distance
-    
+
     //if( dist < 0 || dist > MAX_GH_HOMETOWN_RADIUS )
     //{
       //send_to_char("You need to build your guildhall closer to Tharnadia.\r\n", ch);
@@ -1352,11 +1348,11 @@ bool guildhall_map_check(P_char ch)
       int dist = calculate_map_distance(ch->in_room, real_room(KHILD_MAP_VNUM));
 
       if (dist)
-	dist = (int) sqrt(dist);
+        dist = (int) sqrt(dist);
       if (dist < 0 || dist > MAX_GH_HOMETOWN_RADIUS)
       {
-	send_to_char("You need to build your guildhall closer to Khildarak.\r\n", ch);
-	return FALSE;
+        send_to_char("You need to build your guildhall closer to Khildarak.\r\n", ch);
+        return FALSE;
       }
     }
     else
@@ -1365,39 +1361,42 @@ bool guildhall_map_check(P_char ch)
       return FALSE;
     }
   }*/
-  
+
   for( int i = 0; i < Guildhall::guildhalls.size(); i++ )
   {
     Guildhall* gh = Guildhall::guildhalls[i];
-    
+
     int dist = calculate_map_distance(ch->in_room, real_room(gh->outside_vnum));
-    
-    if( dist )
+
+    if( dist > 1 )
       dist = (int) sqrt(dist); // calculate_map_distance returns the square of the distance
-   
+
     if( dist >= 0 && dist < MAX_GH_PROXIMITY_RADIUS )
     {
       send_to_char("You can't build your hall so close to other guildhalls.\r\n", ch);
       return FALSE;
     }
-  }  
-  
- /* if( world[rroom].sector_type == SECT_FOREST ||
-      world[rroom].sector_type == SECT_HILLS ||
-      world[rroom].sector_type == SECT_FIELD ||
-      IS_UD_MAP(rroom))*/
-  if(((IS_SET(hometowns[VNUM2TOWN(world[ch->in_room].number)-1].flags, JUSTICE_EVILHOME)) || (IS_SET(hometowns[VNUM2TOWN(world[ch->in_room].number)-1].flags, JUSTICE_GOODHOME)))
-	&& (world[rroom].sector_type == SECT_CITY || world[rroom].sector_type == SECT_INSIDE || world[rroom].sector_type == SECT_UNDRWLD_CITY))
+  }
+
+  // Must be a map room and either proper sector type or UD map room (any is ok).
+  if( IS_MAP_ROOM(rroom) && (( world[rroom].sector_type == SECT_FOREST ) || ( world[rroom].sector_type == SECT_HILLS )
+    || ( world[rroom].sector_type == SECT_FIELD ) || IS_UD_MAP( rroom )) )
+/*  This is for guildhalls in hometowns.
+  if( ((IS_SET(hometowns[VNUM2TOWN(world[ch->in_room].number)-1].flags, JUSTICE_EVILHOME))
+    || (IS_SET(hometowns[VNUM2TOWN(world[ch->in_room].number)-1].flags, JUSTICE_GOODHOME)))
+	  && (world[rroom].sector_type == SECT_CITY || world[rroom].sector_type == SECT_INSIDE
+    || world[rroom].sector_type == SECT_UNDRWLD_CITY) )
+*/
   {
     return TRUE;
   }
   else
   {
-   // send_to_char("You can't build your guildhall on this terrain.\r\n", ch);
-    send_to_char("You can only construct a guildhall within the confines of a town.\r\n", ch);
+    send_to_char("You can't build your guildhall on this terrain.\r\n", ch);
+//    send_to_char("You can only construct a guildhall within the confines of a town.\r\n", ch);
     return FALSE;
   }
-  
+
   return FALSE;
 }
 
