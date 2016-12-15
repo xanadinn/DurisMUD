@@ -2646,11 +2646,11 @@ P_char read_mobile(int nr, int type)
   foo += mob->points.damnodice * ((1 + mob->points.damsizedice) >> 1);
   if(IS_GREATER_RACE(mob) || IS_ELITE(mob))
   {
-    bar = MIN(foo, 100);
+    bar = MIN(foo, 400);
   }
   else
   {
-    bar = MIN(foo, 60);
+    bar = MIN(foo, 200);
   }
 
   if (foo > bar)
