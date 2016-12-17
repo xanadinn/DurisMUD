@@ -2464,7 +2464,9 @@ send_to_char(buf, ch);
         extract_obj(obj, FALSE);
         if( itemvalue(robj) > 100 )
         {
-          statuslog(ch->player.level, "&+MFaerie Bag:&n (%s&n) just got [%d] (%s&n) ival %d at [%d]!", GET_NAME(ch),
+          statuslog(ch->player.level, "&+MFaerie Bag(%c):&n (%s&n) just got [%d] (%s&n) ival %d at [%d]!",
+            (door == REG_FAERIE_BAG_VNUM) ? 'N' : (door == RARE_FAERIE_BAG_VNUM) ? 'R'
+            : (door == EXCEPT_FAERIE_BAG_VNUM) ? 'E' : '?', GET_NAME(ch),
             obj_index[robj->R_num].virtual_number, robj->short_description, itemvalue(robj),
            (ch->in_room == NOWHERE) ? -1 : world[ch->in_room].number);
         }
