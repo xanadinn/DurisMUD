@@ -2002,7 +2002,7 @@ void mount_summoning_thing(P_char ch, P_char victim, P_obj obj, void *data)
     send_to_char("Your mount couldn't find its way into the locker.\r\n", ch);
     return;
   }
-  
+
   if(!is_prime_plane(ch->in_room) ||
     world[ch->in_room].sector_type == SECT_OCEAN ||
     IS_ROOM(ch->in_room, ROOM_SINGLE_FILE))
@@ -2020,14 +2020,16 @@ void mount_summoning_thing(P_char ch, P_char victim, P_obj obj, void *data)
       return;
     }
   }
-    
-  if(IS_EVIL(ch) &&
-          GET_CLASS(ch, CLASS_ANTIPALADIN))
+
+  if( IS_SKELETON(ch) )
+  {
+    mount = read_mobile( 34429, VIRTUAL);
+  }
+  else if(IS_EVIL(ch) && GET_CLASS(ch, CLASS_ANTIPALADIN))
   {
     mount = read_mobile(GET_SPEC(ch, CLASS_ANTIPALADIN, SPEC_DEMONIC) ? 1234 : 1231, VIRTUAL);
   }
-  else if(IS_GOOD(ch) &&
-          GET_CLASS(ch, CLASS_PALADIN))
+  else if(IS_GOOD(ch) && GET_CLASS(ch, CLASS_PALADIN))
   {
     mount = read_mobile(GET_SPEC(ch, CLASS_PALADIN, SPEC_CAVALIER) ? 1235 : 1232, VIRTUAL);
   }
@@ -2046,8 +2048,7 @@ void mount_summoning_thing(P_char ch, P_char victim, P_obj obj, void *data)
     send_to_char("No mount could be found, please report this to a god.\r\n", ch);
     return;
   }
-  if(ch &&
-     mount) // Just making sure.
+  if(ch && mount) // Just making sure.
   {
     char_to_room(mount, ch->in_room, -2);
 
@@ -2143,19 +2144,24 @@ void mount_summoning_thing(P_char ch, P_char victim, P_obj obj, void *data)
     mount->base_stats.Con = BOUNDED(75, mount->base_stats.Con, 75 + factor);
     mount->base_stats.Cha = 100;
     mount->player.level = 10 + factor;
-    mount->points.base_hit = (factor * 50);
-    GET_HIT(mount) = (factor * 50);
-    GET_MAX_HIT(mount) = (factor * 50);
+    mount->points.base_hit = factor * (IS_SKELETON(ch) ? 25 : 50);
+    GET_HIT(mount) = factor * (IS_SKELETON(ch) ? 15 : 50);
+    GET_MAX_HIT(mount) = factor * (IS_SKELETON(ch) ? 15 : 50);
     mount->player.m_class = CLASS_NONE;
     MonkSetSpecialDie(mount);
     SET_BIT(mount->specials.act, ACT_MOUNT);
-    
+
+    if( IS_SKELETON(ch) )
+    {
+      // 100 - 25 + 50 (for being a mount) is a minimum of 125 moves, and max 175.
+      mount->points.vitality = mount->points.base_vitality = mount->points.max_vitality = 100 + number( -25, 25 );
+    }
+
     if(IS_SET(mount->specials.act, ACT_MEMORY))
     {
       clearMemory(mount);
       REMOVE_BIT(mount->specials.act, ACT_MEMORY);
     }
-    
     return;
   }
   send_to_char("A mount didn't load. Please report this with the bug command.\r\n", ch);
