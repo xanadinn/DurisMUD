@@ -6324,7 +6324,7 @@ void init_char(P_char ch)
   ch->only.pc->skillpoints = 0;
 }
 
-int      approve_mode = 0;       /* whether to have need to accept new players or not */
+int      approve_mode = 1;       /* whether to have need to accept new players or not */
 
 void newby_announce(P_desc d)
 {
