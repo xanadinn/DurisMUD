@@ -5123,6 +5123,8 @@ void create_tags()
   TAG_CREATE( "black kush", HERB_BLACK_KUSH );
   TAG_CREATE( "gootwiet", HERB_GOOTWIET );
 
+  TAG_CREATE( "nchat spammer", TAG_NCHATSPAMMER );
+
   TAG_CREATE("decay", TAG_OBJ_DECAY);
   TAG_CREATE("alt_extra2", TAG_ALTERED_EXTRA2);
   TAG_CREATE("no misfire", TAG_NOMISFIRE);

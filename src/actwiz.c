@@ -41,6 +41,8 @@
 #include "trophy.h"
 #include "ships.h"
 #include "utility.h"
+#include "achievements.h"
+
 /*
  * external variables
  */
@@ -178,6 +180,7 @@ void which_spec(P_char ch, char *argument);
 void which_food(P_char ch, char *argument);
 void which_weapon(P_char ch, char *argument);
 void choronize(char *argument);
+int SpammingNchat( P_char ch );
 
 /*
  * Macros
@@ -3601,6 +3604,7 @@ void do_nchat(P_char ch, char *argument, int cmd)
   bool   good, evil, undead, neutral, all;
   char   Gbuf1[MAX_STRING_LENGTH];
   char   Gbuf2[MAX_STRING_LENGTH];
+  static char LastNchat[MAX_INPUT_LENGTH];
   P_char to;
 
   if( !IS_ALIVE(ch) )
@@ -3665,6 +3669,18 @@ void do_nchat(P_char ch, char *argument, int cmd)
   }
 
   choronize(argument);
+  if( !strcmp(argument, LastNchat) )
+  {
+    if( SpammingNchat(ch) > 5 )
+    {
+      send_to_char( "You have temporarily lost nchat privledges due to spam.\n", ch );
+      return;
+    }
+  }
+  else
+  {
+    sprintf( LastNchat, "%s", argument );
+  }
 
   if( ch->desc )
   {
@@ -12936,5 +12952,26 @@ void choronize(char *argument)
       *index = index[1];
       index++;
     }
+  }
+}
+
+int SpammingNchat( P_char ch )
+{
+  struct affected_type *afp, af;
+
+  if( (afp = get_spell_from_char( ch, TAG_NCHATSPAMMER )) )
+  {
+    afp->duration = 10;
+    return ++afp->modifier;
+  }
+  else
+  {
+    bzero(&af, sizeof(af));
+    af.type = TAG_NCHATSPAMMER;
+    af.modifier = 1;
+    af.duration = 10;
+    af.flags = AFFTYPE_NOSHOW | AFFTYPE_NODISPEL | AFFTYPE_NOMSG | AFFTYPE_OFFLINE;
+    affect_to_char(ch, &af);
+    return 1;
   }
 }

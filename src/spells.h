@@ -1205,6 +1205,7 @@
 #define TAG_SQUIDRAGE                2118
 #define AIP_DEMONSLAYER              2119
 #define ACH_DEMONSLAYER              2120
+#define TAG_NCHATSPAMMER             2121
 
 #define SAVING_PARA   0
 #define SAVING_ROD    1
