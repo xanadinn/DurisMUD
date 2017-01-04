@@ -56,6 +56,12 @@ bool     avail_prac[MAX_SKILLS];
 
 void update_skills(P_char ch)
 {
+  int skl, spec, cls, skllvl, maxlearn, minlearn, maxtaught;
+
+	spec = ch->player.spec;
+  cls = flag2idx(ch->player.m_class) - 1;
+  minlearn = MIN( 40, (( 3*GET_LEVEL(ch) ) / 2) );
+
   if( !ch || !IS_PC(ch) )
     return;
 
@@ -63,84 +69,88 @@ void update_skills(P_char ch)
 //  return;
 //#endif
 
-  int      s, notched = 0, lastlvl = 0, shouldbe = 0;
-	int spec = ch->player.spec;
-
-  for (s = FIRST_SKILL; s <= LAST_SKILL; s++)
+  for( skl = FIRST_SKILL; skl <= LAST_SKILL; skl++ )
   {
-    if (IS_EPIC_SKILL(s))
+    skllvl = GET_LVL_FOR_SKILL( ch, skl );
+    if( IS_EPIC_SKILL(skl) )
     {
 #if defined(CHAOS_MUD) && (CHAOS_MUD == 1)
       ch->only.pc->skills[s].taught = 100;
       ch->only.pc->skills[s].learned = 100;
 #endif
     }
-    else if ( GET_LVL_FOR_SKILL(ch, s) > 0 && GET_LEVEL(ch) >= GET_LVL_FOR_SKILL(ch, s) )
+    // If they get th skill and they're high enough level for it.
+    else if ( (skllvl > 0) && (GET_LEVEL( ch ) >= skllvl) )
     {
 /* Why is there 3 possibilitie for .taught?  Either you lose a lvl or spec out of the skill and it goes down,
  *   or you gain a level or spec to a higher skill max and it goes up.  There should be no MAX( ... ).
- */
       ch->only.pc->skills[s].taught = MAX(ch->only.pc->skills[s].taught, MAX(SKILL_DATA_ALL(ch, s).maxlearn[0],
         SKILL_DATA_ALL(ch, s).maxlearn[ch->player.spec]));
+ */
+//debug( "Taught: %d, maxlearn: %d", ch->only.pc->skills[skl].taught, skills[skl].m_class[cls].maxlearn[spec] );
+      ch->only.pc->skills[skl].taught = skills[skl].m_class[cls].maxlearn[spec];
 
+/* Dunno if we need any of this when not debugging.
       lastlvl = ch->only.pc->skills[s].learned;
       shouldbe = (GET_LEVEL(ch) * 3 / 2);
       notched = lastlvl-shouldbe;
+      debug("should be: %d, learned so far: %d, notched above: %d", shouldbe, lastlvl, notched);
+*/
 
-      //debug("should be: %d, learned so far: %d, notched above: %d", shouldbe, lastlvl, notched);
 #if defined(CHAOS_MUD) && (CHAOS_MUD == 1)
-      ch->only.pc->skills[s].learned = 100;
-      ch->only.pc->skills[s].taught = 100;
+      ch->only.pc->skills[skl].learned = 100;
+      ch->only.pc->skills[skl].taught = 100;
 #else
-      ch->only.pc->skills[s].learned =
-        MAX( MIN(40, GET_LEVEL(ch) * 3 / 2), ch->only.pc->skills[s].learned );
+      if( ch->only.pc->skills[skl].taught < minlearn )
+        ch->only.pc->skills[skl].taught = minlearn;
+      if( ch->only.pc->skills[skl].learned < minlearn )
+        ch->only.pc->skills[skl].learned = minlearn;
 
       //debug("new learned: %d", ch->only.pc->skills[s].learned);
 #endif
-    } else {
-      ch->only.pc->skills[s].taught = ch->only.pc->skills[s].learned = 0;
     }
-    if (!IS_EPIC_SKILL(s) &&
-        SKILL_DATA_ALL(ch, s).maxlearn[0] < ch->only.pc->skills[s].taught &&
-        SKILL_DATA_ALL(ch, s).maxlearn[ch->player.spec] < ch->only.pc->skills[s].taught)
-#if defined(CHAOS_MUD) && (CHAOS_MUD == 1)
-      ch->only.pc->skills[s].taught = ch->only.pc->skills[s].learned = 100;
-#else
-      ch->only.pc->skills[s].taught =
-        MAX(0,
-            MAX(SKILL_DATA_ALL(ch, s).maxlearn[0],
-                SKILL_DATA_ALL(ch, s).maxlearn[ch->player.spec]));
-#endif  
-  }
-  
-  // assumes that the instruments and songs are back to back in spells.h
-  for( s = FIRST_INSTRUMENT; s <= LAST_SONG; s++ )
-  {
-    if ( GET_LVL_FOR_SKILL(ch, s) > 0 && GET_LEVEL(ch) >= GET_LVL_FOR_SKILL(ch, s) )
+    // If they never get the skill, or aren't high enough level for it.
+    else
+    {
+      ch->only.pc->skills[skl].taught = ch->only.pc->skills[skl].learned = 0;
+    }
+    if( !IS_EPIC_SKILL(skl) && (ch->only.pc->skills[skl].taught < ch->only.pc->skills[skl].learned) )
     {
 #if defined(CHAOS_MUD) && (CHAOS_MUD == 1)
-      ch->only.pc->skills[s].taught = ch->only.pc->skills[s].learned = 100;
+      ch->only.pc->skills[skl].taught = ch->only.pc->skills[s].learned = 100;
 #else
-      ch->only.pc->skills[s].taught =
-      MAX(ch->only.pc->skills[s].taught,
-          MAX(SKILL_DATA_ALL(ch, s).maxlearn[0],
-              SKILL_DATA_ALL(ch, s).maxlearn[ch->player.spec]));
-      ch->only.pc->skills[s].learned =
-        MAX(MIN(40, GET_LEVEL(ch) * 3 / 2), ch->only.pc->skills[s].learned);
+      ch->only.pc->skills[skl].learned = ch->only.pc->skills[skl].taught;
+#endif
+    }
+  }
+
+  // assumes that the instruments and songs are back to back in spells.h
+  for( skl = FIRST_INSTRUMENT; skl <= LAST_SONG; skl++ )
+  {
+    if ( GET_LVL_FOR_SKILL(ch, skl) > 0 && GET_LEVEL(ch) >= GET_LVL_FOR_SKILL(ch, skl) )
+    {
+#if defined(CHAOS_MUD) && (CHAOS_MUD == 1)
+      ch->only.pc->skills[skl].taught = ch->only.pc->skills[skl].learned = 100;
+#else
+      ch->only.pc->skills[skl].taught =
+      MAX(ch->only.pc->skills[skl].taught,
+          MAX(SKILL_DATA_ALL(ch, skl).maxlearn[0],
+              SKILL_DATA_ALL(ch, skl).maxlearn[ch->player.spec]));
+      ch->only.pc->skills[skl].learned =
+        MAX(MIN(40, GET_LEVEL(ch) * 3 / 2), ch->only.pc->skills[skl].learned);
 #endif
     } else {
-      ch->only.pc->skills[s].taught = ch->only.pc->skills[s].learned = 0;
+      ch->only.pc->skills[skl].taught = ch->only.pc->skills[skl].learned = 0;
     }
-    
-    if (SKILL_DATA_ALL(ch, s).maxlearn[0] < ch->only.pc->skills[s].taught &&
-        SKILL_DATA_ALL(ch, s).maxlearn[ch->player.spec] < ch->only.pc->skills[s].taught)
-#if defined(CHAOS_MUD) && (CHAOS_MUD == 1)      
-      ch->only.pc->skills[s].taught = ch->only.pc->skills[s].learned = 100;
+    if (SKILL_DATA_ALL(ch, skl).maxlearn[0] < ch->only.pc->skills[skl].taught &&
+        SKILL_DATA_ALL(ch, skl).maxlearn[ch->player.spec] < ch->only.pc->skills[skl].taught)
+#if defined(CHAOS_MUD) && (CHAOS_MUD == 1)
+      ch->only.pc->skills[skl].taught = ch->only.pc->skills[skl].learned = 100;
 #else
-      ch->only.pc->skills[s].taught =
+      ch->only.pc->skills[skl].taught =
         MAX(0,
-            MAX(SKILL_DATA_ALL(ch, s).maxlearn[0],
-                SKILL_DATA_ALL(ch, s).maxlearn[ch->player.spec]));
+            MAX(SKILL_DATA_ALL(ch, skl).maxlearn[0],
+                SKILL_DATA_ALL(ch, skl).maxlearn[ch->player.spec]));
 #endif  
   }
 }
