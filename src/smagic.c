@@ -3706,20 +3706,17 @@ void spell_lesser_mending(int level, P_char ch, char *arg, int type, P_char vict
   send_to_char("&+WYou feel a bit better.\n", victim);
 }
 
-void spell_mending(int level, P_char ch, char *arg, int type, P_char victim,
-                   P_obj obj)
+void spell_mending(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   int gain;
 
+  gain = (level / 2) + number(-20, 20);
 
-
-  gain = (int) (level * 5 / 2.5 + number(-20, 20));
-
-  if(has_innate(ch, INNATE_IMPROVED_HEAL))
+  if( has_innate(ch, INNATE_IMPROVED_HEAL) )
     gain += (int) (number((int) (level / 2), (int) (level)));
 
   do_point(ch, victim);
-  
+
   if(IS_AFFECTED4(victim, AFF4_REV_POLARITY))
   {
     act("&+L$N&+L wavers under the immense rush of life into $S body!", FALSE,
@@ -3729,7 +3726,6 @@ void spell_mending(int level, P_char ch, char *arg, int type, P_char victim,
     act("&+L$N&+L wavers under the immense rush of life into $S body!", FALSE,
         ch, 0, victim, TO_NOTVICT);
     damage(ch, victim, gain, TYPE_UNDEFINED);
-    
     return;
   }
 
@@ -3755,10 +3751,10 @@ void spell_greater_mending(int level, P_char ch, char *arg, int type, P_char vic
 
   do_point(ch, victim);
 
-  gain = (int) (level * 5 / 1.75 + number(-40, 40));
+  gain = (level * 3) + number(-30, 30);
 
   // Spiritualists - Huh?
-  if(has_innate(ch, INNATE_IMPROVED_HEAL))
+  if( has_innate(ch, INNATE_IMPROVED_HEAL) )
   {
     gain += (int) (number((int) (level / 2), (int) (level)));
     if(level > 46)
@@ -3777,7 +3773,6 @@ void spell_greater_mending(int level, P_char ch, char *arg, int type, P_char vic
   {
     if(affected_by_spell(victim, TAG_ARMLOCK))
         affect_from_char(victim, TAG_ARMLOCK);
-        
     if(affected_by_spell(victim, TAG_LEGLOCK))
         affect_from_char(victim, TAG_LEGLOCK);
   }
@@ -3787,7 +3782,6 @@ void spell_greater_mending(int level, P_char ch, char *arg, int type, P_char vic
   {
     if(affected_by_spell(victim, SPELL_BLINDNESS))
       affect_from_char(victim, SPELL_BLINDNESS);
-    
     if(IS_SET(victim->specials.affected_by, AFF_BLIND))
       REMOVE_BIT(victim->specials.affected_by, AFF_BLIND);
   }
