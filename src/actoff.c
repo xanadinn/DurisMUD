@@ -4218,12 +4218,14 @@ void do_headbutt(P_char ch, char *argument, int cmd)
       return;
     }
   }
+/* Not allowing kneeling/sitting targets for now.
   // For kneeling to be down 0, 1 or 2 sizes
   // For sitting down 1/2/3 sizes.
   else if( (GET_POS(victim) == POS_KNEELING && ( victsize >= chsize && victsize <= chsize + 2 ))
     || (GET_POS(victim) == POS_SITTING && ( victsize >= chsize + 1 && victsize <= chsize + 3 )) )
   {
   }
+*/
   else
   {
     act("$n attempted to headbutt you.", FALSE, ch, 0, victim, TO_VICT);
