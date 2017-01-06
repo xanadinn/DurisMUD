@@ -4742,16 +4742,16 @@ int GET_LVL_FOR_SKILL(P_char ch, int skill)
 {
   int classlvl, innatelvl;
 
-  if( !IS_ALIVE(ch) )
+  // We don't check IS_ALIVE() because a char that just died and lost level would not be alive.
+  if( !ch )
   {
     return 0;
   }
 
   classlvl = SKILL_DATA_ALL(ch, skill).rlevel[ch->player.spec];
   innatelvl = get_innate_from_skill(skill);
-
   // If there is an innate that grants skill.
-  if( innatelvl >= 0 )
+  if( innatelvl > 0 )
   {
     // If ch has the innate.
     if( (innatelvl = get_level_from_innate( ch, innatelvl )) )
