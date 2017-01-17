@@ -1363,16 +1363,16 @@ bool check_castle_walls(int from, int to)
 void event_outposts_upkeep( P_char ch, P_char vict, P_obj obj, void *data )
 {
   char buff[MAX_STRING_LENGTH];
-  int i, j, k;
+  int i, guild_num, k;
   Building *building;
   P_Guild guild;
   int cost = (int)get_property("outpost.cost.upkeep", 500000); // per day
   int deduct = 0;
-  int owners[MAX_ASC];
+  int num_ops[MAX_ASC+1];
 
-  for (j = 0; j < MAX_ASC; j++)
+  for( guild_num = 0; guild_num <= MAX_ASC; guild_num++)
   {
-    owners[j] = 0;
+    num_ops[guild_num] = 0;
   }
 
   for( i = 1; i <= buildings.size(); i++ )
@@ -1384,24 +1384,24 @@ void event_outposts_upkeep( P_char ch, P_char vict, P_obj obj, void *data )
     }
     // If a guild owns it (ie outposts).
     if( building->get_guild() != NULL )
-      owners[building->get_guild()->get_id()]++;
+      num_ops[building->get_guild()->get_id()]++;
   }
 
-  for (j = 1; j < MAX_ASC; j++)
+  for( guild_num = 1; guild_num <= MAX_ASC; guild_num++ )
   {
-    if( owners[j] )
+    if( num_ops[guild_num] > 0 )
     {
       deduct = cost;
-      if( owners[j] > 1 )
+      if( num_ops[guild_num] > 1 )
       {
-        for( k = 1; k < owners[j]; k++ )
+        for( k = 1; k < num_ops[guild_num]; k++ )
         {
           deduct = deduct * get_property("outpost.cost.upkeep.multi.modifier", 2.0);
         }
       }
       deduct /= 24; // per hour cost
-      guild = get_guild_from_id(j);
-//      debug("outposts_upkeep: owner: %s %d, outposts: %d, deduct: %s", guild->get_name().c_str(), j, owners[j], coin_stringv(deduct));
+      guild = get_guild_from_id(guild_num);
+//      debug("outposts_upkeep: owner: %s %d, outposts: %d, deduct: %s", guild->get_name().c_str(), guild_num, owners[guild_num], coin_stringv(deduct));
       int p = deduct / 1000;
       deduct = deduct % 1000;
       int g = deduct / 100;
@@ -1410,7 +1410,7 @@ void event_outposts_upkeep( P_char ch, P_char vict, P_obj obj, void *data )
       deduct = deduct % 10;
       int c = deduct;
 //      debug("p: %d, g: %d, s: %d, c: %d", p, g, s, c);
-      if( !building->sub_money(p, g, s, c) )
+      if( !guild->sub_money(p, g, s, c) )
       {
 	      send_to_guild(guild, "The Guild Banker", "There are not enough funds for the outpost upkeep.");
         // drop outposts.

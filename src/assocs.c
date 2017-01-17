@@ -180,6 +180,9 @@ void Guild::add_points_from_epics( P_char ch, int epics, int epic_type )
 
 bool Guild::sub_money( int p, int g, int s, int c )
 {
+
+//debug( "%s: %d/%d p %d/%d g %d/%d s %d/%d c.", name, p, platinum, g, gold, s, silver, c, copper );
+
   if( platinum < p || gold < g || silver < s || copper < c )
     return FALSE;
 
