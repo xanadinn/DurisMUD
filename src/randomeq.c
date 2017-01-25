@@ -933,15 +933,15 @@ P_obj create_random_eq_new( P_char killer, P_char mob, int object_type, int mate
   }
 
   // Chance for a named item. 0% for <= level 10, luck = every 4 points over 60 gives one point to multiplier
-  // At level 11 killer, 100 luck, 20 mob: 1 * 10 *  58 =   580  -> ~0.06% chance
-  // At level 11 killer, 160 luck, 20 mob: 1 * 25 *  58 =  1450  -> ~0.1 % chance
-  // At level 56 killer, 100 luck, 62 mob: 5 * 10 * 100 =  5000  ->  0.5 % chance
-  // At level 56 killer, 160 luck, 62 mob: 5 * 25 * 100 = 12500  ->  1.25% chance
-  chance = 2 * ( GET_LEVEL(killer) / 11 ) * ( (GET_C_LUK( killer ) - 60) / 4 ) * ( GET_LEVEL(mob) + 38 );
-//debug( "Chance: %5d, or %.04f%%.", chance, chance / 10000. );
+  // At level 11 killer, 100 luck, 20 mob: 1 * 10 *  58 =   580  -> ~0.46% chance
+  // At level 11 killer, 160 luck, 20 mob: 1 * 25 *  58 =  1450  ->  1.16% chance
+  // At level 56 killer, 100 luck, 62 mob: 5 * 10 * 100 =  5000  ->  4.0 % chance
+  // At level 56 killer, 160 luck, 62 mob: 5 * 25 * 100 = 12500  -> 10.0 % chance
+  chance = 8 * ( GET_LEVEL(killer) / 11 ) * ( (GET_C_LUK( killer ) - 60) / 4 ) * ( GET_LEVEL(mob) + 38 );
+//debug( "Chance: %5d, or %.04f%%.", chance, chance / 1000. );
   // Set the items name / short / long descriptions!
   // For PCs and non-shop-keeper mobs.
-  if( (number( 1, 1000000 ) < chance)
+  if( (number( 1, 100000 ) < chance)
     && (material_type == -1) && ansi_n && (IS_PC(killer) || mob_index[GET_RNUM(killer)].func.mob != shop_keeper) )
   {
     if( IS_NEWBIE(killer) )
