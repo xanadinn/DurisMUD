@@ -49,6 +49,7 @@ void   event_bardsong(P_char, P_char, P_obj, void *);
 
 #define SONG_AGGRESSIVE         BIT_1
 #define SONG_ALLIES             BIT_2
+#define SONG_SELF_ONLY          BIT_3
 
 /*
  * Main code.. muhahahahaa
@@ -111,7 +112,7 @@ struct song_description
   {
   "dragons",        bard_dragons,       INSTRUMENT_HORN,      SONG_DRAGONS,       SONG_ALLIES},
   {
-  "drifting",       bard_drifting,      INSTRUMENT_DRUMS,     SONG_DRIFTING,      SONG_ALLIES},
+  "drifting",       bard_drifting,      INSTRUMENT_DRUMS,     SONG_DRIFTING,      SONG_SELF_ONLY},
   {
   "flight",         bard_flight,        INSTRUMENT_HORN,      SONG_FLIGHT,        0},
   {
@@ -610,16 +611,16 @@ void do_bardcheck_action(P_char ch, char *arg, int cmd)
   }
 }
 
-void bard_drifting(int l, P_char ch, P_char victim, int song)
+void bard_drifting( int level, P_char ch, P_char victim, int song )
 {
   int skill = GET_CHAR_SKILL(ch, SONG_DRIFTING);
 
   if( !IS_ALIVE(ch) )
     return;
 
-  if(skill > number(1, 300) || IS_TRUSTED(ch) )
+  if( (skill > number( 1, 300 )) || IS_TRUSTED(ch) )
   {
-    spell_group_teleport(l, ch, 0, 0, victim, 0);
+    spell_group_teleport(level, ch, 0, 0, victim, 0);
   }
 }
 
@@ -1897,34 +1898,42 @@ void event_bardsong(P_char ch, P_char victim, P_obj obj, void *data)
     aggr_chance = get_property("spell.area.minChance.aggroBardSong", 75);
   }
 
-  for( tch = world[room].people; tch; tch = next )
+  if( IS_SET(sd->flags, SONG_SELF_ONLY) )
   {
-    next = tch->next_in_room;
-
-    // Modified this so we can test.. heh.
-    if( IS_TRUSTED(tch) && (ch != tch) )
-    {
-      continue;
-    }
-
-    if( IS_SET(sd->flags, SONG_AGGRESSIVE) && (!should_area_hit( ch, tch )
-      || ( number(1, 100) > aggr_chance )) )
-    {
-      continue;
-    }
-
-    if( IS_SET(sd->flags, SONG_ALLIES) && (ch != tch) && !grouped(ch, tch) )
-    {
-      continue;
-    }
-
     // Sing the song.
-    (sd->funct) (l, ch, tch, song);
-
-    if( IS_SET(sd->flags, SONG_AGGRESSIVE) && IS_ALIVE(ch) && IS_ALIVE(tch)
-      && bard_saves(ch, tch, song) && !IS_FIGHTING(tch) )
+    (sd->funct) (l, ch, ch, song);
+  }
+  else
+  {
+    for( tch = world[room].people; tch; tch = next )
     {
-      bard_aggro(tch, ch);
+      next = tch->next_in_room;
+
+      // Modified this so we can test.. heh.
+      if( IS_TRUSTED(tch) && (ch != tch) )
+      {
+        continue;
+      }
+
+      if( IS_SET(sd->flags, SONG_AGGRESSIVE) && (!should_area_hit( ch, tch )
+        || ( number(1, 100) > aggr_chance )) )
+      {
+        continue;
+      }
+
+      if( IS_SET(sd->flags, SONG_ALLIES) && (ch != tch) && !grouped(ch, tch) )
+      {
+        continue;
+      }
+
+      // Sing the song.
+      (sd->funct) (l, ch, tch, song);
+
+      if( IS_SET(sd->flags, SONG_AGGRESSIVE) && IS_ALIVE(ch) && IS_ALIVE(tch)
+        && bard_saves(ch, tch, song) && !IS_FIGHTING(tch) )
+      {
+        bard_aggro(tch, ch);
+      }
     }
   }
 
