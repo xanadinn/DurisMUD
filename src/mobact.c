@@ -9370,7 +9370,7 @@ void DelCharFromZone(P_char ch)
         misfire.zone_number = -CONTINENT(ch->in_room);
         misfire.racewar_side = GET_RACEWAR(ch);
         // Create a cooldown timer for misfiring.
-        add_event( event_misfire_cooldown, 15 * WAIT_SEC, NULL, NULL, NULL, 0, &misfire, sizeof(misfire));
+        add_event( event_misfire_cooldown, MISFIRE_COOLDOWN, NULL, NULL, NULL, 0, &misfire, sizeof(misfire));
       }
     }
     // If we're dropping below misfire size and misfiring is ocurring.
@@ -9379,7 +9379,7 @@ void DelCharFromZone(P_char ch)
       misfire.zone_number = zn;
       misfire.racewar_side = GET_RACEWAR(ch);
       // Create a cooldown timer for misfiring.
-      add_event( event_misfire_cooldown, 15 * WAIT_SEC, NULL, NULL, NULL, 0, &misfire, sizeof(misfire));
+      add_event( event_misfire_cooldown, MISFIRE_COOLDOWN, NULL, NULL, NULL, 0, &misfire, sizeof(misfire));
     }
   }
 

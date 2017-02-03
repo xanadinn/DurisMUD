@@ -698,6 +698,8 @@ struct misfire_properties_struct
   ushort pvp_maxChance;
 };
 
+#define MISFIRE_COOLDOWN (3 * WAIT_SEC)
+
 struct town {
   int  resources;
   int  defense;
