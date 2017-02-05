@@ -2356,6 +2356,9 @@ void refund_epic_skills(P_char ch)
   }
   insert_money_pickup(GET_PID(ch), coins_refund);
   ch->only.pc->epics += point_refund;
+  debug( "%s getting epic-skill refund of %d epics and %s.", GET_NAME(ch), point_refund, coin_stringv(coins_refund) );
+  logit( LOG_EPIC, "%s getting epic-skill refund of %d epics and %s coins.", GET_NAME(ch), point_refund,
+    comma_string(coins_refund) );
   send_to_char_f( ch, "&+WYour epic skills have been reset.&n\n&+WYou are refunded %d epics.&N\n&+WYou are refunded %s.&n\n",
     point_refund, coins_to_string(coins_refund/1000, (coins_refund/100)%10, (coins_refund/10)%10, coins_refund%10, "&+W") );
 }
