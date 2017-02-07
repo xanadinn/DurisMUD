@@ -56,7 +56,7 @@ bool     avail_prac[MAX_SKILLS];
 
 void update_skills(P_char ch)
 {
-  int skl, spec, cls, skllvl, maxlearn, minlearn, maxtaught;
+  int skl, spec, cls, skllvl, maxlearn, minlearn;
 
 	spec = ch->player.spec;
   cls = flag2idx(ch->player.m_class) - 1;
@@ -88,7 +88,7 @@ void update_skills(P_char ch)
         SKILL_DATA_ALL(ch, s).maxlearn[ch->player.spec]));
  */
 //debug( "Taught: %d, maxlearn: %d", ch->only.pc->skills[skl].taught, skills[skl].m_class[cls].maxlearn[spec] );
-      ch->only.pc->skills[skl].taught = skills[skl].m_class[cls].maxlearn[spec];
+      ch->only.pc->skills[skl].taught = SKILL_DATA_ALL( ch, skl).maxlearn[spec];
 
 /* Dunno if we need any of this when not debugging.
       lastlvl = ch->only.pc->skills[s].learned;

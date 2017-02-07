@@ -4556,38 +4556,50 @@ ClassSkillInfo SKILL_DATA_ALL(P_char ch, int skill)
 {
   ClassSkillInfo dummy;
   int required_level, new_cap, innate;
+  int pri_class, sec_class;
   int pri_rlevel, sec_rlevel, pri_cap, sec_cap;
   float pri_mod = get_property("skill.cap.multi.mod.primarySkill", 100.0);
   float sec_mod = get_property("skill.cap.multi.mod.secondarySkill", 95.0);
 
-  if (IS_MULTICLASS_PC(ch))
+  pri_class = flag2idx(ch->player.m_class) - 1;
+  sec_class = flag2idx(ch->player.secondary_class) - 1;
+
+  // Note: Class 0 is warrior per above.
+  if( IS_PC(ch) && (sec_class >= 0) )
   {
-    new_cap = 0;
-    required_level = 0;
+    // Note: Currently you should not be spec'd and multi'd so ch->player.spec should be 0.
+    pri_rlevel = (skills[(skill)].m_class[pri_class]).rlevel[ch->player.spec];
+    sec_rlevel = (skills[(skill)].m_class[sec_class]).rlevel[ch->player.spec];
+    pri_cap = skills[skill].m_class[pri_class].maxlearn[ch->player.spec];
+    sec_cap = skills[skill].m_class[sec_class].maxlearn[ch->player.spec];
 
-    pri_rlevel = SKILL_DATA(ch, skill).rlevel[0];
-    sec_rlevel = SKILL_DATA2(ch, skill).rlevel[0];
-    pri_cap = SKILL_DATA(ch, skill).maxlearn[0];
-    sec_cap = SKILL_DATA2(ch, skill).maxlearn[0];
-
-    if( pri_rlevel && !sec_rlevel )
+    if( (pri_rlevel > 0) && (sec_rlevel < 1) )
     {
       new_cap = (int) ( pri_cap * pri_mod) / 100;
       required_level = pri_rlevel;
     }
-    else if( sec_rlevel && !pri_rlevel )
+    else if( (sec_rlevel > 0) && (pri_rlevel < 1) )
     {
       new_cap = (int) (sec_cap * sec_mod) / 100;
       required_level = sec_rlevel + 5;
     }
-    else if( pri_rlevel && sec_rlevel )
+    else if( (pri_rlevel > 0) && (sec_rlevel > 0) )
     {
-      new_cap = (MAX( (int) (pri_cap * pri_mod), (int) (sec_cap * sec_mod) ))/100;
+      new_cap = (MAX( (int) (pri_cap * pri_mod), (int) (sec_cap * sec_mod) )) / 100;
       required_level = MIN(pri_rlevel, (sec_rlevel+5) );
     }
+    else
+    {
+      new_cap = 0;
+      required_level = 0;
+    }
 
-    dummy.maxlearn[0] = new_cap;
-    dummy.rlevel[0] = required_level;
+// Debugging:
+// if( IS_SKILL(skill) ) debug( "Skill %s (%d): pri_rlevel: %d, sec_rlevel: %d, pri_cap: %d, sec_cap %d.\nnew_cap: %d, required_level: %d.",
+//  skills[skill].name, skill, pri_rlevel, sec_rlevel, pri_cap, sec_cap, new_cap, required_level );
+
+    dummy.maxlearn[ch->player.spec] = new_cap;
+    dummy.rlevel[ch->player.spec] = required_level;
   }
   else if( IS_MULTICLASS_NPC(ch) )
   {
