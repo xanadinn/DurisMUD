@@ -1223,6 +1223,7 @@ void do_supervise( P_char god, char *argument, int cmd )
       return;
     }
     guild->set_name( rest );
+    return;
   }
   if( is_abbrev(first, "type") )
   {
