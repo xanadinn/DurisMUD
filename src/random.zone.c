@@ -749,8 +749,9 @@ int read_relic_highscore()
 
   wizlog(56, "%d %d %d", GOODIE_RELIC_POINTS, EVIL_RELIC_POINTS,
          UNDEAD_RELIC_POINTS);
-}
 
+  return 0;
+}
 
 int write_relic_highscore()
 {
@@ -768,8 +769,9 @@ int write_relic_highscore()
 
   wizlog(56, "%d %d %d", GOODIE_RELIC_POINTS, EVIL_RELIC_POINTS,
          UNDEAD_RELIC_POINTS);
-}
 
+  return 0;
+}
 
 int update_relic(P_char ch, P_obj obj)
 {
@@ -866,10 +868,9 @@ int update_relic(P_char ch, P_obj obj)
   if (obj_index[obj->R_num].virtual_number == 59)
   {
     reset_lab(2);
-    return 0;
   }
 
-
+  return 0;
 }
 
 int get_relic_num(P_char ch)
@@ -1487,7 +1488,7 @@ int reset_lab(int type)
 
 //Remove entrance!
   world[real_room(entrance_room)].dir_option[DIR_DOWN] = 0;
-
+  return 0;
 }
 int create_lab(int type)
 {
@@ -1657,9 +1658,8 @@ int create_lab(int type)
                 world[real_room(start_room)].number, DIR_DOWN);
   world[real_room(map_room)].sector_type = 0;
 
+  return 0;
 }
-
-
 
 int connect_lab(int room, int dir)
 {
@@ -1704,10 +1704,8 @@ int connect_other(int room)
     dir++;
   }
 
-
+  return 0;
 }
-
-
 
 int dir_to_num(int dir)
 {
@@ -1720,13 +1718,11 @@ int dir_to_num(int dir)
   if (dir == DIR_NORTH)
     return -100;
 
-  if (dir == DIR_EAST)
+  else if (dir == DIR_EAST)
     return 1;
 
-  if (dir == DIR_SOUTH)
+  else if (dir == DIR_SOUTH)
     return 100;
 
-  if (dir == DIR_WEST)
-    return -1;
-
+  return -1;
 }

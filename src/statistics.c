@@ -753,4 +753,5 @@ int show_moth_stati(P_char ch, char *stati_date, char *argument)
 
   send_to_char(Gbuf4, ch);
 
+  return 0;
 }

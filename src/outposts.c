@@ -117,6 +117,7 @@ int init_outposts()
 
   load_outposts();
   //init_outpost_resources();
+  return 0;
 }
 
 int load_outposts()
@@ -266,14 +267,14 @@ P_Guild get_outpost_owner(Building *building)
   if (!qry("SELECT id, owner_id FROM outposts WHERE id = %d", building->get_id()-1))
   {
     debug("get_outpost_owner() cant read from db");
-    return FALSE;
+    return nullptr;
   }
   MYSQL_RES *res = mysql_store_result(DB);
 
   if (mysql_num_rows(res) < 1)
   {
     mysql_free_result(res);
-    return FALSE;
+    return nullptr;
   }
   MYSQL_ROW row = mysql_fetch_row(res);
 
@@ -1180,6 +1181,7 @@ int outpost_generate_walls(Building* building, int type, int numgolem)
   
     world[building->get_mob()->in_room].sector_type = SECT_CASTLE;
   }
+  return FALSE;
 }
 
 void outpost_setup_gateguards(int location, int type, int amnt, Building *building)
@@ -1196,7 +1198,7 @@ int outpost_patrol_proc(P_char ch, P_char pl, int cmd, char *arg)
 {
   SET_BIT(ch->specials.act, ACT_SPEC_DIE);
 
-
+  return 0;
 }
 
 int outpost_gateguard_proc(P_char ch, P_char pl, int cmd, char *arg)

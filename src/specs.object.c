@@ -675,6 +675,8 @@ int charon_ship(P_obj obj, P_char ch, int cmd, char *argument)
       }
     }
   }
+
+  return FALSE;
 }
 
 // pathfinder from KT
@@ -8468,6 +8470,8 @@ int druid_sabre(P_obj obj, P_char ch, int cmd, char *arg)
 {
   if (cmd == CMD_SET_PERIODIC)
     return FALSE;
+
+  return FALSE;
 }
 
 int druid_spring(P_obj obj, P_char ch, int cmd, char *arg)
@@ -11046,8 +11050,9 @@ int god_bp(P_obj obj, P_char ch, int cmd, char *arg)
       }
     }
   }
-}
 
+  return FALSE;
+}
 
 int out_of_god_bp(P_obj obj, P_char ch, int cmd, char *arg)
 {
@@ -11114,7 +11119,7 @@ int out_of_god_bp(P_obj obj, P_char ch, int cmd, char *arg)
 
     }
   }
-
+  return FALSE;
 }
 
 int ring_of_regeneration(P_obj obj, P_char ch, int cmd, char *arg)
@@ -13423,6 +13428,8 @@ int unmulti_altar(P_obj obj, P_char ch, int cmd, char *arg)
   }
 
   unmulti(ch, obj);
+
+  return FALSE;
 }
 
 int thought_beacon(P_obj obj, P_char ch, int cmd, char *arg)
@@ -14700,9 +14707,11 @@ int random_gc_room( )
     // If it's on gc and not on mountains, return it.
     if( IS_CONTINENT(rroom, CONT_GC) && world[rroom].sector_type != SECT_MOUNTAIN )
     {
-      return rroom;
-    }
+		break;
+	}
   }
+
+  return rroom;
 }
 
 int gc_portal( P_obj obj, P_char ch, int cmd, char *argument )
@@ -14760,9 +14769,10 @@ int random_ec_room( )
     // If it's on gc and not on mountains, return it.
     if( IS_CONTINENT(rroom, CONT_EC) && world[rroom].sector_type != SECT_MOUNTAIN )
     {
-      return rroom;
-    }
+		break;
+	}
   }
+  return rroom;
 }
 
 int random_ud_room( )
@@ -14780,9 +14790,10 @@ int random_ud_room( )
     if( (rroom > 0) && (world[rroom].sector_type != SECT_UNDRWLD_MOUNTAIN)
       && (world[rroom].sector_type != SECT_OCEAN) )
     {
-      return rroom;
-    }
+		break;
+	}
   }
+  return rroom;
 }
 
 int ec_portal( P_obj obj, P_char ch, int cmd, char *argument )

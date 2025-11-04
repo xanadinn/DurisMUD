@@ -117,7 +117,7 @@ extern long sentbytes;
 extern long recivedbytes;
 extern const struct race_names race_names_table[];
 extern Skill skills[];
-extern const int new_exp_table[];
+extern int new_exp_table[];
 extern const mcname multiclass_names[];
 extern void displayShutdownMsg(P_char);
 extern void map_look_room(P_char ch, int room, int show_map_regardless);

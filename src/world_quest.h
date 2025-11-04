@@ -3,7 +3,7 @@
 
 #include <vector>
 
-int calc_zone_mob_level();
+void calc_zone_mob_level();
 int suggestQuestMob(int zone_num, P_char ch, int questtype);
 int newbie_quest(P_char, P_char, int, char *);
 void quest_kill(P_char ch, P_char vict);

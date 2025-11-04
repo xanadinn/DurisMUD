@@ -571,7 +571,7 @@ void check_for_wagon(P_char ch)
 int wagon_pull(P_char ch, int mob)
 {
   char     Gbuf3[MAX_STRING_LENGTH] = "\0";
-  byte     next_step = -1;
+  uint8     next_step = -1;
   int      dum;
 
   if ((time_info.hour - navi_info[mob].move_time) % navi_info[mob].freq == 0)

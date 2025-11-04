@@ -24,7 +24,7 @@ using namespace std;
 extern struct zone_data *zone_table;
 extern int top_of_zone_table;
 extern P_room world;
-extern const int new_exp_table[];
+extern int new_exp_table[];
 extern P_index mob_index;
 
 float modify_exp_by_zone_trophy(P_char ch, int type, float XP)

@@ -558,7 +558,7 @@ int writeAffects( char *buf, struct affected_type *af )
 
   for( af = first; af; af = af->next )
   {
-    byte     custom_messages = 0;       /* 0 - none, 1 - to_char, 2 - to_room, 3 - both */
+    uint8     custom_messages = 0;       /* 0 - none, 1 - to_char, 2 - to_room, 3 - both */
 
     if( IS_SET(af->flags, AFFTYPE_NOSAVE) )
     {
@@ -787,7 +787,7 @@ bool writeObjectlist(P_obj obj, int loc)
 {
   int      i, done[4000], done_num = 0, cont_wgt, count;
   P_obj    t_obj = NULL, obj2 = NULL, obj_c = NULL, t_obj2 = NULL, w_obj;
-  byte     o_f_flag;
+  uint8     o_f_flag;
   ulong    o_u_flag;
   bool     skip;
 
@@ -864,7 +864,7 @@ bool writeObjectlist(P_obj obj, int loc)
         w_obj->weight += cont_wgt;
 
       if (obj_c)
-        if (!writeObjectlist(obj_c, (byte) 0))
+        if (!writeObjectlist(obj_c, (uint8) 0))
           return FALSE;
 
       continue;
@@ -1154,7 +1154,7 @@ int write_one_object(P_obj obj, char* dest_buff)
 	char *start = dest_buff;
   char *buff = dest_buff;
 
-	byte o_f_flag = 0;
+	uint8 o_f_flag = 0;
   ulong o_u_flag = 0;
 
 	if( !obj )
@@ -1380,7 +1380,7 @@ void writeCorpse(P_obj corpse)
   ibuf = buf;
   save_count = 0;
 
-  writeObjectlist(corpse, (byte) 0);
+  writeObjectlist(corpse, (uint8) 0);
 
   corpse->next_content = hold_content;
 
@@ -1438,10 +1438,10 @@ int writeItems(char *buf, P_char ch)
 
   for (i = 0; i < MAX_WEAR; i++)
     if (save_equip[i])
-      if (!writeObjectlist(save_equip[i], (byte) (i + 1)))
+      if (!writeObjectlist(save_equip[i], (uint8) (i + 1)))
         return 0;
 
-  if (!writeObjectlist(ch->carrying, (byte) 0))
+  if (!writeObjectlist(ch->carrying, (uint8) 0))
     return 0;
 
   if (!(save_count == count))
@@ -1697,12 +1697,12 @@ int writeCharacter(P_char ch, int type, int room)
    * different architecture type.
    */
 
-  if ((sizeof(char) != 1) || (int_size != long_size))
-  {
-    logit(LOG_DEBUG,
-          "sizeof(char) must be 1 and int_size must == long_size for player saves!\n");
-    return 0;
-  }
+//   if ((sizeof(char) != 1) || (int_size != long_size))
+//   {
+//     logit(LOG_DEBUG,
+//           "sizeof(char)(%d) must be 1 and int_size(%d) must == long_size(%d) for player saves!\n", sizeof(char), int_size, long_size);
+//     return 0;
+//   }
   /*
    * in case char reenters game immediately; handle rent/etc correctly
    */
@@ -2107,7 +2107,7 @@ ush_int getShort(char **buf)
 
   bcopy(*buf, &s, short_size);
 
-  s = ntohs((ush_int) s);
+  s = ((ush_int) s);
   *buf += short_size;
 
   return s;
@@ -2119,7 +2119,7 @@ uint getInt(char **buf)
 
   bcopy(*buf, &i, int_size);
 
-  i = ntohl(i);
+  i = (i);
   *buf += int_size;
 
   return i;
@@ -2131,7 +2131,7 @@ unsigned long getLong(char **buf)
 
   bcopy(*buf, &l, long_size);
 
-  l = ntohl(l);
+  l = (l);
   *buf += long_size;
 
   return l;
@@ -2156,7 +2156,7 @@ char    *getString(char **buf)
 
 int restoreStatus(char *buf, P_char ch)
 {
-  byte     dummy_byte;
+  uint8     dummy_byte;
   char    *start = buf, *str;
   long     dummy_long;
   int      tmp, tmp2, tmp3, dummy_int, i;
@@ -2249,7 +2249,7 @@ int restoreStatus(char *buf, P_char ch)
   GET_INTE(buf);                //!!! last_level
 
   for (i = 0; i < NUMB_PC_TIMERS; i++)
-    ch->only.pc->pc_timer[i] = GET_INTE(buf);
+    ch->only.pc->pc_timer[i] = GET_LONG(buf);
 
   /* trophy stuff */
 //  ch->only.pc->trophy = NULL;
@@ -2570,7 +2570,7 @@ int restoreAffects(char *buf, P_char ch)
   char    *start = buf;
   short    count;
   long     short_duration;
-  byte     custom_messages = 0;
+  uint8     custom_messages = 0;
   char    *wear_off_char = NULL;
   char    *wear_off_room = NULL;
 
@@ -3162,7 +3162,7 @@ P_obj restoreObjects(char *buf, P_char ch, int not_room)
 {
   P_obj    obj, c_obj = NULL;
   bool     dummy_obj;
-  byte     dummy_byte, o_f_flag;
+  uint8     dummy_byte, o_f_flag;
   int      tmp, count, i, loc, obj_count = 0, V_num, i_count, ignore = 0, k;
   struct extra_descr_data *t_desc;
   struct obj_data d_obj;
@@ -3607,7 +3607,7 @@ P_obj read_one_object(char *read_buf)
 {
   char *buf = read_buf;
   P_obj    obj;
-  byte     dummy_byte, o_f_flag;
+  uint8     dummy_byte, o_f_flag;
   int      tmp, V_num, count, i_count;
   struct extra_descr_data *t_desc;
   struct obj_data d_obj;
@@ -4082,7 +4082,7 @@ int restoreItemsOnly(P_char ch, int flatrate)
   int      skill_off, item_off, affect_off;
 #endif
   int      size, csize, tmp, witness_off;
-  byte     dummy_byte;
+  uint8     dummy_byte;
   char     Gbuf1[MAX_STRING_LENGTH], Gbuf2[MAX_STRING_LENGTH];
   char     b_savevers;
   char     buf1[256];
@@ -4416,12 +4416,12 @@ int writePet(P_char ch)
   {
     return 0;
   }
-  if ((sizeof(char) != 1) || (int_size != long_size))
-  {
-    logit(LOG_DEBUG,
-          "sizeof(char) must be 1 and int_size must == long_size for player saves!\n");
-    return 0;
-  }
+//   if ((sizeof(char) != 1) || (int_size != long_size))
+//   {
+//     logit(LOG_DEBUG,
+//           "sizeof(char) must be 1 and int_size must == long_size for player saves!\n");
+//     return 0;
+//   }
   buf = buff;
   ADD_BYTE(buf, (char) (short_size));
   ADD_BYTE(buf, (char) (int_size));
@@ -4831,7 +4831,7 @@ void writeSavedItem(P_obj item)
   ibuf = buf;
   save_count = 0;
 
-  writeObjectlist(item, (byte) 0);
+  writeObjectlist(item, (uint8) 0);
 
   item->next_content = hold_content;
 
@@ -4972,12 +4972,12 @@ int writeShopKeeper(P_char ch)
 
   for (shop_nr = 0; shop_index[shop_nr].keeper != GET_RNUM(ch); shop_nr++) ;
 
-  if ((sizeof(char) != 1) || (int_size != long_size))
-  {
-    logit(LOG_DEBUG,
-          "sizeof(char) must be 1 and int_size must == long_size for player saves!\n");
-    return 0;
-  }
+//   if ((sizeof(char) != 1) || (int_size != long_size))
+//   {
+//     logit(LOG_DEBUG,
+//           "sizeof(char) must be 1 and int_size must == long_size for player saves!\n");
+//     return 0;
+//   }
   buf = buff;
   ADD_BYTE(buf, (char) (short_size));
   ADD_BYTE(buf, (char) (int_size));
@@ -5352,12 +5352,12 @@ int writeTownJustice(int town_nr)
   crm_rec *crec;
   int      count = 0;
 
-  if ((sizeof(char) != 1) || (int_size != long_size))
-  {
-    logit(LOG_DEBUG,
-          "sizeof(char) must be 1 and int_size must == long_size for player saves!\n");
-    return 0;
-  }
+//   if ((sizeof(char) != 1) || (int_size != long_size))
+//   {
+//     logit(LOG_DEBUG,
+//           "sizeof(char) must be 1 and int_size must == long_size for player saves!\n");
+//     return 0;
+//   }
   buf = buff;
 
   crec = hometowns[town_nr - 1].crime_list;
@@ -5655,12 +5655,12 @@ int writeJailItems(P_char ch)
    * different architecture type.
    */
 
-  if ((sizeof(char) != 1) || (int_size != long_size))
-  {
-    logit(LOG_DEBUG,
-          "sizeof(char) must be 1 and int_size must == long_size for player saves!\n");
-    return 0;
-  }
+//   if ((sizeof(char) != 1) || (int_size != long_size))
+//   {
+//     logit(LOG_DEBUG,
+//           "sizeof(char) must be 1 and int_size must == long_size for player saves!\n");
+//     return 0;
+//   }
   /*
    * in case char reenters game immediately; handle rent/etc correctly
    */

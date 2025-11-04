@@ -1563,7 +1563,7 @@ static void ac_tongueCopy(void *where, int offset, char *value, int bit, int on_
   P_char   ch = (P_char) where;
 
   if (IS_PC(ch))
-    GET_LANGUAGE(ch, bit + 1) = (byte) on_off;
+    GET_LANGUAGE(ch, bit + 1) = (uint8) on_off;
 }
 
 /*
@@ -1589,14 +1589,14 @@ static void ac_skillCopy(void *where, int offset, char *value, int bit, int on_o
 {
   P_char   ch = (P_char) where;
   int      skl;
-  byte     val = on_off;
+  uint8     val = on_off;
 
   value = skip_spaces(value);
   skl = search_block(value, spells, FALSE);
 
   if (IS_PC(ch))
   {
-    bcopy(&val, ((char *) &ch->only.pc->skills[skl]) + offset, sizeof(byte));
+    bcopy(&val, ((char *) &ch->only.pc->skills[skl]) + offset, sizeof(uint8));
   }
 }
 
@@ -1629,7 +1629,7 @@ static void ac_stringCopy(void *where, int offset, char *value, int bit, int on_
  */
 static void ac_objaffCopy(void *where, int offset, char *value, int bit, int on_off)
 {
-  byte     location = (byte) bit;
+  uint8     location = (uint8) bit;
 
   bcopy((char *) &location, (char *) where + offset, sizeof(location));
 }

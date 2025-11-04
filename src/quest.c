@@ -31,7 +31,7 @@ extern const struct stat_data stat_factor[];
 extern struct str_app_type str_app[];
 extern struct zone_data *zone_table;
 extern int mini_mode;
-extern const int new_exp_table[];
+extern int new_exp_table[];
 
 #define QUEST_FILE "areas/world.qst"
 #define MINI_QUEST_FILE "areas/mini.qst"
@@ -860,8 +860,7 @@ int addQuestTropy(int questID)
   sprintf(sys, "cp %s %s", TEMP_QUEST_FILE_TROPHY, QUEST_FILE_TROPHY);
   system(sys);
 
-
-
+  return 0;
 }
 
 float getQuestTropy(int questID)

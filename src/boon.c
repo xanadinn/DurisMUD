@@ -59,13 +59,13 @@ extern const flagDef affected2_bits[];
 extern const flagDef affected3_bits[];
 extern const flagDef affected4_bits[];
 extern const flagDef affected5_bits[];
-extern const int new_exp_table[];
+extern int new_exp_table[];
 extern struct ctfData ctfdata[];
 
 // Max_btype + 1 since we have a null ender.
 struct boon_types_struct boon_types[MAX_BTYPE+1] = {
   {"none",  "No bonus exists"},
-  {"expm",  "Gain %d% bonus to exp"},
+  {"expm",  "Gain %d%% bonus to exp"},
   {"exp",   "Gain exp"},
   {"epic",  "Gain %d epics"},
   {"cash",  "Receive %s"},
@@ -2777,6 +2777,8 @@ int boon_get_random_zone(int std)
 {
   if (!random_std[std].id)
     return 0;
+
+  return random_std[std].id;
 }
 
 // The function placed throughout the code to check for completion of boons

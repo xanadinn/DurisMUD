@@ -14,6 +14,7 @@
 #include <string.h>
 #include <time.h>
 #include <unistd.h>
+//#include <types.h>
 
 #include "assocs.h"
 #include "shop.h"
@@ -21,7 +22,6 @@
 #include "db.h"
 #include "events.h"
 #include "prototypes.h"
-#include "types.h"
 #include "interp.h"
 #include "spells.h"
 #include "structs.h"
@@ -142,7 +142,7 @@ extern flagDef weapon_types[];
 extern flagDef missile_types[];
 extern float combat_by_class[][2];
 extern float combat_by_race[][3];
-extern const int new_exp_table[];
+extern int new_exp_table[];
 extern const char *get_event_name(P_event);
 extern const char *get_function_name(void *);
 extern const char *spldam_types[];
@@ -300,9 +300,9 @@ char    *comma_string(long num)
 
 void sa_byteCopy(P_char ch, unsigned long offset, int value)
 {
-  byte     new_value = (byte) value;
+  uint8     new_value = (uint8) value;
 
-  bcopy((char *) &new_value, (char *) ch + offset, sizeof(byte));
+  bcopy((char *) &new_value, (char *) ch + offset, sizeof(uint8));
 }
 
 /*
@@ -2419,17 +2419,19 @@ void do_stat(P_char ch, char *argument, int cmd)
     }
     else
     {
-      if((k->player.m_class == 0) ||
-          (k->player.m_class > (1 << CLASS_COUNT - 1)) || (GET_LEVEL(k) < 1)
-          || IS_TRUSTED(k))
-        strcpy(buf1, "Unknown");
-      else
-        strcpy(buf1,
-               comma_string((long)
-                            (new_exp_table[GET_LEVEL(k) + 1] - GET_EXP(k))));
-      sprintf(buf2, "&+Y Exp to Level: &N%s",
-              IS_TRUSTED(k) ? "Unknown" : buf1);
-    }
+		if ((k->player.m_class == 0) ||
+			(k->player.m_class > (1 << CLASS_COUNT - 1)) || (GET_LEVEL(k) < 1) || IS_TRUSTED(k))
+		{
+			strcpy(buf1, "Unknown");
+		}
+		else
+		{
+			int xp2lvl = new_exp_table[GET_LEVEL(k) + 1];
+			int curxp = GET_EXP(k);
+			sprintf(buf1, "%s (%d - %d)", comma_string(xp2lvl - curxp), xp2lvl, curxp);
+		}
+		sprintf(buf2, "&+Y Exp to Level: &N%s", buf1);
+	}
 
     sprintf(buf, "&+YLevel: &N%d&+Y(&n%d&+Y)&n  &+YExperience: &N%s %s  &+YAlignment [&N%d&+Y] Assoc:&n %d %s\n",
       k->player.level, IS_PC(k) ? k->only.pc->highest_level : GET_LEVEL(k), comma_string((int) GET_EXP(k)),
@@ -5210,7 +5212,7 @@ void do_start(P_char ch, int nomsg)
 
   GET_EXP(ch) = 1;
 
-  if(isname("Duris", GET_NAME(ch)))
+  if(isname("Duris", GET_NAME(ch)) || god_check(GET_NAME(ch)))
   {
     ch->player.level = OVERLORD;
   }
@@ -7105,7 +7107,7 @@ void do_lookup(P_char ch, char *argument, int cmd)
         }
       }
     }
-    while (irc > 0);
+    while (irc != nullptr);
 
     fclose(fp);
 

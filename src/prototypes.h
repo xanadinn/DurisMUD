@@ -766,7 +766,7 @@ P_char read_mobile(int, int);
 P_obj read_object(int, int);
 char *file_to_string(const char *);
 char *fread_string(FILE *);
-int is_empty(int);
+int is_zone_empty(int);
 int real_zone(const int);
 int real_zone0(const int);
 int real_mobile(const int);
@@ -1083,10 +1083,10 @@ void displayPERIODCore(P_char ch, char *arg, int cmd);
 /* graph.c */
 
 
-byte find_first_step(int src, int target, long hunt_flags, int is_ship, int wagon_type, int *ttl_steps);
+uint8 find_first_step(int src, int target, long hunt_flags, int is_ship, int wagon_type, int *ttl_steps);
 ubyte *find_the_path(int from, int to, int *max_steps, long hunt_flags);
 int how_close(int src, int target, int max_steps);
-byte line_of_sight_dir(int, int);
+uint8 line_of_sight_dir(int, int);
 
 /* group.c */
 
@@ -3038,7 +3038,8 @@ void banlog(int, const char *,...);
 void epiclog(int, const char *,...);
 void strToLower(char *);
 void wizlog(int level, const char *,...);
-void debug(const char *,...);
+void debug(const char * format,...);
+void logexp(const char *,...);
 int distance_from_shore(int);
 int dir_from_keyword(char *);
 int weight_notches_above_naked(P_char);

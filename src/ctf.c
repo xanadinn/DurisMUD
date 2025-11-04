@@ -86,6 +86,7 @@ int init_ctf()
   
   load_ctf();
 #endif
+  return 0;
 }
 
 int load_ctf()

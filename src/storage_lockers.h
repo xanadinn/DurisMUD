@@ -166,12 +166,12 @@ public:
     {  return (obj->type == m_eqType) ? true : false;  };
   
 protected:
-  EqTypeChest(byte eqType, const char *keyword, const char *prettyDesc) :
+  EqTypeChest(uint8 eqType, const char *keyword, const char *prettyDesc) :
             LockerChest(keyword, prettyDesc), m_eqType(eqType)
   {};
     
 private:
-  byte m_eqType;
+  uint8 m_eqType;
 };
 
 class EqApplyChest : public LockerChest
@@ -182,12 +182,12 @@ public:
   virtual bool ItemFits(P_obj obj);
 
 protected:
-  EqApplyChest(byte applyType, const char *keyword, const char *prettyDesc) :
+  EqApplyChest(uint8 applyType, const char *keyword, const char *prettyDesc) :
             LockerChest(keyword, prettyDesc), m_applyType(applyType)
   {};
     
 private:
-  byte m_applyType;
+  uint8 m_applyType;
 };
 
 class EqAffectChest : public LockerChest

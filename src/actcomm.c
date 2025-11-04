@@ -1900,8 +1900,8 @@ void boot_pose_messages(void)
 
 void do_pose(P_char ch, char *argument, int cmd)
 {
-  byte     to_pose;
-  byte     counter;
+  uint8     to_pose;
+  uint8     counter;
   int      m_class;
 
   if (IS_NPC(ch))

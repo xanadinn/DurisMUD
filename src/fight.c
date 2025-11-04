@@ -82,7 +82,7 @@ extern struct time_info_data time_info;
 extern struct zone_data *zone_table;
 extern const int class_tohit_mod[];
 extern Skill skills[];
-extern const int new_exp_table[];
+extern int new_exp_table[];
 extern struct wis_app_type wis_app[];
 
 int pv_common(P_char, P_char, const P_obj);
@@ -951,22 +951,26 @@ void AddFrags(P_char ch, P_char victim)
 
 unsigned int calculate_ch_state(P_char ch)
 {
-  if(ch)
+  if(!ch)
   {
-    if (GET_HIT(ch) < -10)
-      return STAT_DEAD;
-    else if (GET_HIT(ch) <= -6)
-      return STAT_DYING;
-    else if (GET_HIT(ch) <= -3)
-      return STAT_INCAP;
-    else if (((GET_STAT(ch) == STAT_SLEEPING) || (GET_STAT(ch) == STAT_RESTING))
-        && (IS_FIGHTING(ch) || NumAttackers(ch) || IS_DESTROYING(ch)))
-      return STAT_NORMAL;
-    else if (GET_STAT(ch) < STAT_SLEEPING)
-      return STAT_RESTING;
-    else
-      return GET_STAT(ch);
+	logit(LOG_EXIT, "assert: calculate_ch_state() - no ch");
+    raise(SIGSEGV);
   }
+
+  
+	if (GET_HIT(ch) < -10)
+		return STAT_DEAD;
+	else if (GET_HIT(ch) <= -6)
+		return STAT_DYING;
+	else if (GET_HIT(ch) <= -3)
+		return STAT_INCAP;
+	else if (((GET_STAT(ch) == STAT_SLEEPING) || (GET_STAT(ch) == STAT_RESTING))
+		&& (IS_FIGHTING(ch) || NumAttackers(ch) || IS_DESTROYING(ch)))
+		return STAT_NORMAL;
+	else if (GET_STAT(ch) < STAT_SLEEPING)
+		return STAT_RESTING;
+
+	return GET_STAT(ch);  
 }
 
 void update_pos(P_char ch)
@@ -6292,9 +6296,8 @@ int raw_damage(P_char ch, P_char victim, double dam, uint flags, struct damage_m
     {
       do_innate_embrace_death(victim);
     }
-
-    return DAM_NONEDEAD;
   }
+  return DAM_NONEDEAD;
 }
 
 int calculate_ac(P_char ch)
@@ -10147,6 +10150,7 @@ int battle_frenzy(P_char ch, P_char victim)
     act("You attempt to knee $N, but don't quite make it.&N", TRUE, ch, NULL,
         victim, TO_CHAR);
   }
+  return 0;
 }
 
 void engage(P_char ch, P_char victim)
@@ -10425,6 +10429,8 @@ bool critical_attack(P_char ch, P_char victim, int msg)
     return TRUE;
 
   }
+
+  return FALSE;
 }
 
 bool critical_disarm(P_char ch, P_char victim)

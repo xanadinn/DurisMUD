@@ -729,6 +729,8 @@ int do_fetid_breath(P_char ch)
     
     fetid_breath(ch, tch);
   }
+
+  return 0;
 }
 
 int whirlwind_of_teetch(P_char ch, int targets)
@@ -747,6 +749,8 @@ int whirlwind_of_teetch(P_char ch, int targets)
 		if (victim = pick_target(ch, PT_TOLERANT))
 		  insectbite(ch, victim);
 	}
+
+	return 0;
 }
 
 void hyena_bite(P_char ch, P_char victim)
@@ -809,6 +813,8 @@ int yeenoghu(P_char ch, P_char tch, int cmd, char *arg)
   	if (victim = pick_target(ch, PT_NUKETARGET | PT_WEAKEST))
       hyena_bite(ch, victim);
   }
+
+  return FALSE;
 }
 
 void demogorgon_tail(P_char ch)
@@ -3077,7 +3083,7 @@ int ticket_taker(P_char ch, P_char pl, int cmd, char *arg)
 {
   P_obj    obj;
   char     name[MAX_INPUT_LENGTH];
-  bool     no_ticket, found, i;
+  bool     no_ticket, found;
   P_obj    obj_entered;
 
   /*
@@ -3103,7 +3109,7 @@ int ticket_taker(P_char ch, P_char pl, int cmd, char *arg)
     return FALSE;
   found = 0;
   no_ticket = 1;
-  for (i = 0; ticket_info[(int) i].in_room != 0; i++)
+  for (int i = 0; ticket_info[(int) i].in_room != 0; i++)
   {
     if ((ch->in_room == real_room(ticket_info[(int) i].in_room)) &&
         (obj_entered->R_num == real_object(ticket_info[(int) i].ship_id)))
@@ -13513,6 +13519,7 @@ int necro_specpet_bone(P_char ch, P_char pl, int cmd, char *arg)
 
 int necro_specpet_blood(P_char ch, P_char pl, int cmd, char *arg)
 {
+	return FALSE;
 }
 
 int necro_specpet_flesh(P_char ch, P_char pl, int cmd, char *arg)
@@ -14147,6 +14154,7 @@ int shabo_palle(P_char ch, P_char vict, int cmd, char *arg)
     askedquestion = TRUE;
   }
 
+  return FALSE;
 }
 
 int shabo_derro_savant(P_char ch, P_char pl, int cmd, char *arg)
@@ -14504,7 +14512,7 @@ int witch_doctor(P_char witch, P_char customer, int cmd, char *arg)
     char    *keyword;
     char    *desc;
     int      price;
-    byte     affect_vector;
+    uint8     affect_vector;
     uint     affect_flag;
   } elixir_list[] =
   {
@@ -16658,6 +16666,7 @@ int monk_remort(P_char ch, P_char pl, int cmd, char *arg)
     CharWait(pl, WAIT_SEC * 30);
     return TRUE;
   }
+  return FALSE;
 }
 
 void finish_smelt( P_char ch, P_char pl, int vnum );

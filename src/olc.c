@@ -36,8 +36,8 @@ const char *olc_dirs[] = {
 
 void olc_build_flag_menu8(char *str, ubyte value, const char *names[])
 {
-  byte     ttl = 0;
-  byte     i;
+  uint8     ttl = 0;
+  uint8     i;
   char     buf[128];
 
   /* two pasess... first to see whats there, second to build the table

@@ -2126,7 +2126,7 @@ void do_withdraw(P_char ch, char *argument, int cmd)
 void do_sneak(P_char ch, char *argument, int cmd)
 {
   struct affected_type af;
-  byte     percent;
+  uint8     percent;
   int      skl_lvl = 0;
   char     Gbuf1[MAX_STRING_LENGTH];
 
@@ -2246,7 +2246,7 @@ void do_sneak(P_char ch, char *argument, int cmd)
 
 void do_hide(P_char ch, char *argument, int cmd)
 {
-  byte     roll;
+  uint8     roll;
   int      skl_lvl = 0, vis_mode;
   bool     tried = FALSE;
   P_obj    obj_object, next_obj, tobj, next_tobj;
@@ -3365,13 +3365,14 @@ void do_explist(P_char ch, char *argument, int cmd)
 
   if (GET_LEVEL(ch) >= (int)get_property("exp.min.lvl.see.numbers", 51))
   {
-    sprintf(Gbuf1, "&+bExperience till level: &+W%d&n\r\n",
-            (new_exp_table[GET_LEVEL(ch) + 1] - GET_EXP(ch)));
+	int xp2lvl = new_exp_table[GET_LEVEL(ch) + 1];
+	int curxp = GET_EXP(ch);
+    sprintf(Gbuf1, "&+bExperience till level: &+W%d&n (%d - %d)\r\n", (xp2lvl - curxp), xp2lvl, curxp);
     send_to_char(Gbuf1, ch);
     return;
   }
 
-  result = ((double)GET_EXP(ch) * 100) / new_exp_table[GET_LEVEL(ch) + 1];
+  result = ((long)GET_EXP(ch) * 100.0) / (double)((long)new_exp_table[GET_LEVEL(ch) + 1]);
 
   if (result < 0)
     sprintf(Gbuf1,

@@ -649,6 +649,7 @@ P_nevent get_scheduled( event_func func )
       pEvent = pEvent->next_sched;
     }
   }
+  return nullptr;
 }
 
 P_nevent get_scheduled(P_char ch, event_func func)

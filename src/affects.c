@@ -2659,8 +2659,9 @@ int affect_from_obj(P_obj obj, sh_int spell)
       obj_affect_remove(obj, af);
     }
   }
-}
 
+  return 0;
+}
 
 //=================================================================================
 //=== AFFECTS - FOR ADDING TIMER AFFECT

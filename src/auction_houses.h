@@ -79,13 +79,13 @@ class EqClassFlag : public EqSortFlag {
 class EqTypeFlag : public EqSortFlag
 {
   public:
-	EqTypeFlag(const char *_keyword, const char *_desc, byte _type) :
+	EqTypeFlag(const char *_keyword, const char *_desc, uint8 _type) :
 		type(_type), EqSortFlag(_keyword, _desc)
 		{}
 
 	bool match(P_obj obj) { return (obj->type == type) ? true : false; }
 
-	byte type;
+	uint8 type;
 };
 
 class EqAffFlag : public EqSortFlag
@@ -174,7 +174,7 @@ class EqExtra2Flag : public EqSortFlag
 
 class EqApplyFlag : public EqSortFlag {
   public:
-	EqApplyFlag(const char *_keyword, const char *_desc, byte _apply) :
+	EqApplyFlag(const char *_keyword, const char *_desc, uint8 _apply) :
 		apply(_apply), EqSortFlag(_keyword, _desc)
 		{}
 
@@ -187,7 +187,7 @@ class EqApplyFlag : public EqSortFlag {
 	  return false;
 	}
 
-	byte apply;
+	uint8 apply;
 };
 
 class EqSort

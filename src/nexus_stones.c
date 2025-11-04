@@ -39,7 +39,7 @@ extern const char *apply_names[];
 sh_int *char_stat(P_char ch, int stat);
 
 #ifdef __NO_MYSQL__
-int init_nexus_stones()
+void init_nexus_stones()
 {
     // load nothing
 }
@@ -137,7 +137,7 @@ struct NexusBonusData {
 
 extern MYSQL* DB;
 
-int init_nexus_stones()
+void init_nexus_stones()
 {
   fprintf(stderr, "-- Booting nexus stones\r\n");
   
@@ -151,18 +151,18 @@ int init_nexus_stones()
   load_nexus_stones();
 }
 
-int load_nexus_stones()
+void load_nexus_stones()
 {
   // load nexus stones from DB
   if( !qry("SELECT id, name, room_vnum, align FROM nexus_stones") )
-    return FALSE;
+    return;
   
   MYSQL_RES *res = mysql_store_result(DB);
   
   if( mysql_num_rows(res) < 1 )
   {
     mysql_free_result(res);
-    return FALSE;
+    return;
   }
     
   MYSQL_ROW row;
@@ -179,8 +179,6 @@ int load_nexus_stones()
   mysql_free_result(res);
 
   update_nexus_stat_mods();
-  
-  return TRUE;
 }
 
 bool nexus_stone_info(int stone_id, NexusStoneInfo *info)

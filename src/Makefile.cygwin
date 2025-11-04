@@ -19,6 +19,7 @@ CFLAGS = -g
 #CFLAGS += -D__NO_MYSQL__
 CFLAGS += -D__CYGWIN_BUILD__
 CFLAGS += -DTEST_MUD
+CFLAGS += -Werror=return-type
 
 # to turn on/off chaos mud, change the flag at the top of db.h
 #CFLAGS += -DCHAOS_MUD=1

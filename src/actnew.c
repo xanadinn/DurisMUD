@@ -929,7 +929,7 @@ void do_flurry_of_blows(P_char ch, char *arg)
 
 void do_hitall(P_char ch, char *arg, int cmd)
 {
-  byte  percent;
+  uint8  percent;
   int count, hit_all;
   P_char   mob, next_mob;
   char  Gbuf2[MAX_STRING_LENGTH];
@@ -1077,7 +1077,7 @@ void do_hitall(P_char ch, char *arg, int cmd)
 void do_trap(P_char ch, char *arg, int cmd)
 {
   P_room   room;
-  byte     percent;
+  uint8     percent;
   P_char   monster.next_ch;
 
   /* Check to see if "ch" is allowed to lay a trap */
@@ -1265,7 +1265,7 @@ void do_subterfuge(P_char ch, char *arg, int cmd)
 {
   P_char   npc;                 /* Which NPC */
   char     name[MAX_INPUT_LENGTH];
-  byte     percent;
+  uint8     percent;
 
   if (ch->only.pc->skills[SKILL_SUBTERFUGE].learned == 0)
   {
@@ -1616,7 +1616,7 @@ P_char morph(P_char ch, int rnum, int mode)
   }
   if (IS_NPC(ch) || IS_MORPH(ch))
   {
-    return FALSE;
+    return nullptr;
   }
   if (mode == REAL)
     mob = read_mobile(rnum, REAL);
@@ -4492,8 +4492,9 @@ bool throw_potion(P_char ch, P_obj potion, P_char victim, P_obj obj)
   }
   else
     extract_obj(potion);
-}
 
+  return FALSE;
+}
 
 void do_throw_potion(P_char ch, char *argument, int cmd)
 {

@@ -3564,7 +3564,7 @@ void do_drandebug(P_char ch, char *arg, int cmd)
 int get_matstart(P_obj obj)
 {
   int matstart;
-  byte objmat;
+  uint8 objmat;
 
   if( !obj )
   {

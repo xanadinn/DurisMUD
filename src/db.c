@@ -3808,7 +3808,7 @@ void reset_zone(int zone, int force_item_repop)
 #undef ZCMD
 
 /* for use in reset_zone; return TRUE if zone 'nr' is free of PC's  */
-int is_empty(int zone_nr)
+int is_zone_empty(int zone_nr)
 {
   P_desc   i;
 

@@ -303,7 +303,7 @@ int get_weight_allies_in_room(P_char ch, int room_index)
   char buf[250];
   int      allies = 0;
   int	   weights = 0;
-  byte chrace;
+  uint8 chrace;
   
   int chweight = 0;
 

@@ -2021,7 +2021,7 @@ P_obj get_wall_dir(P_char ch, int dir)
        return tobj;
    }
  }
- return FALSE;
+ return nullptr;
 }
 
 /* to take cover when someone fire from above */

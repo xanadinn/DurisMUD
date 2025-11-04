@@ -138,7 +138,7 @@ void do_speak(P_char ch, char *argument, int cmd)
 void init_defaultlanguages(P_char ch)
 {
   int      a, b;
-  byte     c;
+  uint8     c;
 
   if (IS_NPC(ch))
     return;

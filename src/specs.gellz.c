@@ -682,6 +682,7 @@ int needcard(char whoscard, P_char ch)
 	     dealercards=5;}
          break;
     } //end Switch whoscard
+	return 0;
 } // end whichcard
 
 int do_win(P_char ch, int bettype, int betamt, int winloose)
@@ -710,6 +711,7 @@ int do_win(P_char ch, int bettype, int betamt, int winloose)
       (bettype==0)?"copper":(bettype==1)?"silver":(bettype==2)?"gold":(bettype==3)?"platinum":"unknown");
    // END TASKS FOR LOOSING 
    }
+   return 0;
 }
 
 //start get_card - whoscard1=player, 2=dealer
@@ -739,6 +741,7 @@ int get_card(char whoscard, int whatcard)
       {player_total=player_total+deck[tmpRandomCard].Value;}
    if (whoscard==2)
       {dealer_total=dealer_total+deck[tmpRandomCard].Value;}
+  return 0;
 }//end get card
 
 // Gellz Setup Deck
@@ -863,7 +866,8 @@ int showhand(P_obj obj, P_char ch, int cmd, char *argument, int whoscard)
     sprintf(buf, "&+mDealer is total is    &+Y-- &+r%d &+Y--&+y.\n\n", dealer_total);
     send_to_char(buf,ch);
   }
-} //end showhands
+  return 0;
+} // end showhands
 
 //GELLZ Card Game Mains End
 //*****************************************************************************

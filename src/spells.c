@@ -1296,7 +1296,7 @@ void cast_earthen_tomb(int level, P_char ch, char *arg, int type,
 struct grow_data
 {
   int      room;
-  byte     old_sect;
+  uint8     old_sect;
   ulong    flags;
   event_func_type func_bye;
   int      skill;

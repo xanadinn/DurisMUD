@@ -41,17 +41,13 @@ const int path[5] = {
 //Init function
 int init()
 {
-
-
-
+	return 0;
 }
-
 
 int startMoving(P_char ch)
 {
-
+	return 0;
 }
-
 
 int ai_mob_proc(P_char ch, P_char vict, int cmd, char *arg)
 {

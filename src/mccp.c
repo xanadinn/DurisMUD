@@ -16,10 +16,10 @@ extern long sentbytes;
 int      mccp_alloc = 0;
 int      mccp_free = 0;
 
-const char compress_on_str[] = { IAC, WILL, TELOPT_COMPRESS, '\0' };
-const char compress2_on_str[] = { IAC, WILL, TELOPT_COMPRESS2, '\0' };
-const char enable_compress[] = { IAC, SB, TELOPT_COMPRESS, WILL, SE, '\0' };
-const char enable_compress2[] = { IAC, SB, TELOPT_COMPRESS2, IAC, SE, '\0' };
+const char compress_on_str[] = { (char)IAC, (char)WILL, (char)TELOPT_COMPRESS, '\0' };
+const char compress2_on_str[] = { (char)IAC, (char)WILL, (char)TELOPT_COMPRESS2, '\0' };
+const char enable_compress[] = { (char)IAC, (char)SB, (char)TELOPT_COMPRESS, (char)WILL, (char)SE, '\0' };
+const char enable_compress2[] = { (char)IAC, (char)SB, (char)TELOPT_COMPRESS2, (char)IAC, (char)SE, '\0' };
 
 void    *zlib_alloc(void *opaque, unsigned int items, unsigned int size);
 void     zlib_free(void *opaque, void *address);

@@ -173,8 +173,8 @@ int sphinx_prefect_crown( P_obj obj, P_char ch, int cmd, char *arg )
     act("&+LYour legendary &+ycrown &+Lof the &+Ys&+yp&+Yh&+yi&+Yn&+yx &+Gp&+gr&+Ge&+gf&+Ge&+gc&+Gt&+gs &+Cglows &+Lwith an unearthly &+Wlight &+Land starts to &+mpulse &+Lgently in time to your &+rheartbeat&+L.&n",
       TRUE, obj->loc.wearing, obj, 0, TO_CHAR);
     obj->timer[1] = 1;
-    return FALSE;
   }
+  return FALSE;
 }
 
 int adjacent_room_nesw(P_char ch, int num_rooms )
@@ -370,6 +370,7 @@ int proc_soldon_hat( P_obj obj, P_char ch, int cmd, char *argument )
     apply_achievement(mob, TAG_CONJURED_PET);
   }
 
+  return FALSE;
 }
 
 // This is a proc to punish people who crash the mud.

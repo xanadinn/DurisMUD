@@ -54,7 +54,7 @@ class Building
         return RROOM_VOID;
       return real_room0(rooms[0]->number);
     }
-    int location() { real_room0(room_vnum); }
+    int location() { return real_room0(room_vnum); }
     int get_id() { return id; }
     int size() { return rooms.size(); }
     P_room get_room( int room_num ) { return &(*rooms[room_num]); }

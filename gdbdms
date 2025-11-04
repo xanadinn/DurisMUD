@@ -14,4 +14,4 @@ ulimit -c unlimited
   nm --demangle dms | grep " T " | sed -e 's/[(].*//g' > lib/misc/event_names
 
   echo "Starting duris test enviornment..."
-  gdb -ex "run ${PORT}" dms
+  gdb --eval-command="handle SIGPIPE nostop noprint pass" -ex "run ${PORT}" dms

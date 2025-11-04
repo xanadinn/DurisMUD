@@ -870,7 +870,7 @@ void do_society(P_char member, char *argument, int cmd)
   char     sign;
   P_char   victim;
   time_t   temp_time;
-  byte     temp_nb;
+  uint8     temp_nb;
   char    *timestr;
   char     time_left[128];
   // old guildhalls (deprecated)

@@ -2581,7 +2581,7 @@ void do_carve(struct char_data *ch, char *argument, int cmd)
   char     part[MAX_STRING_LENGTH];
   char     buf[MAX_STRING_LENGTH];
   char    *dscp;
-  byte     percent;
+  uint8     percent;
   int      i, which, piece, none;
 
 #if 0
@@ -2922,7 +2922,7 @@ void do_unbind(P_char ch, char *arg, int cmd)
 {
   char     name[MAX_INPUT_LENGTH];
   P_char   t_char = NULL;
-  byte     percent;
+  uint8     percent;
 
   if (!*arg)
   {

@@ -1938,7 +1938,7 @@ void do_circle(P_char ch, char *argument, int cmd)
 {
   P_char   victim;
   P_obj    weapon, first_w, second_w;
-  byte     percent_chance;
+  uint8     percent_chance;
   int   dam;
   struct affected_type af, *af_ptr;
   struct damage_messages eng_messages = {
@@ -3952,7 +3952,7 @@ bool roundkick(P_char ch, P_char victim)
     set_fighting(ch, victim);
   }
 #endif
-
+  return FALSE;
 }
 
 void do_roundkick(P_char ch, char *argument, int cmd)

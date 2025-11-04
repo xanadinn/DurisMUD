@@ -1207,8 +1207,8 @@ bool trident_charm(P_char ch, P_char victim)
     remember(victim, ch);
     if (!IS_FIGHTING(victim))
       MobStartFight(victim, ch);
-    return FALSE;
   }
+  return FALSE;
 }
 
 int undead_trident(P_obj obj, P_char ch, int cmd, char *arg)

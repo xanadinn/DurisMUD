@@ -1654,7 +1654,7 @@ void boot_the_shops(void)
       CREATE(shop_index[number_of_shops].type, shop_buy_data, (unsigned) temp, MEM_TAG_SHOPBUY);
       for( count = 0; count < temp; count++ )
       {
-        SHOP_BUYTYPE(number_of_shops, count) = (byte) BUY_TYPE(list[count]);
+        SHOP_BUYTYPE(number_of_shops, count) = (uint8) BUY_TYPE(list[count]);
         SHOP_BUYWORD(number_of_shops, count) = BUY_WORD(list[count]);
       }
       shop_index[number_of_shops].number_types_traded = count;

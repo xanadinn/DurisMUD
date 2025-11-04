@@ -143,7 +143,7 @@ void SPEC_SKILL_ADD(int Class, int Level, int MaxLearn, int Spec)
     MaxLearn = -1;
   }
 
-  skills[numSkills].m_class[(int) (flag2idx(Class) - 1)].rlevel[Spec] = (byte) (Level);
+  skills[numSkills].m_class[(int) (flag2idx(Class) - 1)].rlevel[Spec] = (uint8) (Level);
   skills[numSkills].m_class[(int) (flag2idx(Class) - 1)].maxlearn[Spec] = (ubyte) (MaxLearn);
 }
 
@@ -152,7 +152,7 @@ void SKILL_ADD(int Class, int Level, int MaxLearn)
   for( int i = 0; i < MAX_SPEC+1; i++ )
   {
     skills[numSkills].m_class[(int) (flag2idx(Class) - 1)].rlevel[i] =
-      (byte) (Level);
+      (uint8) (Level);
     skills[numSkills].m_class[(int) (flag2idx(Class) - 1)].maxlearn[i] =
       (ubyte) (MaxLearn);
   }
@@ -172,7 +172,7 @@ void SPELL_CREATE2(const char *Name, int Index, int Beats,
 void SPEC_SPELL_ADD(int Class, int Level, int Spec)
 {
   skills[numSkills].m_class[(int) (flag2idx(Class) - 1)].rlevel[Spec] =
-    (byte) (Level);
+    (uint8) (Level);
   skills[numSkills].m_class[(int) (flag2idx(Class) - 1)].maxlearn[Spec] = 100;
 }
 
@@ -180,7 +180,7 @@ void SPELL_ADD(int Class, int Level)
 {
   for( int i = 0; i < MAX_SPEC+1; i++ ) {
     skills[numSkills].m_class[(int) (flag2idx(Class) - 1)].rlevel[i] =
-      (byte) (Level);
+      (uint8) (Level);
     skills[numSkills].m_class[(int) (flag2idx(Class) - 1)].maxlearn[i] = 100;
   }
 }

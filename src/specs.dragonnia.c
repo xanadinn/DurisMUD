@@ -69,7 +69,7 @@ void do_mobdisarm(P_char ch, char *argument, int cmd)
   P_char   victim;
   P_obj    obj;
   char     name[MAX_INPUT_LENGTH];
-  byte     percent;
+  uint8     percent;
 
   if (!SanityCheck(ch, "do_mobdisarm"))
     return;

@@ -50,7 +50,7 @@ extern struct str_app_type str_app[];
 extern struct zone_data *zone_table;
 extern int top_of_zone_table;
 extern P_index mob_index;
-extern const int new_exp_table[];
+extern int new_exp_table[];
 
 extern void obj_affect_remove(P_obj, struct obj_affect *);
 extern bool has_eq_slot( P_char ch, int wear_slot );
@@ -3724,8 +3724,8 @@ int remove_and_wear(P_char ch, P_obj obj_object, int position, int keyword, int 
   else
   {
     execute_wear(ch, obj_object, position, keyword, showit);
-    return TRUE;
   }
+  return TRUE;
 }
 
 /*

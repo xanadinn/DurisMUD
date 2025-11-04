@@ -43,6 +43,44 @@ CREATE TABLE `artifact_bind` (
 SET character_set_client = @saved_cs_client;
 
 --
+-- Table structure for table `artifacts`
+--
+
+DROP TABLE IF EXISTS `artifacts`;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8;
+CREATE TABLE `artifacts` (
+  `vnum` int(11) NOT NULL,
+  `owned` varchar(10) default 'N',
+  `locType` enum( 'NotInGame', 'OnNPC', 'OnPC', 'OnGround', 'OnCorpse' ) default 'NotInGame',
+  `location` int(11) default NULL,
+  `timer` datetime default NULL,
+  `type` int(11) default NULL,
+  `lastUpdate` datetime default NULL,
+  PRIMARY KEY  (`vnum`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Table structure for table `artifacts_mortal`
+--
+
+DROP TABLE IF EXISTS `artifacts_mortal`;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8;
+CREATE TABLE `artifacts_mortal` (
+  `vnum` int(11) NOT NULL,
+  `owned` varchar(10) default 'N',
+  `locType` enum( 'NotInGame', 'OnNPC', 'OnPC', 'OnGround', 'OnCorpse' ) default 'NotInGame',
+  `location` int(11) default NULL,
+  `timer` datetime default NULL,
+  `type` int(11) default NULL,
+  `lastUpdate` datetime default NULL,
+  PRIMARY KEY  (`vnum`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+SET character_set_client = @saved_cs_client;
+
+--
 -- Table structure for table `associations`
 --
 
@@ -391,8 +429,9 @@ SET character_set_client = utf8;
 CREATE TABLE `ip_info` (
   `pid` bigint(20) NOT NULL default '0',
   `last_ip` varchar(50) NOT NULL default 'none',
-  `last_connect` datetime NOT NULL default '0000-00-00 00:00:00',
-  `last_disconnect` datetime NOT NULL default '0000-00-00 00:00:00',
+  `last_connect` timestamp NOT NULL default CURRENT_TIMESTAMP,
+  `last_disconnect` timestamp NOT NULL default CURRENT_TIMESTAMP,
+  `racewar_side` int(11) NOT NULL default 0,
   PRIMARY KEY  (`pid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 SET character_set_client = @saved_cs_client;
@@ -411,6 +450,23 @@ CREATE TABLE `items` (
   `num_sold` int(11) NOT NULL default '0',
   `avg_sell_price` int(11) NOT NULL default '0',
   PRIMARY KEY  (`vnum`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Table structure for table `level_cap`
+--
+
+DROP TABLE IF EXISTS `level_cap`;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8;
+CREATE TABLE `level_cap` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `most_frags` float NOT NULL,
+  `racewar_leader` int(11) NOT NULL,
+  `level` int(11) NOT NULL,
+  `next_update` datetime NOT NULL,
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 SET character_set_client = @saved_cs_client;
 

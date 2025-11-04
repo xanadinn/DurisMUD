@@ -8,9 +8,9 @@ struct char_special_data {
   ulong affected_by4;
   ulong affected_by5;
 
-  byte x_cord;                  /* Sub-coordinate of large room            */
-  byte y_cord;
-  byte z_cord;                  /* hieght for flyers                       */
+  uint8 x_cord;                  /* Sub-coordinate of large room            */
+  uint8 y_cord;
+  uint8 z_cord;                  /* hieght for flyers                       */
   int death_exp;
 
   ubyte position;               /* posture and status                      */
@@ -27,10 +27,10 @@ struct char_special_data {
   int carry_weight;             /* Carried weight                          */
   ush_int carry_items;          /* Number of items carried                 */
   int was_in_room;              /* previous room char was in               */
-  byte apply_saving_throw[5];   /* Saving throw (Bonuses)                  */
-  byte conditions[5];           /* Drunk full etc.                         */
-  byte disease_type[5];
-  byte disease_dura[5];
+  uint8 apply_saving_throw[5];   /* Saving throw (Bonuses)                  */
+  uint8 conditions[5];           /* Drunk full etc.                         */
+  uint8 disease_type[5];
+  uint8 disease_dura[5];
   sh_int alignment;             /* +-1000 for alignments                   */
   sh_int orig_align;            /* true neutral races - align at creation  */
   int tracking;   /* room you are tracking to*/
@@ -74,8 +74,8 @@ struct shadow_data {
 
 struct shadower_data {
   P_char shadower;
-  byte dir_last_move;
-  byte num_of_moves;
+  uint8 dir_last_move;
+  uint8 num_of_moves;
   struct shadower_data *next;
 };
 

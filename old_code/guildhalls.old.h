@@ -82,7 +82,7 @@ struct house_control_rec {
    time_t built_on;     /* date this house was built  */
    sh_int mode;         /* mode of ownership    */
    sh_int type;         /* castle, guild, house    */
-   byte construction;           /* check if its in construction */
+   uint8 construction;           /* check if its in construction */
    char *owner;         /* name of house's owner   */
    int owner_guild;             /* owners guild # (if any)      */
    int num_of_guests;      /* how many guests for house  */

@@ -1968,6 +1968,7 @@ int calculate_shipfrags(P_char ch)
       SHIPTYPE_NAME(SHIP_CLASS(shipfrags[i].ship)),
       shipfrags[i].ship->frags);*/
   }
+  return 0;
 }
 
 bool calmcheck(P_char ch)
@@ -2796,4 +2797,5 @@ bool add_epiccount(P_char ch, int gain)
       }
     }
   }
+  return FALSE;
 }
