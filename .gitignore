@@ -7,6 +7,7 @@
 /build
 /gmon.out
 /areas/de/src/cscope.out
+/areas/de/src/*
 cscope.out
 *.o
 *.backup
@@ -20,3 +21,4 @@ lib/etc/vote.undead
 lib/etc/vote.miniwipe
 lib/ban_sites
 Ships/ship_index
+/.vscode
