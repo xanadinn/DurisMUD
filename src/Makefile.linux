@@ -50,6 +50,7 @@ OPT_OBJS	= graph.o mm.o
 OBJS	=  \
 				 magic.o \
 				 achievements.o \
+				 account.o \
 				 actcomm.o \
 				 actinf.o \
 				 actmove.o \

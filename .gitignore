@@ -21,3 +21,6 @@ lib/etc/vote.miniwipe
 lib/ban_sites
 Ships/ship_index
 arih/
+Accounts/email.db
+Accounts/*/*
+!Accounts/*/.gitkeep

@@ -6461,6 +6461,10 @@ void nanny(P_desc d, char *arg)
     account_select_char(d, arg);
     break;
 
+  case CON_ACCT_CONFIRM_CHAR:
+    account_confirm_char(d, arg);
+    break;
+
   case CON_ACCT_NEW_CHAR:
     account_new_char(d, arg);
     break;

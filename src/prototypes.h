@@ -65,6 +65,7 @@ void get_new_account_password(P_desc, char *);
 void verify_new_account_password(P_desc, char *);
 void verify_new_account_information(P_desc, char *);
 void account_select_char(P_desc, char *);
+void account_confirm_char(P_desc, char *);
 void account_new_char(P_desc, char *);
 void account_delete_char(P_desc, char *);
 void account_display_info(P_desc, char *);
@@ -95,6 +96,8 @@ void account_new_char_name(P_desc, char *);
 void display_character_list(P_desc);
 void add_char_to_account(P_desc);
 void remove_char_from_list(P_acct, char *);
+int write_account(P_acct);
+int read_account(P_acct);
 
 /* actcomm.c */
 

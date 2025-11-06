@@ -6,11 +6,13 @@
 
 #include "structs.h"
 
-//#define USE_ACCOUNT
+#define USE_ACCOUNT
 
 #define ACCT_IMMORTAL	0
 #define ACCT_GOOD	1
 #define	ACCT_EVIL	2
+
+#define MAX_CHARS_PER_ACCOUNT 8
 
 
 struct acct_ip { // Account IP Information

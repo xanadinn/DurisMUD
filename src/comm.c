@@ -1900,10 +1900,7 @@ int new_descriptor(int s)
 
   newd->term_type = TERM_ANSI;
   select_terminal(newd, "");
-  STATE(newd) = CON_NAME;
-  SEND_TO_Q
-    ("By what name do you wish to be known? Type 'generate' to generate names.",
-     newd);
+  // Prompt will be sent by nanny.c after select_terminal completes
 
 
 
@@ -2252,7 +2249,11 @@ int process_output(P_desc t)
       return (-1);
     }
   }
-  if( realChar && IS_ANSI_TERM(t) && GET_LEVEL(t->character) >= 1 && (STATE(t) != CON_TEXTED) )
+//  if( realChar && IS_ANSI_TERM(t) && GET_LEVEL(
+ // t->character) >= 1 && (STATE(t) != CON_TEXTED) )   arih: why remove color? its ugly!
+
+  if( IS_ANSI_TERM(t) && (STATE(t) != CON_TEXTED) &&
+      (!realChar || GET_LEVEL(t->character) >= 1) )
   {
     flg = TRUE;
   }

@@ -1588,8 +1588,9 @@ struct txt_q {
 #define CON_NEWBIE                  82
 #define CON_SWAPSTATYN              83
 #define CON_SWAPSTAT                84
+#define CON_ACCT_CONFIRM_CHAR       85
 
-#define TOTAL_CON 85
+#define TOTAL_CON 86
 
 /* modes of confirmation- SAM 7-94 */
 #define CONFIRM_NONE    0
@@ -1640,6 +1641,7 @@ struct descriptor_data {
   byte term_type;               /* terminal type, normal or ansi */
   char last_command[MAX_INPUT_LENGTH];
   P_acct account;
+  char *selected_char_name;     /* temporary storage for character selection confirmation */
   /* SAM 7-94, used to allow confirming commands */
   char old_pwd[40];             /* old password held here when
                                    changing SAM 7-94 */
