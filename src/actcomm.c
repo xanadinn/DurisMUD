@@ -298,7 +298,7 @@ void do_petition(P_char ch, char *argument, int cmd)
     snprintf(Gbuf2, MAX_STRING_LENGTH, "&+r%s petitions '%s'&N", GET_NAME(ch), argument);
 
     for(i = descriptor_list; i; i = i->next)
-      if(!i->connected && !is_silent(i->character, FALSE) &&
+      if(!i->connected &&
           (i->character != ch) &&
           IS_SET(i->character->specials.act, PLR_PETITION) &&
           IS_TRUSTED(i->character))
@@ -596,9 +596,8 @@ void do_gcc(P_char ch, char *argument, int cmd)
         continue;
       }
 
-      // Skip ch, ppl at menu/char creation/etc, and deaf ppl.
-      if( to_ch == ch || i->connected != CON_PLAYING || is_silent( to_ch, FALSE )
-        || IS_AFFECTED4(i->character, AFF4_DEAF) )
+      // Skip ch, ppl at menu/char creation/etc.
+      if( to_ch == ch || i->connected != CON_PLAYING )
       {
         continue;
       }
@@ -647,9 +646,9 @@ void send_to_guild( P_Guild guild, char *name, char *arg)
   for( i = descriptor_list; i; i = i->next )
   {
     // If we're not at menu, nor in silent room nor have gcc off
-    if( !i->connected && !is_silent(i->character, FALSE) && IS_SET(i->character->specials.act, PLR_GCC)
+    if( !i->connected && IS_SET(i->character->specials.act, PLR_GCC)
       && IS_MEMBER(GET_A_BITS(i->character)) && (GET_ASSOC(i->character) == guild)
-      && (!(IS_AFFECTED4(i->character, AFF4_DEAF))) && (GT_PAROLE(GET_A_BITS(i->character))))
+      && (GT_PAROLE(GET_A_BITS(i->character))))
     {
       snprintf(Gbuf1, MAX_STRING_LENGTH, "&+c%s&n&+c tells your guild '&+C%s&n&+c'\r\n", name, arg);
       send_to_char(Gbuf1, i->character, LOG_PRIVATE);

@@ -316,7 +316,7 @@ void send_to_alliance(char *str, P_Alliance alliance )
 
   for( P_desc td = descriptor_list; td; td = td->next )
   {
-    if( (td->connected == CON_PLAYING) && !is_silent(td->character, FALSE) && IS_MEMBER(GET_A_BITS(td->character))
+    if( (td->connected == CON_PLAYING) && IS_MEMBER(GET_A_BITS(td->character))
       && ( GET_ASSOC(td->character) == forgers || GET_ASSOC(td->character) == joiners ) )
     {
       send_to_char(str, td->character, LOG_PRIVATE);
@@ -394,8 +394,7 @@ void do_acc(P_char ch, char *argument, int cmd)
       }
 
       // Skip ch, ppl at menu/char creation/etc, and deaf ppl.
-      if( to_ch == ch || i->connected != CON_PLAYING || is_silent( to_ch, FALSE )
-        || IS_AFFECTED4(i->character, AFF4_DEAF) )
+      if( to_ch == ch || i->connected != CON_PLAYING )
       {
         continue;
       }
