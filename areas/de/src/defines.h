@@ -1,1 +1,1 @@
-/home/lohrr/mud/src/defines.h
+../../../src/defines.h

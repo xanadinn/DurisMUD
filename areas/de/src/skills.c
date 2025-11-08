@@ -1,1 +1,1 @@
-/home/lohrr/mud/src/skills.c
+../../../src/skills.c

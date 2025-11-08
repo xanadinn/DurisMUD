@@ -1,1 +1,1 @@
-/home/lohrr/mud/src/objmisc.h
+../../../src/objmisc.h

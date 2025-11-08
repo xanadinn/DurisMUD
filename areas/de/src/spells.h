@@ -1,1 +1,1 @@
-/home/lohrr/mud/src/spells.h
+../../../src/spells.h

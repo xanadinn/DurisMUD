@@ -1,1 +1,1 @@
-/home/lohrr/mud/src/common.c
+../../../src/common.c
