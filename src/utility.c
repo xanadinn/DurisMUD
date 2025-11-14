@@ -4644,8 +4644,14 @@ ClassSkillInfo SKILL_DATA_ALL(P_char ch, int skill)
 
     dummy = *highestClassEntry;
   }
+  else if (pri_class >= 0 && pri_class < CLASS_COUNT)
+  {
+    dummy = SKILL_DATA(ch, skill);
+  }
   else
   {
+    printf("Invalid m_class %x for %s\n", ch->player.m_class, J_NAME(ch));
+    ch->player.m_class = 1; // warrior
     dummy = SKILL_DATA(ch, skill);
   }
 
